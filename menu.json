@@ -1,0 +1,237 @@
+{
+  "generatedAt": "20. ágúst 2026",
+  "places": [
+    {
+      "name": "Róót",
+      "url": "https://rootbistro.is/matsedill",
+      "week": "",
+      "days": [
+        {
+          "day": "Mánudagur",
+          "dishes": [
+            {
+              "name": "Marokkósk linsubaunasúpa",
+              "desc": "Þykk linsubaunasúpa með tómötum, broddkúmen, kóríander og sítrónu."
+            },
+            {
+              "name": "Nautakjötsbollur Rogan Josh",
+              "desc": "Kryddaðar nautakjötbollur í Rogan Josh tómatsósu og ferskum kryddjurtum."
+            },
+            {
+              "name": "Steinbítur að hætti Miðjarðarhafsins",
+              "desc": "Ofnbakaður steinbítur með tómötum, ólífutapenade, oregano og ristuðu smælki."
+            },
+            {
+              "name": "Gochujang-blómkál",
+              "desc": "Ristað blómkál í gochujang-gljáa með edame baunum og sesamdressingu."
+            },
+            {
+              "name": "Spergilkálsalat",
+              "desc": "Spergilkál með ferskum kryddjurtum, sólblómafræjum og sítrónudressingu."
+            }
+          ]
+        },
+        {
+          "day": "Þriðjudagur",
+          "dishes": [
+            {
+              "name": "Blómkáls- og kartöflusúpa",
+              "desc": "Ristað blómkál og kartöflur með hvítlauk, timían og stökkum fræjum."
+            },
+            {
+              "name": "Kjúklingur parmesan",
+              "desc": "Stökkur parmesan-kjúklingur með arrabbiata tómatsósu, tagliatelle og ferskri basilíku."
+            },
+            {
+              "name": "Ristaðar gulrætur og quinoa",
+              "desc": "Kryddristaðar gulrætur með quinoa, graskersfræjum, ferskum kryddjurtum og sítrónu tahini."
+            },
+            {
+              "name": "Tómatsalat",
+              "desc": "Kirsuberjatómatar með rauðlauk, ferskum kryddjurtum og kryddaðri ólífuolíu."
+            }
+          ]
+        },
+        {
+          "day": "Miðvikudagur",
+          "dishes": [
+            {
+              "name": "Græn karrýsúpa",
+              "desc": "Ilmandi kókossúpa með grænu karrý, grænmeti, lime og fersku kóríander."
+            },
+            {
+              "name": "Lamb Rendang",
+              "desc": "Hægeldað lambakjöt í kryddmikilli kókos- og engifersósu með naan brauði og fersku kóríander."
+            },
+            {
+              "name": "Þorskur með gremolata",
+              "desc": "Ristaður þorskur með sítrónu- og kryddjurtagremolata og kókos- og limekartöflum"
+            },
+            {
+              "name": "Tandoori tofu",
+              "desc": "Tandoori kryddað tofu með ristuðum kjúklingabaunum og karrýdressingu."
+            },
+            {
+              "name": "Byggsalat",
+              "desc": "Perlubygg með ristuðu grænmeti, kryddjurtum og sinnepsvinagrette."
+            }
+          ]
+        },
+        {
+          "day": "Fimmtudagur",
+          "dishes": [
+            {
+              "name": "Graskers og eplasúpa",
+              "desc": "Ristað grasker og epli með engifer og kókosmjólk."
+            },
+            {
+              "name": "Fajitas kjúklingur",
+              "desc": "Fajitas-kryddaður kjúklingur með papriku, lauk, guacamole, sýrðum rjóma, krydduðum hrísgrjónum og fersku lime."
+            },
+            {
+              "name": "Sveppa og bygg shawarma",
+              "desc": "Shawarma kryddaðir sveppir og perlubygg með hummus, pikkluðum rauðlauk og ferskum kryddjurtum."
+            },
+            {
+              "name": "Pastasalat",
+              "desc": "Pasta með grænmeti, ferskum kryddjurtum og sítrónuvinaigrette."
+            }
+          ]
+        },
+        {
+          "day": "Föstudagur",
+          "dishes": [
+            {
+              "name": "Grænertusúpa",
+              "desc": "Grænar ertur, spínat og ferskar kryddjurtir með sítrónu og ólífuolíu."
+            },
+            {
+              "name": "Char-Siu grís",
+              "desc": "Char-Siu gljáð grísakjöt með engifer, hvítlauk og fimm krydda blöndu, borið fram með hrísgrjónum, agúrkusalati"
+            },
+            {
+              "name": "Graskersrisotto",
+              "desc": "Kremað risotto með ristuðu graskeri, blaðlauk og pekanhnetum."
+            },
+            {
+              "name": "Núðlusalat",
+              "desc": "Núðlur með stökku grænmeti, ferskum kryddjurtum og lime engiferdressingu."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Makona",
+      "url": "https://makona.is/lunch",
+      "week": "ágúst 17 - 21",
+      "days": [
+        {
+          "day": "Mánudagur",
+          "dishes": [
+            {
+              "name": "Rjómalöguð sveppasúpa",
+              "desc": "með sætri papriku (D) (G)"
+            },
+            {
+              "name": "Tandoori lax",
+              "desc": "með gúrku- jógúrt dressingu og gufusoðnum hrísgrjónum (D)"
+            },
+            {
+              "name": "Kjúklinga spínat rigatoni",
+              "desc": "með steiktum hvítlauk, sólþurrkuðum tómötum og parmesan (D) (G)"
+            },
+            {
+              "name": "Vegan kókos og hrísgrjóna skál",
+              "desc": "með kókos hrísgrjónum, gljáðu tofu, grænu grænmeti og ristuðum kókosflögum (S)"
+            }
+          ]
+        },
+        {
+          "day": "Þriðjudagur",
+          "dishes": [
+            {
+              "name": "Rjómalöguð blómkáls og sellerý súpa",
+              "desc": "með karrý olíu, eplum og ristuðum hesilhnetum (D) (Hn)"
+            },
+            {
+              "name": "Steikt nauta brisket",
+              "desc": "með hunangs, sinneps og ferskju gljáa ásamt kartöflubátum með beikon, parmesan og sýrðum rjóma (D)"
+            },
+            {
+              "name": "Spagetti bolognaise",
+              "desc": "með nautahakki parmesanosti, kotasælu og hvítlauksbrauði (D) (G)"
+            },
+            {
+              "name": "Grillað vegan panini",
+              "desc": "með ristaðri papriku, spínati, sveppi og hummus (G)"
+            }
+          ]
+        },
+        {
+          "day": "Miðvikudagur",
+          "dishes": [
+            {
+              "name": "Tómat- og rauð papriku súpa",
+              "desc": "með basil olíu og parmesan focaccia (D) (G)"
+            },
+            {
+              "name": "Marokkó krydduð kjúklingabringa",
+              "desc": "með couscous með trönuberjum og kryddum og sítrónu-jógúrt dressingu (D) (G)"
+            },
+            {
+              "name": "Fimm krydda svínakjöt",
+              "desc": "með sviðnum ananas, stökku grænmeti og eggja hrísgrjónum (E)"
+            },
+            {
+              "name": "Linsubauna og valhnetu sveitabaka",
+              "desc": "með sætri kartöflumús og timian sósu (S) (Hn)"
+            }
+          ]
+        },
+        {
+          "day": "Fimmtudagur",
+          "dishes": [
+            {
+              "name": "Íslensk kjötsúpa",
+              "desc": ""
+            },
+            {
+              "name": "Miso gljáður saltaður þorskur",
+              "desc": "með sesam salati, shitake sveppum og sætri kartöflumús (S) (G)"
+            },
+            {
+              "name": "Kjúlinga schnitzel",
+              "desc": "með heitu kartöflusalati og graslaukur með sítrónu, kapers og smjöri (D) (G) (E)"
+            },
+            {
+              "name": "Tandoori blómkáls steik",
+              "desc": "með mangó chutney, krydduðum kartöflubátum með reyktu mæjónesi"
+            }
+          ]
+        },
+        {
+          "day": "Föstudagur",
+          "dishes": [
+            {
+              "name": "Víetnömsk kjúklinga súpa",
+              "desc": "með engifer, lime, hrísgrjóna núðlum og vorlauk (S)"
+            },
+            {
+              "name": "Kóreskt nauta bulogi",
+              "desc": "með gufusoðnum hrísgrónum, sveppum, vorlauk, pikkluðu chili og gochujang sósa (S) (G)"
+            },
+            {
+              "name": "Rjómalagað chorizo og maís penne pasta",
+              "desc": "með ristuaðri papriku, maís og papriku rjómasósa með spínati (D) (G)"
+            },
+            {
+              "name": "Reyktur rauðrófu borgari með svörtum baunum",
+              "desc": "með avókadó, súrum gúrkum og frönskum með rósmarín salti (G)"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

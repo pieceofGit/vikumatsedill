@@ -1,0 +1,110 @@
+<title>Vikumatseðill</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Familjen+Grotesk:wght@500;700&family=IBM+Plex+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+:root{
+  --bg:#e8ecea; --surface:#fbfcfb; --ink:#0f1614; --muted:#586662;
+  --line:#ccd6d2; --accent:#0f5c4a; --accent-soft:#dbe8e3;
+}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --bg:#0c1211; --surface:#141c19; --ink:#e5ece9; --muted:#8b9d97;
+  --line:#25322e; --accent:#5fd6ab; --accent-soft:#1a2a25;
+}}
+:root[data-theme="dark"]{
+  --bg:#0c1211; --surface:#141c19; --ink:#e5ece9; --muted:#8b9d97;
+  --line:#25322e; --accent:#5fd6ab; --accent-soft:#1a2a25;
+}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);
+  font-family:"IBM Plex Sans",ui-sans-serif,system-ui,sans-serif;line-height:1.5;
+  font-variant-numeric:tabular-nums}
+.wrap{max-width:1400px;margin:0 auto;padding:clamp(1.25rem,3vw,2.75rem) clamp(1rem,2.5vw,2rem) 3.5rem;
+  display:flex;flex-direction:column;gap:1.75rem}
+.masthead{display:flex;flex-wrap:wrap;align-items:flex-end;gap:.75rem 1.5rem;
+  border-bottom:1px solid var(--line);padding-bottom:1rem}
+h1{font-family:"Familjen Grotesk",ui-sans-serif,sans-serif;font-weight:700;
+  font-size:clamp(1.9rem,4.5vw,2.9rem);letter-spacing:-.03em;margin:0;text-wrap:balance}
+.masthead .week{font-family:"Familjen Grotesk",sans-serif;color:var(--accent);
+  font-size:.8rem;letter-spacing:.18em;text-transform:uppercase}
+.masthead .stamp{margin-left:auto;color:var(--muted);font-size:.8rem}
+.board{display:grid;gap:1rem;grid-template-columns:repeat(5,minmax(0,1fr))}
+.col{display:flex;flex-direction:column;gap:.75rem;min-width:0}
+.col__day{font-family:"Familjen Grotesk",sans-serif;font-weight:500;font-size:.78rem;
+  letter-spacing:.16em;text-transform:uppercase;color:var(--muted);
+  border-bottom:2px solid var(--accent);padding-bottom:.4rem}
+.col.today .col__day{color:var(--accent)}
+.cell{background:var(--surface);border:1px solid var(--line);border-radius:4px;
+  padding:.9rem;display:flex;flex-direction:column;gap:.7rem;min-width:0;flex:1}
+.cell__place{font-family:"Familjen Grotesk",sans-serif;font-weight:700;font-size:.72rem;
+  letter-spacing:.14em;text-transform:uppercase;color:var(--accent);
+  background:var(--accent-soft);align-self:flex-start;padding:.2rem .45rem;border-radius:3px}
+.cell ul{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:.65rem}
+.cell li{display:flex;flex-direction:column;gap:.1rem;overflow-wrap:anywhere}
+.dish{font-weight:600;font-size:.92rem}
+.desc{color:var(--muted);font-size:.8rem;line-height:1.4}
+.sources{display:flex;flex-wrap:wrap;gap:1rem;border-top:1px solid var(--line);
+  padding-top:1rem;color:var(--muted);font-size:.8rem}
+.sources a{color:var(--accent)}
+a:focus-visible{outline:2px solid var(--accent);outline-offset:3px}
+@media (max-width:900px){.board{grid-template-columns:1fr}
+  .col__day{position:sticky;top:0;background:var(--bg);z-index:1}}
+</style>
+<div class="wrap">
+  <header class="masthead">
+    <h1>Vikumatseðill</h1>
+    <span class="week">ágúst 17 - 21</span>
+    <span class="stamp">Uppfært 20. ágúst 2026</span>
+  </header>
+  <div class="board">
+    <section class="col">
+      <h2 class="col__day">Mánudagur</h2>
+      <div class="cell">
+      <span class="cell__place">Róót</span>
+      <ul><li><span class="dish">Marokkósk linsubaunasúpa</span><span class="desc">Þykk linsubaunasúpa með tómötum, broddkúmen, kóríander og sítrónu.</span></li><li><span class="dish">Nautakjötsbollur Rogan Josh</span><span class="desc">Kryddaðar nautakjötbollur í Rogan Josh tómatsósu og ferskum kryddjurtum.</span></li><li><span class="dish">Steinbítur að hætti Miðjarðarhafsins</span><span class="desc">Ofnbakaður steinbítur með tómötum, ólífutapenade, oregano og ristuðu smælki.</span></li><li><span class="dish">Gochujang-blómkál</span><span class="desc">Ristað blómkál í gochujang-gljáa með edame baunum og sesamdressingu.</span></li><li><span class="dish">Spergilkálsalat</span><span class="desc">Spergilkál með ferskum kryddjurtum, sólblómafræjum og sítrónudressingu.</span></li></ul>
+    </div><div class="cell">
+      <span class="cell__place">Makona</span>
+      <ul><li><span class="dish">Rjómalöguð sveppasúpa</span><span class="desc">með sætri papriku (D) (G)</span></li><li><span class="dish">Tandoori lax</span><span class="desc">með gúrku- jógúrt dressingu og gufusoðnum hrísgrjónum (D)</span></li><li><span class="dish">Kjúklinga spínat rigatoni</span><span class="desc">með steiktum hvítlauk, sólþurrkuðum tómötum og parmesan (D) (G)</span></li><li><span class="dish">Vegan kókos og hrísgrjóna skál</span><span class="desc">með kókos hrísgrjónum, gljáðu tofu, grænu grænmeti og ristuðum kókosflögum (S)</span></li></ul>
+    </div>
+    </section><section class="col">
+      <h2 class="col__day">Þriðjudagur</h2>
+      <div class="cell">
+      <span class="cell__place">Róót</span>
+      <ul><li><span class="dish">Blómkáls- og kartöflusúpa</span><span class="desc">Ristað blómkál og kartöflur með hvítlauk, timían og stökkum fræjum.</span></li><li><span class="dish">Kjúklingur parmesan</span><span class="desc">Stökkur parmesan-kjúklingur með arrabbiata tómatsósu, tagliatelle og ferskri basilíku.</span></li><li><span class="dish">Ristaðar gulrætur og quinoa</span><span class="desc">Kryddristaðar gulrætur með quinoa, graskersfræjum, ferskum kryddjurtum og sítrónu tahini.</span></li><li><span class="dish">Tómatsalat</span><span class="desc">Kirsuberjatómatar með rauðlauk, ferskum kryddjurtum og kryddaðri ólífuolíu.</span></li></ul>
+    </div><div class="cell">
+      <span class="cell__place">Makona</span>
+      <ul><li><span class="dish">Rjómalöguð blómkáls og sellerý súpa</span><span class="desc">með karrý olíu, eplum og ristuðum hesilhnetum (D) (Hn)</span></li><li><span class="dish">Steikt nauta brisket</span><span class="desc">með hunangs, sinneps og ferskju gljáa ásamt kartöflubátum með beikon, parmesan og sýrðum rjóma (D)</span></li><li><span class="dish">Spagetti bolognaise</span><span class="desc">með nautahakki parmesanosti, kotasælu og hvítlauksbrauði (D) (G)</span></li><li><span class="dish">Grillað vegan panini</span><span class="desc">með ristaðri papriku, spínati, sveppi og hummus (G)</span></li></ul>
+    </div>
+    </section><section class="col">
+      <h2 class="col__day">Miðvikudagur</h2>
+      <div class="cell">
+      <span class="cell__place">Róót</span>
+      <ul><li><span class="dish">Græn karrýsúpa</span><span class="desc">Ilmandi kókossúpa með grænu karrý, grænmeti, lime og fersku kóríander.</span></li><li><span class="dish">Lamb Rendang</span><span class="desc">Hægeldað lambakjöt í kryddmikilli kókos- og engifersósu með naan brauði og fersku kóríander.</span></li><li><span class="dish">Þorskur með gremolata</span><span class="desc">Ristaður þorskur með sítrónu- og kryddjurtagremolata og kókos- og limekartöflum</span></li><li><span class="dish">Tandoori tofu</span><span class="desc">Tandoori kryddað tofu með ristuðum kjúklingabaunum og karrýdressingu.</span></li><li><span class="dish">Byggsalat</span><span class="desc">Perlubygg með ristuðu grænmeti, kryddjurtum og sinnepsvinagrette.</span></li></ul>
+    </div><div class="cell">
+      <span class="cell__place">Makona</span>
+      <ul><li><span class="dish">Tómat- og rauð papriku súpa</span><span class="desc">með basil olíu og parmesan focaccia (D) (G)</span></li><li><span class="dish">Marokkó krydduð kjúklingabringa</span><span class="desc">með couscous með trönuberjum og kryddum og sítrónu-jógúrt dressingu (D) (G)</span></li><li><span class="dish">Fimm krydda svínakjöt</span><span class="desc">með sviðnum ananas, stökku grænmeti og eggja hrísgrjónum (E)</span></li><li><span class="dish">Linsubauna og valhnetu sveitabaka</span><span class="desc">með sætri kartöflumús og timian sósu (S) (Hn)</span></li></ul>
+    </div>
+    </section><section class="col">
+      <h2 class="col__day">Fimmtudagur</h2>
+      <div class="cell">
+      <span class="cell__place">Róót</span>
+      <ul><li><span class="dish">Graskers og eplasúpa</span><span class="desc">Ristað grasker og epli með engifer og kókosmjólk.</span></li><li><span class="dish">Fajitas kjúklingur</span><span class="desc">Fajitas-kryddaður kjúklingur með papriku, lauk, guacamole, sýrðum rjóma, krydduðum hrísgrjónum og fersku lime.</span></li><li><span class="dish">Sveppa og bygg shawarma</span><span class="desc">Shawarma kryddaðir sveppir og perlubygg með hummus, pikkluðum rauðlauk og ferskum kryddjurtum.</span></li><li><span class="dish">Pastasalat</span><span class="desc">Pasta með grænmeti, ferskum kryddjurtum og sítrónuvinaigrette.</span></li></ul>
+    </div><div class="cell">
+      <span class="cell__place">Makona</span>
+      <ul><li><span class="dish">Íslensk kjötsúpa</span></li><li><span class="dish">Miso gljáður saltaður þorskur</span><span class="desc">með sesam salati, shitake sveppum og sætri kartöflumús (S) (G)</span></li><li><span class="dish">Kjúlinga schnitzel</span><span class="desc">með heitu kartöflusalati og graslaukur með sítrónu, kapers og smjöri (D) (G) (E)</span></li><li><span class="dish">Tandoori blómkáls steik</span><span class="desc">með mangó chutney, krydduðum kartöflubátum með reyktu mæjónesi</span></li></ul>
+    </div>
+    </section><section class="col">
+      <h2 class="col__day">Föstudagur</h2>
+      <div class="cell">
+      <span class="cell__place">Róót</span>
+      <ul><li><span class="dish">Grænertusúpa</span><span class="desc">Grænar ertur, spínat og ferskar kryddjurtir með sítrónu og ólífuolíu.</span></li><li><span class="dish">Char-Siu grís</span><span class="desc">Char-Siu gljáð grísakjöt með engifer, hvítlauk og fimm krydda blöndu, borið fram með hrísgrjónum, agúrkusalati</span></li><li><span class="dish">Graskersrisotto</span><span class="desc">Kremað risotto með ristuðu graskeri, blaðlauk og pekanhnetum.</span></li><li><span class="dish">Núðlusalat</span><span class="desc">Núðlur með stökku grænmeti, ferskum kryddjurtum og lime engiferdressingu.</span></li></ul>
+    </div><div class="cell">
+      <span class="cell__place">Makona</span>
+      <ul><li><span class="dish">Víetnömsk kjúklinga súpa</span><span class="desc">með engifer, lime, hrísgrjóna núðlum og vorlauk (S)</span></li><li><span class="dish">Kóreskt nauta bulogi</span><span class="desc">með gufusoðnum hrísgrónum, sveppum, vorlauk, pikkluðu chili og gochujang sósa (S) (G)</span></li><li><span class="dish">Rjómalagað chorizo og maís penne pasta</span><span class="desc">með ristuaðri papriku, maís og papriku rjómasósa með spínati (D) (G)</span></li><li><span class="dish">Reyktur rauðrófu borgari með svörtum baunum</span><span class="desc">með avókadó, súrum gúrkum og frönskum með rósmarín salti (G)</span></li></ul>
+    </div>
+    </section>
+  </div>
+  <footer class="sources">
+    <span>Róót — <a href="https://rootbistro.is/matsedill" target="_blank" rel="noreferrer">rootbistro.is</a></span><span>Makona — <a href="https://makona.is/lunch" target="_blank" rel="noreferrer">makona.is</a></span>
+  </footer>
+</div>
