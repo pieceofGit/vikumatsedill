@@ -28,8 +28,9 @@ h1{font-family:"Familjen Grotesk",ui-sans-serif,sans-serif;font-weight:700;
 .masthead .week{font-family:"Familjen Grotesk",sans-serif;color:var(--accent);
   font-size:.8rem;letter-spacing:.18em;text-transform:uppercase}
 .masthead .stamp{margin-left:auto;color:var(--muted);font-size:.8rem}
-.board{display:grid;gap:1rem;grid-template-columns:repeat(5,minmax(0,1fr))}
-.col{display:flex;flex-direction:column;gap:.75rem;min-width:0}
+.board{display:grid;gap:1rem;grid-template-columns:repeat(5,minmax(0,1fr));
+  grid-template-rows:auto repeat(2,auto)}
+.col{display:grid;grid-row:span 3;grid-template-rows:subgrid;gap:.75rem;min-width:0}
 .col__day{font-family:"Familjen Grotesk",sans-serif;font-weight:500;font-size:.78rem;
   letter-spacing:.16em;text-transform:uppercase;color:var(--muted);
   border-bottom:2px solid var(--accent);padding-bottom:.4rem}
@@ -47,7 +48,8 @@ h1{font-family:"Familjen Grotesk",ui-sans-serif,sans-serif;font-weight:700;
   padding-top:1rem;color:var(--muted);font-size:.8rem}
 .sources a{color:var(--accent)}
 a:focus-visible{outline:2px solid var(--accent);outline-offset:3px}
-@media (max-width:900px){.board{grid-template-columns:1fr}
+@media (max-width:900px){.board{grid-template-columns:1fr;grid-template-rows:none}
+  .col{grid-row:auto;grid-template-rows:none;display:flex;flex-direction:column}
   .col__day{position:sticky;top:0;background:var(--bg);z-index:1}}
 </style>
 <div class="wrap">
