@@ -47,7 +47,14 @@
           "dishes": [
             {
               "name": "Rúmensk Ciorbă-grænmetissúpa",
-              "desc": "Kartöflur, kál, grænar baunir, tómatar og kryddjurtir."
+              "desc": "Kartöflur, kál, grænar baunir, tómatar og kryddjurtir.",
+              "info": {
+                "term": "Ciorbă",
+                "title": "Chorba",
+                "info": "Chorba, shorwa, shurba, shurpa, shurbah or shorba is a broad class of stews or rich soups found in national cuisines across North Africa, The Middle East, Iran, Turkey, Southeast Europe, Central Asia, East Africa and South Asia.",
+                "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/Bean_soup_with_tomatoes_and_red_peppers.jpeg/330px-Bean_soup_with_tomatoes_and_red_peppers.jpeg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+                "wiki": "https://en.wikipedia.org/wiki/Chorba"
+              }
             },
             {
               "name": "Filippseyskur kjúklingur Adobo",
@@ -90,14 +97,7 @@
             },
             {
               "name": "Naut Stifado",
-              "desc": "Grískt hægeldað naut með perlulauk, tómötum, kanil, lárviðarlaufi og rauðvínsediki.",
-              "info": {
-                "term": "Stifado",
-                "title": "Greek cuisine",
-                "info": "Greek cuisine is the cuisine of Greece and the Greek diaspora.",
-                "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/Grk2020.jpg/330px-Grk2020.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-                "wiki": "https://en.wikipedia.org/wiki/Greek_cuisine"
-              }
+              "desc": "Grískt hægeldað naut með perlulauk, tómötum, kanil, lárviðarlaufi og rauðvínsediki."
             },
             {
               "name": "Ristað smælki með fennel og grænum baunum",
