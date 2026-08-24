@@ -44,6 +44,12 @@ h1{font-family:"Familjen Grotesk",ui-sans-serif,sans-serif;font-weight:700;
 .cell li{display:flex;flex-direction:column;gap:.1rem;overflow-wrap:anywhere}
 .dish{font-weight:600;font-size:.92rem}
 .desc{color:var(--muted);font-size:.8rem;line-height:1.4}
+.info{margin-top:.45rem;background:var(--accent-soft);border-radius:4px;padding:.5rem;
+  display:flex;gap:.55rem;align-items:flex-start}
+.info img{width:3.4rem;height:3.4rem;object-fit:cover;border-radius:4px;flex:none}
+.info p{margin:0;font-size:.74rem;line-height:1.45;color:var(--muted)}
+.info b{color:var(--ink)}
+.info a{color:var(--accent)}
 .sources{display:flex;flex-wrap:wrap;gap:1rem;border-top:1px solid var(--line);
   padding-top:1rem;color:var(--muted);font-size:.8rem}
 .sources a{color:var(--accent)}
@@ -63,16 +69,28 @@ a:focus-visible{outline:2px solid var(--accent);outline-offset:3px}
       <h2 class="col__day">Mánudagur</h2>
       <div class="cell">
       <span class="cell__place">Róót</span>
-      <ul><li><span class="dish">Kúbverskt Picadillo</span><span class="desc">Steikt nautahakk með tómötum, papriku og kúbverskum kryddum</span></li><li><span class="dish">Jasmine hrísgrjón</span></li><li><span class="dish">Blaðlauks- og kartöflusúpa (V)</span><span class="desc">Blaðlauks-og kartöflusúpa með graslauksolíu.</span></li><li><span class="dish">Bleikja með fennel og vínberjum</span><span class="desc">Ofnbökuð bleikja með fennel, bökuðum vínberjum, kapers og sinnepsvinaigrette.</span></li><li><span class="dish">Stökkt grasker Katsu</span><span class="desc">Ofnbakað grasker með japanskri karrýsósu, hrísgrjónum, hvítkáli og gúrku.</span></li><li><span class="dish">Víetnamskt hrísgrjónanúðlusalat</span><span class="desc">Kál, gulrætur, gúrka, radísur, mynta, kóríander og límónudressing.</span></li></ul>
+      <ul><li><span class="dish">Kúbverskt Picadillo</span><span class="desc">Steikt nautahakk með tómötum, papriku og kúbverskum kryddum</span>
+        <aside class="info"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/Picadillo_and_rice.jpg/330px-Picadillo_and_rice.jpg?utm_source=en.wikipedia.org&amp;utm_campaign=api&amp;utm_content=thumbnail" alt="Picadillo" loading="lazy">
+          <p><b>Picadillo</b> — Picadillo is a traditional dish in many Latin American countries including Mexico and Cuba, as well as the Philippines. <a href="https://en.wikipedia.org/wiki/Picadillo" target="_blank" rel="noreferrer">Wikipedia</a></p>
+        </aside></li><li><span class="dish">Jasmine hrísgrjón</span></li><li><span class="dish">Blaðlauks- og kartöflusúpa (V)</span><span class="desc">Blaðlauks-og kartöflusúpa með graslauksolíu.</span></li><li><span class="dish">Bleikja með fennel og vínberjum</span><span class="desc">Ofnbökuð bleikja með fennel, bökuðum vínberjum, kapers og sinnepsvinaigrette.</span></li><li><span class="dish">Stökkt grasker Katsu</span><span class="desc">Ofnbakað grasker með japanskri karrýsósu, hrísgrjónum, hvítkáli og gúrku.</span></li><li><span class="dish">Víetnamskt hrísgrjónanúðlusalat</span><span class="desc">Kál, gulrætur, gúrka, radísur, mynta, kóríander og límónudressing.</span></li></ul>
     </div><div class="cell">
       <span class="cell__place">Makona</span>
-      <ul><li><span class="dish">Maís-, beikon- og kartöflusúpa</span><span class="desc">(D)</span></li><li><span class="dish">Ofnbakaður þorskur</span><span class="desc">með parmesan og panko, lauk- og kapers smjöri (D) (G)</span></li><li><span class="dish">Harissa kjúklingur með feta flatbrauði</span><span class="desc">,steiktur kjúklingur, hummus, fetaostur, pikklaður laukur og kryddjurta salat (D) (G)</span></li><li><span class="dish">Kókoshnetu linsubauna dahl</span><span class="desc">með steiktu blómkáli, gulrótum, tófú og grænkáli (S)</span></li></ul>
+      <ul><li><span class="dish">Maís-, beikon- og kartöflusúpa</span><span class="desc">(D)</span></li><li><span class="dish">Ofnbakaður þorskur</span><span class="desc">með parmesan og panko, lauk- og kapers smjöri (D) (G)</span></li><li><span class="dish">Harissa kjúklingur með feta flatbrauði</span><span class="desc">,steiktur kjúklingur, hummus, fetaostur, pikklaður laukur og kryddjurta salat (D) (G)</span>
+        <aside class="info"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/%D9%87%D8%B1%D9%8A%D8%B3%D8%A9_%D8%AF%D9%8A%D8%A7%D8%B1%D9%8A.JPG/330px-%D9%87%D8%B1%D9%8A%D8%B3%D8%A9_%D8%AF%D9%8A%D8%A7%D8%B1%D9%8A.JPG?utm_source=en.wikipedia.org&amp;utm_campaign=api&amp;utm_content=thumbnail" alt="Harissa" loading="lazy">
+          <p><b>Harissa</b> — Harissa is a Tunisian hot chili pepper paste. <a href="https://en.wikipedia.org/wiki/Harissa" target="_blank" rel="noreferrer">Wikipedia</a></p>
+        </aside></li><li><span class="dish">Kókoshnetu linsubauna dahl</span><span class="desc">með steiktu blómkáli, gulrótum, tófú og grænkáli (S)</span></li></ul>
     </div>
     </section><section class="col">
       <h2 class="col__day">Þriðjudagur</h2>
       <div class="cell">
       <span class="cell__place">Róót</span>
-      <ul><li><span class="dish">Rúmensk Ciorbă-grænmetissúpa</span><span class="desc">Kartöflur, kál, grænar baunir, tómatar og kryddjurtir.</span></li><li><span class="dish">Filippseyskur kjúklingur Adobo</span><span class="desc">Hægeldaður kjúklingur með kókosmjólk, soja, hvítlauk, lárviðarlaufi og svörtum pipar.</span></li><li><span class="dish">Jasmine hrísgrjón</span></li><li><span class="dish">Polenta með smjörbauna-puttanesca</span><span class="desc">Mjúk polenta með smjörbaunum, tómötum, ólífum, kapers, kúrbít og basil.</span></li><li><span class="dish">Salat með bökuðum rófum</span><span class="desc">Bakaðar rauðrófur og candy stripe-rófur með vorlauk, ferskum kryddjurtum, ristuðum hörfræjum og límónu-myntuvinaigrette.</span></li></ul>
+      <ul><li><span class="dish">Rúmensk Ciorbă-grænmetissúpa</span><span class="desc">Kartöflur, kál, grænar baunir, tómatar og kryddjurtir.</span></li><li><span class="dish">Filippseyskur kjúklingur Adobo</span><span class="desc">Hægeldaður kjúklingur með kókosmjólk, soja, hvítlauk, lárviðarlaufi og svörtum pipar.</span>
+        <aside class="info"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/Lomo_en_adobo-2009.jpg/330px-Lomo_en_adobo-2009.jpg?utm_source=en.wikipedia.org&amp;utm_campaign=api&amp;utm_content=thumbnail" alt="Adobo" loading="lazy">
+          <p><b>Adobo</b> — Adobo or adobar is the immersion of food in a stock composed variously of paprika, oregano, salt, garlic, and vinegar to preserve and enhance its flavor. <a href="https://en.wikipedia.org/wiki/Adobo" target="_blank" rel="noreferrer">Wikipedia</a></p>
+        </aside></li><li><span class="dish">Jasmine hrísgrjón</span></li><li><span class="dish">Polenta með smjörbauna-puttanesca</span><span class="desc">Mjúk polenta með smjörbaunum, tómötum, ólífum, kapers, kúrbít og basil.</span>
+        <aside class="info"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/Cotechino-Servito-Polenta-Lenticchie.jpg/330px-Cotechino-Servito-Polenta-Lenticchie.jpg?utm_source=en.wikipedia.org&amp;utm_campaign=api&amp;utm_content=thumbnail" alt="Polenta" loading="lazy">
+          <p><b>Polenta</b> — Polenta is an Italian dish of boiled cornmeal that was historically made from other grains. <a href="https://en.wikipedia.org/wiki/Polenta" target="_blank" rel="noreferrer">Wikipedia</a></p>
+        </aside></li><li><span class="dish">Salat með bökuðum rófum</span><span class="desc">Bakaðar rauðrófur og candy stripe-rófur með vorlauk, ferskum kryddjurtum, ristuðum hörfræjum og límónu-myntuvinaigrette.</span></li></ul>
     </div><div class="cell">
       <span class="cell__place">Makona</span>
       <ul><li><span class="dish">Gulróta-engifer- og appelsínu súpa</span></li><li><span class="dish">kjúklinga enchilada baka</span><span class="desc">með bráðnum osti, salsa og rjómaosta og kjúklinga fyllingu (G) (D) (D) (G)</span></li><li><span class="dish">Miðjarðarhafs naut með kartöflum</span><span class="desc">,kryddað nautakjöt, steikt paprika og feta ídýfa, kartöflu sneiðar og tómat salsa (D)</span></li><li><span class="dish">stökkt blómkáls og kjúklingabauna schwarma</span><span class="desc">,túmerik hrísgrjón, tahini dressing og pikklað rauðkál</span></li></ul>
@@ -81,10 +99,19 @@ a:focus-visible{outline:2px solid var(--accent);outline-offset:3px}
       <h2 class="col__day">Miðvikudagur</h2>
       <div class="cell">
       <span class="cell__place">Róót</span>
-      <ul><li><span class="dish">Gulrótar-, engifer- og svart-hvítlaukssúpa</span></li><li><span class="dish">Naut Stifado</span><span class="desc">Grískt hægeldað naut með perlulauk, tómötum, kanil, lárviðarlaufi og rauðvínsediki.</span></li><li><span class="dish">Ristað smælki með fennel og grænum baunum</span></li><li><span class="dish">Kúrbítur með quinoa og spínati</span><span class="desc">Bakaður í tómatsósu með hvítbaunakremi, basil og sólblómafræjum.</span></li><li><span class="dish">Orecchiette með brokkólí</span><span class="desc">Brokkólí, grænar baunir, spínat, sólþurrkaðir tómatar og saltsítrónuvinaigrette.</span></li></ul>
+      <ul><li><span class="dish">Gulrótar-, engifer- og svart-hvítlaukssúpa</span></li><li><span class="dish">Naut Stifado</span><span class="desc">Grískt hægeldað naut með perlulauk, tómötum, kanil, lárviðarlaufi og rauðvínsediki.</span>
+        <aside class="info"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/Grk2020.jpg/330px-Grk2020.jpg?utm_source=en.wikipedia.org&amp;utm_campaign=api&amp;utm_content=thumbnail" alt="Greek cuisine" loading="lazy">
+          <p><b>Greek cuisine</b> — Greek cuisine is the cuisine of Greece and the Greek diaspora. <a href="https://en.wikipedia.org/wiki/Greek_cuisine" target="_blank" rel="noreferrer">Wikipedia</a></p>
+        </aside></li><li><span class="dish">Ristað smælki með fennel og grænum baunum</span></li><li><span class="dish">Kúrbítur með quinoa og spínati</span><span class="desc">Bakaður í tómatsósu með hvítbaunakremi, basil og sólblómafræjum.</span></li><li><span class="dish">Orecchiette með brokkólí</span><span class="desc">Brokkólí, grænar baunir, spínat, sólþurrkaðir tómatar og saltsítrónuvinaigrette.</span>
+        <aside class="info"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Orecchiette_carbonara.jpg/330px-Orecchiette_carbonara.jpg?utm_source=en.wikipedia.org&amp;utm_campaign=api&amp;utm_content=thumbnail" alt="Orecchiette" loading="lazy">
+          <p><b>Orecchiette</b> — Orecchiette is a pasta typical of the Apulia region of Italy. <a href="https://en.wikipedia.org/wiki/Orecchiette" target="_blank" rel="noreferrer">Wikipedia</a></p>
+        </aside></li></ul>
     </div><div class="cell">
       <span class="cell__place">Makona</span>
-      <ul><li><span class="dish">Reykt rauð papriku- og tómatsúpa með ostabrauði</span></li><li><span class="dish">Klassískt nautastroganoff</span><span class="desc">með rjómalagaðri kartöflumús og súrdeigsbrauði (D) (G)</span></li><li><span class="dish">Penne Pasta carbonara</span><span class="desc">,beikon, vorlaukur og parmesan ostur (D) (G)</span></li><li><span class="dish">Sveppa bourguignon</span><span class="desc">,sveppir, perlulaukur,rauðvíns sósa, kryddjurtir og kartöflumús</span></li></ul>
+      <ul><li><span class="dish">Reykt rauð papriku- og tómatsúpa með ostabrauði</span></li><li><span class="dish">Klassískt nautastroganoff</span><span class="desc">með rjómalagaðri kartöflumús og súrdeigsbrauði (D) (G)</span></li><li><span class="dish">Penne Pasta carbonara</span><span class="desc">,beikon, vorlaukur og parmesan ostur (D) (G)</span>
+        <aside class="info"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/Pennelisce_closeup.png/330px-Pennelisce_closeup.png?utm_source=en.wikipedia.org&amp;utm_campaign=api&amp;utm_content=thumbnail" alt="Penne" loading="lazy">
+          <p><b>Penne</b> — Penne are an extruded type of pasta in the shape of tubular pieces with ends cut at an angle. <a href="https://en.wikipedia.org/wiki/Penne" target="_blank" rel="noreferrer">Wikipedia</a></p>
+        </aside></li><li><span class="dish">Sveppa bourguignon</span><span class="desc">,sveppir, perlulaukur,rauðvíns sósa, kryddjurtir og kartöflumús</span></li></ul>
     </div>
     </section><section class="col">
       <h2 class="col__day">Fimmtudagur</h2>
@@ -99,10 +126,16 @@ a:focus-visible{outline:2px solid var(--accent);outline-offset:3px}
       <h2 class="col__day">Föstudagur</h2>
       <div class="cell">
       <span class="cell__place">Róót</span>
-      <ul><li><span class="dish">Grasker, pera og salvía</span><span class="desc">Ofnristað grasker, pera, blaðlaukur og salvía.</span></li><li><span class="dish">Lamb Yakhni</span><span class="desc">Milt kryddað lamb með jógúrt, engifer, fennelfræjum og kardimommum.</span></li><li><span class="dish">Basmati-hrísgrjón</span><span class="desc">Grænar baunir, ristaðar gulrætur og ferskar kryddjurtir.</span></li><li><span class="dish">Japanskt grænmetis-gyoza með kimchi</span></li><li><span class="dish">Blómkáls-couscous</span><span class="desc">Blómkál með ólífuolíu, sítrónu og ristuðum möndlum.</span></li></ul>
+      <ul><li><span class="dish">Grasker, pera og salvía</span><span class="desc">Ofnristað grasker, pera, blaðlaukur og salvía.</span></li><li><span class="dish">Lamb Yakhni</span><span class="desc">Milt kryddað lamb með jógúrt, engifer, fennelfræjum og kardimommum.</span>
+        <aside class="info"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/%D0%9F%D1%80%D0%B8%D0%BB%D0%B5%D0%BF%D1%81%D0%BA%D0%B0_%D1%98%D0%B0%D0%BD%D0%B8%D1%98%D0%B0_-_%D0%BB%D1%83%D1%82%D0%B0_%D1%98%D0%B0%D0%B2%D0%BD%D0%B8%D1%98%D0%B0_%28cropped%29.jpg/330px-%D0%9F%D1%80%D0%B8%D0%BB%D0%B5%D0%BF%D1%81%D0%BA%D0%B0_%D1%98%D0%B0%D0%BD%D0%B8%D1%98%D0%B0_-_%D0%BB%D1%83%D1%82%D0%B0_%D1%98%D0%B0%D0%B2%D0%BD%D0%B8%D1%98%D0%B0_%28cropped%29.jpg?utm_source=en.wikipedia.org&amp;utm_campaign=api&amp;utm_content=thumbnail" alt="Yahni" loading="lazy">
+          <p><b>Yahni</b> — Yakhni, yahni (Turkish), or yahniya, jahni (Albanian), iahnie (Romanian) is a class of dishes traditionally prepared in a vast area encompassing South Asia, the Middle East and the Balkans. <a href="https://en.wikipedia.org/wiki/Yahni" target="_blank" rel="noreferrer">Wikipedia</a></p>
+        </aside></li><li><span class="dish">Basmati-hrísgrjón</span><span class="desc">Grænar baunir, ristaðar gulrætur og ferskar kryddjurtir.</span></li><li><span class="dish">Japanskt grænmetis-gyoza með kimchi</span></li><li><span class="dish">Blómkáls-couscous</span><span class="desc">Blómkál með ólífuolíu, sítrónu og ristuðum möndlum.</span></li></ul>
     </div><div class="cell">
       <span class="cell__place">Makona</span>
-      <ul><li><span class="dish">Íslensk kjötsúpa</span></li><li><span class="dish">Steiktur Suðurríkja kjúiklingur</span><span class="desc">,sæt hunangs bourbon-sósa og chipotle-mæjónes (D) (G) (E)</span></li><li><span class="dish">Miso gljáð eggaldin</span><span class="desc">,sesam núðlur, edamame baunir og ferskt grænmeti (S) (G)</span></li><li><span class="dish">Eplabaka með þreyttum rjóma</span><span class="desc">(D) (G)</span></li></ul>
+      <ul><li><span class="dish">Íslensk kjötsúpa</span></li><li><span class="dish">Steiktur Suðurríkja kjúiklingur</span><span class="desc">,sæt hunangs bourbon-sósa og chipotle-mæjónes (D) (G) (E)</span></li><li><span class="dish">Miso gljáð eggaldin</span><span class="desc">,sesam núðlur, edamame baunir og ferskt grænmeti (S) (G)</span>
+        <aside class="info"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Miso_001.jpg/330px-Miso_001.jpg?utm_source=en.wikipedia.org&amp;utm_campaign=api&amp;utm_content=thumbnail" alt="Miso" loading="lazy">
+          <p><b>Miso</b> — Miso is a traditional Japanese seasoning. <a href="https://en.wikipedia.org/wiki/Miso" target="_blank" rel="noreferrer">Wikipedia</a></p>
+        </aside></li><li><span class="dish">Eplabaka með þreyttum rjóma</span><span class="desc">(D) (G)</span></li></ul>
     </div>
     </section>
   </div>

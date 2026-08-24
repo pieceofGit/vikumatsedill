@@ -11,7 +11,14 @@
           "dishes": [
             {
               "name": "Kúbverskt Picadillo",
-              "desc": "Steikt nautahakk með tómötum, papriku og kúbverskum kryddum"
+              "desc": "Steikt nautahakk með tómötum, papriku og kúbverskum kryddum",
+              "info": {
+                "term": "Picadillo",
+                "title": "Picadillo",
+                "info": "Picadillo is a traditional dish in many Latin American countries including Mexico and Cuba, as well as the Philippines.",
+                "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/Picadillo_and_rice.jpg/330px-Picadillo_and_rice.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+                "wiki": "https://en.wikipedia.org/wiki/Picadillo"
+              }
             },
             {
               "name": "Jasmine hrísgrjón",
@@ -44,7 +51,14 @@
             },
             {
               "name": "Filippseyskur kjúklingur Adobo",
-              "desc": "Hægeldaður kjúklingur með kókosmjólk, soja, hvítlauk, lárviðarlaufi og svörtum pipar."
+              "desc": "Hægeldaður kjúklingur með kókosmjólk, soja, hvítlauk, lárviðarlaufi og svörtum pipar.",
+              "info": {
+                "term": "Adobo",
+                "title": "Adobo",
+                "info": "Adobo or adobar is the immersion of food in a stock composed variously of paprika, oregano, salt, garlic, and vinegar to preserve and enhance its flavor.",
+                "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/Lomo_en_adobo-2009.jpg/330px-Lomo_en_adobo-2009.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+                "wiki": "https://en.wikipedia.org/wiki/Adobo"
+              }
             },
             {
               "name": "Jasmine hrísgrjón",
@@ -52,7 +66,14 @@
             },
             {
               "name": "Polenta með smjörbauna-puttanesca",
-              "desc": "Mjúk polenta með smjörbaunum, tómötum, ólífum, kapers, kúrbít og basil."
+              "desc": "Mjúk polenta með smjörbaunum, tómötum, ólífum, kapers, kúrbít og basil.",
+              "info": {
+                "term": "Polenta",
+                "title": "Polenta",
+                "info": "Polenta is an Italian dish of boiled cornmeal that was historically made from other grains.",
+                "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/Cotechino-Servito-Polenta-Lenticchie.jpg/330px-Cotechino-Servito-Polenta-Lenticchie.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+                "wiki": "https://en.wikipedia.org/wiki/Polenta"
+              }
             },
             {
               "name": "Salat með bökuðum rófum",
@@ -69,7 +90,14 @@
             },
             {
               "name": "Naut Stifado",
-              "desc": "Grískt hægeldað naut með perlulauk, tómötum, kanil, lárviðarlaufi og rauðvínsediki."
+              "desc": "Grískt hægeldað naut með perlulauk, tómötum, kanil, lárviðarlaufi og rauðvínsediki.",
+              "info": {
+                "term": "Stifado",
+                "title": "Greek cuisine",
+                "info": "Greek cuisine is the cuisine of Greece and the Greek diaspora.",
+                "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/Grk2020.jpg/330px-Grk2020.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+                "wiki": "https://en.wikipedia.org/wiki/Greek_cuisine"
+              }
             },
             {
               "name": "Ristað smælki með fennel og grænum baunum",
@@ -81,7 +109,14 @@
             },
             {
               "name": "Orecchiette með brokkólí",
-              "desc": "Brokkólí, grænar baunir, spínat, sólþurrkaðir tómatar og saltsítrónuvinaigrette."
+              "desc": "Brokkólí, grænar baunir, spínat, sólþurrkaðir tómatar og saltsítrónuvinaigrette.",
+              "info": {
+                "term": "Orecchiette",
+                "title": "Orecchiette",
+                "info": "Orecchiette is a pasta typical of the Apulia region of Italy.",
+                "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Orecchiette_carbonara.jpg/330px-Orecchiette_carbonara.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+                "wiki": "https://en.wikipedia.org/wiki/Orecchiette"
+              }
             }
           ]
         },
@@ -119,7 +154,14 @@
             },
             {
               "name": "Lamb Yakhni",
-              "desc": "Milt kryddað lamb með jógúrt, engifer, fennelfræjum og kardimommum."
+              "desc": "Milt kryddað lamb með jógúrt, engifer, fennelfræjum og kardimommum.",
+              "info": {
+                "term": "Yakhni",
+                "title": "Yahni",
+                "info": "Yakhni, yahni (Turkish), or yahniya, jahni (Albanian), iahnie (Romanian) is a class of dishes traditionally prepared in a vast area encompassing South Asia, the Middle East and the Balkans.",
+                "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/%D0%9F%D1%80%D0%B8%D0%BB%D0%B5%D0%BF%D1%81%D0%BA%D0%B0_%D1%98%D0%B0%D0%BD%D0%B8%D1%98%D0%B0_-_%D0%BB%D1%83%D1%82%D0%B0_%D1%98%D0%B0%D0%B2%D0%BD%D0%B8%D1%98%D0%B0_%28cropped%29.jpg/330px-%D0%9F%D1%80%D0%B8%D0%BB%D0%B5%D0%BF%D1%81%D0%BA%D0%B0_%D1%98%D0%B0%D0%BD%D0%B8%D1%98%D0%B0_-_%D0%BB%D1%83%D1%82%D0%B0_%D1%98%D0%B0%D0%B2%D0%BD%D0%B8%D1%98%D0%B0_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+                "wiki": "https://en.wikipedia.org/wiki/Yahni"
+              }
             },
             {
               "name": "Basmati-hrísgrjón",
@@ -155,7 +197,14 @@
             },
             {
               "name": "Harissa kjúklingur með feta flatbrauði",
-              "desc": ",steiktur kjúklingur, hummus, fetaostur, pikklaður laukur og kryddjurta salat (D) (G)"
+              "desc": ",steiktur kjúklingur, hummus, fetaostur, pikklaður laukur og kryddjurta salat (D) (G)",
+              "info": {
+                "term": "Harissa",
+                "title": "Harissa",
+                "info": "Harissa is a Tunisian hot chili pepper paste.",
+                "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/%D9%87%D8%B1%D9%8A%D8%B3%D8%A9_%D8%AF%D9%8A%D8%A7%D8%B1%D9%8A.JPG/330px-%D9%87%D8%B1%D9%8A%D8%B3%D8%A9_%D8%AF%D9%8A%D8%A7%D8%B1%D9%8A.JPG?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+                "wiki": "https://en.wikipedia.org/wiki/Harissa"
+              }
             },
             {
               "name": "Kókoshnetu linsubauna dahl",
@@ -197,7 +246,14 @@
             },
             {
               "name": "Penne Pasta carbonara",
-              "desc": ",beikon, vorlaukur og parmesan ostur (D) (G)"
+              "desc": ",beikon, vorlaukur og parmesan ostur (D) (G)",
+              "info": {
+                "term": "Penne",
+                "title": "Penne",
+                "info": "Penne are an extruded type of pasta in the shape of tubular pieces with ends cut at an angle.",
+                "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/Pennelisce_closeup.png/330px-Pennelisce_closeup.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+                "wiki": "https://en.wikipedia.org/wiki/Penne"
+              }
             },
             {
               "name": "Sveppa bourguignon",
@@ -239,7 +295,14 @@
             },
             {
               "name": "Miso gljáð eggaldin",
-              "desc": ",sesam núðlur, edamame baunir og ferskt grænmeti (S) (G)"
+              "desc": ",sesam núðlur, edamame baunir og ferskt grænmeti (S) (G)",
+              "info": {
+                "term": "Miso",
+                "title": "Miso",
+                "info": "Miso is a traditional Japanese seasoning.",
+                "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Miso_001.jpg/330px-Miso_001.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+                "wiki": "https://en.wikipedia.org/wiki/Miso"
+              }
             },
             {
               "name": "Eplabaka með þreyttum rjóma",
