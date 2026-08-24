@@ -1,4 +1,5 @@
 <title>Vikumatseðill</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Familjen+Grotesk:wght@500;700&family=IBM+Plex+Sans:wght@400;500;600&display=swap" rel="stylesheet">
@@ -65,7 +66,7 @@ a:focus-visible{outline:2px solid var(--accent);outline-offset:3px}
     <span class="stamp">Uppfært 24. ágúst 2026</span>
   </header>
   <div class="board">
-    <section class="col">
+    <section class="col" data-weekday="1">
       <h2 class="col__day">Mánudagur</h2>
       <div class="cell">
       <span class="cell__place">Róót</span>
@@ -80,7 +81,7 @@ a:focus-visible{outline:2px solid var(--accent);outline-offset:3px}
           <p><b>Harissa</b> — Harissa is a Tunisian hot chili pepper paste. <a href="https://en.wikipedia.org/wiki/Harissa" target="_blank" rel="noreferrer">Wikipedia</a></p>
         </aside></li><li><span class="dish">Kókoshnetu linsubauna dahl</span><span class="desc">með steiktu blómkáli, gulrótum, tófú og grænkáli (S)</span></li></ul>
     </div>
-    </section><section class="col">
+    </section><section class="col" data-weekday="2">
       <h2 class="col__day">Þriðjudagur</h2>
       <div class="cell">
       <span class="cell__place">Róót</span>
@@ -98,7 +99,7 @@ a:focus-visible{outline:2px solid var(--accent);outline-offset:3px}
       <span class="cell__place">Makona</span>
       <ul><li><span class="dish">Gulróta-engifer- og appelsínu súpa</span></li><li><span class="dish">kjúklinga enchilada baka</span><span class="desc">með bráðnum osti, salsa og rjómaosta og kjúklinga fyllingu (G) (D) (D) (G)</span></li><li><span class="dish">Miðjarðarhafs naut með kartöflum</span><span class="desc">,kryddað nautakjöt, steikt paprika og feta ídýfa, kartöflu sneiðar og tómat salsa (D)</span></li><li><span class="dish">stökkt blómkáls og kjúklingabauna schwarma</span><span class="desc">,túmerik hrísgrjón, tahini dressing og pikklað rauðkál</span></li></ul>
     </div>
-    </section><section class="col">
+    </section><section class="col" data-weekday="3">
       <h2 class="col__day">Miðvikudagur</h2>
       <div class="cell">
       <span class="cell__place">Róót</span>
@@ -113,7 +114,7 @@ a:focus-visible{outline:2px solid var(--accent);outline-offset:3px}
           <p><b>Penne</b> — Penne are an extruded type of pasta in the shape of tubular pieces with ends cut at an angle. <a href="https://en.wikipedia.org/wiki/Penne" target="_blank" rel="noreferrer">Wikipedia</a></p>
         </aside></li><li><span class="dish">Sveppa bourguignon</span><span class="desc">,sveppir, perlulaukur,rauðvíns sósa, kryddjurtir og kartöflumús</span></li></ul>
     </div>
-    </section><section class="col">
+    </section><section class="col" data-weekday="4">
       <h2 class="col__day">Fimmtudagur</h2>
       <div class="cell">
       <span class="cell__place">Róót</span>
@@ -122,7 +123,7 @@ a:focus-visible{outline:2px solid var(--accent);outline-offset:3px}
       <span class="cell__place">Makona</span>
       <ul><li><span class="dish">Blaðlauks- og fennel súpa</span><span class="desc">(D)</span></li><li><span class="dish">Miðjarðarhafs bakaður þorskur</span><span class="desc">,tómatar, kapers, ólífur og steikt smælki með kryddjurtum</span></li><li><span class="dish">Cajun mangó og chili kjúklingur</span><span class="desc">,mangó gljái, kókoshnetu hrísgrjón og freskt chili og karsa</span></li><li><span class="dish">Tælenskt hnetu tófú</span><span class="desc">,stökkt tófú, kókos- og hnetu sósa, grænmeti, lime og jasmínu hrísgrjón (S) (Hn)</span></li></ul>
     </div>
-    </section><section class="col">
+    </section><section class="col" data-weekday="5">
       <h2 class="col__day">Föstudagur</h2>
       <div class="cell">
       <span class="cell__place">Róót</span>
@@ -145,6 +146,11 @@ a:focus-visible{outline:2px solid var(--accent);outline-offset:3px}
   </footer>
 </div>
 <script>
+const today = document.querySelector('[data-weekday="' + new Date().getDay() + '"]');
+if (today) {
+  today.classList.add('today');
+  if (matchMedia('(max-width:900px)').matches) today.scrollIntoView();
+}
 if (location.hostname.endsWith('github.io')) {
   fetch('https://abacus.jasoncameron.dev/hit/pieceofgit-vikumatsedill/pageviews')
     .then(r => r.json())
