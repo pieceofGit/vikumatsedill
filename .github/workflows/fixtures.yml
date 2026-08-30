@@ -31,6 +31,12 @@ jobs:
         with:
           node-version: '22'
 
+      - name: Fetch fantasy squad
+        working-directory: footy
+        env:
+          FPL_TEAM_ID: ${{ vars.FPL_TEAM_ID }}
+        run: node tools/fpl.mjs
+
       - name: Build fixtures
         working-directory: footy
         env:
@@ -49,25 +55,28 @@ jobs:
             node -e '
               const d = require("./data/fixtures.json")
               const by = {}
-              for (const m of d.matches) by[m.broadcaster] = (by[m.broadcaster] ?? 0) + 1
+              for (const m of d.matches) {
+                for (const c of Object.values(m.channels ?? {})) by[c.broadcaster] = (by[c.broadcaster] ?? 0) + 1
+              }
               const ucl = d.matches.filter((m) => m.comp === "ucl")
               console.log("| Channel | Matches |", "\n| --- | --- |")
               for (const [k, v] of Object.entries(by)) console.log(`| ${k} | ${v} |`)
               console.log(`\nChampions League fixtures: **${ucl.length}**`)
+              if (d.fantasy?.name) console.log(`\nFantasy: ${d.fantasy.name} (GW${d.fantasy.gameweek})`)
               for (const m of ucl.slice(0, 5)) {
-                console.log(`- ${m.date} ${m.time ?? "--:--"} ${m.home} v ${m.away} (${m.round}) -> ${m.broadcaster}`)
+                console.log(`- ${m.date} ${m.time ?? "--:--"} ${m.home} v ${m.away} (${m.round}) -> ${m.channels?.uk?.broadcaster}`)
               }
             '
           } >> "$GITHUB_STEP_SUMMARY"
 
       - name: Commit if changed
         run: |
-          if git diff --quiet -- footy/data/fixtures.json; then
+          if git diff --quiet -- footy/data/fixtures.json footy/data/fpl.json; then
             echo "Fixtures unchanged; nothing to commit."
             exit 0
           fi
           git config user.name  "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add footy/data/fixtures.json
+          git add footy/data/fixtures.json footy/data/fpl.json
           git commit -m "Refresh fixtures [skip ci]"
           git push

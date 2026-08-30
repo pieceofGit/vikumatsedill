@@ -170,6 +170,30 @@ it would have sent and prints it to the workflow summary, so you can watch it
 against a weekend of real matches and settle the threshold before a single
 notification is sent.
 
+## Your fantasy team
+
+Set an `FPL_TEAM_ID` repository *variable* (Settings → Secrets and variables →
+Actions → Variables) and the daily build will pull your Fantasy Premier League
+squad. Your team id is the number in the URL when you look at your own side:
+
+```
+fantasy.premierleague.com/entry/<THIS NUMBER>/event/3
+```
+
+The FPL API is public and needs no key, so there is no token to create — but the
+id has to come from you, and your team has to be visible.
+
+`tools/fpl.mjs` fetches the squad for the current gameweek and writes
+`data/fpl.json`. The fixture build then tags every match with which of your
+players are in it, captain marked `(C)` and vice `(V)`, benched players dimmed.
+A **My players** filter narrows the list to matches you have someone in, and
+your team name, gameweek, points and overall rank sit under the masthead.
+
+It also feeds the live alerts: a tense match is worth two more points if your
+captain is playing in it, one more if three or more of your squad are.
+
+With no id set, none of this appears and the rest of the build is unaffected.
+
 ## Data
 
 | What | Where from |

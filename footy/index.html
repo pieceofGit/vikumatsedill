@@ -100,6 +100,15 @@ h1 em{font-style:normal;color:var(--accent)}
 .chan[data-b="tnt"] b{color:#1a1a1a}
 .chan[data-b="blackout"] b,.chan[data-b="tbc"] b{background:transparent;color:var(--muted);
   border:1px dashed var(--line);font-weight:600}
+.fpl{grid-column:1/-1;display:flex;flex-wrap:wrap;gap:.3rem;align-items:center;padding-left:.15rem}
+.fpl .lbl{font-family:var(--mono);font-size:.6rem;letter-spacing:.08em;color:var(--muted);
+  text-transform:uppercase}
+.fpl .p{font-size:.73rem;background:var(--accent-soft);color:var(--ink);border:1px solid var(--line);
+  border-radius:999px;padding:.08rem .45rem}
+.fpl .p.cap{border-color:var(--accent);font-weight:700}
+.fpl .p.bench{opacity:.5}
+.squad{margin:-1rem 0 1.4rem;color:var(--muted);font-size:.8rem;font-family:var(--mono)}
+.squad b{color:var(--accent);font-weight:600}
 .match__note .rg{font-family:var(--mono);font-size:.62rem;letter-spacing:.08em;
   color:var(--accent);margin-right:.4rem}
 .empty{background:var(--panel);border:1px dashed var(--line);border-radius:10px;
@@ -144,6 +153,7 @@ footer a{color:var(--accent)}
   <p class="tag">Every Premier League and Champions League match, and who is
     showing it in Iceland, Britain and the United States. Times are Icelandic
     (GMT); a second time on a row is the UK clock it kicks off by.</p>
+  <p class="squad" id="squad" hidden></p>
 </header>
 
 <main>
@@ -165,6 +175,7 @@ footer a{color:var(--accent)}
         <option value="played">Already played</option>
       </select>
       <button class="chip" id="f-big" type="button" aria-pressed="false">★ Big matches</button>
+      <button class="chip" id="f-mine" type="button" aria-pressed="false" hidden>My players</button>
       <input id="f-team" class="search" type="search" placeholder="Filter by team…" aria-label="Filter by team">
     </div>
   </section>
@@ -292,6 +303,7 @@ footer a{color:var(--accent)}
     team: params.get('team') ?? '',
     when: params.get('when') ?? '30',
     big: params.get('big') === '1',
+    mine: params.get('mine') === '1',
   }
   let DATA = null
 
@@ -302,6 +314,7 @@ footer a{color:var(--accent)}
     if (state.team) p.set('team', state.team)
     if (state.when !== '30') p.set('when', state.when)
     if (state.big) p.set('big', '1')
+    if (state.mine) p.set('mine', '1')
     const q = p.toString()
     history.replaceState(null, '', q ? `?${q}` : location.pathname)
   }
@@ -326,6 +339,7 @@ footer a{color:var(--accent)}
     return DATA.matches.filter((m) => {
       if (state.comp !== 'all' && m.comp !== state.comp) return false
       if (state.big && !m.highlight) return false
+      if (state.mine && !m.fpl) return false
       if (state.chans.size && !Object.values(m.channels ?? {})
         .some((c) => state.chans.has(c.broadcaster))) return false
       if (q && !(`${m.home} ${m.away} ${m.homeFull} ${m.awayFull}`.toLowerCase().includes(q))) return false
@@ -424,6 +438,22 @@ footer a{color:var(--accent)}
     }
     row.append(badges)
 
+    if (m.fpl) {
+      const f = el('div', 'fpl')
+      f.append(el('span', 'lbl', 'Your squad'))
+      for (const side of ['home', 'away']) {
+        for (const p of m.fpl[side] ?? []) {
+          const mark = p.captain ? ' (C)' : p.vice ? ' (V)' : ''
+          const chip = el('span', `p${p.captain ? ' cap' : ''}${p.benched ? ' bench' : ''}`,
+            p.name + mark)
+          chip.title = [p.position, side === 'home' ? m.home : m.away,
+            p.benched ? 'benched' : null].filter(Boolean).join(' · ')
+          f.append(chip)
+        }
+      }
+      row.append(f)
+    }
+
     for (const [short, text] of notes) {
       const n = el('div', 'match__note')
       n.append(el('span', 'rg', short), document.createTextNode(text))
@@ -475,6 +505,17 @@ footer a{color:var(--accent)}
       bigBtn.setAttribute('aria-pressed', String(state.big))
       render()
     })
+
+    const mineBtn = $('#f-mine')
+    if (DATA.matches.some((m) => m.fpl)) {
+      mineBtn.hidden = false
+      mineBtn.setAttribute('aria-pressed', String(state.mine))
+      mineBtn.addEventListener('click', () => {
+        state.mine = !state.mine
+        mineBtn.setAttribute('aria-pressed', String(state.mine))
+        render()
+      })
+    }
     $('#f-when').addEventListener('change', (e) => { state.when = e.target.value; render() })
     let t
     $('#f-team').addEventListener('input', (e) => {
@@ -524,6 +565,18 @@ footer a{color:var(--accent)}
       const li = el('li')
       li.append(el('b', null, slot), document.createTextNode(` — ${who}`))
       ul.append(li)
+    }
+
+    const f = DATA.fantasy
+    if (f?.name) {
+      const box = $('#squad')
+      box.hidden = false
+      box.append(document.createTextNode('Fantasy team '))
+      box.append(el('b', null, f.name))
+      const bits = [`GW${f.gameweek}`]
+      if (f.overallPoints != null) bits.push(`${f.overallPoints} pts`)
+      if (f.overallRank != null) bits.push(`rank ${f.overallRank.toLocaleString('en-GB')}`)
+      box.append(document.createTextNode(` · ${bits.join(' · ')}`))
     }
 
     const d = DATA.generatedAt ? new Date(DATA.generatedAt) : null

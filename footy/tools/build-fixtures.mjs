@@ -138,6 +138,41 @@ const norm = (s) => (s ?? '').toLowerCase()
 
 const isOneOf = (team, names) => names.includes(norm(team))
 
+/* Club names differ between every feed that touches them: FPL says "Spurs",
+ * openfootball says "Tottenham", ESPN says "Man United". */
+const CLUB_ALIASES = [
+  ['man utd', 'man united', 'manchester united'],
+  ['man city', 'manchester city'],
+  ['tottenham', 'spurs'],
+  ['nott m forest', 'nottingham forest', 'forest'],
+  ['brighton', 'brighton hove albion'],
+  ['wolves', 'wolverhampton wanderers'],
+  ['newcastle', 'newcastle united'],
+  ['leeds', 'leeds united'],
+  ['hull city', 'hull'],
+  ['coventry', 'coventry city'],
+  ['ipswich', 'ipswich town'],
+  ['west ham', 'west ham united'],
+]
+const sameClub = (a, b) => {
+  const [x, y] = [norm(a), norm(b)]
+  if (!x || !y) return false
+  if (x === y) return true
+  return CLUB_ALIASES.some((g) => g.includes(x) && g.includes(y))
+}
+
+/* Which of the manager's fantasy players are in this fixture. */
+function fplFor (squad, home, away) {
+  if (!squad?.players?.length) return null
+  const side = (team) => squad.players
+    .filter((p) => sameClub(p.club, team))
+    .map(({ name, position, captain, vice, benched }) => ({ name, position, captain, vice, benched }))
+  const h = side(home)
+  const a = side(away)
+  if (!h.length && !a.length) return null
+  return { home: h, away: a, count: h.length + a.length }
+}
+
 /* Returns why a match is big, or null. Most specific reason wins: a derby says
  * more than "two big clubs", which says more than "one club you follow". */
 function bigMatch (home, away) {
@@ -461,7 +496,10 @@ async function championsLeague () {
 
 const main = async () => {
   const overrides = await loadJson('data/overrides.json', {})
+  const squad = await loadJson('data/fpl.json', null)
   const matches = [...await premierLeague(), ...await championsLeague()]
+
+  for (const m of matches) m.fpl = fplFor(squad, m.home, m.away)
 
   let applied = 0
   for (const m of matches) {
@@ -481,8 +519,17 @@ const main = async () => {
 
   matches.sort((a, b) => (a.date + (a.time ?? '')).localeCompare(b.date + (b.time ?? '')))
 
+  const withPlayers = matches.filter((m) => m.fpl).length
+  if (squad?.players?.length) {
+    console.log(`fantasy     ${withPlayers} fixtures feature your players`)
+  }
+
   const out = {
     generatedAt: new Date().toISOString(),
+    fantasy: squad ? {
+      name: squad.name, gameweek: squad.gameweek, teamId: squad.teamId,
+      overallPoints: squad.overallPoints, overallRank: squad.overallRank,
+    } : null,
     season: SEASON,
     timezone: 'Atlantic/Reykjavik',
     broadcasters: BROADCASTERS,

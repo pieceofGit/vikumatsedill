@@ -1,5 +1,6 @@
 {
- "generatedAt": "2026-08-30T13:26:12.655Z",
+ "generatedAt": "2026-08-30T13:30:59.226Z",
+ "fantasy": null,
  "season": "2026-27",
  "timezone": "Atlantic/Reykjavik",
  "broadcasters": {
@@ -122,6 +123,7 @@
     3,
     0
    ],
+   "fpl": null,
    "alert": false
   },
   {
@@ -161,6 +163,7 @@
     2,
     0
    ],
+   "fpl": null,
    "alert": true
   },
   {
@@ -196,6 +199,7 @@
     2,
     1
    ],
+   "fpl": null,
    "alert": false
   },
   {
@@ -231,6 +235,7 @@
     0,
     1
    ],
+   "fpl": null,
    "alert": false
   },
   {
@@ -266,6 +271,7 @@
     2,
     0
    ],
+   "fpl": null,
    "alert": false
   },
   {
@@ -301,6 +307,7 @@
     3,
     0
    ],
+   "fpl": null,
    "alert": false
   },
   {
@@ -336,6 +343,7 @@
     2,
     1
    ],
+   "fpl": null,
    "alert": false
   },
   {
@@ -371,6 +379,7 @@
     4,
     0
    ],
+   "fpl": null,
    "alert": false
   },
   {
@@ -406,6 +415,7 @@
     2,
     2
    ],
+   "fpl": null,
    "alert": false
   },
   {
@@ -445,6 +455,7 @@
     2,
     3
    ],
+   "fpl": null,
    "alert": true
   },
   {
@@ -477,6 +488,7 @@
     }
    },
    "score": null,
+   "fpl": null,
    "alert": false
   },
   {
@@ -509,6 +521,7 @@
     }
    },
    "score": null,
+   "fpl": null,
    "alert": false
   },
   {
@@ -541,6 +554,7 @@
     }
    },
    "score": null,
+   "fpl": null,
    "alert": false
   },
   {
@@ -573,6 +587,7 @@
     }
    },
    "score": null,
+   "fpl": null,
    "alert": false
   },
   {
@@ -605,6 +620,7 @@
     }
    },
    "score": null,
+   "fpl": null,
    "alert": false
   },
   {
@@ -637,6 +653,7 @@
     }
    },
    "score": null,
+   "fpl": null,
    "alert": false
   },
   {
@@ -669,6 +686,7 @@
     }
    },
    "score": null,
+   "fpl": null,
    "alert": false
   },
   {
@@ -701,6 +719,7 @@
     }
    },
    "score": null,
+   "fpl": null,
    "alert": false
   },
   {
@@ -737,6 +756,7 @@
     }
    },
    "score": null,
+   "fpl": null,
    "alert": true
   },
   {
@@ -769,6 +789,7 @@
     }
    },
    "score": null,
+   "fpl": null,
    "alert": false
   },
   {
@@ -801,6 +822,7 @@
     }
    },
    "score": null,
+   "fpl": null,
    "alert": false
   },
   {
@@ -833,6 +855,7 @@
     }
    },
    "score": null,
+   "fpl": null,
    "alert": false
   },
   {
@@ -865,6 +888,7 @@
     }
    },
    "score": null,
+   "fpl": null,
    "alert": false
   },
   {
@@ -897,6 +921,7 @@
     }
    },
    "score": null,
+   "fpl": null,
    "alert": false
   },
   {
@@ -929,6 +954,7 @@
     }
    },
    "score": null,
+   "fpl": null,
    "alert": false
   },
   {
@@ -961,6 +987,7 @@
     }
    },
    "score": null,
+   "fpl": null,
    "alert": false
   },
   {
@@ -993,6 +1020,7 @@
     }
    },
    "score": null,
+   "fpl": null,
    "alert": false
   },
   {
@@ -1025,6 +1053,7 @@
     }
    },
    "score": null,
+   "fpl": null,
    "alert": false
   },
   {
@@ -1061,6 +1090,7 @@
     }
    },
    "score": null,
+   "fpl": null,
    "alert": true
   },
   {
@@ -1097,6 +1127,7 @@
     }
    },
    "score": null,
+   "fpl": null,
    "alert": true
   },
   {
@@ -1134,6 +1165,7 @@
     }
    },
    "score": null,
+   "fpl": null,
    "alert": false
   },
   {
@@ -1171,6 +1203,7 @@
     }
    },
    "score": null,
+   "fpl": null,
    "alert": false
   },
   {
@@ -1208,6 +1241,7 @@
     }
    },
    "score": null,
+   "fpl": null,
    "alert": false
   },
   {
@@ -1249,6 +1283,7 @@
     }
    },
    "score": null,
+   "fpl": null,
    "alert": true
   },
   {
@@ -1286,6 +1321,7 @@
     }
    },
    "score": null,
+   "fpl": null,
    "alert": false
   },
   {
@@ -1327,6 +1363,7 @@
     }
    },
    "score": null,
+   "fpl": null,
    "alert": true
   },
   {
@@ -1364,6 +1401,7 @@
     }
    },
    "score": null,
+   "fpl": null,
    "alert": false
   },
   {
@@ -1401,6 +1439,7 @@
     }
    },
    "score": null,
+   "fpl": null,
    "alert": false
   },
   {
@@ -1442,6 +1481,7 @@
     }
    },
    "score": null,
+   "fpl": null,
    "alert": true
   },
   {
@@ -1483,6 +1523,7 @@
     }
    },
    "score": null,
+   "fpl": null,
    "alert": true
   },
   {
@@ -1524,6 +1565,7 @@
     }
    },
    "score": null,
+   "fpl": null,
    "alert": true
   },
   {
@@ -1561,6 +1603,7 @@
     }
    },
    "score": null,
+   "fpl": null,
    "alert": false
   },
   {
@@ -1598,6 +1641,7 @@
     }
    },
    "score": null,
+   "fpl": null,
    "alert": false
   },
   {
@@ -1635,6 +1679,7 @@
     }
    },
    "score": null,
+   "fpl": null,
    "alert": false
   },
   {
@@ -1672,6 +1717,7 @@
     }
    },
    "score": null,
+   "fpl": null,
    "alert": false
   },
   {
@@ -1709,6 +1755,7 @@
     }
    },
    "score": null,
+   "fpl": null,
    "alert": false
   },
   {
@@ -1750,6 +1797,7 @@
     }
    },
    "score": null,
+   "fpl": null,
    "alert": true
   },
   {
@@ -1787,6 +1835,7 @@
     }
    },
    "score": null,
+   "fpl": null,
    "alert": false
   },
   {
@@ -1819,6 +1868,7 @@
     }
    },
    "score": null,
+   "fpl": null,
    "alert": false
   },
   {
@@ -1851,6 +1901,7 @@
     }
    },
    "score": null,
+   "fpl": null,
    "alert": false
   },
   {
@@ -1883,6 +1934,7 @@
     }
    },
    "score": null,
+   "fpl": null,
    "alert": false
   },
   {
@@ -1915,6 +1967,7 @@
     }
    },
    "score": null,
+   "fpl": null,
    "alert": false
   },
   {
@@ -1947,6 +2000,7 @@
     }
    },
    "score": null,
+   "fpl": null,
    "alert": false
   },
   {
@@ -1979,6 +2033,7 @@
     }
    },
    "score": null,
+   "fpl": null,
    "alert": false
   },
   {
@@ -2011,6 +2066,7 @@
     }
    },
    "score": null,
+   "fpl": null,
    "alert": false
   },
   {
@@ -2043,6 +2099,7 @@
     }
    },
    "score": null,
+   "fpl": null,
    "alert": false
   },
   {
@@ -2079,6 +2136,7 @@
     }
    },
    "score": null,
+   "fpl": null,
    "alert": true
   },
   {
@@ -2111,6 +2169,7 @@
     }
    },
    "score": null,
+   "fpl": null,
    "alert": false
   },
   {
@@ -2147,6 +2206,7 @@
     }
    },
    "score": null,
+   "fpl": null,
    "alert": true
   },
   {
@@ -2179,6 +2239,7 @@
     }
    },
    "score": null,
+   "fpl": null,
    "alert": false
   },
   {
@@ -2211,6 +2272,7 @@
     }
    },
    "score": null,
+   "fpl": null,
    "alert": false
   },
   {
@@ -2243,6 +2305,7 @@
     }
    },
    "score": null,
+   "fpl": null,
    "alert": false
   },
   {
@@ -2275,6 +2338,7 @@
     }
    },
    "score": null,
+   "fpl": null,
    "alert": false
   },
   {
@@ -2307,6 +2371,7 @@
     }
    },
    "score": null,
+   "fpl": null,
    "alert": false
   },
   {
@@ -2339,6 +2404,7 @@
     }
    },
    "score": null,
+   "fpl": null,
    "alert": false
   },
   {
@@ -2371,6 +2437,7 @@
     }
    },
    "score": null,
+   "fpl": null,
    "alert": false
   },
   {
@@ -2403,6 +2470,7 @@
     }
    },
    "score": null,
+   "fpl": null,
    "alert": false
   },
   {
@@ -2439,6 +2507,7 @@
     }
    },
    "score": null,
+   "fpl": null,
    "alert": true
   },
   {
@@ -2471,6 +2540,7 @@
     }
    },
    "score": null,
+   "fpl": null,
    "alert": false
   },
   {
@@ -2503,6 +2573,7 @@
     }
    },
    "score": null,
+   "fpl": null,
    "alert": false
   },
   {
@@ -2535,6 +2606,7 @@
     }
    },
    "score": null,
+   "fpl": null,
    "alert": false
   },
   {
@@ -2567,6 +2639,7 @@
     }
    },
    "score": null,
+   "fpl": null,
    "alert": false
   },
   {
@@ -2599,6 +2672,7 @@
     }
    },
    "score": null,
+   "fpl": null,
    "alert": false
   },
   {
@@ -2635,6 +2709,7 @@
     }
    },
    "score": null,
+   "fpl": null,
    "alert": true
   },
   {
@@ -2667,6 +2742,7 @@
     }
    },
    "score": null,
+   "fpl": null,
    "alert": false
   },
   {
@@ -2699,6 +2775,7 @@
     }
    },
    "score": null,
+   "fpl": null,
    "alert": false
   },
   {
@@ -2735,6 +2812,7 @@
     }
    },
    "score": null,
+   "fpl": null,
    "alert": true
   },
   {
@@ -2767,6 +2845,7 @@
     }
    },
    "score": null,
+   "fpl": null,
    "alert": false
   },
   {
@@ -2804,6 +2883,7 @@
     }
    },
    "score": null,
+   "fpl": null,
    "alert": false
   },
   {
@@ -2841,6 +2921,7 @@
     }
    },
    "score": null,
+   "fpl": null,
    "alert": false
   },
   {
@@ -2878,6 +2959,7 @@
     }
    },
    "score": null,
+   "fpl": null,
    "alert": false
   },
   {
@@ -2919,6 +3001,7 @@
     }
    },
    "score": null,
+   "fpl": null,
    "alert": true
   },
   {
@@ -2956,6 +3039,7 @@
     }
    },
    "score": null,
+   "fpl": null,
    "alert": false
   },
   {
@@ -2993,6 +3077,7 @@
     }
    },
    "score": null,
+   "fpl": null,
    "alert": false
   },
   {
@@ -3030,6 +3115,7 @@
     }
    },
    "score": null,
+   "fpl": null,
    "alert": false
   },
   {
@@ -3067,6 +3153,7 @@
     }
    },
    "score": null,
+   "fpl": null,
    "alert": false
   },
   {
@@ -3104,6 +3191,7 @@
     }
    },
    "score": null,
+   "fpl": null,
    "alert": false
   },
   {
@@ -3141,6 +3229,7 @@
     }
    },
    "score": null,
+   "fpl": null,
    "alert": false
   },
   {
@@ -3178,6 +3267,7 @@
     }
    },
    "score": null,
+   "fpl": null,
    "alert": false
   },
   {
@@ -3219,6 +3309,7 @@
     }
    },
    "score": null,
+   "fpl": null,
    "alert": true
   },
   {
@@ -3256,6 +3347,7 @@
     }
    },
    "score": null,
+   "fpl": null,
    "alert": false
   },
   {
@@ -3293,6 +3385,7 @@
     }
    },
    "score": null,
+   "fpl": null,
    "alert": false
   },
   {
@@ -3334,6 +3427,7 @@
     }
    },
    "score": null,
+   "fpl": null,
    "alert": true
   },
   {
@@ -3371,6 +3465,7 @@
     }
    },
    "score": null,
+   "fpl": null,
    "alert": false
   },
   {
@@ -3408,6 +3503,7 @@
     }
    },
    "score": null,
+   "fpl": null,
    "alert": false
   },
   {
@@ -3445,6 +3541,7 @@
     }
    },
    "score": null,
+   "fpl": null,
    "alert": false
   },
   {
@@ -3477,6 +3574,7 @@
     }
    },
    "score": null,
+   "fpl": null,
    "alert": false
   },
   {
@@ -3509,6 +3607,7 @@
     }
    },
    "score": null,
+   "fpl": null,
    "alert": false
   },
   {
@@ -3541,6 +3640,7 @@
     }
    },
    "score": null,
+   "fpl": null,
    "alert": false
   },
   {
@@ -3573,6 +3673,7 @@
     }
    },
    "score": null,
+   "fpl": null,
    "alert": false
   },
   {
@@ -3605,6 +3706,7 @@
     }
    },
    "score": null,
+   "fpl": null,
    "alert": false
   },
   {
@@ -3637,6 +3739,7 @@
     }
    },
    "score": null,
+   "fpl": null,
    "alert": false
   },
   {
@@ -3673,6 +3776,7 @@
     }
    },
    "score": null,
+   "fpl": null,
    "alert": true
   },
   {
@@ -3709,6 +3813,7 @@
     }
    },
    "score": null,
+   "fpl": null,
    "alert": true
   },
   {
@@ -3741,6 +3846,7 @@
     }
    },
    "score": null,
+   "fpl": null,
    "alert": false
   },
   {
@@ -3773,6 +3879,7 @@
     }
    },
    "score": null,
+   "fpl": null,
    "alert": false
   },
   {
@@ -3810,6 +3917,7 @@
     }
    },
    "score": null,
+   "fpl": null,
    "alert": false
   },
   {
@@ -3847,6 +3955,7 @@
     }
    },
    "score": null,
+   "fpl": null,
    "alert": false
   },
   {
@@ -3884,6 +3993,7 @@
     }
    },
    "score": null,
+   "fpl": null,
    "alert": false
   },
   {
@@ -3921,6 +4031,7 @@
     }
    },
    "score": null,
+   "fpl": null,
    "alert": false
   },
   {
@@ -3958,6 +4069,7 @@
     }
    },
    "score": null,
+   "fpl": null,
    "alert": false
   },
   {
@@ -3995,6 +4107,7 @@
     }
    },
    "score": null,
+   "fpl": null,
    "alert": false
   },
   {
@@ -4032,6 +4145,7 @@
     }
    },
    "score": null,
+   "fpl": null,
    "alert": false
   },
   {
@@ -4073,6 +4187,7 @@
     }
    },
    "score": null,
+   "fpl": null,
    "alert": true
   },
   {
@@ -4110,6 +4225,7 @@
     }
    },
    "score": null,
+   "fpl": null,
    "alert": false
   },
   {
@@ -4151,6 +4267,7 @@
     }
    },
    "score": null,
+   "fpl": null,
    "alert": true
   },
   {
@@ -4188,6 +4305,7 @@
     }
    },
    "score": null,
+   "fpl": null,
    "alert": false
   },
   {
@@ -4225,6 +4343,7 @@
     }
    },
    "score": null,
+   "fpl": null,
    "alert": false
   },
   {
@@ -4266,6 +4385,7 @@
     }
    },
    "score": null,
+   "fpl": null,
    "alert": true
   },
   {
@@ -4303,6 +4423,7 @@
     }
    },
    "score": null,
+   "fpl": null,
    "alert": false
   },
   {
@@ -4340,6 +4461,7 @@
     }
    },
    "score": null,
+   "fpl": null,
    "alert": false
   },
   {
@@ -4377,6 +4499,7 @@
     }
    },
    "score": null,
+   "fpl": null,
    "alert": false
   },
   {
@@ -4414,6 +4537,7 @@
     }
    },
    "score": null,
+   "fpl": null,
    "alert": false
   },
   {
@@ -4451,6 +4575,7 @@
     }
    },
    "score": null,
+   "fpl": null,
    "alert": false
   },
   {
@@ -4483,6 +4608,7 @@
     }
    },
    "score": null,
+   "fpl": null,
    "alert": false
   },
   {
@@ -4515,6 +4641,7 @@
     }
    },
    "score": null,
+   "fpl": null,
    "alert": false
   },
   {
@@ -4547,6 +4674,7 @@
     }
    },
    "score": null,
+   "fpl": null,
    "alert": false
   },
   {
@@ -4579,6 +4707,7 @@
     }
    },
    "score": null,
+   "fpl": null,
    "alert": false
   },
   {
@@ -4611,6 +4740,7 @@
     }
    },
    "score": null,
+   "fpl": null,
    "alert": false
   },
   {
@@ -4647,6 +4777,7 @@
     }
    },
    "score": null,
+   "fpl": null,
    "alert": true
   },
   {
@@ -4679,6 +4810,7 @@
     }
    },
    "score": null,
+   "fpl": null,
    "alert": false
   },
   {
@@ -4715,6 +4847,7 @@
     }
    },
    "score": null,
+   "fpl": null,
    "alert": true
   },
   {
@@ -4747,6 +4880,7 @@
     }
    },
    "score": null,
+   "fpl": null,
    "alert": false
   },
   {
@@ -4779,6 +4913,7 @@
     }
    },
    "score": null,
+   "fpl": null,
    "alert": false
   },
   {
@@ -4815,6 +4950,7 @@
     }
    },
    "score": null,
+   "fpl": null,
    "alert": true
   },
   {
@@ -4847,6 +4983,7 @@
     }
    },
    "score": null,
+   "fpl": null,
    "alert": false
   },
   {
@@ -4879,6 +5016,7 @@
     }
    },
    "score": null,
+   "fpl": null,
    "alert": false
   },
   {
@@ -4911,6 +5049,7 @@
     }
    },
    "score": null,
+   "fpl": null,
    "alert": false
   },
   {
@@ -4943,6 +5082,7 @@
     }
    },
    "score": null,
+   "fpl": null,
    "alert": false
   },
   {
@@ -4975,6 +5115,7 @@
     }
    },
    "score": null,
+   "fpl": null,
    "alert": false
   },
   {
@@ -5007,6 +5148,7 @@
     }
    },
    "score": null,
+   "fpl": null,
    "alert": false
   },
   {
@@ -5039,6 +5181,7 @@
     }
    },
    "score": null,
+   "fpl": null,
    "alert": false
   },
   {
@@ -5075,6 +5218,7 @@
     }
    },
    "score": null,
+   "fpl": null,
    "alert": true
   },
   {
@@ -5107,6 +5251,7 @@
     }
    },
    "score": null,
+   "fpl": null,
    "alert": false
   },
   {
@@ -5144,6 +5289,7 @@
     }
    },
    "score": null,
+   "fpl": null,
    "alert": false
   },
   {
@@ -5181,6 +5327,7 @@
     }
    },
    "score": null,
+   "fpl": null,
    "alert": false
   },
   {
@@ -5222,6 +5369,7 @@
     }
    },
    "score": null,
+   "fpl": null,
    "alert": true
   },
   {
@@ -5259,6 +5407,7 @@
     }
    },
    "score": null,
+   "fpl": null,
    "alert": false
   },
   {
@@ -5296,6 +5445,7 @@
     }
    },
    "score": null,
+   "fpl": null,
    "alert": false
   },
   {
@@ -5333,6 +5483,7 @@
     }
    },
    "score": null,
+   "fpl": null,
    "alert": false
   },
   {
@@ -5370,6 +5521,7 @@
     }
    },
    "score": null,
+   "fpl": null,
    "alert": false
   },
   {
@@ -5411,6 +5563,7 @@
     }
    },
    "score": null,
+   "fpl": null,
    "alert": true
   },
   {
@@ -5452,6 +5605,7 @@
     }
    },
    "score": null,
+   "fpl": null,
    "alert": true
   },
   {
@@ -5489,6 +5643,7 @@
     }
    },
    "score": null,
+   "fpl": null,
    "alert": false
   },
   {
@@ -5526,6 +5681,7 @@
     }
    },
    "score": null,
+   "fpl": null,
    "alert": false
   },
   {
@@ -5563,6 +5719,7 @@
     }
    },
    "score": null,
+   "fpl": null,
    "alert": false
   },
   {
@@ -5604,6 +5761,7 @@
     }
    },
    "score": null,
+   "fpl": null,
    "alert": true
   },
   {
@@ -5641,6 +5799,7 @@
     }
    },
    "score": null,
+   "fpl": null,
    "alert": false
   },
   {
@@ -5678,6 +5837,7 @@
     }
    },
    "score": null,
+   "fpl": null,
    "alert": false
   },
   {
@@ -5715,6 +5875,7 @@
     }
    },
    "score": null,
+   "fpl": null,
    "alert": false
   },
   {
@@ -5752,6 +5913,7 @@
     }
    },
    "score": null,
+   "fpl": null,
    "alert": false
   },
   {
@@ -5789,6 +5951,7 @@
     }
    },
    "score": null,
+   "fpl": null,
    "alert": false
   },
   {
@@ -5821,6 +5984,7 @@
     }
    },
    "score": null,
+   "fpl": null,
    "alert": false
   },
   {
@@ -5853,6 +6017,7 @@
     }
    },
    "score": null,
+   "fpl": null,
    "alert": false
   },
   {
@@ -5885,6 +6050,7 @@
     }
    },
    "score": null,
+   "fpl": null,
    "alert": false
   },
   {
@@ -5917,6 +6083,7 @@
     }
    },
    "score": null,
+   "fpl": null,
    "alert": false
   },
   {
@@ -5949,6 +6116,7 @@
     }
    },
    "score": null,
+   "fpl": null,
    "alert": false
   },
   {
@@ -5981,6 +6149,7 @@
     }
    },
    "score": null,
+   "fpl": null,
    "alert": false
   },
   {
@@ -6013,6 +6182,7 @@
     }
    },
    "score": null,
+   "fpl": null,
    "alert": false
   },
   {
@@ -6045,6 +6215,7 @@
     }
    },
    "score": null,
+   "fpl": null,
    "alert": false
   },
   {
@@ -6077,6 +6248,7 @@
     }
    },
    "score": null,
+   "fpl": null,
    "alert": false
   },
   {
@@ -6113,6 +6285,7 @@
     }
    },
    "score": null,
+   "fpl": null,
    "alert": true
   },
   {
@@ -6145,6 +6318,7 @@
     }
    },
    "score": null,
+   "fpl": null,
    "alert": false
   },
   {
@@ -6177,6 +6351,7 @@
     }
    },
    "score": null,
+   "fpl": null,
    "alert": false
   },
   {
@@ -6209,6 +6384,7 @@
     }
    },
    "score": null,
+   "fpl": null,
    "alert": false
   },
   {
@@ -6245,6 +6421,7 @@
     }
    },
    "score": null,
+   "fpl": null,
    "alert": true
   },
   {
@@ -6277,6 +6454,7 @@
     }
    },
    "score": null,
+   "fpl": null,
    "alert": false
   },
   {
@@ -6309,6 +6487,7 @@
     }
    },
    "score": null,
+   "fpl": null,
    "alert": false
   },
   {
@@ -6341,6 +6520,7 @@
     }
    },
    "score": null,
+   "fpl": null,
    "alert": false
   },
   {
@@ -6373,6 +6553,7 @@
     }
    },
    "score": null,
+   "fpl": null,
    "alert": false
   },
   {
@@ -6405,6 +6586,7 @@
     }
    },
    "score": null,
+   "fpl": null,
    "alert": false
   },
   {
@@ -6437,6 +6619,7 @@
     }
    },
    "score": null,
+   "fpl": null,
    "alert": false
   },
   {
@@ -6474,6 +6657,7 @@
     }
    },
    "score": null,
+   "fpl": null,
    "alert": false
   },
   {
@@ -6511,6 +6695,7 @@
     }
    },
    "score": null,
+   "fpl": null,
    "alert": false
   },
   {
@@ -6552,6 +6737,7 @@
     }
    },
    "score": null,
+   "fpl": null,
    "alert": true
   },
   {
@@ -6589,6 +6775,7 @@
     }
    },
    "score": null,
+   "fpl": null,
    "alert": false
   },
   {
@@ -6626,6 +6813,7 @@
     }
    },
    "score": null,
+   "fpl": null,
    "alert": false
   },
   {
@@ -6667,6 +6855,7 @@
     }
    },
    "score": null,
+   "fpl": null,
    "alert": true
   },
   {
@@ -6704,6 +6893,7 @@
     }
    },
    "score": null,
+   "fpl": null,
    "alert": false
   },
   {
@@ -6741,6 +6931,7 @@
     }
    },
    "score": null,
+   "fpl": null,
    "alert": false
   },
   {
@@ -6778,6 +6969,7 @@
     }
    },
    "score": null,
+   "fpl": null,
    "alert": false
   },
   {
@@ -6815,6 +7007,7 @@
     }
    },
    "score": null,
+   "fpl": null,
    "alert": false
   },
   {
@@ -6852,6 +7045,7 @@
     }
    },
    "score": null,
+   "fpl": null,
    "alert": false
   },
   {
@@ -6889,6 +7083,7 @@
     }
    },
    "score": null,
+   "fpl": null,
    "alert": false
   },
   {
@@ -6926,6 +7121,7 @@
     }
    },
    "score": null,
+   "fpl": null,
    "alert": false
   },
   {
@@ -6963,6 +7159,7 @@
     }
    },
    "score": null,
+   "fpl": null,
    "alert": false
   },
   {
@@ -7000,6 +7197,7 @@
     }
    },
    "score": null,
+   "fpl": null,
    "alert": false
   },
   {
@@ -7041,6 +7239,7 @@
     }
    },
    "score": null,
+   "fpl": null,
    "alert": true
   },
   {
@@ -7078,6 +7277,7 @@
     }
    },
    "score": null,
+   "fpl": null,
    "alert": false
   },
   {
@@ -7119,6 +7319,7 @@
     }
    },
    "score": null,
+   "fpl": null,
    "alert": true
   },
   {
@@ -7151,6 +7352,7 @@
     }
    },
    "score": null,
+   "fpl": null,
    "alert": false
   },
   {
@@ -7183,6 +7385,7 @@
     }
    },
    "score": null,
+   "fpl": null,
    "alert": false
   },
   {
@@ -7219,6 +7422,7 @@
     }
    },
    "score": null,
+   "fpl": null,
    "alert": true
   },
   {
@@ -7255,6 +7459,7 @@
     }
    },
    "score": null,
+   "fpl": null,
    "alert": true
   },
   {
@@ -7291,6 +7496,7 @@
     }
    },
    "score": null,
+   "fpl": null,
    "alert": true
   },
   {
@@ -7323,6 +7529,7 @@
     }
    },
    "score": null,
+   "fpl": null,
    "alert": false
   },
   {
@@ -7355,6 +7562,7 @@
     }
    },
    "score": null,
+   "fpl": null,
    "alert": false
   },
   {
@@ -7387,6 +7595,7 @@
     }
    },
    "score": null,
+   "fpl": null,
    "alert": false
   },
   {
@@ -7419,6 +7628,7 @@
     }
    },
    "score": null,
+   "fpl": null,
    "alert": false
   },
   {
@@ -7451,6 +7661,7 @@
     }
    },
    "score": null,
+   "fpl": null,
    "alert": false
   },
   {
@@ -7483,6 +7694,7 @@
     }
    },
    "score": null,
+   "fpl": null,
    "alert": false
   },
   {
@@ -7515,6 +7727,7 @@
     }
    },
    "score": null,
+   "fpl": null,
    "alert": false
   },
   {
@@ -7547,6 +7760,7 @@
     }
    },
    "score": null,
+   "fpl": null,
    "alert": false
   },
   {
@@ -7579,6 +7793,7 @@
     }
    },
    "score": null,
+   "fpl": null,
    "alert": false
   },
   {
@@ -7611,6 +7826,7 @@
     }
    },
    "score": null,
+   "fpl": null,
    "alert": false
   },
   {
@@ -7643,6 +7859,7 @@
     }
    },
    "score": null,
+   "fpl": null,
    "alert": false
   },
   {
@@ -7675,6 +7892,7 @@
     }
    },
    "score": null,
+   "fpl": null,
    "alert": false
   },
   {
@@ -7707,6 +7925,7 @@
     }
    },
    "score": null,
+   "fpl": null,
    "alert": false
   },
   {
@@ -7743,6 +7962,7 @@
     }
    },
    "score": null,
+   "fpl": null,
    "alert": true
   },
   {
@@ -7775,6 +7995,7 @@
     }
    },
    "score": null,
+   "fpl": null,
    "alert": false
   },
   {
@@ -7811,6 +8032,7 @@
     }
    },
    "score": null,
+   "fpl": null,
    "alert": true
   },
   {
@@ -7847,6 +8069,7 @@
     }
    },
    "score": null,
+   "fpl": null,
    "alert": true
   },
   {
@@ -7879,6 +8102,7 @@
     }
    },
    "score": null,
+   "fpl": null,
    "alert": false
   },
   {
@@ -7915,6 +8139,7 @@
     }
    },
    "score": null,
+   "fpl": null,
    "alert": true
   },
   {
@@ -7951,6 +8176,7 @@
     }
    },
    "score": null,
+   "fpl": null,
    "alert": true
   },
   {
@@ -7983,6 +8209,7 @@
     }
    },
    "score": null,
+   "fpl": null,
    "alert": false
   },
   {
@@ -8015,6 +8242,7 @@
     }
    },
    "score": null,
+   "fpl": null,
    "alert": false
   },
   {
@@ -8047,6 +8275,7 @@
     }
    },
    "score": null,
+   "fpl": null,
    "alert": false
   },
   {
@@ -8079,6 +8308,7 @@
     }
    },
    "score": null,
+   "fpl": null,
    "alert": false
   },
   {
@@ -8111,6 +8341,7 @@
     }
    },
    "score": null,
+   "fpl": null,
    "alert": false
   },
   {
@@ -8148,6 +8379,7 @@
     }
    },
    "score": null,
+   "fpl": null,
    "alert": false
   },
   {
@@ -8185,6 +8417,7 @@
     }
    },
    "score": null,
+   "fpl": null,
    "alert": false
   },
   {
@@ -8222,6 +8455,7 @@
     }
    },
    "score": null,
+   "fpl": null,
    "alert": false
   },
   {
@@ -8259,6 +8493,7 @@
     }
    },
    "score": null,
+   "fpl": null,
    "alert": false
   },
   {
@@ -8300,6 +8535,7 @@
     }
    },
    "score": null,
+   "fpl": null,
    "alert": true
   },
   {
@@ -8341,6 +8577,7 @@
     }
    },
    "score": null,
+   "fpl": null,
    "alert": true
   },
   {
@@ -8378,6 +8615,7 @@
     }
    },
    "score": null,
+   "fpl": null,
    "alert": false
   },
   {
@@ -8419,6 +8657,7 @@
     }
    },
    "score": null,
+   "fpl": null,
    "alert": true
   },
   {
@@ -8456,6 +8695,7 @@
     }
    },
    "score": null,
+   "fpl": null,
    "alert": false
   },
   {
@@ -8493,6 +8733,7 @@
     }
    },
    "score": null,
+   "fpl": null,
    "alert": false
   },
   {
@@ -8530,6 +8771,7 @@
     }
    },
    "score": null,
+   "fpl": null,
    "alert": false
   },
   {
@@ -8571,6 +8813,7 @@
     }
    },
    "score": null,
+   "fpl": null,
    "alert": true
   },
   {
@@ -8612,6 +8855,7 @@
     }
    },
    "score": null,
+   "fpl": null,
    "alert": true
   },
   {
@@ -8649,6 +8893,7 @@
     }
    },
    "score": null,
+   "fpl": null,
    "alert": false
   },
   {
@@ -8686,6 +8931,7 @@
     }
    },
    "score": null,
+   "fpl": null,
    "alert": false
   },
   {
@@ -8727,6 +8973,7 @@
     }
    },
    "score": null,
+   "fpl": null,
    "alert": true
   },
   {
@@ -8764,6 +9011,7 @@
     }
    },
    "score": null,
+   "fpl": null,
    "alert": false
   },
   {
@@ -8801,6 +9049,7 @@
     }
    },
    "score": null,
+   "fpl": null,
    "alert": false
   },
   {
@@ -8833,6 +9082,7 @@
     }
    },
    "score": null,
+   "fpl": null,
    "alert": false
   },
   {
@@ -8869,6 +9119,7 @@
     }
    },
    "score": null,
+   "fpl": null,
    "alert": true
   },
   {
@@ -8901,6 +9152,7 @@
     }
    },
    "score": null,
+   "fpl": null,
    "alert": false
   },
   {
@@ -8933,6 +9185,7 @@
     }
    },
    "score": null,
+   "fpl": null,
    "alert": false
   },
   {
@@ -8965,6 +9218,7 @@
     }
    },
    "score": null,
+   "fpl": null,
    "alert": false
   },
   {
@@ -8997,6 +9251,7 @@
     }
    },
    "score": null,
+   "fpl": null,
    "alert": false
   },
   {
@@ -9029,6 +9284,7 @@
     }
    },
    "score": null,
+   "fpl": null,
    "alert": false
   },
   {
@@ -9065,6 +9321,7 @@
     }
    },
    "score": null,
+   "fpl": null,
    "alert": true
   },
   {
@@ -9097,6 +9354,7 @@
     }
    },
    "score": null,
+   "fpl": null,
    "alert": false
   },
   {
@@ -9133,6 +9391,7 @@
     }
    },
    "score": null,
+   "fpl": null,
    "alert": true
   },
   {
@@ -9165,6 +9424,7 @@
     }
    },
    "score": null,
+   "fpl": null,
    "alert": false
   },
   {
@@ -9197,6 +9457,7 @@
     }
    },
    "score": null,
+   "fpl": null,
    "alert": false
   },
   {
@@ -9229,6 +9490,7 @@
     }
    },
    "score": null,
+   "fpl": null,
    "alert": false
   },
   {
@@ -9261,6 +9523,7 @@
     }
    },
    "score": null,
+   "fpl": null,
    "alert": false
   },
   {
@@ -9293,6 +9556,7 @@
     }
    },
    "score": null,
+   "fpl": null,
    "alert": false
   },
   {
@@ -9325,6 +9589,7 @@
     }
    },
    "score": null,
+   "fpl": null,
    "alert": false
   },
   {
@@ -9357,6 +9622,7 @@
     }
    },
    "score": null,
+   "fpl": null,
    "alert": false
   },
   {
@@ -9393,6 +9659,7 @@
     }
    },
    "score": null,
+   "fpl": null,
    "alert": true
   },
   {
@@ -9429,6 +9696,7 @@
     }
    },
    "score": null,
+   "fpl": null,
    "alert": true
   },
   {
@@ -9461,6 +9729,7 @@
     }
    },
    "score": null,
+   "fpl": null,
    "alert": false
   },
   {
@@ -9493,6 +9762,7 @@
     }
    },
    "score": null,
+   "fpl": null,
    "alert": false
   },
   {
@@ -9529,6 +9799,7 @@
     }
    },
    "score": null,
+   "fpl": null,
    "alert": true
   },
   {
@@ -9561,6 +9832,7 @@
     }
    },
    "score": null,
+   "fpl": null,
    "alert": false
   },
   {
@@ -9593,6 +9865,7 @@
     }
    },
    "score": null,
+   "fpl": null,
    "alert": false
   },
   {
@@ -9625,6 +9898,7 @@
     }
    },
    "score": null,
+   "fpl": null,
    "alert": false
   },
   {
@@ -9657,6 +9931,7 @@
     }
    },
    "score": null,
+   "fpl": null,
    "alert": false
   },
   {
@@ -9689,6 +9964,7 @@
     }
    },
    "score": null,
+   "fpl": null,
    "alert": false
   },
   {
@@ -9721,6 +9997,7 @@
     }
    },
    "score": null,
+   "fpl": null,
    "alert": false
   },
   {
@@ -9753,6 +10030,7 @@
     }
    },
    "score": null,
+   "fpl": null,
    "alert": false
   },
   {
@@ -9785,6 +10063,7 @@
     }
    },
    "score": null,
+   "fpl": null,
    "alert": false
   },
   {
@@ -9817,6 +10096,7 @@
     }
    },
    "score": null,
+   "fpl": null,
    "alert": false
   },
   {
@@ -9849,6 +10129,7 @@
     }
    },
    "score": null,
+   "fpl": null,
    "alert": false
   },
   {
@@ -9881,6 +10162,7 @@
     }
    },
    "score": null,
+   "fpl": null,
    "alert": false
   },
   {
@@ -9913,6 +10195,7 @@
     }
    },
    "score": null,
+   "fpl": null,
    "alert": false
   },
   {
@@ -9945,6 +10228,7 @@
     }
    },
    "score": null,
+   "fpl": null,
    "alert": false
   },
   {
@@ -9981,6 +10265,7 @@
     }
    },
    "score": null,
+   "fpl": null,
    "alert": true
   },
   {
@@ -10013,6 +10298,7 @@
     }
    },
    "score": null,
+   "fpl": null,
    "alert": false
   },
   {
@@ -10045,6 +10331,7 @@
     }
    },
    "score": null,
+   "fpl": null,
    "alert": false
   },
   {
@@ -10077,6 +10364,7 @@
     }
    },
    "score": null,
+   "fpl": null,
    "alert": false
   },
   {
@@ -10109,6 +10397,7 @@
     }
    },
    "score": null,
+   "fpl": null,
    "alert": false
   },
   {
@@ -10141,6 +10430,7 @@
     }
    },
    "score": null,
+   "fpl": null,
    "alert": false
   },
   {
@@ -10173,6 +10463,7 @@
     }
    },
    "score": null,
+   "fpl": null,
    "alert": false
   },
   {
@@ -10205,6 +10496,7 @@
     }
    },
    "score": null,
+   "fpl": null,
    "alert": false
   },
   {
@@ -10237,6 +10529,7 @@
     }
    },
    "score": null,
+   "fpl": null,
    "alert": false
   },
   {
@@ -10269,6 +10562,7 @@
     }
    },
    "score": null,
+   "fpl": null,
    "alert": false
   },
   {
@@ -10301,6 +10595,7 @@
     }
    },
    "score": null,
+   "fpl": null,
    "alert": false
   },
   {
@@ -10333,6 +10628,7 @@
     }
    },
    "score": null,
+   "fpl": null,
    "alert": false
   },
   {
@@ -10365,6 +10661,7 @@
     }
    },
    "score": null,
+   "fpl": null,
    "alert": false
   },
   {
@@ -10401,6 +10698,7 @@
     }
    },
    "score": null,
+   "fpl": null,
    "alert": true
   },
   {
@@ -10437,6 +10735,7 @@
     }
    },
    "score": null,
+   "fpl": null,
    "alert": true
   },
   {
@@ -10469,6 +10768,7 @@
     }
    },
    "score": null,
+   "fpl": null,
    "alert": false
   },
   {
@@ -10501,6 +10801,7 @@
     }
    },
    "score": null,
+   "fpl": null,
    "alert": false
   },
   {
@@ -10537,6 +10838,7 @@
     }
    },
    "score": null,
+   "fpl": null,
    "alert": true
   },
   {
@@ -10569,6 +10871,7 @@
     }
    },
    "score": null,
+   "fpl": null,
    "alert": false
   },
   {
@@ -10601,6 +10904,7 @@
     }
    },
    "score": null,
+   "fpl": null,
    "alert": false
   },
   {
@@ -10633,6 +10937,7 @@
     }
    },
    "score": null,
+   "fpl": null,
    "alert": false
   },
   {
@@ -10665,6 +10970,7 @@
     }
    },
    "score": null,
+   "fpl": null,
    "alert": false
   },
   {
@@ -10697,6 +11003,7 @@
     }
    },
    "score": null,
+   "fpl": null,
    "alert": false
   },
   {
@@ -10729,6 +11036,7 @@
     }
    },
    "score": null,
+   "fpl": null,
    "alert": false
   },
   {
@@ -10761,6 +11069,7 @@
     }
    },
    "score": null,
+   "fpl": null,
    "alert": false
   },
   {
@@ -10793,6 +11102,7 @@
     }
    },
    "score": null,
+   "fpl": null,
    "alert": false
   },
   {
@@ -10825,6 +11135,7 @@
     }
    },
    "score": null,
+   "fpl": null,
    "alert": false
   },
   {
@@ -10857,6 +11168,7 @@
     }
    },
    "score": null,
+   "fpl": null,
    "alert": false
   },
   {
@@ -10889,6 +11201,7 @@
     }
    },
    "score": null,
+   "fpl": null,
    "alert": false
   },
   {
@@ -10925,6 +11238,7 @@
     }
    },
    "score": null,
+   "fpl": null,
    "alert": true
   },
   {
@@ -10957,6 +11271,7 @@
     }
    },
    "score": null,
+   "fpl": null,
    "alert": false
   },
   {
@@ -10989,6 +11304,7 @@
     }
    },
    "score": null,
+   "fpl": null,
    "alert": false
   },
   {
@@ -11021,6 +11337,7 @@
     }
    },
    "score": null,
+   "fpl": null,
    "alert": false
   },
   {
@@ -11053,6 +11370,7 @@
     }
    },
    "score": null,
+   "fpl": null,
    "alert": false
   },
   {
@@ -11085,6 +11403,7 @@
     }
    },
    "score": null,
+   "fpl": null,
    "alert": false
   },
   {
@@ -11122,6 +11441,7 @@
     }
    },
    "score": null,
+   "fpl": null,
    "alert": false
   },
   {
@@ -11159,6 +11479,7 @@
     }
    },
    "score": null,
+   "fpl": null,
    "alert": false
   },
   {
@@ -11196,6 +11517,7 @@
     }
    },
    "score": null,
+   "fpl": null,
    "alert": false
   },
   {
@@ -11233,6 +11555,7 @@
     }
    },
    "score": null,
+   "fpl": null,
    "alert": false
   },
   {
@@ -11270,6 +11593,7 @@
     }
    },
    "score": null,
+   "fpl": null,
    "alert": false
   },
   {
@@ -11311,6 +11635,7 @@
     }
    },
    "score": null,
+   "fpl": null,
    "alert": true
   },
   {
@@ -11348,6 +11673,7 @@
     }
    },
    "score": null,
+   "fpl": null,
    "alert": false
   },
   {
@@ -11385,6 +11711,7 @@
     }
    },
    "score": null,
+   "fpl": null,
    "alert": false
   },
   {
@@ -11422,6 +11749,7 @@
     }
    },
    "score": null,
+   "fpl": null,
    "alert": false
   },
   {
@@ -11459,6 +11787,7 @@
     }
    },
    "score": null,
+   "fpl": null,
    "alert": false
   },
   {
@@ -11496,6 +11825,7 @@
     }
    },
    "score": null,
+   "fpl": null,
    "alert": false
   },
   {
@@ -11537,6 +11867,7 @@
     }
    },
    "score": null,
+   "fpl": null,
    "alert": true
   },
   {
@@ -11574,6 +11905,7 @@
     }
    },
    "score": null,
+   "fpl": null,
    "alert": false
   },
   {
@@ -11615,6 +11947,7 @@
     }
    },
    "score": null,
+   "fpl": null,
    "alert": true
   },
   {
@@ -11652,6 +11985,7 @@
     }
    },
    "score": null,
+   "fpl": null,
    "alert": false
   },
   {
@@ -11689,6 +12023,7 @@
     }
    },
    "score": null,
+   "fpl": null,
    "alert": false
   },
   {
@@ -11726,6 +12061,7 @@
     }
    },
    "score": null,
+   "fpl": null,
    "alert": false
   },
   {
@@ -11763,6 +12099,7 @@
     }
    },
    "score": null,
+   "fpl": null,
    "alert": false
   },
   {
@@ -11795,6 +12132,7 @@
     }
    },
    "score": null,
+   "fpl": null,
    "alert": false
   },
   {
@@ -11827,6 +12165,7 @@
     }
    },
    "score": null,
+   "fpl": null,
    "alert": false
   },
   {
@@ -11859,6 +12198,7 @@
     }
    },
    "score": null,
+   "fpl": null,
    "alert": false
   },
   {
@@ -11891,6 +12231,7 @@
     }
    },
    "score": null,
+   "fpl": null,
    "alert": false
   },
   {
@@ -11923,6 +12264,7 @@
     }
    },
    "score": null,
+   "fpl": null,
    "alert": false
   },
   {
@@ -11955,6 +12297,7 @@
     }
    },
    "score": null,
+   "fpl": null,
    "alert": false
   },
   {
@@ -11987,6 +12330,7 @@
     }
    },
    "score": null,
+   "fpl": null,
    "alert": false
   },
   {
@@ -12023,6 +12367,7 @@
     }
    },
    "score": null,
+   "fpl": null,
    "alert": true
   },
   {
@@ -12055,6 +12400,7 @@
     }
    },
    "score": null,
+   "fpl": null,
    "alert": false
   },
   {
@@ -12087,6 +12433,7 @@
     }
    },
    "score": null,
+   "fpl": null,
    "alert": false
   },
   {
@@ -12124,6 +12471,7 @@
     }
    },
    "score": null,
+   "fpl": null,
    "alert": false
   },
   {
@@ -12161,6 +12509,7 @@
     }
    },
    "score": null,
+   "fpl": null,
    "alert": false
   },
   {
@@ -12198,6 +12547,7 @@
     }
    },
    "score": null,
+   "fpl": null,
    "alert": false
   },
   {
@@ -12235,6 +12585,7 @@
     }
    },
    "score": null,
+   "fpl": null,
    "alert": false
   },
   {
@@ -12272,6 +12623,7 @@
     }
    },
    "score": null,
+   "fpl": null,
    "alert": false
   },
   {
@@ -12309,6 +12661,7 @@
     }
    },
    "score": null,
+   "fpl": null,
    "alert": false
   },
   {
@@ -12346,6 +12699,7 @@
     }
    },
    "score": null,
+   "fpl": null,
    "alert": false
   },
   {
@@ -12383,6 +12737,7 @@
     }
    },
    "score": null,
+   "fpl": null,
    "alert": false
   },
   {
@@ -12420,6 +12775,7 @@
     }
    },
    "score": null,
+   "fpl": null,
    "alert": false
   },
   {
@@ -12457,6 +12813,7 @@
     }
    },
    "score": null,
+   "fpl": null,
    "alert": false
   },
   {
@@ -12494,6 +12851,7 @@
     }
    },
    "score": null,
+   "fpl": null,
    "alert": false
   },
   {
@@ -12531,6 +12889,7 @@
     }
    },
    "score": null,
+   "fpl": null,
    "alert": false
   },
   {
@@ -12572,6 +12931,7 @@
     }
    },
    "score": null,
+   "fpl": null,
    "alert": true
   },
   {
@@ -12609,6 +12969,7 @@
     }
    },
    "score": null,
+   "fpl": null,
    "alert": false
   },
   {
@@ -12646,6 +13007,7 @@
     }
    },
    "score": null,
+   "fpl": null,
    "alert": false
   },
   {
@@ -12683,6 +13045,7 @@
     }
    },
    "score": null,
+   "fpl": null,
    "alert": false
   },
   {
@@ -12720,6 +13083,7 @@
     }
    },
    "score": null,
+   "fpl": null,
    "alert": false
   },
   {
@@ -12761,6 +13125,7 @@
     }
    },
    "score": null,
+   "fpl": null,
    "alert": true
   },
   {
@@ -12793,6 +13158,7 @@
     }
    },
    "score": null,
+   "fpl": null,
    "alert": false
   },
   {
@@ -12829,6 +13195,7 @@
     }
    },
    "score": null,
+   "fpl": null,
    "alert": true
   },
   {
@@ -12861,6 +13228,7 @@
     }
    },
    "score": null,
+   "fpl": null,
    "alert": false
   },
   {
@@ -12893,6 +13261,7 @@
     }
    },
    "score": null,
+   "fpl": null,
    "alert": false
   },
   {
@@ -12925,6 +13294,7 @@
     }
    },
    "score": null,
+   "fpl": null,
    "alert": false
   },
   {
@@ -12957,6 +13327,7 @@
     }
    },
    "score": null,
+   "fpl": null,
    "alert": false
   },
   {
@@ -12989,6 +13360,7 @@
     }
    },
    "score": null,
+   "fpl": null,
    "alert": false
   },
   {
@@ -13025,6 +13397,7 @@
     }
    },
    "score": null,
+   "fpl": null,
    "alert": true
   },
   {
@@ -13061,6 +13434,7 @@
     }
    },
    "score": null,
+   "fpl": null,
    "alert": true
   },
   {
@@ -13093,6 +13467,7 @@
     }
    },
    "score": null,
+   "fpl": null,
    "alert": false
   },
   {
@@ -13129,6 +13504,7 @@
     }
    },
    "score": null,
+   "fpl": null,
    "alert": true
   },
   {
@@ -13161,6 +13537,7 @@
     }
    },
    "score": null,
+   "fpl": null,
    "alert": false
   },
   {
@@ -13193,6 +13570,7 @@
     }
    },
    "score": null,
+   "fpl": null,
    "alert": false
   },
   {
@@ -13225,6 +13603,7 @@
     }
    },
    "score": null,
+   "fpl": null,
    "alert": false
   },
   {
@@ -13257,6 +13636,7 @@
     }
    },
    "score": null,
+   "fpl": null,
    "alert": false
   },
   {
@@ -13289,6 +13669,7 @@
     }
    },
    "score": null,
+   "fpl": null,
    "alert": false
   },
   {
@@ -13321,6 +13702,7 @@
     }
    },
    "score": null,
+   "fpl": null,
    "alert": false
   },
   {
@@ -13353,6 +13735,7 @@
     }
    },
    "score": null,
+   "fpl": null,
    "alert": false
   },
   {
@@ -13389,6 +13772,7 @@
     }
    },
    "score": null,
+   "fpl": null,
    "alert": true
   },
   {
@@ -13421,6 +13805,7 @@
     }
    },
    "score": null,
+   "fpl": null,
    "alert": false
   },
   {
@@ -13453,6 +13838,7 @@
     }
    },
    "score": null,
+   "fpl": null,
    "alert": false
   },
   {
@@ -13485,6 +13871,7 @@
     }
    },
    "score": null,
+   "fpl": null,
    "alert": false
   },
   {
@@ -13517,6 +13904,7 @@
     }
    },
    "score": null,
+   "fpl": null,
    "alert": false
   },
   {
@@ -13549,6 +13937,7 @@
     }
    },
    "score": null,
+   "fpl": null,
    "alert": false
   },
   {
@@ -13581,6 +13970,7 @@
     }
    },
    "score": null,
+   "fpl": null,
    "alert": false
   },
   {
@@ -13613,6 +14003,7 @@
     }
    },
    "score": null,
+   "fpl": null,
    "alert": false
   },
   {
@@ -13645,6 +14036,7 @@
     }
    },
    "score": null,
+   "fpl": null,
    "alert": false
   },
   {
@@ -13681,6 +14073,7 @@
     }
    },
    "score": null,
+   "fpl": null,
    "alert": true
   },
   {
@@ -13717,6 +14110,7 @@
     }
    },
    "score": null,
+   "fpl": null,
    "alert": true
   },
   {
@@ -13749,6 +14143,7 @@
     }
    },
    "score": null,
+   "fpl": null,
    "alert": false
   },
   {
@@ -13781,6 +14176,7 @@
     }
    },
    "score": null,
+   "fpl": null,
    "alert": false
   },
   {
@@ -13813,6 +14209,7 @@
     }
    },
    "score": null,
+   "fpl": null,
    "alert": false
   },
   {
@@ -13845,6 +14242,7 @@
     }
    },
    "score": null,
+   "fpl": null,
    "alert": false
   },
   {
@@ -13877,6 +14275,7 @@
     }
    },
    "score": null,
+   "fpl": null,
    "alert": false
   },
   {
@@ -13909,6 +14308,7 @@
     }
    },
    "score": null,
+   "fpl": null,
    "alert": false
   },
   {
@@ -13941,6 +14341,7 @@
     }
    },
    "score": null,
+   "fpl": null,
    "alert": false
   },
   {
@@ -13977,6 +14378,7 @@
     }
    },
    "score": null,
+   "fpl": null,
    "alert": true
   },
   {
@@ -14009,6 +14411,7 @@
     }
    },
    "score": null,
+   "fpl": null,
    "alert": false
   },
   {
@@ -14041,6 +14444,7 @@
     }
    },
    "score": null,
+   "fpl": null,
    "alert": false
   },
   {
@@ -14073,6 +14477,7 @@
     }
    },
    "score": null,
+   "fpl": null,
    "alert": false
   },
   {
@@ -14105,6 +14510,7 @@
     }
    },
    "score": null,
+   "fpl": null,
    "alert": false
   },
   {
@@ -14141,6 +14547,7 @@
     }
    },
    "score": null,
+   "fpl": null,
    "alert": true
   },
   {
@@ -14173,6 +14580,7 @@
     }
    },
    "score": null,
+   "fpl": null,
    "alert": false
   },
   {
@@ -14205,6 +14613,7 @@
     }
    },
    "score": null,
+   "fpl": null,
    "alert": false
   },
   {
@@ -14237,6 +14646,7 @@
     }
    },
    "score": null,
+   "fpl": null,
    "alert": false
   },
   {
@@ -14269,6 +14679,7 @@
     }
    },
    "score": null,
+   "fpl": null,
    "alert": false
   },
   {
@@ -14301,6 +14712,7 @@
     }
    },
    "score": null,
+   "fpl": null,
    "alert": false
   },
   {
@@ -14337,6 +14749,7 @@
     }
    },
    "score": null,
+   "fpl": null,
    "alert": true
   },
   {
@@ -14369,6 +14782,7 @@
     }
    },
    "score": null,
+   "fpl": null,
    "alert": false
   },
   {
@@ -14401,6 +14815,7 @@
     }
    },
    "score": null,
+   "fpl": null,
    "alert": false
   },
   {
@@ -14433,6 +14848,7 @@
     }
    },
    "score": null,
+   "fpl": null,
    "alert": false
   },
   {
@@ -14465,6 +14881,7 @@
     }
    },
    "score": null,
+   "fpl": null,
    "alert": false
   },
   {
@@ -14497,6 +14914,7 @@
     }
    },
    "score": null,
+   "fpl": null,
    "alert": false
   },
   {
@@ -14529,6 +14947,7 @@
     }
    },
    "score": null,
+   "fpl": null,
    "alert": false
   },
   {
@@ -14561,6 +14980,7 @@
     }
    },
    "score": null,
+   "fpl": null,
    "alert": false
   },
   {
@@ -14597,6 +15017,7 @@
     }
    },
    "score": null,
+   "fpl": null,
    "alert": true
   },
   {
@@ -14629,6 +15050,7 @@
     }
    },
    "score": null,
+   "fpl": null,
    "alert": false
   },
   {
@@ -14661,6 +15083,7 @@
     }
    },
    "score": null,
+   "fpl": null,
    "alert": false
   },
   {
@@ -14693,6 +15116,7 @@
     }
    },
    "score": null,
+   "fpl": null,
    "alert": false
   },
   {
@@ -14725,6 +15149,7 @@
     }
    },
    "score": null,
+   "fpl": null,
    "alert": false
   },
   {
@@ -14757,6 +15182,7 @@
     }
    },
    "score": null,
+   "fpl": null,
    "alert": false
   },
   {
@@ -14789,6 +15215,7 @@
     }
    },
    "score": null,
+   "fpl": null,
    "alert": false
   },
   {
@@ -14821,6 +15248,7 @@
     }
    },
    "score": null,
+   "fpl": null,
    "alert": false
   },
   {
@@ -14853,6 +15281,7 @@
     }
    },
    "score": null,
+   "fpl": null,
    "alert": false
   },
   {
@@ -14885,6 +15314,7 @@
     }
    },
    "score": null,
+   "fpl": null,
    "alert": false
   },
   {
@@ -14917,6 +15347,7 @@
     }
    },
    "score": null,
+   "fpl": null,
    "alert": false
   },
   {
@@ -14953,6 +15384,7 @@
     }
    },
    "score": null,
+   "fpl": null,
    "alert": true
   },
   {
@@ -14985,6 +15417,7 @@
     }
    },
    "score": null,
+   "fpl": null,
    "alert": false
   },
   {
@@ -15021,6 +15454,7 @@
     }
    },
    "score": null,
+   "fpl": null,
    "alert": true
   },
   {
@@ -15053,6 +15487,7 @@
     }
    },
    "score": null,
+   "fpl": null,
    "alert": false
   },
   {
@@ -15085,6 +15520,7 @@
     }
    },
    "score": null,
+   "fpl": null,
    "alert": false
   },
   {
@@ -15117,6 +15553,7 @@
     }
    },
    "score": null,
+   "fpl": null,
    "alert": false
   },
   {
@@ -15153,6 +15590,7 @@
     }
    },
    "score": null,
+   "fpl": null,
    "alert": true
   },
   {
@@ -15185,6 +15623,7 @@
     }
    },
    "score": null,
+   "fpl": null,
    "alert": false
   },
   {
@@ -15217,6 +15656,7 @@
     }
    },
    "score": null,
+   "fpl": null,
    "alert": false
   },
   {
@@ -15249,6 +15689,7 @@
     }
    },
    "score": null,
+   "fpl": null,
    "alert": false
   },
   {
@@ -15281,6 +15722,7 @@
     }
    },
    "score": null,
+   "fpl": null,
    "alert": false
   },
   {
@@ -15313,6 +15755,7 @@
     }
    },
    "score": null,
+   "fpl": null,
    "alert": false
   },
   {
@@ -15345,6 +15788,7 @@
     }
    },
    "score": null,
+   "fpl": null,
    "alert": false
   },
   {
@@ -15377,6 +15821,7 @@
     }
    },
    "score": null,
+   "fpl": null,
    "alert": false
   },
   {
@@ -15409,6 +15854,7 @@
     }
    },
    "score": null,
+   "fpl": null,
    "alert": false
   },
   {
@@ -15441,6 +15887,7 @@
     }
    },
    "score": null,
+   "fpl": null,
    "alert": false
   },
   {
@@ -15477,6 +15924,7 @@
     }
    },
    "score": null,
+   "fpl": null,
    "alert": true
   },
   {
@@ -15513,6 +15961,7 @@
     }
    },
    "score": null,
+   "fpl": null,
    "alert": true
   },
   {
@@ -15545,6 +15994,7 @@
     }
    },
    "score": null,
+   "fpl": null,
    "alert": false
   },
   {
@@ -15577,6 +16027,7 @@
     }
    },
    "score": null,
+   "fpl": null,
    "alert": false
   },
   {
@@ -15609,6 +16060,7 @@
     }
    },
    "score": null,
+   "fpl": null,
    "alert": false
   },
   {
@@ -15641,6 +16093,7 @@
     }
    },
    "score": null,
+   "fpl": null,
    "alert": false
   },
   {
@@ -15673,6 +16126,7 @@
     }
    },
    "score": null,
+   "fpl": null,
    "alert": false
   },
   {
@@ -15705,6 +16159,7 @@
     }
    },
    "score": null,
+   "fpl": null,
    "alert": false
   },
   {
@@ -15737,6 +16192,7 @@
     }
    },
    "score": null,
+   "fpl": null,
    "alert": false
   },
   {
@@ -15769,6 +16225,7 @@
     }
    },
    "score": null,
+   "fpl": null,
    "alert": false
   },
   {
@@ -15801,6 +16258,7 @@
     }
    },
    "score": null,
+   "fpl": null,
    "alert": false
   },
   {
@@ -15833,6 +16291,7 @@
     }
    },
    "score": null,
+   "fpl": null,
    "alert": false
   },
   {
@@ -15865,6 +16324,7 @@
     }
    },
    "score": null,
+   "fpl": null,
    "alert": false
   },
   {
@@ -15897,6 +16357,7 @@
     }
    },
    "score": null,
+   "fpl": null,
    "alert": false
   },
   {
@@ -15933,6 +16394,7 @@
     }
    },
    "score": null,
+   "fpl": null,
    "alert": true
   },
   {
@@ -15965,6 +16427,7 @@
     }
    },
    "score": null,
+   "fpl": null,
    "alert": false
   },
   {
@@ -15997,6 +16460,7 @@
     }
    },
    "score": null,
+   "fpl": null,
    "alert": false
   },
   {
@@ -16029,6 +16493,7 @@
     }
    },
    "score": null,
+   "fpl": null,
    "alert": false
   },
   {
@@ -16065,6 +16530,7 @@
     }
    },
    "score": null,
+   "fpl": null,
    "alert": true
   },
   {
@@ -16097,6 +16563,7 @@
     }
    },
    "score": null,
+   "fpl": null,
    "alert": false
   },
   {
@@ -16129,6 +16596,7 @@
     }
    },
    "score": null,
+   "fpl": null,
    "alert": false
   },
   {
@@ -16165,6 +16633,7 @@
     }
    },
    "score": null,
+   "fpl": null,
    "alert": true
   },
   {
@@ -16197,6 +16666,7 @@
     }
    },
    "score": null,
+   "fpl": null,
    "alert": false
   },
   {
@@ -16229,6 +16699,7 @@
     }
    },
    "score": null,
+   "fpl": null,
    "alert": false
   },
   {
@@ -16261,6 +16732,7 @@
     }
    },
    "score": null,
+   "fpl": null,
    "alert": false
   },
   {
@@ -16293,6 +16765,7 @@
     }
    },
    "score": null,
+   "fpl": null,
    "alert": false
   },
   {
@@ -16329,6 +16802,7 @@
     }
    },
    "score": null,
+   "fpl": null,
    "alert": true
   },
   {
@@ -16361,6 +16835,7 @@
     }
    },
    "score": null,
+   "fpl": null,
    "alert": false
   },
   {
@@ -16397,6 +16872,7 @@
     }
    },
    "score": null,
+   "fpl": null,
    "alert": true
   },
   {
@@ -16429,6 +16905,7 @@
     }
    },
    "score": null,
+   "fpl": null,
    "alert": false
   },
   {
@@ -16465,6 +16942,7 @@
     }
    },
    "score": null,
+   "fpl": null,
    "alert": true
   },
   {
@@ -16497,6 +16975,7 @@
     }
    },
    "score": null,
+   "fpl": null,
    "alert": false
   },
   {
@@ -16529,6 +17008,7 @@
     }
    },
    "score": null,
+   "fpl": null,
    "alert": false
   },
   {
@@ -16561,6 +17041,7 @@
     }
    },
    "score": null,
+   "fpl": null,
    "alert": false
   },
   {
@@ -16597,6 +17078,7 @@
     }
    },
    "score": null,
+   "fpl": null,
    "alert": true
   },
   {
@@ -16633,6 +17115,7 @@
     }
    },
    "score": null,
+   "fpl": null,
    "alert": true
   },
   {
@@ -16665,6 +17148,7 @@
     }
    },
    "score": null,
+   "fpl": null,
    "alert": false
   },
   {
@@ -16697,6 +17181,7 @@
     }
    },
    "score": null,
+   "fpl": null,
    "alert": false
   },
   {
@@ -16733,6 +17218,7 @@
     }
    },
    "score": null,
+   "fpl": null,
    "alert": true
   },
   {
@@ -16765,6 +17251,7 @@
     }
    },
    "score": null,
+   "fpl": null,
    "alert": false
   },
   {
@@ -16797,6 +17284,7 @@
     }
    },
    "score": null,
+   "fpl": null,
    "alert": false
   },
   {
@@ -16829,6 +17317,7 @@
     }
    },
    "score": null,
+   "fpl": null,
    "alert": false
   },
   {
@@ -16861,6 +17350,7 @@
     }
    },
    "score": null,
+   "fpl": null,
    "alert": false
   },
   {
@@ -16893,6 +17383,7 @@
     }
    },
    "score": null,
+   "fpl": null,
    "alert": false
   },
   {
@@ -16925,6 +17416,7 @@
     }
    },
    "score": null,
+   "fpl": null,
    "alert": false
   },
   {
@@ -16961,6 +17453,7 @@
     }
    },
    "score": null,
+   "fpl": null,
    "alert": true
   },
   {
@@ -16993,6 +17486,7 @@
     }
    },
    "score": null,
+   "fpl": null,
    "alert": false
   },
   {
@@ -17029,6 +17523,7 @@
     }
    },
    "score": null,
+   "fpl": null,
    "alert": true
   },
   {
@@ -17061,6 +17556,7 @@
     }
    },
    "score": null,
+   "fpl": null,
    "alert": false
   },
   {
@@ -17097,6 +17593,7 @@
     }
    },
    "score": null,
+   "fpl": null,
    "alert": true
   },
   {
@@ -17133,6 +17630,7 @@
     }
    },
    "score": null,
+   "fpl": null,
    "alert": true
   },
   {
@@ -17165,6 +17663,7 @@
     }
    },
    "score": null,
+   "fpl": null,
    "alert": false
   },
   {
@@ -17197,6 +17696,7 @@
     }
    },
    "score": null,
+   "fpl": null,
    "alert": false
   },
   {
@@ -17229,6 +17729,7 @@
     }
    },
    "score": null,
+   "fpl": null,
    "alert": false
   },
   {
@@ -17261,6 +17762,7 @@
     }
    },
    "score": null,
+   "fpl": null,
    "alert": false
   },
   {
@@ -17293,6 +17795,7 @@
     }
    },
    "score": null,
+   "fpl": null,
    "alert": false
   },
   {
@@ -17325,6 +17828,7 @@
     }
    },
    "score": null,
+   "fpl": null,
    "alert": false
   },
   {
@@ -17357,6 +17861,7 @@
     }
    },
    "score": null,
+   "fpl": null,
    "alert": false
   },
   {
@@ -17389,6 +17894,7 @@
     }
    },
    "score": null,
+   "fpl": null,
    "alert": false
   },
   {
@@ -17421,6 +17927,7 @@
     }
    },
    "score": null,
+   "fpl": null,
    "alert": false
   },
   {
@@ -17457,6 +17964,7 @@
     }
    },
    "score": null,
+   "fpl": null,
    "alert": true
   },
   {
@@ -17489,6 +17997,7 @@
     }
    },
    "score": null,
+   "fpl": null,
    "alert": false
   },
   {
@@ -17521,6 +18030,7 @@
     }
    },
    "score": null,
+   "fpl": null,
    "alert": false
   },
   {
@@ -17553,6 +18063,7 @@
     }
    },
    "score": null,
+   "fpl": null,
    "alert": false
   },
   {
@@ -17585,6 +18096,7 @@
     }
    },
    "score": null,
+   "fpl": null,
    "alert": false
   },
   {
@@ -17617,6 +18129,7 @@
     }
    },
    "score": null,
+   "fpl": null,
    "alert": false
   },
   {
@@ -17649,6 +18162,7 @@
     }
    },
    "score": null,
+   "fpl": null,
    "alert": false
   },
   {
@@ -17681,6 +18195,7 @@
     }
    },
    "score": null,
+   "fpl": null,
    "alert": false
   },
   {
@@ -17713,6 +18228,7 @@
     }
    },
    "score": null,
+   "fpl": null,
    "alert": false
   },
   {
@@ -17745,6 +18261,7 @@
     }
    },
    "score": null,
+   "fpl": null,
    "alert": false
   },
   {
@@ -17777,6 +18294,7 @@
     }
    },
    "score": null,
+   "fpl": null,
    "alert": false
   },
   {
@@ -17809,6 +18327,7 @@
     }
    },
    "score": null,
+   "fpl": null,
    "alert": false
   },
   {
@@ -17841,6 +18360,7 @@
     }
    },
    "score": null,
+   "fpl": null,
    "alert": false
   },
   {
@@ -17873,6 +18393,7 @@
     }
    },
    "score": null,
+   "fpl": null,
    "alert": false
   },
   {
@@ -17909,6 +18430,7 @@
     }
    },
    "score": null,
+   "fpl": null,
    "alert": true
   },
   {
@@ -17941,6 +18463,7 @@
     }
    },
    "score": null,
+   "fpl": null,
    "alert": false
   },
   {
@@ -17977,6 +18500,7 @@
     }
    },
    "score": null,
+   "fpl": null,
    "alert": true
   },
   {
@@ -18009,6 +18533,7 @@
     }
    },
    "score": null,
+   "fpl": null,
    "alert": false
   }
  ]

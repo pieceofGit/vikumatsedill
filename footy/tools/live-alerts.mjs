@@ -55,7 +55,7 @@ const sameTeam = (a, b) => {
  * enough along to matter — "an even match that is ongoing". Everything past
  * the gate is a question of how much drama it has accumulated.
  */
-function assess (ev, isBig) {
+function assess (ev, isBig, fpl) {
   const c = ev.competitions?.[0]
   const st = c?.status ?? ev.status
   if (st?.type?.state !== 'in') return null
@@ -113,6 +113,12 @@ function assess (ev, isBig) {
   add(reds ? 2 : 0, reds ? `${reds} red card${reds > 1 ? 's' : ''}` : null)
   add(minute >= 85 ? 3 : minute >= 75 ? 2 : minute >= 65 ? 1 : 0, null)
   add(isBig ? 2 : 0, null)
+
+  // A match with your fantasy captain in it is worth more of your evening.
+  const mine = [...(fpl?.home ?? []), ...(fpl?.away ?? [])].filter((p) => !p.benched)
+  const captain = mine.find((p) => p.captain)
+  add(captain ? 2 : mine.length >= 3 ? 1 : 0,
+    captain ? `${captain.name} (C) playing` : mine.length >= 3 ? `${mine.length} of your players` : null)
   if (hs === as) add(1, null)
 
   return { ...head, eligible: true, score, reasons }
@@ -127,13 +133,13 @@ async function channelsFor (m) {
     const hit = data.matches.find((x) =>
       (x.date === today || x.ukDate === today) &&
       sameTeam(x.home, m.home) && sameTeam(x.away, m.away))
-    if (!hit) return { line: null, big: false }
+    if (!hit) return { line: null, big: false, fpl: null }
     const name = (k) => data.broadcasters[hit.channels?.[k]?.broadcaster]?.name
     const parts = []
     if (name('is')) parts.push(`${name('is')} (IS)`)
     if (name('uk') && hit.channels.uk.broadcaster !== 'blackout') parts.push(`${name('uk')} (UK)`)
-    return { line: parts.join(' · ') || null, big: Boolean(hit.alert) }
-  } catch { return { line: null, big: false } }
+    return { line: parts.join(' · ') || null, big: Boolean(hit.alert), fpl: hit.fpl ?? null }
+  } catch { return { line: null, big: false, fpl: null } }
 }
 
 async function send (text) {
@@ -185,8 +191,8 @@ const main = async () => {
         ` → skipped, ${probe.why}`)
       continue
     }
-    const { line, big } = await channelsFor(probe)
-    const m = assess(ev, big)
+    const { line, big, fpl } = await channelsFor(probe)
+    const m = assess(ev, big, fpl)
     const prev = state[m.id]
 
     console.log(`  ${m.home} ${m.hs}-${m.as} ${m.away} ${m.clock}` +
