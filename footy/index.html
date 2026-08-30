@@ -72,7 +72,7 @@ h1 em{font-style:normal;color:var(--accent)}
 .day.is-today .day__hd{border-bottom-color:var(--accent)}
 .day.is-today .day__hd .rel{color:var(--accent);font-weight:700}
 
-.match{display:grid;grid-template-columns:3.6rem 1fr auto;gap:.5rem .8rem;align-items:center;
+.match{display:grid;grid-template-columns:4.3rem 1fr auto;gap:.5rem .8rem;align-items:center;
   background:var(--panel);border:1px solid var(--line);border-radius:10px;
   padding:.65rem .8rem;margin-bottom:.4rem}
 .match + .match{margin-top:0}
@@ -119,7 +119,7 @@ footer a{color:var(--accent)}
 @media (max-width:34rem){
   .controls{position:static}
   .row > .lbl{min-width:100%}
-  .match{grid-template-columns:3.2rem 1fr;row-gap:.35rem}
+  .match{grid-template-columns:4.3rem 1fr;row-gap:.35rem}
   .badge{grid-column:2;align-items:flex-start;text-align:left}
 }
 </style>
@@ -133,7 +133,8 @@ footer a{color:var(--accent)}
     <button class="theme" id="theme" type="button">Theme</button>
   </div>
   <p class="tag">Every Premier League and Champions League match, and the British
-    broadcaster showing it. All times UK.</p>
+    broadcaster showing it. Times are Icelandic (GMT); where a match also shows a
+    second time, that is the UK clock it kicks off by.</p>
 </header>
 
 <main>
@@ -163,9 +164,20 @@ footer a{color:var(--accent)}
 
   <section class="guide">
     <h2>Who has the rights</h2>
-    <p id="rights-intro">The British rights are carved up by competition and by kickoff slot.
-      Once you know the slot, you know the channel.</p>
+    <p id="rights-intro">The British rights are carved up by competition and by kickoff
+      slot. Once you know the slot — a UK slot, on the UK clock — you know the channel.</p>
     <div class="cards" id="cards"></div>
+
+    <details>
+      <summary>Icelandic time, British slots</summary>
+      <p>Iceland stays on GMT all year round. The UK does not — from late March to
+        late October it runs an hour ahead on British Summer Time. Kickoffs are
+        published on the UK clock and the broadcast slots are UK slots, so this page
+        works out the channel on UK time and then converts the kickoff to Icelandic
+        time. Through the British summer each row carries a second, later time: that
+        is the UK clock. Through the winter the two agree and the second line
+        disappears.</p>
+    </details>
 
     <details>
       <summary>Why some Saturday matches are on no channel at all</summary>
@@ -186,15 +198,27 @@ footer a{color:var(--accent)}
     </details>
 
     <details>
+      <summary>What changes after this season</summary>
+      <p>2026/27 is the last year of both current deals. From 2027/28 Paramount
+        takes over TNT Sports' Premier League package alongside Sky, and Paramount+
+        takes the majority Champions League package. Amazon Prime Video keeps its
+        Tuesday first pick in the Champions League through to 2030/31. The slot
+        mapping on this page will need revisiting next summer.</p>
+    </details>
+
+    <details>
       <summary>How this page is put together</summary>
       <p>Premier League fixtures and kickoff times come from the openfootball
         project. The channel is then read off the UK broadcast grid — the fixed
-        weekly slots each broadcaster owns:</p>
+        weekly slots each broadcaster owns, given here on the UK clock:</p>
       <ul id="slot-list"></ul>
       <p>Matches marked <b>confirmed</b> were set by hand in
         <code>data/overrides.json</code>; the rest are derived from the slot as
-        described above. Champions League fixtures are kept by hand in
-        <code>data/ucl.json</code>, because there is no free feed for them.</p>
+        described above. Champions League fixtures come from football-data.org,
+        or ESPN's unofficial public API, or a hand-kept <code>data/ucl.json</code>
+        — whichever answers first. None of those sources carries the broadcaster,
+        so that still comes from the rights rule: TNT Sports show everything bar
+        Amazon's Tuesday pick.</p>
     </details>
   </section>
 </main>
@@ -323,8 +347,9 @@ footer a{color:var(--accent)}
     const row = el('article', 'match')
 
     const time = el('div', 'match__time', m.time ?? '—')
-    if (m.provisionalTime) time.append(el('small', null, 'provisional'))
-    else if (m.comp === 'ucl') time.append(el('small', null, 'UCL'))
+    // In British Summer Time the UK is an hour ahead of Iceland, so show both;
+    // through the winter the clocks agree and the second line would be noise.
+    if (m.ukTime && m.ukTime !== m.time) time.append(el('small', null, `${m.ukTime} UK`))
     row.append(time)
 
     const teams = el('div', 'match__teams')
@@ -397,12 +422,12 @@ footer a{color:var(--accent)}
 
   /* ---------------------------------------------------------------- guide */
   const RIGHTS = [
-    { key: 'sky', has: 'Premier League',
-      body: 'The biggest share by far — most Friday, Saturday evening, Sunday and Monday kickoffs, plus the whole of the final day.' },
+    { key: 'sky', has: 'Premier League · at least 215 matches',
+      body: 'The biggest share by far — every Friday and Monday night match, most Saturday evening and Sunday kickoffs, three full midweek rounds and the whole of the final day.' },
     { key: 'tnt', has: 'Premier League · Champions League',
-      body: 'Owns the Saturday 12:30 lunchtime match and part of the midweek rounds. In the Champions League it shows nearly every tie, all the knockout rounds and the final.' },
-    { key: 'amazon', has: 'Champions League',
-      body: 'First pick of one Tuesday league-phase match each matchweek. No longer shows the Premier League — that package ended after 2024/25.' },
+      body: 'Around 52 Premier League matches: the exclusive Saturday 12:30 kickoff and two full midweek rounds. In the Champions League it shows the majority of ties plus the play-off round, last 16, quarter-finals, semi-finals and the final.' },
+    { key: 'amazon', has: 'Champions League · 17 matches',
+      body: 'First pick of the Tuesday night matches. It no longer shows the Premier League at all — that package ended after 2024/25.' },
     { key: 'bbc', has: 'Premier League highlights',
       body: 'No live Premier League matches, but Match of the Day is where the 3pm Saturday games turn up.' },
   ]

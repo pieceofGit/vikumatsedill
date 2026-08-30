@@ -26,9 +26,9 @@ const PL_SOURCE = `https://raw.githubusercontent.com/openfootball/football.json/
 
 const BROADCASTERS = {
   sky:      { name: 'Sky Sports',        short: 'Sky',    tint: '#0a58ff',
-              how: 'Sky Sports Premier League / Main Event. Also streamed on NOW with a Sports Membership.' },
+              how: 'Sky Sports Premier League / Main Event, or streamed on NOW with a Sports Membership.' },
   tnt:      { name: 'TNT Sports',        short: 'TNT',    tint: '#ffd400',
-              how: 'TNT Sports 1–4. Also streamed on discovery+ with a TNT Sports add-on.' },
+              how: 'TNT Sports 1–4, or streamed on HBO Max, which replaced discovery+ as its UK streaming home in March 2026.' },
   amazon:   { name: 'Amazon Prime Video', short: 'Prime', tint: '#00a8e1',
               how: 'Included with an Amazon Prime membership.' },
   bbc:      { name: 'BBC',               short: 'BBC',    tint: '#d4145a',
@@ -77,6 +77,37 @@ const slug = (s) => s.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g
 const DAYS = ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat']
 const weekday = (iso) => DAYS[new Date(`${iso}T12:00:00Z`).getUTCDay()]
 
+/* Kickoffs are published in UK time and the broadcast slots are UK slots, but
+ * the page shows Icelandic time. Iceland stays on GMT all year; the UK does
+ * not, so from late March to late October the two are an hour apart and the
+ * conversion has to be real rather than a fixed offset. */
+const UK = 'Europe/London'
+const ICELAND = 'Atlantic/Reykjavik'
+
+const partsIn = (tz, date) => {
+  const dtf = new Intl.DateTimeFormat('en-GB', { timeZone: tz, hour12: false,
+    year: 'numeric', month: '2-digit', day: '2-digit',
+    hour: '2-digit', minute: '2-digit', second: '2-digit', weekday: 'short' })
+  return Object.fromEntries(dtf.formatToParts(date)
+    .filter((x) => x.type !== 'literal').map((x) => [x.type, x.value]))
+}
+const offsetMs = (tz, date) => {
+  const p = partsIn(tz, date)
+  return Date.UTC(+p.year, +p.month - 1, +p.day, +p.hour % 24, +p.minute, +p.second) - date.getTime()
+}
+/* a wall-clock time in `tz` -> the actual instant */
+const zonedToUtc = (dateStr, timeStr, tz) => {
+  const naive = Date.parse(`${dateStr}T${timeStr}:00Z`)
+  let ts = naive - offsetMs(tz, new Date(naive))
+  ts = naive - offsetMs(tz, new Date(ts))   // second pass settles DST boundaries
+  return new Date(ts)
+}
+/* an instant -> { date, time, day } as read in `tz` */
+const readIn = (tz, date) => {
+  const p = partsIn(tz, date)
+  return { date: `${p.year}-${p.month}-${p.day}`, time: `${p.hour}:${p.minute}`, day: p.weekday }
+}
+
 /* ------------------------------------------------------------------ build */
 
 async function loadJson (path, fallback) {
@@ -108,8 +139,10 @@ async function premierLeague () {
   return raw.matches.map((m) => {
     const home = shorten(m.team1)
     const away = shorten(m.team2)
-    const day = weekday(m.date)
+    const day = weekday(m.date)          // UK weekday — the slot grid is a UK grid
     const isPicked = picked.has(m.round)
+    const kickoff = zonedToUtc(m.date, m.time, UK)
+    const local = readIn(ICELAND, kickoff)
 
     let broadcaster = 'tbc'
     let confidence = 'tbc'
@@ -132,8 +165,11 @@ async function premierLeague () {
       id: `pl-${slug(m.round)}-${slug(home)}-${slug(away)}`,
       comp: 'pl',
       round: m.round,
-      date: m.date,
-      time: m.time,
+      date: local.date,
+      time: local.time,
+      ukDate: m.date,
+      ukTime: m.time,
+      kickoff: kickoff.toISOString(),
       provisionalTime: !isPicked,
       home, away, homeFull: m.team1, awayFull: m.team2,
       homeColour: COLOURS[home] ?? null, awayColour: COLOURS[away] ?? null,
@@ -143,67 +179,118 @@ async function premierLeague () {
   })
 }
 
-/* Optional live source. football-data.org's free tier covers the Champions
- * League; set FOOTBALL_DATA_TOKEN to use it. Without a token we fall back to
- * the hand-kept data/ucl.json, and a failure here is never fatal. */
-async function uclFromApi () {
+/* ---------------------------------------------- champions league sources ---
+ * There is no openfootball feed for the Champions League, so the fixtures come
+ * from one of three places, in order of preference:
+ *
+ *   1. football-data.org  — documented and stable, Champions League is on the
+ *      permanent free tier. Needs a free key in FOOTBALL_DATA_TOKEN.
+ *   2. ESPN's undocumented public API — no key at all, but unofficial: the
+ *      shape can change without notice, so every field is read defensively.
+ *   3. data/ucl.json — kept by hand.
+ *
+ * None of these say who is broadcasting; that still comes from the UK rights
+ * rule below. Every source is normalised to UK wall-clock date/time first,
+ * because the rights rule is expressed in UK time.
+ */
+async function uclFromFootballData () {
   const token = process.env.FOOTBALL_DATA_TOKEN
-  if (!token || args.includes('--offline')) return null
+  if (!token) return null
   const year = SEASON.slice(0, 4)
   const url = `https://api.football-data.org/v4/competitions/CL/matches?season=${year}`
-  try {
-    const res = await fetch(url, { headers: { 'X-Auth-Token': token } })
-    if (!res.ok) throw new Error(`HTTP ${res.status}`)
-    const body = await res.json()
-    const parts = new Intl.DateTimeFormat('en-GB', {
-      timeZone: 'Europe/London', year: 'numeric', month: '2-digit',
-      day: '2-digit', hour: '2-digit', minute: '2-digit', hour12: false,
-    })
-    const ukParts = (iso) => {
-      const p = Object.fromEntries(parts.formatToParts(new Date(iso)).map((x) => [x.type, x.value]))
-      return { date: `${p.year}-${p.month}-${p.day}`, time: `${p.hour}:${p.minute}` }
+  const res = await fetch(url, { headers: { 'X-Auth-Token': token } })
+  if (!res.ok) throw new Error(`football-data.org HTTP ${res.status}`)
+  const body = await res.json()
+  const stageName = (m) => m.stage === 'LEAGUE_STAGE'
+    ? `League phase MD${m.matchday}`
+    : String(m.stage ?? '').replace('LAST_16', 'Round of 16').replace(/_/g, ' ')
+        .replace(/\b\w/g, (c) => c.toUpperCase())
+  return body.matches.map((m) => {
+    const uk = readIn(UK, new Date(m.utcDate))
+    const ft = m.score?.fullTime
+    return {
+      date: uk.date, time: uk.time,
+      home: m.homeTeam?.shortName ?? m.homeTeam?.name ?? 'TBC',
+      away: m.awayTeam?.shortName ?? m.awayTeam?.name ?? 'TBC',
+      round: stageName(m),
+      leaguePhase: m.stage === 'LEAGUE_STAGE',
+      score: ft && ft.home != null ? [ft.home, ft.away] : null,
     }
-    const stageName = (m) => m.stage === 'LEAGUE_STAGE'
-      ? `League phase MD${m.matchday}`
-      : m.stage.replace('LAST_16', 'Round of 16').replace(/_/g, ' ')
-          .replace(/\b\w/g, (c) => c.toUpperCase())
-    return body.matches.map((m) => {
-      const { date, time } = ukParts(m.utcDate)
-      const ft = m.score?.fullTime
-      return {
-        date, time,
-        home: m.homeTeam?.shortName ?? m.homeTeam?.name ?? 'TBC',
-        away: m.awayTeam?.shortName ?? m.awayTeam?.name ?? 'TBC',
-        round: stageName(m),
-        leaguePhase: m.stage === 'LEAGUE_STAGE',
-        score: ft && ft.home != null ? [ft.home, ft.away] : null,
-      }
-    })
-  } catch (e) {
-    console.warn(`warn: Champions League feed unavailable (${e.message}); using data/ucl.json`)
-    return null
+  })
+}
+
+async function uclFromEspn () {
+  const year = Number(SEASON.slice(0, 4))
+  const url = 'https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.champions/scoreboard'
+    + `?limit=500&dates=${year}0701-${year + 1}0701`
+  const res = await fetch(url)
+  if (!res.ok) throw new Error(`ESPN HTTP ${res.status}`)
+  const body = await res.json()
+  const events = body?.events
+  if (!Array.isArray(events) || !events.length) throw new Error('ESPN returned no events')
+  return events.map((ev) => {
+    const comp = ev.competitions?.[0]
+    const side = (which) => {
+      const c = comp?.competitors?.find((x) => x.homeAway === which)
+      return c?.team?.shortDisplayName ?? c?.team?.displayName ?? 'TBC'
+    }
+    const uk = readIn(UK, new Date(ev.date))
+    const headline = comp?.notes?.[0]?.headline ?? ''
+    // Before February the competition is still in its league phase; the
+    // headline says so when ESPN provides one.
+    const leaguePhase = /league phase|matchday/i.test(headline) ||
+      (!headline && Number(uk.date.slice(5, 7)) >= 8)
+    const scores = comp?.competitors?.length === 2 && comp.status?.type?.completed
+      ? [Number(comp.competitors.find((x) => x.homeAway === 'home')?.score),
+         Number(comp.competitors.find((x) => x.homeAway === 'away')?.score)]
+      : null
+    return {
+      date: uk.date, time: uk.time,
+      home: side('home'), away: side('away'),
+      round: headline || 'Champions League',
+      leaguePhase,
+      score: scores && scores.every(Number.isFinite) ? scores : null,
+    }
+  })
+}
+
+async function uclFixtures () {
+  if (args.includes('--offline')) return null
+  for (const [label, fn] of [['football-data.org', uclFromFootballData], ['ESPN', uclFromEspn]]) {
+    try {
+      const out = await fn()
+      if (out?.length) { console.log(`champions   source: ${label}`); return out }
+    } catch (e) {
+      console.warn(`warn: ${label} unavailable (${e.message})`)
+    }
   }
+  return null
 }
 
 async function championsLeague () {
-  const live = await uclFromApi()
+  const live = await uclFixtures()
   const file = live ? { matches: live } : await loadJson('data/ucl.json', { matches: [] })
   return (file.matches ?? []).map((m, i) => {
-    const day = weekday(m.date)
-    // UK rule: Amazon take first pick of one Tuesday league-phase match each
-    // matchweek; TNT Sports show everything else, including all knockout ties.
+    const day = weekday(m.date)          // UK weekday
     const leaguePhase = m.leaguePhase ?? /league phase/i.test(m.round ?? '')
     let broadcaster = m.broadcaster
     let confidence = m.broadcaster ? 'confirmed' : 'rule'
     // Amazon take first pick of one Tuesday match per matchweek, so on a
     // Tuesday we cannot say which of the two it is until they announce.
     if (!broadcaster) broadcaster = (day === 'Tue' && leaguePhase) ? 'tbc' : 'tnt'
+
+    const kickoff = m.time ? zonedToUtc(m.date, m.time, UK) : null
+    const local = kickoff ? readIn(ICELAND, kickoff) : { date: m.date, time: null }
+
     return {
-      id: m.id ?? `ucl-${slug(m.round ?? 'r')}-${i}`,
+      id: m.id ?? `ucl-${slug(m.round ?? 'r')}-${slug(m.home ?? '')}-${i}`,
       comp: 'ucl',
       round: m.round ?? 'Champions League',
-      date: m.date,
-      time: m.time ?? null,
+      date: local.date,
+      time: local.time,
+      ukDate: m.date,
+      ukTime: m.time ?? null,
+      kickoff: kickoff ? kickoff.toISOString() : null,
       provisionalTime: !m.time,
       home: m.home, away: m.away,
       homeFull: m.home, awayFull: m.away,
@@ -234,7 +321,7 @@ const main = async () => {
   const out = {
     generatedAt: new Date().toISOString(),
     season: SEASON,
-    timezone: 'Europe/London',
+    timezone: 'Atlantic/Reykjavik',
     broadcasters: BROADCASTERS,
     competitions: {
       pl: { name: 'Premier League', short: 'PL' },
@@ -242,7 +329,7 @@ const main = async () => {
     },
     sources: [
       { name: 'openfootball / football.json', url: PL_SOURCE, covers: 'Premier League fixtures and kickoff times' },
-      { name: 'data/ucl.json', url: null, covers: 'Champions League fixtures (maintained by hand)' },
+      { name: 'football-data.org / ESPN / data/ucl.json', url: null, covers: 'Champions League fixtures' },
     ],
     matches,
   }

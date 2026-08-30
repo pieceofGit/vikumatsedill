@@ -5,6 +5,8 @@ showing this football match?** It covers the Premier League and the Champions
 League, and it is honest about the matches nobody has picked yet — and about
 the ones no channel is allowed to show at all.
 
+Kickoff times are shown in **Icelandic time (GMT)**.
+
 No framework, no build step for the page itself, no API key required for the
 Premier League. It is a static folder you can host anywhere.
 
@@ -23,11 +25,21 @@ by double-clicking, or email to someone:
 node tools/bundle.mjs           # writes dist/index.html with the data inlined
 ```
 
+## Times: Icelandic clock, British slots
+
+Iceland stays on GMT all year. The UK does not — from late March to late
+October it runs an hour ahead on British Summer Time. Kickoffs are published on
+the UK clock and the broadcast slots are *UK* slots, so the build script works
+out the channel on UK time and only then converts the kickoff to Icelandic
+time. Both are kept in the data (`time`/`date` are Icelandic, `ukTime`/`ukDate`
+are British, `kickoff` is the ISO instant), and through the British summer each
+row on the page shows the UK clock underneath as a second line.
+
 ## How the channel is worked out
 
 In the UK the kickoff slot *is* the broadcaster — the rights deal carves the
 week into fixed windows, so once a match has been given a real kickoff time you
-already know who is showing it:
+already know who is showing it. **UK kickoff times:**
 
 | Slot | Channel |
 | --- | --- |
@@ -54,30 +66,67 @@ league-phase tie is one of the two until Amazon announce their pick.
 Every match on the page is labelled with where its channel came from —
 `confirmed`, or `from the slot`.
 
+## Who holds the rights (2026/27)
+
+| | Competition | Package |
+| --- | --- | --- |
+| **Sky Sports** | Premier League | At least 215 matches: every Friday and Monday night, most Saturday evening and Sunday kickoffs, three midweek rounds, the final day. |
+| **TNT Sports** | Premier League | About 52 matches: the exclusive Saturday 12:30 kickoff and two midweek rounds. |
+| **TNT Sports** | Champions League | The majority of ties, plus the play-off round, last 16, quarter-finals, semi-finals and the final. |
+| **Amazon Prime Video** | Champions League | 17 matches — first pick of the Tuesday nights. It no longer shows the Premier League; that package ended after 2024/25. |
+| **BBC** | Premier League | Highlights only, on Match of the Day. |
+
+TNT Sports streams on **HBO Max**, which replaced discovery+ as its UK
+streaming home in March 2026. Sky streams on NOW.
+
+**This is the last season of both deals.** From 2027/28 Paramount takes over
+TNT's Premier League package alongside Sky, and Paramount+ takes the majority
+Champions League package; Amazon keeps its Tuesday first pick through 2030/31.
+The slot table above will need revisiting next summer.
+
 ## Data
 
 | What | Where from |
 | --- | --- |
 | Premier League fixtures and kickoff times | [openfootball/football.json](https://github.com/openfootball/football.json), fetched by the build script. No key needed. |
-| Champions League fixtures | `data/ucl.json`, kept by hand — or a live feed, see below. |
+| Champions League fixtures | football-data.org, or ESPN, or `data/ucl.json` — see below |
 | Manual channel corrections | `data/overrides.json` |
+
+**No fixture API tells you the broadcaster.** They all give you teams, dates and
+kickoff times; the channel comes from the rights rules above, or from
+`data/overrides.json`. The only sources that carry a confirmed UK channel are
+listings sites such as live-footballontv.com, which would mean scraping someone
+else's HTML — fragile, and their terms are their own.
 
 ### Champions League fixtures
 
-There is no free, key-less feed for these. Two options:
+openfootball has no Champions League feed, so the build script tries three
+sources in order and uses whichever answers first:
 
-1. **By hand.** Add entries to the `matches` array in `data/ucl.json` and
-   re-run the build script. The file documents its own fields, and you can
-   leave `broadcaster` out to let the TNT/Amazon rule above decide.
-2. **From football-data.org.** Their free tier covers the Champions League.
-   Get a token and the build script will use it:
+1. **football-data.org** — the best option. Documented, stable, and the
+   Champions League sits on its permanent free tier (10 requests/minute). Needs
+   a free key, no card:
 
    ```sh
    FOOTBALL_DATA_TOKEN=your-token node tools/build-fixtures.mjs
    ```
 
-   If the token is missing or the call fails, the script warns and falls back
-   to `data/ucl.json` — it never fails the build.
+2. **ESPN's public API** — no key at all
+   (`site.api.espn.com/apis/site/v2/sports/soccer/uefa.champions/scoreboard`).
+   It is undocumented and unofficial, so the shape can change without notice;
+   every field is read defensively. Used automatically when there is no
+   football-data token.
+
+3. **`data/ucl.json`** — kept by hand. The file documents its own fields; leave
+   `broadcaster` out to let the TNT/Amazon rule decide. Times in this file are
+   **UK** times, like the slot grid.
+
+If a source fails the script warns and falls through to the next one. It never
+fails the build.
+
+UEFA's own site is backed by a public JSON endpoint (`match.uefa.com`) rather
+than needing HTML scraping, but it is undocumented and unsupported, so it is not
+wired up here — the two options above are cleaner.
 
 ### Correcting a channel
 
