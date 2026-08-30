@@ -1,0 +1,4 @@
+{
+ "_note": "Seed. tools/fpl.mjs overwrites this with the live squad on each build; only teamId needs to survive. An FPL_TEAM_ID environment variable takes precedence over this.",
+ "teamId": 6870928
+}

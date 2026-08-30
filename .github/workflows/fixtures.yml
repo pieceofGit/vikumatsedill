@@ -11,6 +11,7 @@ on:
     paths:
       - 'footy/tools/**'
       - 'footy/data/ucl.json'
+      - 'footy/data/fpl.json'
       - 'footy/data/overrides.json'
       - '.github/workflows/fixtures.yml'
 
