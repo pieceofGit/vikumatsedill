@@ -223,6 +223,26 @@ watcher started. The alert carries the live score, your points for the gameweek
 **Premier League only.** The fantasy game does not track European nights, so a
 Champions League goal will not arrive this way.
 
+### The delay
+
+Every live alert — the tense-match ones as well as the squad ones — is **held
+for three minutes** before it goes out. Streams and broadcasts run behind the
+pitch, so an alert sent the instant a goal is detected arrives before you have
+seen it: the notification spoils the moment it exists to celebrate. Scores in
+the match alerts give the game away just as thoroughly, so they wait too.
+
+The polling gap adds lag of its own, so measured from the actual goal:
+
+| | |
+| --- | --- |
+| Detection | 0–5 minutes (the poll interval) |
+| Held | 3 minutes |
+| **Reaching you** | **3–8 minutes after it happened** |
+
+That asymmetry is deliberate. Arriving late is a small annoyance; arriving early
+ruins the goal. Set an `ALERT_DELAY_MINUTES` repository *variable* to change it
+— `0` disables the hold entirely.
+
 With no id set, none of this appears and the rest of the build is unaffected.
 
 ## Data

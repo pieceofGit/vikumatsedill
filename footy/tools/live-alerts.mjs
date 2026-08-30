@@ -17,6 +17,7 @@
 import { readFile, writeFile, mkdir } from 'node:fs/promises'
 import { dirname, join } from 'node:path'
 import { fileURLToPath } from 'node:url'
+import { enqueue, flush, DELAY_MINUTES } from './notify.mjs'
 
 const ROOT = join(dirname(fileURLToPath(import.meta.url)), '..')
 const args = process.argv.slice(2)
@@ -142,29 +143,18 @@ async function channelsFor (m) {
   } catch { return { line: null, big: false, fpl: null } }
 }
 
-async function send (text) {
-  const token = process.env.TELEGRAM_BOT_TOKEN
-  const chat = process.env.TELEGRAM_CHAT_ID
-  if (!token || !chat) {
-    console.log('[dry run — no Telegram credentials set, would have sent]')
-    console.log(text)
-    return 'dry-run'
-  }
-  const res = await fetch(`https://api.telegram.org/bot${token}/sendMessage`, {
-    method: 'POST',
-    headers: { 'content-type': 'application/json' },
-    body: JSON.stringify({ chat_id: chat, text, parse_mode: 'HTML', disable_web_page_preview: true }),
-  })
-  if (!res.ok) throw new Error(`Telegram HTTP ${res.status}: ${await res.text()}`)
-  return 'sent'
-}
-
 /* -------------------------------------------------------------------- main */
 
 const main = async () => {
   const state = await readFile(STATE, 'utf8').then(JSON.parse).catch(() => ({}))
+  state.matches ??= {}
   const today = new Date().toISOString().slice(0, 10)
-  for (const k of Object.keys(state)) if (state[k].day !== today) delete state[k]
+  for (const k of Object.keys(state.matches)) {
+    if (state.matches[k].day !== today) delete state.matches[k]
+  }
+
+  // Anything held from an earlier poll goes out first.
+  await flush(state)
 
   const live = []
   for (const [comp, url] of Object.entries(BOARDS)) {
@@ -193,7 +183,7 @@ const main = async () => {
     }
     const { line, big, fpl } = await channelsFor(probe)
     const m = assess(ev, big, fpl)
-    const prev = state[m.id]
+    const prev = state.matches[m.id]
 
     console.log(`  ${m.home} ${m.hs}-${m.as} ${m.away} ${m.clock}` +
       ` → ${m.score}/${THRESHOLD}${m.reasons.length ? ` (${m.reasons.join(', ')})` : ''}` +
@@ -211,13 +201,12 @@ const main = async () => {
       `<a href="https://pieceofgit.github.io/vikumatsedill/footy/">Full guide</a>`,
     ].filter(Boolean).join('\n')
 
-    const how = await send(text)
-    console.log(`  → ${how}`)
-    state[m.id] = { day: today, at: `${m.hs}-${m.as}`, count: (prev?.count ?? 0) + 1 }
+    enqueue(state, `match:${m.id}:${m.hs}-${m.as}`, text)
+    state.matches[m.id] = { day: today, at: `${m.hs}-${m.as}`, count: (prev?.count ?? 0) + 1 }
     pushed++
   }
 
-  console.log(`${pushed} alert${pushed === 1 ? '' : 's'}`)
+  console.log(`${pushed} match alert${pushed === 1 ? '' : 's'} queued (${DELAY_MINUTES}m delay)`)
   await mkdir(dirname(STATE), { recursive: true })
   await writeFile(STATE, JSON.stringify(state, null, 1))
 }

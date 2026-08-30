@@ -9,11 +9,12 @@
  *
  * Premier League only — the fantasy game does not track European nights.
  *
- * Usage:  node tools/fpl-live.mjs [--state <path>] [--dry]
+ * Usage:  node tools/fpl-live.mjs [--state <path>]
  */
 import { readFile, writeFile, mkdir } from 'node:fs/promises'
 import { dirname, join } from 'node:path'
 import { fileURLToPath } from 'node:url'
+import { enqueue, flush, DELAY_MINUTES } from './notify.mjs'
 
 const ROOT = join(dirname(fileURLToPath(import.meta.url)), '..')
 const args = process.argv.slice(2)
@@ -58,23 +59,6 @@ async function liveScores () {
   return out
 }
 
-async function send (text) {
-  const token = process.env.TELEGRAM_BOT_TOKEN
-  const chat = process.env.TELEGRAM_CHAT_ID
-  if (!token || !chat || args.includes('--dry')) {
-    console.log('[dry run — would have sent]')
-    console.log(text)
-    return 'dry-run'
-  }
-  const res = await fetch(`https://api.telegram.org/bot${token}/sendMessage`, {
-    method: 'POST',
-    headers: { 'content-type': 'application/json' },
-    body: JSON.stringify({ chat_id: chat, text, parse_mode: 'HTML', disable_web_page_preview: true }),
-  })
-  if (!res.ok) throw new Error(`Telegram HTTP ${res.status}: ${await res.text()}`)
-  return 'sent'
-}
-
 const main = async () => {
   const squad = await readJson('data/fpl.json', null)
   if (!squad?.players?.length) {
@@ -95,6 +79,9 @@ const main = async () => {
   const state = await readFile(STATE, 'utf8').then(JSON.parse).catch(() => ({}))
   if (state.gameweek !== event.id) { state.gameweek = event.id; state.players = {} }
   state.players ??= {}
+
+  // Anything held from an earlier poll goes out first.
+  await flush(state)
 
   const scores = await liveScores()
   const fixtures = await readJson('data/fixtures.json', { matches: [], broadcasters: {} })
@@ -145,11 +132,11 @@ const main = async () => {
     ].filter(Boolean).join('\n')
 
     console.log(`${player.name}: ${moments.map((m) => m.phrase).join(', ')} (${pts} pts)`)
-    console.log(`  → ${await send(text)}`)
+    enqueue(state, `fpl:${el.id}:${moments.map((m) => m.phrase).join('|')}`, text)
     sent++
   }
 
-  console.log(`GW${event.id}: ${sent} squad alert${sent === 1 ? '' : 's'}`)
+  console.log(`GW${event.id}: ${sent} squad alert${sent === 1 ? '' : 's'} queued (${DELAY_MINUTES}m delay)`)
   await mkdir(dirname(STATE), { recursive: true })
   await writeFile(STATE, JSON.stringify(state, null, 1))
 }
