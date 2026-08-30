@@ -121,6 +121,55 @@ top of `tools/build-fixtures.mjs`. Team names differ between the two feeds —
 openfootball says `Man Utd`, ESPN says `Man United` — so matching normalises
 case, accents and club suffixes and compares against an alias list.
 
+## Live "this one's worth watching" alerts
+
+`tools/live-alerts.mjs`, run every five minutes by
+`.github/workflows/live-alerts.yml` during the hours matches are played
+(11:00–22:59 UTC), watches in-progress games and pushes when one turns tense.
+
+Claude routines cap out at hourly, which would miss most of a 105-minute match,
+so this runs in Actions instead.
+
+**The gate.** A match is only considered if it is live, level or within one
+goal, and past the 50th minute — an even match that is ongoing. Half-time is
+skipped.
+
+**The score.** Past the gate, drama accumulates:
+
+| Signal | Points |
+| --- | --- |
+| Goals in the match | up to 4 |
+| Combined shots on target (≥10 / ≥7 / ≥4) | 3 / 2 / 1 |
+| A goal in the last 12 minutes | 3 |
+| Lead changes | 2 each, up to 4 |
+| An equaliser after the 70th minute | 3 |
+| A red card | 2 |
+| How late it is (≥85' / ≥75' / ≥65') | 3 / 2 / 1 |
+| It is a starred match | 2 |
+| Scores level | 1 |
+
+It alerts at 10 or more. Set an `EXCITEMENT_THRESHOLD` repository *variable* to
+tune that without touching code.
+
+ESPN's `details` array carries every goal with the minute it was scored, so lead
+changes and late equalisers are reconstructed from a single poll — nothing has
+to be remembered between runs. State is kept (in the Actions cache) only so a
+match is not announced twice: one alert per match, and a second only if the
+score has moved since.
+
+**Wiring up the push.** Add two repository secrets under *Settings → Secrets and
+variables → Actions*:
+
+| Secret | Value |
+| --- | --- |
+| `TELEGRAM_BOT_TOKEN` | Your bot's token from @BotFather |
+| `TELEGRAM_CHAT_ID` | The chat to send to |
+
+Until both are set the detector runs in **dry run**: it works out exactly what
+it would have sent and prints it to the workflow summary, so you can watch it
+against a weekend of real matches and settle the threshold before a single
+notification is sent.
+
 ## Data
 
 | What | Where from |
