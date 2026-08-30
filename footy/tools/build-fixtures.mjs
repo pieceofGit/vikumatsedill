@@ -37,6 +37,17 @@ const BROADCASTERS = {
               how: 'The 3pm Saturday blackout: UK broadcasters may not show any football live between 14:45 and 17:15 on a Saturday. Highlights follow on Match of the Day.' },
   tbc:      { name: 'Not selected yet',  short: 'TBC',    tint: '#8a8f98',
               how: 'Broadcasters pick matches roughly five to six weeks ahead. Until then the kickoff time shown is the provisional one.' },
+  syn:      { name: 'Sýn Sport',         short: 'Sýn',    tint: '#7c3aed',
+              how: 'Stöð 2 Sport / SÝN Sport, with Icelandic commentary. Sold by Sýn direct or through Síminn, which distributes the same channels.' },
+  paramount:{ name: 'Paramount+',        short: 'P+',     tint: '#0f4c9e',
+              how: 'Every match streams on Paramount+; a few also air on CBS or CBS Sports Network. Spanish-language coverage is on TUDN and Univision.' },
+}
+
+/* Who the listing is for. Iceland leads — this is an Icelandic site. */
+const REGIONS = {
+  is: { name: 'Iceland', short: 'IS' },
+  uk: { name: 'United Kingdom', short: 'UK' },
+  us: { name: 'United States', short: 'US' },
 }
 
 /* The UK Premier League broadcast grid: weekday + kickoff -> who shows it. */
@@ -161,6 +172,20 @@ async function premierLeague () {
       note = 'Final day: all ten matches kick off together and all are shown live.'
     }
 
+    const channels = {
+      // Sýn hold the Icelandic rights for 2025/26–2027/28 and show all 380.
+      // The 3pm blackout is a British rule, so a match dark in the UK is not
+      // dark here — which is exactly when this listing earns its keep.
+      is: {
+        broadcaster: 'syn',
+        confidence: 'rule',
+        note: broadcaster === 'blackout'
+          ? 'Shown in Iceland. The 3pm Saturday blackout is a UK rule and does not apply here.'
+          : null,
+      },
+      uk: { broadcaster, confidence, note },
+    }
+
     return {
       id: `pl-${slug(m.round)}-${slug(home)}-${slug(away)}`,
       comp: 'pl',
@@ -173,7 +198,7 @@ async function premierLeague () {
       provisionalTime: !isPicked,
       home, away, homeFull: m.team1, awayFull: m.team2,
       homeColour: COLOURS[home] ?? null, awayColour: COLOURS[away] ?? null,
-      broadcaster, confidence, note,
+      channels,
       score: m.score?.ft ?? null,
     }
   })
@@ -298,10 +323,19 @@ async function championsLeague () {
   // the page because a feed happened to be down.
   if (!live && !(file.matches ?? []).length) {
     const prev = await loadJson('data/fixtures.json', { matches: [] })
-    const kept = (prev.matches ?? []).filter((m) => m.comp === 'ucl')
+    // Fold them back to source shape so they run through the mapping below
+    // again — otherwise a kept set would be frozen at whatever the schema
+    // looked like on the day the feeds last worked.
+    const kept = (prev.matches ?? [])
+      .filter((m) => m.comp === 'ucl')
+      .map((m) => ({
+        date: m.ukDate, time: m.ukTime, home: m.home, away: m.away,
+        round: m.round, leaguePhase: /league phase/i.test(m.round ?? ''),
+        score: m.score ?? null,
+      }))
     if (kept.length) {
       console.warn(`warn: no Champions League source answered; keeping ${kept.length} fixtures from the last build`)
-      return kept
+      file.matches = kept
     }
   }
 
@@ -332,10 +366,19 @@ async function championsLeague () {
       home: m.home, away: m.away,
       homeFull: m.home, awayFull: m.away,
       homeColour: COLOURS[m.home] ?? null, awayColour: COLOURS[m.away] ?? null,
-      broadcaster, confidence,
-      note: m.note ?? (amazonNight && confidence === 'rule'
-        ? 'Tuesday night: Amazon Prime Video take first pick of one match each matchweek. If this is the one, it is on Prime instead.'
-        : null),
+      channels: {
+        // Sýn hold the Icelandic UEFA rights through the end of 2026/27.
+        is: { broadcaster: 'syn', confidence: 'rule', note: null },
+        uk: {
+          broadcaster,
+          confidence,
+          note: m.note ?? (amazonNight && confidence === 'rule'
+            ? 'Amazon Prime Video take first pick of one Tuesday match each matchweek. If this is the one, it is on Prime instead.'
+            : null),
+        },
+        // CBS hold the US rights to 2029/30; every match is on Paramount+.
+        us: { broadcaster: 'paramount', confidence: 'rule', note: null },
+      },
       score: m.score ?? null,
     }
   })
@@ -348,8 +391,14 @@ const main = async () => {
   let applied = 0
   for (const m of matches) {
     const o = overrides[m.id]
-    if (!o || m.id.startsWith('_')) continue
-    Object.assign(m, o, { confidence: 'confirmed' })
+    if (!o) continue
+    for (const [key, value] of Object.entries(o)) {
+      if (REGIONS[key]) {
+        m.channels[key] = { note: null, ...m.channels[key], ...value, confidence: 'confirmed' }
+      } else {
+        m[key] = value
+      }
+    }
     applied++
   }
 
@@ -360,6 +409,7 @@ const main = async () => {
     season: SEASON,
     timezone: 'Atlantic/Reykjavik',
     broadcasters: BROADCASTERS,
+    regions: REGIONS,
     competitions: {
       pl: { name: 'Premier League', short: 'PL' },
       ucl: { name: 'Champions League', short: 'UCL' },
@@ -373,8 +423,9 @@ const main = async () => {
   await writeFile(join(ROOT, 'data/fixtures.json'), JSON.stringify(out, null, 1) + '\n')
 
   const pl = matches.filter((m) => m.comp === 'pl')
+  const named = (m) => m.channels?.uk?.broadcaster && m.channels.uk.broadcaster !== 'tbc'
   console.log(`season      ${SEASON}`)
-  console.log(`premier lg  ${pl.length} matches, ${pl.filter((m) => m.broadcaster !== 'tbc').length} with a channel`)
+  console.log(`premier lg  ${pl.length} matches, ${pl.filter(named).length} with a UK channel`)
   console.log(`champions   ${matches.filter((m) => m.comp === 'ucl').length} matches`)
   console.log(`overrides   ${applied} applied`)
   console.log(`wrote       data/fixtures.json`)

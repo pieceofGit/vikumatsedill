@@ -1,3 +1,3 @@
 {
-  "_format": "Manual corrections, keyed by match id (see data/fixtures.json). Anything you put here wins over the inferred channel and is shown as confirmed. Example: \"pl-matchday-12-arsenal-chelsea\": { \"broadcaster\": \"tnt\", \"time\": \"17:30\" }"
+  "_format": "Manual corrections, keyed by match id (see data/fixtures.json). Region keys (is/uk/us) replace that region's channel and mark it confirmed; any other key is set on the match itself. Example: \"pl-matchday-12-arsenal-chelsea\": { \"uk\": { \"broadcaster\": \"tnt\" }, \"ukTime\": \"17:30\" }"
 }

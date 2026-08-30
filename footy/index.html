@@ -86,13 +86,16 @@ h1 em{font-style:normal;color:var(--accent)}
 .match__note{grid-column:1/-1;color:var(--muted);font-size:.76rem;padding-left:.15rem}
 .match__score{font-family:var(--mono);font-size:.78rem;color:var(--muted);margin-left:.55rem;font-weight:600}
 
-.badge{display:inline-flex;flex-direction:column;align-items:flex-end;gap:.15rem;text-align:right}
-.badge b{font-size:.82rem;font-weight:700;padding:.25rem .55rem;border-radius:6px;
+.badges{display:flex;flex-direction:column;align-items:flex-end;gap:.3rem}
+.chan{display:flex;align-items:center;gap:.45rem}
+.chan .rg{font-family:var(--mono);font-size:.6rem;letter-spacing:.1em;color:var(--muted)}
+.chan b{font-size:.78rem;font-weight:700;padding:.22rem .5rem;border-radius:6px;
   background:var(--c,var(--muted));color:#fff;white-space:nowrap}
-.badge[data-b="tnt"] b{color:#1a1a1a}
-.badge[data-b="blackout"] b,.badge[data-b="tbc"] b{background:transparent;color:var(--muted);
+.chan[data-b="tnt"] b{color:#1a1a1a}
+.chan[data-b="blackout"] b,.chan[data-b="tbc"] b{background:transparent;color:var(--muted);
   border:1px dashed var(--line);font-weight:600}
-.badge small{font-family:var(--mono);font-size:.63rem;color:var(--muted);letter-spacing:.01em}
+.match__note .rg{font-family:var(--mono);font-size:.62rem;letter-spacing:.08em;
+  color:var(--accent);margin-right:.4rem}
 .empty{background:var(--panel);border:1px dashed var(--line);border-radius:10px;
   padding:1.5rem;text-align:center;color:var(--muted);font-size:.9rem}
 
@@ -120,7 +123,7 @@ footer a{color:var(--accent)}
   .controls{position:static}
   .row > .lbl{min-width:100%}
   .match{grid-template-columns:4.3rem 1fr;row-gap:.35rem}
-  .badge{grid-column:2;align-items:flex-start;text-align:left}
+  .badges{grid-column:2;align-items:flex-start}
 }
 </style>
 </head>
@@ -132,9 +135,9 @@ footer a{color:var(--accent)}
     <h1>On <em>which</em> channel?</h1>
     <button class="theme" id="theme" type="button">Theme</button>
   </div>
-  <p class="tag">Every Premier League and Champions League match, and the British
-    broadcaster showing it. Times are Icelandic (GMT); where a match also shows a
-    second time, that is the UK clock it kicks off by.</p>
+  <p class="tag">Every Premier League and Champions League match, and who is
+    showing it in Iceland, Britain and the United States. Times are Icelandic
+    (GMT); a second time on a row is the UK clock it kicks off by.</p>
 </header>
 
 <main>
@@ -164,8 +167,10 @@ footer a{color:var(--accent)}
 
   <section class="guide">
     <h2>Who has the rights</h2>
-    <p id="rights-intro">The British rights are carved up by competition and by kickoff
-      slot. Once you know the slot — a UK slot, on the UK clock — you know the channel.</p>
+    <p id="rights-intro">Iceland and the United States each have a single rightsholder
+      per competition, so those answers are simple. Britain is the complicated one: the
+      rights are split by kickoff slot, and once you know the slot — a UK slot, on the UK
+      clock — you know the channel.</p>
     <div class="cards" id="cards"></div>
 
     <details>
@@ -180,13 +185,15 @@ footer a{color:var(--accent)}
     </details>
 
     <details>
-      <summary>Why some Saturday matches are on no channel at all</summary>
+      <summary>Why some Saturday matches are on no British channel</summary>
       <p>UK broadcasters are not allowed to show any football live between roughly
         14:45 and 17:15 on a Saturday. It is a long-standing rule meant to protect
         attendances in the lower leagues, and it is why a 15:00 Saturday kickoff in
-        the Premier League appears here as <b>not shown live</b>. Those matches turn
-        up as highlights on <b>Match of the Day</b> on BBC One later the same night,
-        and on BBC iPlayer afterwards.</p>
+        the Premier League shows <b>Not on TV</b> against the UK. In Britain those
+        matches turn up as highlights on <b>Match of the Day</b> on BBC One later the
+        same night.</p>
+      <p><b>It is a British rule only.</b> Sýn show those matches in Iceland like any
+        other, which is why a blacked-out row still lists a channel here.</p>
     </details>
 
     <details>
@@ -218,7 +225,9 @@ footer a{color:var(--accent)}
         or ESPN's unofficial public API, or a hand-kept <code>data/ucl.json</code>
         — whichever answers first. None of those sources carries the broadcaster,
         so that still comes from the rights rule: TNT Sports show everything bar
-        Amazon's Tuesday pick.</p>
+        Amazon's Tuesday pick in Britain, Sýn everything in Iceland, Paramount+
+        everything in the States. American Premier League coverage is not tracked
+        here — only the Champions League.</p>
     </details>
   </section>
 </main>
@@ -289,7 +298,8 @@ footer a{color:var(--accent)}
     const q = state.team.trim().toLowerCase()
     return DATA.matches.filter((m) => {
       if (state.comp !== 'all' && m.comp !== state.comp) return false
-      if (state.chans.size && !state.chans.has(m.broadcaster)) return false
+      if (state.chans.size && !Object.values(m.channels ?? {})
+        .some((c) => state.chans.has(c.broadcaster))) return false
       if (q && !(`${m.home} ${m.away} ${m.homeFull} ${m.awayFull}`.toLowerCase().includes(q))) return false
       if (state.when === 'played') return m.date < today
       if (m.date < today) return false
@@ -306,13 +316,12 @@ footer a{color:var(--accent)}
     const list = $('#list')
     list.textContent = ''
 
-    const live = matches.filter((m) => !['tbc', 'blackout'].includes(m.broadcaster)).length
-    const dark = matches.filter((m) => m.broadcaster === 'blackout').length
-    const open = matches.filter((m) => m.broadcaster === 'tbc').length
+    const ukIs = (m, v) => m.channels?.uk?.broadcaster === v
+    const dark = matches.filter((m) => ukIs(m, 'blackout')).length
+    const open = matches.filter((m) => ukIs(m, 'tbc')).length
     const bits = [`${matches.length} match${matches.length === 1 ? '' : 'es'}`]
-    if (live) bits.push(`${live} live on TV`)
-    if (dark) bits.push(`${dark} blacked out`)
-    if (open) bits.push(`${open} not picked yet`)
+    if (dark) bits.push(`${dark} blacked out in the UK`)
+    if (open) bits.push(`${open} awaiting a UK pick`)
     $('#count').textContent = matches.length ? bits.join(' · ') : ''
 
     if (!matches.length) {
@@ -343,7 +352,6 @@ footer a{color:var(--accent)}
   }
 
   function matchRow (m) {
-    const b = DATA.broadcasters[m.broadcaster] ?? DATA.broadcasters.tbc
     const row = el('article', 'match')
 
     const time = el('div', 'match__time', m.time ?? '—')
@@ -364,16 +372,29 @@ footer a{color:var(--accent)}
     }
     row.append(teams)
 
-    const badge = el('div', 'badge')
-    badge.dataset.b = m.broadcaster
-    const name = el('b', null, b.short === 'Blackout' ? 'Not on TV' : b.name)
-    name.style.setProperty('--c', b.tint)
-    badge.append(name)
-    const label = { confirmed: 'confirmed', slot: 'from the slot', rule: '', tbc: '' }[m.confidence]
-    if (label) badge.append(el('small', null, label))
-    row.append(badge)
+    const badges = el('div', 'badges')
+    const notes = []
+    for (const [key, region] of Object.entries(DATA.regions)) {
+      const ch = m.channels?.[key]
+      if (!ch) continue
+      const b = DATA.broadcasters[ch.broadcaster] ?? DATA.broadcasters.tbc
+      const line = el('div', 'chan')
+      line.dataset.b = ch.broadcaster
+      line.append(el('span', 'rg', region.short))
+      const name = el('b', null, ch.broadcaster === 'blackout' ? 'Not on TV' : b.name)
+      name.style.setProperty('--c', b.tint)
+      name.title = `${region.name}: ${b.name}`
+      line.append(name)
+      badges.append(line)
+      if (ch.note) notes.push([region.short, ch.note])
+    }
+    row.append(badges)
 
-    if (m.note) row.append(el('div', 'match__note', m.note))
+    for (const [short, text] of notes) {
+      const n = el('div', 'match__note')
+      n.append(el('span', 'rg', short), document.createTextNode(text))
+      row.append(n)
+    }
     return row
   }
 
@@ -394,7 +415,8 @@ footer a{color:var(--accent)}
     }
 
     const chan = $('#f-chan')
-    const present = new Set(DATA.matches.map((m) => m.broadcaster))
+    const present = new Set(DATA.matches
+      .flatMap((m) => Object.values(m.channels ?? {}).map((c) => c.broadcaster)))
     for (const [key, b] of Object.entries(DATA.broadcasters)) {
       if (!present.has(key)) continue
       const c = el('button', 'chip')
@@ -422,14 +444,18 @@ footer a{color:var(--accent)}
 
   /* ---------------------------------------------------------------- guide */
   const RIGHTS = [
-    { key: 'sky', has: 'Premier League · at least 215 matches',
+    { key: 'syn', region: 'is', has: 'Premier League · Champions League',
+      body: 'Both competitions, with Icelandic commentary — and all 380 Premier League matches, because the 3pm Saturday blackout is a British rule that does not apply here. Sýn hold the Premier League to 2027/28 and the UEFA competitions to the end of this season.' },
+    { key: 'sky', region: 'uk', has: 'Premier League · at least 215 matches',
       body: 'The biggest share by far — every Friday and Monday night match, most Saturday evening and Sunday kickoffs, three full midweek rounds and the whole of the final day.' },
-    { key: 'tnt', has: 'Premier League · Champions League',
+    { key: 'tnt', region: 'uk', has: 'Premier League · Champions League',
       body: 'Around 52 Premier League matches: the exclusive Saturday 12:30 kickoff and two full midweek rounds. In the Champions League it shows the majority of ties plus the play-off round, last 16, quarter-finals, semi-finals and the final.' },
-    { key: 'amazon', has: 'Champions League · 17 matches',
+    { key: 'amazon', region: 'uk', has: 'Champions League · 17 matches',
       body: 'First pick of the Tuesday night matches. It no longer shows the Premier League at all — that package ended after 2024/25.' },
-    { key: 'bbc', has: 'Premier League highlights',
+    { key: 'bbc', region: 'uk', has: 'Premier League highlights',
       body: 'No live Premier League matches, but Match of the Day is where the 3pm Saturday games turn up.' },
+    { key: 'paramount', region: 'us', has: 'Champions League',
+      body: 'CBS hold the American rights to 2029/30. Every match streams on Paramount+, with a handful also shown on CBS or CBS Sports Network. Neither ESPN nor TNT carries the competition in the States.' },
   ]
 
   function buildGuide () {
@@ -438,7 +464,8 @@ footer a{color:var(--accent)}
       const b = DATA.broadcasters[r.key]
       const card = el('div', 'card')
       card.style.setProperty('--c', b.tint)
-      card.append(el('h3', null, b.name), el('p', 'who', r.has))
+      const region = DATA.regions[r.region]?.name ?? ''
+      card.append(el('h3', null, b.name), el('p', 'who', `${region} · ${r.has}`))
       card.append(el('p', null, r.body))
       const how = el('p'); how.append(el('b', null, 'Where: ')); how.append(b.how)
       card.append(how)

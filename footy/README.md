@@ -1,9 +1,10 @@
 # On which channel?
 
-A small website that answers one question: **which British TV channel is
-showing this football match?** It covers the Premier League and the Champions
-League, and it is honest about the matches nobody has picked yet — and about
-the ones no channel is allowed to show at all.
+A small website that answers one question: **which channel is showing this
+football match?** It covers the Premier League and the Champions League, and
+lists the broadcaster in **Iceland, Britain and the United States** side by
+side. It is honest about the matches nobody has picked yet — and about the ones
+no British channel is allowed to show at all.
 
 Kickoff times are shown in **Icelandic time (GMT)**.
 
@@ -63,18 +64,25 @@ except that Amazon Prime Video take first pick of one Tuesday league-phase match
 each matchweek — 17 matches out of about 190. So every tie is listed as TNT, and
 Tuesday ties carry a note saying Prime may have taken that one.
 
-Every match on the page is labelled with where its channel came from —
-`confirmed`, or `from the slot`.
+Iceland and the United States need no such inference: Sýn show everything, and
+Paramount+ show every Champions League tie.
 
 ## Who holds the rights (2026/27)
 
-| | Competition | Package |
-| --- | --- | --- |
-| **Sky Sports** | Premier League | At least 215 matches: every Friday and Monday night, most Saturday evening and Sunday kickoffs, three midweek rounds, the final day. |
-| **TNT Sports** | Premier League | About 52 matches: the exclusive Saturday 12:30 kickoff and two midweek rounds. |
-| **TNT Sports** | Champions League | The majority of ties, plus the play-off round, last 16, quarter-finals, semi-finals and the final. |
-| **Amazon Prime Video** | Champions League | 17 matches — first pick of the Tuesday nights. It no longer shows the Premier League; that package ended after 2024/25. |
-| **BBC** | Premier League | Highlights only, on Match of the Day. |
+| Where | | Competition | Package |
+| --- | --- | --- | --- |
+| 🇮🇸 | **Sýn Sport** | Both | Stöð 2 Sport / SÝN Sport, in Icelandic. All 380 Premier League matches — the 3pm blackout is a British rule and does not apply. Premier League to 2027/28, UEFA competitions to the end of this season. Also distributed by Síminn. |
+| 🇬🇧 | **Sky Sports** | Premier League | At least 215 matches: every Friday and Monday night, most Saturday evening and Sunday kickoffs, three midweek rounds, the final day. |
+| 🇬🇧 | **TNT Sports** | Premier League | About 52 matches: the exclusive Saturday 12:30 kickoff and two midweek rounds. |
+| 🇬🇧 | **TNT Sports** | Champions League | The majority of ties, plus the play-off round, last 16, quarter-finals, semi-finals and the final. |
+| 🇬🇧 | **Amazon Prime Video** | Champions League | 17 matches — first pick of the Tuesday nights. It no longer shows the Premier League; that package ended after 2024/25. |
+| 🇬🇧 | **BBC** | Premier League | Highlights only, on Match of the Day. |
+| 🇺🇸 | **Paramount+** | Champions League | CBS hold the US rights to 2029/30. Every match on Paramount+, a few also on CBS or CBS Sports Network. Spanish-language on TUDN/Univision. Neither ESPN nor TNT carries it in the States. |
+
+Iceland and the United States each have a single rightsholder per competition,
+so those answers are simple; Britain is the one split by kickoff slot.
+**American Premier League coverage is not tracked** — only the Champions
+League, as asked.
 
 TNT Sports streams on **HBO Max**, which replaced discovery+ as its UK
 streaming home in March 2026. Sky streams on NOW.
@@ -136,11 +144,16 @@ wired up here — the two options above are cleaner.
 ### Correcting a channel
 
 Broadcasters occasionally move a match off its usual slot. Put the truth in
-`data/overrides.json`, keyed by the match `id` from `data/fixtures.json`:
+`data/overrides.json`, keyed by the match `id` from `data/fixtures.json`. A
+region key (`is`, `uk`, `us`) replaces that region's channel; anything else is
+set on the match itself:
 
 ```json
 {
-  "pl-matchday-12-arsenal-chelsea": { "broadcaster": "tnt", "time": "17:30" }
+  "pl-matchday-12-arsenal-chelsea": {
+    "uk": { "broadcaster": "tnt" },
+    "ukTime": "17:30"
+  }
 }
 ```
 
