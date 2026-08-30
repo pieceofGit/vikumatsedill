@@ -19,6 +19,9 @@ import { norm, sameClub, isOneOf } from './clubs.mjs'
 
 const ROOT = join(dirname(fileURLToPath(import.meta.url)), '..')
 const args = process.argv.slice(2)
+/* Populated when a club name fails to line up between feeds, and written into
+ * the output so the mismatch can be read off the data rather than a log. */
+const DIAGNOSTICS = { unmatchedClubs: [], espnClubs: [] }
 const argOf = (n, d) => { const i = args.indexOf(n); return i >= 0 ? args[i + 1] : d }
 const SEASON = argOf('--season', '2026-27')
 const PL_SOURCE = `https://raw.githubusercontent.com/openfootball/football.json/master/${SEASON}/en.1.json`
@@ -241,7 +244,8 @@ async function espnEventIds (matches) {
       `espn names: ${espnNames.join(', ')}`,
     ].join('\n')
     console.warn(report)
-    await writeFile(join(ROOT, '.diagnostics.txt'), report + '\n')
+    DIAGNOSTICS.unmatchedClubs = [...unmatched].sort()
+    DIAGNOSTICS.espnClubs = espnNames
   }
   return hits
 }
@@ -560,6 +564,7 @@ const main = async () => {
       pl: { name: 'Premier League', short: 'PL' },
       ucl: { name: 'Champions League', short: 'UCL' },
     },
+    diagnostics: DIAGNOSTICS.unmatchedClubs.length ? DIAGNOSTICS : null,
     sources: [
       { name: 'openfootball / football.json', url: PL_SOURCE, covers: 'Premier League fixtures and kickoff times' },
       { name: 'football-data.org / ESPN / data/ucl.json', url: null, covers: 'Champions League fixtures' },
