@@ -1,0 +1,61 @@
+name: Live match alerts
+
+# Watches in-progress matches and pushes when one turns genuinely tense.
+# Restricted to the hours matches are actually played (11:00–22:59 UTC covers
+# every Premier League and Champions League kickoff) rather than running all
+# night for nothing.
+on:
+  schedule:
+    - cron: '*/5 11-22 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: live-alerts
+  cancel-in-progress: false
+
+jobs:
+  watch:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+
+      # Rolling state: each run saves under a fresh key, and the restore falls
+      # back to the newest one that matches the prefix. Only used so the same
+      # match is not announced twice.
+      - name: Restore alert state
+        uses: actions/cache/restore@v4
+        with:
+          path: footy/.live-state.json
+          key: live-state-${{ github.run_id }}
+          restore-keys: live-state-
+
+      - name: Check live matches
+        working-directory: footy
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+          EXCITEMENT_THRESHOLD: ${{ vars.EXCITEMENT_THRESHOLD || '10' }}
+        run: node tools/live-alerts.mjs | tee "$RUNNER_TEMP/live.log"
+
+      - name: Save alert state
+        uses: actions/cache/save@v4
+        with:
+          path: footy/.live-state.json
+          key: live-state-${{ github.run_id }}
+
+      - name: Summary
+        if: always()
+        run: |
+          {
+            echo '### Live check'
+            echo '```'
+            cat "$RUNNER_TEMP/live.log" 2>/dev/null || echo 'no output'
+            echo '```'
+          } >> "$GITHUB_STEP_SUMMARY"
