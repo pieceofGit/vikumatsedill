@@ -92,6 +92,35 @@ TNT's Premier League package alongside Sky, and Paramount+ takes the majority
 Champions League package; Amazon keeps its Tuesday first pick through 2030/31.
 The slot table above will need revisiting next summer.
 
+## Big matches and alerts
+
+Starred rows are the ones worth clearing an evening for. A match earns a star
+for one of three reasons, most specific first:
+
+| Reason | What it means |
+| --- | --- |
+| A named derby | Tyne–Wear, Merseyside, North London, Manchester, West London, M23, the Roses, El Clásico, Derby della Madonnina |
+| A heavyweight tie | Both sides drawn from the twenty-odd clubs that decide these competitions |
+| Man Utd or PSG | Flagged every time they play, whoever the opponent |
+
+101 matches this season. `★ Big matches` on the page narrows to them.
+
+The alert list is deliberately *not* the same as the star list. Every derby,
+heavyweight tie and Manchester United match is worth a notification; PSG earn
+one for their Champions League nights or a genuinely big tie, not for a routine
+league game. That rule lives in `alertWorthy()` in the build script, and the
+result is written to each match as `"alert": true|false` — so the job that
+sends the notification has nothing to decide beyond today's date.
+
+A scheduled Claude routine reads `data/fixtures.json` each morning at 09:00
+Icelandic time and pushes a phone notification naming the match, its kickoff and
+the Icelandic channel. It stays quiet on days with nothing on.
+
+To change what counts, edit `ALWAYS_BIG`, `HEAVYWEIGHTS` and `DERBIES` near the
+top of `tools/build-fixtures.mjs`. Team names differ between the two feeds —
+openfootball says `Man Utd`, ESPN says `Man United` — so matching normalises
+case, accents and club suffixes and compares against an alias list.
+
 ## Data
 
 | What | Where from |
