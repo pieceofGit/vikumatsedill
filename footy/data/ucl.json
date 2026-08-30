@@ -1,0 +1,17 @@
+{
+  "_format": "Champions League fixtures. There is no free, key-less feed for these, so they are kept here by hand. Add entries to \"matches\" and re-run `node tools/build-fixtures.mjs`.",
+  "_fields": {
+    "date": "YYYY-MM-DD (required)",
+    "time": "HH:MM UK time, e.g. \"20:00\". Omit if not confirmed.",
+    "home": "Team name, e.g. \"Arsenal\"",
+    "away": "Team name",
+    "round": "e.g. \"League phase MD1\", \"Round of 16\", \"Final\"",
+    "broadcaster": "Optional. One of sky | tnt | amazon | bbc. Omit to let the UK rights rule decide (Tuesday league-phase night = one Amazon pick + TNT; every other match = TNT).",
+    "note": "Optional free text shown under the match."
+  },
+  "_example": {
+    "date": "2026-09-16", "time": "20:00", "home": "Arsenal", "away": "Real Madrid",
+    "round": "League phase MD1", "broadcaster": "tnt"
+  },
+  "matches": []
+}

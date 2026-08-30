@@ -1,0 +1,456 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>On Which Channel — UK TV guide for the Premier League &amp; Champions League</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Which British TV channel is showing each Premier League and Champions League match: Sky Sports, TNT Sports, Amazon Prime Video, or nothing at all.">
+<style>
+:root{
+  --bg:#f4f5f7; --panel:#ffffff; --panel-2:#fafbfc; --ink:#12151a; --muted:#5b6472;
+  --line:#dfe3e9; --line-soft:#eceff3; --accent:#1a7f5a; --accent-soft:#e4f2ec;
+  --shadow:0 1px 2px rgba(16,20,28,.06),0 4px 16px rgba(16,20,28,.05);
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --bg:#0d1013; --panel:#151a1f; --panel-2:#1a2027; --ink:#e8edf2; --muted:#94a0ae;
+  --line:#262e37; --line-soft:#1e252c; --accent:#4ed69f; --accent-soft:#14261f;
+  --shadow:0 1px 2px rgba(0,0,0,.4),0 4px 16px rgba(0,0,0,.3);
+}}
+:root[data-theme="dark"]{
+  --bg:#0d1013; --panel:#151a1f; --panel-2:#1a2027; --ink:#e8edf2; --muted:#94a0ae;
+  --line:#262e37; --line-soft:#1e252c; --accent:#4ed69f; --accent-soft:#14261f;
+  --shadow:0 1px 2px rgba(0,0,0,.4),0 4px 16px rgba(0,0,0,.3);
+}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--bg);color:var(--ink);line-height:1.5;
+  font-family:ui-sans-serif,system-ui,-apple-system,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+  font-variant-numeric:tabular-nums}
+.wrap{max-width:960px;margin:0 auto;padding:clamp(1.25rem,3vw,2.5rem) clamp(.9rem,3vw,1.5rem) 4rem}
+
+/* ---- masthead ---- */
+.top{display:flex;flex-wrap:wrap;align-items:flex-end;gap:.5rem 1.25rem;margin-bottom:.35rem}
+h1{margin:0;font-size:clamp(1.6rem,4.5vw,2.35rem);letter-spacing:-.025em;font-weight:750;text-wrap:balance}
+h1 em{font-style:normal;color:var(--accent)}
+.tag{margin:.4rem 0 1.5rem;color:var(--muted);font-size:.95rem;max-width:56ch}
+.theme{margin-left:auto;background:none;border:1px solid var(--line);color:var(--muted);
+  border-radius:999px;padding:.3rem .7rem;font:inherit;font-size:.78rem;cursor:pointer}
+.theme:hover{color:var(--ink);border-color:var(--muted)}
+
+/* ---- controls ---- */
+.controls{background:var(--panel);border:1px solid var(--line);border-radius:12px;
+  padding:.9rem;box-shadow:var(--shadow);position:sticky;top:.5rem;z-index:5;
+  display:flex;flex-direction:column;gap:.75rem}
+.row{display:flex;flex-wrap:wrap;gap:.4rem;align-items:center}
+.row > .lbl{font-size:.7rem;letter-spacing:.1em;text-transform:uppercase;color:var(--muted);
+  min-width:5.5rem;font-weight:600}
+.chip{border:1px solid var(--line);background:var(--panel-2);color:var(--muted);
+  border-radius:999px;padding:.32rem .72rem;font:inherit;font-size:.82rem;cursor:pointer;
+  display:inline-flex;align-items:center;gap:.4rem;white-space:nowrap}
+.chip:hover{color:var(--ink);border-color:var(--muted)}
+.chip[aria-pressed="true"]{background:var(--accent-soft);border-color:var(--accent);color:var(--ink);font-weight:600}
+.chip .dot{width:.55rem;height:.55rem;border-radius:50%;flex:none;background:var(--c,var(--muted))}
+.chip .n{font-size:.72rem;color:var(--muted);font-variant-numeric:tabular-nums}
+.search{flex:1;min-width:11rem;border:1px solid var(--line);background:var(--panel-2);
+  color:var(--ink);border-radius:8px;padding:.42rem .7rem;font:inherit;font-size:.88rem}
+.search::placeholder{color:var(--muted)}
+.search:focus-visible,.chip:focus-visible,.theme:focus-visible,select:focus-visible{
+  outline:2px solid var(--accent);outline-offset:2px}
+
+/* ---- fixture list ---- */
+.count{margin:1.25rem 0 .5rem;color:var(--muted);font-size:.82rem}
+.day{margin-top:1.4rem}
+.day__hd{display:flex;align-items:baseline;gap:.6rem;padding:0 .25rem .4rem;
+  border-bottom:2px solid var(--line);margin-bottom:.5rem}
+.day__hd h2{margin:0;font-size:.95rem;font-weight:700;letter-spacing:-.01em}
+.day__hd .rel{font-size:.72rem;color:var(--muted);text-transform:uppercase;letter-spacing:.08em}
+.day.is-today .day__hd{border-bottom-color:var(--accent)}
+.day.is-today .day__hd .rel{color:var(--accent);font-weight:700}
+
+.match{display:grid;grid-template-columns:3.6rem 1fr auto;gap:.5rem .8rem;align-items:center;
+  background:var(--panel);border:1px solid var(--line);border-radius:10px;
+  padding:.65rem .8rem;margin-bottom:.4rem}
+.match + .match{margin-top:0}
+.match__time{font-weight:700;font-size:.9rem}
+.match__time small{display:block;font-weight:400;font-size:.66rem;color:var(--muted);letter-spacing:.02em}
+.match__teams{min-width:0}
+.tm{display:flex;align-items:center;gap:.45rem;font-size:.95rem;font-weight:600;overflow-wrap:anywhere}
+.tm .bar{width:3px;height:1rem;border-radius:2px;background:var(--c,var(--line));flex:none}
+.vs{color:var(--muted);font-size:.7rem;margin:.1rem 0 .1rem .55rem;letter-spacing:.1em}
+.match__note{grid-column:1/-1;color:var(--muted);font-size:.76rem;padding-left:.15rem}
+.match__score{font-size:.78rem;color:var(--muted);margin-left:.55rem;font-weight:600}
+
+.badge{display:inline-flex;flex-direction:column;align-items:flex-end;gap:.15rem;text-align:right}
+.badge b{font-size:.82rem;font-weight:700;padding:.25rem .55rem;border-radius:6px;
+  background:var(--c,var(--muted));color:#fff;white-space:nowrap}
+.badge[data-b="tnt"] b{color:#1a1a1a}
+.badge[data-b="blackout"] b,.badge[data-b="tbc"] b{background:transparent;color:var(--muted);
+  border:1px dashed var(--line);font-weight:600}
+.badge small{font-size:.66rem;color:var(--muted);letter-spacing:.02em}
+.empty{background:var(--panel);border:1px dashed var(--line);border-radius:10px;
+  padding:1.5rem;text-align:center;color:var(--muted);font-size:.9rem}
+
+/* ---- guide ---- */
+.guide{margin-top:3rem}
+.guide h2{font-size:1.15rem;letter-spacing:-.02em;margin:0 0 .25rem}
+.guide > p{color:var(--muted);font-size:.88rem;margin:.2rem 0 1rem;max-width:62ch}
+.cards{display:grid;gap:.7rem;grid-template-columns:repeat(auto-fit,minmax(15rem,1fr))}
+.card{background:var(--panel);border:1px solid var(--line);border-radius:10px;padding:.85rem;
+  border-top:3px solid var(--c,var(--line))}
+.card h3{margin:0 0 .1rem;font-size:.95rem}
+.card .who{color:var(--muted);font-size:.76rem;margin:0 0 .5rem}
+.card p{margin:.35rem 0 0;font-size:.82rem;color:var(--muted)}
+.card b{color:var(--ink)}
+details{background:var(--panel);border:1px solid var(--line);border-radius:10px;
+  padding:.7rem .85rem;margin-top:.7rem}
+details summary{cursor:pointer;font-weight:600;font-size:.9rem}
+details p{color:var(--muted);font-size:.84rem;margin:.6rem 0 0;max-width:64ch}
+details ul{color:var(--muted);font-size:.84rem;margin:.5rem 0 0;padding-left:1.1rem}
+details li{margin:.25rem 0}
+footer{margin-top:2.5rem;padding-top:1rem;border-top:1px solid var(--line);
+  color:var(--muted);font-size:.78rem}
+footer a{color:var(--accent)}
+@media (max-width:34rem){
+  .controls{position:static}
+  .row > .lbl{min-width:100%}
+  .match{grid-template-columns:3.2rem 1fr;row-gap:.35rem}
+  .badge{grid-column:2;align-items:flex-start;text-align:left}
+}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<header>
+  <div class="top">
+    <h1>On <em>which</em> channel?</h1>
+    <button class="theme" id="theme" type="button">Theme</button>
+  </div>
+  <p class="tag">Every Premier League and Champions League match, and the British
+    broadcaster showing it. All times UK.</p>
+</header>
+
+<main>
+  <section class="controls" aria-label="Filters">
+    <div class="row">
+      <span class="lbl" id="l-comp">Competition</span>
+      <div class="row" role="group" aria-labelledby="l-comp" id="f-comp"></div>
+    </div>
+    <div class="row">
+      <span class="lbl" id="l-chan">Channel</span>
+      <div class="row" role="group" aria-labelledby="l-chan" id="f-chan"></div>
+    </div>
+    <div class="row">
+      <span class="lbl"><label for="f-when">Show</label></span>
+      <select id="f-when" class="search" style="flex:0 0 auto;min-width:10rem">
+        <option value="7">Next 7 days</option>
+        <option value="30" selected>Next 30 days</option>
+        <option value="season">Rest of the season</option>
+        <option value="played">Already played</option>
+      </select>
+      <input id="f-team" class="search" type="search" placeholder="Filter by team…" aria-label="Filter by team">
+    </div>
+  </section>
+
+  <p class="count" id="count" role="status"></p>
+  <div id="list"></div>
+
+  <section class="guide">
+    <h2>Who has the rights</h2>
+    <p id="rights-intro">The British rights are carved up by competition and by kickoff slot.
+      Once you know the slot, you know the channel.</p>
+    <div class="cards" id="cards"></div>
+
+    <details>
+      <summary>Why some Saturday matches are on no channel at all</summary>
+      <p>UK broadcasters are not allowed to show any football live between roughly
+        14:45 and 17:15 on a Saturday. It is a long-standing rule meant to protect
+        attendances in the lower leagues, and it is why a 15:00 Saturday kickoff in
+        the Premier League appears here as <b>not shown live</b>. Those matches turn
+        up as highlights on <b>Match of the Day</b> on BBC One later the same night,
+        and on BBC iPlayer afterwards.</p>
+    </details>
+
+    <details>
+      <summary>Why later matches say “not selected yet”</summary>
+      <p>Broadcasters choose which matches they want roughly five to six weeks in
+        advance, and the kickoff times move when they do. Anything beyond that
+        window is shown here on its provisional Saturday-afternoon slot, with no
+        channel attached, because no channel has picked it yet.</p>
+    </details>
+
+    <details>
+      <summary>How this page is put together</summary>
+      <p>Premier League fixtures and kickoff times come from the openfootball
+        project. The channel is then read off the UK broadcast grid — the fixed
+        weekly slots each broadcaster owns:</p>
+      <ul id="slot-list"></ul>
+      <p>Matches marked <b>confirmed</b> were set by hand in
+        <code>data/overrides.json</code>; the rest are derived from the slot as
+        described above. Champions League fixtures are kept by hand in
+        <code>data/ucl.json</code>, because there is no free feed for them.</p>
+    </details>
+  </section>
+</main>
+
+<footer>
+  <p>Fixture data: <a href="https://github.com/openfootball/football.json">openfootball/football.json</a>.
+     Broadcast slots derived from the published UK rights deals — always worth
+     double-checking against your provider's own guide before you sit down.
+     <span id="stamp"></span></p>
+</footer>
+</div>
+
+<script>
+(() => {
+  'use strict'
+  const $ = (s) => document.querySelector(s)
+  const el = (tag, cls, txt) => { const n = document.createElement(tag)
+    if (cls) n.className = cls; if (txt != null) n.textContent = txt; return n }
+
+  /* theme toggle */
+  const theme = $('#theme')
+  const stored = (() => { try { return localStorage.getItem('theme') } catch { return null } })()
+  if (stored) document.documentElement.dataset.theme = stored
+  theme.addEventListener('click', () => {
+    const dark = matchMedia('(prefers-color-scheme: dark)').matches
+    const now = document.documentElement.dataset.theme || (dark ? 'dark' : 'light')
+    const next = now === 'dark' ? 'light' : 'dark'
+    document.documentElement.dataset.theme = next
+    try { localStorage.setItem('theme', next) } catch {}
+  })
+
+  /* filters are mirrored into the URL so a view can be linked or bookmarked */
+  const params = new URLSearchParams(location.search)
+  const state = {
+    comp: params.get('comp') ?? 'all',
+    chans: new Set((params.get('chan') ?? '').split(',').filter(Boolean)),
+    team: params.get('team') ?? '',
+    when: params.get('when') ?? '30',
+  }
+  let DATA = null
+
+  function syncUrl () {
+    const p = new URLSearchParams()
+    if (state.comp !== 'all') p.set('comp', state.comp)
+    if (state.chans.size) p.set('chan', [...state.chans].join(','))
+    if (state.team) p.set('team', state.team)
+    if (state.when !== '30') p.set('when', state.when)
+    const q = p.toString()
+    history.replaceState(null, '', q ? `?${q}` : location.pathname)
+  }
+
+  const todayISO = () => {
+    const d = new Date()
+    return `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, '0')}-${String(d.getDate()).padStart(2, '0')}`
+  }
+  const addDays = (iso, n) => {
+    const d = new Date(`${iso}T12:00:00Z`); d.setUTCDate(d.getUTCDate() + n)
+    return d.toISOString().slice(0, 10)
+  }
+  const fmtDay = (iso) => new Date(`${iso}T12:00:00Z`).toLocaleDateString('en-GB',
+    { weekday: 'long', day: 'numeric', month: 'long', timeZone: 'UTC' })
+  const relDay = (iso, today) => iso === today ? 'Today'
+    : iso === addDays(today, 1) ? 'Tomorrow' : ''
+
+  /* ------------------------------------------------------------- filtering */
+  function visible () {
+    const today = todayISO()
+    const q = state.team.trim().toLowerCase()
+    return DATA.matches.filter((m) => {
+      if (state.comp !== 'all' && m.comp !== state.comp) return false
+      if (state.chans.size && !state.chans.has(m.broadcaster)) return false
+      if (q && !(`${m.home} ${m.away} ${m.homeFull} ${m.awayFull}`.toLowerCase().includes(q))) return false
+      if (state.when === 'played') return m.date < today
+      if (m.date < today) return false
+      if (state.when === 'season') return true
+      return m.date <= addDays(today, Number(state.when))
+    })
+  }
+
+  /* --------------------------------------------------------------- render */
+  function render () {
+    syncUrl()
+    const today = todayISO()
+    const matches = visible()
+    const list = $('#list')
+    list.textContent = ''
+
+    const live = matches.filter((m) => !['tbc', 'blackout'].includes(m.broadcaster)).length
+    const dark = matches.filter((m) => m.broadcaster === 'blackout').length
+    const open = matches.filter((m) => m.broadcaster === 'tbc').length
+    const bits = [`${matches.length} match${matches.length === 1 ? '' : 'es'}`]
+    if (live) bits.push(`${live} live on TV`)
+    if (dark) bits.push(`${dark} blacked out`)
+    if (open) bits.push(`${open} not picked yet`)
+    $('#count').textContent = matches.length ? bits.join(' · ') : ''
+
+    if (!matches.length) {
+      const e = el('div', 'empty')
+      e.append(state.comp === 'ucl' && !DATA.matches.some((m) => m.comp === 'ucl')
+        ? 'No Champions League fixtures loaded yet — add them to data/ucl.json and re-run the build script. The rights map below still tells you which channel any tie will be on.'
+        : 'No matches match those filters.')
+      list.append(e)
+      return
+    }
+
+    const days = new Map()
+    for (const m of matches) {
+      if (!days.has(m.date)) days.set(m.date, [])
+      days.get(m.date).push(m)
+    }
+
+    for (const [date, ms] of days) {
+      const sec = el('section', 'day' + (date === today ? ' is-today' : ''))
+      const hd = el('div', 'day__hd')
+      hd.append(el('h2', null, fmtDay(date)))
+      const rel = relDay(date, today)
+      if (rel) hd.append(el('span', 'rel', rel))
+      sec.append(hd)
+      for (const m of ms) sec.append(matchRow(m))
+      list.append(sec)
+    }
+  }
+
+  function matchRow (m) {
+    const b = DATA.broadcasters[m.broadcaster] ?? DATA.broadcasters.tbc
+    const row = el('article', 'match')
+
+    const time = el('div', 'match__time', m.time ?? '—')
+    if (m.provisionalTime) time.append(el('small', null, 'provisional'))
+    else if (m.comp === 'ucl') time.append(el('small', null, 'UCL'))
+    row.append(time)
+
+    const teams = el('div', 'match__teams')
+    for (const side of ['home', 'away']) {
+      const line = el('div', 'tm')
+      const bar = el('span', 'bar')
+      if (m[side + 'Colour']) bar.style.setProperty('--c', m[side + 'Colour'])
+      line.append(bar, document.createTextNode(m[side]))
+      if (m.score) line.append(el('span', 'match__score', String(m.score[side === 'home' ? 0 : 1])))
+      teams.append(line)
+      if (side === 'home') teams.append(el('div', 'vs', 'v'))
+    }
+    row.append(teams)
+
+    const badge = el('div', 'badge')
+    badge.dataset.b = m.broadcaster
+    const name = el('b', null, b.short === 'Blackout' ? 'Not on TV' : b.name)
+    name.style.setProperty('--c', b.tint)
+    badge.append(name)
+    const label = { confirmed: 'confirmed', slot: 'from the slot', rule: '', tbc: '' }[m.confidence]
+    if (label) badge.append(el('small', null, label))
+    row.append(badge)
+
+    if (m.note) row.append(el('div', 'match__note', m.note))
+    return row
+  }
+
+  /* ---------------------------------------------------------------- chips */
+  function buildFilters () {
+    const comp = $('#f-comp')
+    const comps = [['all', 'All'], ...Object.entries(DATA.competitions).map(([k, v]) => [k, v.name])]
+    for (const [key, name] of comps) {
+      const c = el('button', 'chip', name)
+      c.type = 'button'
+      c.setAttribute('aria-pressed', String(state.comp === key))
+      c.addEventListener('click', () => {
+        state.comp = key
+        comp.querySelectorAll('.chip').forEach((x) => x.setAttribute('aria-pressed', String(x === c)))
+        render()
+      })
+      comp.append(c)
+    }
+
+    const chan = $('#f-chan')
+    const present = new Set(DATA.matches.map((m) => m.broadcaster))
+    for (const [key, b] of Object.entries(DATA.broadcasters)) {
+      if (!present.has(key)) continue
+      const c = el('button', 'chip')
+      c.type = 'button'
+      c.setAttribute('aria-pressed', String(state.chans.has(key)))
+      const dot = el('span', 'dot'); dot.style.setProperty('--c', b.tint)
+      c.append(dot, document.createTextNode(b.short))
+      c.addEventListener('click', () => {
+        state.chans.has(key) ? state.chans.delete(key) : state.chans.add(key)
+        c.setAttribute('aria-pressed', String(state.chans.has(key)))
+        render()
+      })
+      chan.append(c)
+    }
+
+    $('#f-when').value = state.when
+    $('#f-team').value = state.team
+    $('#f-when').addEventListener('change', (e) => { state.when = e.target.value; render() })
+    let t
+    $('#f-team').addEventListener('input', (e) => {
+      clearTimeout(t)
+      t = setTimeout(() => { state.team = e.target.value; render() }, 120)
+    })
+  }
+
+  /* ---------------------------------------------------------------- guide */
+  const RIGHTS = [
+    { key: 'sky', has: 'Premier League',
+      body: 'The biggest share by far — most Friday, Saturday evening, Sunday and Monday kickoffs, plus the whole of the final day.' },
+    { key: 'tnt', has: 'Premier League · Champions League',
+      body: 'Owns the Saturday 12:30 lunchtime match and part of the midweek rounds. In the Champions League it shows nearly every tie, all the knockout rounds and the final.' },
+    { key: 'amazon', has: 'Champions League',
+      body: 'First pick of one Tuesday league-phase match each matchweek. No longer shows the Premier League — that package ended after 2024/25.' },
+    { key: 'bbc', has: 'Premier League highlights',
+      body: 'No live Premier League matches, but Match of the Day is where the 3pm Saturday games turn up.' },
+  ]
+
+  function buildGuide () {
+    const cards = $('#cards')
+    for (const r of RIGHTS) {
+      const b = DATA.broadcasters[r.key]
+      const card = el('div', 'card')
+      card.style.setProperty('--c', b.tint)
+      card.append(el('h3', null, b.name), el('p', 'who', r.has))
+      card.append(el('p', null, r.body))
+      const how = el('p'); how.append(el('b', null, 'Where: ')); how.append(b.how)
+      card.append(how)
+      cards.append(card)
+    }
+
+    const slots = [
+      ['Friday 20:00', 'Sky Sports'], ['Saturday 12:30', 'TNT Sports'],
+      ['Saturday 15:00', 'nobody — the blackout'], ['Saturday 17:30', 'Sky Sports'],
+      ['Saturday 20:00', 'Sky Sports'], ['Sunday 14:00', 'Sky Sports'],
+      ['Sunday 16:30', 'Sky Sports'], ['Monday 20:00', 'Sky Sports'],
+    ]
+    const ul = $('#slot-list')
+    for (const [slot, who] of slots) {
+      const li = el('li')
+      li.append(el('b', null, slot), document.createTextNode(` — ${who}`))
+      ul.append(li)
+    }
+
+    const d = DATA.generatedAt ? new Date(DATA.generatedAt) : null
+    if (d) $('#stamp').textContent = `Fixture data built ${d.toLocaleDateString('en-GB', { day: 'numeric', month: 'long', year: 'numeric' })}.`
+  }
+
+  /* ----------------------------------------------------------------- boot */
+  const start = (d) => { DATA = d; buildFilters(); buildGuide(); render() }
+
+  // tools/bundle.mjs inlines the data to make a single portable file; when it
+  // has, use that and skip the network entirely.
+  const inline = document.getElementById('fixtures-data')
+  if (inline) { start(JSON.parse(inline.textContent)); return }
+
+  fetch('./data/fixtures.json')
+    .then((r) => { if (!r.ok) throw new Error(`HTTP ${r.status}`); return r.json() })
+    .then(start)
+    .catch((e) => {
+      $('#list').innerHTML = ''
+      const box = el('div', 'empty')
+      box.append(`Could not load the fixture data (${e.message}). `,
+        'If you opened this file directly from disk, serve the folder instead: ',
+        el('code', null, 'python3 -m http.server'), '.')
+      $('#list').append(box)
+    })
+})()
+</script>
+</body>
+</html>

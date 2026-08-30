@@ -1,0 +1,3 @@
+{
+  "_format": "Manual corrections, keyed by match id (see data/fixtures.json). Anything you put here wins over the inferred channel and is shown as confirmed. Example: \"pl-matchday-12-arsenal-chelsea\": { \"broadcaster\": \"tnt\", \"time\": \"17:30\" }"
+}
