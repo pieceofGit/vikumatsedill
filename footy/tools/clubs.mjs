@@ -27,7 +27,7 @@ export const CLUB_ALIASES = [
   ['west ham', 'west ham united'],
   ['bournemouth', 'afc bournemouth'],
   ['sunderland', 'sunderland afc'],
-  ['crystal palace', 'palace'],
+  ['crystal palace', 'palace', 'c palace', 'cry palace'],
   ['inter milan', 'internazionale', 'inter'],
   ['atletico', 'atletico madrid', 'atl madrid'],
   ['ac milan', 'milan'],

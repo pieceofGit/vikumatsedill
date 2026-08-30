@@ -405,6 +405,7 @@ async function uclFromEspn () {
     return {
       date: uk.date, time: uk.time,
       home: side('home'), away: side('away'),
+      espnId: ev.id,
       round: headline || null,
       leaguePhase,
       score: scores && scores.every(Number.isFinite) ? scores : null,
