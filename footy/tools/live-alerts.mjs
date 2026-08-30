@@ -70,8 +70,13 @@ function assess (ev, isBig) {
   const minute = Math.floor((Number(st.clock) || 0) / 60)
   const margin = Math.abs(hs - as)
 
-  if (margin > 1) return null          // not even
-  if (minute < 50) return null         // too early to call anyone
+  const head = { id: ev.id, minute, hs, as,
+    home: home.team?.shortDisplayName ?? home.team?.displayName,
+    away: away.team?.shortDisplayName ?? away.team?.displayName,
+    clock: st.type?.detail ?? `${minute}'` }
+
+  if (margin > 1) return { ...head, eligible: false, why: `${margin}-goal margin` }
+  if (minute < 50) return { ...head, eligible: false, why: 'not past the hour yet' }
 
   const goals = (c.details ?? []).filter((d) => d.scoringPlay)
     .map((d) => ({ min: Math.floor((d.clock?.value ?? 0) / 60), team: d.team?.id }))
@@ -110,13 +115,7 @@ function assess (ev, isBig) {
   add(isBig ? 2 : 0, null)
   if (hs === as) add(1, null)
 
-  return {
-    id: ev.id,
-    home: home.team?.shortDisplayName ?? home.team?.displayName,
-    away: away.team?.shortDisplayName ?? away.team?.displayName,
-    hs, as, minute, score, reasons,
-    clock: st.type?.detail ?? `${minute}'`,
-  }
+  return { ...head, eligible: true, score, reasons }
 }
 
 /* ------------------------------------------------------------------ output */
@@ -181,12 +180,18 @@ const main = async () => {
   for (const [comp, ev] of inPlay) {
     const probe = assess(ev, false)
     if (!probe) continue
+    if (!probe.eligible) {
+      console.log(`  ${probe.home} ${probe.hs}-${probe.as} ${probe.away} ${probe.clock}` +
+        ` → skipped, ${probe.why}`)
+      continue
+    }
     const { line, big } = await channelsFor(probe)
     const m = assess(ev, big)
     const prev = state[m.id]
 
     console.log(`  ${m.home} ${m.hs}-${m.as} ${m.away} ${m.clock}` +
-      ` → score ${m.score}/${THRESHOLD}${m.reasons.length ? ` (${m.reasons.join(', ')})` : ''}`)
+      ` → ${m.score}/${THRESHOLD}${m.reasons.length ? ` (${m.reasons.join(', ')})` : ''}` +
+      `${m.score >= THRESHOLD ? '  ** ALERT **' : ''}`)
 
     if (m.score < THRESHOLD && !args.includes('--force')) continue
     // One nudge per match, and a second only if the score has moved since.
