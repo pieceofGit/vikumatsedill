@@ -2,39 +2,43 @@
 <html lang="en">
 <head>
 <meta charset="utf-8">
-<title>On Which Channel — UK TV guide for the Premier League &amp; Champions League</title>
+<title>On Which Channel?</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700;800&family=IBM+Plex+Mono:wght@400;500;600&display=swap">
 <meta name="description" content="Which British TV channel is showing each Premier League and Champions League match: Sky Sports, TNT Sports, Amazon Prime Video, or nothing at all.">
 <style>
 :root{
-  --bg:#f4f5f7; --panel:#ffffff; --panel-2:#fafbfc; --ink:#12151a; --muted:#5b6472;
-  --line:#dfe3e9; --line-soft:#eceff3; --accent:#1a7f5a; --accent-soft:#e4f2ec;
-  --shadow:0 1px 2px rgba(16,20,28,.06),0 4px 16px rgba(16,20,28,.05);
+  --bg:#eef1f4; --panel:#ffffff; --panel-2:#f7f9fb; --ink:#101418; --muted:#59636f;
+  --line:#dbe1e8; --line-soft:#eaeef3; --accent:#0f6f56; --accent-soft:#e0efe9;
+  --shadow:0 1px 2px rgba(14,20,28,.06),0 4px 16px rgba(14,20,28,.05);
+  --ui:"Archivo",ui-sans-serif,system-ui,-apple-system,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+  --mono:"IBM Plex Mono",ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;
 }
 @media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
-  --bg:#0d1013; --panel:#151a1f; --panel-2:#1a2027; --ink:#e8edf2; --muted:#94a0ae;
-  --line:#262e37; --line-soft:#1e252c; --accent:#4ed69f; --accent-soft:#14261f;
-  --shadow:0 1px 2px rgba(0,0,0,.4),0 4px 16px rgba(0,0,0,.3);
+  --bg:#0b0e12; --panel:#141a21; --panel-2:#1a212a; --ink:#e6ebf1; --muted:#8e9aa8;
+  --line:#242c36; --line-soft:#1c232b; --accent:#3fc994; --accent-soft:#12271f;
+  --shadow:0 1px 2px rgba(0,0,0,.45),0 4px 16px rgba(0,0,0,.32);
 }}
 :root[data-theme="dark"]{
-  --bg:#0d1013; --panel:#151a1f; --panel-2:#1a2027; --ink:#e8edf2; --muted:#94a0ae;
-  --line:#262e37; --line-soft:#1e252c; --accent:#4ed69f; --accent-soft:#14261f;
-  --shadow:0 1px 2px rgba(0,0,0,.4),0 4px 16px rgba(0,0,0,.3);
+  --bg:#0b0e12; --panel:#141a21; --panel-2:#1a212a; --ink:#e6ebf1; --muted:#8e9aa8;
+  --line:#242c36; --line-soft:#1c232b; --accent:#3fc994; --accent-soft:#12271f;
+  --shadow:0 1px 2px rgba(0,0,0,.45),0 4px 16px rgba(0,0,0,.32);
 }
 *{box-sizing:border-box}
 html{-webkit-text-size-adjust:100%}
 body{margin:0;background:var(--bg);color:var(--ink);line-height:1.5;
-  font-family:ui-sans-serif,system-ui,-apple-system,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
-  font-variant-numeric:tabular-nums}
+  font-family:var(--ui);font-variant-numeric:tabular-nums}
 .wrap{max-width:960px;margin:0 auto;padding:clamp(1.25rem,3vw,2.5rem) clamp(.9rem,3vw,1.5rem) 4rem}
 
 /* ---- masthead ---- */
 .top{display:flex;flex-wrap:wrap;align-items:flex-end;gap:.5rem 1.25rem;margin-bottom:.35rem}
-h1{margin:0;font-size:clamp(1.6rem,4.5vw,2.35rem);letter-spacing:-.025em;font-weight:750;text-wrap:balance}
+h1{margin:0;font-size:clamp(1.65rem,4.5vw,2.4rem);letter-spacing:-.035em;font-weight:800;text-wrap:balance}
 h1 em{font-style:normal;color:var(--accent)}
 .tag{margin:.4rem 0 1.5rem;color:var(--muted);font-size:.95rem;max-width:56ch}
 .theme{margin-left:auto;background:none;border:1px solid var(--line);color:var(--muted);
-  border-radius:999px;padding:.3rem .7rem;font:inherit;font-size:.78rem;cursor:pointer}
+  border-radius:999px;padding:.3rem .7rem;font-family:var(--mono);font-size:.72rem;cursor:pointer}
 .theme:hover{color:var(--ink);border-color:var(--muted)}
 
 /* ---- controls ---- */
@@ -42,8 +46,8 @@ h1 em{font-style:normal;color:var(--accent)}
   padding:.9rem;box-shadow:var(--shadow);position:sticky;top:.5rem;z-index:5;
   display:flex;flex-direction:column;gap:.75rem}
 .row{display:flex;flex-wrap:wrap;gap:.4rem;align-items:center}
-.row > .lbl{font-size:.7rem;letter-spacing:.1em;text-transform:uppercase;color:var(--muted);
-  min-width:5.5rem;font-weight:600}
+.row > .lbl{font-family:var(--mono);font-size:.68rem;letter-spacing:.08em;text-transform:uppercase;
+  color:var(--muted);min-width:5.5rem;font-weight:500}
 .chip{border:1px solid var(--line);background:var(--panel-2);color:var(--muted);
   border-radius:999px;padding:.32rem .72rem;font:inherit;font-size:.82rem;cursor:pointer;
   display:inline-flex;align-items:center;gap:.4rem;white-space:nowrap}
@@ -58,12 +62,13 @@ h1 em{font-style:normal;color:var(--accent)}
   outline:2px solid var(--accent);outline-offset:2px}
 
 /* ---- fixture list ---- */
-.count{margin:1.25rem 0 .5rem;color:var(--muted);font-size:.82rem}
+.count{margin:1.25rem 0 .5rem;color:var(--muted);font-size:.78rem;font-family:var(--mono)}
 .day{margin-top:1.4rem}
 .day__hd{display:flex;align-items:baseline;gap:.6rem;padding:0 .25rem .4rem;
   border-bottom:2px solid var(--line);margin-bottom:.5rem}
-.day__hd h2{margin:0;font-size:.95rem;font-weight:700;letter-spacing:-.01em}
-.day__hd .rel{font-size:.72rem;color:var(--muted);text-transform:uppercase;letter-spacing:.08em}
+.day__hd h2{margin:0;font-size:.95rem;font-weight:700;letter-spacing:-.015em}
+.day__hd .rel{font-family:var(--mono);font-size:.68rem;color:var(--muted);
+  text-transform:uppercase;letter-spacing:.08em}
 .day.is-today .day__hd{border-bottom-color:var(--accent)}
 .day.is-today .day__hd .rel{color:var(--accent);font-weight:700}
 
@@ -71,14 +76,15 @@ h1 em{font-style:normal;color:var(--accent)}
   background:var(--panel);border:1px solid var(--line);border-radius:10px;
   padding:.65rem .8rem;margin-bottom:.4rem}
 .match + .match{margin-top:0}
-.match__time{font-weight:700;font-size:.9rem}
-.match__time small{display:block;font-weight:400;font-size:.66rem;color:var(--muted);letter-spacing:.02em}
+.match__time{font-family:var(--mono);font-weight:600;font-size:.88rem;letter-spacing:-.02em}
+.match__time small{display:block;font-weight:400;font-size:.62rem;color:var(--muted);
+  letter-spacing:.02em;text-transform:uppercase}
 .match__teams{min-width:0}
 .tm{display:flex;align-items:center;gap:.45rem;font-size:.95rem;font-weight:600;overflow-wrap:anywhere}
 .tm .bar{width:3px;height:1rem;border-radius:2px;background:var(--c,var(--line));flex:none}
-.vs{color:var(--muted);font-size:.7rem;margin:.1rem 0 .1rem .55rem;letter-spacing:.1em}
+.vs{font-family:var(--mono);color:var(--muted);font-size:.66rem;margin:.1rem 0 .1rem .55rem}
 .match__note{grid-column:1/-1;color:var(--muted);font-size:.76rem;padding-left:.15rem}
-.match__score{font-size:.78rem;color:var(--muted);margin-left:.55rem;font-weight:600}
+.match__score{font-family:var(--mono);font-size:.78rem;color:var(--muted);margin-left:.55rem;font-weight:600}
 
 .badge{display:inline-flex;flex-direction:column;align-items:flex-end;gap:.15rem;text-align:right}
 .badge b{font-size:.82rem;font-weight:700;padding:.25rem .55rem;border-radius:6px;
@@ -86,19 +92,19 @@ h1 em{font-style:normal;color:var(--accent)}
 .badge[data-b="tnt"] b{color:#1a1a1a}
 .badge[data-b="blackout"] b,.badge[data-b="tbc"] b{background:transparent;color:var(--muted);
   border:1px dashed var(--line);font-weight:600}
-.badge small{font-size:.66rem;color:var(--muted);letter-spacing:.02em}
+.badge small{font-family:var(--mono);font-size:.63rem;color:var(--muted);letter-spacing:.01em}
 .empty{background:var(--panel);border:1px dashed var(--line);border-radius:10px;
   padding:1.5rem;text-align:center;color:var(--muted);font-size:.9rem}
 
 /* ---- guide ---- */
 .guide{margin-top:3rem}
-.guide h2{font-size:1.15rem;letter-spacing:-.02em;margin:0 0 .25rem}
+.guide h2{font-size:1.2rem;letter-spacing:-.03em;font-weight:700;margin:0 0 .25rem}
 .guide > p{color:var(--muted);font-size:.88rem;margin:.2rem 0 1rem;max-width:62ch}
 .cards{display:grid;gap:.7rem;grid-template-columns:repeat(auto-fit,minmax(15rem,1fr))}
 .card{background:var(--panel);border:1px solid var(--line);border-radius:10px;padding:.85rem;
   border-top:3px solid var(--c,var(--line))}
-.card h3{margin:0 0 .1rem;font-size:.95rem}
-.card .who{color:var(--muted);font-size:.76rem;margin:0 0 .5rem}
+.card h3{margin:0 0 .1rem;font-size:.98rem;font-weight:700;letter-spacing:-.015em}
+.card .who{font-family:var(--mono);color:var(--muted);font-size:.7rem;margin:0 0 .5rem}
 .card p{margin:.35rem 0 0;font-size:.82rem;color:var(--muted)}
 .card b{color:var(--ink)}
 details{background:var(--panel);border:1px solid var(--line);border-radius:10px;
