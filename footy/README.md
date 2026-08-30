@@ -180,8 +180,15 @@ squad. Your team id is the number in the URL when you look at your own side:
 fantasy.premierleague.com/entry/<THIS NUMBER>/event/3
 ```
 
+**The phone app does not show it.** Open fantasy.premierleague.com in a browser,
+sign in, and click *Points* or *Pick Team* — the number sits in the address bar.
+It never changes, so this is a one-off.
+
 The FPL API is public and needs no key, so there is no token to create — but the
-id has to come from you, and your team has to be visible.
+id has to come from you.
+
+Once set, the daily build prints the squad it fetched to the workflow summary,
+so you can check it grabbed the right team.
 
 `tools/fpl.mjs` fetches the squad for the current gameweek and writes
 `data/fpl.json`. The fixture build then tags every match with which of your

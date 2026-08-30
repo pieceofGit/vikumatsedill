@@ -62,7 +62,16 @@ jobs:
               console.log("| Channel | Matches |", "\n| --- | --- |")
               for (const [k, v] of Object.entries(by)) console.log(`| ${k} | ${v} |`)
               console.log(`\nChampions League fixtures: **${ucl.length}**`)
-              if (d.fantasy?.name) console.log(`\nFantasy: ${d.fantasy.name} (GW${d.fantasy.gameweek})`)
+              try {
+                const f = require("./data/fpl.json")
+                console.log(`\n**${f.name}** — GW${f.gameweek}, ${f.overallPoints ?? "?"} pts, rank ${f.overallRank?.toLocaleString("en-GB") ?? "?"}`)
+                console.log("\n| | Player | Club | Pos |")
+                console.log("| --- | --- | --- | --- |")
+                for (const p of f.players) {
+                  const mark = p.captain ? "(C)" : p.vice ? "(V)" : p.benched ? "bench" : ""
+                  console.log(`| ${mark} | ${p.name} | ${p.club ?? "?"} | ${p.position ?? "?"} |`)
+                }
+              } catch { console.log("\nNo fantasy squad fetched (set the FPL_TEAM_ID variable).") }
               for (const m of ucl.slice(0, 5)) {
                 console.log(`- ${m.date} ${m.time ?? "--:--"} ${m.home} v ${m.away} (${m.round}) -> ${m.channels?.uk?.broadcaster}`)
               }
