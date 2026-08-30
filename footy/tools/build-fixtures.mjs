@@ -224,11 +224,20 @@ async function espnEventIds (matches) {
   })
 
   let hits = 0
+  const unmatched = new Set()
   for (const m of matches) {
     if (m.comp !== 'pl' || m.espnId) continue
     const hit = index.find((e) =>
       e.date === m.ukDate && sameClub(e.home, m.home) && sameClub(e.away, m.away))
     if (hit) { m.espnId = hit.id; hits++ }
+    else { unmatched.add(m.home); unmatched.add(m.away) }
+  }
+  if (unmatched.size) {
+    // Name mismatches are the usual cause, so say which names are involved on
+    // both sides rather than only reporting a count.
+    const espnNames = [...new Set(index.flatMap((e) => [e.home, e.away]))].sort()
+    console.warn(`warn: ${unmatched.size} club(s) in unmatched fixtures: ${[...unmatched].sort().join(', ')}`)
+    console.warn(`      ESPN's names: ${espnNames.join(', ')}`)
   }
   return hits
 }
