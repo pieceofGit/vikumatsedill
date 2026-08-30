@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-08-30T14:13:25.865Z",
+ "generatedAt": "2026-08-30T14:14:25.447Z",
  "fantasy": {
   "name": "How's it Goink?",
   "gameweek": 2,
@@ -85,26 +85,8 @@
  },
  "diagnostics": {
   "unmatchedClubs": [
-   "Arsenal",
-   "Aston Villa",
-   "Bournemouth",
-   "Brentford",
-   "Brighton",
-   "Chelsea",
-   "Coventry",
-   "Crystal Palace",
-   "Everton",
-   "Fulham",
-   "Hull City",
-   "Ipswich",
-   "Leeds",
-   "Liverpool",
    "Man City",
-   "Man Utd",
-   "Newcastle",
-   "Nott'm Forest",
-   "Sunderland",
-   "Tottenham"
+   "Sunderland"
   ],
   "espnClubs": [
    "Arsenal",
@@ -359,6 +341,7 @@
     0
    ],
    "fpl": null,
+   "espnId": "401879300",
    "alert": false
   },
   {
@@ -705,6 +688,7 @@
     ],
     "count": 1
    },
+   "espnId": "401879294",
    "alert": false
   },
   {
@@ -1484,6 +1468,7 @@
     "away": [],
     "count": 1
    },
+   "espnId": "401879289",
    "alert": false
   },
   {
@@ -1645,7 +1630,7 @@
   {
    "id": "ucl-league-phase-md1-aek-athens-0",
    "comp": "ucl",
-   "espnId": null,
+   "espnId": "401915452",
    "round": "League phase MD1",
    "date": "2026-09-08",
    "time": "16:45",
@@ -1684,7 +1669,7 @@
   {
    "id": "ucl-league-phase-md1-club-brugge-1",
    "comp": "ucl",
-   "espnId": null,
+   "espnId": "401915426",
    "round": "League phase MD1",
    "date": "2026-09-08",
    "time": "16:45",
@@ -1735,7 +1720,7 @@
   {
    "id": "ucl-league-phase-md1-dortmund-2",
    "comp": "ucl",
-   "espnId": null,
+   "espnId": "401915449",
    "round": "League phase MD1",
    "date": "2026-09-08",
    "time": "19:00",
@@ -1774,7 +1759,7 @@
   {
    "id": "ucl-league-phase-md1-fc-porto-3",
    "comp": "ucl",
-   "espnId": null,
+   "espnId": "401915425",
    "round": "League phase MD1",
    "date": "2026-09-08",
    "time": "19:00",
@@ -1829,7 +1814,7 @@
   {
    "id": "ucl-league-phase-md1-lille-4",
    "comp": "ucl",
-   "espnId": null,
+   "espnId": "401915450",
    "round": "League phase MD1",
    "date": "2026-09-08",
    "time": "19:00",
@@ -1868,7 +1853,7 @@
   {
    "id": "ucl-league-phase-md1-real-madrid-5",
    "comp": "ucl",
-   "espnId": null,
+   "espnId": "401915451",
    "round": "League phase MD1",
    "date": "2026-09-08",
    "time": "19:00",
@@ -1911,7 +1896,7 @@
   {
    "id": "ucl-league-phase-md1-barcelona-6",
    "comp": "ucl",
-   "espnId": null,
+   "espnId": "401915424",
    "round": "League phase MD1",
    "date": "2026-09-09",
    "time": "16:45",
@@ -1950,7 +1935,7 @@
   {
    "id": "ucl-league-phase-md1-stuttgart-7",
    "comp": "ucl",
-   "espnId": null,
+   "espnId": "401915448",
    "round": "League phase MD1",
    "date": "2026-09-09",
    "time": "16:45",
@@ -1989,7 +1974,7 @@
   {
    "id": "ucl-league-phase-md1-liverpool-8",
    "comp": "ucl",
-   "espnId": null,
+   "espnId": "401915446",
    "round": "League phase MD1",
    "date": "2026-09-09",
    "time": "19:00",
@@ -2051,7 +2036,7 @@
   {
    "id": "ucl-league-phase-md1-napoli-9",
    "comp": "ucl",
-   "espnId": null,
+   "espnId": "401915423",
    "round": "League phase MD1",
    "date": "2026-09-09",
    "time": "19:00",
@@ -2113,7 +2098,7 @@
   {
    "id": "ucl-league-phase-md1-psg-10",
    "comp": "ucl",
-   "espnId": null,
+   "espnId": "401915445",
    "round": "League phase MD1",
    "date": "2026-09-09",
    "time": "19:00",
@@ -2156,7 +2141,7 @@
   {
    "id": "ucl-league-phase-md1-sporting-11",
    "comp": "ucl",
-   "espnId": null,
+   "espnId": "401915447",
    "round": "League phase MD1",
    "date": "2026-09-09",
    "time": "19:00",
@@ -2195,7 +2180,7 @@
   {
    "id": "ucl-league-phase-md1-fenerbahce-12",
    "comp": "ucl",
-   "espnId": null,
+   "espnId": "401915444",
    "round": "League phase MD1",
    "date": "2026-09-10",
    "time": "16:45",
@@ -2234,7 +2219,7 @@
   {
    "id": "ucl-league-phase-md1-psv-13",
    "comp": "ucl",
-   "espnId": null,
+   "espnId": "401915422",
    "round": "League phase MD1",
    "date": "2026-09-10",
    "time": "16:45",
@@ -2273,7 +2258,7 @@
   {
    "id": "ucl-league-phase-md1-bayern-14",
    "comp": "ucl",
-   "espnId": null,
+   "espnId": "401915443",
    "round": "League phase MD1",
    "date": "2026-09-10",
    "time": "19:00",
@@ -2312,7 +2297,7 @@
   {
    "id": "ucl-league-phase-md1-como-15",
    "comp": "ucl",
-   "espnId": null,
+   "espnId": "401915441",
    "round": "League phase MD1",
    "date": "2026-09-10",
    "time": "19:00",
@@ -2351,7 +2336,7 @@
   {
    "id": "ucl-league-phase-md1-man-united-16",
    "comp": "ucl",
-   "espnId": null,
+   "espnId": "401915442",
    "round": "League phase MD1",
    "date": "2026-09-10",
    "time": "19:00",
@@ -2394,7 +2379,7 @@
   {
    "id": "ucl-league-phase-md1-slavia-prague-17",
    "comp": "ucl",
-   "espnId": null,
+   "espnId": "401915440",
    "round": "League phase MD1",
    "date": "2026-09-10",
    "time": "19:00",
@@ -2461,6 +2446,7 @@
    },
    "score": null,
    "fpl": null,
+   "espnId": "401879281",
    "alert": false
   },
   {
@@ -3092,6 +3078,7 @@
    },
    "score": null,
    "fpl": null,
+   "espnId": "401879273",
    "alert": false
   },
   {
@@ -3786,6 +3773,7 @@
    },
    "score": null,
    "fpl": null,
+   "espnId": "401879266",
    "alert": false
   },
   {
@@ -3890,7 +3878,7 @@
   {
    "id": "ucl-league-phase-md2-lens-18",
    "comp": "ucl",
-   "espnId": null,
+   "espnId": "401915418",
    "round": "League phase MD2",
    "date": "2026-10-13",
    "time": "16:45",
@@ -3929,7 +3917,7 @@
   {
    "id": "ucl-league-phase-md2-sabah-19",
    "comp": "ucl",
-   "espnId": null,
+   "espnId": "401915436",
    "round": "League phase MD2",
    "date": "2026-10-13",
    "time": "16:45",
@@ -3968,7 +3956,7 @@
   {
    "id": "ucl-league-phase-md2-arsenal-20",
    "comp": "ucl",
-   "espnId": null,
+   "espnId": "401915417",
    "round": "League phase MD2",
    "date": "2026-10-13",
    "time": "19:00",
@@ -4026,7 +4014,7 @@
   {
    "id": "ucl-league-phase-md2-atl-tico-21",
    "comp": "ucl",
-   "espnId": null,
+   "espnId": "401915412",
    "round": "League phase MD2",
    "date": "2026-10-13",
    "time": "19:00",
@@ -4069,7 +4057,7 @@
   {
    "id": "ucl-league-phase-md2-galatasaray-22",
    "comp": "ucl",
-   "espnId": null,
+   "espnId": "401915435",
    "round": "League phase MD2",
    "date": "2026-10-13",
    "time": "19:00",
@@ -4108,7 +4096,7 @@
   {
    "id": "ucl-league-phase-md2-inter-milan-23",
    "comp": "ucl",
-   "espnId": null,
+   "espnId": "401915413",
    "round": "League phase MD2",
    "date": "2026-10-13",
    "time": "19:00",
@@ -4147,7 +4135,7 @@
   {
    "id": "ucl-league-phase-md2-rb-leipzig-24",
    "comp": "ucl",
-   "espnId": null,
+   "espnId": "401915434",
    "round": "League phase MD2",
    "date": "2026-10-13",
    "time": "19:00",
@@ -4186,7 +4174,7 @@
   {
    "id": "ucl-league-phase-md2-viking-fk-25",
    "comp": "ucl",
-   "espnId": null,
+   "espnId": "401915411",
    "round": "League phase MD2",
    "date": "2026-10-13",
    "time": "19:00",
@@ -4225,7 +4213,7 @@
   {
    "id": "ucl-league-phase-md2-villarreal-26",
    "comp": "ucl",
-   "espnId": null,
+   "espnId": "401915410",
    "round": "League phase MD2",
    "date": "2026-10-13",
    "time": "19:00",
@@ -4264,7 +4252,7 @@
   {
    "id": "ucl-league-phase-md2-feyenoord-27",
    "comp": "ucl",
-   "espnId": null,
+   "espnId": "401915416",
    "round": "League phase MD2",
    "date": "2026-10-14",
    "time": "16:45",
@@ -4303,7 +4291,7 @@
   {
    "id": "ucl-league-phase-md2-lask-linz-28",
    "comp": "ucl",
-   "espnId": null,
+   "espnId": "401915415",
    "round": "League phase MD2",
    "date": "2026-10-14",
    "time": "16:45",
@@ -4361,7 +4349,7 @@
   {
    "id": "ucl-league-phase-md2-as-roma-29",
    "comp": "ucl",
-   "espnId": null,
+   "espnId": "401915414",
    "round": "League phase MD2",
    "date": "2026-10-14",
    "time": "19:00",
@@ -4404,7 +4392,7 @@
   {
    "id": "ucl-league-phase-md2-aston-villa-30",
    "comp": "ucl",
-   "espnId": null,
+   "espnId": "401915409",
    "round": "League phase MD2",
    "date": "2026-10-14",
    "time": "19:00",
@@ -4455,7 +4443,7 @@
   {
    "id": "ucl-league-phase-md2-bodo-glimt-31",
    "comp": "ucl",
-   "espnId": null,
+   "espnId": "401915393",
    "round": "League phase MD2",
    "date": "2026-10-14",
    "time": "19:00",
@@ -4494,7 +4482,7 @@
   {
    "id": "ucl-league-phase-md2-man-city-32",
    "comp": "ucl",
-   "espnId": null,
+   "espnId": "401915407",
    "round": "League phase MD2",
    "date": "2026-10-14",
    "time": "19:00",
@@ -4549,7 +4537,7 @@
   {
    "id": "ucl-league-phase-md2-betis-33",
    "comp": "ucl",
-   "espnId": null,
+   "espnId": "401915408",
    "round": "League phase MD2",
    "date": "2026-10-14",
    "time": "19:00",
@@ -4588,7 +4576,7 @@
   {
    "id": "ucl-league-phase-md2-shakhtar-34",
    "comp": "ucl",
-   "espnId": null,
+   "espnId": "401915406",
    "round": "League phase MD2",
    "date": "2026-10-14",
    "time": "19:00",
@@ -4627,7 +4615,7 @@
   {
    "id": "ucl-league-phase-md2-s-bratislava-35",
    "comp": "ucl",
-   "espnId": null,
+   "espnId": "401915405",
    "round": "League phase MD2",
    "date": "2026-10-14",
    "time": "19:00",
@@ -5068,6 +5056,7 @@
     "away": [],
     "count": 2
    },
+   "espnId": "401879261",
    "alert": true
   },
   {
@@ -5160,7 +5149,7 @@
   {
    "id": "ucl-league-phase-md3-fenerbahce-36",
    "comp": "ucl",
-   "espnId": null,
+   "espnId": "401915403",
    "round": "League phase MD3",
    "date": "2026-10-20",
    "time": "16:45",
@@ -5199,7 +5188,7 @@
   {
    "id": "ucl-league-phase-md3-sabah-37",
    "comp": "ucl",
-   "espnId": null,
+   "espnId": "401915404",
    "round": "League phase MD3",
    "date": "2026-10-20",
    "time": "16:45",
@@ -5238,7 +5227,7 @@
   {
    "id": "ucl-league-phase-md3-as-roma-38",
    "comp": "ucl",
-   "espnId": null,
+   "espnId": "401915402",
    "round": "League phase MD3",
    "date": "2026-10-20",
    "time": "19:00",
@@ -5277,7 +5266,7 @@
   {
    "id": "ucl-league-phase-md3-fc-porto-39",
    "comp": "ucl",
-   "espnId": null,
+   "espnId": "401915398",
    "round": "League phase MD3",
    "date": "2026-10-20",
    "time": "19:00",
@@ -5316,7 +5305,7 @@
   {
    "id": "ucl-league-phase-md3-liverpool-40",
    "comp": "ucl",
-   "espnId": null,
+   "espnId": "401915397",
    "round": "League phase MD3",
    "date": "2026-10-20",
    "time": "19:00",
@@ -5374,7 +5363,7 @@
   {
    "id": "ucl-league-phase-md3-man-city-41",
    "comp": "ucl",
-   "espnId": null,
+   "espnId": "401915401",
    "round": "League phase MD3",
    "date": "2026-10-20",
    "time": "19:00",
@@ -5425,7 +5414,7 @@
   {
    "id": "ucl-league-phase-md3-napoli-42",
    "comp": "ucl",
-   "espnId": null,
+   "espnId": "401915400",
    "round": "League phase MD3",
    "date": "2026-10-20",
    "time": "19:00",
@@ -5464,7 +5453,7 @@
   {
    "id": "ucl-league-phase-md3-psg-43",
    "comp": "ucl",
-   "espnId": null,
+   "espnId": "401915399",
    "round": "League phase MD3",
    "date": "2026-10-20",
    "time": "19:00",
@@ -5507,7 +5496,7 @@
   {
    "id": "ucl-league-phase-md3-stuttgart-44",
    "comp": "ucl",
-   "espnId": null,
+   "espnId": "401915392",
    "round": "League phase MD3",
    "date": "2026-10-20",
    "time": "19:00",
@@ -5546,7 +5535,7 @@
   {
    "id": "ucl-league-phase-md3-como-45",
    "comp": "ucl",
-   "espnId": null,
+   "espnId": "401915395",
    "round": "League phase MD3",
    "date": "2026-10-21",
    "time": "16:45",
@@ -5589,7 +5578,7 @@
   {
    "id": "ucl-league-phase-md3-lille-46",
    "comp": "ucl",
-   "espnId": null,
+   "espnId": "401915396",
    "round": "League phase MD3",
    "date": "2026-10-21",
    "time": "16:45",
@@ -5628,7 +5617,7 @@
   {
    "id": "ucl-league-phase-md3-aston-villa-47",
    "comp": "ucl",
-   "espnId": null,
+   "espnId": "401915394",
    "round": "League phase MD3",
    "date": "2026-10-21",
    "time": "19:00",
@@ -5679,7 +5668,7 @@
   {
    "id": "ucl-league-phase-md3-bayern-48",
    "comp": "ucl",
-   "espnId": null,
+   "espnId": "401915312",
    "round": "League phase MD3",
    "date": "2026-10-21",
    "time": "19:00",
@@ -5741,7 +5730,7 @@
   {
    "id": "ucl-league-phase-md3-club-brugge-49",
    "comp": "ucl",
-   "espnId": null,
+   "espnId": "401915388",
    "round": "League phase MD3",
    "date": "2026-10-21",
    "time": "19:00",
@@ -5780,7 +5769,7 @@
   {
    "id": "ucl-league-phase-md3-inter-milan-50",
    "comp": "ucl",
-   "espnId": null,
+   "espnId": "401915390",
    "round": "League phase MD3",
    "date": "2026-10-21",
    "time": "19:00",
@@ -5819,7 +5808,7 @@
   {
    "id": "ucl-league-phase-md3-betis-51",
    "comp": "ucl",
-   "espnId": null,
+   "espnId": "401915389",
    "round": "League phase MD3",
    "date": "2026-10-21",
    "time": "19:00",
@@ -5858,7 +5847,7 @@
   {
    "id": "ucl-league-phase-md3-real-madrid-52",
    "comp": "ucl",
-   "espnId": null,
+   "espnId": "401915313",
    "round": "League phase MD3",
    "date": "2026-10-21",
    "time": "19:00",
@@ -5897,7 +5886,7 @@
   {
    "id": "ucl-league-phase-md3-sporting-53",
    "comp": "ucl",
-   "espnId": null,
+   "espnId": "401915391",
    "round": "League phase MD3",
    "date": "2026-10-21",
    "time": "19:00",
@@ -6276,6 +6265,7 @@
    },
    "score": null,
    "fpl": null,
+   "espnId": "401879254",
    "alert": false
   },
   {
@@ -6755,6 +6745,7 @@
    },
    "score": null,
    "fpl": null,
+   "espnId": "401878761",
    "alert": false
   },
   {
@@ -6920,7 +6911,7 @@
   {
    "id": "ucl-league-phase-md4-galatasaray-54",
    "comp": "ucl",
-   "espnId": null,
+   "espnId": "401915311",
    "round": "League phase MD4",
    "date": "2026-11-03",
    "time": "17:45",
@@ -6959,7 +6950,7 @@
   {
    "id": "ucl-league-phase-md4-shakhtar-55",
    "comp": "ucl",
-   "espnId": null,
+   "espnId": "401915310",
    "round": "League phase MD4",
    "date": "2026-11-03",
    "time": "17:45",
@@ -6998,7 +6989,7 @@
   {
    "id": "ucl-league-phase-md4-atl-tico-56",
    "comp": "ucl",
-   "espnId": null,
+   "espnId": "401915386",
    "round": "League phase MD4",
    "date": "2026-11-03",
    "time": "20:00",
@@ -7041,7 +7032,7 @@
   {
    "id": "ucl-league-phase-md4-barcelona-57",
    "comp": "ucl",
-   "espnId": null,
+   "espnId": "401915387",
    "round": "League phase MD4",
    "date": "2026-11-03",
    "time": "20:00",
@@ -7092,7 +7083,7 @@
   {
    "id": "ucl-league-phase-md4-bodo-glimt-58",
    "comp": "ucl",
-   "espnId": null,
+   "espnId": "401915384",
    "round": "League phase MD4",
    "date": "2026-11-03",
    "time": "20:00",
@@ -7131,7 +7122,7 @@
   {
    "id": "ucl-league-phase-md4-feyenoord-59",
    "comp": "ucl",
-   "espnId": null,
+   "espnId": "401915307",
    "round": "League phase MD4",
    "date": "2026-11-03",
    "time": "20:00",
@@ -7170,7 +7161,7 @@
   {
    "id": "ucl-league-phase-md4-lask-linz-60",
    "comp": "ucl",
-   "espnId": null,
+   "espnId": "401915385",
    "round": "League phase MD4",
    "date": "2026-11-03",
    "time": "20:00",
@@ -7209,7 +7200,7 @@
   {
    "id": "ucl-league-phase-md4-man-united-61",
    "comp": "ucl",
-   "espnId": null,
+   "espnId": "401915308",
    "round": "League phase MD4",
    "date": "2026-11-03",
    "time": "20:00",
@@ -7252,7 +7243,7 @@
   {
    "id": "ucl-league-phase-md4-villarreal-62",
    "comp": "ucl",
-   "espnId": null,
+   "espnId": "401915309",
    "round": "League phase MD4",
    "date": "2026-11-03",
    "time": "20:00",
@@ -7295,7 +7286,7 @@
   {
    "id": "ucl-league-phase-md4-aek-athens-63",
    "comp": "ucl",
-   "espnId": null,
+   "espnId": "401915383",
    "round": "League phase MD4",
    "date": "2026-11-04",
    "time": "17:45",
@@ -7334,7 +7325,7 @@
   {
    "id": "ucl-league-phase-md4-fenerbahce-64",
    "comp": "ucl",
-   "espnId": null,
+   "espnId": "401915382",
    "round": "League phase MD4",
    "date": "2026-11-04",
    "time": "17:45",
@@ -7392,7 +7383,7 @@
   {
    "id": "ucl-league-phase-md4-dortmund-65",
    "comp": "ucl",
-   "espnId": null,
+   "espnId": "401915304",
    "round": "League phase MD4",
    "date": "2026-11-04",
    "time": "20:00",
@@ -7431,7 +7422,7 @@
   {
    "id": "ucl-league-phase-md4-fc-porto-66",
    "comp": "ucl",
-   "espnId": null,
+   "espnId": "401915301",
    "round": "League phase MD4",
    "date": "2026-11-04",
    "time": "20:00",
@@ -7474,7 +7465,7 @@
   {
    "id": "ucl-league-phase-md4-lens-67",
    "comp": "ucl",
-   "espnId": null,
+   "espnId": "401915305",
    "round": "League phase MD4",
    "date": "2026-11-04",
    "time": "20:00",
@@ -7513,7 +7504,7 @@
   {
    "id": "ucl-league-phase-md4-psv-68",
    "comp": "ucl",
-   "espnId": null,
+   "espnId": "401915303",
    "round": "League phase MD4",
    "date": "2026-11-04",
    "time": "20:00",
@@ -7552,7 +7543,7 @@
   {
    "id": "ucl-league-phase-md4-rb-leipzig-69",
    "comp": "ucl",
-   "espnId": null,
+   "espnId": "401915306",
    "round": "League phase MD4",
    "date": "2026-11-04",
    "time": "20:00",
@@ -7603,7 +7594,7 @@
   {
    "id": "ucl-league-phase-md4-slavia-prague-70",
    "comp": "ucl",
-   "espnId": null,
+   "espnId": "401915381",
    "round": "League phase MD4",
    "date": "2026-11-04",
    "time": "20:00",
@@ -7661,7 +7652,7 @@
   {
    "id": "ucl-league-phase-md4-viking-fk-71",
    "comp": "ucl",
-   "espnId": null,
+   "espnId": "401915302",
    "round": "League phase MD4",
    "date": "2026-11-04",
    "time": "20:00",
@@ -7960,6 +7951,7 @@
     ],
     "count": 2
    },
+   "espnId": "401879243",
    "alert": false
   },
   {
@@ -8622,6 +8614,7 @@
    },
    "score": null,
    "fpl": null,
+   "espnId": "401879235",
    "alert": false
   },
   {
@@ -8680,7 +8673,7 @@
   {
    "id": "ucl-league-phase-md5-bodo-glimt-72",
    "comp": "ucl",
-   "espnId": null,
+   "espnId": "401915380",
    "round": "League phase MD5",
    "date": "2026-11-24",
    "time": "17:45",
@@ -8719,7 +8712,7 @@
   {
    "id": "ucl-league-phase-md5-galatasaray-73",
    "comp": "ucl",
-   "espnId": null,
+   "espnId": "401915300",
    "round": "League phase MD5",
    "date": "2026-11-24",
    "time": "17:45",
@@ -8770,7 +8763,7 @@
   {
    "id": "ucl-league-phase-md5-arsenal-74",
    "comp": "ucl",
-   "espnId": null,
+   "espnId": "401915295",
    "round": "League phase MD5",
    "date": "2026-11-24",
    "time": "20:00",
@@ -8832,7 +8825,7 @@
   {
    "id": "ucl-league-phase-md5-como-75",
    "comp": "ucl",
-   "espnId": null,
+   "espnId": "401915296",
    "round": "League phase MD5",
    "date": "2026-11-24",
    "time": "20:00",
@@ -8871,7 +8864,7 @@
   {
    "id": "ucl-league-phase-md5-feyenoord-76",
    "comp": "ucl",
-   "espnId": null,
+   "espnId": "401915294",
    "round": "League phase MD5",
    "date": "2026-11-24",
    "time": "20:00",
@@ -8910,7 +8903,7 @@
   {
    "id": "ucl-league-phase-md5-man-city-77",
    "comp": "ucl",
-   "espnId": null,
+   "espnId": "401915379",
    "round": "League phase MD5",
    "date": "2026-11-24",
    "time": "20:00",
@@ -8965,7 +8958,7 @@
   {
    "id": "ucl-league-phase-md5-rb-leipzig-78",
    "comp": "ucl",
-   "espnId": null,
+   "espnId": "401915299",
    "round": "League phase MD5",
    "date": "2026-11-24",
    "time": "20:00",
@@ -9004,7 +8997,7 @@
   {
    "id": "ucl-league-phase-md5-real-madrid-79",
    "comp": "ucl",
-   "espnId": null,
+   "espnId": "401915298",
    "round": "League phase MD5",
    "date": "2026-11-24",
    "time": "20:00",
@@ -9043,7 +9036,7 @@
   {
    "id": "ucl-league-phase-md5-s-bratislava-80",
    "comp": "ucl",
-   "espnId": null,
+   "espnId": "401915297",
    "round": "League phase MD5",
    "date": "2026-11-24",
    "time": "20:00",
@@ -9082,7 +9075,7 @@
   {
    "id": "ucl-league-phase-md5-sabah-81",
    "comp": "ucl",
-   "espnId": null,
+   "espnId": "401915378",
    "round": "League phase MD5",
    "date": "2026-11-25",
    "time": "17:45",
@@ -9121,7 +9114,7 @@
   {
    "id": "ucl-league-phase-md5-slavia-prague-82",
    "comp": "ucl",
-   "espnId": null,
+   "espnId": "401915293",
    "round": "League phase MD5",
    "date": "2026-11-25",
    "time": "17:45",
@@ -9160,7 +9153,7 @@
   {
    "id": "ucl-league-phase-md5-atl-tico-83",
    "comp": "ucl",
-   "espnId": null,
+   "espnId": "401915291",
    "round": "League phase MD5",
    "date": "2026-11-25",
    "time": "20:00",
@@ -9199,7 +9192,7 @@
   {
    "id": "ucl-league-phase-md5-club-brugge-84",
    "comp": "ucl",
-   "espnId": null,
+   "espnId": "401915292",
    "round": "League phase MD5",
    "date": "2026-11-25",
    "time": "20:00",
@@ -9257,7 +9250,7 @@
   {
    "id": "ucl-league-phase-md5-inter-milan-85",
    "comp": "ucl",
-   "espnId": null,
+   "espnId": "401915376",
    "round": "League phase MD5",
    "date": "2026-11-25",
    "time": "20:00",
@@ -9296,7 +9289,7 @@
   {
    "id": "ucl-league-phase-md5-lille-86",
    "comp": "ucl",
-   "espnId": null,
+   "espnId": "401915377",
    "round": "League phase MD5",
    "date": "2026-11-25",
    "time": "20:00",
@@ -9335,7 +9328,7 @@
   {
    "id": "ucl-league-phase-md5-psg-87",
    "comp": "ucl",
-   "espnId": null,
+   "espnId": "401915374",
    "round": "League phase MD5",
    "date": "2026-11-25",
    "time": "20:00",
@@ -9378,7 +9371,7 @@
   {
    "id": "ucl-league-phase-md5-shakhtar-88",
    "comp": "ucl",
-   "espnId": null,
+   "espnId": "401915375",
    "round": "League phase MD5",
    "date": "2026-11-25",
    "time": "20:00",
@@ -9417,7 +9410,7 @@
   {
    "id": "ucl-league-phase-md5-sporting-89",
    "comp": "ucl",
-   "espnId": null,
+   "espnId": "401915373",
    "round": "League phase MD5",
    "date": "2026-11-25",
    "time": "20:00",
@@ -9953,6 +9946,7 @@
    },
    "score": null,
    "fpl": null,
+   "espnId": "401879230",
    "alert": false
   },
   {
@@ -10146,6 +10140,7 @@
     "away": [],
     "count": 2
    },
+   "espnId": "401879222",
    "alert": false
   },
   {
@@ -10842,6 +10837,7 @@
     "away": [],
     "count": 1
    },
+   "espnId": "401879215",
    "alert": false
   },
   {
@@ -10946,7 +10942,7 @@
   {
    "id": "ucl-league-phase-md6-viking-fk-90",
    "comp": "ucl",
-   "espnId": null,
+   "espnId": "401915290",
    "round": "League phase MD6",
    "date": "2026-12-08",
    "time": "17:45",
@@ -10985,7 +10981,7 @@
   {
    "id": "ucl-league-phase-md6-villarreal-91",
    "comp": "ucl",
-   "espnId": null,
+   "espnId": "401915372",
    "round": "League phase MD6",
    "date": "2026-12-08",
    "time": "17:45",
@@ -11024,7 +11020,7 @@
   {
    "id": "ucl-league-phase-md6-aek-athens-92",
    "comp": "ucl",
-   "espnId": null,
+   "espnId": "401915289",
    "round": "League phase MD6",
    "date": "2026-12-08",
    "time": "20:00",
@@ -11063,7 +11059,7 @@
   {
    "id": "ucl-league-phase-md6-as-roma-93",
    "comp": "ucl",
-   "espnId": null,
+   "espnId": "401915288",
    "round": "League phase MD6",
    "date": "2026-12-08",
    "time": "20:00",
@@ -11102,7 +11098,7 @@
   {
    "id": "ucl-league-phase-md6-aston-villa-94",
    "comp": "ucl",
-   "espnId": null,
+   "espnId": "401915286",
    "round": "League phase MD6",
    "date": "2026-12-08",
    "time": "20:00",
@@ -11157,7 +11153,7 @@
   {
    "id": "ucl-league-phase-md6-barcelona-95",
    "comp": "ucl",
-   "espnId": null,
+   "espnId": "401915285",
    "round": "League phase MD6",
    "date": "2026-12-08",
    "time": "20:00",
@@ -11212,7 +11208,7 @@
   {
    "id": "ucl-league-phase-md6-bayern-96",
    "comp": "ucl",
-   "espnId": null,
+   "espnId": "401915284",
    "round": "League phase MD6",
    "date": "2026-12-08",
    "time": "20:00",
@@ -11251,7 +11247,7 @@
   {
    "id": "ucl-league-phase-md6-man-united-97",
    "comp": "ucl",
-   "espnId": null,
+   "espnId": "401915371",
    "round": "League phase MD6",
    "date": "2026-12-08",
    "time": "20:00",
@@ -11294,7 +11290,7 @@
   {
    "id": "ucl-league-phase-md6-napoli-98",
    "comp": "ucl",
-   "espnId": null,
+   "espnId": "401915287",
    "round": "League phase MD6",
    "date": "2026-12-08",
    "time": "20:00",
@@ -11333,7 +11329,7 @@
   {
    "id": "ucl-league-phase-md6-betis-99",
    "comp": "ucl",
-   "espnId": null,
+   "espnId": "401915283",
    "round": "League phase MD6",
    "date": "2026-12-09",
    "time": "17:45",
@@ -11372,7 +11368,7 @@
   {
    "id": "ucl-league-phase-md6-s-bratislava-100",
    "comp": "ucl",
-   "espnId": null,
+   "espnId": "401915282",
    "round": "League phase MD6",
    "date": "2026-12-09",
    "time": "17:45",
@@ -11411,7 +11407,7 @@
   {
    "id": "ucl-league-phase-md6-arsenal-101",
    "comp": "ucl",
-   "espnId": null,
+   "espnId": "401915367",
    "round": "League phase MD6",
    "date": "2026-12-09",
    "time": "20:00",
@@ -11473,7 +11469,7 @@
   {
    "id": "ucl-league-phase-md6-dortmund-102",
    "comp": "ucl",
-   "espnId": null,
+   "espnId": "401915368",
    "round": "League phase MD6",
    "date": "2026-12-09",
    "time": "20:00",
@@ -11516,7 +11512,7 @@
   {
    "id": "ucl-league-phase-md6-lask-linz-103",
    "comp": "ucl",
-   "espnId": null,
+   "espnId": "401915281",
    "round": "League phase MD6",
    "date": "2026-12-09",
    "time": "20:00",
@@ -11555,7 +11551,7 @@
   {
    "id": "ucl-league-phase-md6-lens-104",
    "comp": "ucl",
-   "espnId": null,
+   "espnId": "401915370",
    "round": "League phase MD6",
    "date": "2026-12-09",
    "time": "20:00",
@@ -11594,7 +11590,7 @@
   {
    "id": "ucl-league-phase-md6-liverpool-105",
    "comp": "ucl",
-   "espnId": null,
+   "espnId": "401915369",
    "round": "League phase MD6",
    "date": "2026-12-09",
    "time": "20:00",
@@ -11656,7 +11652,7 @@
   {
    "id": "ucl-league-phase-md6-psv-106",
    "comp": "ucl",
-   "espnId": null,
+   "espnId": "401915366",
    "round": "League phase MD6",
    "date": "2026-12-09",
    "time": "20:00",
@@ -11695,7 +11691,7 @@
   {
    "id": "ucl-league-phase-md6-stuttgart-107",
    "comp": "ucl",
-   "espnId": null,
+   "espnId": "401915365",
    "round": "League phase MD6",
    "date": "2026-12-09",
    "time": "20:00",
@@ -11812,6 +11808,7 @@
    },
    "score": null,
    "fpl": null,
+   "espnId": "401879207",
    "alert": true
   },
   {
@@ -12493,6 +12490,7 @@
     "away": [],
     "count": 1
    },
+   "espnId": "401878738",
    "alert": false
   },
   {
@@ -12857,6 +12855,7 @@
     ],
     "count": 2
    },
+   "espnId": "401878735",
    "alert": false
   },
   {
@@ -13705,6 +13704,7 @@
     ],
     "count": 2
    },
+   "espnId": "401879193",
    "alert": false
   },
   {
@@ -13811,6 +13811,7 @@
     "away": [],
     "count": 1
    },
+   "espnId": "401879184",
    "alert": false
   },
   {
@@ -14655,6 +14656,7 @@
     ],
     "count": 2
    },
+   "espnId": "401879175",
    "alert": false
   },
   {
@@ -15080,6 +15082,7 @@
     "away": [],
     "count": 2
    },
+   "espnId": "401879166",
    "alert": false
   },
   {
@@ -15184,7 +15187,7 @@
   {
    "id": "ucl-league-phase-md7-bodo-glimt-108",
    "comp": "ucl",
-   "espnId": null,
+   "espnId": "401915364",
    "round": "League phase MD7",
    "date": "2027-01-19",
    "time": "17:45",
@@ -15223,7 +15226,7 @@
   {
    "id": "ucl-league-phase-md7-galatasaray-109",
    "comp": "ucl",
-   "espnId": null,
+   "espnId": "401915363",
    "round": "League phase MD7",
    "date": "2027-01-19",
    "time": "17:45",
@@ -15262,7 +15265,7 @@
   {
    "id": "ucl-league-phase-md7-aek-athens-110",
    "comp": "ucl",
-   "espnId": null,
+   "espnId": "401915362",
    "round": "League phase MD7",
    "date": "2027-01-19",
    "time": "20:00",
@@ -15301,7 +15304,7 @@
   {
    "id": "ucl-league-phase-md7-aston-villa-111",
    "comp": "ucl",
-   "espnId": null,
+   "espnId": "401915279",
    "round": "League phase MD7",
    "date": "2027-01-19",
    "time": "20:00",
@@ -15352,7 +15355,7 @@
   {
    "id": "ucl-league-phase-md7-fc-porto-112",
    "comp": "ucl",
-   "espnId": null,
+   "espnId": "401915278",
    "round": "League phase MD7",
    "date": "2027-01-19",
    "time": "20:00",
@@ -15391,7 +15394,7 @@
   {
    "id": "ucl-league-phase-md7-inter-milan-113",
    "comp": "ucl",
-   "espnId": null,
+   "espnId": "401915360",
    "round": "League phase MD7",
    "date": "2027-01-19",
    "time": "20:00",
@@ -15453,7 +15456,7 @@
   {
    "id": "ucl-league-phase-md7-lille-114",
    "comp": "ucl",
-   "espnId": null,
+   "espnId": "401915361",
    "round": "League phase MD7",
    "date": "2027-01-19",
    "time": "20:00",
@@ -15492,7 +15495,7 @@
   {
    "id": "ucl-league-phase-md7-real-madrid-115",
    "comp": "ucl",
-   "espnId": null,
+   "espnId": "401915280",
    "round": "League phase MD7",
    "date": "2027-01-19",
    "time": "20:00",
@@ -15531,7 +15534,7 @@
   {
    "id": "ucl-league-phase-md7-stuttgart-116",
    "comp": "ucl",
-   "espnId": null,
+   "espnId": "401915359",
    "round": "League phase MD7",
    "date": "2027-01-19",
    "time": "20:00",
@@ -15570,7 +15573,7 @@
   {
    "id": "ucl-league-phase-md7-fenerbahce-117",
    "comp": "ucl",
-   "espnId": null,
+   "espnId": "401915277",
    "round": "League phase MD7",
    "date": "2027-01-20",
    "time": "17:45",
@@ -15609,7 +15612,7 @@
   {
    "id": "ucl-league-phase-md7-sabah-118",
    "comp": "ucl",
-   "espnId": null,
+   "espnId": "401915358",
    "round": "League phase MD7",
    "date": "2027-01-20",
    "time": "17:45",
@@ -15648,7 +15651,7 @@
   {
    "id": "ucl-league-phase-md7-como-119",
    "comp": "ucl",
-   "espnId": null,
+   "espnId": "401915273",
    "round": "League phase MD7",
    "date": "2027-01-20",
    "time": "20:00",
@@ -15691,7 +15694,7 @@
   {
    "id": "ucl-league-phase-md7-lens-120",
    "comp": "ucl",
-   "espnId": null,
+   "espnId": "401915274",
    "round": "League phase MD7",
    "date": "2027-01-20",
    "time": "20:00",
@@ -15742,7 +15745,7 @@
   {
    "id": "ucl-league-phase-md7-man-united-121",
    "comp": "ucl",
-   "espnId": null,
+   "espnId": "401915357",
    "round": "League phase MD7",
    "date": "2027-01-20",
    "time": "20:00",
@@ -15785,7 +15788,7 @@
   {
    "id": "ucl-league-phase-md7-rb-leipzig-122",
    "comp": "ucl",
-   "espnId": null,
+   "espnId": "401915276",
    "round": "League phase MD7",
    "date": "2027-01-20",
    "time": "20:00",
@@ -15824,7 +15827,7 @@
   {
    "id": "ucl-league-phase-md7-betis-123",
    "comp": "ucl",
-   "espnId": null,
+   "espnId": "401915275",
    "round": "League phase MD7",
    "date": "2027-01-20",
    "time": "20:00",
@@ -15882,7 +15885,7 @@
   {
    "id": "ucl-league-phase-md7-sporting-124",
    "comp": "ucl",
-   "espnId": null,
+   "espnId": "401915356",
    "round": "League phase MD7",
    "date": "2027-01-20",
    "time": "20:00",
@@ -15921,7 +15924,7 @@
   {
    "id": "ucl-league-phase-md7-viking-fk-125",
    "comp": "ucl",
-   "espnId": null,
+   "espnId": "401915272",
    "round": "League phase MD7",
    "date": "2027-01-20",
    "time": "20:00",
@@ -16445,12 +16448,13 @@
    },
    "score": null,
    "fpl": null,
+   "espnId": "401879163",
    "alert": false
   },
   {
    "id": "ucl-league-phase-md8-arsenal-126",
    "comp": "ucl",
-   "espnId": null,
+   "espnId": "401915346",
    "round": "League phase MD8",
    "date": "2027-01-27",
    "time": "20:00",
@@ -16508,7 +16512,7 @@
   {
    "id": "ucl-league-phase-md8-as-roma-127",
    "comp": "ucl",
-   "espnId": null,
+   "espnId": "401915354",
    "round": "League phase MD8",
    "date": "2027-01-27",
    "time": "20:00",
@@ -16547,7 +16551,7 @@
   {
    "id": "ucl-league-phase-md8-atl-tico-128",
    "comp": "ucl",
-   "espnId": null,
+   "espnId": "401915347",
    "round": "League phase MD8",
    "date": "2027-01-27",
    "time": "20:00",
@@ -16586,7 +16590,7 @@
   {
    "id": "ucl-league-phase-md8-barcelona-129",
    "comp": "ucl",
-   "espnId": null,
+   "espnId": "401915264",
    "round": "League phase MD8",
    "date": "2027-01-27",
    "time": "20:00",
@@ -16625,7 +16629,7 @@
   {
    "id": "ucl-league-phase-md8-bayern-130",
    "comp": "ucl",
-   "espnId": null,
+   "espnId": "401915348",
    "round": "League phase MD8",
    "date": "2027-01-27",
    "time": "20:00",
@@ -16664,7 +16668,7 @@
   {
    "id": "ucl-league-phase-md8-dortmund-131",
    "comp": "ucl",
-   "espnId": null,
+   "espnId": "401915265",
    "round": "League phase MD8",
    "date": "2027-01-27",
    "time": "20:00",
@@ -16703,7 +16707,7 @@
   {
    "id": "ucl-league-phase-md8-club-brugge-132",
    "comp": "ucl",
-   "espnId": null,
+   "espnId": "401915266",
    "round": "League phase MD8",
    "date": "2027-01-27",
    "time": "20:00",
@@ -16742,7 +16746,7 @@
   {
    "id": "ucl-league-phase-md8-feyenoord-133",
    "comp": "ucl",
-   "espnId": null,
+   "espnId": "401915271",
    "round": "League phase MD8",
    "date": "2027-01-27",
    "time": "20:00",
@@ -16781,7 +16785,7 @@
   {
    "id": "ucl-league-phase-md8-lask-linz-134",
    "comp": "ucl",
-   "espnId": null,
+   "espnId": "401915355",
    "round": "League phase MD8",
    "date": "2027-01-27",
    "time": "20:00",
@@ -16820,7 +16824,7 @@
   {
    "id": "ucl-league-phase-md8-liverpool-135",
    "comp": "ucl",
-   "espnId": null,
+   "espnId": "401915353",
    "round": "League phase MD8",
    "date": "2027-01-27",
    "time": "20:00",
@@ -16878,7 +16882,7 @@
   {
    "id": "ucl-league-phase-md8-man-city-136",
    "comp": "ucl",
-   "espnId": null,
+   "espnId": "401915352",
    "round": "League phase MD8",
    "date": "2027-01-27",
    "time": "20:00",
@@ -16929,7 +16933,7 @@
   {
    "id": "ucl-league-phase-md8-napoli-137",
    "comp": "ucl",
-   "espnId": null,
+   "espnId": "401915268",
    "round": "League phase MD8",
    "date": "2027-01-27",
    "time": "20:00",
@@ -16968,7 +16972,7 @@
   {
    "id": "ucl-league-phase-md8-psg-138",
    "comp": "ucl",
-   "espnId": null,
+   "espnId": "401915267",
    "round": "League phase MD8",
    "date": "2027-01-27",
    "time": "20:00",
@@ -17011,7 +17015,7 @@
   {
    "id": "ucl-league-phase-md8-psv-139",
    "comp": "ucl",
-   "espnId": null,
+   "espnId": "401915350",
    "round": "League phase MD8",
    "date": "2027-01-27",
    "time": "20:00",
@@ -17050,7 +17054,7 @@
   {
    "id": "ucl-league-phase-md8-shakhtar-140",
    "comp": "ucl",
-   "espnId": null,
+   "espnId": "401915270",
    "round": "League phase MD8",
    "date": "2027-01-27",
    "time": "20:00",
@@ -17089,7 +17093,7 @@
   {
    "id": "ucl-league-phase-md8-slavia-prague-141",
    "comp": "ucl",
-   "espnId": null,
+   "espnId": "401915351",
    "round": "League phase MD8",
    "date": "2027-01-27",
    "time": "20:00",
@@ -17140,7 +17144,7 @@
   {
    "id": "ucl-league-phase-md8-s-bratislava-142",
    "comp": "ucl",
-   "espnId": null,
+   "espnId": "401915269",
    "round": "League phase MD8",
    "date": "2027-01-27",
    "time": "20:00",
@@ -17179,7 +17183,7 @@
   {
    "id": "ucl-league-phase-md8-villarreal-143",
    "comp": "ucl",
-   "espnId": null,
+   "espnId": "401915349",
    "round": "League phase MD8",
    "date": "2027-01-27",
    "time": "20:00",
@@ -17399,6 +17403,7 @@
    },
    "score": null,
    "fpl": null,
+   "espnId": "401879156",
    "alert": false
   },
   {
@@ -17927,6 +17932,7 @@
    },
    "score": null,
    "fpl": null,
+   "espnId": "401879152",
    "alert": false
   },
   {
@@ -18444,6 +18450,7 @@
     ],
     "count": 1
    },
+   "espnId": "401878708",
    "alert": false
   },
   {
@@ -18801,6 +18808,7 @@
     "away": [],
     "count": 2
    },
+   "espnId": "401879139",
    "alert": false
   },
   {
@@ -19242,6 +19250,7 @@
     ],
     "count": 1
    },
+   "espnId": "401878701",
    "alert": false
   },
   {
@@ -19880,6 +19889,7 @@
     "away": [],
     "count": 2
    },
+   "espnId": "401878696",
    "alert": false
   },
   {
@@ -20317,6 +20327,7 @@
     ],
     "count": 1
    },
+   "espnId": "401878691",
    "alert": false
   },
   {
@@ -20876,6 +20887,7 @@
    },
    "score": null,
    "fpl": null,
+   "espnId": "401879109",
    "alert": false
   },
   {
@@ -21548,6 +21560,7 @@
    },
    "score": null,
    "fpl": null,
+   "espnId": "401879102",
    "alert": false
   },
   {
@@ -22054,6 +22067,7 @@
     "away": [],
     "count": 1
    },
+   "espnId": "401879095",
    "alert": false
   },
   {
@@ -22345,6 +22359,7 @@
    },
    "score": null,
    "fpl": null,
+   "espnId": "401879091",
    "alert": true
   },
   {
@@ -23103,6 +23118,7 @@
     ],
     "count": 1
    },
+   "espnId": "401879087",
    "alert": false
   },
   {
@@ -23334,6 +23350,7 @@
    },
    "score": null,
    "fpl": null,
+   "espnId": "401878667",
    "alert": false
   },
   {
@@ -23771,6 +23788,7 @@
     ],
     "count": 2
    },
+   "espnId": "401878664",
    "alert": true
   },
   {
@@ -24204,6 +24222,7 @@
    },
    "score": null,
    "fpl": null,
+   "espnId": "401879066",
    "alert": false
   },
   {
@@ -25097,6 +25116,7 @@
    },
    "score": null,
    "fpl": null,
+   "espnId": "401879062",
    "alert": false
   }
  ]

@@ -1,5 +1,5 @@
 {
- "fetchedAt": "2026-08-30T14:13:26.294Z",
+ "fetchedAt": "2026-08-30T14:14:25.661Z",
  "tables": {
   "pl": {
    "name": "Premier League",
@@ -348,7 +348,7 @@
     },
     {
      "rank": 19,
-     "team": "C Palace",
+     "team": "Crystal Palace",
      "played": 2,
      "won": 0,
      "drawn": 0,
@@ -357,7 +357,13 @@
      "ga": 6,
      "gd": -5,
      "points": 0,
-     "form": []
+     "form": [
+      {
+       "r": "L",
+       "opponent": "Everton",
+       "score": "0-2"
+      }
+     ]
     },
     {
      "rank": 20,
