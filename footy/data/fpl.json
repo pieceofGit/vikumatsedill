@@ -1,4 +1,163 @@
 {
- "_note": "Seed. tools/fpl.mjs overwrites this with the live squad on each build; only teamId needs to survive. An FPL_TEAM_ID environment variable takes precedence over this.",
- "teamId": 6870928
+ "fetchedAt": "2026-08-30T13:41:19.230Z",
+ "teamId": 6870928,
+ "name": "How's it Goink?",
+ "manager": "Fjölnir Þrastarson",
+ "gameweek": 2,
+ "gameweekName": "Gameweek 2",
+ "overallPoints": 105,
+ "overallRank": 1489754,
+ "gameweekPoints": 53,
+ "players": [
+  {
+   "id": 57,
+   "name": "Petrović",
+   "club": "Bournemouth",
+   "position": "GKP",
+   "captain": false,
+   "vice": true,
+   "benched": false,
+   "points": 3
+  },
+  {
+   "id": 8,
+   "name": "Calafiori",
+   "club": "Arsenal",
+   "position": "DEF",
+   "captain": false,
+   "vice": false,
+   "benched": false,
+   "points": 0
+  },
+  {
+   "id": 115,
+   "name": "De Cuyper",
+   "club": "Brighton",
+   "position": "DEF",
+   "captain": false,
+   "vice": false,
+   "benched": false,
+   "points": 0
+  },
+  {
+   "id": 356,
+   "name": "Virgil",
+   "club": "Liverpool",
+   "position": "DEF",
+   "captain": false,
+   "vice": false,
+   "benched": false,
+   "points": 1
+  },
+  {
+   "id": 40,
+   "name": "Rogers",
+   "club": "Chelsea",
+   "position": "MID",
+   "captain": false,
+   "vice": false,
+   "benched": false,
+   "points": 4
+  },
+  {
+   "id": 67,
+   "name": "Rayan",
+   "club": "Bournemouth",
+   "position": "MID",
+   "captain": false,
+   "vice": false,
+   "benched": false,
+   "points": 2
+  },
+  {
+   "id": 13,
+   "name": "Rice",
+   "club": "Arsenal",
+   "position": "MID",
+   "captain": false,
+   "vice": false,
+   "benched": false,
+   "points": 0
+  },
+  {
+   "id": 565,
+   "name": "M.Sangaré",
+   "club": "Brentford",
+   "position": "MID",
+   "captain": false,
+   "vice": false,
+   "benched": false,
+   "points": 1
+  },
+  {
+   "id": 411,
+   "name": "Haaland",
+   "club": "Man City",
+   "position": "FWD",
+   "captain": true,
+   "vice": false,
+   "benched": false,
+   "points": 13
+  },
+  {
+   "id": 379,
+   "name": "Isak",
+   "club": "Liverpool",
+   "position": "FWD",
+   "captain": false,
+   "vice": false,
+   "benched": false,
+   "points": 8
+  },
+  {
+   "id": 165,
+   "name": "João Pedro",
+   "club": "Chelsea",
+   "position": "FWD",
+   "captain": false,
+   "vice": false,
+   "benched": false,
+   "points": 8
+  },
+  {
+   "id": 250,
+   "name": "Leno",
+   "club": "Fulham",
+   "position": "GKP",
+   "captain": false,
+   "vice": false,
+   "benched": true,
+   "points": 1
+  },
+  {
+   "id": 544,
+   "name": "Xhaka",
+   "club": "Sunderland",
+   "position": "MID",
+   "captain": false,
+   "vice": false,
+   "benched": true,
+   "points": 4
+  },
+  {
+   "id": 113,
+   "name": "F.Kadıoğlu",
+   "club": "Brighton",
+   "position": "DEF",
+   "captain": false,
+   "vice": false,
+   "benched": true,
+   "points": 0
+  },
+  {
+   "id": 32,
+   "name": "Cash",
+   "club": "Aston Villa",
+   "position": "DEF",
+   "captain": false,
+   "vice": false,
+   "benched": true,
+   "points": 0
+  }
+ ]
 }
