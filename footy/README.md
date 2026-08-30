@@ -231,17 +231,25 @@ pitch, so an alert sent the instant a goal is detected arrives before you have
 seen it: the notification spoils the moment it exists to celebrate. Scores in
 the match alerts give the game away just as thoroughly, so they wait too.
 
-The polling gap adds lag of its own, so measured from the actual goal:
+Two things add up here, and the second is easy to miss. A held alert can only
+be released *by a poll*, so a three-minute hold under five-minute polling means
+the alert waits for the next poll but one:
 
 | | |
 | --- | --- |
-| Detection | 0–5 minutes (the poll interval) |
-| Held | 3 minutes |
-| **Reaching you** | **3–8 minutes after it happened** |
+| Goal scored | 0:00 |
+| Seen by a poll | up to 5 minutes later |
+| Held 3 minutes, released on the following poll | 5 minutes after that |
+| **Reaching you** | **5–10 minutes after the goal** |
 
-That asymmetry is deliberate. Arriving late is a small annoyance; arriving early
-ruins the goal. Set an `ALERT_DELAY_MINUTES` repository *variable* to change it
-— `0` disables the hold entirely.
+So the hold sets a floor, not the actual figure: any delay shorter than the poll
+interval lands in the same place. That is comfortably clear of any normal stream
+delay, which is the point — arriving late is a small annoyance, arriving early
+ruins the goal.
+
+Set an `ALERT_DELAY_MINUTES` repository *variable* to change it. `0` disables
+the hold, which brings alerts back to 0–5 minutes after the goal — fast, and
+capable of spoiling one.
 
 With no id set, none of this appears and the rest of the build is unaffected.
 
