@@ -1,12 +1,87 @@
 {
- "fetchedAt": "2026-08-30T14:12:37.673Z",
+ "fetchedAt": "2026-08-30T14:13:26.294Z",
  "tables": {
   "pl": {
    "name": "Premier League",
-   "computed": true,
    "rows": [
     {
      "rank": 1,
+     "team": "Man City",
+     "played": 2,
+     "won": 2,
+     "drawn": 0,
+     "lost": 0,
+     "gf": 6,
+     "ga": 2,
+     "gd": 4,
+     "points": 6,
+     "form": [
+      {
+       "r": "W",
+       "opponent": "Bournemouth",
+       "score": "2-1"
+      }
+     ]
+    },
+    {
+     "rank": 2,
+     "team": "Hull City",
+     "played": 2,
+     "won": 2,
+     "drawn": 0,
+     "lost": 0,
+     "gf": 3,
+     "ga": 0,
+     "gd": 3,
+     "points": 6,
+     "form": [
+      {
+       "r": "W",
+       "opponent": "Man Utd",
+       "score": "2-0"
+      }
+     ]
+    },
+    {
+     "rank": 3,
+     "team": "Newcastle",
+     "played": 2,
+     "won": 1,
+     "drawn": 1,
+     "lost": 0,
+     "gf": 4,
+     "ga": 2,
+     "gd": 2,
+     "points": 4,
+     "form": [
+      {
+       "r": "D",
+       "opponent": "Liverpool",
+       "score": "2-2"
+      }
+     ]
+    },
+    {
+     "rank": 4,
+     "team": "Everton",
+     "played": 2,
+     "won": 1,
+     "drawn": 1,
+     "lost": 0,
+     "gf": 3,
+     "ga": 1,
+     "gd": 2,
+     "points": 4,
+     "form": [
+      {
+       "r": "W",
+       "opponent": "Crystal Palace",
+       "score": "2-0"
+      }
+     ]
+    },
+    {
+     "rank": 5,
      "team": "Brighton",
      "played": 1,
      "won": 1,
@@ -25,7 +100,7 @@
      ]
     },
     {
-     "rank": 2,
+     "rank": 6,
      "team": "Arsenal",
      "played": 1,
      "won": 1,
@@ -44,7 +119,7 @@
      ]
     },
     {
-     "rank": 3,
+     "rank": 7,
      "team": "Brentford",
      "played": 1,
      "won": 1,
@@ -63,45 +138,7 @@
      ]
     },
     {
-     "rank": 4,
-     "team": "Hull City",
-     "played": 1,
-     "won": 1,
-     "drawn": 0,
-     "lost": 0,
-     "gf": 2,
-     "ga": 0,
-     "gd": 2,
-     "points": 3,
-     "form": [
-      {
-       "r": "W",
-       "opponent": "Man Utd",
-       "score": "2-0"
-      }
-     ]
-    },
-    {
-     "rank": 5,
-     "team": "Everton",
-     "played": 1,
-     "won": 1,
-     "drawn": 0,
-     "lost": 0,
-     "gf": 2,
-     "ga": 0,
-     "gd": 2,
-     "points": 3,
-     "form": [
-      {
-       "r": "W",
-       "opponent": "Crystal Palace",
-       "score": "2-0"
-      }
-     ]
-    },
-    {
-     "rank": 6,
+     "rank": 8,
      "team": "Chelsea",
      "played": 1,
      "won": 1,
@@ -120,7 +157,7 @@
      ]
     },
     {
-     "rank": 7,
+     "rank": 9,
      "team": "Ipswich",
      "played": 1,
      "won": 1,
@@ -139,26 +176,7 @@
      ]
     },
     {
-     "rank": 8,
-     "team": "Man City",
-     "played": 1,
-     "won": 1,
-     "drawn": 0,
-     "lost": 0,
-     "gf": 2,
-     "ga": 1,
-     "gd": 1,
-     "points": 3,
-     "form": [
-      {
-       "r": "W",
-       "opponent": "Bournemouth",
-       "score": "2-1"
-      }
-     ]
-    },
-    {
-     "rank": 9,
+     "rank": 10,
      "team": "Leeds",
      "played": 1,
      "won": 1,
@@ -177,35 +195,16 @@
      ]
     },
     {
-     "rank": 10,
-     "team": "Newcastle",
-     "played": 1,
-     "won": 0,
-     "drawn": 1,
-     "lost": 0,
-     "gf": 2,
-     "ga": 2,
-     "gd": 0,
-     "points": 1,
-     "form": [
-      {
-       "r": "D",
-       "opponent": "Liverpool",
-       "score": "2-2"
-      }
-     ]
-    },
-    {
      "rank": 11,
      "team": "Liverpool",
-     "played": 1,
+     "played": 2,
      "won": 0,
-     "drawn": 1,
+     "drawn": 2,
      "lost": 0,
-     "gf": 2,
-     "ga": 2,
+     "gf": 4,
+     "ga": 4,
      "gd": 0,
-     "points": 1,
+     "points": 2,
      "form": [
       {
        "r": "D",
@@ -216,6 +215,44 @@
     },
     {
      "rank": 12,
+     "team": "Bournemouth",
+     "played": 2,
+     "won": 0,
+     "drawn": 1,
+     "lost": 1,
+     "gf": 2,
+     "ga": 3,
+     "gd": -1,
+     "points": 1,
+     "form": [
+      {
+       "r": "L",
+       "opponent": "Man City",
+       "score": "1-2"
+      }
+     ]
+    },
+    {
+     "rank": 13,
+     "team": "Nott'm Forest",
+     "played": 2,
+     "won": 0,
+     "drawn": 1,
+     "lost": 1,
+     "gf": 2,
+     "ga": 3,
+     "gd": -1,
+     "points": 1,
+     "form": [
+      {
+       "r": "L",
+       "opponent": "Leeds",
+       "score": "0-1"
+      }
+     ]
+    },
+    {
+     "rank": 14,
      "team": "Fulham",
      "played": 1,
      "won": 0,
@@ -234,7 +271,7 @@
      ]
     },
     {
-     "rank": 13,
+     "rank": 15,
      "team": "Sunderland",
      "played": 1,
      "won": 0,
@@ -249,44 +286,6 @@
        "r": "L",
        "opponent": "Ipswich",
        "score": "1-2"
-      }
-     ]
-    },
-    {
-     "rank": 14,
-     "team": "Bournemouth",
-     "played": 1,
-     "won": 0,
-     "drawn": 0,
-     "lost": 1,
-     "gf": 1,
-     "ga": 2,
-     "gd": -1,
-     "points": 0,
-     "form": [
-      {
-       "r": "L",
-       "opponent": "Man City",
-       "score": "1-2"
-      }
-     ]
-    },
-    {
-     "rank": 15,
-     "team": "Nott'm Forest",
-     "played": 1,
-     "won": 0,
-     "drawn": 0,
-     "lost": 1,
-     "gf": 0,
-     "ga": 1,
-     "gd": -1,
-     "points": 0,
-     "form": [
-      {
-       "r": "L",
-       "opponent": "Leeds",
-       "score": "0-1"
       }
      ]
     },
@@ -311,63 +310,6 @@
     },
     {
      "rank": 17,
-     "team": "Crystal Palace",
-     "played": 1,
-     "won": 0,
-     "drawn": 0,
-     "lost": 1,
-     "gf": 0,
-     "ga": 2,
-     "gd": -2,
-     "points": 0,
-     "form": [
-      {
-       "r": "L",
-       "opponent": "Everton",
-       "score": "0-2"
-      }
-     ]
-    },
-    {
-     "rank": 18,
-     "team": "Coventry",
-     "played": 1,
-     "won": 0,
-     "drawn": 0,
-     "lost": 1,
-     "gf": 0,
-     "ga": 3,
-     "gd": -3,
-     "points": 0,
-     "form": [
-      {
-       "r": "L",
-       "opponent": "Arsenal",
-       "score": "0-3"
-      }
-     ]
-    },
-    {
-     "rank": 19,
-     "team": "Tottenham",
-     "played": 1,
-     "won": 0,
-     "drawn": 0,
-     "lost": 1,
-     "gf": 0,
-     "ga": 3,
-     "gd": -3,
-     "points": 0,
-     "form": [
-      {
-       "r": "L",
-       "opponent": "Brentford",
-       "score": "0-3"
-      }
-     ]
-    },
-    {
-     "rank": 20,
      "team": "Aston Villa",
      "played": 1,
      "won": 0,
@@ -384,6 +326,530 @@
        "score": "0-4"
       }
      ]
+    },
+    {
+     "rank": 18,
+     "team": "Coventry",
+     "played": 2,
+     "won": 0,
+     "drawn": 0,
+     "lost": 2,
+     "gf": 0,
+     "ga": 4,
+     "gd": -4,
+     "points": 0,
+     "form": [
+      {
+       "r": "L",
+       "opponent": "Arsenal",
+       "score": "0-3"
+      }
+     ]
+    },
+    {
+     "rank": 19,
+     "team": "C Palace",
+     "played": 2,
+     "won": 0,
+     "drawn": 0,
+     "lost": 2,
+     "gf": 1,
+     "ga": 6,
+     "gd": -5,
+     "points": 0,
+     "form": []
+    },
+    {
+     "rank": 20,
+     "team": "Tottenham",
+     "played": 2,
+     "won": 0,
+     "drawn": 0,
+     "lost": 2,
+     "gf": 0,
+     "ga": 5,
+     "gd": -5,
+     "points": 0,
+     "form": [
+      {
+       "r": "L",
+       "opponent": "Brentford",
+       "score": "0-3"
+      }
+     ]
+    }
+   ]
+  },
+  "ucl": {
+   "name": "Champions League",
+   "rows": [
+    {
+     "rank": 1,
+     "team": "AEK Athens",
+     "played": 0,
+     "won": 0,
+     "drawn": 0,
+     "lost": 0,
+     "gf": 0,
+     "ga": 0,
+     "gd": 0,
+     "points": 0,
+     "form": []
+    },
+    {
+     "rank": 2,
+     "team": "Arsenal",
+     "played": 0,
+     "won": 0,
+     "drawn": 0,
+     "lost": 0,
+     "gf": 0,
+     "ga": 0,
+     "gd": 0,
+     "points": 0,
+     "form": []
+    },
+    {
+     "rank": 3,
+     "team": "Aston Villa",
+     "played": 0,
+     "won": 0,
+     "drawn": 0,
+     "lost": 0,
+     "gf": 0,
+     "ga": 0,
+     "gd": 0,
+     "points": 0,
+     "form": []
+    },
+    {
+     "rank": 4,
+     "team": "Atlético",
+     "played": 0,
+     "won": 0,
+     "drawn": 0,
+     "lost": 0,
+     "gf": 0,
+     "ga": 0,
+     "gd": 0,
+     "points": 0,
+     "form": []
+    },
+    {
+     "rank": 5,
+     "team": "Barcelona",
+     "played": 0,
+     "won": 0,
+     "drawn": 0,
+     "lost": 0,
+     "gf": 0,
+     "ga": 0,
+     "gd": 0,
+     "points": 0,
+     "form": []
+    },
+    {
+     "rank": 6,
+     "team": "Bayern",
+     "played": 0,
+     "won": 0,
+     "drawn": 0,
+     "lost": 0,
+     "gf": 0,
+     "ga": 0,
+     "gd": 0,
+     "points": 0,
+     "form": []
+    },
+    {
+     "rank": 7,
+     "team": "Bodo/Glimt",
+     "played": 0,
+     "won": 0,
+     "drawn": 0,
+     "lost": 0,
+     "gf": 0,
+     "ga": 0,
+     "gd": 0,
+     "points": 0,
+     "form": []
+    },
+    {
+     "rank": 8,
+     "team": "Dortmund",
+     "played": 0,
+     "won": 0,
+     "drawn": 0,
+     "lost": 0,
+     "gf": 0,
+     "ga": 0,
+     "gd": 0,
+     "points": 0,
+     "form": []
+    },
+    {
+     "rank": 9,
+     "team": "Club Brugge",
+     "played": 0,
+     "won": 0,
+     "drawn": 0,
+     "lost": 0,
+     "gf": 0,
+     "ga": 0,
+     "gd": 0,
+     "points": 0,
+     "form": []
+    },
+    {
+     "rank": 10,
+     "team": "Como",
+     "played": 0,
+     "won": 0,
+     "drawn": 0,
+     "lost": 0,
+     "gf": 0,
+     "ga": 0,
+     "gd": 0,
+     "points": 0,
+     "form": []
+    },
+    {
+     "rank": 11,
+     "team": "Fenerbahce",
+     "played": 0,
+     "won": 0,
+     "drawn": 0,
+     "lost": 0,
+     "gf": 0,
+     "ga": 0,
+     "gd": 0,
+     "points": 0,
+     "form": []
+    },
+    {
+     "rank": 12,
+     "team": "Feyenoord",
+     "played": 0,
+     "won": 0,
+     "drawn": 0,
+     "lost": 0,
+     "gf": 0,
+     "ga": 0,
+     "gd": 0,
+     "points": 0,
+     "form": []
+    },
+    {
+     "rank": 13,
+     "team": "Galatasaray",
+     "played": 0,
+     "won": 0,
+     "drawn": 0,
+     "lost": 0,
+     "gf": 0,
+     "ga": 0,
+     "gd": 0,
+     "points": 0,
+     "form": []
+    },
+    {
+     "rank": 14,
+     "team": "Inter Milan",
+     "played": 0,
+     "won": 0,
+     "drawn": 0,
+     "lost": 0,
+     "gf": 0,
+     "ga": 0,
+     "gd": 0,
+     "points": 0,
+     "form": []
+    },
+    {
+     "rank": 15,
+     "team": "LASK Linz",
+     "played": 0,
+     "won": 0,
+     "drawn": 0,
+     "lost": 0,
+     "gf": 0,
+     "ga": 0,
+     "gd": 0,
+     "points": 0,
+     "form": []
+    },
+    {
+     "rank": 16,
+     "team": "Lens",
+     "played": 0,
+     "won": 0,
+     "drawn": 0,
+     "lost": 0,
+     "gf": 0,
+     "ga": 0,
+     "gd": 0,
+     "points": 0,
+     "form": []
+    },
+    {
+     "rank": 17,
+     "team": "Lille",
+     "played": 0,
+     "won": 0,
+     "drawn": 0,
+     "lost": 0,
+     "gf": 0,
+     "ga": 0,
+     "gd": 0,
+     "points": 0,
+     "form": []
+    },
+    {
+     "rank": 18,
+     "team": "Liverpool",
+     "played": 0,
+     "won": 0,
+     "drawn": 0,
+     "lost": 0,
+     "gf": 0,
+     "ga": 0,
+     "gd": 0,
+     "points": 0,
+     "form": []
+    },
+    {
+     "rank": 19,
+     "team": "Man City",
+     "played": 0,
+     "won": 0,
+     "drawn": 0,
+     "lost": 0,
+     "gf": 0,
+     "ga": 0,
+     "gd": 0,
+     "points": 0,
+     "form": []
+    },
+    {
+     "rank": 20,
+     "team": "Man United",
+     "played": 0,
+     "won": 0,
+     "drawn": 0,
+     "lost": 0,
+     "gf": 0,
+     "ga": 0,
+     "gd": 0,
+     "points": 0,
+     "form": []
+    },
+    {
+     "rank": 21,
+     "team": "Napoli",
+     "played": 0,
+     "won": 0,
+     "drawn": 0,
+     "lost": 0,
+     "gf": 0,
+     "ga": 0,
+     "gd": 0,
+     "points": 0,
+     "form": []
+    },
+    {
+     "rank": 22,
+     "team": "PSV",
+     "played": 0,
+     "won": 0,
+     "drawn": 0,
+     "lost": 0,
+     "gf": 0,
+     "ga": 0,
+     "gd": 0,
+     "points": 0,
+     "form": []
+    },
+    {
+     "rank": 23,
+     "team": "PSG",
+     "played": 0,
+     "won": 0,
+     "drawn": 0,
+     "lost": 0,
+     "gf": 0,
+     "ga": 0,
+     "gd": 0,
+     "points": 0,
+     "form": []
+    },
+    {
+     "rank": 24,
+     "team": "FC Porto",
+     "played": 0,
+     "won": 0,
+     "drawn": 0,
+     "lost": 0,
+     "gf": 0,
+     "ga": 0,
+     "gd": 0,
+     "points": 0,
+     "form": []
+    },
+    {
+     "rank": 25,
+     "team": "RB Leipzig",
+     "played": 0,
+     "won": 0,
+     "drawn": 0,
+     "lost": 0,
+     "gf": 0,
+     "ga": 0,
+     "gd": 0,
+     "points": 0,
+     "form": []
+    },
+    {
+     "rank": 26,
+     "team": "Betis",
+     "played": 0,
+     "won": 0,
+     "drawn": 0,
+     "lost": 0,
+     "gf": 0,
+     "ga": 0,
+     "gd": 0,
+     "points": 0,
+     "form": []
+    },
+    {
+     "rank": 27,
+     "team": "Real Madrid",
+     "played": 0,
+     "won": 0,
+     "drawn": 0,
+     "lost": 0,
+     "gf": 0,
+     "ga": 0,
+     "gd": 0,
+     "points": 0,
+     "form": []
+    },
+    {
+     "rank": 28,
+     "team": "AS Roma",
+     "played": 0,
+     "won": 0,
+     "drawn": 0,
+     "lost": 0,
+     "gf": 0,
+     "ga": 0,
+     "gd": 0,
+     "points": 0,
+     "form": []
+    },
+    {
+     "rank": 29,
+     "team": "Sabah",
+     "played": 0,
+     "won": 0,
+     "drawn": 0,
+     "lost": 0,
+     "gf": 0,
+     "ga": 0,
+     "gd": 0,
+     "points": 0,
+     "form": []
+    },
+    {
+     "rank": 30,
+     "team": "Shakhtar",
+     "played": 0,
+     "won": 0,
+     "drawn": 0,
+     "lost": 0,
+     "gf": 0,
+     "ga": 0,
+     "gd": 0,
+     "points": 0,
+     "form": []
+    },
+    {
+     "rank": 31,
+     "team": "Slavia Prague",
+     "played": 0,
+     "won": 0,
+     "drawn": 0,
+     "lost": 0,
+     "gf": 0,
+     "ga": 0,
+     "gd": 0,
+     "points": 0,
+     "form": []
+    },
+    {
+     "rank": 32,
+     "team": "S Bratislava",
+     "played": 0,
+     "won": 0,
+     "drawn": 0,
+     "lost": 0,
+     "gf": 0,
+     "ga": 0,
+     "gd": 0,
+     "points": 0,
+     "form": []
+    },
+    {
+     "rank": 33,
+     "team": "Sporting",
+     "played": 0,
+     "won": 0,
+     "drawn": 0,
+     "lost": 0,
+     "gf": 0,
+     "ga": 0,
+     "gd": 0,
+     "points": 0,
+     "form": []
+    },
+    {
+     "rank": 34,
+     "team": "Stuttgart",
+     "played": 0,
+     "won": 0,
+     "drawn": 0,
+     "lost": 0,
+     "gf": 0,
+     "ga": 0,
+     "gd": 0,
+     "points": 0,
+     "form": []
+    },
+    {
+     "rank": 35,
+     "team": "Viking FK",
+     "played": 0,
+     "won": 0,
+     "drawn": 0,
+     "lost": 0,
+     "gf": 0,
+     "ga": 0,
+     "gd": 0,
+     "points": 0,
+     "form": []
+    },
+    {
+     "rank": 36,
+     "team": "Villarreal",
+     "played": 0,
+     "won": 0,
+     "drawn": 0,
+     "lost": 0,
+     "gf": 0,
+     "ga": 0,
+     "gd": 0,
+     "points": 0,
+     "form": []
     }
    ]
   }
