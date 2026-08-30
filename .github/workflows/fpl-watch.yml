@@ -1,0 +1,54 @@
+name: Fantasy deadline and injury watch
+
+# Hourly is enough: a deadline reminder wants to be roughly on time, not
+# to the minute, and a flag is news whenever it arrives.
+on:
+  schedule:
+    - cron: '0 * * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: fpl-watch
+  cancel-in-progress: false
+
+jobs:
+  watch:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+
+      - name: Restore watch state
+        uses: actions/cache/restore@v4
+        with:
+          path: footy/.fpl-deadline-state.json
+          key: fpl-deadline-${{ github.run_id }}
+          restore-keys: fpl-deadline-
+
+      - name: Check deadline and flags
+        working-directory: footy
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+        run: node tools/fpl-deadline.mjs | tee "$RUNNER_TEMP/fpl.log"
+
+      - name: Save watch state
+        uses: actions/cache/save@v4
+        with:
+          path: footy/.fpl-deadline-state.json
+          key: fpl-deadline-${{ github.run_id }}
+
+      - name: Summary
+        if: always()
+        run: |
+          {
+            echo '### Fantasy watch'
+            echo '```'
+            cat "$RUNNER_TEMP/fpl.log" 2>/dev/null || echo 'no output'
+            echo '```'
+          } >> "$GITHUB_STEP_SUMMARY"

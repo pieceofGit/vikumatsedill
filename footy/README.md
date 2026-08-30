@@ -223,6 +223,24 @@ your team name, gameweek, points and overall rank sit under the masthead.
 It also feeds the live alerts: a tense match is worth two more points if your
 captain is playing in it, one more if three or more of your squad are.
 
+### Before the deadline
+
+`tools/fpl-deadline.mjs` runs hourly and covers the half of fantasy that
+actually costs points — not missing a goal alert, but arriving at Saturday with
+an injured captain and no transfer made.
+
+- **A flag alert** whenever one of your fifteen becomes doubtful, injured,
+  suspended or unavailable, carrying the club's own note and the chance of
+  playing. And the reverse when they are cleared.
+- **A deadline reminder** at 24 hours and again at 2 hours, listing anyone
+  flagged, your bank and squad value, and when the deadline falls in Icelandic
+  time.
+
+Flags are deltas, so a knock is announced once rather than every hour until the
+deadline, and the first run after a fresh start is a silent baseline. None of it
+is a spoiler, so unlike the live alerts it goes out immediately and watching mode
+does not hold it back.
+
 ### When one of your players does something
 
 `tools/fpl-live.mjs` runs alongside the match watcher, every five minutes during

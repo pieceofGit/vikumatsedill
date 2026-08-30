@@ -3,3 +3,4 @@ dist/
 .live-state.json
 .fpl-state.json
 .diagnostics.txt
+.fpl-deadline-state.json
