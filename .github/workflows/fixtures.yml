@@ -45,6 +45,10 @@ jobs:
           FOOTBALL_DATA_TOKEN: ${{ secrets.FOOTBALL_DATA_TOKEN }}
         run: node tools/build-fixtures.mjs | tee "$RUNNER_TEMP/build.log"
 
+      - name: Build league tables
+        working-directory: footy
+        run: node tools/standings.mjs
+
       - name: Summarise
         working-directory: footy
         run: |
@@ -81,12 +85,12 @@ jobs:
 
       - name: Commit if changed
         run: |
-          if git diff --quiet -- footy/data/fixtures.json footy/data/fpl.json; then
+          if git diff --quiet -- footy/data/fixtures.json footy/data/fpl.json footy/data/standings.json; then
             echo "Fixtures unchanged; nothing to commit."
             exit 0
           fi
           git config user.name  "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add footy/data/fixtures.json footy/data/fpl.json
+          git add footy/data/fixtures.json footy/data/fpl.json footy/data/standings.json
           git commit -m "Refresh fixtures [skip ci]"
           git push

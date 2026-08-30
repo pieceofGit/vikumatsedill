@@ -170,6 +170,30 @@ it would have sent and prints it to the workflow summary, so you can watch it
 against a weekend of real matches and settle the threshold before a single
 notification is sent.
 
+## Match pages, tables and live scores
+
+ESPN serves `access-control-allow-origin: *`, so the page can call it straight
+from the browser. That is why the live parts are actually live rather than as
+stale as the last build:
+
+- **A live strip** across the top lists every match in progress with its score
+  and the minute, refreshing itself each minute while the tab is open (and not
+  while it is not). Tap one to open its match page.
+- **Match pages.** Tap any fixture for a panel with four tabs: a **stats**
+  comparison (possession, shots, shots on target, passing accuracy, corners,
+  saves, fouls, offsides, cards), **key events**, both **lineups** with
+  substitutes, and minute-by-minute **commentary**.
+- **Tables**, at `?view=tables`, with played/won/drawn/lost, goals, goal
+  difference, points, and each club's last five results as coloured badges you
+  can hover for the score.
+
+Fixtures are matched to ESPN's event ids at build time, on kickoff date and
+clubs, so a tap knows which match to ask about.
+
+**What is not here:** expected goals, player ratings, shot maps, heat maps.
+Those come from licensed providers — no free endpoint carries them, and this
+project has no data budget.
+
 ## Your fantasy team
 
 Set an `FPL_TEAM_ID` repository *variable* (Settings → Secrets and variables →
@@ -260,6 +284,8 @@ With no id set, none of this appears and the rest of the build is unaffected.
 | Premier League fixtures and kickoff times | [openfootball/football.json](https://github.com/openfootball/football.json), fetched by the build script. No key needed. |
 | Champions League fixtures | football-data.org, or ESPN, or `data/ucl.json` — see below |
 | Manual channel corrections | `data/overrides.json` |
+| League tables | ESPN standings, falling back to a table computed from our own results |
+| Match detail and live scores | ESPN, called from the browser at the moment you look |
 
 **No fixture API tells you the broadcaster.** They all give you teams, dates and
 kickoff times; the channel comes from the rights rules above, or from

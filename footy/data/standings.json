@@ -1,0 +1,391 @@
+{
+ "fetchedAt": "2026-08-30T14:05:49.231Z",
+ "tables": {
+  "pl": {
+   "name": "Premier League",
+   "computed": true,
+   "rows": [
+    {
+     "rank": 1,
+     "team": "Brighton",
+     "played": 1,
+     "won": 1,
+     "drawn": 0,
+     "lost": 0,
+     "gf": 4,
+     "ga": 0,
+     "gd": 4,
+     "points": 3,
+     "form": [
+      {
+       "r": "W",
+       "opponent": "Aston Villa",
+       "score": "4-0"
+      }
+     ]
+    },
+    {
+     "rank": 2,
+     "team": "Arsenal",
+     "played": 1,
+     "won": 1,
+     "drawn": 0,
+     "lost": 0,
+     "gf": 3,
+     "ga": 0,
+     "gd": 3,
+     "points": 3,
+     "form": [
+      {
+       "r": "W",
+       "opponent": "Coventry",
+       "score": "3-0"
+      }
+     ]
+    },
+    {
+     "rank": 3,
+     "team": "Brentford",
+     "played": 1,
+     "won": 1,
+     "drawn": 0,
+     "lost": 0,
+     "gf": 3,
+     "ga": 0,
+     "gd": 3,
+     "points": 3,
+     "form": [
+      {
+       "r": "W",
+       "opponent": "Tottenham",
+       "score": "3-0"
+      }
+     ]
+    },
+    {
+     "rank": 4,
+     "team": "Hull City",
+     "played": 1,
+     "won": 1,
+     "drawn": 0,
+     "lost": 0,
+     "gf": 2,
+     "ga": 0,
+     "gd": 2,
+     "points": 3,
+     "form": [
+      {
+       "r": "W",
+       "opponent": "Man Utd",
+       "score": "2-0"
+      }
+     ]
+    },
+    {
+     "rank": 5,
+     "team": "Everton",
+     "played": 1,
+     "won": 1,
+     "drawn": 0,
+     "lost": 0,
+     "gf": 2,
+     "ga": 0,
+     "gd": 2,
+     "points": 3,
+     "form": [
+      {
+       "r": "W",
+       "opponent": "Crystal Palace",
+       "score": "2-0"
+      }
+     ]
+    },
+    {
+     "rank": 6,
+     "team": "Chelsea",
+     "played": 1,
+     "won": 1,
+     "drawn": 0,
+     "lost": 0,
+     "gf": 3,
+     "ga": 2,
+     "gd": 1,
+     "points": 3,
+     "form": [
+      {
+       "r": "W",
+       "opponent": "Fulham",
+       "score": "3-2"
+      }
+     ]
+    },
+    {
+     "rank": 7,
+     "team": "Ipswich",
+     "played": 1,
+     "won": 1,
+     "drawn": 0,
+     "lost": 0,
+     "gf": 2,
+     "ga": 1,
+     "gd": 1,
+     "points": 3,
+     "form": [
+      {
+       "r": "W",
+       "opponent": "Sunderland",
+       "score": "2-1"
+      }
+     ]
+    },
+    {
+     "rank": 8,
+     "team": "Man City",
+     "played": 1,
+     "won": 1,
+     "drawn": 0,
+     "lost": 0,
+     "gf": 2,
+     "ga": 1,
+     "gd": 1,
+     "points": 3,
+     "form": [
+      {
+       "r": "W",
+       "opponent": "Bournemouth",
+       "score": "2-1"
+      }
+     ]
+    },
+    {
+     "rank": 9,
+     "team": "Leeds",
+     "played": 1,
+     "won": 1,
+     "drawn": 0,
+     "lost": 0,
+     "gf": 1,
+     "ga": 0,
+     "gd": 1,
+     "points": 3,
+     "form": [
+      {
+       "r": "W",
+       "opponent": "Nott'm Forest",
+       "score": "1-0"
+      }
+     ]
+    },
+    {
+     "rank": 10,
+     "team": "Newcastle",
+     "played": 1,
+     "won": 0,
+     "drawn": 1,
+     "lost": 0,
+     "gf": 2,
+     "ga": 2,
+     "gd": 0,
+     "points": 1,
+     "form": [
+      {
+       "r": "D",
+       "opponent": "Liverpool",
+       "score": "2-2"
+      }
+     ]
+    },
+    {
+     "rank": 11,
+     "team": "Liverpool",
+     "played": 1,
+     "won": 0,
+     "drawn": 1,
+     "lost": 0,
+     "gf": 2,
+     "ga": 2,
+     "gd": 0,
+     "points": 1,
+     "form": [
+      {
+       "r": "D",
+       "opponent": "Newcastle",
+       "score": "2-2"
+      }
+     ]
+    },
+    {
+     "rank": 12,
+     "team": "Fulham",
+     "played": 1,
+     "won": 0,
+     "drawn": 0,
+     "lost": 1,
+     "gf": 2,
+     "ga": 3,
+     "gd": -1,
+     "points": 0,
+     "form": [
+      {
+       "r": "L",
+       "opponent": "Chelsea",
+       "score": "2-3"
+      }
+     ]
+    },
+    {
+     "rank": 13,
+     "team": "Sunderland",
+     "played": 1,
+     "won": 0,
+     "drawn": 0,
+     "lost": 1,
+     "gf": 1,
+     "ga": 2,
+     "gd": -1,
+     "points": 0,
+     "form": [
+      {
+       "r": "L",
+       "opponent": "Ipswich",
+       "score": "1-2"
+      }
+     ]
+    },
+    {
+     "rank": 14,
+     "team": "Bournemouth",
+     "played": 1,
+     "won": 0,
+     "drawn": 0,
+     "lost": 1,
+     "gf": 1,
+     "ga": 2,
+     "gd": -1,
+     "points": 0,
+     "form": [
+      {
+       "r": "L",
+       "opponent": "Man City",
+       "score": "1-2"
+      }
+     ]
+    },
+    {
+     "rank": 15,
+     "team": "Nott'm Forest",
+     "played": 1,
+     "won": 0,
+     "drawn": 0,
+     "lost": 1,
+     "gf": 0,
+     "ga": 1,
+     "gd": -1,
+     "points": 0,
+     "form": [
+      {
+       "r": "L",
+       "opponent": "Leeds",
+       "score": "0-1"
+      }
+     ]
+    },
+    {
+     "rank": 16,
+     "team": "Man Utd",
+     "played": 1,
+     "won": 0,
+     "drawn": 0,
+     "lost": 1,
+     "gf": 0,
+     "ga": 2,
+     "gd": -2,
+     "points": 0,
+     "form": [
+      {
+       "r": "L",
+       "opponent": "Hull City",
+       "score": "0-2"
+      }
+     ]
+    },
+    {
+     "rank": 17,
+     "team": "Crystal Palace",
+     "played": 1,
+     "won": 0,
+     "drawn": 0,
+     "lost": 1,
+     "gf": 0,
+     "ga": 2,
+     "gd": -2,
+     "points": 0,
+     "form": [
+      {
+       "r": "L",
+       "opponent": "Everton",
+       "score": "0-2"
+      }
+     ]
+    },
+    {
+     "rank": 18,
+     "team": "Coventry",
+     "played": 1,
+     "won": 0,
+     "drawn": 0,
+     "lost": 1,
+     "gf": 0,
+     "ga": 3,
+     "gd": -3,
+     "points": 0,
+     "form": [
+      {
+       "r": "L",
+       "opponent": "Arsenal",
+       "score": "0-3"
+      }
+     ]
+    },
+    {
+     "rank": 19,
+     "team": "Tottenham",
+     "played": 1,
+     "won": 0,
+     "drawn": 0,
+     "lost": 1,
+     "gf": 0,
+     "ga": 3,
+     "gd": -3,
+     "points": 0,
+     "form": [
+      {
+       "r": "L",
+       "opponent": "Brentford",
+       "score": "0-3"
+      }
+     ]
+    },
+    {
+     "rank": 20,
+     "team": "Aston Villa",
+     "played": 1,
+     "won": 0,
+     "drawn": 0,
+     "lost": 1,
+     "gf": 0,
+     "ga": 4,
+     "gd": -4,
+     "points": 0,
+     "form": [
+      {
+       "r": "L",
+       "opponent": "Brighton",
+       "score": "0-4"
+      }
+     ]
+    }
+   ]
+  }
+ }
+}

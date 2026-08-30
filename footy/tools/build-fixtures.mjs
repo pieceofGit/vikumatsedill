@@ -15,6 +15,7 @@
 import { readFile, writeFile } from 'node:fs/promises'
 import { dirname, join } from 'node:path'
 import { fileURLToPath } from 'node:url'
+import { norm, sameClub, isOneOf } from './clubs.mjs'
 
 const ROOT = join(dirname(fileURLToPath(import.meta.url)), '..')
 const args = process.argv.slice(2)
@@ -130,37 +131,6 @@ function alertWorthy (match) {
   return false
 }
 
-const norm = (s) => (s ?? '').toLowerCase()
-  .normalize('NFD').replace(/[\u0300-\u036f]/g, '')
-  .replace(/[^a-z0-9 ]/g, ' ')
-  .replace(/\b(fc|afc|cf|sc)\b/g, ' ')
-  .replace(/\s+/g, ' ').trim()
-
-const isOneOf = (team, names) => names.includes(norm(team))
-
-/* Club names differ between every feed that touches them: FPL says "Spurs",
- * openfootball says "Tottenham", ESPN says "Man United". */
-const CLUB_ALIASES = [
-  ['man utd', 'man united', 'manchester united'],
-  ['man city', 'manchester city'],
-  ['tottenham', 'spurs'],
-  ['nott m forest', 'nottingham forest', 'forest'],
-  ['brighton', 'brighton hove albion'],
-  ['wolves', 'wolverhampton wanderers'],
-  ['newcastle', 'newcastle united'],
-  ['leeds', 'leeds united'],
-  ['hull city', 'hull'],
-  ['coventry', 'coventry city'],
-  ['ipswich', 'ipswich town'],
-  ['west ham', 'west ham united'],
-]
-const sameClub = (a, b) => {
-  const [x, y] = [norm(a), norm(b)]
-  if (!x || !y) return false
-  if (x === y) return true
-  return CLUB_ALIASES.some((g) => g.includes(x) && g.includes(y))
-}
-
 /* Which of the manager's fantasy players are in this fixture. */
 function fplFor (squad, home, away) {
   if (!squad?.players?.length) return null
@@ -225,6 +195,42 @@ const zonedToUtc = (dateStr, timeStr, tz) => {
 const readIn = (tz, date) => {
   const p = partsIn(tz, date)
   return { date: `${p.year}-${p.month}-${p.day}`, time: `${p.hour}:${p.minute}`, day: p.weekday }
+}
+
+/* ESPN event ids, so the page can pull a match's detail on demand. The
+ * fixtures themselves come from openfootball, which knows nothing about ESPN,
+ * so the two are matched on kickoff date and clubs. */
+async function espnEventIds (matches) {
+  const year = Number(SEASON.slice(0, 4))
+  const url = 'https://site.api.espn.com/apis/site/v2/sports/soccer/eng.1/scoreboard'
+    + `?limit=1000&dates=${year}0701-${year + 1}0701`
+  let events
+  try {
+    const res = await fetch(url)
+    if (!res.ok) throw new Error(`HTTP ${res.status}`)
+    events = (await res.json()).events ?? []
+  } catch (e) {
+    console.warn(`warn: ESPN event ids unavailable (${e.message}); match pages will be limited`)
+    return 0
+  }
+
+  const index = events.map((ev) => {
+    const c = ev.competitions?.[0]
+    const side = (which) => {
+      const t = c?.competitors?.find((x) => x.homeAway === which)?.team
+      return t?.shortDisplayName ?? t?.displayName ?? ''
+    }
+    return { id: ev.id, date: readIn(UK, new Date(ev.date)).date, home: side('home'), away: side('away') }
+  })
+
+  let hits = 0
+  for (const m of matches) {
+    if (m.comp !== 'pl' || m.espnId) continue
+    const hit = index.find((e) =>
+      e.date === m.ukDate && sameClub(e.home, m.home) && sameClub(e.away, m.away))
+    if (hit) { m.espnId = hit.id; hits++ }
+  }
+  return hits
 }
 
 /* ------------------------------------------------------------------ build */
@@ -465,6 +471,7 @@ async function championsLeague () {
     return {
       id: m.id ?? `ucl-${slug(m.round ?? 'r')}-${slug(m.home ?? '')}-${i}`,
       comp: 'ucl',
+      espnId: m.espnId ?? null,
       round: m.round ?? 'Champions League',
       date: local.date,
       time: local.time,
@@ -500,6 +507,8 @@ const main = async () => {
   const matches = [...await premierLeague(), ...await championsLeague()]
 
   for (const m of matches) m.fpl = fplFor(squad, m.home, m.away)
+  const linked = await espnEventIds(matches)
+  console.log(`espn ids    ${linked} Premier League fixtures linked`)
 
   let applied = 0
   for (const m of matches) {

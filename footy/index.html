@@ -27,6 +27,7 @@
   --shadow:0 1px 2px rgba(0,0,0,.45),0 4px 16px rgba(0,0,0,.32);
 }
 *{box-sizing:border-box}
+[hidden]{display:none!important}
 html{-webkit-text-size-adjust:100%}
 body{margin:0;background:var(--bg);color:var(--ink);line-height:1.5;
   font-family:var(--ui);font-variant-numeric:tabular-nums}
@@ -72,10 +73,13 @@ h1 em{font-style:normal;color:var(--accent)}
 .day.is-today .day__hd{border-bottom-color:var(--accent)}
 .day.is-today .day__hd .rel{color:var(--accent);font-weight:700}
 
-.match{display:grid;grid-template-columns:4.3rem 1fr auto;gap:.5rem .8rem;align-items:center;
+.match{width:100%;text-align:left;font:inherit;color:inherit;cursor:default;
+  display:grid;grid-template-columns:4.3rem 1fr auto;gap:.5rem .8rem;align-items:center;
   background:var(--panel);border:1px solid var(--line);border-radius:10px;
   padding:.65rem .8rem;margin-bottom:.4rem}
 .match + .match{margin-top:0}
+.match.tappable{cursor:pointer}
+.match.tappable:hover{border-color:var(--muted)}
 .match.is-big{border-color:var(--accent);box-shadow:inset 3px 0 0 var(--accent);
   background:linear-gradient(90deg,var(--accent-soft) 0 40%,var(--panel) 100%)}
 .big-tag{display:flex;align-items:center;gap:.3rem;font-family:var(--mono);font-size:.62rem;
@@ -134,10 +138,84 @@ details li{margin:.25rem 0}
 footer{margin-top:2.5rem;padding-top:1rem;border-top:1px solid var(--line);
   color:var(--muted);font-size:.78rem}
 footer a{color:var(--accent)}
+
+/* ---- live strip ---- */
+.live{display:flex;gap:.5rem;overflow-x:auto;padding:.1rem 0 .6rem;align-items:center}
+.live__lbl{font-family:var(--mono);font-size:.6rem;letter-spacing:.1em;text-transform:uppercase;
+  color:#d5453f;flex:none;display:flex;align-items:center}
+.pulse{width:.4rem;height:.4rem;border-radius:50%;background:#d5453f;display:inline-block;
+  margin-right:.35rem;animation:pulse 2s ease-in-out infinite}
+@keyframes pulse{50%{opacity:.25}}
+@media (prefers-reduced-motion:reduce){.pulse{animation:none}}
+.livechip{flex:none;background:var(--panel);border:1px solid var(--line);border-left:3px solid #d5453f;
+  border-radius:8px;padding:.35rem .6rem;font:inherit;color:inherit;cursor:pointer;text-align:left}
+.livechip:hover{border-color:var(--muted)}
+.livechip .t{font-size:.8rem;font-weight:600;white-space:nowrap}
+.livechip .m{font-family:var(--mono);font-size:.62rem;color:var(--muted)}
+
+/* ---- view switch ---- */
+.views{display:flex;gap:.4rem;margin-bottom:.85rem}
+
+/* ---- tables ---- */
+.tbl{margin-bottom:1.6rem}
+.tbl h2{font-size:1rem;margin:0 0 .5rem;letter-spacing:-.02em}
+.tbl__wrap{overflow-x:auto;background:var(--panel);border:1px solid var(--line);border-radius:10px}
+table{border-collapse:collapse;width:100%;font-size:.82rem;min-width:33rem}
+th,td{padding:.45rem .5rem;text-align:right;border-bottom:1px solid var(--line-soft);white-space:nowrap}
+th:nth-child(2),td:nth-child(2){text-align:left;width:100%}
+tbody tr:last-child td{border-bottom:0}
+thead th{font-family:var(--mono);font-size:.6rem;text-transform:uppercase;letter-spacing:.06em;
+  color:var(--muted);font-weight:500}
+td.pts{font-weight:700}
+td.rank{color:var(--muted);font-family:var(--mono);font-size:.75rem}
+.form{display:flex;gap:.15rem;justify-content:flex-end}
+.form i{width:1.05rem;height:1.05rem;border-radius:3px;font-style:normal;font-size:.58rem;
+  display:grid;place-items:center;color:#fff;font-family:var(--mono);font-weight:600}
+.form .W{background:#1a7f4b}.form .D{background:#7d848d}.form .L{background:#bd3a34}
+
+/* ---- match detail ---- */
+dialog{border:none;padding:0;border-radius:14px;background:var(--panel);color:var(--ink);
+  width:min(44rem,calc(100vw - 1.5rem));max-height:calc(100vh - 3rem);overflow:hidden}
+dialog::backdrop{background:rgba(8,11,15,.62)}
+.md{display:flex;flex-direction:column;max-height:calc(100vh - 3rem)}
+.md__hd{padding:1rem 1.1rem;border-bottom:1px solid var(--line);display:flex;
+  align-items:flex-start;gap:1rem}
+.md__score{font-size:1.35rem;font-weight:800;letter-spacing:-.03em}
+.md__meta{font-family:var(--mono);font-size:.68rem;color:var(--muted);margin-top:.15rem}
+.md__close{margin-left:auto;background:none;border:1px solid var(--line);color:var(--muted);
+  border-radius:999px;width:1.9rem;height:1.9rem;font:inherit;cursor:pointer;flex:none}
+.md__close:hover{color:var(--ink)}
+.md__tabs{display:flex;gap:.3rem;padding:.6rem 1.1rem 0;border-bottom:1px solid var(--line)}
+.md__tab{background:none;border:0;border-bottom:2px solid transparent;color:var(--muted);
+  font:inherit;font-size:.82rem;padding:.35rem .5rem .5rem;cursor:pointer}
+.md__tab[aria-selected="true"]{color:var(--ink);border-bottom-color:var(--accent);font-weight:600}
+.md__body{overflow-y:auto;padding:1rem 1.1rem 1.4rem}
+.stat{display:grid;grid-template-columns:2.6rem 1fr 2.6rem;gap:.5rem;align-items:center;
+  margin-bottom:.55rem;font-size:.8rem}
+.stat b{font-variant-numeric:tabular-nums;font-weight:600}
+.stat .mid{text-align:center}
+.stat .lbl{font-family:var(--mono);font-size:.62rem;color:var(--muted);text-transform:uppercase;
+  letter-spacing:.05em;display:block;margin-bottom:.2rem}
+.stat .bar{display:flex;height:.35rem;border-radius:2px;overflow:hidden;background:var(--line-soft)}
+.stat .bar span:first-child{background:var(--accent)}
+.stat .bar span:last-child{background:var(--muted);opacity:.55}
+.ev{display:grid;grid-template-columns:2.6rem 1fr;gap:.6rem;padding:.4rem 0;
+  border-bottom:1px solid var(--line-soft);font-size:.83rem}
+.ev:last-child{border-bottom:0}
+.ev .t{font-family:var(--mono);font-size:.7rem;color:var(--muted)}
+.xi{display:grid;grid-template-columns:1fr 1fr;gap:1rem}
+.xi h4{margin:0 0 .4rem;font-size:.8rem}
+.xi ul{list-style:none;margin:0;padding:0;font-size:.8rem}
+.xi li{padding:.16rem 0;color:var(--muted)}
+.xi li.start{color:var(--ink)}
+.xi .sub{font-family:var(--mono);font-size:.6rem;color:var(--muted);margin-top:.5rem;
+  text-transform:uppercase;letter-spacing:.06em}
+.md__empty{color:var(--muted);font-size:.85rem}
 @media (max-width:34rem){
   .controls{position:static}
   .row > .lbl{min-width:100%}
   .match{grid-template-columns:4.3rem 1fr;row-gap:.35rem}
+  .xi{grid-template-columns:1fr}
   .badges{grid-column:2;align-items:flex-start}
 }
 </style>
@@ -157,6 +235,13 @@ footer a{color:var(--accent)}
 </header>
 
 <main>
+  <div class="live" id="live" hidden aria-live="polite" aria-label="Matches in progress"></div>
+
+  <div class="views" role="tablist" aria-label="View">
+    <button class="chip" id="v-fixtures" role="tab" aria-selected="true" type="button">Fixtures</button>
+    <button class="chip" id="v-tables" role="tab" aria-selected="false" type="button">Tables</button>
+  </div>
+
   <section class="controls" aria-label="Filters">
     <div class="row">
       <span class="lbl" id="l-comp">Competition</span>
@@ -182,6 +267,21 @@ footer a{color:var(--accent)}
 
   <p class="count" id="count" role="status"></p>
   <div id="list"></div>
+  <div id="tables" hidden></div>
+
+  <dialog id="match">
+    <div class="md">
+      <div class="md__hd">
+        <div>
+          <div class="md__score" id="md-score">—</div>
+          <div class="md__meta" id="md-meta"></div>
+        </div>
+        <button class="md__close" id="md-close" type="button" aria-label="Close">✕</button>
+      </div>
+      <div class="md__tabs" role="tablist" id="md-tabs"></div>
+      <div class="md__body" id="md-body"></div>
+    </div>
+  </dialog>
 
   <section class="guide">
     <h2>Who has the rights</h2>
@@ -304,6 +404,7 @@ footer a{color:var(--accent)}
     when: params.get('when') ?? '30',
     big: params.get('big') === '1',
     mine: params.get('mine') === '1',
+    view: params.get('view') === 'tables' ? 'tables' : 'fixtures',
   }
   let DATA = null
 
@@ -315,6 +416,7 @@ footer a{color:var(--accent)}
     if (state.when !== '30') p.set('when', state.when)
     if (state.big) p.set('big', '1')
     if (state.mine) p.set('mine', '1')
+    if (state.view !== 'fixtures') p.set('view', state.view)
     const q = p.toString()
     history.replaceState(null, '', q ? `?${q}` : location.pathname)
   }
@@ -352,7 +454,7 @@ footer a{color:var(--accent)}
 
   /* --------------------------------------------------------------- render */
   function render () {
-    syncUrl()
+    if (state.view === 'fixtures') syncUrl()
     const today = todayISO()
     const matches = visible()
     const list = $('#list')
@@ -396,7 +498,12 @@ footer a{color:var(--accent)}
   }
 
   function matchRow (m) {
-    const row = el('article', 'match')
+    const row = el(m.espnId ? 'button' : 'article', 'match')
+    if (m.espnId) {
+      row.type = 'button'
+      row.classList.add('tappable')
+      row.addEventListener('click', () => openMatch(m.espnId, m.comp))
+    }
 
     const time = el('div', 'match__time', m.time ?? '—')
     // In British Summer Time the UK is an hour ahead of Iceland, so show both;
@@ -583,8 +690,279 @@ footer a{color:var(--accent)}
     if (d) $('#stamp').textContent = `Fixture data built ${d.toLocaleDateString('en-GB', { day: 'numeric', month: 'long', year: 'numeric' })}.`
   }
 
+
+  /* ------------------------------------------------- live, straight from ESPN */
+  // ESPN serves access-control-allow-origin: *, so the browser can ask it
+  // directly and the scores are current rather than as stale as the last build.
+  const ESPN = 'https://site.api.espn.com/apis/site/v2/sports/soccer'
+  const BOARD = { pl: 'eng.1', ucl: 'uefa.champions' }
+
+  const inPlay = (body, comp) => (body.events ?? []).flatMap((ev) => {
+    const c = ev.competitions?.[0]
+    const st = c?.status ?? ev.status
+    if (st?.type?.state !== 'in') return []
+    const side = (w) => c.competitors?.find((x) => x.homeAway === w)
+    const h = side('home'); const a = side('away')
+    return [{
+      id: ev.id, comp,
+      home: h?.team?.shortDisplayName ?? '', away: a?.team?.shortDisplayName ?? '',
+      hs: h?.score ?? '0', as: a?.score ?? '0', clock: st.type?.detail ?? '',
+    }]
+  })
+
+  async function refreshLive () {
+    const bar = $('#live')
+    const live = []
+    for (const comp of Object.keys(BOARD)) {
+      try {
+        const r = await fetch(`${ESPN}/${BOARD[comp]}/scoreboard`)
+        if (r.ok) live.push(...inPlay(await r.json(), comp))
+      } catch { /* offline, or ESPN having a moment */ }
+    }
+    bar.textContent = ''
+    bar.hidden = !live.length
+    if (!live.length) return
+
+    const lbl = el('span', 'live__lbl')
+    lbl.append(el('span', 'pulse'), document.createTextNode('Live'))
+    bar.append(lbl)
+    for (const m of live) {
+      const b = el('button', 'livechip')
+      b.type = 'button'
+      b.append(el('span', 't', `${m.home} ${m.hs}–${m.as} ${m.away}`),
+        el('span', 'm', m.clock))
+      b.addEventListener('click', () => openMatch(m.id, m.comp))
+      bar.append(b)
+    }
+  }
+
+  /* ------------------------------------------------------------ match detail */
+  const dlg = $('#match')
+  $('#md-close').addEventListener('click', () => dlg.close())
+
+  async function openMatch (espnId, comp) {
+    if (!espnId) return
+    $('#md-score').textContent = 'Loading…'
+    $('#md-meta').textContent = ''
+    $('#md-tabs').textContent = ''
+    $('#md-body').textContent = ''
+    if (!dlg.open) dlg.showModal()
+    try {
+      const r = await fetch(`${ESPN}/${BOARD[comp] ?? BOARD.pl}/summary?event=${espnId}`)
+      if (!r.ok) throw new Error(`HTTP ${r.status}`)
+      renderMatch(await r.json())
+    } catch (e) {
+      $('#md-score').textContent = 'Could not load this match'
+      $('#md-body').append(el('p', 'md__empty',
+        `${e.message}. There may be no detail for this fixture yet — it usually appears close to kickoff.`))
+    }
+  }
+
+  const STATS = [
+    ['possessionPct', 'Possession'], ['totalShots', 'Shots'],
+    ['shotsOnTarget', 'On target'], ['passPct', 'Pass accuracy'],
+    ['wonCorners', 'Corners'], ['saves', 'Saves'],
+    ['foulsCommitted', 'Fouls'], ['offsides', 'Offsides'],
+    ['yellowCards', 'Yellow cards'], ['redCards', 'Red cards'],
+  ]
+
+  function renderMatch (data) {
+    const comp = data.header?.competitions?.[0]
+    const side = (w) => comp?.competitors?.find((x) => x.homeAway === w)
+    const h = side('home'); const a = side('away')
+    const name = (t) => t?.team?.shortDisplayName ?? t?.team?.displayName ?? ''
+    const hn = name(h); const an = name(a)
+
+    $('#md-score').textContent = `${hn} ${h?.score ?? ''}–${a?.score ?? ''} ${an}`
+    $('#md-meta').textContent = [comp?.status?.type?.detail, data.gameInfo?.venue?.fullName]
+      .filter(Boolean).join(' · ')
+
+    // Box-score sides are not guaranteed to be in home/away order.
+    const box = data.boxscore?.teams ?? []
+    const boxOf = (t) => box.find((b) => b.team?.id === t?.team?.id) ?? null
+    const bh = boxOf(h); const ba = boxOf(a)
+
+    const panes = []
+    if (bh && ba) panes.push(['Stats', () => statsPane(bh, ba)])
+    if (data.keyEvents?.length) panes.push(['Events', () => eventsPane(data.keyEvents)])
+    if (data.rosters?.length) panes.push(['Lineups', () => xiPane(data.rosters)])
+    if (data.commentary?.length) panes.push(['Commentary', () => commentaryPane(data.commentary)])
+
+    const body = $('#md-body')
+    const tabs = $('#md-tabs')
+    if (!panes.length) {
+      body.append(el('p', 'md__empty', 'No detail published for this match yet.'))
+      return
+    }
+    const show = (i) => {
+      body.textContent = ''
+      body.append(panes[i][1]())
+      tabs.querySelectorAll('.md__tab').forEach((t, n) =>
+        t.setAttribute('aria-selected', String(n === i)))
+    }
+    panes.forEach(([label], i) => {
+      const t = el('button', 'md__tab', label)
+      t.type = 'button'
+      t.setAttribute('role', 'tab')
+      t.addEventListener('click', () => show(i))
+      tabs.append(t)
+    })
+    show(0)
+  }
+
+  function statsPane (bh, ba) {
+    const wrap = el('div')
+    const val = (b, key) => {
+      const st = b.statistics?.find((x) => x.name === key)
+      return st ? st.displayValue : null
+    }
+    for (const [key, label] of STATS) {
+      const x = val(bh, key); const y = val(ba, key)
+      if (x == null && y == null) continue
+      const nx = parseFloat(x) || 0; const ny = parseFloat(y) || 0
+      const total = nx + ny
+      const row = el('div', 'stat')
+      row.append(el('b', null, x ?? '0'))
+      const mid = el('div', 'mid')
+      mid.append(el('span', 'lbl', label))
+      const bar = el('div', 'bar')
+      const left = el('span'); const right = el('span')
+      left.style.width = `${total ? (nx / total) * 100 : 50}%`
+      right.style.width = `${total ? (ny / total) * 100 : 50}%`
+      bar.append(left, right)
+      mid.append(bar)
+      row.append(mid, el('b', null, y ?? '0'))
+      wrap.append(row)
+    }
+    return wrap
+  }
+
+  function eventsPane (events) {
+    const wrap = el('div')
+    for (const ev of [...events].reverse()) {
+      const row = el('div', 'ev')
+      row.append(el('span', 't', ev.clock?.displayValue ?? ''))
+      const txt = ev.text ?? ev.type?.text ?? ''
+      const team = ev.team?.displayName
+      row.append(el('span', null, team ? `${txt} (${team})` : txt))
+      wrap.append(row)
+    }
+    return wrap
+  }
+
+  function xiPane (rosters) {
+    const wrap = el('div', 'xi')
+    for (const side of rosters) {
+      const col = el('div')
+      col.append(el('h4', null, side.team?.shortDisplayName ?? side.team?.displayName ?? ''))
+      const starters = el('ul'); const subs = el('ul')
+      for (const p of side.roster ?? []) {
+        const nm = p.athlete?.displayName ?? ''
+        const pos = p.position?.abbreviation ? ` · ${p.position.abbreviation}` : ''
+        const li = el('li', p.starter ? 'start' : null, `${nm}${pos}`)
+        ;(p.starter ? starters : subs).append(li)
+      }
+      col.append(starters)
+      if (subs.childElementCount) {
+        col.append(el('div', 'sub', 'Substitutes'), subs)
+      }
+      wrap.append(col)
+    }
+    return wrap
+  }
+
+  function commentaryPane (lines) {
+    const wrap = el('div')
+    for (const c of [...lines].reverse()) {
+      const row = el('div', 'ev')
+      row.append(el('span', 't', c.time?.displayValue ?? ''))
+      row.append(el('span', null, c.text ?? ''))
+      wrap.append(row)
+    }
+    return wrap
+  }
+
+  /* ----------------------------------------------------------------- tables */
+  async function renderTables () {
+    const box = $('#tables')
+    if (box.dataset.loaded) return
+    box.textContent = ''
+    let data
+    try {
+      const r = await fetch('./data/standings.json')
+      if (!r.ok) throw new Error(`HTTP ${r.status}`)
+      data = await r.json()
+    } catch (e) {
+      box.append(el('p', 'md__empty', `Tables unavailable (${e.message}).`))
+      return
+    }
+    for (const t of Object.values(data.tables ?? {})) {
+      const sec = el('section', 'tbl')
+      sec.append(el('h2', null, t.name))
+      const wrap = el('div', 'tbl__wrap')
+      const table = el('table')
+      const head = el('tr')
+      for (const h of ['', 'Team', 'P', 'W', 'D', 'L', 'GF', 'GA', 'GD', 'Pts', 'Form']) {
+        head.append(el('th', null, h))
+      }
+      const thead = el('thead')
+      thead.append(head)
+      table.append(thead)
+      const tb = el('tbody')
+      for (const r of t.rows) {
+        const tr = el('tr')
+        tr.append(el('td', 'rank', String(r.rank)), el('td', null, r.team))
+        for (const k of ['played', 'won', 'drawn', 'lost', 'gf', 'ga']) {
+          tr.append(el('td', null, String(r[k] ?? '')))
+        }
+        tr.append(el('td', null, r.gd > 0 ? `+${r.gd}` : String(r.gd ?? '')))
+        tr.append(el('td', 'pts', String(r.points ?? '')))
+        const f = el('td')
+        const strip = el('div', 'form')
+        for (const g of [...(r.form ?? [])].reverse()) {
+          const i = el('i', g.r, g.r)
+          i.title = `${g.r} ${g.score} v ${g.opponent}`
+          strip.append(i)
+        }
+        f.append(strip)
+        tr.append(f)
+        tb.append(tr)
+      }
+      table.append(tb)
+      wrap.append(table)
+      sec.append(wrap)
+      box.append(sec)
+    }
+    box.dataset.loaded = '1'
+  }
+
+  function setView (view) {
+    state.view = view
+    const fixtures = view === 'fixtures'
+    $('#v-fixtures').setAttribute('aria-selected', String(fixtures))
+    $('#v-tables').setAttribute('aria-selected', String(!fixtures))
+    $('#v-fixtures').setAttribute('aria-pressed', String(fixtures))
+    $('#v-tables').setAttribute('aria-pressed', String(!fixtures))
+    document.querySelector('.controls').hidden = !fixtures
+    $('#count').hidden = !fixtures
+    $('#list').hidden = !fixtures
+    $('#tables').hidden = fixtures
+    if (!fixtures) renderTables()
+    syncUrl()
+  }
+  $('#v-fixtures').addEventListener('click', () => setView('fixtures'))
+  $('#v-tables').addEventListener('click', () => setView('tables'))
+
   /* ----------------------------------------------------------------- boot */
-  const start = (d) => { DATA = d; buildFilters(); buildGuide(); render() }
+  const start = (d) => {
+    DATA = d
+    buildFilters(); buildGuide(); render()
+    setView(state.view)
+    refreshLive()
+    // Refresh while the tab is being looked at, and not while it is not.
+    setInterval(() => { if (!document.hidden) refreshLive() }, 60_000)
+    document.addEventListener('visibilitychange', () => { if (!document.hidden) refreshLive() })
+  }
 
   // tools/bundle.mjs inlines the data to make a single portable file; when it
   // has, use that and skip the network entirely.

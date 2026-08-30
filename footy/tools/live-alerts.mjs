@@ -18,6 +18,7 @@ import { readFile, writeFile, mkdir } from 'node:fs/promises'
 import { dirname, join } from 'node:path'
 import { fileURLToPath } from 'node:url'
 import { enqueue, flush, DELAY_MINUTES } from './notify.mjs'
+import { sameClub } from './clubs.mjs'
 
 const ROOT = join(dirname(fileURLToPath(import.meta.url)), '..')
 const args = process.argv.slice(2)
@@ -28,25 +29,6 @@ const THRESHOLD = Number(process.env.EXCITEMENT_THRESHOLD ?? 10)
 const BOARDS = {
   pl: 'https://site.api.espn.com/apis/site/v2/sports/soccer/eng.1/scoreboard',
   ucl: 'https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.champions/scoreboard',
-}
-
-const norm = (s) => (s ?? '').toLowerCase()
-  .normalize('NFD').replace(/[̀-ͯ]/g, '')
-  .replace(/[^a-z0-9 ]/g, ' ').replace(/\b(fc|afc|cf|sc)\b/g, ' ')
-  .replace(/\s+/g, ' ').trim()
-
-const ALIASES = [
-  ['man utd', 'man united', 'manchester united'],
-  ['man city', 'manchester city'],
-  ['tottenham', 'spurs'],
-  ['nott m forest', 'nottingham forest'],
-  ['inter milan', 'internazionale'],
-  ['atletico', 'atletico madrid'],
-]
-const sameTeam = (a, b) => {
-  const [x, y] = [norm(a), norm(b)]
-  if (x === y) return true
-  return ALIASES.some((g) => g.includes(x) && g.includes(y))
 }
 
 /* ------------------------------------------------------------- excitement */
@@ -133,7 +115,7 @@ async function channelsFor (m) {
     const today = new Date().toISOString().slice(0, 10)
     const hit = data.matches.find((x) =>
       (x.date === today || x.ukDate === today) &&
-      sameTeam(x.home, m.home) && sameTeam(x.away, m.away))
+      sameClub(x.home, m.home) && sameClub(x.away, m.away))
     if (!hit) return { line: null, big: false, fpl: null }
     const name = (k) => data.broadcasters[hit.channels?.[k]?.broadcaster]?.name
     const parts = []
