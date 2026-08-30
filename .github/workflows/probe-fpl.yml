@@ -1,0 +1,39 @@
+name: Probe FPL extras
+on:
+  workflow_dispatch:
+  push:
+    paths: ['.github/workflows/probe-fpl.yml']
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: |
+          node -e '
+          ;(async () => {
+            const get = async (u) => (await fetch(`https://fantasy.premierleague.com/api${u}`)).json()
+            const squad = require("./footy/data/fpl.json")
+            const entry = await get(`/entry/${squad.teamId}/`)
+            console.log("LEAGUE KEYS:", Object.keys(entry.leagues ?? {}).join(", "))
+            for (const l of (entry.leagues?.classic ?? []).slice(0, 8)) {
+              console.log(`  classic: "${l.name}" id=${l.id} rank=${l.entry_rank} of ${l.rank_count ?? "?"}`)
+            }
+            for (const l of (entry.leagues?.h2h ?? [])) console.log(`  h2h: "${l.name}" id=${l.id}`)
+            console.log("  cup:", JSON.stringify(entry.leagues?.cup?.status ?? null))
+
+            const boot = await get("/bootstrap-static/")
+            const byId = new Map(boot.elements.map(p => [p.id, p]))
+            console.log("\nSQUAD STATUS / NEWS / PRICE:")
+            for (const p of squad.players) {
+              const e = byId.get(p.id)
+              if (!e) continue
+              console.log(`  ${p.name}: status=${e.status} chance=${e.chance_of_playing_next_round}`
+                + ` price=${(e.now_cost/10).toFixed(1)} change_event=${e.cost_change_event}`
+                + ` form=${e.form} news="${(e.news||"").slice(0,60)}"`)
+            }
+            const next = boot.events.find(e => e.is_next)
+            console.log("\nNEXT GW:", next?.id, "deadline:", next?.deadline_time)
+            console.log("chips/transfers fields on entry:",
+              ["last_deadline_bank","last_deadline_value","last_deadline_total_transfers"]
+                .map(k => `${k}=${entry[k]}`).join(" "))
+          })()'
