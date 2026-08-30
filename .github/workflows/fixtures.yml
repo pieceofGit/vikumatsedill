@@ -1,0 +1,73 @@
+name: Refresh football fixtures
+
+# The site is static and GitHub Pages redeploys main on every push, so keeping
+# the listings current just means rebuilding data/fixtures.json and committing
+# it when it changes.
+on:
+  schedule:
+    - cron: '17 5 * * *'      # daily, shortly after the overnight TV listings settle
+  workflow_dispatch:
+  push:
+    paths:
+      - 'footy/tools/**'
+      - 'footy/data/ucl.json'
+      - 'footy/data/overrides.json'
+      - '.github/workflows/fixtures.yml'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: fixtures
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+
+      - name: Build fixtures
+        working-directory: footy
+        env:
+          # Optional. Without it the script falls back to ESPN's keyless API.
+          FOOTBALL_DATA_TOKEN: ${{ secrets.FOOTBALL_DATA_TOKEN }}
+        run: node tools/build-fixtures.mjs | tee "$RUNNER_TEMP/build.log"
+
+      - name: Summarise
+        working-directory: footy
+        run: |
+          {
+            echo '### Fixture build'
+            echo '```'
+            cat "$RUNNER_TEMP/build.log"
+            echo '```'
+            node -e '
+              const d = require("./data/fixtures.json")
+              const by = {}
+              for (const m of d.matches) by[m.broadcaster] = (by[m.broadcaster] ?? 0) + 1
+              const ucl = d.matches.filter((m) => m.comp === "ucl")
+              console.log("| Channel | Matches |", "\n| --- | --- |")
+              for (const [k, v] of Object.entries(by)) console.log(`| ${k} | ${v} |`)
+              console.log(`\nChampions League fixtures: **${ucl.length}**`)
+              for (const m of ucl.slice(0, 5)) {
+                console.log(`- ${m.date} ${m.time ?? "--:--"} ${m.home} v ${m.away} (${m.round}) -> ${m.broadcaster}`)
+              }
+            '
+          } >> "$GITHUB_STEP_SUMMARY"
+
+      - name: Commit if changed
+        run: |
+          if git diff --quiet -- footy/data/fixtures.json; then
+            echo "Fixtures unchanged; nothing to commit."
+            exit 0
+          fi
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add footy/data/fixtures.json
+          git commit -m "Refresh fixtures [skip ci]"
+          git push
