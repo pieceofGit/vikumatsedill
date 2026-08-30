@@ -223,6 +223,28 @@ your team name, gameweek, points and overall rank sit under the masthead.
 It also feeds the live alerts: a tense match is worth two more points if your
 captain is playing in it, one more if three or more of your squad are.
 
+### Weekly pointers
+
+A **Squad** view (`?view=squad`) built by `tools/fpl-advice.mjs`, for the part of
+fantasy that is planning rather than watching:
+
+- **A captain ranking** weighing only the coming gameweek — captaincy is a
+  one-week bet, and a five-game average will happily talk you into an in-form
+  striker away at the league leaders. A double gameweek scores about twice.
+- **Your fifteen**, rated, each with a fixture ticker: the next five opponents
+  coloured by FPL's own difficulty rating.
+- **Worth a look** — for whoever is dragging, alternatives in the same position
+  inside budget that are clearly better rather than marginally so.
+
+FPL publishes expected goals, expected assists and expected goal involvements
+per player, plus difficulty ratings for every remaining fixture, so the inputs
+here are real rather than guessed.
+
+The rating is a stated heuristic — form and points per game, adjusted for
+fixture difficulty and for how reliably someone starts — and every input is
+shown next to the verdict so it can be argued with instead of trusted. Early in
+a season, when form is a two-match sample, the page says so.
+
 ### Before the deadline
 
 `tools/fpl-deadline.mjs` runs hourly and covers the half of fantasy that
