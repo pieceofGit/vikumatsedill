@@ -1,0 +1,43 @@
+name: Probe live match data
+# Temporary: dumps what ESPN exposes for an in-progress match, so the
+# excitement scoring can be written against the real payload.
+on:
+  workflow_dispatch:
+  push:
+    paths: ['.github/workflows/probe-live.yml']
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Dump live scoreboard shape
+        run: |
+          node -e '
+          const urls = {
+            pl: "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.1/scoreboard",
+            ucl: "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.champions/scoreboard",
+          }
+          ;(async () => {
+            for (const [k, u] of Object.entries(urls)) {
+              const r = await fetch(u)
+              const b = await r.json()
+              console.log(`\n===== ${k}: ${b.events?.length ?? 0} events =====`)
+              for (const ev of (b.events ?? [])) {
+                const c = ev.competitions?.[0]
+                const st = c?.status ?? ev.status
+                const home = c?.competitors?.find(x => x.homeAway === "home")
+                const away = c?.competitors?.find(x => x.homeAway === "away")
+                console.log(`${home?.team?.shortDisplayName} ${home?.score}-${away?.score} ${away?.team?.shortDisplayName}`
+                  + ` | state=${st?.type?.state} detail=${st?.type?.detail} clock=${st?.displayClock} min=${st?.clock} period=${st?.period}`)
+                if (st?.type?.state === "in") {
+                  console.log("  --- LIVE EVENT, full keys ---")
+                  console.log("  competition keys:", Object.keys(c).join(", "))
+                  console.log("  status:", JSON.stringify(st))
+                  console.log("  situation:", JSON.stringify(c.situation ?? null))
+                  console.log("  details count:", (c.details ?? []).length)
+                  console.log("  details sample:", JSON.stringify((c.details ?? []).slice(-4)))
+                  console.log("  competitor keys:", Object.keys(home ?? {}).join(", "))
+                  console.log("  home statistics:", JSON.stringify(home?.statistics ?? null))
+                }
+              }
+            }
+          })()'
