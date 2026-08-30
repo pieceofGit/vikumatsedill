@@ -2,3 +2,4 @@ data/.cache-pl.json
 dist/
 .live-state.json
 .fpl-state.json
+.diagnostics.txt

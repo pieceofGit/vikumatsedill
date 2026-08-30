@@ -83,6 +83,10 @@ jobs:
             '
           } >> "$GITHUB_STEP_SUMMARY"
 
+      - name: Name-matching diagnostics
+        if: always()
+        run: cat footy/.diagnostics.txt 2>/dev/null || echo "all clubs matched"
+
       - name: Commit if changed
         run: |
           if git diff --quiet -- footy/data/fixtures.json footy/data/fpl.json footy/data/standings.json; then
