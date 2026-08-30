@@ -230,8 +230,13 @@ async function espnEventIds (matches) {
   const unmatched = new Set()
   for (const m of matches) {
     if (m.comp !== 'pl' || m.espnId) continue
-    const hit = index.find((e) =>
-      e.date === m.ukDate && sameClub(e.home, m.home) && sameClub(e.away, m.away))
+    const pairing = (e) => sameClub(e.home, m.home) && sameClub(e.away, m.away)
+    // A given home/away pairing happens at most once a season, so when the two
+    // sources disagree on the date — a rescheduled game, usually — a few days
+    // of slack is safe and beats leaving the fixture unlinked.
+    const hit = index.find((e) => e.date === m.ukDate && pairing(e)) ??
+      index.find((e) => pairing(e) &&
+        Math.abs(Date.parse(e.date) - Date.parse(m.ukDate)) <= 4 * 86400000)
     if (hit) { m.espnId = hit.id; hits++ }
     else { unmatched.add(m.home); unmatched.add(m.away) }
   }
