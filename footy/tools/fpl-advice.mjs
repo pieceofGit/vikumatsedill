@@ -148,19 +148,23 @@ const main = async () => {
     el.status === 'a' && num(el.minutes) > 60 && !squad.players.some((p) => p.id === el.id))
 
   const weakest = [...mine].sort((a, b) => a.rating - b.rating).slice(0, 3)
+  // Without this every suggestion converges on the same in-form bargain, which
+  // reads as a list but carries one idea.
+  const alreadySuggested = new Set()
   const suggestions = weakest.map((p) => {
     const budget = p.price + bank
     const options = pool
       .filter((el) => POS[el.element_type] === p.position && num(el.now_cost) / 10 <= budget)
       .map(describe)
-      .filter((c) => c.rating > p.rating * 1.15)
+      .filter((c) => c.rating > p.rating * 1.15 && !alreadySuggested.has(c.id))
       .sort((a, b) => b.rating - a.rating)
       .slice(0, 3)
       .map((c) => ({
-        name: c.name, club: c.club, price: c.price, rating: c.rating,
+        id: c.id, name: c.name, club: c.club, price: c.price, rating: c.rating,
         form: c.form, xgi90: c.xgi90, ease: c.ease, owned: c.owned,
         fixtures: c.fixtures.slice(0, 3),
       }))
+    for (const c of options) alreadySuggested.add(c.id)
     return { out: { name: p.name, club: p.club, position: p.position, price: p.price, rating: p.rating,
                     form: p.form, ease: p.ease, status: p.status, news: p.news }, options }
   }).filter((s) => s.options.length)
@@ -172,6 +176,12 @@ const main = async () => {
     deadline: next?.deadline_time ?? null,
     horizon: HORIZON,
     bank,
+    // Form is a rolling 30-day figure. Early in a season that is two or three
+    // matches, and ranking on it is close to ranking on noise.
+    sampleWarning: (next?.id ?? 99) <= 6
+      ? `Only ${Math.max(0, (next?.id ?? 1) - 1)} gameweek(s) played — form is a very `
+        + 'small sample, so treat every ordering here as weak evidence.'
+      : null,
     method: 'Squad rating = (form + points per game) / 2, adjusted for the difficulty of '
       + `the next ${HORIZON} fixtures and for how reliably the player starts — a planning `
       + 'view. The captain ranking is separate and weighs only the coming gameweek, since '
