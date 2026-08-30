@@ -1,11 +1,11 @@
 {
- "generatedAt": "2026-08-30T14:14:25.447Z",
+ "generatedAt": "2026-08-30T14:14:59.439Z",
  "fantasy": {
   "name": "How's it Goink?",
   "gameweek": 2,
   "teamId": 6870928,
   "overallPoints": 105,
-  "overallRank": 1509757
+  "overallRank": 1515864
  },
  "season": "2026-27",
  "timezone": "Atlantic/Reykjavik",
@@ -83,34 +83,7 @@
    "short": "UCL"
   }
  },
- "diagnostics": {
-  "unmatchedClubs": [
-   "Man City",
-   "Sunderland"
-  ],
-  "espnClubs": [
-   "Arsenal",
-   "Aston Villa",
-   "Bournemouth",
-   "Brentford",
-   "Brighton",
-   "C Palace",
-   "Chelsea",
-   "Coventry",
-   "Everton",
-   "Fulham",
-   "Hull",
-   "Ipswich",
-   "Leeds",
-   "Liverpool",
-   "Man City",
-   "Man United",
-   "Newcastle",
-   "Nottm Forest",
-   "Spurs",
-   "Sunderland"
-  ]
- },
+ "diagnostics": null,
  "sources": [
   {
    "name": "openfootball / football.json",
@@ -3234,6 +3207,7 @@
     ],
     "count": 2
    },
+   "espnId": "401879272",
    "alert": false
   },
   {
