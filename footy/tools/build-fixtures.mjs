@@ -117,6 +117,19 @@ const DERBIES = [
   [['inter milan'], ['ac milan', 'milan'], 'Derby della Madonnina'],
 ]
 
+/* Which matches are worth a push notification. Everything a star covers, with
+ * one narrowing: PSG earn a nudge for their Champions League nights or a
+ * genuinely big tie, not for every routine league game. Manchester United are
+ * flagged whatever they are playing. */
+function alertWorthy (match) {
+  const h = match.highlight
+  if (!h) return false
+  if (h.kind === 'derby' || h.kind === 'heavyweight') return true
+  if (h.reason === 'Man Utd') return true
+  if (h.reason === 'PSG') return match.comp === 'ucl'
+  return false
+}
+
 const norm = (s) => (s ?? '').toLowerCase()
   .normalize('NFD').replace(/[\u0300-\u036f]/g, '')
   .replace(/[^a-z0-9 ]/g, ' ')
@@ -464,6 +477,8 @@ const main = async () => {
     applied++
   }
 
+  for (const m of matches) m.alert = alertWorthy(m)
+
   matches.sort((a, b) => (a.date + (a.time ?? '')).localeCompare(b.date + (b.time ?? '')))
 
   const out = {
@@ -489,7 +504,7 @@ const main = async () => {
   console.log(`season      ${SEASON}`)
   console.log(`premier lg  ${pl.length} matches, ${pl.filter(named).length} with a UK channel`)
   console.log(`champions   ${matches.filter((m) => m.comp === 'ucl').length} matches`)
-  console.log(`big matches ${matches.filter((m) => m.highlight).length} flagged`)
+  console.log(`big matches ${matches.filter((m) => m.highlight).length} flagged, ${matches.filter((m) => m.alert).length} alerting`)
   console.log(`overrides   ${applied} applied`)
   console.log(`wrote       data/fixtures.json`)
 }
