@@ -1,10 +1,11 @@
 {
- "generatedAt": "2026-08-30T15:16:09.893Z",
+ "generatedAt": "2026-08-30T15:17:03.059Z",
  "gameweek": 3,
  "gameweekName": "Gameweek 3",
  "deadline": "2026-09-04T17:30:00Z",
  "horizon": 5,
  "bank": 0.9,
+ "sampleWarning": "Only 2 gameweek(s) played — form is a very small sample, so treat every ordering here as weak evidence.",
  "method": "Squad rating = (form + points per game) / 2, adjusted for the difficulty of the next 5 fixtures and for how reliably the player starts — a planning view. The captain ranking is separate and weighs only the coming gameweek, since captaincy is a one-week bet and a double gameweek counts twice. Both are heuristics for ordering, not projections; every input is shown so they can be argued with.",
  "squad": [
   {
@@ -920,6 +921,7 @@
    },
    "options": [
     {
+     "id": 279,
      "name": "Ajayi",
      "club": "HUL",
      "price": 4,
@@ -950,6 +952,7 @@
      ]
     },
     {
+     "id": 277,
      "name": "Egan",
      "club": "HUL",
      "price": 4,
@@ -980,6 +983,7 @@
      ]
     },
     {
+     "id": 449,
      "name": "Hall",
      "club": "NEW",
      "price": 5,
@@ -1025,74 +1029,46 @@
    },
    "options": [
     {
-     "name": "Ajayi",
-     "club": "HUL",
-     "price": 4,
-     "rating": 6.94,
-     "form": 10,
-     "xgi90": 0.31,
-     "ease": 2.8,
-     "owned": 3.2,
+     "id": 88,
+     "name": "Kayode",
+     "club": "BRE",
+     "price": 4.6,
+     "rating": 5.26,
+     "form": 7.5,
+     "xgi90": 0.4,
+     "ease": 2.6,
+     "owned": 8.3,
      "fixtures": [
       {
        "gw": 3,
-       "opponent": "AVL",
+       "opponent": "SUN",
        "home": true,
-       "difficulty": 3
+       "difficulty": 2
       },
       {
        "gw": 4,
-       "opponent": "CHE",
+       "opponent": "BOU",
        "home": false,
-       "difficulty": 4
+       "difficulty": 3
       },
       {
        "gw": 5,
-       "opponent": "NEW",
-       "home": false,
-       "difficulty": 3
+       "opponent": "CHE",
+       "home": true,
+       "difficulty": 4
       }
      ]
     },
     {
-     "name": "Egan",
-     "club": "HUL",
-     "price": 4,
-     "rating": 6.17,
-     "form": 8.5,
-     "xgi90": 0,
-     "ease": 2.8,
-     "owned": 2.3,
-     "fixtures": [
-      {
-       "gw": 3,
-       "opponent": "AVL",
-       "home": true,
-       "difficulty": 3
-      },
-      {
-       "gw": 4,
-       "opponent": "CHE",
-       "home": false,
-       "difficulty": 4
-      },
-      {
-       "gw": 5,
-       "opponent": "NEW",
-       "home": false,
-       "difficulty": 3
-      }
-     ]
-    },
-    {
-     "name": "Hall",
+     "id": 593,
+     "name": "Dedić",
      "club": "NEW",
-     "price": 5,
-     "rating": 5.59,
-     "form": 7,
-     "xgi90": 0.35,
+     "price": 4.5,
+     "rating": 4.79,
+     "form": 6,
+     "xgi90": 0.05,
      "ease": 3.4,
-     "owned": 5,
+     "owned": 0.7,
      "fixtures": [
       {
        "gw": 3,
@@ -1113,6 +1089,37 @@
        "difficulty": 2
       }
      ]
+    },
+    {
+     "id": 258,
+     "name": "Castagne",
+     "club": "FUL",
+     "price": 4.5,
+     "rating": 4.42,
+     "form": 6,
+     "xgi90": 0.15,
+     "ease": 3,
+     "owned": 0.5,
+     "fixtures": [
+      {
+       "gw": 3,
+       "opponent": "CRY",
+       "home": true,
+       "difficulty": 3
+      },
+      {
+       "gw": 4,
+       "opponent": "LIV",
+       "home": false,
+       "difficulty": 4
+      },
+      {
+       "gw": 5,
+       "opponent": "MUN",
+       "home": true,
+       "difficulty": 4
+      }
+     ]
     }
    ]
   },
@@ -1130,36 +1137,7 @@
    },
    "options": [
     {
-     "name": "Ajayi",
-     "club": "HUL",
-     "price": 4,
-     "rating": 6.94,
-     "form": 10,
-     "xgi90": 0.31,
-     "ease": 2.8,
-     "owned": 3.2,
-     "fixtures": [
-      {
-       "gw": 3,
-       "opponent": "AVL",
-       "home": true,
-       "difficulty": 3
-      },
-      {
-       "gw": 4,
-       "opponent": "CHE",
-       "home": false,
-       "difficulty": 4
-      },
-      {
-       "gw": 5,
-       "opponent": "NEW",
-       "home": false,
-       "difficulty": 3
-      }
-     ]
-    },
-    {
+     "id": 229,
      "name": "Tarkowski",
      "club": "EVE",
      "price": 6,
@@ -1190,6 +1168,7 @@
      ]
     },
     {
+     "id": 10,
      "name": "White",
      "club": "ARS",
      "price": 5.5,
@@ -1216,6 +1195,37 @@
        "opponent": "BHA",
        "home": false,
        "difficulty": 3
+      }
+     ]
+    },
+    {
+     "id": 533,
+     "name": "Mukiele",
+     "club": "SUN",
+     "price": 5.5,
+     "rating": 5.79,
+     "form": 5.5,
+     "xgi90": 0.01,
+     "ease": 2.6,
+     "owned": 2.4,
+     "fixtures": [
+      {
+       "gw": 3,
+       "opponent": "BRE",
+       "home": false,
+       "difficulty": 3
+      },
+      {
+       "gw": 4,
+       "opponent": "ARS",
+       "home": true,
+       "difficulty": 4
+      },
+      {
+       "gw": 5,
+       "opponent": "MCI",
+       "home": false,
+       "difficulty": 5
       }
      ]
     }
