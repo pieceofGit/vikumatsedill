@@ -55,13 +55,29 @@ const main = async () => {
 
   const entry = await get(`/entry/${id}/`)
 
+  // Picks for a gameweek only exist once its deadline has passed, so between
+  // the rollover and the next deadline the current week has none yet. Fall
+  // back through recent weeks rather than reporting an empty squad.
   let picks = []
-  try {
-    const p = await get(`/entry/${id}/event/${event.id}/picks/`)
-    picks = p.picks ?? []
-  } catch (e) {
-    // Picks stay hidden until the gameweek deadline passes.
-    console.warn(`warn: picks for GW${event.id} unavailable (${e.message})`)
+  let picksFrom = event.id
+  for (let gw = event.id; gw >= Math.max(1, event.id - 2) && !picks.length; gw--) {
+    try {
+      const p = await get(`/entry/${id}/event/${gw}/picks/`)
+      picks = p.picks ?? []
+      picksFrom = gw
+    } catch (e) {
+      console.warn(`warn: picks for GW${gw} unavailable (${e.message})`)
+    }
+  }
+
+  if (!picks.length) {
+    // Never replace a known squad with an empty one; a build runs unattended.
+    const prev = await readFile(join(ROOT, 'data/fpl.json'), 'utf8')
+      .then(JSON.parse).catch(() => null)
+    if (prev?.players?.length) {
+      console.warn(`warn: no picks available; keeping the ${prev.players.length} from GW${prev.gameweek}`)
+      return
+    }
   }
 
   const squad = picks.map((pick) => {
@@ -85,6 +101,7 @@ const main = async () => {
     manager: [entry.player_first_name, entry.player_last_name].filter(Boolean).join(' ') || null,
     gameweek: event.id,
     gameweekName: event.name ?? null,
+    picksFrom,
     overallPoints: entry.summary_overall_points ?? null,
     overallRank: entry.summary_overall_rank ?? null,
     gameweekPoints: entry.summary_event_points ?? null,
@@ -93,7 +110,8 @@ const main = async () => {
   await writeFile(join(ROOT, 'data/fpl.json'), JSON.stringify(out, null, 1) + '\n')
 
   const starting = squad.filter((p) => !p.benched).length
-  console.log(`fpl         "${out.name}" GW${event.id}: ${squad.length} players (${starting} starting)`)
+  console.log(`fpl         "${out.name}" GW${event.id}: ${squad.length} players (${starting} starting)` +
+    (picksFrom !== event.id ? `, picks from GW${picksFrom}` : ''))
 }
 
 main().catch((e) => {
