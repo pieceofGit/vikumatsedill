@@ -1,13 +1,15 @@
 {
- "fetchedAt": "2026-08-30T15:10:27.263Z",
+ "fetchedAt": "2026-08-30T15:15:06.068Z",
  "teamId": 6870928,
  "name": "How's it Goink?",
  "manager": "Fjölnir Þrastarson",
  "gameweek": 2,
  "gameweekName": "Gameweek 2",
  "picksFrom": 2,
+ "bank": 0.9,
+ "squadValue": 100.3,
  "overallPoints": 110,
- "overallRank": 1847956,
+ "overallRank": 1847949,
  "gameweekPoints": 58,
  "players": [
   {
