@@ -83,6 +83,66 @@ const COLOURS = {
   Sunderland: '#eb172b', Tottenham: '#132257', Wolves: '#fdb913',
 }
 
+/* ------------------------------------------------------------ big matches --
+ * Two clubs are always flagged, by request. Beyond those, a match is big if it
+ * puts two heavyweights against each other, or if it is a named derby — the
+ * fixtures people plan an evening around rather than merely watch.
+ */
+const ALWAYS_BIG = [
+  { label: 'Man Utd', names: ['man utd', 'man united', 'manchester united'] },
+  { label: 'PSG', names: ['psg', 'paris saint germain', 'paris sg'] },
+]
+
+const HEAVYWEIGHTS = [
+  ['arsenal'], ['chelsea'], ['liverpool'], ['man city', 'manchester city'],
+  ['man utd', 'man united', 'manchester united'], ['tottenham', 'spurs'],
+  ['real madrid'], ['barcelona'], ['bayern', 'bayern munchen', 'bayern munich'],
+  ['psg', 'paris saint germain'], ['inter milan', 'internazionale'],
+  ['ac milan', 'milan'], ['juventus'], ['atletico', 'atletico madrid'],
+  ['dortmund', 'borussia dortmund'], ['napoli'], ['as roma', 'roma'],
+  ['benfica'], ['porto'], ['ajax'],
+]
+
+const DERBIES = [
+  [['newcastle'], ['sunderland'], 'Tyne–Wear derby'],
+  [['liverpool'], ['everton'], 'Merseyside derby'],
+  [['arsenal'], ['tottenham'], 'North London derby'],
+  [['man city', 'manchester city'], ['man utd', 'man united'], 'Manchester derby'],
+  [['crystal palace'], ['brighton'], 'M23 derby'],
+  [['chelsea'], ['fulham'], 'West London derby'],
+  [['brentford'], ['fulham'], 'West London derby'],
+  [['chelsea'], ['brentford'], 'West London derby'],
+  [['leeds'], ['man utd', 'man united'], 'Roses rivalry'],
+  [['real madrid'], ['barcelona'], 'El Clásico'],
+  [['inter milan'], ['ac milan', 'milan'], 'Derby della Madonnina'],
+]
+
+const norm = (s) => (s ?? '').toLowerCase()
+  .normalize('NFD').replace(/[\u0300-\u036f]/g, '')
+  .replace(/[^a-z0-9 ]/g, ' ')
+  .replace(/\b(fc|afc|cf|sc)\b/g, ' ')
+  .replace(/\s+/g, ' ').trim()
+
+const isOneOf = (team, names) => names.includes(norm(team))
+
+/* Returns why a match is big, or null. Most specific reason wins: a derby says
+ * more than "two big clubs", which says more than "one club you follow". */
+function bigMatch (home, away) {
+  for (const [a, b, label] of DERBIES) {
+    if ((isOneOf(home, a) && isOneOf(away, b)) || (isOneOf(home, b) && isOneOf(away, a))) {
+      return { big: true, reason: label, kind: 'derby' }
+    }
+  }
+  const heavy = (t) => HEAVYWEIGHTS.some((names) => isOneOf(t, names))
+  if (heavy(home) && heavy(away)) return { big: true, reason: 'Heavyweight tie', kind: 'heavyweight' }
+  for (const { label, names } of ALWAYS_BIG) {
+    if (isOneOf(home, names) || isOneOf(away, names)) {
+      return { big: true, reason: label, kind: 'follow' }
+    }
+  }
+  return null
+}
+
 const shorten = (n) => SHORT[n] ?? n.replace(/^AFC\s+/, '').replace(/\s+(FC|AFC)$/, '')
 const slug = (s) => s.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '')
 const DAYS = ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat']
@@ -198,6 +258,7 @@ async function premierLeague () {
       provisionalTime: !isPicked,
       home, away, homeFull: m.team1, awayFull: m.team2,
       homeColour: COLOURS[home] ?? null, awayColour: COLOURS[away] ?? null,
+      highlight: bigMatch(home, away),
       channels,
       score: m.score?.ft ?? null,
     }
@@ -366,6 +427,7 @@ async function championsLeague () {
       home: m.home, away: m.away,
       homeFull: m.home, awayFull: m.away,
       homeColour: COLOURS[m.home] ?? null, awayColour: COLOURS[m.away] ?? null,
+      highlight: bigMatch(m.home, m.away),
       channels: {
         // Sýn hold the Icelandic UEFA rights through the end of 2026/27.
         is: { broadcaster: 'syn', confidence: 'rule', note: null },
@@ -427,6 +489,7 @@ const main = async () => {
   console.log(`season      ${SEASON}`)
   console.log(`premier lg  ${pl.length} matches, ${pl.filter(named).length} with a UK channel`)
   console.log(`champions   ${matches.filter((m) => m.comp === 'ucl').length} matches`)
+  console.log(`big matches ${matches.filter((m) => m.highlight).length} flagged`)
   console.log(`overrides   ${applied} applied`)
   console.log(`wrote       data/fixtures.json`)
 }

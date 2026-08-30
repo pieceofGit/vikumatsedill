@@ -76,6 +76,12 @@ h1 em{font-style:normal;color:var(--accent)}
   background:var(--panel);border:1px solid var(--line);border-radius:10px;
   padding:.65rem .8rem;margin-bottom:.4rem}
 .match + .match{margin-top:0}
+.match.is-big{border-color:var(--accent);box-shadow:inset 3px 0 0 var(--accent);
+  background:linear-gradient(90deg,var(--accent-soft) 0 40%,var(--panel) 100%)}
+.big-tag{display:flex;align-items:center;gap:.3rem;font-family:var(--mono);font-size:.62rem;
+  letter-spacing:.08em;text-transform:uppercase;color:var(--accent);font-weight:600;
+  margin-bottom:.2rem}
+.big-tag::before{content:"\2605";font-size:.75rem;line-height:1}
 .match__time{font-family:var(--mono);font-weight:600;font-size:.88rem;letter-spacing:-.02em}
 .match__time small{display:block;font-weight:400;font-size:.62rem;color:var(--muted);
   letter-spacing:.02em;text-transform:uppercase}
@@ -158,6 +164,7 @@ footer a{color:var(--accent)}
         <option value="season">Rest of the season</option>
         <option value="played">Already played</option>
       </select>
+      <button class="chip" id="f-big" type="button" aria-pressed="false">★ Big matches</button>
       <input id="f-team" class="search" type="search" placeholder="Filter by team…" aria-label="Filter by team">
     </div>
   </section>
@@ -172,6 +179,21 @@ footer a{color:var(--accent)}
       rights are split by kickoff slot, and once you know the slot — a UK slot, on the UK
       clock — you know the channel.</p>
     <div class="cards" id="cards"></div>
+
+    <details>
+      <summary>What counts as a big match</summary>
+      <p>Starred rows are the ones worth clearing an evening for. Three things
+        earn a star, and the most specific one is what the label says:</p>
+      <ul>
+        <li><b>A named derby</b> — Tyne–Wear, Merseyside, North London, Manchester,
+          the West London and M23 ones, the Roses, El Clásico, the Madonnina.</li>
+        <li><b>A heavyweight tie</b> — both sides drawn from the twenty or so clubs
+          that decide these competitions.</li>
+        <li><b>Manchester United or PSG</b> — flagged every time they play,
+          whoever the opponent is.</li>
+      </ul>
+      <p>Use <b>★ Big matches</b> above to show only those.</p>
+    </details>
 
     <details>
       <summary>Icelandic time, British slots</summary>
@@ -266,6 +288,7 @@ footer a{color:var(--accent)}
     chans: new Set((params.get('chan') ?? '').split(',').filter(Boolean)),
     team: params.get('team') ?? '',
     when: params.get('when') ?? '30',
+    big: params.get('big') === '1',
   }
   let DATA = null
 
@@ -275,6 +298,7 @@ footer a{color:var(--accent)}
     if (state.chans.size) p.set('chan', [...state.chans].join(','))
     if (state.team) p.set('team', state.team)
     if (state.when !== '30') p.set('when', state.when)
+    if (state.big) p.set('big', '1')
     const q = p.toString()
     history.replaceState(null, '', q ? `?${q}` : location.pathname)
   }
@@ -298,6 +322,7 @@ footer a{color:var(--accent)}
     const q = state.team.trim().toLowerCase()
     return DATA.matches.filter((m) => {
       if (state.comp !== 'all' && m.comp !== state.comp) return false
+      if (state.big && !m.highlight) return false
       if (state.chans.size && !Object.values(m.channels ?? {})
         .some((c) => state.chans.has(c.broadcaster))) return false
       if (q && !(`${m.home} ${m.away} ${m.homeFull} ${m.awayFull}`.toLowerCase().includes(q))) return false
@@ -320,6 +345,8 @@ footer a{color:var(--accent)}
     const dark = matches.filter((m) => ukIs(m, 'blackout')).length
     const open = matches.filter((m) => ukIs(m, 'tbc')).length
     const bits = [`${matches.length} match${matches.length === 1 ? '' : 'es'}`]
+    const big = matches.filter((m) => m.highlight).length
+    if (big) bits.push(`${big} big`)
     if (dark) bits.push(`${dark} blacked out in the UK`)
     if (open) bits.push(`${open} awaiting a UK pick`)
     $('#count').textContent = matches.length ? bits.join(' · ') : ''
@@ -361,6 +388,10 @@ footer a{color:var(--accent)}
     row.append(time)
 
     const teams = el('div', 'match__teams')
+    if (m.highlight) {
+      row.classList.add('is-big')
+      teams.append(el('div', 'big-tag', m.highlight.reason))
+    }
     for (const side of ['home', 'away']) {
       const line = el('div', 'tm')
       const bar = el('span', 'bar')
@@ -434,6 +465,13 @@ footer a{color:var(--accent)}
 
     $('#f-when').value = state.when
     $('#f-team').value = state.team
+    const bigBtn = $('#f-big')
+    bigBtn.setAttribute('aria-pressed', String(state.big))
+    bigBtn.addEventListener('click', () => {
+      state.big = !state.big
+      bigBtn.setAttribute('aria-pressed', String(state.big))
+      render()
+    })
     $('#f-when').addEventListener('change', (e) => { state.when = e.target.value; render() })
     let t
     $('#f-team').addEventListener('input', (e) => {
