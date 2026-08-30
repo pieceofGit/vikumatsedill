@@ -233,11 +233,15 @@ async function espnEventIds (matches) {
     else { unmatched.add(m.home); unmatched.add(m.away) }
   }
   if (unmatched.size) {
-    // Name mismatches are the usual cause, so say which names are involved on
-    // both sides rather than only reporting a count.
+    // Name mismatches are the usual cause, so record both sides' spellings
+    // where a later workflow step can print them.
     const espnNames = [...new Set(index.flatMap((e) => [e.home, e.away]))].sort()
-    console.warn(`warn: ${unmatched.size} club(s) in unmatched fixtures: ${[...unmatched].sort().join(', ')}`)
-    console.warn(`      ESPN's names: ${espnNames.join(', ')}`)
+    const report = [
+      `unmatched (ours): ${[...unmatched].sort().join(', ')}`,
+      `espn names: ${espnNames.join(', ')}`,
+    ].join('\n')
+    console.warn(report)
+    await writeFile(join(ROOT, '.diagnostics.txt'), report + '\n')
   }
   return hits
 }
