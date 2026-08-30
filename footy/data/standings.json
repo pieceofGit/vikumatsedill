@@ -1,5 +1,5 @@
 {
- "fetchedAt": "2026-08-30T14:18:23.993Z",
+ "fetchedAt": "2026-08-30T15:10:28.706Z",
  "tables": {
   "pl": {
    "name": "Premier League",
@@ -44,6 +44,44 @@
     },
     {
      "rank": 3,
+     "team": "Chelsea",
+     "played": 2,
+     "won": 2,
+     "drawn": 0,
+     "lost": 0,
+     "gf": 7,
+     "ga": 5,
+     "gd": 2,
+     "points": 6,
+     "form": [
+      {
+       "r": "W",
+       "opponent": "Fulham",
+       "score": "3-2"
+      }
+     ]
+    },
+    {
+     "rank": 4,
+     "team": "Brentford",
+     "played": 2,
+     "won": 1,
+     "drawn": 1,
+     "lost": 0,
+     "gf": 4,
+     "ga": 1,
+     "gd": 3,
+     "points": 4,
+     "form": [
+      {
+       "r": "W",
+       "opponent": "Tottenham",
+       "score": "3-0"
+      }
+     ]
+    },
+    {
+     "rank": 5,
      "team": "Newcastle",
      "played": 2,
      "won": 1,
@@ -62,7 +100,7 @@
      ]
     },
     {
-     "rank": 4,
+     "rank": 6,
      "team": "Everton",
      "played": 2,
      "won": 1,
@@ -81,15 +119,34 @@
      ]
     },
     {
-     "rank": 5,
+     "rank": 7,
+     "team": "Leeds",
+     "played": 2,
+     "won": 1,
+     "drawn": 1,
+     "lost": 0,
+     "gf": 2,
+     "ga": 1,
+     "gd": 1,
+     "points": 4,
+     "form": [
+      {
+       "r": "W",
+       "opponent": "Nott'm Forest",
+       "score": "1-0"
+      }
+     ]
+    },
+    {
+     "rank": 8,
      "team": "Brighton",
-     "played": 1,
+     "played": 2,
      "won": 1,
      "drawn": 0,
-     "lost": 0,
-     "gf": 4,
-     "ga": 0,
-     "gd": 4,
+     "lost": 1,
+     "gf": 7,
+     "ga": 4,
+     "gd": 3,
      "points": 3,
      "form": [
       {
@@ -100,7 +157,7 @@
      ]
     },
     {
-     "rank": 6,
+     "rank": 9,
      "team": "Arsenal",
      "played": 1,
      "won": 1,
@@ -119,45 +176,7 @@
      ]
     },
     {
-     "rank": 7,
-     "team": "Brentford",
-     "played": 1,
-     "won": 1,
-     "drawn": 0,
-     "lost": 0,
-     "gf": 3,
-     "ga": 0,
-     "gd": 3,
-     "points": 3,
-     "form": [
-      {
-       "r": "W",
-       "opponent": "Tottenham",
-       "score": "3-0"
-      }
-     ]
-    },
-    {
-     "rank": 8,
-     "team": "Chelsea",
-     "played": 1,
-     "won": 1,
-     "drawn": 0,
-     "lost": 0,
-     "gf": 3,
-     "ga": 2,
-     "gd": 1,
-     "points": 3,
-     "form": [
-      {
-       "r": "W",
-       "opponent": "Fulham",
-       "score": "3-2"
-      }
-     ]
-    },
-    {
-     "rank": 9,
+     "rank": 10,
      "team": "Ipswich",
      "played": 1,
      "won": 1,
@@ -176,26 +195,26 @@
      ]
     },
     {
-     "rank": 10,
-     "team": "Leeds",
-     "played": 1,
+     "rank": 11,
+     "team": "Sunderland",
+     "played": 2,
      "won": 1,
      "drawn": 0,
-     "lost": 0,
-     "gf": 1,
-     "ga": 0,
-     "gd": 1,
+     "lost": 1,
+     "gf": 2,
+     "ga": 2,
+     "gd": 0,
      "points": 3,
      "form": [
       {
-       "r": "W",
-       "opponent": "Nott'm Forest",
-       "score": "1-0"
+       "r": "L",
+       "opponent": "Ipswich",
+       "score": "1-2"
       }
      ]
     },
     {
-     "rank": 11,
+     "rank": 12,
      "team": "Liverpool",
      "played": 2,
      "won": 0,
@@ -214,7 +233,7 @@
      ]
     },
     {
-     "rank": 12,
+     "rank": 13,
      "team": "Bournemouth",
      "played": 2,
      "won": 0,
@@ -233,7 +252,7 @@
      ]
     },
     {
-     "rank": 13,
+     "rank": 14,
      "team": "Nott'm Forest",
      "played": 2,
      "won": 0,
@@ -252,40 +271,21 @@
      ]
     },
     {
-     "rank": 14,
+     "rank": 15,
      "team": "Fulham",
-     "played": 1,
+     "played": 2,
      "won": 0,
      "drawn": 0,
-     "lost": 1,
+     "lost": 2,
      "gf": 2,
-     "ga": 3,
-     "gd": -1,
+     "ga": 4,
+     "gd": -2,
      "points": 0,
      "form": [
       {
        "r": "L",
        "opponent": "Chelsea",
        "score": "2-3"
-      }
-     ]
-    },
-    {
-     "rank": 15,
-     "team": "Sunderland",
-     "played": 1,
-     "won": 0,
-     "drawn": 0,
-     "lost": 1,
-     "gf": 1,
-     "ga": 2,
-     "gd": -1,
-     "points": 0,
-     "form": [
-      {
-       "r": "L",
-       "opponent": "Ipswich",
-       "score": "1-2"
       }
      ]
     },
