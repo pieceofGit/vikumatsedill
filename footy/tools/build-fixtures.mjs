@@ -228,7 +228,7 @@ async function uclFromEspn () {
   const body = await res.json()
   const events = body?.events
   if (!Array.isArray(events) || !events.length) throw new Error('ESPN returned no events')
-  return events.map((ev) => {
+  const out = events.map((ev) => {
     const comp = ev.competitions?.[0]
     const side = (which) => {
       const c = comp?.competitors?.find((x) => x.homeAway === which)
@@ -236,10 +236,11 @@ async function uclFromEspn () {
     }
     const uk = readIn(UK, new Date(ev.date))
     const headline = comp?.notes?.[0]?.headline ?? ''
-    // Before February the competition is still in its league phase; the
-    // headline says so when ESPN provides one.
+    // The league phase runs September to January; everything from February is
+    // knockout. ESPN's headline says so directly when it provides one.
+    const month = Number(uk.date.slice(5, 7))
     const leaguePhase = /league phase|matchday/i.test(headline) ||
-      (!headline && Number(uk.date.slice(5, 7)) >= 8)
+      (!headline && (month >= 8 || month === 1))
     const scores = comp?.competitors?.length === 2 && comp.status?.type?.completed
       ? [Number(comp.competitors.find((x) => x.homeAway === 'home')?.score),
          Number(comp.competitors.find((x) => x.homeAway === 'away')?.score)]
@@ -247,11 +248,32 @@ async function uclFromEspn () {
     return {
       date: uk.date, time: uk.time,
       home: side('home'), away: side('away'),
-      round: headline || 'Champions League',
+      round: headline || null,
       leaguePhase,
       score: scores && scores.every(Number.isFinite) ? scores : null,
     }
   })
+  return labelMatchdays(out)
+}
+
+/* ESPN often gives no round name. The league phase plays in eight bursts of a
+ * day or two, so clustering the dates recovers the matchday number. */
+function labelMatchdays (matches) {
+  const dates = [...new Set(matches.filter((m) => m.leaguePhase).map((m) => m.date))].sort()
+  const md = new Map()
+  let n = 0, prev = null
+  for (const d of dates) {
+    if (prev === null || (Date.parse(d) - Date.parse(prev)) / 86400000 > 4) n++
+    md.set(d, n)
+    prev = d
+  }
+  for (const m of matches) {
+    if (m.round) continue
+    m.round = m.leaguePhase && md.has(m.date)
+      ? `League phase MD${md.get(m.date)}`
+      : 'Knockout stage'
+  }
+  return matches
 }
 
 async function uclFixtures () {
@@ -270,14 +292,29 @@ async function uclFixtures () {
 async function championsLeague () {
   const live = await uclFixtures()
   const file = live ? { matches: live } : await loadJson('data/ucl.json', { matches: [] })
+
+  // A scheduled rebuild runs unattended. If no source answers and nothing is
+  // kept by hand, hold on to the last good build rather than quietly emptying
+  // the page because a feed happened to be down.
+  if (!live && !(file.matches ?? []).length) {
+    const prev = await loadJson('data/fixtures.json', { matches: [] })
+    const kept = (prev.matches ?? []).filter((m) => m.comp === 'ucl')
+    if (kept.length) {
+      console.warn(`warn: no Champions League source answered; keeping ${kept.length} fixtures from the last build`)
+      return kept
+    }
+  }
+
   return (file.matches ?? []).map((m, i) => {
     const day = weekday(m.date)          // UK weekday
     const leaguePhase = m.leaguePhase ?? /league phase/i.test(m.round ?? '')
     let broadcaster = m.broadcaster
     let confidence = m.broadcaster ? 'confirmed' : 'rule'
-    // Amazon take first pick of one Tuesday match per matchweek, so on a
-    // Tuesday we cannot say which of the two it is until they announce.
-    if (!broadcaster) broadcaster = (day === 'Tue' && leaguePhase) ? 'tbc' : 'tnt'
+    // Amazon take first pick of one Tuesday match per matchweek and TNT show
+    // the other seven or eight, so TNT is the answer for any given Tuesday tie
+    // — with the caveat noted below rather than a shrug.
+    const amazonNight = day === 'Tue' && leaguePhase
+    if (!broadcaster) broadcaster = 'tnt'
 
     const kickoff = m.time ? zonedToUtc(m.date, m.time, UK) : null
     const local = kickoff ? readIn(ICELAND, kickoff) : { date: m.date, time: null }
@@ -296,8 +333,8 @@ async function championsLeague () {
       homeFull: m.home, awayFull: m.away,
       homeColour: COLOURS[m.home] ?? null, awayColour: COLOURS[m.away] ?? null,
       broadcaster, confidence,
-      note: m.note ?? (broadcaster === 'tbc'
-        ? 'Tuesday league-phase night: Amazon Prime Video take first pick of one match, TNT Sports show the rest.'
+      note: m.note ?? (amazonNight && confidence === 'rule'
+        ? 'Tuesday night: Amazon Prime Video take first pick of one match each matchweek. If this is the one, it is on Prime instead.'
         : null),
       score: m.score ?? null,
     }

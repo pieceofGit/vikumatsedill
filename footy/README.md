@@ -60,8 +60,8 @@ spread across more than one slot.
 
 For the Champions League the rule is simpler: **TNT Sports show everything**,
 except that Amazon Prime Video take first pick of one Tuesday league-phase match
-each matchweek. So a Wednesday tie is TNT, a knockout tie is TNT, and a Tuesday
-league-phase tie is one of the two until Amazon announce their pick.
+each matchweek — 17 matches out of about 190. So every tie is listed as TNT, and
+Tuesday ties carry a note saying Prime may have taken that one.
 
 Every match on the page is labelled with where its channel came from —
 `confirmed`, or `from the slot`.
@@ -113,16 +113,21 @@ sources in order and uses whichever answers first:
 
 2. **ESPN's public API** — no key at all
    (`site.api.espn.com/apis/site/v2/sports/soccer/uefa.champions/scoreboard`).
-   It is undocumented and unofficial, so the shape can change without notice;
-   every field is read defensively. Used automatically when there is no
-   football-data token.
+   Used automatically when there is no football-data token, and currently what
+   the site runs on: it returns the full 144-match league phase. It is
+   undocumented and unofficial, so the shape can change without notice and every
+   field is read defensively. It also returns no round names, so the matchday
+   number is recovered by clustering the fixture dates — the league phase plays
+   in eight bursts of a day or two.
 
 3. **`data/ucl.json`** — kept by hand. The file documents its own fields; leave
    `broadcaster` out to let the TNT/Amazon rule decide. Times in this file are
    **UK** times, like the slot grid.
 
-If a source fails the script warns and falls through to the next one. It never
-fails the build.
+If a source fails the script warns and falls through to the next one. If none
+answers and `data/ucl.json` is empty, it keeps the Champions League fixtures
+from the last good build rather than emptying the page because a feed happened
+to be down. It never fails the build.
 
 UEFA's own site is backed by a public JSON endpoint (`match.uefa.com`) rather
 than needing HTML scraping, but it is undocumented and unsupported, so it is not
@@ -141,6 +146,14 @@ Broadcasters occasionally move a match off its usual slot. Put the truth in
 
 Anything you set there wins over the inferred channel and is shown as
 **confirmed**.
+
+## Hosting
+
+The site is served by GitHub Pages from `main`, which redeploys on every push.
+`.github/workflows/fixtures.yml` rebuilds `data/fixtures.json` daily (and on
+demand via *Run workflow*), committing it only when something changed. The
+runner is also where the fixture feeds are actually reachable, so the scheduled
+build is what keeps the Champions League listings current.
 
 ## Options
 
