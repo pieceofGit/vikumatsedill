@@ -102,6 +102,8 @@ const main = async () => {
     gameweek: event.id,
     gameweekName: event.name ?? null,
     picksFrom,
+    bank: entry.last_deadline_bank != null ? entry.last_deadline_bank / 10 : 0,
+    squadValue: entry.last_deadline_value != null ? entry.last_deadline_value / 10 : null,
     overallPoints: entry.summary_overall_points ?? null,
     overallRank: entry.summary_overall_rank ?? null,
     gameweekPoints: entry.summary_event_points ?? null,
