@@ -1,11 +1,11 @@
 {
- "generatedAt": "2026-08-30T15:15:06.867Z",
+ "generatedAt": "2026-08-30T15:16:09.893Z",
  "gameweek": 3,
  "gameweekName": "Gameweek 3",
  "deadline": "2026-09-04T17:30:00Z",
  "horizon": 5,
  "bank": 0.9,
- "method": "Rating = (form + points per game) / 2, adjusted for the difficulty of the next 5 fixtures and for how reliably the player starts. A heuristic for ordering, not a projection — the inputs are all shown so it can be argued with.",
+ "method": "Squad rating = (form + points per game) / 2, adjusted for the difficulty of the next 5 fixtures and for how reliably the player starts — a planning view. The captain ranking is separate and weighs only the coming gameweek, since captaincy is a one-week bet and a double gameweek counts twice. Both are heuristics for ordering, not projections; every input is shown so they can be argued with.",
  "squad": [
   {
    "id": 165,
@@ -835,52 +835,74 @@
  ],
  "captainRanking": [
   {
-   "name": "João Pedro",
-   "rating": 7.26,
-   "opponent": {
-    "gw": 3,
-    "opponent": "ARS",
-    "home": false,
-    "difficulty": 5
-   },
-   "xgi90": 0.97,
-   "form": 10
-  },
-  {
-   "name": "De Cuyper",
-   "rating": 6.58,
-   "opponent": {
-    "gw": 3,
-    "opponent": "LEE",
-    "home": true,
-    "difficulty": 2
-   },
-   "xgi90": 0.95,
-   "form": 8.5
-  },
-  {
    "name": "M.Sangaré",
-   "rating": 6.32,
-   "opponent": {
-    "gw": 3,
-    "opponent": "SUN",
-    "home": true,
-    "difficulty": 2
-   },
+   "rating": 12,
+   "fixtures": [
+    {
+     "gw": 3,
+     "opponent": "SUN",
+     "home": true,
+     "difficulty": 2
+    }
+   ],
    "xgi90": 0.36,
    "form": 9
   },
   {
+   "name": "De Cuyper",
+   "rating": 11.33,
+   "fixtures": [
+    {
+     "gw": 3,
+     "opponent": "LEE",
+     "home": true,
+     "difficulty": 2
+    }
+   ],
+   "xgi90": 0.95,
+   "form": 8.5
+  },
+  {
    "name": "Haaland",
-   "rating": 5.8,
-   "opponent": {
-    "gw": 3,
-    "opponent": "COV",
-    "home": true,
-    "difficulty": 2
-   },
+   "rating": 10,
+   "fixtures": [
+    {
+     "gw": 3,
+     "opponent": "COV",
+     "home": true,
+     "difficulty": 2
+    }
+   ],
    "xgi90": 0.71,
    "form": 7.5
+  },
+  {
+   "name": "Isak",
+   "rating": 6.67,
+   "fixtures": [
+    {
+     "gw": 3,
+     "opponent": "IPS",
+     "home": false,
+     "difficulty": 2
+    }
+   ],
+   "xgi90": 1.04,
+   "form": 5
+  },
+  {
+   "name": "Calafiori",
+   "rating": 4.5,
+   "fixtures": [
+    {
+     "gw": 3,
+     "opponent": "CHE",
+     "home": true,
+     "difficulty": 4
+    }
+   ],
+   "xgi90": 0.14,
+   "form": 4.5
   }
  ],
  "suggestions": [
