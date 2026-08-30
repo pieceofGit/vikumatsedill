@@ -1,0 +1,40 @@
+name: Probe FPL advice data
+on:
+  workflow_dispatch:
+  push:
+    paths: ['.github/workflows/probe-advice.yml']
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: |
+          node -e '
+          ;(async () => {
+            const get = async (u) => (await fetch(`https://fantasy.premierleague.com/api${u}`)).json()
+            const boot = await get("/bootstrap-static/")
+            const el = boot.elements.find(p => p.web_name === "Haaland") ?? boot.elements[0]
+            console.log("ELEMENT FIELDS:")
+            console.log(Object.keys(el).join(", "))
+            console.log("\nHAALAND SAMPLE:")
+            for (const k of ["form","points_per_game","total_points","now_cost","selected_by_percent",
+                             "minutes","expected_goals","expected_assists","expected_goal_involvements",
+                             "expected_goals_conceded","expected_goal_involvements_per_90","ict_index",
+                             "transfers_in_event","transfers_out_event","cost_change_event","value_form",
+                             "starts","status"]) {
+              if (k in el) console.log(`  ${k} = ${el[k]}`)
+            }
+            console.log("\nTEAM STRENGTH FIELDS:", Object.keys(boot.teams[0]).join(", "))
+            const t = boot.teams[0]
+            console.log(`  ${t.name}: overall H${t.strength_overall_home}/A${t.strength_overall_away}`
+              + ` att H${t.strength_attack_home}/A${t.strength_attack_away}`
+              + ` def H${t.strength_defence_home}/A${t.strength_defence_away}`)
+
+            const fx = await get("/fixtures/?future=1")
+            console.log("\nFUTURE FIXTURES:", fx.length)
+            console.log("FIXTURE FIELDS:", Object.keys(fx[0] ?? {}).join(", "))
+            for (const f of fx.slice(0, 3)) {
+              console.log(`  GW${f.event} team_h=${f.team_h} (diff ${f.team_h_difficulty})`
+                + ` v team_a=${f.team_a} (diff ${f.team_a_difficulty}) at ${f.kickoff_time}`)
+            }
+          })()'
