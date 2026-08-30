@@ -211,6 +211,39 @@ dialog::backdrop{background:rgba(8,11,15,.62)}
 .xi .sub{font-family:var(--mono);font-size:.6rem;color:var(--muted);margin-top:.5rem;
   text-transform:uppercase;letter-spacing:.06em}
 .md__empty{color:var(--muted);font-size:.85rem}
+
+/* ---- squad advice ---- */
+.adv h2{font-size:1rem;margin:1.4rem 0 .5rem;letter-spacing:-.02em}
+.adv h2:first-child{margin-top:0}
+.adv__meta{font-family:var(--mono);font-size:.72rem;color:var(--muted);margin:0 0 .5rem}
+.adv__note{font-size:.78rem;color:var(--muted);max-width:62ch;margin:.5rem 0 0}
+.warn{background:var(--panel);border:1px solid var(--line);border-left:3px solid #c96a1e;
+  border-radius:8px;padding:.55rem .75rem;font-size:.8rem;color:var(--muted);margin:0 0 1rem}
+.capr{display:grid;grid-template-columns:1.5rem 1fr auto;gap:.7rem;align-items:center;
+  background:var(--panel);border:1px solid var(--line);border-radius:9px;
+  padding:.55rem .75rem;margin-bottom:.4rem}
+.capr.top{border-color:var(--accent);box-shadow:inset 3px 0 0 var(--accent)}
+.capr .n{font-family:var(--mono);font-size:.7rem;color:var(--muted)}
+.capr .who{font-weight:600;font-size:.92rem}
+.capr .why{font-family:var(--mono);font-size:.66rem;color:var(--muted);margin:.1rem 0 .25rem}
+.capr .sc{font-family:var(--mono);font-weight:700;font-size:.9rem}
+.fdr{display:flex;gap:.15rem;flex-wrap:nowrap}
+.fdr i{font-style:normal;font-family:var(--mono);font-size:.57rem;padding:.12rem .3rem;
+  border-radius:3px;color:#fff;white-space:nowrap}
+.fdr .d1,.fdr .d2{background:#1a7f4b}
+.fdr .d3{background:#7d848d}
+.fdr .d4{background:#c96a1e}
+.fdr .d5{background:#bd3a34}
+.sug{background:var(--panel);border:1px solid var(--line);border-radius:10px;
+  padding:.75rem .85rem;margin-bottom:.6rem}
+.sug__out{font-size:.88rem;margin-bottom:.5rem}
+.sug__out b{color:var(--ink)}
+.sug__out span{font-family:var(--mono);font-size:.68rem;color:var(--muted)}
+.sug ul{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:.35rem}
+.sug li{display:flex;flex-wrap:wrap;gap:.4rem;align-items:center;font-size:.82rem}
+.sug li b{font-weight:600}
+.sug li .meta{font-family:var(--mono);font-size:.66rem;color:var(--muted)}
+.flagged{color:#c96a1e;font-weight:600}
 @media (max-width:34rem){
   .controls{position:static}
   .row > .lbl{min-width:100%}
@@ -240,6 +273,7 @@ dialog::backdrop{background:rgba(8,11,15,.62)}
   <div class="views" role="tablist" aria-label="View">
     <button class="chip" id="v-fixtures" role="tab" aria-selected="true" type="button">Fixtures</button>
     <button class="chip" id="v-tables" role="tab" aria-selected="false" type="button">Tables</button>
+    <button class="chip" id="v-squad" role="tab" aria-selected="false" type="button" hidden>Squad</button>
   </div>
 
   <section class="controls" aria-label="Filters">
@@ -268,6 +302,7 @@ dialog::backdrop{background:rgba(8,11,15,.62)}
   <p class="count" id="count" role="status"></p>
   <div id="list"></div>
   <div id="tables" hidden></div>
+  <div id="squad-view" class="adv" hidden></div>
 
   <dialog id="match">
     <div class="md">
@@ -404,7 +439,7 @@ dialog::backdrop{background:rgba(8,11,15,.62)}
     when: params.get('when') ?? '30',
     big: params.get('big') === '1',
     mine: params.get('mine') === '1',
-    view: params.get('view') === 'tables' ? 'tables' : 'fixtures',
+    view: ['tables', 'squad'].includes(params.get('view')) ? params.get('view') : 'fixtures',
   }
   let DATA = null
 
@@ -936,27 +971,151 @@ dialog::backdrop{background:rgba(8,11,15,.62)}
     box.dataset.loaded = '1'
   }
 
+
+  /* ------------------------------------------------------------ squad advice */
+  const fdrStrip = (fixtures) => {
+    const strip = el('div', 'fdr')
+    for (const f of fixtures ?? []) {
+      const chip = el('i', `d${f.difficulty}`,
+        `${f.opponent}${f.home ? '' : ' (a)'}`)
+      chip.title = `Gameweek ${f.gw} · difficulty ${f.difficulty} of 5`
+      strip.append(chip)
+    }
+    return strip
+  }
+
+  async function renderSquad () {
+    const box = $('#squad-view')
+    if (box.dataset.loaded) return
+    box.textContent = ''
+    let a
+    try {
+      const r = await fetch('./data/advice.json')
+      if (!r.ok) throw new Error(`HTTP ${r.status}`)
+      a = await r.json()
+    } catch (e) {
+      box.append(el('p', 'md__empty', `No advice available (${e.message}).`))
+      return
+    }
+
+    const meta = [a.gameweekName]
+    if (a.deadline) {
+      const d = new Date(a.deadline)
+      const hrs = Math.round((d - Date.now()) / 3_600_000)
+      meta.push(`deadline ${d.toLocaleString('en-GB', { timeZone: 'Atlantic/Reykjavik',
+        weekday: 'short', day: 'numeric', month: 'short', hour: '2-digit', minute: '2-digit',
+        hour12: false })}${hrs > 0 ? ` · ${hrs}h away` : ''}`)
+    }
+    meta.push(`${a.bank?.toFixed(1) ?? '?'}m in the bank`)
+    box.append(el('p', 'adv__meta', meta.filter(Boolean).join(' · ')))
+    if (a.sampleWarning) box.append(el('div', 'warn', a.sampleWarning))
+
+    /* captain */
+    box.append(el('h2', null, 'Captain'))
+    a.captainRanking.forEach((c, i) => {
+      const row = el('div', `capr${i === 0 ? ' top' : ''}`)
+      row.append(el('span', 'n', String(i + 1)))
+      const mid = el('div')
+      mid.append(el('div', 'who', c.name))
+      const why = el('div', 'why',
+        `form ${c.form} · xGI/90 ${c.xgi90}`)
+      mid.append(why)
+      mid.append(fdrStrip(c.fixtures))
+      row.append(mid, el('span', 'sc', c.rating.toFixed(1)))
+      box.append(row)
+    })
+
+    /* the fifteen */
+    box.append(el('h2', null, 'Your fifteen'))
+    const wrap = el('div', 'tbl__wrap')
+    const table = el('table')
+    const thead = el('thead'); const hr = el('tr')
+    for (const h of ['Player', 'Pos', '£', 'Form', 'xGI/90', 'Rating', `Next ${a.horizon}`]) {
+      hr.append(el('th', null, h))
+    }
+    thead.append(hr); table.append(thead)
+    const tb = el('tbody')
+    for (const p of a.squad) {
+      const tr = el('tr')
+      const nameCell = el('td')
+      nameCell.style.textAlign = 'left'
+      nameCell.append(document.createTextNode(p.name))
+      if (p.captain) nameCell.append(el('span', 'meta', ' (C)'))
+      else if (p.vice) nameCell.append(el('span', 'meta', ' (V)'))
+      if (p.status !== 'a') {
+        const f = el('span', 'flagged', ' ⚠')
+        f.title = p.news ?? 'flagged'
+        nameCell.append(f)
+      }
+      tr.append(nameCell)
+      tr.append(el('td', null, p.position), el('td', null, p.price.toFixed(1)),
+        el('td', null, String(p.form)), el('td', null, p.xgi90.toFixed(2)),
+        el('td', 'pts', p.rating.toFixed(1)))
+      const fx = el('td')
+      fx.append(fdrStrip(p.fixtures))
+      tr.append(fx)
+      if (p.benched) tr.style.opacity = '.55'
+      tb.append(tr)
+    }
+    table.append(tb); wrap.append(table); box.append(wrap)
+
+    /* transfers */
+    if (a.suggestions?.length) {
+      box.append(el('h2', null, 'Worth a look'))
+      for (const s of a.suggestions) {
+        const card = el('div', 'sug')
+        const out = el('p', 'sug__out')
+        out.append(document.createTextNode('Out: '), el('b', null, s.out.name),
+          el('span', null, ` ${s.out.position} · ${s.out.price.toFixed(1)}m · form ${s.out.form}`
+            + ` · rating ${s.out.rating.toFixed(1)}`))
+        if (s.out.news) out.append(el('span', 'flagged', ` · ${s.out.news}`))
+        card.append(out)
+        const list = el('ul')
+        for (const c of s.options) {
+          const li = el('li')
+          li.append(el('b', null, c.name),
+            el('span', 'meta', `${c.club} · ${c.price.toFixed(1)}m · form ${c.form}`
+              + ` · xGI/90 ${c.xgi90.toFixed(2)} · ${c.owned}% owned · rating ${c.rating.toFixed(1)}`))
+          li.append(fdrStrip(c.fixtures))
+          list.append(li)
+        }
+        card.append(list)
+        box.append(card)
+      }
+    }
+
+    box.append(el('p', 'adv__note', a.method))
+    box.dataset.loaded = '1'
+  }
+
+  const VIEWS = { fixtures: '#v-fixtures', tables: '#v-tables', squad: '#v-squad' }
+
   function setView (view) {
-    state.view = view
-    const fixtures = view === 'fixtures'
-    $('#v-fixtures').setAttribute('aria-selected', String(fixtures))
-    $('#v-tables').setAttribute('aria-selected', String(!fixtures))
-    $('#v-fixtures').setAttribute('aria-pressed', String(fixtures))
-    $('#v-tables').setAttribute('aria-pressed', String(!fixtures))
-    document.querySelector('.controls').hidden = !fixtures
-    $('#count').hidden = !fixtures
-    $('#list').hidden = !fixtures
-    $('#tables').hidden = fixtures
-    if (!fixtures) renderTables()
+    state.view = VIEWS[view] ? view : 'fixtures'
+    for (const [name, sel] of Object.entries(VIEWS)) {
+      const on = name === state.view
+      $(sel).setAttribute('aria-selected', String(on))
+      $(sel).setAttribute('aria-pressed', String(on))
+    }
+    const onFixtures = state.view === 'fixtures'
+    document.querySelector('.controls').hidden = !onFixtures
+    $('#count').hidden = !onFixtures
+    $('#list').hidden = !onFixtures
+    $('#tables').hidden = state.view !== 'tables'
+    $('#squad-view').hidden = state.view !== 'squad'
+    if (state.view === 'tables') renderTables()
+    if (state.view === 'squad') renderSquad()
     syncUrl()
   }
-  $('#v-fixtures').addEventListener('click', () => setView('fixtures'))
-  $('#v-tables').addEventListener('click', () => setView('tables'))
+  for (const [name, sel] of Object.entries(VIEWS)) {
+    $(sel).addEventListener('click', () => setView(name))
+  }
 
   /* ----------------------------------------------------------------- boot */
   const start = (d) => {
     DATA = d
     buildFilters(); buildGuide(); render()
+    if (DATA.fantasy?.name) $('#v-squad').hidden = false
     setView(state.view)
     refreshLive()
     // Refresh while the tab is being looked at, and not while it is not.
