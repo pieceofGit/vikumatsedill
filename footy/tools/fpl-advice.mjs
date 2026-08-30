@@ -51,6 +51,20 @@ function rate (el, fixtures) {
   return Number((base * fixtureFactor * playing).toFixed(2))
 }
 
+/**
+ * Captaincy is a one-week bet, so the horizon average is the wrong lens — an
+ * in-form striker away at the league leaders is a trap the five-game mean
+ * hides. This weighs only the fixtures actually in the coming gameweek, which
+ * also means a double gameweek scores roughly twice.
+ */
+function rateCaptain (el, fixtures, gw) {
+  const week = fixtures.filter((f) => f.gw === gw)
+  if (!week.length) return 0                       // blank gameweek
+  const base = 0.5 * num(el.form) + 0.5 * num(el.points_per_game)
+  const swing = week.reduce((a, f) => a + (6 - f.difficulty) / 3, 0)
+  return Number((base * swing).toFixed(2))
+}
+
 const main = async () => {
   const squad = await readFile(join(ROOT, 'data/fpl.json'), 'utf8')
     .then(JSON.parse).catch(() => null)
@@ -118,9 +132,15 @@ const main = async () => {
   /* ---- captain: best rating among those actually starting ---------------- */
   const captainRanking = mine
     .filter((p) => !p.benched && p.status === 'a')
+    .map((p) => ({
+      name: p.name,
+      rating: rateCaptain(byId.get(p.id), p.fixtures, next?.id),
+      fixtures: p.fixtures.filter((f) => f.gw === next?.id),
+      xgi90: p.xgi90,
+      form: p.form,
+    }))
     .sort((a, b) => b.rating - a.rating)
-    .slice(0, 4)
-    .map((p) => ({ name: p.name, rating: p.rating, opponent: p.fixtures[0], xgi90: p.xgi90, form: p.form }))
+    .slice(0, 5)
 
   /* ---- transfers: who is dragging, and who could replace them ------------ */
   const bank = squad.bank ?? 0
@@ -152,9 +172,11 @@ const main = async () => {
     deadline: next?.deadline_time ?? null,
     horizon: HORIZON,
     bank,
-    method: 'Rating = (form + points per game) / 2, adjusted for the difficulty of the '
-      + `next ${HORIZON} fixtures and for how reliably the player starts. A heuristic for `
-      + 'ordering, not a projection — the inputs are all shown so it can be argued with.',
+    method: 'Squad rating = (form + points per game) / 2, adjusted for the difficulty of '
+      + `the next ${HORIZON} fixtures and for how reliably the player starts — a planning `
+      + 'view. The captain ranking is separate and weighs only the coming gameweek, since '
+      + 'captaincy is a one-week bet and a double gameweek counts twice. Both are heuristics '
+      + 'for ordering, not projections; every input is shown so they can be argued with.',
     squad: mine.sort((a, b) => b.rating - a.rating),
     captainRanking,
     suggestions,
