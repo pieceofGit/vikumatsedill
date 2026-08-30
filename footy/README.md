@@ -247,6 +247,31 @@ watcher started. The alert carries the live score, your points for the gameweek
 **Premier League only.** The fantasy game does not track European nights, so a
 Champions League goal will not arrive this way.
 
+### Watching mode
+
+When you are actually watching a match, every alert is a spoiler. Message the
+bot and it goes quiet:
+
+| Send | Effect |
+| --- | --- |
+| `/watching` | Quiet until half-time, for any live match |
+| `/watching arsenal` | Same, but only that club's match |
+| `/unwatch` | Back to normal |
+| `/status` | Which mode you are in |
+
+Only one thing still comes through: **half-time**, announced on the transition
+into the interval so it fires once rather than on every poll. Goals, tense
+matches and your own squad's returns are all held back — their stats are still
+recorded, so nothing is replayed at you when you unmute.
+
+It lapses on its own after four hours (`WATCH_HOURS`), so a mode set on a
+Saturday afternoon is not still muting things on Sunday.
+
+The command is read on the runner's next poll, so allow up to five minutes for
+it to take effect. Two caveats: it reads the bot with `getUpdates`, which will
+not work if that bot has a webhook set, and it *consumes* the updates it reads —
+so use a bot this project has to itself rather than one doing another job.
+
 ### The delay
 
 Every live alert — the tense-match ones as well as the squad ones — is **held

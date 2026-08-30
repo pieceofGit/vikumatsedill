@@ -15,6 +15,7 @@ import { readFile, writeFile, mkdir } from 'node:fs/promises'
 import { dirname, join } from 'node:path'
 import { fileURLToPath } from 'node:url'
 import { enqueue, flush, DELAY_MINUTES } from './notify.mjs'
+import { watching } from './commands.mjs'
 
 const ROOT = join(dirname(fileURLToPath(import.meta.url)), '..')
 const args = process.argv.slice(2)
@@ -29,6 +30,7 @@ const get = async (url) => {
 }
 const readJson = (p, fallback) => readFile(join(ROOT, p), 'utf8')
   .then(JSON.parse).catch(() => fallback)
+
 
 /* What counts as worth interrupting someone for. Each returns a phrase, or
  * null if this particular jump is not interesting. */
@@ -83,6 +85,12 @@ const main = async () => {
   // Anything held from an earlier poll goes out first.
   await flush(state)
 
+  // Watching mode is set from the match watcher, which polls just before this
+  // one; a goal from your own player is as much of a spoiler as any other.
+  const matchState = await readJson('.live-state.json', {})
+  const muted = Boolean(watching(matchState))
+  if (muted) console.log('watching mode — squad alerts held back')
+
   const scores = await liveScores()
   const fixtures = await readJson('data/fixtures.json', { matches: [], broadcasters: {} })
   const today = new Date().toISOString().slice(0, 10)
@@ -132,6 +140,8 @@ const main = async () => {
     ].filter(Boolean).join('\n')
 
     console.log(`${player.name}: ${moments.map((m) => m.phrase).join(', ')} (${pts} pts)`)
+    // The stats above are still recorded, so nothing is replayed on unmute.
+    if (muted) continue
     enqueue(state, `fpl:${el.id}:${moments.map((m) => m.phrase).join('|')}`, text)
     sent++
   }

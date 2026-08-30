@@ -19,6 +19,7 @@ import { dirname, join } from 'node:path'
 import { fileURLToPath } from 'node:url'
 import { enqueue, flush, DELAY_MINUTES } from './notify.mjs'
 import { sameClub } from './clubs.mjs'
+import { readCommands, watching, describe } from './commands.mjs'
 
 const ROOT = join(dirname(fileURLToPath(import.meta.url)), '..')
 const args = process.argv.slice(2)
@@ -138,6 +139,11 @@ const main = async () => {
   // Anything held from an earlier poll goes out first.
   await flush(state)
 
+  // Then find out whether you have told the bot you are watching.
+  await readCommands(state)
+  const mode = watching(state)
+  console.log(describe(state))
+
   const live = []
   for (const [comp, url] of Object.entries(BOARDS)) {
     try {
@@ -156,6 +162,29 @@ const main = async () => {
 
   let pushed = 0
   for (const [comp, ev] of inPlay) {
+    const st = ev.competitions?.[0]?.status ?? ev.status
+    const atHalfTime = /halftime|half.time/i.test(st?.type?.name ?? '')
+    const was = state.matches[ev.id] ?? {}
+
+    // The one thing watching mode does say. Announced on the transition into
+    // half-time, so it fires once rather than on every poll of the interval.
+    if (atHalfTime && was.phase !== 'HT') {
+      const probe = assess({ ...ev, competitions: [{ ...ev.competitions[0],
+        status: { ...st, type: { ...st.type, name: 'PLAY' } } }] }, false)
+      const involved = probe && (!mode?.team ||
+        sameClub(probe.home, mode.team) || sameClub(probe.away, mode.team))
+      if (mode && probe && involved) {
+        enqueue(state, `ht:${ev.id}`,
+          `⏸ <b>Half-time</b>\n${probe.home} ${probe.hs}–${probe.as} ${probe.away}`)
+        pushed++
+      }
+    }
+    state.matches[ev.id] = { ...was, day: today, phase: atHalfTime ? 'HT' : 'play' }
+    if (atHalfTime) continue
+
+    // Everything below is a spoiler, which is the whole point of watching mode.
+    if (mode) continue
+
     const probe = assess(ev, false)
     if (!probe) continue
     if (!probe.eligible) {
@@ -184,7 +213,7 @@ const main = async () => {
     ].filter(Boolean).join('\n')
 
     enqueue(state, `match:${m.id}:${m.hs}-${m.as}`, text)
-    state.matches[m.id] = { day: today, at: `${m.hs}-${m.as}`, count: (prev?.count ?? 0) + 1 }
+    state.matches[m.id] = { ...prev, day: today, at: `${m.hs}-${m.as}`, count: (prev?.count ?? 0) + 1 }
     pushed++
   }
 
