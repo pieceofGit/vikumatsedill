@@ -32,7 +32,9 @@ jobs:
       - name: Restore alert state
         uses: actions/cache/restore@v4
         with:
-          path: footy/.live-state.json
+          path: |
+            footy/.live-state.json
+            footy/.fpl-state.json
           key: live-state-${{ github.run_id }}
           restore-keys: live-state-
 
@@ -44,10 +46,19 @@ jobs:
           EXCITEMENT_THRESHOLD: ${{ vars.EXCITEMENT_THRESHOLD || '10' }}
         run: node tools/live-alerts.mjs | tee "$RUNNER_TEMP/live.log"
 
+      - name: Check your fantasy squad
+        working-directory: footy
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+        run: node tools/fpl-live.mjs | tee -a "$RUNNER_TEMP/live.log"
+
       - name: Save alert state
         uses: actions/cache/save@v4
         with:
-          path: footy/.live-state.json
+          path: |
+            footy/.live-state.json
+            footy/.fpl-state.json
           key: live-state-${{ github.run_id }}
 
       - name: Summary

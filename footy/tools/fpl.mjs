@@ -67,6 +67,7 @@ const main = async () => {
   const squad = picks.map((pick) => {
     const p = players.get(pick.element)
     return {
+      id: pick.element,          // FPL element id — the key the live feed uses
       name: p?.web_name ?? `#${pick.element}`,
       club: clubs.get(p?.team) ?? null,
       position: POSITIONS[p?.element_type] ?? null,

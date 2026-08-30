@@ -192,6 +192,30 @@ your team name, gameweek, points and overall rank sit under the masthead.
 It also feeds the live alerts: a tense match is worth two more points if your
 captain is playing in it, one more if three or more of your squad are.
 
+### When one of your players does something
+
+`tools/fpl-live.mjs` runs alongside the match watcher, every five minutes during
+match hours, and pushes when someone in your squad actually does something:
+
+| Moment | |
+| --- | --- |
+| ⚽️ | A goal, counted — "scored again — 2 now" |
+| 🅰️ | An assist |
+| 🧤 | A saved penalty |
+| 🛡️ | A clean sheet |
+| ⭐️ | Bonus points |
+| 🔥 | A haul, as it crosses 10, 15 and 20 points |
+
+FPL's live endpoint reports these per player, keyed by the same element id
+stored in `data/fpl.json`, so your squad matches exactly. Every alert is a
+*delta* against the previous poll — the first poll of a gameweek is treated as a
+baseline and says nothing, so you are not told about goals scored before the
+watcher started. The alert carries the live score, your points for the gameweek
+(noting when they are doubled for the captain), and the Icelandic channel.
+
+**Premier League only.** The fantasy game does not track European nights, so a
+Champions League goal will not arrive this way.
+
 With no id set, none of this appears and the rest of the build is unaffected.
 
 ## Data
