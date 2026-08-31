@@ -171,14 +171,7 @@
             },
             {
               "name": "Spaghetti alfredo",
-              "desc": "með ristuðum valhnetum og villisveppasósu (Hn) (G)",
-              "info": {
-                "term": "Spaghetti",
-                "title": "Spaghetti",
-                "info": "Spaghetti is a long, thin, solid, cylindrical pasta.",
-                "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/Spaghettoni.jpg/330px-Spaghettoni.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-                "wiki": "https://en.wikipedia.org/wiki/Spaghetti"
-              }
+              "desc": "með ristuðum valhnetum og villisveppasósu (Hn) (G)"
             }
           ]
         },
