@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-08-30T15:17:03.059Z",
+ "generatedAt": "2026-08-31T11:36:55.483Z",
  "gameweek": 3,
  "gameweekName": "Gameweek 3",
  "deadline": "2026-09-04T17:30:00Z",
@@ -17,14 +17,14 @@
    "form": 10,
    "ppg": 10,
    "total": 20,
-   "xgi90": 0.97,
-   "xgc": 2.82,
+   "xgi90": 0.98,
+   "xgc": 2.74,
    "minutes": 180,
    "starts": 2,
-   "owned": 68.8,
+   "owned": 69.3,
    "status": "a",
    "news": null,
-   "priceMomentum": 54556,
+   "priceMomentum": 118119,
    "fixtures": [
     {
      "gw": 3,
@@ -73,13 +73,13 @@
    "ppg": 8.5,
    "total": 17,
    "xgi90": 0.95,
-   "xgc": 3.26,
+   "xgc": 3.22,
    "minutes": 167,
    "starts": 2,
-   "owned": 10.4,
+   "owned": 11.9,
    "status": "a",
    "news": null,
-   "priceMomentum": 134093,
+   "priceMomentum": 249819,
    "fixtures": [
     {
      "gw": 3,
@@ -127,14 +127,14 @@
    "form": 9,
    "ppg": 9,
    "total": 18,
-   "xgi90": 0.36,
-   "xgc": 1.9,
+   "xgi90": 0.34,
+   "xgc": 1.93,
    "minutes": 165,
    "starts": 2,
-   "owned": 9.8,
+   "owned": 10.6,
    "status": "a",
    "news": null,
-   "priceMomentum": 51533,
+   "priceMomentum": 99237,
    "fixtures": [
     {
      "gw": 3,
@@ -186,10 +186,10 @@
    "xgc": 1.31,
    "minutes": 180,
    "starts": 2,
-   "owned": 69,
+   "owned": 69.5,
    "status": "a",
    "news": null,
-   "priceMomentum": 86882,
+   "priceMomentum": 129520,
    "fixtures": [
     {
      "gw": 3,
@@ -229,6 +229,61 @@
    "benched": false
   },
   {
+   "id": 544,
+   "name": "Xhaka",
+   "club": "SUN",
+   "position": "MID",
+   "price": 5.5,
+   "form": 7.5,
+   "ppg": 7.5,
+   "total": 15,
+   "xgi90": 0.22,
+   "xgc": 2.75,
+   "minutes": 180,
+   "starts": 2,
+   "owned": 4.6,
+   "status": "a",
+   "news": null,
+   "priceMomentum": -2357,
+   "fixtures": [
+    {
+     "gw": 3,
+     "opponent": "BRE",
+     "home": false,
+     "difficulty": 3
+    },
+    {
+     "gw": 4,
+     "opponent": "ARS",
+     "home": true,
+     "difficulty": 4
+    },
+    {
+     "gw": 5,
+     "opponent": "MCI",
+     "home": false,
+     "difficulty": 5
+    },
+    {
+     "gw": 6,
+     "opponent": "BHA",
+     "home": true,
+     "difficulty": 2
+    },
+    {
+     "gw": 7,
+     "opponent": "BOU",
+     "home": false,
+     "difficulty": 3
+    }
+   ],
+   "ease": 2.6,
+   "rating": 5.26,
+   "captain": false,
+   "vice": false,
+   "benched": true
+  },
+  {
    "id": 8,
    "name": "Calafiori",
    "club": "ARS",
@@ -241,10 +296,10 @@
    "xgc": 0.06,
    "minutes": 80,
    "starts": 1,
-   "owned": 41.7,
+   "owned": 41.6,
    "status": "a",
    "news": null,
-   "priceMomentum": 28812,
+   "priceMomentum": 43907,
    "fixtures": [
     {
      "gw": 3,
@@ -292,14 +347,14 @@
    "form": 6.5,
    "ppg": 6.5,
    "total": 13,
-   "xgi90": 1.18,
-   "xgc": 2.73,
+   "xgi90": 1.16,
+   "xgc": 2.65,
    "minutes": 171,
    "starts": 2,
-   "owned": 26.2,
+   "owned": 25.9,
    "status": "a",
    "news": null,
-   "priceMomentum": 15752,
+   "priceMomentum": 3692,
    "fixtures": [
     {
      "gw": 3,
@@ -339,61 +394,6 @@
    "benched": false
   },
   {
-   "id": 544,
-   "name": "Xhaka",
-   "club": "SUN",
-   "position": "MID",
-   "price": 5.5,
-   "form": 6,
-   "ppg": 6,
-   "total": 12,
-   "xgi90": 0.2,
-   "xgc": 2.82,
-   "minutes": 180,
-   "starts": 2,
-   "owned": 4.7,
-   "status": "a",
-   "news": null,
-   "priceMomentum": 187,
-   "fixtures": [
-    {
-     "gw": 3,
-     "opponent": "BRE",
-     "home": false,
-     "difficulty": 3
-    },
-    {
-     "gw": 4,
-     "opponent": "ARS",
-     "home": true,
-     "difficulty": 4
-    },
-    {
-     "gw": 5,
-     "opponent": "MCI",
-     "home": false,
-     "difficulty": 5
-    },
-    {
-     "gw": 6,
-     "opponent": "BHA",
-     "home": true,
-     "difficulty": 2
-    },
-    {
-     "gw": 7,
-     "opponent": "BOU",
-     "home": false,
-     "difficulty": 3
-    }
-   ],
-   "ease": 2.6,
-   "rating": 4.21,
-   "captain": false,
-   "vice": false,
-   "benched": true
-  },
-  {
    "id": 379,
    "name": "Isak",
    "club": "LIV",
@@ -409,7 +409,7 @@
    "owned": 16.2,
    "status": "a",
    "news": null,
-   "priceMomentum": -20977,
+   "priceMomentum": -28216,
    "fixtures": [
     {
      "gw": 3,
@@ -458,13 +458,13 @@
    "ppg": 2.5,
    "total": 5,
    "xgi90": 0,
-   "xgc": 3.99,
+   "xgc": 4.26,
    "minutes": 180,
    "starts": 2,
    "owned": 3,
    "status": "a",
    "news": null,
-   "priceMomentum": 700,
+   "priceMomentum": 1975,
    "fixtures": [
     {
      "gw": 3,
@@ -519,7 +519,7 @@
    "owned": 3.4,
    "status": "a",
    "news": null,
-   "priceMomentum": 2944,
+   "priceMomentum": 6198,
    "fixtures": [
     {
      "gw": 3,
@@ -571,10 +571,10 @@
    "xgc": 3.9,
    "minutes": 178,
    "starts": 2,
-   "owned": 2.7,
+   "owned": 2.6,
    "status": "a",
    "news": null,
-   "priceMomentum": -8493,
+   "priceMomentum": -16977,
    "fixtures": [
     {
      "gw": 3,
@@ -626,10 +626,10 @@
    "xgc": 0.06,
    "minutes": 67,
    "starts": 1,
-   "owned": 16.4,
+   "owned": 16,
    "status": "a",
    "news": null,
-   "priceMomentum": -33548,
+   "priceMomentum": -63593,
    "fixtures": [
     {
      "gw": 3,
@@ -681,10 +681,10 @@
    "xgc": 3.88,
    "minutes": 180,
    "starts": 2,
-   "owned": 19.2,
+   "owned": 18.8,
    "status": "a",
    "news": null,
-   "priceMomentum": -37193,
+   "priceMomentum": -75139,
    "fixtures": [
     {
      "gw": 3,
@@ -732,14 +732,14 @@
    "form": 0,
    "ppg": 0,
    "total": 0,
-   "xgi90": 0.05,
-   "xgc": 2.97,
+   "xgi90": 0.03,
+   "xgc": 2.93,
    "minutes": 90,
    "starts": 1,
-   "owned": 2.2,
+   "owned": 2.1,
    "status": "a",
    "news": null,
-   "priceMomentum": -3112,
+   "priceMomentum": -5804,
    "fixtures": [
     {
      "gw": 3,
@@ -791,10 +791,10 @@
    "xgc": 3.77,
    "minutes": 90,
    "starts": 1,
-   "owned": 7.4,
+   "owned": 7.3,
    "status": "a",
    "news": null,
-   "priceMomentum": -9275,
+   "priceMomentum": -17874,
    "fixtures": [
     {
      "gw": 3,
@@ -846,7 +846,7 @@
      "difficulty": 2
     }
    ],
-   "xgi90": 0.36,
+   "xgi90": 0.34,
    "form": 9
   },
   {
@@ -929,7 +929,7 @@
      "form": 10,
      "xgi90": 0.31,
      "ease": 2.8,
-     "owned": 3.2,
+     "owned": 5,
      "fixtures": [
       {
        "gw": 3,
@@ -960,7 +960,7 @@
      "form": 8.5,
      "xgi90": 0,
      "ease": 2.8,
-     "owned": 2.3,
+     "owned": 3,
      "fixtures": [
       {
        "gw": 3,
@@ -991,7 +991,7 @@
      "form": 7,
      "xgi90": 0.35,
      "ease": 3.4,
-     "owned": 5,
+     "owned": 6,
      "fixtures": [
       {
        "gw": 3,
@@ -1035,9 +1035,9 @@
      "price": 4.6,
      "rating": 5.26,
      "form": 7.5,
-     "xgi90": 0.4,
+     "xgi90": 0.41,
      "ease": 2.6,
-     "owned": 8.3,
+     "owned": 8.7,
      "fixtures": [
       {
        "gw": 3,
@@ -1068,7 +1068,7 @@
      "form": 6,
      "xgi90": 0.05,
      "ease": 3.4,
-     "owned": 0.7,
+     "owned": 1.2,
      "fixtures": [
       {
        "gw": 3,
@@ -1099,7 +1099,7 @@
      "form": 6,
      "xgi90": 0.15,
      "ease": 3,
-     "owned": 0.5,
+     "owned": 0.6,
      "fixtures": [
       {
        "gw": 3,
@@ -1145,7 +1145,7 @@
      "form": 9,
      "xgi90": 0.08,
      "ease": 3,
-     "owned": 9.1,
+     "owned": 9.7,
      "fixtures": [
       {
        "gw": 3,
@@ -1176,7 +1176,7 @@
      "form": 5.5,
      "xgi90": 0.39,
      "ease": 3,
-     "owned": 6.9,
+     "owned": 7,
      "fixtures": [
       {
        "gw": 3,
@@ -1199,33 +1199,33 @@
      ]
     },
     {
-     "id": 533,
-     "name": "Mukiele",
-     "club": "SUN",
-     "price": 5.5,
-     "rating": 5.79,
-     "form": 5.5,
-     "xgi90": 0.01,
-     "ease": 2.6,
-     "owned": 2.4,
+     "id": 391,
+     "name": "Gvardiol",
+     "club": "MCI",
+     "price": 5.6,
+     "rating": 5.42,
+     "form": 7,
+     "xgi90": 0.15,
+     "ease": 3.2,
+     "owned": 16.3,
      "fixtures": [
       {
        "gw": 3,
-       "opponent": "BRE",
-       "home": false,
-       "difficulty": 3
+       "opponent": "COV",
+       "home": true,
+       "difficulty": 2
       },
       {
        "gw": 4,
-       "opponent": "ARS",
-       "home": true,
+       "opponent": "MUN",
+       "home": false,
        "difficulty": 4
       },
       {
        "gw": 5,
-       "opponent": "MCI",
-       "home": false,
-       "difficulty": 5
+       "opponent": "SUN",
+       "home": true,
+       "difficulty": 2
       }
      ]
     }
