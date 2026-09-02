@@ -12,12 +12,16 @@
             {
               "name": "Sætkartöflu- og sítrónugrassúpa",
               "desc": "Kókosmjólk, engifer, lime og chili.",
-              "tag": "Súpa"
+              "tag": "Súpa",
+              "allergens": [
+                "D"
+              ]
             },
             {
               "name": "Gigantes Plaki",
               "desc": "Stórar hvítar baunir bakaðar með tómötum, fenníku og oregano.",
               "tag": "",
+              "allergens": [],
               "info": {
                 "term": "Plaki",
                 "title": "Pilaki",
@@ -30,6 +34,7 @@
               "name": "Steinbítur Moqueca",
               "desc": "Brasilísk kókos- og tómatsósa, paprika, lime og hrísgrjón.",
               "tag": "Fiskur",
+              "allergens": [],
               "info": {
                 "term": "Moqueca",
                 "title": "Moqueca",
@@ -41,17 +46,22 @@
             {
               "name": "Kryddhrísgrjón",
               "desc": "Basmatihrísgrjón með túrmerik og cumin,",
-              "tag": ""
+              "tag": "",
+              "allergens": []
             },
             {
               "name": "Víetnamskt kjúklingakarrí – Cà Ri Gà",
               "desc": "Sítrónugras, kókosmjólk, sætar kartöflur og engifer",
-              "tag": "Kjúklingur"
+              "tag": "Kjúklingur",
+              "allergens": [
+                "D"
+              ]
             },
             {
               "name": "Spergilkálsalat",
               "desc": "Spergilkál með ferskum kryddjurtum, sólblómafræjum og sítrónudressingu.",
-              "tag": ""
+              "tag": "",
+              "allergens": []
             }
           ]
         },
@@ -61,12 +71,16 @@
             {
               "name": "Tómat- og kínóasúpa",
               "desc": "Tómatar, kínóa, hvítlaukur, paprika og ferskar kryddjurtir.",
-              "tag": "Súpa"
+              "tag": "Súpa",
+              "allergens": []
             },
             {
               "name": "Gnocchi með ristuðum tómötum",
               "desc": "Kartöflugnocchi með tómötum, spínati, hvítlauk og basilolíu.",
               "tag": "",
+              "allergens": [
+                "G"
+              ],
               "info": {
                 "term": "Gnocchi",
                 "title": "Gnocchi",
@@ -78,12 +92,19 @@
             {
               "name": "Lasagne með hvítlauksbrauði",
               "desc": "Klassískt lasagne með nauta- og grísakjötsragú, béchamel, tómötum og osti.",
-              "tag": "Nautakjöt"
+              "tag": "Nautakjöt",
+              "allergens": [
+                "D",
+                "G"
+              ]
             },
             {
               "name": "Perlucouscous og ristuð paprika",
               "desc": "Döðlur, kryddjurtir, appelsína og sólblómafræ.",
-              "tag": ""
+              "tag": "",
+              "allergens": [
+                "G"
+              ]
             }
           ]
         },
@@ -93,22 +114,29 @@
             {
               "name": "Reykt papriku- og svartbaunasúpa",
               "desc": "Reykt paprika, tómatar, oregano og lime.",
-              "tag": "Súpa"
+              "tag": "Súpa",
+              "allergens": []
             },
             {
               "name": "Bakaðir jarðskokkar og sætar kartöflur",
               "desc": "Með granateplum, balsamik-tófúkremi og ferskum kryddjurtum.",
-              "tag": ""
+              "tag": "",
+              "allergens": []
             },
             {
               "name": "Lúða í saffran- og fenníkusoði",
               "desc": "Tómatar, ristað smælki, hvítlaukur og ferskar kryddjurtir.",
-              "tag": "Fiskur"
+              "tag": "Fiskur",
+              "allergens": []
             },
             {
               "name": "Kjúklingur Shawarma",
               "desc": "Shawarma-kryddaður kjúklingur með arabísku brauði, hvítlauksjógúrt og pikkluðum rauðlauk.",
               "tag": "Kjúklingur",
+              "allergens": [
+                "D",
+                "G"
+              ],
               "info": {
                 "term": "Shawarma",
                 "title": "Shawarma",
@@ -120,7 +148,8 @@
             {
               "name": "Rauðkál, epli og fenníka",
               "desc": "Dill, eplavinaigrette og ristuð sólblómafræ.",
-              "tag": ""
+              "tag": "",
+              "allergens": []
             }
           ]
         },
@@ -130,22 +159,30 @@
             {
               "name": "Rauðrófu-, epla- og piparrótarsúpa",
               "desc": "Piparótarrjómi dill og sólblómafræ.",
-              "tag": "Súpa"
+              "tag": "Súpa",
+              "allergens": [
+                "D"
+              ]
             },
             {
               "name": "Sæt kartöflu og svartbauna-mole",
               "desc": "Sætar kartöflur, kakó, chili, hrísgrjón og graskersfræ.",
-              "tag": ""
+              "tag": "",
+              "allergens": []
             },
             {
               "name": "Lamb með rauðrófum og brómberjum",
               "desc": "Kryddbakað lamb, ristaðar rófur, svartur pipar, kartöflur og estragon.",
-              "tag": "Lambakjöt"
+              "tag": "Lambakjöt",
+              "allergens": []
             },
             {
               "name": "Eggaldin með chermoula",
               "desc": "Bakað eggaldin með kryddjurtakúskús, rúsínum, sítrónu og tahini.",
-              "tag": ""
+              "tag": "",
+              "allergens": [
+                "E"
+              ]
             }
           ]
         },
@@ -155,17 +192,24 @@
             {
               "name": "Sellerírótar- og spínatsúpa",
               "desc": "Sellerírót, spínat, hvítlaukur, timjan og sítróna.",
-              "tag": "Súpa"
+              "tag": "Súpa",
+              "allergens": []
             },
             {
               "name": "Pizza al Taglio alla Romana",
               "desc": "Rómversk súrdeigspítsa bökuð á plötum, með marinara-sósu og fjölbreyttu ítölsku áleggi.",
-              "tag": ""
+              "tag": "",
+              "allergens": [
+                "G"
+              ]
             },
             {
               "name": "Pastasalat",
               "desc": "Pasta með grænmeti, ferskum kryddjurtum og sítrónuvinaigrette.",
-              "tag": ""
+              "tag": "",
+              "allergens": [
+                "G"
+              ]
             }
           ]
         }
@@ -181,23 +225,38 @@
           "dishes": [
             {
               "name": "Rjómalöguð tortellini súpa",
-              "desc": "með sítrónu (D) (G)",
-              "tag": "SÚPA"
+              "desc": "með sítrónu",
+              "tag": "SÚPA",
+              "allergens": [
+                "D",
+                "G"
+              ]
             },
             {
               "name": "Heimalagaður Plokkfiskur",
-              "desc": "með rúgbrauði og smjöri, bearnaise sósu og piparosti (D) (G) (E)",
-              "tag": "FISKUR"
+              "desc": "með rúgbrauði og smjöri, bearnaise sósu og piparosti",
+              "tag": "FISKUR",
+              "allergens": [
+                "D",
+                "G",
+                "E"
+              ]
             },
             {
               "name": "Hjónabands kjúklingabringur",
-              "desc": "með rjómakenndri sósu frá Toskana, sólþurrkuðum tómötum, parmesanosti og ferskri basiliku (D)",
-              "tag": "KJÚKLINGUR"
+              "desc": "með rjómakenndri sósu frá Toskana, sólþurrkuðum tómötum, parmesanosti og ferskri basiliku",
+              "tag": "KJÚKLINGUR",
+              "allergens": [
+                "D"
+              ]
             },
             {
               "name": "Spaghetti alfredo",
-              "desc": "með ristuðum valhnetum og villisveppasósu (Hn) (G)",
-              "tag": "VEGAN"
+              "desc": "með ristuðum valhnetum og villisveppasósu (Hn)",
+              "tag": "VEGAN",
+              "allergens": [
+                "G"
+              ]
             }
           ]
         },
@@ -206,23 +265,38 @@
           "dishes": [
             {
               "name": "Rjómalöguð aspassúpa með osta-brauðteningum",
-              "desc": "(D) (G)",
-              "tag": "SÚPA"
+              "desc": "",
+              "tag": "SÚPA",
+              "allergens": [
+                "D",
+                "G"
+              ]
             },
             {
               "name": "Firecracker lax",
-              "desc": "með engifer, hunangs og chiligljáa, með vorlauk og mangó salsa (S)",
-              "tag": "FISKUR"
+              "desc": "með engifer, hunangs og chiligljáa, með vorlauk og mangó salsa",
+              "tag": "FISKUR",
+              "allergens": [
+                "S"
+              ]
             },
             {
               "name": "Klassískt kjöt lasagna",
-              "desc": "með cheddar og piparosti, parmesan og pestó (D) (G) (E)",
-              "tag": "PASTA"
+              "desc": "með cheddar og piparosti, parmesan og pestó",
+              "tag": "PASTA",
+              "allergens": [
+                "D",
+                "G",
+                "E"
+              ]
             },
             {
               "name": "Satay tofu stir fry",
-              "desc": "með brokkolí, gulrótum og hnetum, sesam sósu og sesam fræjum (S) (Hn)",
+              "desc": "með brokkolí, gulrótum og hnetum, sesam sósu og sesam fræjum (Hn)",
               "tag": "VEGAN",
+              "allergens": [
+                "S"
+              ],
               "info": {
                 "term": "Satay",
                 "title": "Satay",
@@ -238,23 +312,38 @@
           "dishes": [
             {
               "name": "Rjómalöguð sveppasúpa",
-              "desc": "með trufflum (D)",
-              "tag": "SÚPA"
+              "desc": "með trufflum",
+              "tag": "SÚPA",
+              "allergens": [
+                "D"
+              ]
             },
             {
               "name": "Indverskur tandoori kjúklingur",
-              "desc": "með tandoori sósu, hrísgrjónum og naanbrauði (D) (G)",
-              "tag": "KJÚKLINGUR"
+              "desc": "með tandoori sósu, hrísgrjónum og naanbrauði",
+              "tag": "KJÚKLINGUR",
+              "allergens": [
+                "D",
+                "G"
+              ]
             },
             {
               "name": "Kjötbollur í brúnni sósu",
-              "desc": ",grænum baunum, pikklað hvítkál, kartöflumús og rabbabarasulta (D) (G) (E)",
-              "tag": "NAUTAKJÖT"
+              "desc": ",grænum baunum, pikklað hvítkál, kartöflumús og rabbabarasulta",
+              "tag": "NAUTAKJÖT",
+              "allergens": [
+                "D",
+                "G",
+                "E"
+              ]
             },
             {
               "name": "Bang bang blómkál",
-              "desc": "með sesamfræjum og sætum chili (S)",
-              "tag": "VEGAN"
+              "desc": "með sesamfræjum og sætum chili",
+              "tag": "VEGAN",
+              "allergens": [
+                "S"
+              ]
             }
           ]
         },
@@ -263,23 +352,37 @@
           "dishes": [
             {
               "name": "Mexíkósk kjúklingasúpa með cheddar osti, nachos og osti",
-              "desc": "(D)",
-              "tag": "SÚPA"
+              "desc": "",
+              "tag": "SÚPA",
+              "allergens": [
+                "D"
+              ]
             },
             {
               "name": "Lúða í Arizona marineringu ásamt krydduðum brauðteningum",
-              "desc": "með kirsuberjatómötum og sítrónu (G)",
-              "tag": "FISKUR"
+              "desc": "með kirsuberjatómötum og sítrónu",
+              "tag": "FISKUR",
+              "allergens": [
+                "G"
+              ]
             },
             {
               "name": "Þriggja osta rigatoni",
-              "desc": "með skinku, mozzarella, parmesan, cheddar ostasósu og kirsuberjatómatar (D) (G)",
-              "tag": "PASTA"
+              "desc": "með skinku, mozzarella, parmesan, cheddar ostasósu og kirsuberjatómatar",
+              "tag": "PASTA",
+              "allergens": [
+                "D",
+                "G"
+              ]
             },
             {
               "name": "Vegan Buddha-skál",
-              "desc": "með Delhi koftas, tahini dressingu, eggaldin, papriku og bulgursalati (S) (G)",
-              "tag": "VEGAN"
+              "desc": "með Delhi koftas, tahini dressingu, eggaldin, papriku og bulgursalati",
+              "tag": "VEGAN",
+              "allergens": [
+                "S",
+                "G"
+              ]
             }
           ]
         },
@@ -288,23 +391,38 @@
           "dishes": [
             {
               "name": "Rjómalöguð tómatsúpa",
-              "desc": "með basilíku (D)",
-              "tag": "SÚPA"
+              "desc": "með basilíku",
+              "tag": "SÚPA",
+              "allergens": [
+                "D"
+              ]
             },
             {
               "name": "Steik og bearnaise",
-              "desc": "nautafilé með bearnaisesósu, ristaður hvítlaukur og parmesan kartöflur (D) (E)",
-              "tag": "NAUTAKJÖT"
+              "desc": "nautafilé með bearnaisesósu, ristaður hvítlaukur og parmesan kartöflur",
+              "tag": "NAUTAKJÖT",
+              "allergens": [
+                "D",
+                "E"
+              ]
             },
             {
               "name": "Grænmetis kebabspjót",
-              "desc": "með marokkóskum kryddum, tómötum, flatri steinselju og gremolata (S)",
-              "tag": "VEGAN"
+              "desc": "með marokkóskum kryddum, tómötum, flatri steinselju og gremolata",
+              "tag": "VEGAN",
+              "allergens": [
+                "S"
+              ]
             },
             {
               "name": "Föstudags sætindi",
-              "desc": "Heitur og ljúffengur toffí búðingur með vanillubúðingi og karamellusósu (D) (G) (E)",
-              "tag": "KAKA"
+              "desc": "Heitur og ljúffengur toffí búðingur með vanillubúðingi og karamellusósu",
+              "tag": "KAKA",
+              "allergens": [
+                "D",
+                "G",
+                "E"
+              ]
             }
           ]
         }
