@@ -12,14 +12,12 @@
             {
               "name": "Sætkartöflu- og sítrónugrassúpa",
               "desc": "Kókosmjólk, engifer, lime og chili.",
-              "tag": "Súpa",
-              "tagGuess": true
+              "tag": "Súpa"
             },
             {
               "name": "Gigantes Plaki",
               "desc": "Stórar hvítar baunir bakaðar með tómötum, fenníku og oregano.",
               "tag": "",
-              "tagGuess": false,
               "info": {
                 "term": "Plaki",
                 "title": "Pilaki",
@@ -32,7 +30,6 @@
               "name": "Steinbítur Moqueca",
               "desc": "Brasilísk kókos- og tómatsósa, paprika, lime og hrísgrjón.",
               "tag": "Fiskur",
-              "tagGuess": true,
               "info": {
                 "term": "Moqueca",
                 "title": "Moqueca",
@@ -44,20 +41,17 @@
             {
               "name": "Kryddhrísgrjón",
               "desc": "Basmatihrísgrjón með túrmerik og cumin,",
-              "tag": "",
-              "tagGuess": false
+              "tag": ""
             },
             {
               "name": "Víetnamskt kjúklingakarrí – Cà Ri Gà",
               "desc": "Sítrónugras, kókosmjólk, sætar kartöflur og engifer",
-              "tag": "Kjúklingur",
-              "tagGuess": true
+              "tag": "Kjúklingur"
             },
             {
               "name": "Spergilkálsalat",
               "desc": "Spergilkál með ferskum kryddjurtum, sólblómafræjum og sítrónudressingu.",
-              "tag": "",
-              "tagGuess": false
+              "tag": ""
             }
           ]
         },
@@ -67,14 +61,12 @@
             {
               "name": "Tómat- og kínóasúpa",
               "desc": "Tómatar, kínóa, hvítlaukur, paprika og ferskar kryddjurtir.",
-              "tag": "Súpa",
-              "tagGuess": true
+              "tag": "Súpa"
             },
             {
               "name": "Gnocchi með ristuðum tómötum",
               "desc": "Kartöflugnocchi með tómötum, spínati, hvítlauk og basilolíu.",
               "tag": "",
-              "tagGuess": false,
               "info": {
                 "term": "Gnocchi",
                 "title": "Gnocchi",
@@ -86,14 +78,12 @@
             {
               "name": "Lasagne með hvítlauksbrauði",
               "desc": "Klassískt lasagne með nauta- og grísakjötsragú, béchamel, tómötum og osti.",
-              "tag": "Nautakjöt",
-              "tagGuess": true
+              "tag": "Nautakjöt"
             },
             {
               "name": "Perlucouscous og ristuð paprika",
               "desc": "Döðlur, kryddjurtir, appelsína og sólblómafræ.",
-              "tag": "",
-              "tagGuess": false
+              "tag": ""
             }
           ]
         },
@@ -103,26 +93,22 @@
             {
               "name": "Reykt papriku- og svartbaunasúpa",
               "desc": "Reykt paprika, tómatar, oregano og lime.",
-              "tag": "Súpa",
-              "tagGuess": true
+              "tag": "Súpa"
             },
             {
               "name": "Bakaðir jarðskokkar og sætar kartöflur",
               "desc": "Með granateplum, balsamik-tófúkremi og ferskum kryddjurtum.",
-              "tag": "",
-              "tagGuess": false
+              "tag": ""
             },
             {
               "name": "Lúða í saffran- og fenníkusoði",
               "desc": "Tómatar, ristað smælki, hvítlaukur og ferskar kryddjurtir.",
-              "tag": "Fiskur",
-              "tagGuess": true
+              "tag": "Fiskur"
             },
             {
               "name": "Kjúklingur Shawarma",
               "desc": "Shawarma-kryddaður kjúklingur með arabísku brauði, hvítlauksjógúrt og pikkluðum rauðlauk.",
               "tag": "Kjúklingur",
-              "tagGuess": true,
               "info": {
                 "term": "Shawarma",
                 "title": "Shawarma",
@@ -134,8 +120,7 @@
             {
               "name": "Rauðkál, epli og fenníka",
               "desc": "Dill, eplavinaigrette og ristuð sólblómafræ.",
-              "tag": "",
-              "tagGuess": false
+              "tag": ""
             }
           ]
         },
@@ -145,26 +130,22 @@
             {
               "name": "Rauðrófu-, epla- og piparrótarsúpa",
               "desc": "Piparótarrjómi dill og sólblómafræ.",
-              "tag": "Súpa",
-              "tagGuess": true
+              "tag": "Súpa"
             },
             {
               "name": "Sæt kartöflu og svartbauna-mole",
               "desc": "Sætar kartöflur, kakó, chili, hrísgrjón og graskersfræ.",
-              "tag": "",
-              "tagGuess": false
+              "tag": ""
             },
             {
               "name": "Lamb með rauðrófum og brómberjum",
               "desc": "Kryddbakað lamb, ristaðar rófur, svartur pipar, kartöflur og estragon.",
-              "tag": "Lambakjöt",
-              "tagGuess": true
+              "tag": "Lambakjöt"
             },
             {
               "name": "Eggaldin með chermoula",
               "desc": "Bakað eggaldin með kryddjurtakúskús, rúsínum, sítrónu og tahini.",
-              "tag": "",
-              "tagGuess": false
+              "tag": ""
             }
           ]
         },
@@ -174,20 +155,17 @@
             {
               "name": "Sellerírótar- og spínatsúpa",
               "desc": "Sellerírót, spínat, hvítlaukur, timjan og sítróna.",
-              "tag": "Súpa",
-              "tagGuess": true
+              "tag": "Súpa"
             },
             {
               "name": "Pizza al Taglio alla Romana",
               "desc": "Rómversk súrdeigspítsa bökuð á plötum, með marinara-sósu og fjölbreyttu ítölsku áleggi.",
-              "tag": "",
-              "tagGuess": false
+              "tag": ""
             },
             {
               "name": "Pastasalat",
               "desc": "Pasta með grænmeti, ferskum kryddjurtum og sítrónuvinaigrette.",
-              "tag": "",
-              "tagGuess": false
+              "tag": ""
             }
           ]
         }
