@@ -1,11 +1,11 @@
 {
- "generatedAt": "2026-09-01T10:09:21.867Z",
+ "generatedAt": "2026-09-02T09:39:52.427Z",
  "fantasy": {
   "name": "How's it Goink?",
   "gameweek": 2,
   "teamId": 6870928,
   "overallPoints": 126,
-  "overallRank": 5027070
+  "overallRank": 5238478
  },
  "season": "2026-27",
  "timezone": "Atlantic/Reykjavik",
@@ -647,7 +647,10 @@
      "note": null
     }
    },
-   "score": null,
+   "score": [
+    1,
+    4
+   ],
    "fpl": {
     "home": [],
     "away": [
@@ -693,7 +696,10 @@
      "note": null
     }
    },
-   "score": null,
+   "score": [
+    2,
+    2
+   ],
    "fpl": {
     "home": [
      {
@@ -746,7 +752,10 @@
      "note": null
     }
    },
-   "score": null,
+   "score": [
+    1,
+    1
+   ],
    "fpl": {
     "home": [
      {
@@ -799,7 +808,10 @@
      "note": null
     }
    },
-   "score": null,
+   "score": [
+    0,
+    1
+   ],
    "fpl": null,
    "espnId": "401879316",
    "alert": false
@@ -833,7 +845,10 @@
      "note": null
     }
    },
-   "score": null,
+   "score": [
+    0,
+    2
+   ],
    "fpl": null,
    "espnId": "401879312",
    "alert": false
@@ -867,7 +882,10 @@
      "note": null
     }
    },
-   "score": null,
+   "score": [
+    1,
+    0
+   ],
    "fpl": {
     "home": [
      {
@@ -921,7 +939,10 @@
      "note": null
     }
    },
-   "score": null,
+   "score": [
+    4,
+    3
+   ],
    "fpl": {
     "home": [
      {
@@ -989,7 +1010,10 @@
      "note": null
     }
    },
-   "score": null,
+   "score": [
+    1,
+    1
+   ],
    "fpl": {
     "home": [],
     "away": [
@@ -1039,7 +1063,10 @@
      "note": null
     }
    },
-   "score": null,
+   "score": [
+    5,
+    2
+   ],
    "fpl": null,
    "espnId": "401879293",
    "alert": true
@@ -1073,7 +1100,10 @@
      "note": null
     }
    },
-   "score": null,
+   "score": [
+    0,
+    1
+   ],
    "fpl": {
     "home": [
      {
@@ -3157,60 +3187,6 @@
    "alert": false
   },
   {
-   "id": "pl-matchday-5-man-city-sunderland",
-   "comp": "pl",
-   "round": "Matchday 5",
-   "date": "2026-09-19",
-   "time": "14:00",
-   "ukDate": "2026-09-19",
-   "ukTime": "15:00",
-   "kickoff": "2026-09-19T14:00:00.000Z",
-   "provisionalTime": false,
-   "home": "Man City",
-   "away": "Sunderland",
-   "homeFull": "Manchester City FC",
-   "awayFull": "Sunderland AFC",
-   "homeColour": "#6cabdd",
-   "awayColour": "#eb172b",
-   "highlight": null,
-   "channels": {
-    "is": {
-     "broadcaster": "syn",
-     "confidence": "rule",
-     "note": "Shown in Iceland. The 3pm Saturday blackout is a UK rule and does not apply here."
-    },
-    "uk": {
-     "broadcaster": "blackout",
-     "confidence": "rule",
-     "note": null
-    }
-   },
-   "score": null,
-   "fpl": {
-    "home": [
-     {
-      "name": "Haaland",
-      "position": "FWD",
-      "captain": true,
-      "vice": false,
-      "benched": false
-     }
-    ],
-    "away": [
-     {
-      "name": "Xhaka",
-      "position": "MID",
-      "captain": false,
-      "vice": false,
-      "benched": true
-     }
-    ],
-    "count": 2
-   },
-   "espnId": "401879272",
-   "alert": false
-  },
-  {
    "id": "pl-matchday-5-nott-m-forest-coventry",
    "comp": "pl",
    "round": "Matchday 5",
@@ -3310,6 +3286,60 @@
     "count": 4
    },
    "espnId": "401879276",
+   "alert": false
+  },
+  {
+   "id": "pl-matchday-5-man-city-sunderland",
+   "comp": "pl",
+   "round": "Matchday 5",
+   "date": "2026-09-20",
+   "time": "13:00",
+   "ukDate": "2026-09-20",
+   "ukTime": "14:00",
+   "kickoff": "2026-09-20T13:00:00.000Z",
+   "provisionalTime": false,
+   "home": "Man City",
+   "away": "Sunderland",
+   "homeFull": "Manchester City FC",
+   "awayFull": "Sunderland AFC",
+   "homeColour": "#6cabdd",
+   "awayColour": "#eb172b",
+   "highlight": null,
+   "channels": {
+    "is": {
+     "broadcaster": "syn",
+     "confidence": "rule",
+     "note": null
+    },
+    "uk": {
+     "broadcaster": "sky",
+     "confidence": "slot",
+     "note": null
+    }
+   },
+   "score": null,
+   "fpl": {
+    "home": [
+     {
+      "name": "Haaland",
+      "position": "FWD",
+      "captain": true,
+      "vice": false,
+      "benched": false
+     }
+    ],
+    "away": [
+     {
+      "name": "Xhaka",
+      "position": "MID",
+      "captain": false,
+      "vice": false,
+      "benched": true
+     }
+    ],
+    "count": 2
+   },
+   "espnId": "401879272",
    "alert": false
   },
   {
