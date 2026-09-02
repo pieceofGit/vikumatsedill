@@ -1,5 +1,5 @@
 {
-  "generatedAt": "31. ágúst 2026",
+  "generatedAt": "2. september 2026",
   "places": [
     {
       "name": "Róót",
@@ -11,11 +11,15 @@
           "dishes": [
             {
               "name": "Sætkartöflu- og sítrónugrassúpa",
-              "desc": "Kókosmjólk, engifer, lime og chili."
+              "desc": "Kókosmjólk, engifer, lime og chili.",
+              "tag": "Súpa",
+              "tagGuess": true
             },
             {
               "name": "Gigantes Plaki",
               "desc": "Stórar hvítar baunir bakaðar með tómötum, fenníku og oregano.",
+              "tag": "",
+              "tagGuess": false,
               "info": {
                 "term": "Plaki",
                 "title": "Pilaki",
@@ -27,6 +31,8 @@
             {
               "name": "Steinbítur Moqueca",
               "desc": "Brasilísk kókos- og tómatsósa, paprika, lime og hrísgrjón.",
+              "tag": "Fiskur",
+              "tagGuess": true,
               "info": {
                 "term": "Moqueca",
                 "title": "Moqueca",
@@ -37,15 +43,21 @@
             },
             {
               "name": "Kryddhrísgrjón",
-              "desc": "Basmatihrísgrjón með túrmerik og cumin,"
+              "desc": "Basmatihrísgrjón með túrmerik og cumin,",
+              "tag": "",
+              "tagGuess": false
             },
             {
               "name": "Víetnamskt kjúklingakarrí – Cà Ri Gà",
-              "desc": "Sítrónugras, kókosmjólk, sætar kartöflur og engifer"
+              "desc": "Sítrónugras, kókosmjólk, sætar kartöflur og engifer",
+              "tag": "Kjúklingur",
+              "tagGuess": true
             },
             {
               "name": "Spergilkálsalat",
-              "desc": "Spergilkál með ferskum kryddjurtum, sólblómafræjum og sítrónudressingu."
+              "desc": "Spergilkál með ferskum kryddjurtum, sólblómafræjum og sítrónudressingu.",
+              "tag": "",
+              "tagGuess": false
             }
           ]
         },
@@ -54,11 +66,15 @@
           "dishes": [
             {
               "name": "Tómat- og kínóasúpa",
-              "desc": "Tómatar, kínóa, hvítlaukur, paprika og ferskar kryddjurtir."
+              "desc": "Tómatar, kínóa, hvítlaukur, paprika og ferskar kryddjurtir.",
+              "tag": "Súpa",
+              "tagGuess": true
             },
             {
               "name": "Gnocchi með ristuðum tómötum",
               "desc": "Kartöflugnocchi með tómötum, spínati, hvítlauk og basilolíu.",
+              "tag": "",
+              "tagGuess": false,
               "info": {
                 "term": "Gnocchi",
                 "title": "Gnocchi",
@@ -69,11 +85,15 @@
             },
             {
               "name": "Lasagne með hvítlauksbrauði",
-              "desc": "Klassískt lasagne með nauta- og grísakjötsragú, béchamel, tómötum og osti."
+              "desc": "Klassískt lasagne með nauta- og grísakjötsragú, béchamel, tómötum og osti.",
+              "tag": "Nautakjöt",
+              "tagGuess": true
             },
             {
               "name": "Perlucouscous og ristuð paprika",
-              "desc": "Döðlur, kryddjurtir, appelsína og sólblómafræ."
+              "desc": "Döðlur, kryddjurtir, appelsína og sólblómafræ.",
+              "tag": "",
+              "tagGuess": false
             }
           ]
         },
@@ -82,19 +102,27 @@
           "dishes": [
             {
               "name": "Reykt papriku- og svartbaunasúpa",
-              "desc": "Reykt paprika, tómatar, oregano og lime."
+              "desc": "Reykt paprika, tómatar, oregano og lime.",
+              "tag": "Súpa",
+              "tagGuess": true
             },
             {
               "name": "Bakaðir jarðskokkar og sætar kartöflur",
-              "desc": "Með granateplum, balsamik-tófúkremi og ferskum kryddjurtum."
+              "desc": "Með granateplum, balsamik-tófúkremi og ferskum kryddjurtum.",
+              "tag": "",
+              "tagGuess": false
             },
             {
               "name": "Lúða í saffran- og fenníkusoði",
-              "desc": "Tómatar, ristað smælki, hvítlaukur og ferskar kryddjurtir."
+              "desc": "Tómatar, ristað smælki, hvítlaukur og ferskar kryddjurtir.",
+              "tag": "Fiskur",
+              "tagGuess": true
             },
             {
               "name": "Kjúklingur Shawarma",
               "desc": "Shawarma-kryddaður kjúklingur með arabísku brauði, hvítlauksjógúrt og pikkluðum rauðlauk.",
+              "tag": "Kjúklingur",
+              "tagGuess": true,
               "info": {
                 "term": "Shawarma",
                 "title": "Shawarma",
@@ -105,7 +133,9 @@
             },
             {
               "name": "Rauðkál, epli og fenníka",
-              "desc": "Dill, eplavinaigrette og ristuð sólblómafræ."
+              "desc": "Dill, eplavinaigrette og ristuð sólblómafræ.",
+              "tag": "",
+              "tagGuess": false
             }
           ]
         },
@@ -114,19 +144,27 @@
           "dishes": [
             {
               "name": "Rauðrófu-, epla- og piparrótarsúpa",
-              "desc": "Piparótarrjómi dill og sólblómafræ."
+              "desc": "Piparótarrjómi dill og sólblómafræ.",
+              "tag": "Súpa",
+              "tagGuess": true
             },
             {
               "name": "Sæt kartöflu og svartbauna-mole",
-              "desc": "Sætar kartöflur, kakó, chili, hrísgrjón og graskersfræ."
+              "desc": "Sætar kartöflur, kakó, chili, hrísgrjón og graskersfræ.",
+              "tag": "",
+              "tagGuess": false
             },
             {
               "name": "Lamb með rauðrófum og brómberjum",
-              "desc": "Kryddbakað lamb, ristaðar rófur, svartur pipar, kartöflur og estragon."
+              "desc": "Kryddbakað lamb, ristaðar rófur, svartur pipar, kartöflur og estragon.",
+              "tag": "Lambakjöt",
+              "tagGuess": true
             },
             {
               "name": "Eggaldin með chermoula",
-              "desc": "Bakað eggaldin með kryddjurtakúskús, rúsínum, sítrónu og tahini."
+              "desc": "Bakað eggaldin með kryddjurtakúskús, rúsínum, sítrónu og tahini.",
+              "tag": "",
+              "tagGuess": false
             }
           ]
         },
@@ -135,15 +173,21 @@
           "dishes": [
             {
               "name": "Sellerírótar- og spínatsúpa",
-              "desc": "Sellerírót, spínat, hvítlaukur, timjan og sítróna."
+              "desc": "Sellerírót, spínat, hvítlaukur, timjan og sítróna.",
+              "tag": "Súpa",
+              "tagGuess": true
             },
             {
               "name": "Pizza al Taglio alla Romana",
-              "desc": "Rómversk súrdeigspítsa bökuð á plötum, með marinara-sósu og fjölbreyttu ítölsku áleggi."
+              "desc": "Rómversk súrdeigspítsa bökuð á plötum, með marinara-sósu og fjölbreyttu ítölsku áleggi.",
+              "tag": "",
+              "tagGuess": false
             },
             {
               "name": "Pastasalat",
-              "desc": "Pasta með grænmeti, ferskum kryddjurtum og sítrónuvinaigrette."
+              "desc": "Pasta með grænmeti, ferskum kryddjurtum og sítrónuvinaigrette.",
+              "tag": "",
+              "tagGuess": false
             }
           ]
         }
@@ -159,19 +203,23 @@
           "dishes": [
             {
               "name": "Rjómalöguð tortellini súpa",
-              "desc": "með sítrónu (D) (G)"
+              "desc": "með sítrónu (D) (G)",
+              "tag": "SÚPA"
             },
             {
               "name": "Heimalagaður Plokkfiskur",
-              "desc": "með rúgbrauði og smjöri, bearnaise sósu og piparosti (D) (G) (E)"
+              "desc": "með rúgbrauði og smjöri, bearnaise sósu og piparosti (D) (G) (E)",
+              "tag": "FISKUR"
             },
             {
               "name": "Hjónabands kjúklingabringur",
-              "desc": "með rjómakenndri sósu frá Toskana, sólþurrkuðum tómötum, parmesanosti og ferskri basiliku (D)"
+              "desc": "með rjómakenndri sósu frá Toskana, sólþurrkuðum tómötum, parmesanosti og ferskri basiliku (D)",
+              "tag": "KJÚKLINGUR"
             },
             {
               "name": "Spaghetti alfredo",
-              "desc": "með ristuðum valhnetum og villisveppasósu (Hn) (G)"
+              "desc": "með ristuðum valhnetum og villisveppasósu (Hn) (G)",
+              "tag": "VEGAN"
             }
           ]
         },
@@ -180,19 +228,23 @@
           "dishes": [
             {
               "name": "Rjómalöguð aspassúpa með osta-brauðteningum",
-              "desc": "(D) (G)"
+              "desc": "(D) (G)",
+              "tag": "SÚPA"
             },
             {
               "name": "Firecracker lax",
-              "desc": "með engifer, hunangs og chiligljáa, með vorlauk og mangó salsa (S)"
+              "desc": "með engifer, hunangs og chiligljáa, með vorlauk og mangó salsa (S)",
+              "tag": "FISKUR"
             },
             {
               "name": "Klassískt kjöt lasagna",
-              "desc": "með cheddar og piparosti, parmesan og pestó (D) (G) (E)"
+              "desc": "með cheddar og piparosti, parmesan og pestó (D) (G) (E)",
+              "tag": "PASTA"
             },
             {
               "name": "Satay tofu stir fry",
               "desc": "með brokkolí, gulrótum og hnetum, sesam sósu og sesam fræjum (S) (Hn)",
+              "tag": "VEGAN",
               "info": {
                 "term": "Satay",
                 "title": "Satay",
@@ -208,19 +260,23 @@
           "dishes": [
             {
               "name": "Rjómalöguð sveppasúpa",
-              "desc": "með trufflum (D)"
+              "desc": "með trufflum (D)",
+              "tag": "SÚPA"
             },
             {
               "name": "Indverskur tandoori kjúklingur",
-              "desc": "með tandoori sósu, hrísgrjónum og naanbrauði (D) (G)"
+              "desc": "með tandoori sósu, hrísgrjónum og naanbrauði (D) (G)",
+              "tag": "KJÚKLINGUR"
             },
             {
               "name": "Kjötbollur í brúnni sósu",
-              "desc": ",grænum baunum, pikklað hvítkál, kartöflumús og rabbabarasulta (D) (G) (E)"
+              "desc": ",grænum baunum, pikklað hvítkál, kartöflumús og rabbabarasulta (D) (G) (E)",
+              "tag": "NAUTAKJÖT"
             },
             {
               "name": "Bang bang blómkál",
-              "desc": "með sesamfræjum og sætum chili (S)"
+              "desc": "með sesamfræjum og sætum chili (S)",
+              "tag": "VEGAN"
             }
           ]
         },
@@ -229,19 +285,23 @@
           "dishes": [
             {
               "name": "Mexíkósk kjúklingasúpa með cheddar osti, nachos og osti",
-              "desc": "(D)"
+              "desc": "(D)",
+              "tag": "SÚPA"
             },
             {
               "name": "Lúða í Arizona marineringu ásamt krydduðum brauðteningum",
-              "desc": "með kirsuberjatómötum og sítrónu (G)"
+              "desc": "með kirsuberjatómötum og sítrónu (G)",
+              "tag": "FISKUR"
             },
             {
               "name": "Þriggja osta rigatoni",
-              "desc": "með skinku, mozzarella, parmesan, cheddar ostasósu og kirsuberjatómatar (D) (G)"
+              "desc": "með skinku, mozzarella, parmesan, cheddar ostasósu og kirsuberjatómatar (D) (G)",
+              "tag": "PASTA"
             },
             {
               "name": "Vegan Buddha-skál",
-              "desc": "með Delhi koftas, tahini dressingu, eggaldin, papriku og bulgursalati (S) (G)"
+              "desc": "með Delhi koftas, tahini dressingu, eggaldin, papriku og bulgursalati (S) (G)",
+              "tag": "VEGAN"
             }
           ]
         },
@@ -250,19 +310,23 @@
           "dishes": [
             {
               "name": "Rjómalöguð tómatsúpa",
-              "desc": "með basilíku (D)"
+              "desc": "með basilíku (D)",
+              "tag": "SÚPA"
             },
             {
               "name": "Steik og bearnaise",
-              "desc": "nautafilé með bearnaisesósu, ristaður hvítlaukur og parmesan kartöflur (D) (E)"
+              "desc": "nautafilé með bearnaisesósu, ristaður hvítlaukur og parmesan kartöflur (D) (E)",
+              "tag": "NAUTAKJÖT"
             },
             {
               "name": "Grænmetis kebabspjót",
-              "desc": "með marokkóskum kryddum, tómötum, flatri steinselju og gremolata (S)"
+              "desc": "með marokkóskum kryddum, tómötum, flatri steinselju og gremolata (S)",
+              "tag": "VEGAN"
             },
             {
               "name": "Föstudags sætindi",
-              "desc": "Heitur og ljúffengur toffí búðingur með vanillubúðingi og karamellusósu (D) (G) (E)"
+              "desc": "Heitur og ljúffengur toffí búðingur með vanillubúðingi og karamellusósu (D) (G) (E)",
+              "tag": "KAKA"
             }
           ]
         }
