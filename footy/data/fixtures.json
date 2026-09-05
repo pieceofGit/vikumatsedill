@@ -1,11 +1,11 @@
 {
- "generatedAt": "2026-09-04T09:41:19.544Z",
+ "generatedAt": "2026-09-05T09:07:00.296Z",
  "fantasy": {
   "name": "How's it Goink?",
-  "gameweek": 2,
+  "gameweek": 3,
   "teamId": 6870928,
-  "overallPoints": 126,
-  "overallRank": 5238478
+  "overallPoints": 150,
+  "overallRank": 2734732
  },
  "season": "2026-27",
  "timezone": "Atlantic/Reykjavik",
@@ -133,15 +133,15 @@
    "fpl": {
     "home": [
      {
-      "name": "Calafiori",
-      "position": "DEF",
+      "name": "Raya",
+      "position": "GKP",
       "captain": false,
       "vice": false,
       "benched": false
      },
      {
-      "name": "Rice",
-      "position": "MID",
+      "name": "Calafiori",
+      "position": "DEF",
       "captain": false,
       "vice": false,
       "benched": false
@@ -190,7 +190,19 @@
     2,
     0
    ],
-   "fpl": null,
+   "fpl": {
+    "home": [
+     {
+      "name": "Ajayi",
+      "position": "DEF",
+      "captain": false,
+      "vice": false,
+      "benched": true
+     }
+    ],
+    "away": [],
+    "count": 1
+   },
    "espnId": "401879322",
    "alert": true
   },
@@ -360,8 +372,16 @@
       "benched": false
      }
     ],
-    "away": [],
-    "count": 1
+    "away": [
+     {
+      "name": "Dubravka",
+      "position": "GKP",
+      "captain": false,
+      "vice": false,
+      "benched": true
+     }
+    ],
+    "count": 2
    },
    "espnId": "401879321",
    "alert": false
@@ -402,6 +422,20 @@
    "fpl": {
     "home": [
      {
+      "name": "Gvardiol",
+      "position": "DEF",
+      "captain": false,
+      "vice": false,
+      "benched": false
+     },
+     {
+      "name": "Cherki",
+      "position": "MID",
+      "captain": false,
+      "vice": true,
+      "benched": false
+     },
+     {
       "name": "Haaland",
       "position": "FWD",
       "captain": true,
@@ -409,22 +443,7 @@
       "benched": false
      }
     ],
-    "away": [
-     {
-      "name": "Petrović",
-      "position": "GKP",
-      "captain": false,
-      "vice": true,
-      "benched": false
-     },
-     {
-      "name": "Rayan",
-      "position": "MID",
-      "captain": false,
-      "vice": false,
-      "benched": false
-     }
-    ],
+    "away": [],
     "count": 3
    },
    "espnId": "401879320",
@@ -471,25 +490,10 @@
       "captain": false,
       "vice": false,
       "benched": false
-     },
-     {
-      "name": "F.Kadıoğlu",
-      "position": "DEF",
-      "captain": false,
-      "vice": false,
-      "benched": true
      }
     ],
-    "away": [
-     {
-      "name": "Cash",
-      "position": "DEF",
-      "captain": false,
-      "vice": false,
-      "benched": true
-     }
-    ],
-    "count": 3
+    "away": [],
+    "count": 1
    },
    "espnId": "401879297",
    "alert": false
@@ -528,11 +532,19 @@
     2
    ],
    "fpl": {
-    "home": [],
+    "home": [
+     {
+      "name": "Hall",
+      "position": "DEF",
+      "captain": false,
+      "vice": false,
+      "benched": false
+     }
+    ],
     "away": [
      {
-      "name": "Virgil",
-      "position": "DEF",
+      "name": "Gakpo",
+      "position": "MID",
       "captain": false,
       "vice": false,
       "benched": false
@@ -545,7 +557,7 @@
       "benched": false
      }
     ],
-    "count": 2
+    "count": 3
    },
    "espnId": "401879319",
    "alert": false
@@ -588,15 +600,7 @@
     3
    ],
    "fpl": {
-    "home": [
-     {
-      "name": "Leno",
-      "position": "GKP",
-      "captain": false,
-      "vice": false,
-      "benched": true
-     }
-    ],
+    "home": [],
     "away": [
      {
       "name": "Rogers",
@@ -610,10 +614,10 @@
       "position": "FWD",
       "captain": false,
       "vice": false,
-      "benched": false
+      "benched": true
      }
     ],
-    "count": 3
+    "count": 2
    },
    "espnId": "401879318",
    "alert": true
@@ -655,6 +659,20 @@
     "home": [],
     "away": [
      {
+      "name": "Gvardiol",
+      "position": "DEF",
+      "captain": false,
+      "vice": false,
+      "benched": false
+     },
+     {
+      "name": "Cherki",
+      "position": "MID",
+      "captain": false,
+      "vice": true,
+      "benched": false
+     },
+     {
       "name": "Haaland",
       "position": "FWD",
       "captain": true,
@@ -662,7 +680,7 @@
       "benched": false
      }
     ],
-    "count": 1
+    "count": 3
    },
    "espnId": "401879294",
    "alert": false
@@ -703,8 +721,8 @@
    "fpl": {
     "home": [
      {
-      "name": "Virgil",
-      "position": "DEF",
+      "name": "Gakpo",
+      "position": "MID",
       "captain": false,
       "vice": false,
       "benched": false
@@ -756,26 +774,7 @@
     1,
     1
    ],
-   "fpl": {
-    "home": [
-     {
-      "name": "Petrović",
-      "position": "GKP",
-      "captain": false,
-      "vice": true,
-      "benched": false
-     },
-     {
-      "name": "Rayan",
-      "position": "MID",
-      "captain": false,
-      "vice": false,
-      "benched": false
-     }
-    ],
-    "away": [],
-    "count": 2
-   },
+   "fpl": null,
    "espnId": "401879296",
    "alert": false
   },
@@ -812,7 +811,19 @@
     0,
     1
    ],
-   "fpl": null,
+   "fpl": {
+    "home": [],
+    "away": [
+     {
+      "name": "Ajayi",
+      "position": "DEF",
+      "captain": false,
+      "vice": false,
+      "benched": true
+     }
+    ],
+    "count": 1
+   },
    "espnId": "401879316",
    "alert": false
   },
@@ -849,7 +860,27 @@
     0,
     2
    ],
-   "fpl": null,
+   "fpl": {
+    "home": [
+     {
+      "name": "Dubravka",
+      "position": "GKP",
+      "captain": false,
+      "vice": false,
+      "benched": true
+     }
+    ],
+    "away": [
+     {
+      "name": "Hall",
+      "position": "DEF",
+      "captain": false,
+      "vice": false,
+      "benched": false
+     }
+    ],
+    "count": 2
+   },
    "espnId": "401879312",
    "alert": false
   },
@@ -896,16 +927,8 @@
       "benched": true
      }
     ],
-    "away": [
-     {
-      "name": "Leno",
-      "position": "GKP",
-      "captain": false,
-      "vice": false,
-      "benched": true
-     }
-    ],
-    "count": 2
+    "away": [],
+    "count": 1
    },
    "espnId": "401879313",
    "alert": false
@@ -957,7 +980,7 @@
       "position": "FWD",
       "captain": false,
       "vice": false,
-      "benched": false
+      "benched": true
      }
     ],
     "away": [
@@ -967,16 +990,9 @@
       "captain": false,
       "vice": false,
       "benched": false
-     },
-     {
-      "name": "F.Kadıoğlu",
-      "position": "DEF",
-      "captain": false,
-      "vice": false,
-      "benched": true
      }
     ],
-    "count": 4
+    "count": 3
    },
    "espnId": "401879317",
    "alert": false
@@ -1105,32 +1121,24 @@
     1
    ],
    "fpl": {
-    "home": [
+    "home": [],
+    "away": [
      {
-      "name": "Cash",
-      "position": "DEF",
+      "name": "Raya",
+      "position": "GKP",
       "captain": false,
       "vice": false,
-      "benched": true
-     }
-    ],
-    "away": [
+      "benched": false
+     },
      {
       "name": "Calafiori",
       "position": "DEF",
       "captain": false,
       "vice": false,
       "benched": false
-     },
-     {
-      "name": "Rice",
-      "position": "MID",
-      "captain": false,
-      "vice": false,
-      "benched": false
      }
     ],
-    "count": 3
+    "count": 2
    },
    "espnId": "401879295",
    "alert": false
@@ -1169,8 +1177,8 @@
     "home": [],
     "away": [
      {
-      "name": "Virgil",
-      "position": "DEF",
+      "name": "Gakpo",
+      "position": "MID",
       "captain": false,
       "vice": false,
       "benched": false
@@ -1219,24 +1227,17 @@
    },
    "score": null,
    "fpl": {
-    "home": [],
-    "away": [
+    "home": [
      {
-      "name": "Petrović",
-      "position": "GKP",
-      "captain": false,
-      "vice": true,
-      "benched": false
-     },
-     {
-      "name": "Rayan",
-      "position": "MID",
+      "name": "Hall",
+      "position": "DEF",
       "captain": false,
       "vice": false,
       "benched": false
      }
     ],
-    "count": 2
+    "away": [],
+    "count": 1
    },
    "espnId": "401879286",
    "alert": false
@@ -1271,7 +1272,19 @@
     }
    },
    "score": null,
-   "fpl": null,
+   "fpl": {
+    "home": [],
+    "away": [
+     {
+      "name": "Dubravka",
+      "position": "GKP",
+      "captain": false,
+      "vice": false,
+      "benched": true
+     }
+    ],
+    "count": 1
+   },
    "espnId": "401878780",
    "alert": false
   },
@@ -1308,6 +1321,20 @@
    "fpl": {
     "home": [
      {
+      "name": "Gvardiol",
+      "position": "DEF",
+      "captain": false,
+      "vice": false,
+      "benched": false
+     },
+     {
+      "name": "Cherki",
+      "position": "MID",
+      "captain": false,
+      "vice": true,
+      "benched": false
+     },
+     {
       "name": "Haaland",
       "position": "FWD",
       "captain": true,
@@ -1316,7 +1343,7 @@
      }
     ],
     "away": [],
-    "count": 1
+    "count": 3
    },
    "espnId": "401879287",
    "alert": false
@@ -1359,17 +1386,10 @@
       "captain": false,
       "vice": false,
       "benched": false
-     },
-     {
-      "name": "F.Kadıoğlu",
-      "position": "DEF",
-      "captain": false,
-      "vice": false,
-      "benched": true
      }
     ],
     "away": [],
-    "count": 2
+    "count": 1
    },
    "espnId": "401879290",
    "alert": false
@@ -1458,19 +1478,7 @@
     }
    },
    "score": null,
-   "fpl": {
-    "home": [
-     {
-      "name": "Leno",
-      "position": "GKP",
-      "captain": false,
-      "vice": false,
-      "benched": true
-     }
-    ],
-    "away": [],
-    "count": 1
-   },
+   "fpl": null,
    "espnId": "401879289",
    "alert": false
   },
@@ -1505,16 +1513,16 @@
    },
    "score": null,
    "fpl": {
-    "home": [],
-    "away": [
+    "home": [
      {
-      "name": "Cash",
+      "name": "Ajayi",
       "position": "DEF",
       "captain": false,
       "vice": false,
       "benched": true
      }
     ],
+    "away": [],
     "count": 1
    },
    "espnId": "401878781",
@@ -1595,15 +1603,15 @@
    "fpl": {
     "home": [
      {
-      "name": "Calafiori",
-      "position": "DEF",
+      "name": "Raya",
+      "position": "GKP",
       "captain": false,
       "vice": false,
       "benched": false
      },
      {
-      "name": "Rice",
-      "position": "MID",
+      "name": "Calafiori",
+      "position": "DEF",
       "captain": false,
       "vice": false,
       "benched": false
@@ -1622,7 +1630,7 @@
       "position": "FWD",
       "captain": false,
       "vice": false,
-      "benched": false
+      "benched": true
      }
     ],
     "count": 4
@@ -1705,19 +1713,7 @@
     }
    },
    "score": null,
-   "fpl": {
-    "home": [],
-    "away": [
-     {
-      "name": "Cash",
-      "position": "DEF",
-      "captain": false,
-      "vice": false,
-      "benched": true
-     }
-    ],
-    "count": 1
-   },
+   "fpl": null,
    "alert": false
   },
   {
@@ -1803,6 +1799,20 @@
     "home": [],
     "away": [
      {
+      "name": "Gvardiol",
+      "position": "DEF",
+      "captain": false,
+      "vice": false,
+      "benched": false
+     },
+     {
+      "name": "Cherki",
+      "position": "MID",
+      "captain": false,
+      "vice": true,
+      "benched": false
+     },
+     {
       "name": "Haaland",
       "position": "FWD",
       "captain": true,
@@ -1810,7 +1820,7 @@
       "benched": false
      }
     ],
-    "count": 1
+    "count": 3
    },
    "alert": true
   },
@@ -2017,8 +2027,8 @@
    "fpl": {
     "home": [
      {
-      "name": "Virgil",
-      "position": "DEF",
+      "name": "Gakpo",
+      "position": "MID",
       "captain": false,
       "vice": false,
       "benched": false
@@ -2080,15 +2090,15 @@
     "home": [],
     "away": [
      {
-      "name": "Calafiori",
-      "position": "DEF",
+      "name": "Raya",
+      "position": "GKP",
       "captain": false,
       "vice": false,
       "benched": false
      },
      {
-      "name": "Rice",
-      "position": "MID",
+      "name": "Calafiori",
+      "position": "DEF",
       "captain": false,
       "vice": false,
       "benched": false
@@ -2485,8 +2495,8 @@
    "fpl": {
     "home": [
      {
-      "name": "Virgil",
-      "position": "DEF",
+      "name": "Gakpo",
+      "position": "MID",
       "captain": false,
       "vice": false,
       "benched": false
@@ -2499,16 +2509,8 @@
       "benched": false
      }
     ],
-    "away": [
-     {
-      "name": "Leno",
-      "position": "GKP",
-      "captain": false,
-      "vice": false,
-      "benched": true
-     }
-    ],
-    "count": 3
+    "away": [],
+    "count": 2
    },
    "espnId": "401879279",
    "alert": false
@@ -2543,19 +2545,7 @@
     }
    },
    "score": null,
-   "fpl": {
-    "home": [
-     {
-      "name": "Cash",
-      "position": "DEF",
-      "captain": false,
-      "vice": false,
-      "benched": true
-     }
-    ],
-    "away": [],
-    "count": 1
-   },
+   "fpl": null,
    "espnId": "401879284",
    "alert": false
   },
@@ -2590,22 +2580,7 @@
    },
    "score": null,
    "fpl": {
-    "home": [
-     {
-      "name": "Petrović",
-      "position": "GKP",
-      "captain": false,
-      "vice": true,
-      "benched": false
-     },
-     {
-      "name": "Rayan",
-      "position": "MID",
-      "captain": false,
-      "vice": false,
-      "benched": false
-     }
-    ],
+    "home": [],
     "away": [
      {
       "name": "M.Sangaré",
@@ -2615,7 +2590,7 @@
       "benched": false
      }
     ],
-    "count": 3
+    "count": 1
    },
    "espnId": "401879285",
    "alert": false
@@ -2664,11 +2639,19 @@
       "position": "FWD",
       "captain": false,
       "vice": false,
-      "benched": false
+      "benched": true
      }
     ],
-    "away": [],
-    "count": 2
+    "away": [
+     {
+      "name": "Ajayi",
+      "position": "DEF",
+      "captain": false,
+      "vice": false,
+      "benched": true
+     }
+    ],
+    "count": 3
    },
    "espnId": "401879283",
    "alert": false
@@ -2703,7 +2686,19 @@
     }
    },
    "score": null,
-   "fpl": null,
+   "fpl": {
+    "home": [
+     {
+      "name": "Dubravka",
+      "position": "GKP",
+      "captain": false,
+      "vice": false,
+      "benched": true
+     }
+    ],
+    "away": [],
+    "count": 1
+   },
    "espnId": "401879277",
    "alert": false
   },
@@ -2749,15 +2744,15 @@
     ],
     "away": [
      {
-      "name": "Calafiori",
-      "position": "DEF",
+      "name": "Raya",
+      "position": "GKP",
       "captain": false,
       "vice": false,
       "benched": false
      },
      {
-      "name": "Rice",
-      "position": "MID",
+      "name": "Calafiori",
+      "position": "DEF",
       "captain": false,
       "vice": false,
       "benched": false
@@ -2807,16 +2802,9 @@
       "captain": false,
       "vice": false,
       "benched": false
-     },
-     {
-      "name": "F.Kadıoğlu",
-      "position": "DEF",
-      "captain": false,
-      "vice": false,
-      "benched": true
      }
     ],
-    "count": 2
+    "count": 1
    },
    "espnId": "401879282",
    "alert": false
@@ -2859,6 +2847,20 @@
     "home": [],
     "away": [
      {
+      "name": "Gvardiol",
+      "position": "DEF",
+      "captain": false,
+      "vice": false,
+      "benched": false
+     },
+     {
+      "name": "Cherki",
+      "position": "MID",
+      "captain": false,
+      "vice": true,
+      "benched": false
+     },
+     {
       "name": "Haaland",
       "position": "FWD",
       "captain": true,
@@ -2866,7 +2868,7 @@
       "benched": false
      }
     ],
-    "count": 1
+    "count": 3
    },
    "espnId": "401879278",
    "alert": true
@@ -2901,7 +2903,19 @@
     }
    },
    "score": null,
-   "fpl": null,
+   "fpl": {
+    "home": [],
+    "away": [
+     {
+      "name": "Hall",
+      "position": "DEF",
+      "captain": false,
+      "vice": false,
+      "benched": false
+     }
+    ],
+    "count": 1
+   },
    "espnId": "401879280",
    "alert": false
   },
@@ -2962,7 +2976,7 @@
       "position": "FWD",
       "captain": false,
       "vice": false,
-      "benched": false
+      "benched": true
      }
     ],
     "count": 3
@@ -3001,16 +3015,16 @@
    },
    "score": null,
    "fpl": {
-    "home": [],
-    "away": [
+    "home": [
      {
-      "name": "Cash",
-      "position": "DEF",
+      "name": "Dubravka",
+      "position": "GKP",
       "captain": false,
       "vice": false,
       "benched": true
      }
     ],
+    "away": [],
     "count": 1
    },
    "espnId": "401879269",
@@ -3122,32 +3136,25 @@
       "captain": false,
       "vice": false,
       "benched": false
-     },
-     {
-      "name": "F.Kadıoğlu",
-      "position": "DEF",
-      "captain": false,
-      "vice": false,
-      "benched": true
      }
     ],
     "away": [
+     {
+      "name": "Raya",
+      "position": "GKP",
+      "captain": false,
+      "vice": false,
+      "benched": false
+     },
      {
       "name": "Calafiori",
       "position": "DEF",
       "captain": false,
       "vice": false,
       "benched": false
-     },
-     {
-      "name": "Rice",
-      "position": "MID",
-      "captain": false,
-      "vice": false,
-      "benched": false
      }
     ],
-    "count": 4
+    "count": 3
    },
    "espnId": "401879274",
    "alert": false
@@ -3182,7 +3189,27 @@
     }
    },
    "score": null,
-   "fpl": null,
+   "fpl": {
+    "home": [
+     {
+      "name": "Hall",
+      "position": "DEF",
+      "captain": false,
+      "vice": false,
+      "benched": false
+     }
+    ],
+    "away": [
+     {
+      "name": "Ajayi",
+      "position": "DEF",
+      "captain": false,
+      "vice": false,
+      "benched": true
+     }
+    ],
+    "count": 2
+   },
    "espnId": "401879271",
    "alert": false
   },
@@ -3251,26 +3278,11 @@
    },
    "score": null,
    "fpl": {
-    "home": [
-     {
-      "name": "Petrović",
-      "position": "GKP",
-      "captain": false,
-      "vice": true,
-      "benched": false
-     },
-     {
-      "name": "Rayan",
-      "position": "MID",
-      "captain": false,
-      "vice": false,
-      "benched": false
-     }
-    ],
+    "home": [],
     "away": [
      {
-      "name": "Virgil",
-      "position": "DEF",
+      "name": "Gakpo",
+      "position": "MID",
       "captain": false,
       "vice": false,
       "benched": false
@@ -3283,7 +3295,7 @@
       "benched": false
      }
     ],
-    "count": 4
+    "count": 2
    },
    "espnId": "401879276",
    "alert": false
@@ -3321,6 +3333,20 @@
    "fpl": {
     "home": [
      {
+      "name": "Gvardiol",
+      "position": "DEF",
+      "captain": false,
+      "vice": false,
+      "benched": false
+     },
+     {
+      "name": "Cherki",
+      "position": "MID",
+      "captain": false,
+      "vice": true,
+      "benched": false
+     },
+     {
       "name": "Haaland",
       "position": "FWD",
       "captain": true,
@@ -3337,7 +3363,7 @@
       "benched": true
      }
     ],
-    "count": 2
+    "count": 4
    },
    "espnId": "401879272",
    "alert": false
@@ -3376,19 +3402,7 @@
     }
    },
    "score": null,
-   "fpl": {
-    "home": [
-     {
-      "name": "Leno",
-      "position": "GKP",
-      "captain": false,
-      "vice": false,
-      "benched": true
-     }
-    ],
-    "away": [],
-    "count": 1
-   },
+   "fpl": null,
    "espnId": "401878777",
    "alert": true
   },
@@ -3425,15 +3439,15 @@
    "fpl": {
     "home": [
      {
-      "name": "Calafiori",
-      "position": "DEF",
+      "name": "Raya",
+      "position": "GKP",
       "captain": false,
       "vice": false,
       "benched": false
      },
      {
-      "name": "Rice",
-      "position": "MID",
+      "name": "Calafiori",
+      "position": "DEF",
       "captain": false,
       "vice": false,
       "benched": false
@@ -3492,16 +3506,9 @@
       "captain": false,
       "vice": false,
       "benched": false
-     },
-     {
-      "name": "F.Kadıoğlu",
-      "position": "DEF",
-      "captain": false,
-      "vice": false,
-      "benched": true
      }
     ],
-    "count": 3
+    "count": 2
    },
    "espnId": "401878772",
    "alert": false
@@ -3550,26 +3557,11 @@
       "position": "FWD",
       "captain": false,
       "vice": false,
-      "benched": false
+      "benched": true
      }
     ],
-    "away": [
-     {
-      "name": "Petrović",
-      "position": "GKP",
-      "captain": false,
-      "vice": true,
-      "benched": false
-     },
-     {
-      "name": "Rayan",
-      "position": "MID",
-      "captain": false,
-      "vice": false,
-      "benched": false
-     }
-    ],
-    "count": 4
+    "away": [],
+    "count": 2
    },
    "espnId": "401878775",
    "alert": false
@@ -3604,19 +3596,7 @@
     }
    },
    "score": null,
-   "fpl": {
-    "home": [],
-    "away": [
-     {
-      "name": "Leno",
-      "position": "GKP",
-      "captain": false,
-      "vice": false,
-      "benched": true
-     }
-    ],
-    "count": 1
-   },
+   "fpl": null,
    "espnId": "401879265",
    "alert": false
   },
@@ -3651,15 +3631,7 @@
    },
    "score": null,
    "fpl": {
-    "home": [
-     {
-      "name": "Cash",
-      "position": "DEF",
-      "captain": false,
-      "vice": false,
-      "benched": true
-     }
-    ],
+    "home": [],
     "away": [
      {
       "name": "M.Sangaré",
@@ -3669,7 +3641,7 @@
       "benched": false
      }
     ],
-    "count": 2
+    "count": 1
    },
    "espnId": "401878776",
    "alert": false
@@ -3708,7 +3680,19 @@
     }
    },
    "score": null,
-   "fpl": null,
+   "fpl": {
+    "home": [],
+    "away": [
+     {
+      "name": "Dubravka",
+      "position": "GKP",
+      "captain": false,
+      "vice": false,
+      "benched": true
+     }
+    ],
+    "count": 1
+   },
    "espnId": "401878773",
    "alert": true
   },
@@ -3742,7 +3726,19 @@
     }
    },
    "score": null,
-   "fpl": null,
+   "fpl": {
+    "home": [
+     {
+      "name": "Ajayi",
+      "position": "DEF",
+      "captain": false,
+      "vice": false,
+      "benched": true
+     }
+    ],
+    "away": [],
+    "count": 1
+   },
    "espnId": "401878774",
    "alert": false
   },
@@ -3817,8 +3813,8 @@
    "fpl": {
     "home": [
      {
-      "name": "Virgil",
-      "position": "DEF",
+      "name": "Gakpo",
+      "position": "MID",
       "captain": false,
       "vice": false,
       "benched": false
@@ -3833,6 +3829,20 @@
     ],
     "away": [
      {
+      "name": "Gvardiol",
+      "position": "DEF",
+      "captain": false,
+      "vice": false,
+      "benched": false
+     },
+     {
+      "name": "Cherki",
+      "position": "MID",
+      "captain": false,
+      "vice": true,
+      "benched": false
+     },
+     {
       "name": "Haaland",
       "position": "FWD",
       "captain": true,
@@ -3840,7 +3850,7 @@
       "benched": false
      }
     ],
-    "count": 3
+    "count": 5
    },
    "espnId": "401879264",
    "alert": true
@@ -3875,7 +3885,19 @@
     }
    },
    "score": null,
-   "fpl": null,
+   "fpl": {
+    "home": [],
+    "away": [
+     {
+      "name": "Hall",
+      "position": "DEF",
+      "captain": false,
+      "vice": false,
+      "benched": false
+     }
+    ],
+    "count": 1
+   },
    "espnId": "401879267",
    "alert": false
   },
@@ -3996,15 +4018,15 @@
    "fpl": {
     "home": [
      {
-      "name": "Calafiori",
-      "position": "DEF",
+      "name": "Raya",
+      "position": "GKP",
       "captain": false,
       "vice": false,
       "benched": false
      },
      {
-      "name": "Rice",
-      "position": "MID",
+      "name": "Calafiori",
+      "position": "DEF",
       "captain": false,
       "vice": false,
       "benched": false
@@ -4332,8 +4354,8 @@
     "home": [],
     "away": [
      {
-      "name": "Virgil",
-      "position": "DEF",
+      "name": "Gakpo",
+      "position": "MID",
       "captain": false,
       "vice": false,
       "benched": false
@@ -4429,19 +4451,7 @@
     }
    },
    "score": null,
-   "fpl": {
-    "home": [
-     {
-      "name": "Cash",
-      "position": "DEF",
-      "captain": false,
-      "vice": false,
-      "benched": true
-     }
-    ],
-    "away": [],
-    "count": 1
-   },
+   "fpl": null,
    "alert": false
   },
   {
@@ -4526,6 +4536,20 @@
    "fpl": {
     "home": [
      {
+      "name": "Gvardiol",
+      "position": "DEF",
+      "captain": false,
+      "vice": false,
+      "benched": false
+     },
+     {
+      "name": "Cherki",
+      "position": "MID",
+      "captain": false,
+      "vice": true,
+      "benched": false
+     },
+     {
       "name": "Haaland",
       "position": "FWD",
       "captain": true,
@@ -4534,7 +4558,7 @@
      }
     ],
     "away": [],
-    "count": 1
+    "count": 3
    },
    "alert": true
   },
@@ -4700,7 +4724,7 @@
       "position": "FWD",
       "captain": false,
       "vice": false,
-      "benched": false
+      "benched": true
      }
     ],
     "count": 2
@@ -4739,16 +4763,16 @@
    },
    "score": null,
    "fpl": {
-    "home": [
+    "home": [],
+    "away": [
      {
-      "name": "Leno",
-      "position": "GKP",
+      "name": "Ajayi",
+      "position": "DEF",
       "captain": false,
       "vice": false,
       "benched": true
      }
     ],
-    "away": [],
     "count": 1
    },
    "espnId": "401878770",
@@ -4787,6 +4811,20 @@
    "fpl": {
     "home": [
      {
+      "name": "Gvardiol",
+      "position": "DEF",
+      "captain": false,
+      "vice": false,
+      "benched": false
+     },
+     {
+      "name": "Cherki",
+      "position": "MID",
+      "captain": false,
+      "vice": true,
+      "benched": false
+     },
+     {
       "name": "Haaland",
       "position": "FWD",
       "captain": true,
@@ -4795,7 +4833,7 @@
      }
     ],
     "away": [],
-    "count": 1
+    "count": 3
    },
    "espnId": "401879259",
    "alert": false
@@ -4842,8 +4880,8 @@
     ],
     "away": [
      {
-      "name": "Virgil",
-      "position": "DEF",
+      "name": "Gakpo",
+      "position": "MID",
       "captain": false,
       "vice": false,
       "benched": false
@@ -4892,16 +4930,16 @@
    },
    "score": null,
    "fpl": {
-    "home": [],
-    "away": [
+    "home": [
      {
-      "name": "Cash",
+      "name": "Hall",
       "position": "DEF",
       "captain": false,
       "vice": false,
-      "benched": true
+      "benched": false
      }
     ],
+    "away": [],
     "count": 1
    },
    "espnId": "401879258",
@@ -4938,22 +4976,7 @@
    },
    "score": null,
    "fpl": {
-    "home": [
-     {
-      "name": "Petrović",
-      "position": "GKP",
-      "captain": false,
-      "vice": true,
-      "benched": false
-     },
-     {
-      "name": "Rayan",
-      "position": "MID",
-      "captain": false,
-      "vice": false,
-      "benched": false
-     }
-    ],
+    "home": [],
     "away": [
      {
       "name": "Xhaka",
@@ -4963,7 +4986,7 @@
       "benched": true
      }
     ],
-    "count": 3
+    "count": 1
    },
    "espnId": "401879263",
    "alert": false
@@ -5048,17 +5071,10 @@
       "captain": false,
       "vice": false,
       "benched": false
-     },
-     {
-      "name": "F.Kadıoğlu",
-      "position": "DEF",
-      "captain": false,
-      "vice": false,
-      "benched": true
      }
     ],
     "away": [],
-    "count": 2
+    "count": 1
    },
    "espnId": "401879261",
    "alert": true
@@ -5097,15 +5113,15 @@
     "home": [],
     "away": [
      {
-      "name": "Calafiori",
-      "position": "DEF",
+      "name": "Raya",
+      "position": "GKP",
       "captain": false,
       "vice": false,
       "benched": false
      },
      {
-      "name": "Rice",
-      "position": "MID",
+      "name": "Calafiori",
+      "position": "DEF",
       "captain": false,
       "vice": false,
       "benched": false
@@ -5146,7 +5162,19 @@
     }
    },
    "score": null,
-   "fpl": null,
+   "fpl": {
+    "home": [
+     {
+      "name": "Dubravka",
+      "position": "GKP",
+      "captain": false,
+      "vice": false,
+      "benched": true
+     }
+    ],
+    "away": [],
+    "count": 1
+   },
    "espnId": "401879257",
    "alert": false
   },
@@ -5345,8 +5373,8 @@
    "fpl": {
     "home": [
      {
-      "name": "Virgil",
-      "position": "DEF",
+      "name": "Gakpo",
+      "position": "MID",
       "captain": false,
       "vice": false,
       "benched": false
@@ -5403,6 +5431,20 @@
    "fpl": {
     "home": [
      {
+      "name": "Gvardiol",
+      "position": "DEF",
+      "captain": false,
+      "vice": false,
+      "benched": false
+     },
+     {
+      "name": "Cherki",
+      "position": "MID",
+      "captain": false,
+      "vice": true,
+      "benched": false
+     },
+     {
       "name": "Haaland",
       "position": "FWD",
       "captain": true,
@@ -5411,7 +5453,7 @@
      }
     ],
     "away": [],
-    "count": 1
+    "count": 3
    },
    "alert": false
   },
@@ -5654,19 +5696,7 @@
     }
    },
    "score": null,
-   "fpl": {
-    "home": [
-     {
-      "name": "Cash",
-      "position": "DEF",
-      "captain": false,
-      "vice": false,
-      "benched": true
-     }
-    ],
-    "away": [],
-    "count": 1
-   },
+   "fpl": null,
    "alert": false
   },
   {
@@ -5713,15 +5743,15 @@
     "home": [],
     "away": [
      {
-      "name": "Calafiori",
-      "position": "DEF",
+      "name": "Raya",
+      "position": "GKP",
       "captain": false,
       "vice": false,
       "benched": false
      },
      {
-      "name": "Rice",
-      "position": "MID",
+      "name": "Calafiori",
+      "position": "DEF",
       "captain": false,
       "vice": false,
       "benched": false
@@ -5991,16 +6021,22 @@
    },
    "score": null,
    "fpl": {
-    "home": [
+    "home": [],
+    "away": [
      {
-      "name": "Cash",
+      "name": "Gvardiol",
       "position": "DEF",
       "captain": false,
       "vice": false,
-      "benched": true
-     }
-    ],
-    "away": [
+      "benched": false
+     },
+     {
+      "name": "Cherki",
+      "position": "MID",
+      "captain": false,
+      "vice": true,
+      "benched": false
+     },
      {
       "name": "Haaland",
       "position": "FWD",
@@ -6009,7 +6045,7 @@
       "benched": false
      }
     ],
-    "count": 2
+    "count": 3
    },
    "espnId": "401879256",
    "alert": false
@@ -6047,8 +6083,8 @@
    "fpl": {
     "home": [
      {
-      "name": "Virgil",
-      "position": "DEF",
+      "name": "Gakpo",
+      "position": "MID",
       "captain": false,
       "vice": false,
       "benched": false
@@ -6068,16 +6104,9 @@
       "captain": false,
       "vice": false,
       "benched": false
-     },
-     {
-      "name": "F.Kadıoğlu",
-      "position": "DEF",
-      "captain": false,
-      "vice": false,
-      "benched": true
      }
     ],
-    "count": 4
+    "count": 3
    },
    "espnId": "401878765",
    "alert": false
@@ -6115,15 +6144,15 @@
    "fpl": {
     "home": [
      {
-      "name": "Calafiori",
-      "position": "DEF",
+      "name": "Raya",
+      "position": "GKP",
       "captain": false,
       "vice": false,
       "benched": false
      },
      {
-      "name": "Rice",
-      "position": "MID",
+      "name": "Calafiori",
+      "position": "DEF",
       "captain": false,
       "vice": false,
       "benched": false
@@ -6165,19 +6194,7 @@
     }
    },
    "score": null,
-   "fpl": {
-    "home": [],
-    "away": [
-     {
-      "name": "Leno",
-      "position": "GKP",
-      "captain": false,
-      "vice": false,
-      "benched": true
-     }
-    ],
-    "count": 1
-   },
+   "fpl": null,
    "espnId": "401879255",
    "alert": false
   },
@@ -6229,11 +6246,19 @@
       "position": "FWD",
       "captain": false,
       "vice": false,
-      "benched": false
+      "benched": true
      }
     ],
-    "away": [],
-    "count": 2
+    "away": [
+     {
+      "name": "Dubravka",
+      "position": "GKP",
+      "captain": false,
+      "vice": false,
+      "benched": true
+     }
+    ],
+    "count": 3
    },
    "espnId": "401878767",
    "alert": true
@@ -6268,7 +6293,19 @@
     }
    },
    "score": null,
-   "fpl": null,
+   "fpl": {
+    "home": [],
+    "away": [
+     {
+      "name": "Hall",
+      "position": "DEF",
+      "captain": false,
+      "vice": false,
+      "benched": false
+     }
+    ],
+    "count": 1
+   },
    "espnId": "401879254",
    "alert": false
   },
@@ -6306,26 +6343,7 @@
     }
    },
    "score": null,
-   "fpl": {
-    "home": [],
-    "away": [
-     {
-      "name": "Petrović",
-      "position": "GKP",
-      "captain": false,
-      "vice": true,
-      "benched": false
-     },
-     {
-      "name": "Rayan",
-      "position": "MID",
-      "captain": false,
-      "vice": false,
-      "benched": false
-     }
-    ],
-    "count": 2
-   },
+   "fpl": null,
    "espnId": "401879252",
    "alert": true
   },
@@ -6360,7 +6378,15 @@
    },
    "score": null,
    "fpl": {
-    "home": [],
+    "home": [
+     {
+      "name": "Ajayi",
+      "position": "DEF",
+      "captain": false,
+      "vice": false,
+      "benched": true
+     }
+    ],
     "away": [
      {
       "name": "M.Sangaré",
@@ -6370,7 +6396,7 @@
       "benched": false
      }
     ],
-    "count": 1
+    "count": 2
    },
    "espnId": "401878766",
    "alert": false
@@ -6469,7 +6495,7 @@
       "position": "FWD",
       "captain": false,
       "vice": false,
-      "benched": false
+      "benched": true
      }
     ],
     "away": [],
@@ -6511,6 +6537,20 @@
    "fpl": {
     "home": [
      {
+      "name": "Gvardiol",
+      "position": "DEF",
+      "captain": false,
+      "vice": false,
+      "benched": false
+     },
+     {
+      "name": "Cherki",
+      "position": "MID",
+      "captain": false,
+      "vice": true,
+      "benched": false
+     },
+     {
       "name": "Haaland",
       "position": "FWD",
       "captain": true,
@@ -6525,16 +6565,9 @@
       "captain": false,
       "vice": false,
       "benched": false
-     },
-     {
-      "name": "F.Kadıoğlu",
-      "position": "DEF",
-      "captain": false,
-      "vice": false,
-      "benched": true
      }
     ],
-    "count": 3
+    "count": 4
    },
    "espnId": "401879245",
    "alert": false
@@ -6569,26 +6602,7 @@
     }
    },
    "score": null,
-   "fpl": {
-    "home": [
-     {
-      "name": "Petrović",
-      "position": "GKP",
-      "captain": false,
-      "vice": true,
-      "benched": false
-     },
-     {
-      "name": "Rayan",
-      "position": "MID",
-      "captain": false,
-      "vice": false,
-      "benched": false
-     }
-    ],
-    "away": [],
-    "count": 2
-   },
+   "fpl": null,
    "espnId": "401879251",
    "alert": false
   },
@@ -6668,7 +6682,19 @@
     }
    },
    "score": null,
-   "fpl": null,
+   "fpl": {
+    "home": [
+     {
+      "name": "Ajayi",
+      "position": "DEF",
+      "captain": false,
+      "vice": false,
+      "benched": true
+     }
+    ],
+    "away": [],
+    "count": 1
+   },
    "espnId": "401878763",
    "alert": false
   },
@@ -6748,7 +6774,19 @@
     }
    },
    "score": null,
-   "fpl": null,
+   "fpl": {
+    "home": [
+     {
+      "name": "Dubravka",
+      "position": "GKP",
+      "captain": false,
+      "vice": false,
+      "benched": true
+     }
+    ],
+    "away": [],
+    "count": 1
+   },
    "espnId": "401878761",
    "alert": false
   },
@@ -6782,27 +6820,7 @@
     }
    },
    "score": null,
-   "fpl": {
-    "home": [
-     {
-      "name": "Cash",
-      "position": "DEF",
-      "captain": false,
-      "vice": false,
-      "benched": true
-     }
-    ],
-    "away": [
-     {
-      "name": "Leno",
-      "position": "GKP",
-      "captain": false,
-      "vice": false,
-      "benched": true
-     }
-    ],
-    "count": 2
-   },
+   "fpl": null,
    "espnId": "401879250",
    "alert": false
   },
@@ -6843,8 +6861,8 @@
    "fpl": {
     "home": [
      {
-      "name": "Virgil",
-      "position": "DEF",
+      "name": "Gakpo",
+      "position": "MID",
       "captain": false,
       "vice": false,
       "benched": false
@@ -6859,15 +6877,15 @@
     ],
     "away": [
      {
-      "name": "Calafiori",
-      "position": "DEF",
+      "name": "Raya",
+      "position": "GKP",
       "captain": false,
       "vice": false,
       "benched": false
      },
      {
-      "name": "Rice",
-      "position": "MID",
+      "name": "Calafiori",
+      "position": "DEF",
       "captain": false,
       "vice": false,
       "benched": false
@@ -6908,7 +6926,19 @@
     }
    },
    "score": null,
-   "fpl": null,
+   "fpl": {
+    "home": [
+     {
+      "name": "Hall",
+      "position": "DEF",
+      "captain": false,
+      "vice": false,
+      "benched": false
+     }
+    ],
+    "away": [],
+    "count": 1
+   },
    "espnId": "401878762",
    "alert": false
   },
@@ -7069,19 +7099,7 @@
     }
    },
    "score": null,
-   "fpl": {
-    "home": [],
-    "away": [
-     {
-      "name": "Cash",
-      "position": "DEF",
-      "captain": false,
-      "vice": false,
-      "benched": true
-     }
-    ],
-    "count": 1
-   },
+   "fpl": null,
    "alert": false
   },
   {
@@ -7366,8 +7384,8 @@
     "home": [],
     "away": [
      {
-      "name": "Virgil",
-      "position": "DEF",
+      "name": "Gakpo",
+      "position": "MID",
       "captain": false,
       "vice": false,
       "benched": false
@@ -7584,6 +7602,20 @@
     "home": [],
     "away": [
      {
+      "name": "Gvardiol",
+      "position": "DEF",
+      "captain": false,
+      "vice": false,
+      "benched": false
+     },
+     {
+      "name": "Cherki",
+      "position": "MID",
+      "captain": false,
+      "vice": true,
+      "benched": false
+     },
+     {
       "name": "Haaland",
       "position": "FWD",
       "captain": true,
@@ -7591,7 +7623,7 @@
       "benched": false
      }
     ],
-    "count": 1
+    "count": 3
    },
    "alert": false
   },
@@ -7635,15 +7667,15 @@
     "home": [],
     "away": [
      {
-      "name": "Calafiori",
-      "position": "DEF",
+      "name": "Raya",
+      "position": "GKP",
       "captain": false,
       "vice": false,
       "benched": false
      },
      {
-      "name": "Rice",
-      "position": "MID",
+      "name": "Calafiori",
+      "position": "DEF",
       "captain": false,
       "vice": false,
       "benched": false
@@ -7725,22 +7757,30 @@
    "fpl": {
     "home": [
      {
-      "name": "Calafiori",
-      "position": "DEF",
+      "name": "Raya",
+      "position": "GKP",
       "captain": false,
       "vice": false,
       "benched": false
      },
      {
-      "name": "Rice",
-      "position": "MID",
+      "name": "Calafiori",
+      "position": "DEF",
       "captain": false,
       "vice": false,
       "benched": false
      }
     ],
-    "away": [],
-    "count": 2
+    "away": [
+     {
+      "name": "Ajayi",
+      "position": "DEF",
+      "captain": false,
+      "vice": false,
+      "benched": true
+     }
+    ],
+    "count": 3
    },
    "espnId": "401878760",
    "alert": false
@@ -7779,6 +7819,20 @@
     "home": [],
     "away": [
      {
+      "name": "Gvardiol",
+      "position": "DEF",
+      "captain": false,
+      "vice": false,
+      "benched": false
+     },
+     {
+      "name": "Cherki",
+      "position": "MID",
+      "captain": false,
+      "vice": true,
+      "benched": false
+     },
+     {
       "name": "Haaland",
       "position": "FWD",
       "captain": true,
@@ -7786,7 +7840,7 @@
       "benched": false
      }
     ],
-    "count": 1
+    "count": 3
    },
    "espnId": "401878757",
    "alert": false
@@ -7821,7 +7875,19 @@
     }
    },
    "score": null,
-   "fpl": null,
+   "fpl": {
+    "home": [],
+    "away": [
+     {
+      "name": "Dubravka",
+      "position": "GKP",
+      "captain": false,
+      "vice": false,
+      "benched": true
+     }
+    ],
+    "count": 1
+   },
    "espnId": "401878758",
    "alert": false
   },
@@ -7856,16 +7922,16 @@
    },
    "score": null,
    "fpl": {
-    "home": [
+    "home": [],
+    "away": [
      {
-      "name": "Leno",
-      "position": "GKP",
+      "name": "Hall",
+      "position": "DEF",
       "captain": false,
       "vice": false,
-      "benched": true
+      "benched": false
      }
     ],
-    "away": [],
     "count": 1
    },
    "espnId": "401879241",
@@ -7939,8 +8005,8 @@
     "home": [],
     "away": [
      {
-      "name": "Virgil",
-      "position": "DEF",
+      "name": "Gakpo",
+      "position": "MID",
       "captain": false,
       "vice": false,
       "benched": false
@@ -8011,7 +8077,7 @@
       "position": "FWD",
       "captain": false,
       "vice": false,
-      "benched": false
+      "benched": true
      }
     ],
     "count": 3
@@ -8049,26 +8115,7 @@
     }
    },
    "score": null,
-   "fpl": {
-    "home": [],
-    "away": [
-     {
-      "name": "Petrović",
-      "position": "GKP",
-      "captain": false,
-      "vice": true,
-      "benched": false
-     },
-     {
-      "name": "Rayan",
-      "position": "MID",
-      "captain": false,
-      "vice": false,
-      "benched": false
-     }
-    ],
-    "count": 2
-   },
+   "fpl": null,
    "espnId": "401878759",
    "alert": false
   },
@@ -8110,13 +8157,6 @@
       "captain": false,
       "vice": false,
       "benched": false
-     },
-     {
-      "name": "F.Kadıoğlu",
-      "position": "DEF",
-      "captain": false,
-      "vice": false,
-      "benched": true
      }
     ],
     "away": [
@@ -8128,7 +8168,7 @@
       "benched": false
      }
     ],
-    "count": 3
+    "count": 2
    },
    "espnId": "401879244",
    "alert": false
@@ -8167,19 +8207,7 @@
     }
    },
    "score": null,
-   "fpl": {
-    "home": [],
-    "away": [
-     {
-      "name": "Cash",
-      "position": "DEF",
-      "captain": false,
-      "vice": false,
-      "benched": true
-     }
-    ],
-    "count": 1
-   },
+   "fpl": null,
    "espnId": "401879240",
    "alert": true
   },
@@ -8227,7 +8255,7 @@
       "position": "FWD",
       "captain": false,
       "vice": false,
-      "benched": false
+      "benched": true
      }
     ],
     "away": [],
@@ -8269,6 +8297,20 @@
    "fpl": {
     "home": [
      {
+      "name": "Gvardiol",
+      "position": "DEF",
+      "captain": false,
+      "vice": false,
+      "benched": false
+     },
+     {
+      "name": "Cherki",
+      "position": "MID",
+      "captain": false,
+      "vice": true,
+      "benched": false
+     },
+     {
       "name": "Haaland",
       "position": "FWD",
       "captain": true,
@@ -8276,16 +8318,8 @@
       "benched": false
      }
     ],
-    "away": [
-     {
-      "name": "Leno",
-      "position": "GKP",
-      "captain": false,
-      "vice": false,
-      "benched": true
-     }
-    ],
-    "count": 2
+    "away": [],
+    "count": 3
    },
    "espnId": "401879233",
    "alert": false
@@ -8321,15 +8355,7 @@
    },
    "score": null,
    "fpl": {
-    "home": [
-     {
-      "name": "Cash",
-      "position": "DEF",
-      "captain": false,
-      "vice": false,
-      "benched": true
-     }
-    ],
+    "home": [],
     "away": [
      {
       "name": "Xhaka",
@@ -8339,7 +8365,7 @@
       "benched": true
      }
     ],
-    "count": 2
+    "count": 1
    },
    "espnId": "401878756",
    "alert": false
@@ -8381,8 +8407,8 @@
    "fpl": {
     "home": [
      {
-      "name": "Virgil",
-      "position": "DEF",
+      "name": "Gakpo",
+      "position": "MID",
       "captain": false,
       "vice": false,
       "benched": false
@@ -8432,7 +8458,15 @@
    },
    "score": null,
    "fpl": {
-    "home": [],
+    "home": [
+     {
+      "name": "Ajayi",
+      "position": "DEF",
+      "captain": false,
+      "vice": false,
+      "benched": true
+     }
+    ],
     "away": [
      {
       "name": "De Cuyper",
@@ -8440,13 +8474,6 @@
       "captain": false,
       "vice": false,
       "benched": false
-     },
-     {
-      "name": "F.Kadıoğlu",
-      "position": "DEF",
-      "captain": false,
-      "vice": false,
-      "benched": true
      }
     ],
     "count": 2
@@ -8484,26 +8511,7 @@
     }
    },
    "score": null,
-   "fpl": {
-    "home": [
-     {
-      "name": "Petrović",
-      "position": "GKP",
-      "captain": false,
-      "vice": true,
-      "benched": false
-     },
-     {
-      "name": "Rayan",
-      "position": "MID",
-      "captain": false,
-      "vice": false,
-      "benched": false
-     }
-    ],
-    "away": [],
-    "count": 2
-   },
+   "fpl": null,
    "espnId": "401879238",
    "alert": false
   },
@@ -8537,7 +8545,19 @@
     }
    },
    "score": null,
-   "fpl": null,
+   "fpl": {
+    "home": [
+     {
+      "name": "Dubravka",
+      "position": "GKP",
+      "captain": false,
+      "vice": false,
+      "benched": true
+     }
+    ],
+    "away": [],
+    "count": 1
+   },
    "espnId": "401878754",
    "alert": false
   },
@@ -8652,24 +8672,32 @@
    },
    "score": null,
    "fpl": {
-    "home": [],
+    "home": [
+     {
+      "name": "Hall",
+      "position": "DEF",
+      "captain": false,
+      "vice": false,
+      "benched": false
+     }
+    ],
     "away": [
+     {
+      "name": "Raya",
+      "position": "GKP",
+      "captain": false,
+      "vice": false,
+      "benched": false
+     },
      {
       "name": "Calafiori",
       "position": "DEF",
       "captain": false,
       "vice": false,
       "benched": false
-     },
-     {
-      "name": "Rice",
-      "position": "MID",
-      "captain": false,
-      "vice": false,
-      "benched": false
      }
     ],
-    "count": 2
+    "count": 3
    },
    "espnId": "401879232",
    "alert": false
@@ -8749,19 +8777,7 @@
     }
    },
    "score": null,
-   "fpl": {
-    "home": [],
-    "away": [
-     {
-      "name": "Cash",
-      "position": "DEF",
-      "captain": false,
-      "vice": false,
-      "benched": true
-     }
-    ],
-    "count": 1
-   },
+   "fpl": null,
    "alert": false
   },
   {
@@ -8807,15 +8823,15 @@
    "fpl": {
     "home": [
      {
-      "name": "Calafiori",
-      "position": "DEF",
+      "name": "Raya",
+      "position": "GKP",
       "captain": false,
       "vice": false,
       "benched": false
      },
      {
-      "name": "Rice",
-      "position": "MID",
+      "name": "Calafiori",
+      "position": "DEF",
       "captain": false,
       "vice": false,
       "benched": false
@@ -8947,6 +8963,20 @@
    "fpl": {
     "home": [
      {
+      "name": "Gvardiol",
+      "position": "DEF",
+      "captain": false,
+      "vice": false,
+      "benched": false
+     },
+     {
+      "name": "Cherki",
+      "position": "MID",
+      "captain": false,
+      "vice": true,
+      "benched": false
+     },
+     {
       "name": "Haaland",
       "position": "FWD",
       "captain": true,
@@ -8955,7 +8985,7 @@
      }
     ],
     "away": [],
-    "count": 1
+    "count": 3
    },
    "alert": true
   },
@@ -9233,8 +9263,8 @@
     "home": [],
     "away": [
      {
-      "name": "Virgil",
-      "position": "DEF",
+      "name": "Gakpo",
+      "position": "MID",
       "captain": false,
       "vice": false,
       "benched": false
@@ -9518,19 +9548,7 @@
     }
    },
    "score": null,
-   "fpl": {
-    "home": [],
-    "away": [
-     {
-      "name": "Cash",
-      "position": "DEF",
-      "captain": false,
-      "vice": false,
-      "benched": true
-     }
-    ],
-    "count": 1
-   },
+   "fpl": null,
    "espnId": "401878752",
    "alert": false
   },
@@ -9571,21 +9589,35 @@
    "fpl": {
     "home": [
      {
-      "name": "Calafiori",
-      "position": "DEF",
+      "name": "Raya",
+      "position": "GKP",
       "captain": false,
       "vice": false,
       "benched": false
      },
      {
-      "name": "Rice",
-      "position": "MID",
+      "name": "Calafiori",
+      "position": "DEF",
       "captain": false,
       "vice": false,
       "benched": false
      }
     ],
     "away": [
+     {
+      "name": "Gvardiol",
+      "position": "DEF",
+      "captain": false,
+      "vice": false,
+      "benched": false
+     },
+     {
+      "name": "Cherki",
+      "position": "MID",
+      "captain": false,
+      "vice": true,
+      "benched": false
+     },
      {
       "name": "Haaland",
       "position": "FWD",
@@ -9594,7 +9626,7 @@
       "benched": false
      }
     ],
-    "count": 3
+    "count": 5
    },
    "espnId": "401878753",
    "alert": true
@@ -9687,8 +9719,8 @@
     "home": [],
     "away": [
      {
-      "name": "Virgil",
-      "position": "DEF",
+      "name": "Gakpo",
+      "position": "MID",
       "captain": false,
       "vice": false,
       "benched": false
@@ -9736,34 +9768,7 @@
     }
    },
    "score": null,
-   "fpl": {
-    "home": [
-     {
-      "name": "Leno",
-      "position": "GKP",
-      "captain": false,
-      "vice": false,
-      "benched": true
-     }
-    ],
-    "away": [
-     {
-      "name": "Petrović",
-      "position": "GKP",
-      "captain": false,
-      "vice": true,
-      "benched": false
-     },
-     {
-      "name": "Rayan",
-      "position": "MID",
-      "captain": false,
-      "vice": false,
-      "benched": false
-     }
-    ],
-    "count": 3
-   },
+   "fpl": null,
    "espnId": "401879228",
    "alert": false
   },
@@ -9812,7 +9817,7 @@
       "position": "FWD",
       "captain": false,
       "vice": false,
-      "benched": false
+      "benched": true
      }
     ],
     "count": 2
@@ -9858,16 +9863,17 @@
       "captain": false,
       "vice": false,
       "benched": false
-     },
+     }
+    ],
+    "away": [
      {
-      "name": "F.Kadıoğlu",
+      "name": "Hall",
       "position": "DEF",
       "captain": false,
       "vice": false,
-      "benched": true
+      "benched": false
      }
     ],
-    "away": [],
     "count": 2
    },
    "espnId": "401879231",
@@ -9913,8 +9919,16 @@
       "benched": true
      }
     ],
-    "away": [],
-    "count": 1
+    "away": [
+     {
+      "name": "Dubravka",
+      "position": "GKP",
+      "captain": false,
+      "vice": false,
+      "benched": true
+     }
+    ],
+    "count": 2
    },
    "espnId": "401879224",
    "alert": false
@@ -9949,7 +9963,19 @@
     }
    },
    "score": null,
-   "fpl": null,
+   "fpl": {
+    "home": [],
+    "away": [
+     {
+      "name": "Ajayi",
+      "position": "DEF",
+      "captain": false,
+      "vice": false,
+      "benched": true
+     }
+    ],
+    "count": 1
+   },
    "espnId": "401879230",
    "alert": false
   },
@@ -9984,16 +10010,16 @@
    },
    "score": null,
    "fpl": {
-    "home": [],
-    "away": [
+    "home": [
      {
-      "name": "Leno",
+      "name": "Dubravka",
       "position": "GKP",
       "captain": false,
       "vice": false,
       "benched": true
      }
     ],
+    "away": [],
     "count": 1
    },
    "espnId": "401878749",
@@ -10032,8 +10058,8 @@
    "fpl": {
     "home": [
      {
-      "name": "Virgil",
-      "position": "DEF",
+      "name": "Gakpo",
+      "position": "MID",
       "captain": false,
       "vice": false,
       "benched": false
@@ -10090,7 +10116,19 @@
     }
    },
    "score": null,
-   "fpl": null,
+   "fpl": {
+    "home": [
+     {
+      "name": "Ajayi",
+      "position": "DEF",
+      "captain": false,
+      "vice": false,
+      "benched": true
+     }
+    ],
+    "away": [],
+    "count": 1
+   },
    "espnId": "401879220",
    "alert": false
   },
@@ -10138,7 +10176,7 @@
       "position": "FWD",
       "captain": false,
       "vice": false,
-      "benched": false
+      "benched": true
      }
     ],
     "away": [],
@@ -10177,19 +10215,7 @@
     }
    },
    "score": null,
-   "fpl": {
-    "home": [
-     {
-      "name": "Cash",
-      "position": "DEF",
-      "captain": false,
-      "vice": false,
-      "benched": true
-     }
-    ],
-    "away": [],
-    "count": 1
-   },
+   "fpl": null,
    "espnId": "401878751",
    "alert": false
   },
@@ -10235,15 +10261,15 @@
     ],
     "away": [
      {
-      "name": "Calafiori",
-      "position": "DEF",
+      "name": "Raya",
+      "position": "GKP",
       "captain": false,
       "vice": false,
       "benched": false
      },
      {
-      "name": "Rice",
-      "position": "MID",
+      "name": "Calafiori",
+      "position": "DEF",
       "captain": false,
       "vice": false,
       "benched": false
@@ -10321,6 +10347,20 @@
    "fpl": {
     "home": [
      {
+      "name": "Gvardiol",
+      "position": "DEF",
+      "captain": false,
+      "vice": false,
+      "benched": false
+     },
+     {
+      "name": "Cherki",
+      "position": "MID",
+      "captain": false,
+      "vice": true,
+      "benched": false
+     },
+     {
       "name": "Haaland",
       "position": "FWD",
       "captain": true,
@@ -10329,7 +10369,7 @@
      }
     ],
     "away": [],
-    "count": 1
+    "count": 3
    },
    "espnId": "401879218",
    "alert": false
@@ -10368,7 +10408,19 @@
     }
    },
    "score": null,
-   "fpl": null,
+   "fpl": {
+    "home": [
+     {
+      "name": "Hall",
+      "position": "DEF",
+      "captain": false,
+      "vice": false,
+      "benched": false
+     }
+    ],
+    "away": [],
+    "count": 1
+   },
    "espnId": "401879217",
    "alert": true
   },
@@ -10403,22 +10455,7 @@
    },
    "score": null,
    "fpl": {
-    "home": [
-     {
-      "name": "Petrović",
-      "position": "GKP",
-      "captain": false,
-      "vice": true,
-      "benched": false
-     },
-     {
-      "name": "Rayan",
-      "position": "MID",
-      "captain": false,
-      "vice": false,
-      "benched": false
-     }
-    ],
+    "home": [],
     "away": [
      {
       "name": "De Cuyper",
@@ -10426,16 +10463,9 @@
       "captain": false,
       "vice": false,
       "benched": false
-     },
-     {
-      "name": "F.Kadıoğlu",
-      "position": "DEF",
-      "captain": false,
-      "vice": false,
-      "benched": true
      }
     ],
-    "count": 4
+    "count": 1
    },
    "espnId": "401879223",
    "alert": false
@@ -10475,24 +10505,32 @@
    },
    "score": null,
    "fpl": {
-    "home": [],
+    "home": [
+     {
+      "name": "Dubravka",
+      "position": "GKP",
+      "captain": false,
+      "vice": false,
+      "benched": true
+     }
+    ],
     "away": [
+     {
+      "name": "Raya",
+      "position": "GKP",
+      "captain": false,
+      "vice": false,
+      "benched": false
+     },
      {
       "name": "Calafiori",
       "position": "DEF",
       "captain": false,
       "vice": false,
       "benched": false
-     },
-     {
-      "name": "Rice",
-      "position": "MID",
-      "captain": false,
-      "vice": false,
-      "benched": false
      }
     ],
-    "count": 2
+    "count": 3
    },
    "espnId": "401879209",
    "alert": true
@@ -10604,7 +10642,15 @@
    },
    "score": null,
    "fpl": {
-    "home": [],
+    "home": [
+     {
+      "name": "Hall",
+      "position": "DEF",
+      "captain": false,
+      "vice": false,
+      "benched": false
+     }
+    ],
     "away": [
      {
       "name": "Xhaka",
@@ -10614,7 +10660,7 @@
       "benched": true
      }
     ],
-    "count": 1
+    "count": 2
    },
    "espnId": "401878748",
    "alert": true
@@ -10667,13 +10713,13 @@
       "position": "FWD",
       "captain": false,
       "vice": false,
-      "benched": false
+      "benched": true
      }
     ],
     "away": [
      {
-      "name": "Virgil",
-      "position": "DEF",
+      "name": "Gakpo",
+      "position": "MID",
       "captain": false,
       "vice": false,
       "benched": false
@@ -10733,6 +10779,20 @@
     ],
     "away": [
      {
+      "name": "Gvardiol",
+      "position": "DEF",
+      "captain": false,
+      "vice": false,
+      "benched": false
+     },
+     {
+      "name": "Cherki",
+      "position": "MID",
+      "captain": false,
+      "vice": true,
+      "benched": false
+     },
+     {
       "name": "Haaland",
       "position": "FWD",
       "captain": true,
@@ -10740,7 +10800,7 @@
       "benched": false
      }
     ],
-    "count": 2
+    "count": 4
    },
    "espnId": "401879214",
    "alert": false
@@ -10776,24 +10836,17 @@
    },
    "score": null,
    "fpl": {
-    "home": [
+    "home": [],
+    "away": [
      {
-      "name": "Petrović",
-      "position": "GKP",
-      "captain": false,
-      "vice": true,
-      "benched": false
-     },
-     {
-      "name": "Rayan",
-      "position": "MID",
+      "name": "Ajayi",
+      "position": "DEF",
       "captain": false,
       "vice": false,
-      "benched": false
+      "benched": true
      }
     ],
-    "away": [],
-    "count": 2
+    "count": 1
    },
    "espnId": "401879216",
    "alert": false
@@ -10828,19 +10881,7 @@
     }
    },
    "score": null,
-   "fpl": {
-    "home": [
-     {
-      "name": "Cash",
-      "position": "DEF",
-      "captain": false,
-      "vice": false,
-      "benched": true
-     }
-    ],
-    "away": [],
-    "count": 1
-   },
+   "fpl": null,
    "espnId": "401879215",
    "alert": false
   },
@@ -10883,16 +10924,9 @@
       "captain": false,
       "vice": false,
       "benched": false
-     },
-     {
-      "name": "F.Kadıoğlu",
-      "position": "DEF",
-      "captain": false,
-      "vice": false,
-      "benched": true
      }
     ],
-    "count": 2
+    "count": 1
    },
    "espnId": "401878747",
    "alert": false
@@ -10927,19 +10961,7 @@
     }
    },
    "score": null,
-   "fpl": {
-    "home": [],
-    "away": [
-     {
-      "name": "Leno",
-      "position": "GKP",
-      "captain": false,
-      "vice": false,
-      "benched": true
-     }
-    ],
-    "count": 1
-   },
+   "fpl": null,
    "espnId": "401879212",
    "alert": false
   },
@@ -11139,19 +11161,7 @@
     }
    },
    "score": null,
-   "fpl": {
-    "home": [
-     {
-      "name": "Cash",
-      "position": "DEF",
-      "captain": false,
-      "vice": false,
-      "benched": true
-     }
-    ],
-    "away": [],
-    "count": 1
-   },
+   "fpl": null,
    "alert": true
   },
   {
@@ -11198,6 +11208,20 @@
     "home": [],
     "away": [
      {
+      "name": "Gvardiol",
+      "position": "DEF",
+      "captain": false,
+      "vice": false,
+      "benched": false
+     },
+     {
+      "name": "Cherki",
+      "position": "MID",
+      "captain": false,
+      "vice": true,
+      "benched": false
+     },
+     {
       "name": "Haaland",
       "position": "FWD",
       "captain": true,
@@ -11205,7 +11229,7 @@
       "benched": false
      }
     ],
-    "count": 1
+    "count": 3
    },
    "alert": true
   },
@@ -11451,15 +11475,15 @@
    "fpl": {
     "home": [
      {
-      "name": "Calafiori",
-      "position": "DEF",
+      "name": "Raya",
+      "position": "GKP",
       "captain": false,
       "vice": false,
       "benched": false
      },
      {
-      "name": "Rice",
-      "position": "MID",
+      "name": "Calafiori",
+      "position": "DEF",
       "captain": false,
       "vice": false,
       "benched": false
@@ -11634,8 +11658,8 @@
    "fpl": {
     "home": [
      {
-      "name": "Virgil",
-      "position": "DEF",
+      "name": "Gakpo",
+      "position": "MID",
       "captain": false,
       "vice": false,
       "benched": false
@@ -11845,7 +11869,27 @@
     }
    },
    "score": null,
-   "fpl": null,
+   "fpl": {
+    "home": [
+     {
+      "name": "Ajayi",
+      "position": "DEF",
+      "captain": false,
+      "vice": false,
+      "benched": true
+     }
+    ],
+    "away": [
+     {
+      "name": "Dubravka",
+      "position": "GKP",
+      "captain": false,
+      "vice": false,
+      "benched": true
+     }
+    ],
+    "count": 2
+   },
    "espnId": "401879205",
    "alert": false
   },
@@ -11887,17 +11931,10 @@
       "captain": false,
       "vice": false,
       "benched": false
-     },
-     {
-      "name": "F.Kadıoğlu",
-      "position": "DEF",
-      "captain": false,
-      "vice": false,
-      "benched": true
      }
     ],
     "away": [],
-    "count": 2
+    "count": 1
    },
    "espnId": "401878745",
    "alert": false
@@ -11932,7 +11969,19 @@
     }
    },
    "score": null,
-   "fpl": null,
+   "fpl": {
+    "home": [],
+    "away": [
+     {
+      "name": "Hall",
+      "position": "DEF",
+      "captain": false,
+      "vice": false,
+      "benched": false
+     }
+    ],
+    "count": 1
+   },
    "espnId": "401878744",
    "alert": false
   },
@@ -11966,19 +12015,7 @@
     }
    },
    "score": null,
-   "fpl": {
-    "home": [],
-    "away": [
-     {
-      "name": "Cash",
-      "position": "DEF",
-      "captain": false,
-      "vice": false,
-      "benched": true
-     }
-    ],
-    "count": 1
-   },
+   "fpl": null,
    "espnId": "401879208",
    "alert": false
   },
@@ -12015,37 +12052,22 @@
    "fpl": {
     "home": [
      {
+      "name": "Raya",
+      "position": "GKP",
+      "captain": false,
+      "vice": false,
+      "benched": false
+     },
+     {
       "name": "Calafiori",
       "position": "DEF",
       "captain": false,
       "vice": false,
       "benched": false
-     },
-     {
-      "name": "Rice",
-      "position": "MID",
-      "captain": false,
-      "vice": false,
-      "benched": false
      }
     ],
-    "away": [
-     {
-      "name": "Petrović",
-      "position": "GKP",
-      "captain": false,
-      "vice": true,
-      "benched": false
-     },
-     {
-      "name": "Rayan",
-      "position": "MID",
-      "captain": false,
-      "vice": false,
-      "benched": false
-     }
-    ],
-    "count": 4
+    "away": [],
+    "count": 2
    },
    "espnId": "401878746",
    "alert": false
@@ -12087,6 +12109,20 @@
    "fpl": {
     "home": [
      {
+      "name": "Gvardiol",
+      "position": "DEF",
+      "captain": false,
+      "vice": false,
+      "benched": false
+     },
+     {
+      "name": "Cherki",
+      "position": "MID",
+      "captain": false,
+      "vice": true,
+      "benched": false
+     },
+     {
       "name": "Haaland",
       "position": "FWD",
       "captain": true,
@@ -12107,10 +12143,10 @@
       "position": "FWD",
       "captain": false,
       "vice": false,
-      "benched": false
+      "benched": true
      }
     ],
-    "count": 3
+    "count": 5
    },
    "espnId": "401878742",
    "alert": true
@@ -12148,8 +12184,8 @@
    "fpl": {
     "home": [
      {
-      "name": "Virgil",
-      "position": "DEF",
+      "name": "Gakpo",
+      "position": "MID",
       "captain": false,
       "vice": false,
       "benched": false
@@ -12203,15 +12239,7 @@
    },
    "score": null,
    "fpl": {
-    "home": [
-     {
-      "name": "Leno",
-      "position": "GKP",
-      "captain": false,
-      "vice": false,
-      "benched": true
-     }
-    ],
+    "home": [],
     "away": [
      {
       "name": "M.Sangaré",
@@ -12221,7 +12249,7 @@
       "benched": false
      }
     ],
-    "count": 2
+    "count": 1
    },
    "espnId": "401879206",
    "alert": true
@@ -12256,19 +12284,7 @@
     }
    },
    "score": null,
-   "fpl": {
-    "home": [],
-    "away": [
-     {
-      "name": "Leno",
-      "position": "GKP",
-      "captain": false,
-      "vice": false,
-      "benched": true
-     }
-    ],
-    "count": 1
-   },
+   "fpl": null,
    "espnId": "401879201",
    "alert": false
   },
@@ -12310,17 +12326,10 @@
       "captain": false,
       "vice": false,
       "benched": false
-     },
-     {
-      "name": "F.Kadıoğlu",
-      "position": "DEF",
-      "captain": false,
-      "vice": false,
-      "benched": true
      }
     ],
     "away": [],
-    "count": 2
+    "count": 1
    },
    "espnId": "401878739",
    "alert": false
@@ -12399,8 +12408,16 @@
       "benched": false
      }
     ],
-    "away": [],
-    "count": 1
+    "away": [
+     {
+      "name": "Hall",
+      "position": "DEF",
+      "captain": false,
+      "vice": false,
+      "benched": false
+     }
+    ],
+    "count": 2
    },
    "espnId": "401879203",
    "alert": false
@@ -12438,6 +12455,20 @@
    "fpl": {
     "home": [
      {
+      "name": "Gvardiol",
+      "position": "DEF",
+      "captain": false,
+      "vice": false,
+      "benched": false
+     },
+     {
+      "name": "Cherki",
+      "position": "MID",
+      "captain": false,
+      "vice": true,
+      "benched": false
+     },
+     {
       "name": "Haaland",
       "position": "FWD",
       "captain": true,
@@ -12445,8 +12476,16 @@
       "benched": false
      }
     ],
-    "away": [],
-    "count": 1
+    "away": [
+     {
+      "name": "Ajayi",
+      "position": "DEF",
+      "captain": false,
+      "vice": false,
+      "benched": true
+     }
+    ],
+    "count": 4
    },
    "espnId": "401879199",
    "alert": false
@@ -12527,26 +12566,7 @@
     }
    },
    "score": null,
-   "fpl": {
-    "home": [
-     {
-      "name": "Petrović",
-      "position": "GKP",
-      "captain": false,
-      "vice": true,
-      "benched": false
-     },
-     {
-      "name": "Rayan",
-      "position": "MID",
-      "captain": false,
-      "vice": false,
-      "benched": false
-     }
-    ],
-    "away": [],
-    "count": 2
-   },
+   "fpl": null,
    "espnId": "401878740",
    "alert": false
   },
@@ -12587,15 +12607,15 @@
    "fpl": {
     "home": [
      {
-      "name": "Calafiori",
-      "position": "DEF",
+      "name": "Raya",
+      "position": "GKP",
       "captain": false,
       "vice": false,
       "benched": false
      },
      {
-      "name": "Rice",
-      "position": "MID",
+      "name": "Calafiori",
+      "position": "DEF",
       "captain": false,
       "vice": false,
       "benched": false
@@ -12644,8 +12664,8 @@
    "fpl": {
     "home": [
      {
-      "name": "Virgil",
-      "position": "DEF",
+      "name": "Gakpo",
+      "position": "MID",
       "captain": false,
       "vice": false,
       "benched": false
@@ -12658,8 +12678,16 @@
       "benched": false
      }
     ],
-    "away": [],
-    "count": 2
+    "away": [
+     {
+      "name": "Dubravka",
+      "position": "GKP",
+      "captain": false,
+      "vice": false,
+      "benched": true
+     }
+    ],
+    "count": 3
    },
    "espnId": "401879200",
    "alert": true
@@ -12708,19 +12736,11 @@
       "position": "FWD",
       "captain": false,
       "vice": false,
-      "benched": false
-     }
-    ],
-    "away": [
-     {
-      "name": "Cash",
-      "position": "DEF",
-      "captain": false,
-      "vice": false,
       "benched": true
      }
     ],
-    "count": 3
+    "away": [],
+    "count": 2
    },
    "espnId": "401879202",
    "alert": false
@@ -12755,19 +12775,7 @@
     }
    },
    "score": null,
-   "fpl": {
-    "home": [
-     {
-      "name": "Cash",
-      "position": "DEF",
-      "captain": false,
-      "vice": false,
-      "benched": true
-     }
-    ],
-    "away": [],
-    "count": 1
-   },
+   "fpl": null,
    "espnId": "401878737",
    "alert": false
   },
@@ -12843,15 +12851,15 @@
     "home": [],
     "away": [
      {
-      "name": "Calafiori",
-      "position": "DEF",
+      "name": "Raya",
+      "position": "GKP",
       "captain": false,
       "vice": false,
       "benched": false
      },
      {
-      "name": "Rice",
-      "position": "MID",
+      "name": "Calafiori",
+      "position": "DEF",
       "captain": false,
       "vice": false,
       "benched": false
@@ -12953,7 +12961,7 @@
       "position": "FWD",
       "captain": false,
       "vice": false,
-      "benched": false
+      "benched": true
      }
     ],
     "count": 2
@@ -12992,8 +13000,30 @@
    },
    "score": null,
    "fpl": {
-    "home": [],
+    "home": [
+     {
+      "name": "Hall",
+      "position": "DEF",
+      "captain": false,
+      "vice": false,
+      "benched": false
+     }
+    ],
     "away": [
+     {
+      "name": "Gvardiol",
+      "position": "DEF",
+      "captain": false,
+      "vice": false,
+      "benched": false
+     },
+     {
+      "name": "Cherki",
+      "position": "MID",
+      "captain": false,
+      "vice": true,
+      "benched": false
+     },
      {
       "name": "Haaland",
       "position": "FWD",
@@ -13002,7 +13032,7 @@
       "benched": false
      }
     ],
-    "count": 1
+    "count": 4
    },
    "espnId": "401878732",
    "alert": false
@@ -13038,15 +13068,7 @@
    },
    "score": null,
    "fpl": {
-    "home": [
-     {
-      "name": "Leno",
-      "position": "GKP",
-      "captain": false,
-      "vice": false,
-      "benched": true
-     }
-    ],
+    "home": [],
     "away": [
      {
       "name": "De Cuyper",
@@ -13054,16 +13076,9 @@
       "captain": false,
       "vice": false,
       "benched": false
-     },
-     {
-      "name": "F.Kadıoğlu",
-      "position": "DEF",
-      "captain": false,
-      "vice": false,
-      "benched": true
      }
     ],
-    "count": 3
+    "count": 1
    },
    "espnId": "401878734",
    "alert": false
@@ -13099,24 +13114,17 @@
    },
    "score": null,
    "fpl": {
-    "home": [],
-    "away": [
+    "home": [
      {
-      "name": "Petrović",
+      "name": "Dubravka",
       "position": "GKP",
       "captain": false,
-      "vice": true,
-      "benched": false
-     },
-     {
-      "name": "Rayan",
-      "position": "MID",
-      "captain": false,
       "vice": false,
-      "benched": false
+      "benched": true
      }
     ],
-    "count": 2
+    "away": [],
+    "count": 1
    },
    "espnId": "401878731",
    "alert": false
@@ -13152,11 +13160,19 @@
    },
    "score": null,
    "fpl": {
-    "home": [],
+    "home": [
+     {
+      "name": "Ajayi",
+      "position": "DEF",
+      "captain": false,
+      "vice": false,
+      "benched": true
+     }
+    ],
     "away": [
      {
-      "name": "Virgil",
-      "position": "DEF",
+      "name": "Gakpo",
+      "position": "MID",
       "captain": false,
       "vice": false,
       "benched": false
@@ -13169,7 +13185,7 @@
       "benched": false
      }
     ],
-    "count": 2
+    "count": 3
    },
    "espnId": "401878733",
    "alert": false
@@ -13251,32 +13267,24 @@
    },
    "score": null,
    "fpl": {
-    "home": [
+    "home": [],
+    "away": [
      {
-      "name": "Leno",
+      "name": "Raya",
       "position": "GKP",
       "captain": false,
       "vice": false,
-      "benched": true
-     }
-    ],
-    "away": [
+      "benched": false
+     },
      {
       "name": "Calafiori",
       "position": "DEF",
       "captain": false,
       "vice": false,
       "benched": false
-     },
-     {
-      "name": "Rice",
-      "position": "MID",
-      "captain": false,
-      "vice": false,
-      "benched": false
      }
     ],
-    "count": 3
+    "count": 2
    },
    "espnId": "401879191",
    "alert": false
@@ -13358,19 +13366,11 @@
    },
    "score": null,
    "fpl": {
-    "home": [
-     {
-      "name": "Cash",
-      "position": "DEF",
-      "captain": false,
-      "vice": false,
-      "benched": true
-     }
-    ],
+    "home": [],
     "away": [
      {
-      "name": "Virgil",
-      "position": "DEF",
+      "name": "Gakpo",
+      "position": "MID",
       "captain": false,
       "vice": false,
       "benched": false
@@ -13383,7 +13383,7 @@
       "benched": false
      }
     ],
-    "count": 3
+    "count": 2
    },
    "espnId": "401879194",
    "alert": false
@@ -13418,7 +13418,19 @@
     }
    },
    "score": null,
-   "fpl": null,
+   "fpl": {
+    "home": [
+     {
+      "name": "Hall",
+      "position": "DEF",
+      "captain": false,
+      "vice": false,
+      "benched": false
+     }
+    ],
+    "away": [],
+    "count": 1
+   },
    "espnId": "401879187",
    "alert": false
   },
@@ -13452,7 +13464,19 @@
     }
    },
    "score": null,
-   "fpl": null,
+   "fpl": {
+    "home": [
+     {
+      "name": "Ajayi",
+      "position": "DEF",
+      "captain": false,
+      "vice": false,
+      "benched": true
+     }
+    ],
+    "away": [],
+    "count": 1
+   },
    "espnId": "401879190",
    "alert": false
   },
@@ -13551,7 +13575,7 @@
       "position": "FWD",
       "captain": false,
       "vice": false,
-      "benched": false
+      "benched": true
      }
     ],
     "count": 2
@@ -13590,7 +13614,15 @@
    },
    "score": null,
    "fpl": {
-    "home": [],
+    "home": [
+     {
+      "name": "Dubravka",
+      "position": "GKP",
+      "captain": false,
+      "vice": false,
+      "benched": true
+     }
+    ],
     "away": [
      {
       "name": "De Cuyper",
@@ -13598,13 +13630,6 @@
       "captain": false,
       "vice": false,
       "benched": false
-     },
-     {
-      "name": "F.Kadıoğlu",
-      "position": "DEF",
-      "captain": false,
-      "vice": false,
-      "benched": true
      }
     ],
     "count": 2
@@ -13646,6 +13671,20 @@
     "home": [],
     "away": [
      {
+      "name": "Gvardiol",
+      "position": "DEF",
+      "captain": false,
+      "vice": false,
+      "benched": false
+     },
+     {
+      "name": "Cherki",
+      "position": "MID",
+      "captain": false,
+      "vice": true,
+      "benched": false
+     },
+     {
       "name": "Haaland",
       "position": "FWD",
       "captain": true,
@@ -13653,7 +13692,7 @@
       "benched": false
      }
     ],
-    "count": 1
+    "count": 3
    },
    "espnId": "401879192",
    "alert": false
@@ -13688,26 +13727,7 @@
     }
    },
    "score": null,
-   "fpl": {
-    "home": [],
-    "away": [
-     {
-      "name": "Petrović",
-      "position": "GKP",
-      "captain": false,
-      "vice": true,
-      "benched": false
-     },
-     {
-      "name": "Rayan",
-      "position": "MID",
-      "captain": false,
-      "vice": false,
-      "benched": false
-     }
-    ],
-    "count": 2
-   },
+   "fpl": null,
    "espnId": "401879193",
    "alert": false
   },
@@ -13741,34 +13761,7 @@
     }
    },
    "score": null,
-   "fpl": {
-    "home": [
-     {
-      "name": "Petrović",
-      "position": "GKP",
-      "captain": false,
-      "vice": true,
-      "benched": false
-     },
-     {
-      "name": "Rayan",
-      "position": "MID",
-      "captain": false,
-      "vice": false,
-      "benched": false
-     }
-    ],
-    "away": [
-     {
-      "name": "Cash",
-      "position": "DEF",
-      "captain": false,
-      "vice": false,
-      "benched": true
-     }
-    ],
-    "count": 3
-   },
+   "fpl": null,
    "espnId": "401878729",
    "alert": false
   },
@@ -13885,15 +13878,15 @@
    "fpl": {
     "home": [
      {
-      "name": "Calafiori",
-      "position": "DEF",
+      "name": "Raya",
+      "position": "GKP",
       "captain": false,
       "vice": false,
       "benched": false
      },
      {
-      "name": "Rice",
-      "position": "MID",
+      "name": "Calafiori",
+      "position": "DEF",
       "captain": false,
       "vice": false,
       "benched": false
@@ -13945,8 +13938,16 @@
       "benched": true
      }
     ],
-    "away": [],
-    "count": 1
+    "away": [
+     {
+      "name": "Ajayi",
+      "position": "DEF",
+      "captain": false,
+      "vice": false,
+      "benched": true
+     }
+    ],
+    "count": 2
    },
    "espnId": "401879178",
    "alert": false
@@ -13984,8 +13985,8 @@
    "fpl": {
     "home": [
      {
-      "name": "Virgil",
-      "position": "DEF",
+      "name": "Gakpo",
+      "position": "MID",
       "captain": false,
       "vice": false,
       "benched": false
@@ -14048,11 +14049,19 @@
       "position": "FWD",
       "captain": false,
       "vice": false,
+      "benched": true
+     }
+    ],
+    "away": [
+     {
+      "name": "Hall",
+      "position": "DEF",
+      "captain": false,
+      "vice": false,
       "benched": false
      }
     ],
-    "away": [],
-    "count": 2
+    "count": 3
    },
    "espnId": "401879183",
    "alert": false
@@ -14087,19 +14096,7 @@
     }
    },
    "score": null,
-   "fpl": {
-    "home": [],
-    "away": [
-     {
-      "name": "Leno",
-      "position": "GKP",
-      "captain": false,
-      "vice": false,
-      "benched": true
-     }
-    ],
-    "count": 1
-   },
+   "fpl": null,
    "espnId": "401879179",
    "alert": false
   },
@@ -14145,17 +14142,10 @@
       "captain": false,
       "vice": false,
       "benched": false
-     },
-     {
-      "name": "F.Kadıoğlu",
-      "position": "DEF",
-      "captain": false,
-      "vice": false,
-      "benched": true
      }
     ],
     "away": [],
-    "count": 2
+    "count": 1
    },
    "espnId": "401878728",
    "alert": true
@@ -14197,6 +14187,20 @@
    "fpl": {
     "home": [
      {
+      "name": "Gvardiol",
+      "position": "DEF",
+      "captain": false,
+      "vice": false,
+      "benched": false
+     },
+     {
+      "name": "Cherki",
+      "position": "MID",
+      "captain": false,
+      "vice": true,
+      "benched": false
+     },
+     {
       "name": "Haaland",
       "position": "FWD",
       "captain": true,
@@ -14204,8 +14208,16 @@
       "benched": false
      }
     ],
-    "away": [],
-    "count": 1
+    "away": [
+     {
+      "name": "Dubravka",
+      "position": "GKP",
+      "captain": false,
+      "vice": false,
+      "benched": true
+     }
+    ],
+    "count": 4
    },
    "espnId": "401879180",
    "alert": true
@@ -14243,15 +14255,15 @@
    "fpl": {
     "home": [
      {
-      "name": "Calafiori",
-      "position": "DEF",
+      "name": "Raya",
+      "position": "GKP",
       "captain": false,
       "vice": false,
       "benched": false
      },
      {
-      "name": "Rice",
-      "position": "MID",
+      "name": "Calafiori",
+      "position": "DEF",
       "captain": false,
       "vice": false,
       "benched": false
@@ -14305,6 +14317,20 @@
     "home": [],
     "away": [
      {
+      "name": "Gvardiol",
+      "position": "DEF",
+      "captain": false,
+      "vice": false,
+      "benched": false
+     },
+     {
+      "name": "Cherki",
+      "position": "MID",
+      "captain": false,
+      "vice": true,
+      "benched": false
+     },
+     {
       "name": "Haaland",
       "position": "FWD",
       "captain": true,
@@ -14312,7 +14338,7 @@
       "benched": false
      }
     ],
-    "count": 1
+    "count": 3
    },
    "espnId": "401879171",
    "alert": false
@@ -14351,7 +14377,19 @@
     }
    },
    "score": null,
-   "fpl": null,
+   "fpl": {
+    "home": [],
+    "away": [
+     {
+      "name": "Hall",
+      "position": "DEF",
+      "captain": false,
+      "vice": false,
+      "benched": false
+     }
+    ],
+    "count": 1
+   },
    "espnId": "401879170",
    "alert": true
   },
@@ -14393,32 +14431,10 @@
       "captain": false,
       "vice": false,
       "benched": false
-     },
-     {
-      "name": "F.Kadıoğlu",
-      "position": "DEF",
-      "captain": false,
-      "vice": false,
-      "benched": true
      }
     ],
-    "away": [
-     {
-      "name": "Petrović",
-      "position": "GKP",
-      "captain": false,
-      "vice": true,
-      "benched": false
-     },
-     {
-      "name": "Rayan",
-      "position": "MID",
-      "captain": false,
-      "vice": false,
-      "benched": false
-     }
-    ],
-    "count": 4
+    "away": [],
+    "count": 1
    },
    "espnId": "401879176",
    "alert": false
@@ -14453,7 +14469,19 @@
     }
    },
    "score": null,
-   "fpl": null,
+   "fpl": {
+    "home": [],
+    "away": [
+     {
+      "name": "Ajayi",
+      "position": "DEF",
+      "captain": false,
+      "vice": false,
+      "benched": true
+     }
+    ],
+    "count": 1
+   },
    "espnId": "401879169",
    "alert": false
   },
@@ -14488,16 +14516,16 @@
    },
    "score": null,
    "fpl": {
-    "home": [
+    "home": [],
+    "away": [
      {
-      "name": "Leno",
+      "name": "Dubravka",
       "position": "GKP",
       "captain": false,
       "vice": false,
       "benched": true
      }
     ],
-    "away": [],
     "count": 1
    },
    "espnId": "401879173",
@@ -14533,19 +14561,7 @@
     }
    },
    "score": null,
-   "fpl": {
-    "home": [],
-    "away": [
-     {
-      "name": "Cash",
-      "position": "DEF",
-      "captain": false,
-      "vice": false,
-      "benched": true
-     }
-    ],
-    "count": 1
-   },
+   "fpl": null,
    "espnId": "401879174",
    "alert": false
   },
@@ -14591,8 +14607,8 @@
     ],
     "away": [
      {
-      "name": "Virgil",
-      "position": "DEF",
+      "name": "Gakpo",
+      "position": "MID",
       "captain": false,
       "vice": false,
       "benched": false
@@ -14655,7 +14671,7 @@
       "position": "FWD",
       "captain": false,
       "vice": false,
-      "benched": false
+      "benched": true
      }
     ],
     "count": 2
@@ -14727,26 +14743,7 @@
     }
    },
    "score": null,
-   "fpl": {
-    "home": [
-     {
-      "name": "Petrović",
-      "position": "GKP",
-      "captain": false,
-      "vice": true,
-      "benched": false
-     },
-     {
-      "name": "Rayan",
-      "position": "MID",
-      "captain": false,
-      "vice": false,
-      "benched": false
-     }
-    ],
-    "away": [],
-    "count": 2
-   },
+   "fpl": null,
    "espnId": "401878726",
    "alert": false
   },
@@ -14783,6 +14780,20 @@
    "fpl": {
     "home": [
      {
+      "name": "Gvardiol",
+      "position": "DEF",
+      "captain": false,
+      "vice": false,
+      "benched": false
+     },
+     {
+      "name": "Cherki",
+      "position": "MID",
+      "captain": false,
+      "vice": true,
+      "benched": false
+     },
+     {
       "name": "Haaland",
       "position": "FWD",
       "captain": true,
@@ -14791,7 +14802,7 @@
      }
     ],
     "away": [],
-    "count": 1
+    "count": 3
    },
    "espnId": "401878722",
    "alert": false
@@ -14840,7 +14851,7 @@
       "position": "FWD",
       "captain": false,
       "vice": false,
-      "benched": false
+      "benched": true
      }
     ],
     "away": [
@@ -14904,16 +14915,9 @@
       "captain": false,
       "vice": false,
       "benched": false
-     },
-     {
-      "name": "F.Kadıoğlu",
-      "position": "DEF",
-      "captain": false,
-      "vice": false,
-      "benched": true
      }
     ],
-    "count": 3
+    "count": 2
    },
    "espnId": "401879168",
    "alert": false
@@ -14952,19 +14956,7 @@
     }
    },
    "score": null,
-   "fpl": {
-    "home": [
-     {
-      "name": "Cash",
-      "position": "DEF",
-      "captain": false,
-      "vice": false,
-      "benched": true
-     }
-    ],
-    "away": [],
-    "count": 1
-   },
+   "fpl": null,
    "espnId": "401878725",
    "alert": true
   },
@@ -14998,7 +14990,19 @@
     }
    },
    "score": null,
-   "fpl": null,
+   "fpl": {
+    "home": [
+     {
+      "name": "Dubravka",
+      "position": "GKP",
+      "captain": false,
+      "vice": false,
+      "benched": true
+     }
+    ],
+    "away": [],
+    "count": 1
+   },
    "espnId": "401879165",
    "alert": false
   },
@@ -15069,8 +15073,8 @@
    "fpl": {
     "home": [
      {
-      "name": "Virgil",
-      "position": "DEF",
+      "name": "Gakpo",
+      "position": "MID",
       "captain": false,
       "vice": false,
       "benched": false
@@ -15120,24 +15124,32 @@
    },
    "score": null,
    "fpl": {
-    "home": [],
+    "home": [
+     {
+      "name": "Ajayi",
+      "position": "DEF",
+      "captain": false,
+      "vice": false,
+      "benched": true
+     }
+    ],
     "away": [
+     {
+      "name": "Raya",
+      "position": "GKP",
+      "captain": false,
+      "vice": false,
+      "benched": false
+     },
      {
       "name": "Calafiori",
       "position": "DEF",
       "captain": false,
       "vice": false,
       "benched": false
-     },
-     {
-      "name": "Rice",
-      "position": "MID",
-      "captain": false,
-      "vice": false,
-      "benched": false
      }
     ],
-    "count": 2
+    "count": 3
    },
    "espnId": "401878723",
    "alert": false
@@ -15173,16 +15185,16 @@
    },
    "score": null,
    "fpl": {
-    "home": [],
-    "away": [
+    "home": [
      {
-      "name": "Leno",
-      "position": "GKP",
+      "name": "Hall",
+      "position": "DEF",
       "captain": false,
       "vice": false,
-      "benched": true
+      "benched": false
      }
     ],
+    "away": [],
     "count": 1
    },
    "espnId": "401878721",
@@ -15341,19 +15353,7 @@
     }
    },
    "score": null,
-   "fpl": {
-    "home": [
-     {
-      "name": "Cash",
-      "position": "DEF",
-      "captain": false,
-      "vice": false,
-      "benched": true
-     }
-    ],
-    "away": [],
-    "count": 1
-   },
+   "fpl": null,
    "alert": false
   },
   {
@@ -15439,8 +15439,8 @@
     "home": [],
     "away": [
      {
-      "name": "Virgil",
-      "position": "DEF",
+      "name": "Gakpo",
+      "position": "MID",
       "captain": false,
       "vice": false,
       "benched": false
@@ -15735,6 +15735,20 @@
     "home": [],
     "away": [
      {
+      "name": "Gvardiol",
+      "position": "DEF",
+      "captain": false,
+      "vice": false,
+      "benched": false
+     },
+     {
+      "name": "Cherki",
+      "position": "MID",
+      "captain": false,
+      "vice": true,
+      "benched": false
+     },
+     {
       "name": "Haaland",
       "position": "FWD",
       "captain": true,
@@ -15742,7 +15756,7 @@
       "benched": false
      }
     ],
-    "count": 1
+    "count": 3
    },
    "alert": false
   },
@@ -15868,15 +15882,15 @@
     "home": [],
     "away": [
      {
-      "name": "Calafiori",
-      "position": "DEF",
+      "name": "Raya",
+      "position": "GKP",
       "captain": false,
       "vice": false,
       "benched": false
      },
      {
-      "name": "Rice",
-      "position": "MID",
+      "name": "Calafiori",
+      "position": "DEF",
       "captain": false,
       "vice": false,
       "benched": false
@@ -15994,7 +16008,19 @@
     }
    },
    "score": null,
-   "fpl": null,
+   "fpl": {
+    "home": [],
+    "away": [
+     {
+      "name": "Ajayi",
+      "position": "DEF",
+      "captain": false,
+      "vice": false,
+      "benched": true
+     }
+    ],
+    "count": 1
+   },
    "espnId": "401879161",
    "alert": false
   },
@@ -16120,26 +16146,7 @@
     }
    },
    "score": null,
-   "fpl": {
-    "home": [],
-    "away": [
-     {
-      "name": "Petrović",
-      "position": "GKP",
-      "captain": false,
-      "vice": true,
-      "benched": false
-     },
-     {
-      "name": "Rayan",
-      "position": "MID",
-      "captain": false,
-      "vice": false,
-      "benched": false
-     }
-    ],
-    "count": 2
-   },
+   "fpl": null,
    "espnId": "401878717",
    "alert": false
   },
@@ -16176,22 +16183,30 @@
    "fpl": {
     "home": [
      {
-      "name": "Calafiori",
-      "position": "DEF",
+      "name": "Raya",
+      "position": "GKP",
       "captain": false,
       "vice": false,
       "benched": false
      },
      {
-      "name": "Rice",
-      "position": "MID",
+      "name": "Calafiori",
+      "position": "DEF",
       "captain": false,
       "vice": false,
       "benched": false
      }
     ],
-    "away": [],
-    "count": 2
+    "away": [
+     {
+      "name": "Hall",
+      "position": "DEF",
+      "captain": false,
+      "vice": false,
+      "benched": false
+     }
+    ],
+    "count": 3
    },
    "espnId": "401878720",
    "alert": false
@@ -16241,7 +16256,7 @@
       "position": "FWD",
       "captain": false,
       "vice": false,
-      "benched": false
+      "benched": true
      }
     ],
     "count": 2
@@ -16279,27 +16294,7 @@
     }
    },
    "score": null,
-   "fpl": {
-    "home": [
-     {
-      "name": "Leno",
-      "position": "GKP",
-      "captain": false,
-      "vice": false,
-      "benched": true
-     }
-    ],
-    "away": [
-     {
-      "name": "Cash",
-      "position": "DEF",
-      "captain": false,
-      "vice": false,
-      "benched": true
-     }
-    ],
-    "count": 2
-   },
+   "fpl": null,
    "espnId": "401878719",
    "alert": false
   },
@@ -16341,8 +16336,8 @@
     "home": [],
     "away": [
      {
-      "name": "Virgil",
-      "position": "DEF",
+      "name": "Gakpo",
+      "position": "MID",
       "captain": false,
       "vice": false,
       "benched": false
@@ -16398,16 +16393,23 @@
       "captain": false,
       "vice": false,
       "benched": false
-     },
-     {
-      "name": "F.Kadıoğlu",
-      "position": "DEF",
-      "captain": false,
-      "vice": false,
-      "benched": true
      }
     ],
     "away": [
+     {
+      "name": "Gvardiol",
+      "position": "DEF",
+      "captain": false,
+      "vice": false,
+      "benched": false
+     },
+     {
+      "name": "Cherki",
+      "position": "MID",
+      "captain": false,
+      "vice": true,
+      "benched": false
+     },
      {
       "name": "Haaland",
       "position": "FWD",
@@ -16416,7 +16418,7 @@
       "benched": false
      }
     ],
-    "count": 3
+    "count": 4
    },
    "espnId": "401879164",
    "alert": false
@@ -16451,7 +16453,19 @@
     }
    },
    "score": null,
-   "fpl": null,
+   "fpl": {
+    "home": [],
+    "away": [
+     {
+      "name": "Dubravka",
+      "position": "GKP",
+      "captain": false,
+      "vice": false,
+      "benched": true
+     }
+    ],
+    "count": 1
+   },
    "espnId": "401879163",
    "alert": false
   },
@@ -16494,15 +16508,15 @@
    "fpl": {
     "home": [
      {
-      "name": "Calafiori",
-      "position": "DEF",
+      "name": "Raya",
+      "position": "GKP",
       "captain": false,
       "vice": false,
       "benched": false
      },
      {
-      "name": "Rice",
-      "position": "MID",
+      "name": "Calafiori",
+      "position": "DEF",
       "captain": false,
       "vice": false,
       "benched": false
@@ -16864,8 +16878,8 @@
    "fpl": {
     "home": [
      {
-      "name": "Virgil",
-      "position": "DEF",
+      "name": "Gakpo",
+      "position": "MID",
       "captain": false,
       "vice": false,
       "benched": false
@@ -16922,6 +16936,20 @@
    "fpl": {
     "home": [
      {
+      "name": "Gvardiol",
+      "position": "DEF",
+      "captain": false,
+      "vice": false,
+      "benched": false
+     },
+     {
+      "name": "Cherki",
+      "position": "MID",
+      "captain": false,
+      "vice": true,
+      "benched": false
+     },
+     {
       "name": "Haaland",
       "position": "FWD",
       "captain": true,
@@ -16930,7 +16958,7 @@
      }
     ],
     "away": [],
-    "count": 1
+    "count": 3
    },
    "alert": false
   },
@@ -17130,19 +17158,7 @@
     }
    },
    "score": null,
-   "fpl": {
-    "home": [],
-    "away": [
-     {
-      "name": "Cash",
-      "position": "DEF",
-      "captain": false,
-      "vice": false,
-      "benched": true
-     }
-    ],
-    "count": 1
-   },
+   "fpl": null,
    "alert": false
   },
   {
@@ -17258,7 +17274,15 @@
    },
    "score": null,
    "fpl": {
-    "home": [],
+    "home": [
+     {
+      "name": "Dubravka",
+      "position": "GKP",
+      "captain": false,
+      "vice": false,
+      "benched": true
+     }
+    ],
     "away": [
      {
       "name": "Xhaka",
@@ -17268,7 +17292,7 @@
       "benched": true
      }
     ],
-    "count": 1
+    "count": 2
    },
    "espnId": "401879153",
    "alert": false
@@ -17354,7 +17378,15 @@
    },
    "score": null,
    "fpl": {
-    "home": [],
+    "home": [
+     {
+      "name": "Hall",
+      "position": "DEF",
+      "captain": false,
+      "vice": false,
+      "benched": false
+     }
+    ],
     "away": [
      {
       "name": "De Cuyper",
@@ -17362,13 +17394,6 @@
       "captain": false,
       "vice": false,
       "benched": false
-     },
-     {
-      "name": "F.Kadıoğlu",
-      "position": "DEF",
-      "captain": false,
-      "vice": false,
-      "benched": true
      }
     ],
     "count": 2
@@ -17406,7 +17431,19 @@
     }
    },
    "score": null,
-   "fpl": null,
+   "fpl": {
+    "home": [
+     {
+      "name": "Ajayi",
+      "position": "DEF",
+      "captain": false,
+      "vice": false,
+      "benched": true
+     }
+    ],
+    "away": [],
+    "count": 1
+   },
    "espnId": "401879156",
    "alert": false
   },
@@ -17474,34 +17511,7 @@
     }
    },
    "score": null,
-   "fpl": {
-    "home": [
-     {
-      "name": "Petrović",
-      "position": "GKP",
-      "captain": false,
-      "vice": true,
-      "benched": false
-     },
-     {
-      "name": "Rayan",
-      "position": "MID",
-      "captain": false,
-      "vice": false,
-      "benched": false
-     }
-    ],
-    "away": [
-     {
-      "name": "Leno",
-      "position": "GKP",
-      "captain": false,
-      "vice": false,
-      "benched": true
-     }
-    ],
-    "count": 3
-   },
+   "fpl": null,
    "espnId": "401879158",
    "alert": false
   },
@@ -17549,7 +17559,7 @@
       "position": "FWD",
       "captain": false,
       "vice": false,
-      "benched": false
+      "benched": true
      }
     ],
     "away": [],
@@ -17595,8 +17605,8 @@
    "fpl": {
     "home": [
      {
-      "name": "Virgil",
-      "position": "DEF",
+      "name": "Gakpo",
+      "position": "MID",
       "captain": false,
       "vice": false,
       "benched": false
@@ -17652,6 +17662,20 @@
    "fpl": {
     "home": [
      {
+      "name": "Gvardiol",
+      "position": "DEF",
+      "captain": false,
+      "vice": false,
+      "benched": false
+     },
+     {
+      "name": "Cherki",
+      "position": "MID",
+      "captain": false,
+      "vice": true,
+      "benched": false
+     },
+     {
       "name": "Haaland",
       "position": "FWD",
       "captain": true,
@@ -17661,21 +17685,21 @@
     ],
     "away": [
      {
-      "name": "Calafiori",
-      "position": "DEF",
+      "name": "Raya",
+      "position": "GKP",
       "captain": false,
       "vice": false,
       "benched": false
      },
      {
-      "name": "Rice",
-      "position": "MID",
+      "name": "Calafiori",
+      "position": "DEF",
       "captain": false,
       "vice": false,
       "benched": false
      }
     ],
-    "count": 3
+    "count": 5
    },
    "espnId": "401879154",
    "alert": true
@@ -17710,19 +17734,7 @@
     }
    },
    "score": null,
-   "fpl": {
-    "home": [
-     {
-      "name": "Cash",
-      "position": "DEF",
-      "captain": false,
-      "vice": false,
-      "benched": true
-     }
-    ],
-    "away": [],
-    "count": 1
-   },
+   "fpl": null,
    "espnId": "401878716",
    "alert": false
   },
@@ -17763,15 +17775,15 @@
    "fpl": {
     "home": [
      {
-      "name": "Calafiori",
-      "position": "DEF",
+      "name": "Raya",
+      "position": "GKP",
       "captain": false,
       "vice": false,
       "benched": false
      },
      {
-      "name": "Rice",
-      "position": "MID",
+      "name": "Calafiori",
+      "position": "DEF",
       "captain": false,
       "vice": false,
       "benched": false
@@ -17779,8 +17791,8 @@
     ],
     "away": [
      {
-      "name": "Virgil",
-      "position": "DEF",
+      "name": "Gakpo",
+      "position": "MID",
       "captain": false,
       "vice": false,
       "benched": false
@@ -17836,16 +17848,17 @@
       "captain": false,
       "vice": false,
       "benched": false
-     },
+     }
+    ],
+    "away": [
      {
-      "name": "F.Kadıoğlu",
+      "name": "Ajayi",
       "position": "DEF",
       "captain": false,
       "vice": false,
       "benched": true
      }
     ],
-    "away": [],
     "count": 2
    },
    "espnId": "401878711",
@@ -17891,16 +17904,8 @@
       "benched": true
      }
     ],
-    "away": [
-     {
-      "name": "Cash",
-      "position": "DEF",
-      "captain": false,
-      "vice": false,
-      "benched": true
-     }
-    ],
-    "count": 2
+    "away": [],
+    "count": 1
    },
    "espnId": "401878709",
    "alert": false
@@ -17969,7 +17974,19 @@
     }
    },
    "score": null,
-   "fpl": null,
+   "fpl": {
+    "home": [],
+    "away": [
+     {
+      "name": "Dubravka",
+      "position": "GKP",
+      "captain": false,
+      "vice": false,
+      "benched": true
+     }
+    ],
+    "count": 1
+   },
    "espnId": "401879149",
    "alert": false
   },
@@ -18003,7 +18020,19 @@
     }
    },
    "score": null,
-   "fpl": null,
+   "fpl": {
+    "home": [],
+    "away": [
+     {
+      "name": "Hall",
+      "position": "DEF",
+      "captain": false,
+      "vice": false,
+      "benched": false
+     }
+    ],
+    "count": 1
+   },
    "espnId": "401879151",
    "alert": false
   },
@@ -18038,16 +18067,22 @@
    },
    "score": null,
    "fpl": {
-    "home": [
+    "home": [],
+    "away": [
      {
-      "name": "Leno",
-      "position": "GKP",
+      "name": "Gvardiol",
+      "position": "DEF",
       "captain": false,
       "vice": false,
-      "benched": true
-     }
-    ],
-    "away": [
+      "benched": false
+     },
+     {
+      "name": "Cherki",
+      "position": "MID",
+      "captain": false,
+      "vice": true,
+      "benched": false
+     },
      {
       "name": "Haaland",
       "position": "FWD",
@@ -18056,7 +18091,7 @@
       "benched": false
      }
     ],
-    "count": 2
+    "count": 3
    },
    "espnId": "401879150",
    "alert": false
@@ -18091,26 +18126,7 @@
     }
    },
    "score": null,
-   "fpl": {
-    "home": [],
-    "away": [
-     {
-      "name": "Petrović",
-      "position": "GKP",
-      "captain": false,
-      "vice": true,
-      "benched": false
-     },
-     {
-      "name": "Rayan",
-      "position": "MID",
-      "captain": false,
-      "vice": false,
-      "benched": false
-     }
-    ],
-    "count": 2
-   },
+   "fpl": null,
    "espnId": "401878710",
    "alert": false
   },
@@ -18163,7 +18179,7 @@
       "position": "FWD",
       "captain": false,
       "vice": false,
-      "benched": false
+      "benched": true
      }
     ],
     "count": 2
@@ -18285,8 +18301,8 @@
     "home": [],
     "away": [
      {
-      "name": "Virgil",
-      "position": "DEF",
+      "name": "Gakpo",
+      "position": "MID",
       "captain": false,
       "vice": false,
       "benched": false
@@ -18335,7 +18351,15 @@
    },
    "score": null,
    "fpl": {
-    "home": [],
+    "home": [
+     {
+      "name": "Ajayi",
+      "position": "DEF",
+      "captain": false,
+      "vice": false,
+      "benched": true
+     }
+    ],
     "away": [
      {
       "name": "Xhaka",
@@ -18345,7 +18369,7 @@
       "benched": true
      }
     ],
-    "count": 1
+    "count": 2
    },
    "espnId": "401879143",
    "alert": false
@@ -18380,34 +18404,7 @@
     }
    },
    "score": null,
-   "fpl": {
-    "home": [
-     {
-      "name": "Cash",
-      "position": "DEF",
-      "captain": false,
-      "vice": false,
-      "benched": true
-     }
-    ],
-    "away": [
-     {
-      "name": "Petrović",
-      "position": "GKP",
-      "captain": false,
-      "vice": true,
-      "benched": false
-     },
-     {
-      "name": "Rayan",
-      "position": "MID",
-      "captain": false,
-      "vice": false,
-      "benched": false
-     }
-    ],
-    "count": 3
-   },
+   "fpl": null,
    "espnId": "401879146",
    "alert": false
   },
@@ -18488,7 +18485,15 @@
    },
    "score": null,
    "fpl": {
-    "home": [],
+    "home": [
+     {
+      "name": "Hall",
+      "position": "DEF",
+      "captain": false,
+      "vice": false,
+      "benched": false
+     }
+    ],
     "away": [
      {
       "name": "Rogers",
@@ -18502,10 +18507,10 @@
       "position": "FWD",
       "captain": false,
       "vice": false,
-      "benched": false
+      "benched": true
      }
     ],
-    "count": 2
+    "count": 3
    },
    "espnId": "401879141",
    "alert": false
@@ -18540,19 +18545,7 @@
     }
    },
    "score": null,
-   "fpl": {
-    "home": [
-     {
-      "name": "Leno",
-      "position": "GKP",
-      "captain": false,
-      "vice": false,
-      "benched": true
-     }
-    ],
-    "away": [],
-    "count": 1
-   },
+   "fpl": null,
    "espnId": "401879144",
    "alert": false
   },
@@ -18591,8 +18584,30 @@
    },
    "score": null,
    "fpl": {
-    "home": [],
+    "home": [
+     {
+      "name": "Dubravka",
+      "position": "GKP",
+      "captain": false,
+      "vice": false,
+      "benched": true
+     }
+    ],
     "away": [
+     {
+      "name": "Gvardiol",
+      "position": "DEF",
+      "captain": false,
+      "vice": false,
+      "benched": false
+     },
+     {
+      "name": "Cherki",
+      "position": "MID",
+      "captain": false,
+      "vice": true,
+      "benched": false
+     },
      {
       "name": "Haaland",
       "position": "FWD",
@@ -18601,7 +18616,7 @@
       "benched": false
      }
     ],
-    "count": 1
+    "count": 4
    },
    "espnId": "401879140",
    "alert": true
@@ -18649,16 +18664,9 @@
       "captain": false,
       "vice": false,
       "benched": false
-     },
-     {
-      "name": "F.Kadıoğlu",
-      "position": "DEF",
-      "captain": false,
-      "vice": false,
-      "benched": true
      }
     ],
-    "count": 2
+    "count": 1
    },
    "espnId": "401879142",
    "alert": true
@@ -18697,15 +18705,15 @@
     "home": [],
     "away": [
      {
-      "name": "Calafiori",
-      "position": "DEF",
+      "name": "Raya",
+      "position": "GKP",
       "captain": false,
       "vice": false,
       "benched": false
      },
      {
-      "name": "Rice",
-      "position": "MID",
+      "name": "Calafiori",
+      "position": "DEF",
       "captain": false,
       "vice": false,
       "benched": false
@@ -18749,6 +18757,20 @@
    "fpl": {
     "home": [
      {
+      "name": "Gvardiol",
+      "position": "DEF",
+      "captain": false,
+      "vice": false,
+      "benched": false
+     },
+     {
+      "name": "Cherki",
+      "position": "MID",
+      "captain": false,
+      "vice": true,
+      "benched": false
+     },
+     {
       "name": "Haaland",
       "position": "FWD",
       "captain": true,
@@ -18756,8 +18778,16 @@
       "benched": false
      }
     ],
-    "away": [],
-    "count": 1
+    "away": [
+     {
+      "name": "Hall",
+      "position": "DEF",
+      "captain": false,
+      "vice": false,
+      "benched": false
+     }
+    ],
+    "count": 4
    },
    "espnId": "401879135",
    "alert": false
@@ -18792,26 +18822,7 @@
     }
    },
    "score": null,
-   "fpl": {
-    "home": [
-     {
-      "name": "Petrović",
-      "position": "GKP",
-      "captain": false,
-      "vice": true,
-      "benched": false
-     },
-     {
-      "name": "Rayan",
-      "position": "MID",
-      "captain": false,
-      "vice": false,
-      "benched": false
-     }
-    ],
-    "away": [],
-    "count": 2
-   },
+   "fpl": null,
    "espnId": "401879139",
    "alert": false
   },
@@ -18905,7 +18916,7 @@
       "position": "FWD",
       "captain": false,
       "vice": false,
-      "benched": false
+      "benched": true
      }
     ],
     "away": [],
@@ -18947,8 +18958,8 @@
    "fpl": {
     "home": [
      {
-      "name": "Virgil",
-      "position": "DEF",
+      "name": "Gakpo",
+      "position": "MID",
       "captain": false,
       "vice": false,
       "benched": false
@@ -18961,8 +18972,16 @@
       "benched": false
      }
     ],
-    "away": [],
-    "count": 2
+    "away": [
+     {
+      "name": "Ajayi",
+      "position": "DEF",
+      "captain": false,
+      "vice": false,
+      "benched": true
+     }
+    ],
+    "count": 3
    },
    "espnId": "401878703",
    "alert": false
@@ -19000,30 +19019,22 @@
    "fpl": {
     "home": [
      {
-      "name": "Calafiori",
-      "position": "DEF",
+      "name": "Raya",
+      "position": "GKP",
       "captain": false,
       "vice": false,
       "benched": false
      },
      {
-      "name": "Rice",
-      "position": "MID",
+      "name": "Calafiori",
+      "position": "DEF",
       "captain": false,
       "vice": false,
       "benched": false
      }
     ],
-    "away": [
-     {
-      "name": "Leno",
-      "position": "GKP",
-      "captain": false,
-      "vice": false,
-      "benched": true
-     }
-    ],
-    "count": 3
+    "away": [],
+    "count": 2
    },
    "espnId": "401878705",
    "alert": false
@@ -19104,16 +19115,17 @@
       "captain": false,
       "vice": false,
       "benched": false
-     },
+     }
+    ],
+    "away": [
      {
-      "name": "F.Kadıoğlu",
-      "position": "DEF",
+      "name": "Dubravka",
+      "position": "GKP",
       "captain": false,
       "vice": false,
       "benched": true
      }
     ],
-    "away": [],
     "count": 2
    },
    "espnId": "401879137",
@@ -19195,19 +19207,7 @@
     }
    },
    "score": null,
-   "fpl": {
-    "home": [],
-    "away": [
-     {
-      "name": "Cash",
-      "position": "DEF",
-      "captain": false,
-      "vice": false,
-      "benched": true
-     }
-    ],
-    "count": 1
-   },
+   "fpl": null,
    "espnId": "401879136",
    "alert": false
   },
@@ -19295,15 +19295,15 @@
     "home": [],
     "away": [
      {
-      "name": "Calafiori",
-      "position": "DEF",
+      "name": "Raya",
+      "position": "GKP",
       "captain": false,
       "vice": false,
       "benched": false
      },
      {
-      "name": "Rice",
-      "position": "MID",
+      "name": "Calafiori",
+      "position": "DEF",
       "captain": false,
       "vice": false,
       "benched": false
@@ -19353,16 +19353,9 @@
       "captain": false,
       "vice": false,
       "benched": false
-     },
-     {
-      "name": "F.Kadıoğlu",
-      "position": "DEF",
-      "captain": false,
-      "vice": false,
-      "benched": true
      }
     ],
-    "count": 2
+    "count": 1
    },
    "espnId": "401879131",
    "alert": false
@@ -19397,26 +19390,7 @@
     }
    },
    "score": null,
-   "fpl": {
-    "home": [],
-    "away": [
-     {
-      "name": "Petrović",
-      "position": "GKP",
-      "captain": false,
-      "vice": true,
-      "benched": false
-     },
-     {
-      "name": "Rayan",
-      "position": "MID",
-      "captain": false,
-      "vice": false,
-      "benched": false
-     }
-    ],
-    "count": 2
-   },
+   "fpl": null,
    "espnId": "401879132",
    "alert": false
   },
@@ -19484,19 +19458,7 @@
     }
    },
    "score": null,
-   "fpl": {
-    "home": [
-     {
-      "name": "Leno",
-      "position": "GKP",
-      "captain": false,
-      "vice": false,
-      "benched": true
-     }
-    ],
-    "away": [],
-    "count": 1
-   },
+   "fpl": null,
    "espnId": "401878699",
    "alert": false
   },
@@ -19531,15 +19493,7 @@
    },
    "score": null,
    "fpl": {
-    "home": [
-     {
-      "name": "Cash",
-      "position": "DEF",
-      "captain": false,
-      "vice": false,
-      "benched": true
-     }
-    ],
+    "home": [],
     "away": [
      {
       "name": "Rogers",
@@ -19553,10 +19507,10 @@
       "position": "FWD",
       "captain": false,
       "vice": false,
-      "benched": false
+      "benched": true
      }
     ],
-    "count": 3
+    "count": 2
    },
    "espnId": "401879133",
    "alert": false
@@ -19596,11 +19550,19 @@
    },
    "score": null,
    "fpl": {
-    "home": [],
+    "home": [
+     {
+      "name": "Dubravka",
+      "position": "GKP",
+      "captain": false,
+      "vice": false,
+      "benched": true
+     }
+    ],
     "away": [
      {
-      "name": "Virgil",
-      "position": "DEF",
+      "name": "Gakpo",
+      "position": "MID",
       "captain": false,
       "vice": false,
       "benched": false
@@ -19613,7 +19575,7 @@
       "benched": false
      }
     ],
-    "count": 2
+    "count": 3
    },
    "espnId": "401879129",
    "alert": true
@@ -19649,7 +19611,15 @@
    },
    "score": null,
    "fpl": {
-    "home": [],
+    "home": [
+     {
+      "name": "Hall",
+      "position": "DEF",
+      "captain": false,
+      "vice": false,
+      "benched": false
+     }
+    ],
     "away": [
      {
       "name": "M.Sangaré",
@@ -19659,7 +19629,7 @@
       "benched": false
      }
     ],
-    "count": 1
+    "count": 2
    },
    "espnId": "401879130",
    "alert": false
@@ -19695,8 +19665,30 @@
    },
    "score": null,
    "fpl": {
-    "home": [],
+    "home": [
+     {
+      "name": "Ajayi",
+      "position": "DEF",
+      "captain": false,
+      "vice": false,
+      "benched": true
+     }
+    ],
     "away": [
+     {
+      "name": "Gvardiol",
+      "position": "DEF",
+      "captain": false,
+      "vice": false,
+      "benched": false
+     },
+     {
+      "name": "Cherki",
+      "position": "MID",
+      "captain": false,
+      "vice": true,
+      "benched": false
+     },
      {
       "name": "Haaland",
       "position": "FWD",
@@ -19705,7 +19697,7 @@
       "benched": false
      }
     ],
-    "count": 1
+    "count": 4
    },
    "espnId": "401878698",
    "alert": false
@@ -19740,7 +19732,19 @@
     }
    },
    "score": null,
-   "fpl": null,
+   "fpl": {
+    "home": [],
+    "away": [
+     {
+      "name": "Hall",
+      "position": "DEF",
+      "captain": false,
+      "vice": false,
+      "benched": false
+     }
+    ],
+    "count": 1
+   },
    "espnId": "401879123",
    "alert": false
   },
@@ -19775,24 +19779,17 @@
    },
    "score": null,
    "fpl": {
-    "home": [
+    "home": [],
+    "away": [
      {
-      "name": "Petrović",
+      "name": "Dubravka",
       "position": "GKP",
       "captain": false,
-      "vice": true,
-      "benched": false
-     },
-     {
-      "name": "Rayan",
-      "position": "MID",
-      "captain": false,
       "vice": false,
-      "benched": false
+      "benched": true
      }
     ],
-    "away": [],
-    "count": 2
+    "count": 1
    },
    "espnId": "401879128",
    "alert": false
@@ -19830,6 +19827,20 @@
    "fpl": {
     "home": [
      {
+      "name": "Gvardiol",
+      "position": "DEF",
+      "captain": false,
+      "vice": false,
+      "benched": false
+     },
+     {
+      "name": "Cherki",
+      "position": "MID",
+      "captain": false,
+      "vice": true,
+      "benched": false
+     },
+     {
       "name": "Haaland",
       "position": "FWD",
       "captain": true,
@@ -19838,7 +19849,7 @@
      }
     ],
     "away": [],
-    "count": 1
+    "count": 3
    },
    "espnId": "401879124",
    "alert": false
@@ -19876,15 +19887,15 @@
    "fpl": {
     "home": [
      {
-      "name": "Calafiori",
-      "position": "DEF",
+      "name": "Raya",
+      "position": "GKP",
       "captain": false,
       "vice": false,
       "benched": false
      },
      {
-      "name": "Rice",
-      "position": "MID",
+      "name": "Calafiori",
+      "position": "DEF",
       "captain": false,
       "vice": false,
       "benched": false
@@ -19926,7 +19937,19 @@
     }
    },
    "score": null,
-   "fpl": null,
+   "fpl": {
+    "home": [],
+    "away": [
+     {
+      "name": "Ajayi",
+      "position": "DEF",
+      "captain": false,
+      "vice": false,
+      "benched": true
+     }
+    ],
+    "count": 1
+   },
    "espnId": "401878694",
    "alert": false
   },
@@ -20013,8 +20036,8 @@
    "fpl": {
     "home": [
      {
-      "name": "Virgil",
-      "position": "DEF",
+      "name": "Gakpo",
+      "position": "MID",
       "captain": false,
       "vice": false,
       "benched": false
@@ -20027,16 +20050,8 @@
       "benched": false
      }
     ],
-    "away": [
-     {
-      "name": "Cash",
-      "position": "DEF",
-      "captain": false,
-      "vice": false,
-      "benched": true
-     }
-    ],
-    "count": 3
+    "away": [],
+    "count": 2
    },
    "espnId": "401879125",
    "alert": false
@@ -20079,25 +20094,10 @@
       "captain": false,
       "vice": false,
       "benched": false
-     },
-     {
-      "name": "F.Kadıoğlu",
-      "position": "DEF",
-      "captain": false,
-      "vice": false,
-      "benched": true
      }
     ],
-    "away": [
-     {
-      "name": "Leno",
-      "position": "GKP",
-      "captain": false,
-      "vice": false,
-      "benched": true
-     }
-    ],
-    "count": 3
+    "away": [],
+    "count": 1
    },
    "espnId": "401878695",
    "alert": false
@@ -20192,7 +20192,7 @@
       "position": "FWD",
       "captain": false,
       "vice": false,
-      "benched": false
+      "benched": true
      }
     ],
     "away": [],
@@ -20240,16 +20240,9 @@
       "captain": false,
       "vice": false,
       "benched": false
-     },
-     {
-      "name": "F.Kadıoğlu",
-      "position": "DEF",
-      "captain": false,
-      "vice": false,
-      "benched": true
      }
     ],
-    "count": 2
+    "count": 1
    },
    "espnId": "401879119",
    "alert": false
@@ -20284,7 +20277,19 @@
     }
    },
    "score": null,
-   "fpl": null,
+   "fpl": {
+    "home": [
+     {
+      "name": "Dubravka",
+      "position": "GKP",
+      "captain": false,
+      "vice": false,
+      "benched": true
+     }
+    ],
+    "away": [],
+    "count": 1
+   },
    "espnId": "401879116",
    "alert": false
   },
@@ -20318,19 +20323,7 @@
     }
    },
    "score": null,
-   "fpl": {
-    "home": [],
-    "away": [
-     {
-      "name": "Leno",
-      "position": "GKP",
-      "captain": false,
-      "vice": false,
-      "benched": true
-     }
-    ],
-    "count": 1
-   },
+   "fpl": null,
    "espnId": "401878691",
    "alert": false
   },
@@ -20367,8 +20360,8 @@
    "fpl": {
     "home": [
      {
-      "name": "Virgil",
-      "position": "DEF",
+      "name": "Gakpo",
+      "position": "MID",
       "captain": false,
       "vice": false,
       "benched": false
@@ -20421,6 +20414,20 @@
     "home": [],
     "away": [
      {
+      "name": "Gvardiol",
+      "position": "DEF",
+      "captain": false,
+      "vice": false,
+      "benched": false
+     },
+     {
+      "name": "Cherki",
+      "position": "MID",
+      "captain": false,
+      "vice": true,
+      "benched": false
+     },
+     {
       "name": "Haaland",
       "position": "FWD",
       "captain": true,
@@ -20428,7 +20435,7 @@
       "benched": false
      }
     ],
-    "count": 1
+    "count": 3
    },
    "espnId": "401878692",
    "alert": false
@@ -20464,24 +20471,17 @@
    },
    "score": null,
    "fpl": {
-    "home": [
+    "home": [],
+    "away": [
      {
-      "name": "Petrović",
-      "position": "GKP",
-      "captain": false,
-      "vice": true,
-      "benched": false
-     },
-     {
-      "name": "Rayan",
-      "position": "MID",
+      "name": "Hall",
+      "position": "DEF",
       "captain": false,
       "vice": false,
       "benched": false
      }
     ],
-    "away": [],
-    "count": 2
+    "count": 1
    },
    "espnId": "401879121",
    "alert": false
@@ -20534,20 +20534,20 @@
       "position": "FWD",
       "captain": false,
       "vice": false,
-      "benched": false
+      "benched": true
      }
     ],
     "away": [
      {
-      "name": "Calafiori",
-      "position": "DEF",
+      "name": "Raya",
+      "position": "GKP",
       "captain": false,
       "vice": false,
       "benched": false
      },
      {
-      "name": "Rice",
-      "position": "MID",
+      "name": "Calafiori",
+      "position": "DEF",
       "captain": false,
       "vice": false,
       "benched": false
@@ -20589,16 +20589,16 @@
    },
    "score": null,
    "fpl": {
-    "home": [
+    "home": [],
+    "away": [
      {
-      "name": "Cash",
+      "name": "Ajayi",
       "position": "DEF",
       "captain": false,
       "vice": false,
       "benched": true
      }
     ],
-    "away": [],
     "count": 1
    },
    "espnId": "401879120",
@@ -20736,23 +20736,8 @@
       "benched": false
      }
     ],
-    "away": [
-     {
-      "name": "Petrović",
-      "position": "GKP",
-      "captain": false,
-      "vice": true,
-      "benched": false
-     },
-     {
-      "name": "Rayan",
-      "position": "MID",
-      "captain": false,
-      "vice": false,
-      "benched": false
-     }
-    ],
-    "count": 3
+    "away": [],
+    "count": 1
    },
    "espnId": "401879114",
    "alert": false
@@ -20795,17 +20780,10 @@
       "captain": false,
       "vice": false,
       "benched": false
-     },
-     {
-      "name": "F.Kadıoğlu",
-      "position": "DEF",
-      "captain": false,
-      "vice": false,
-      "benched": true
      }
     ],
     "away": [],
-    "count": 2
+    "count": 1
    },
    "espnId": "401879113",
    "alert": false
@@ -20847,6 +20825,20 @@
    "fpl": {
     "home": [
      {
+      "name": "Gvardiol",
+      "position": "DEF",
+      "captain": false,
+      "vice": false,
+      "benched": false
+     },
+     {
+      "name": "Cherki",
+      "position": "MID",
+      "captain": false,
+      "vice": true,
+      "benched": false
+     },
+     {
       "name": "Haaland",
       "position": "FWD",
       "captain": true,
@@ -20855,7 +20847,7 @@
      }
     ],
     "away": [],
-    "count": 1
+    "count": 3
    },
    "espnId": "401879108",
    "alert": true
@@ -20927,15 +20919,15 @@
    "fpl": {
     "home": [
      {
-      "name": "Calafiori",
-      "position": "DEF",
+      "name": "Raya",
+      "position": "GKP",
       "captain": false,
       "vice": false,
       "benched": false
      },
      {
-      "name": "Rice",
-      "position": "MID",
+      "name": "Calafiori",
+      "position": "DEF",
       "captain": false,
       "vice": false,
       "benched": false
@@ -20986,19 +20978,11 @@
    },
    "score": null,
    "fpl": {
-    "home": [
-     {
-      "name": "Leno",
-      "position": "GKP",
-      "captain": false,
-      "vice": false,
-      "benched": true
-     }
-    ],
+    "home": [],
     "away": [
      {
-      "name": "Virgil",
-      "position": "DEF",
+      "name": "Gakpo",
+      "position": "MID",
       "captain": false,
       "vice": false,
       "benched": false
@@ -21011,7 +20995,7 @@
       "benched": false
      }
     ],
-    "count": 3
+    "count": 2
    },
    "espnId": "401879111",
    "alert": false
@@ -21047,7 +21031,15 @@
    },
    "score": null,
    "fpl": {
-    "home": [],
+    "home": [
+     {
+      "name": "Ajayi",
+      "position": "DEF",
+      "captain": false,
+      "vice": false,
+      "benched": true
+     }
+    ],
     "away": [
      {
       "name": "Rogers",
@@ -21061,10 +21053,10 @@
       "position": "FWD",
       "captain": false,
       "vice": false,
-      "benched": false
+      "benched": true
      }
     ],
-    "count": 2
+    "count": 3
    },
    "espnId": "401879110",
    "alert": false
@@ -21099,19 +21091,7 @@
     }
    },
    "score": null,
-   "fpl": {
-    "home": [],
-    "away": [
-     {
-      "name": "Cash",
-      "position": "DEF",
-      "captain": false,
-      "vice": false,
-      "benched": true
-     }
-    ],
-    "count": 1
-   },
+   "fpl": null,
    "espnId": "401878689",
    "alert": false
   },
@@ -21145,7 +21125,19 @@
     }
    },
    "score": null,
-   "fpl": null,
+   "fpl": {
+    "home": [],
+    "away": [
+     {
+      "name": "Dubravka",
+      "position": "GKP",
+      "captain": false,
+      "vice": false,
+      "benched": true
+     }
+    ],
+    "count": 1
+   },
    "espnId": "401879112",
    "alert": false
   },
@@ -21179,7 +21171,19 @@
     }
    },
    "score": null,
-   "fpl": null,
+   "fpl": {
+    "home": [
+     {
+      "name": "Hall",
+      "position": "DEF",
+      "captain": false,
+      "vice": false,
+      "benched": false
+     }
+    ],
+    "away": [],
+    "count": 1
+   },
    "espnId": "401879107",
    "alert": false
   },
@@ -21297,7 +21301,19 @@
     }
    },
    "score": null,
-   "fpl": null,
+   "fpl": {
+    "home": [],
+    "away": [
+     {
+      "name": "Ajayi",
+      "position": "DEF",
+      "captain": false,
+      "vice": false,
+      "benched": true
+     }
+    ],
+    "count": 1
+   },
    "espnId": "401879100",
    "alert": true
   },
@@ -21349,19 +21365,11 @@
       "position": "FWD",
       "captain": false,
       "vice": false,
-      "benched": false
-     }
-    ],
-    "away": [
-     {
-      "name": "Leno",
-      "position": "GKP",
-      "captain": false,
-      "vice": false,
       "benched": true
      }
     ],
-    "count": 3
+    "away": [],
+    "count": 2
    },
    "espnId": "401879104",
    "alert": true
@@ -21399,8 +21407,8 @@
    "fpl": {
     "home": [
      {
-      "name": "Virgil",
-      "position": "DEF",
+      "name": "Gakpo",
+      "position": "MID",
       "captain": false,
       "vice": false,
       "benched": false
@@ -21413,8 +21421,16 @@
       "benched": false
      }
     ],
-    "away": [],
-    "count": 2
+    "away": [
+     {
+      "name": "Hall",
+      "position": "DEF",
+      "captain": false,
+      "vice": false,
+      "benched": false
+     }
+    ],
+    "count": 3
    },
    "espnId": "401879101",
    "alert": false
@@ -21453,15 +21469,15 @@
     "home": [],
     "away": [
      {
-      "name": "Calafiori",
-      "position": "DEF",
+      "name": "Raya",
+      "position": "GKP",
       "captain": false,
       "vice": false,
       "benched": false
      },
      {
-      "name": "Rice",
-      "position": "MID",
+      "name": "Calafiori",
+      "position": "DEF",
       "captain": false,
       "vice": false,
       "benched": false
@@ -21503,23 +21519,22 @@
    },
    "score": null,
    "fpl": {
-    "home": [
+    "home": [],
+    "away": [
      {
-      "name": "Petrović",
-      "position": "GKP",
+      "name": "Gvardiol",
+      "position": "DEF",
+      "captain": false,
+      "vice": false,
+      "benched": false
+     },
+     {
+      "name": "Cherki",
+      "position": "MID",
       "captain": false,
       "vice": true,
       "benched": false
      },
-     {
-      "name": "Rayan",
-      "position": "MID",
-      "captain": false,
-      "vice": false,
-      "benched": false
-     }
-    ],
-    "away": [
      {
       "name": "Haaland",
       "position": "FWD",
@@ -21598,7 +21613,15 @@
    },
    "score": null,
    "fpl": {
-    "home": [],
+    "home": [
+     {
+      "name": "Dubravka",
+      "position": "GKP",
+      "captain": false,
+      "vice": false,
+      "benched": true
+     }
+    ],
     "away": [
      {
       "name": "M.Sangaré",
@@ -21608,7 +21631,7 @@
       "benched": false
      }
     ],
-    "count": 1
+    "count": 2
    },
    "espnId": "401879099",
    "alert": false
@@ -21644,15 +21667,7 @@
    },
    "score": null,
    "fpl": {
-    "home": [
-     {
-      "name": "Cash",
-      "position": "DEF",
-      "captain": false,
-      "vice": false,
-      "benched": true
-     }
-    ],
+    "home": [],
     "away": [
      {
       "name": "De Cuyper",
@@ -21660,16 +21675,9 @@
       "captain": false,
       "vice": false,
       "benched": false
-     },
-     {
-      "name": "F.Kadıoğlu",
-      "position": "DEF",
-      "captain": false,
-      "vice": false,
-      "benched": true
      }
     ],
-    "count": 3
+    "count": 1
    },
    "espnId": "401879105",
    "alert": false
@@ -21712,13 +21720,6 @@
       "captain": false,
       "vice": false,
       "benched": false
-     },
-     {
-      "name": "F.Kadıoğlu",
-      "position": "DEF",
-      "captain": false,
-      "vice": false,
-      "benched": true
      }
     ],
     "away": [
@@ -21734,10 +21735,10 @@
       "position": "FWD",
       "captain": false,
       "vice": false,
-      "benched": false
+      "benched": true
      }
     ],
-    "count": 4
+    "count": 3
    },
    "espnId": "401878685",
    "alert": false
@@ -21773,15 +21774,7 @@
    },
    "score": null,
    "fpl": {
-    "home": [
-     {
-      "name": "Leno",
-      "position": "GKP",
-      "captain": false,
-      "vice": false,
-      "benched": true
-     }
-    ],
+    "home": [],
     "away": [
      {
       "name": "Xhaka",
@@ -21791,7 +21784,7 @@
       "benched": true
      }
     ],
-    "count": 2
+    "count": 1
    },
    "espnId": "401879097",
    "alert": false
@@ -21876,8 +21869,8 @@
     "home": [],
     "away": [
      {
-      "name": "Virgil",
-      "position": "DEF",
+      "name": "Gakpo",
+      "position": "MID",
       "captain": false,
       "vice": false,
       "benched": false
@@ -21925,7 +21918,19 @@
     }
    },
    "score": null,
-   "fpl": null,
+   "fpl": {
+    "home": [
+     {
+      "name": "Ajayi",
+      "position": "DEF",
+      "captain": false,
+      "vice": false,
+      "benched": true
+     }
+    ],
+    "away": [],
+    "count": 1
+   },
    "espnId": "401878683",
    "alert": false
   },
@@ -21962,30 +21967,22 @@
    "fpl": {
     "home": [
      {
-      "name": "Calafiori",
-      "position": "DEF",
+      "name": "Raya",
+      "position": "GKP",
       "captain": false,
       "vice": false,
       "benched": false
      },
      {
-      "name": "Rice",
-      "position": "MID",
+      "name": "Calafiori",
+      "position": "DEF",
       "captain": false,
       "vice": false,
       "benched": false
      }
     ],
-    "away": [
-     {
-      "name": "Cash",
-      "position": "DEF",
-      "captain": false,
-      "vice": false,
-      "benched": true
-     }
-    ],
-    "count": 3
+    "away": [],
+    "count": 2
    },
    "espnId": "401878686",
    "alert": false
@@ -22061,6 +22058,20 @@
    "fpl": {
     "home": [
      {
+      "name": "Gvardiol",
+      "position": "DEF",
+      "captain": false,
+      "vice": false,
+      "benched": false
+     },
+     {
+      "name": "Cherki",
+      "position": "MID",
+      "captain": false,
+      "vice": true,
+      "benched": false
+     },
+     {
       "name": "Haaland",
       "position": "FWD",
       "captain": true,
@@ -22069,7 +22080,7 @@
      }
     ],
     "away": [],
-    "count": 1
+    "count": 3
    },
    "espnId": "401879095",
    "alert": false
@@ -22104,7 +22115,27 @@
     }
    },
    "score": null,
-   "fpl": null,
+   "fpl": {
+    "home": [
+     {
+      "name": "Hall",
+      "position": "DEF",
+      "captain": false,
+      "vice": false,
+      "benched": false
+     }
+    ],
+    "away": [
+     {
+      "name": "Dubravka",
+      "position": "GKP",
+      "captain": false,
+      "vice": false,
+      "benched": true
+     }
+    ],
+    "count": 2
+   },
    "espnId": "401878682",
    "alert": false
   },
@@ -22138,26 +22169,7 @@
     }
    },
    "score": null,
-   "fpl": {
-    "home": [],
-    "away": [
-     {
-      "name": "Petrović",
-      "position": "GKP",
-      "captain": false,
-      "vice": true,
-      "benched": false
-     },
-     {
-      "name": "Rayan",
-      "position": "MID",
-      "captain": false,
-      "vice": false,
-      "benched": false
-     }
-    ],
-    "count": 2
-   },
+   "fpl": null,
    "espnId": "401878684",
    "alert": false
   },
@@ -22209,10 +22221,24 @@
       "position": "FWD",
       "captain": false,
       "vice": false,
-      "benched": false
+      "benched": true
      }
     ],
     "away": [
+     {
+      "name": "Gvardiol",
+      "position": "DEF",
+      "captain": false,
+      "vice": false,
+      "benched": false
+     },
+     {
+      "name": "Cherki",
+      "position": "MID",
+      "captain": false,
+      "vice": true,
+      "benched": false
+     },
      {
       "name": "Haaland",
       "position": "FWD",
@@ -22221,7 +22247,7 @@
       "benched": false
      }
     ],
-    "count": 3
+    "count": 5
    },
    "espnId": "401879094",
    "alert": true
@@ -22257,39 +22283,24 @@
    },
    "score": null,
    "fpl": {
-    "home": [
+    "home": [],
+    "away": [
      {
-      "name": "Petrović",
+      "name": "Raya",
       "position": "GKP",
-      "captain": false,
-      "vice": true,
-      "benched": false
-     },
-     {
-      "name": "Rayan",
-      "position": "MID",
       "captain": false,
       "vice": false,
       "benched": false
-     }
-    ],
-    "away": [
+     },
      {
       "name": "Calafiori",
       "position": "DEF",
       "captain": false,
       "vice": false,
       "benched": false
-     },
-     {
-      "name": "Rice",
-      "position": "MID",
-      "captain": false,
-      "vice": false,
-      "benched": false
      }
     ],
-    "count": 4
+    "count": 2
    },
    "espnId": "401878680",
    "alert": false
@@ -22324,7 +22335,27 @@
     }
    },
    "score": null,
-   "fpl": null,
+   "fpl": {
+    "home": [
+     {
+      "name": "Dubravka",
+      "position": "GKP",
+      "captain": false,
+      "vice": false,
+      "benched": true
+     }
+    ],
+    "away": [
+     {
+      "name": "Ajayi",
+      "position": "DEF",
+      "captain": false,
+      "vice": false,
+      "benched": true
+     }
+    ],
+    "count": 2
+   },
    "espnId": "401878677",
    "alert": false
   },
@@ -22405,16 +22436,9 @@
       "captain": false,
       "vice": false,
       "benched": false
-     },
-     {
-      "name": "F.Kadıoğlu",
-      "position": "DEF",
-      "captain": false,
-      "vice": false,
-      "benched": true
      }
     ],
-    "count": 2
+    "count": 1
    },
    "espnId": "401879093",
    "alert": false
@@ -22495,7 +22519,19 @@
     }
    },
    "score": null,
-   "fpl": null,
+   "fpl": {
+    "home": [
+     {
+      "name": "Hall",
+      "position": "DEF",
+      "captain": false,
+      "vice": false,
+      "benched": false
+     }
+    ],
+    "away": [],
+    "count": 1
+   },
    "espnId": "401879090",
    "alert": false
   },
@@ -22529,19 +22565,7 @@
     }
    },
    "score": null,
-   "fpl": {
-    "home": [
-     {
-      "name": "Cash",
-      "position": "DEF",
-      "captain": false,
-      "vice": false,
-      "benched": true
-     }
-    ],
-    "away": [],
-    "count": 1
-   },
+   "fpl": null,
    "espnId": "401878679",
    "alert": false
   },
@@ -22589,16 +22613,8 @@
       "benched": false
      }
     ],
-    "away": [
-     {
-      "name": "Leno",
-      "position": "GKP",
-      "captain": false,
-      "vice": false,
-      "benched": true
-     }
-    ],
-    "count": 2
+    "away": [],
+    "count": 1
    },
    "espnId": "401878678",
    "alert": true
@@ -22637,8 +22653,8 @@
     "home": [],
     "away": [
      {
-      "name": "Virgil",
-      "position": "DEF",
+      "name": "Gakpo",
+      "position": "MID",
       "captain": false,
       "vice": false,
       "benched": false
@@ -22700,8 +22716,16 @@
       "benched": true
      }
     ],
-    "away": [],
-    "count": 1
+    "away": [
+     {
+      "name": "Hall",
+      "position": "DEF",
+      "captain": false,
+      "vice": false,
+      "benched": false
+     }
+    ],
+    "count": 2
    },
    "espnId": "401878673",
    "alert": true
@@ -22744,17 +22768,10 @@
       "captain": false,
       "vice": false,
       "benched": false
-     },
-     {
-      "name": "F.Kadıoğlu",
-      "position": "DEF",
-      "captain": false,
-      "vice": false,
-      "benched": true
      }
     ],
     "away": [],
-    "count": 2
+    "count": 1
    },
    "espnId": "401879088",
    "alert": false
@@ -22828,24 +22845,17 @@
    },
    "score": null,
    "fpl": {
-    "home": [],
-    "away": [
+    "home": [
      {
-      "name": "Petrović",
-      "position": "GKP",
-      "captain": false,
-      "vice": true,
-      "benched": false
-     },
-     {
-      "name": "Rayan",
-      "position": "MID",
+      "name": "Ajayi",
+      "position": "DEF",
       "captain": false,
       "vice": false,
-      "benched": false
+      "benched": true
      }
     ],
-    "count": 2
+    "away": [],
+    "count": 1
    },
    "espnId": "401879085",
    "alert": false
@@ -22883,6 +22893,20 @@
    "fpl": {
     "home": [
      {
+      "name": "Gvardiol",
+      "position": "DEF",
+      "captain": false,
+      "vice": false,
+      "benched": false
+     },
+     {
+      "name": "Cherki",
+      "position": "MID",
+      "captain": false,
+      "vice": true,
+      "benched": false
+     },
+     {
       "name": "Haaland",
       "position": "FWD",
       "captain": true,
@@ -22899,7 +22923,7 @@
       "benched": false
      }
     ],
-    "count": 2
+    "count": 4
    },
    "espnId": "401879083",
    "alert": false
@@ -22934,19 +22958,7 @@
     }
    },
    "score": null,
-   "fpl": {
-    "home": [
-     {
-      "name": "Leno",
-      "position": "GKP",
-      "captain": false,
-      "vice": false,
-      "benched": true
-     }
-    ],
-    "away": [],
-    "count": 1
-   },
+   "fpl": null,
    "espnId": "401879086",
    "alert": false
   },
@@ -22987,8 +22999,8 @@
    "fpl": {
     "home": [
      {
-      "name": "Virgil",
-      "position": "DEF",
+      "name": "Gakpo",
+      "position": "MID",
       "captain": false,
       "vice": false,
       "benched": false
@@ -23014,7 +23026,7 @@
       "position": "FWD",
       "captain": false,
       "vice": false,
-      "benched": false
+      "benched": true
      }
     ],
     "count": 4
@@ -23059,22 +23071,30 @@
    "fpl": {
     "home": [
      {
-      "name": "Calafiori",
-      "position": "DEF",
+      "name": "Raya",
+      "position": "GKP",
       "captain": false,
       "vice": false,
       "benched": false
      },
      {
-      "name": "Rice",
-      "position": "MID",
+      "name": "Calafiori",
+      "position": "DEF",
       "captain": false,
       "vice": false,
       "benched": false
      }
     ],
-    "away": [],
-    "count": 2
+    "away": [
+     {
+      "name": "Dubravka",
+      "position": "GKP",
+      "captain": false,
+      "vice": false,
+      "benched": true
+     }
+    ],
+    "count": 3
    },
    "espnId": "401878676",
    "alert": true
@@ -23109,19 +23129,7 @@
     }
    },
    "score": null,
-   "fpl": {
-    "home": [],
-    "away": [
-     {
-      "name": "Cash",
-      "position": "DEF",
-      "captain": false,
-      "vice": false,
-      "benched": true
-     }
-    ],
-    "count": 1
-   },
+   "fpl": null,
    "espnId": "401879087",
    "alert": false
   },
@@ -23196,6 +23204,20 @@
    "fpl": {
     "home": [
      {
+      "name": "Gvardiol",
+      "position": "DEF",
+      "captain": false,
+      "vice": false,
+      "benched": false
+     },
+     {
+      "name": "Cherki",
+      "position": "MID",
+      "captain": false,
+      "vice": true,
+      "benched": false
+     },
+     {
       "name": "Haaland",
       "position": "FWD",
       "captain": true,
@@ -23205,8 +23227,8 @@
     ],
     "away": [
      {
-      "name": "Virgil",
-      "position": "DEF",
+      "name": "Gakpo",
+      "position": "MID",
       "captain": false,
       "vice": false,
       "benched": false
@@ -23219,7 +23241,7 @@
       "benched": false
      }
     ],
-    "count": 3
+    "count": 5
    },
    "espnId": "401878668",
    "alert": true
@@ -23258,15 +23280,15 @@
     "home": [],
     "away": [
      {
-      "name": "Calafiori",
-      "position": "DEF",
+      "name": "Raya",
+      "position": "GKP",
       "captain": false,
       "vice": false,
       "benched": false
      },
      {
-      "name": "Rice",
-      "position": "MID",
+      "name": "Calafiori",
+      "position": "DEF",
       "captain": false,
       "vice": false,
       "benched": false
@@ -23307,19 +23329,7 @@
     }
    },
    "score": null,
-   "fpl": {
-    "home": [
-     {
-      "name": "Leno",
-      "position": "GKP",
-      "captain": false,
-      "vice": false,
-      "benched": true
-     }
-    ],
-    "away": [],
-    "count": 1
-   },
+   "fpl": null,
    "espnId": "401878669",
    "alert": false
   },
@@ -23397,16 +23407,8 @@
       "benched": false
      }
     ],
-    "away": [
-     {
-      "name": "Cash",
-      "position": "DEF",
-      "captain": false,
-      "vice": false,
-      "benched": true
-     }
-    ],
-    "count": 2
+    "away": [],
+    "count": 1
    },
    "espnId": "401879082",
    "alert": false
@@ -23441,7 +23443,19 @@
     }
    },
    "score": null,
-   "fpl": null,
+   "fpl": {
+    "home": [
+     {
+      "name": "Hall",
+      "position": "DEF",
+      "captain": false,
+      "vice": false,
+      "benched": false
+     }
+    ],
+    "away": [],
+    "count": 1
+   },
    "espnId": "401879080",
    "alert": false
   },
@@ -23483,13 +23497,6 @@
       "captain": false,
       "vice": false,
       "benched": false
-     },
-     {
-      "name": "F.Kadıoğlu",
-      "position": "DEF",
-      "captain": false,
-      "vice": false,
-      "benched": true
      }
     ],
     "away": [
@@ -23501,7 +23508,7 @@
       "benched": true
      }
     ],
-    "count": 3
+    "count": 2
    },
    "espnId": "401878671",
    "alert": false
@@ -23541,7 +23548,15 @@
    },
    "score": null,
    "fpl": {
-    "home": [],
+    "home": [
+     {
+      "name": "Dubravka",
+      "position": "GKP",
+      "captain": false,
+      "vice": false,
+      "benched": true
+     }
+    ],
     "away": [
      {
       "name": "Rogers",
@@ -23555,10 +23570,10 @@
       "position": "FWD",
       "captain": false,
       "vice": false,
-      "benched": false
+      "benched": true
      }
     ],
-    "count": 2
+    "count": 3
    },
    "espnId": "401878666",
    "alert": true
@@ -23593,7 +23608,19 @@
     }
    },
    "score": null,
-   "fpl": null,
+   "fpl": {
+    "home": [],
+    "away": [
+     {
+      "name": "Ajayi",
+      "position": "DEF",
+      "captain": false,
+      "vice": false,
+      "benched": true
+     }
+    ],
+    "count": 1
+   },
    "espnId": "401878670",
    "alert": false
   },
@@ -23631,26 +23658,7 @@
     }
    },
    "score": null,
-   "fpl": {
-    "home": [
-     {
-      "name": "Petrović",
-      "position": "GKP",
-      "captain": false,
-      "vice": true,
-      "benched": false
-     },
-     {
-      "name": "Rayan",
-      "position": "MID",
-      "captain": false,
-      "vice": false,
-      "benched": false
-     }
-    ],
-    "away": [],
-    "count": 2
-   },
+   "fpl": null,
    "espnId": "401878672",
    "alert": true
   },
@@ -23685,16 +23693,16 @@
    },
    "score": null,
    "fpl": {
-    "home": [],
-    "away": [
+    "home": [
      {
-      "name": "Leno",
-      "position": "GKP",
+      "name": "Ajayi",
+      "position": "DEF",
       "captain": false,
       "vice": false,
       "benched": true
      }
     ],
+    "away": [],
     "count": 1
    },
    "espnId": "401879076",
@@ -23781,16 +23789,9 @@
       "captain": false,
       "vice": false,
       "benched": false
-     },
-     {
-      "name": "F.Kadıoğlu",
-      "position": "DEF",
-      "captain": false,
-      "vice": false,
-      "benched": true
      }
     ],
-    "count": 2
+    "count": 1
    },
    "espnId": "401878664",
    "alert": true
@@ -23826,16 +23827,16 @@
    },
    "score": null,
    "fpl": {
-    "home": [
+    "home": [],
+    "away": [
      {
-      "name": "Cash",
+      "name": "Hall",
       "position": "DEF",
       "captain": false,
       "vice": false,
-      "benched": true
+      "benched": false
      }
     ],
-    "away": [],
     "count": 1
    },
    "espnId": "401878665",
@@ -23885,7 +23886,7 @@
       "position": "FWD",
       "captain": false,
       "vice": false,
-      "benched": false
+      "benched": true
      }
     ],
     "away": [],
@@ -23924,7 +23925,19 @@
     }
    },
    "score": null,
-   "fpl": null,
+   "fpl": {
+    "home": [],
+    "away": [
+     {
+      "name": "Dubravka",
+      "position": "GKP",
+      "captain": false,
+      "vice": false,
+      "benched": true
+     }
+    ],
+    "count": 1
+   },
    "espnId": "401879077",
    "alert": false
   },
@@ -23968,23 +23981,8 @@
       "benched": true
      }
     ],
-    "away": [
-     {
-      "name": "Petrović",
-      "position": "GKP",
-      "captain": false,
-      "vice": true,
-      "benched": false
-     },
-     {
-      "name": "Rayan",
-      "position": "MID",
-      "captain": false,
-      "vice": false,
-      "benched": false
-     }
-    ],
-    "count": 3
+    "away": [],
+    "count": 1
    },
    "espnId": "401879073",
    "alert": false
@@ -24022,8 +24020,8 @@
    "fpl": {
     "home": [
      {
-      "name": "Virgil",
-      "position": "DEF",
+      "name": "Gakpo",
+      "position": "MID",
       "captain": false,
       "vice": false,
       "benched": false
@@ -24084,6 +24082,20 @@
     "home": [],
     "away": [
      {
+      "name": "Gvardiol",
+      "position": "DEF",
+      "captain": false,
+      "vice": false,
+      "benched": false
+     },
+     {
+      "name": "Cherki",
+      "position": "MID",
+      "captain": false,
+      "vice": true,
+      "benched": false
+     },
+     {
       "name": "Haaland",
       "position": "FWD",
       "captain": true,
@@ -24091,7 +24103,7 @@
       "benched": false
      }
     ],
-    "count": 1
+    "count": 3
    },
    "espnId": "401879075",
    "alert": false
@@ -24129,15 +24141,15 @@
    "fpl": {
     "home": [
      {
-      "name": "Calafiori",
-      "position": "DEF",
+      "name": "Raya",
+      "position": "GKP",
       "captain": false,
       "vice": false,
       "benched": false
      },
      {
-      "name": "Rice",
-      "position": "MID",
+      "name": "Calafiori",
+      "position": "DEF",
       "captain": false,
       "vice": false,
       "benched": false
@@ -24189,8 +24201,16 @@
       "benched": false
      }
     ],
-    "away": [],
-    "count": 1
+    "away": [
+     {
+      "name": "Ajayi",
+      "position": "DEF",
+      "captain": false,
+      "vice": false,
+      "benched": true
+     }
+    ],
+    "count": 2
    },
    "espnId": "401879071",
    "alert": false
@@ -24225,7 +24245,19 @@
     }
    },
    "score": null,
-   "fpl": null,
+   "fpl": {
+    "home": [
+     {
+      "name": "Hall",
+      "position": "DEF",
+      "captain": false,
+      "vice": false,
+      "benched": false
+     }
+    ],
+    "away": [],
+    "count": 1
+   },
    "espnId": "401879066",
    "alert": false
   },
@@ -24263,7 +24295,19 @@
     }
    },
    "score": null,
-   "fpl": null,
+   "fpl": {
+    "home": [
+     {
+      "name": "Dubravka",
+      "position": "GKP",
+      "captain": false,
+      "vice": false,
+      "benched": true
+     }
+    ],
+    "away": [],
+    "count": 1
+   },
    "espnId": "401879065",
    "alert": true
   },
@@ -24351,19 +24395,12 @@
       "captain": false,
       "vice": false,
       "benched": false
-     },
-     {
-      "name": "F.Kadıoğlu",
-      "position": "DEF",
-      "captain": false,
-      "vice": false,
-      "benched": true
      }
     ],
     "away": [
      {
-      "name": "Virgil",
-      "position": "DEF",
+      "name": "Gakpo",
+      "position": "MID",
       "captain": false,
       "vice": false,
       "benched": false
@@ -24376,7 +24413,7 @@
       "benched": false
      }
     ],
-    "count": 4
+    "count": 3
    },
    "espnId": "401878662",
    "alert": false
@@ -24446,22 +24483,7 @@
    },
    "score": null,
    "fpl": {
-    "home": [
-     {
-      "name": "Petrović",
-      "position": "GKP",
-      "captain": false,
-      "vice": true,
-      "benched": false
-     },
-     {
-      "name": "Rayan",
-      "position": "MID",
-      "captain": false,
-      "vice": false,
-      "benched": false
-     }
-    ],
+    "home": [],
     "away": [
      {
       "name": "Rogers",
@@ -24475,10 +24497,10 @@
       "position": "FWD",
       "captain": false,
       "vice": false,
-      "benched": false
+      "benched": true
      }
     ],
-    "count": 4
+    "count": 2
    },
    "espnId": "401879072",
    "alert": false
@@ -24513,19 +24535,7 @@
     }
    },
    "score": null,
-   "fpl": {
-    "home": [
-     {
-      "name": "Leno",
-      "position": "GKP",
-      "captain": false,
-      "vice": false,
-      "benched": true
-     }
-    ],
-    "away": [],
-    "count": 1
-   },
+   "fpl": null,
    "espnId": "401879069",
    "alert": false
   },
@@ -24563,15 +24573,15 @@
     "home": [],
     "away": [
      {
-      "name": "Calafiori",
-      "position": "DEF",
+      "name": "Raya",
+      "position": "GKP",
       "captain": false,
       "vice": false,
       "benched": false
      },
      {
-      "name": "Rice",
-      "position": "MID",
+      "name": "Calafiori",
+      "position": "DEF",
       "captain": false,
       "vice": false,
       "benched": false
@@ -24615,6 +24625,20 @@
    "fpl": {
     "home": [
      {
+      "name": "Gvardiol",
+      "position": "DEF",
+      "captain": false,
+      "vice": false,
+      "benched": false
+     },
+     {
+      "name": "Cherki",
+      "position": "MID",
+      "captain": false,
+      "vice": true,
+      "benched": false
+     },
+     {
       "name": "Haaland",
       "position": "FWD",
       "captain": true,
@@ -24622,16 +24646,8 @@
       "benched": false
      }
     ],
-    "away": [
-     {
-      "name": "Cash",
-      "position": "DEF",
-      "captain": false,
-      "vice": false,
-      "benched": true
-     }
-    ],
-    "count": 2
+    "away": [],
+    "count": 3
    },
    "espnId": "401879067",
    "alert": false
@@ -24703,15 +24719,15 @@
    "fpl": {
     "home": [
      {
-      "name": "Calafiori",
-      "position": "DEF",
+      "name": "Raya",
+      "position": "GKP",
       "captain": false,
       "vice": false,
       "benched": false
      },
      {
-      "name": "Rice",
-      "position": "MID",
+      "name": "Calafiori",
+      "position": "DEF",
       "captain": false,
       "vice": false,
       "benched": false
@@ -24724,16 +24740,9 @@
       "captain": false,
       "vice": false,
       "benched": false
-     },
-     {
-      "name": "F.Kadıoğlu",
-      "position": "DEF",
-      "captain": false,
-      "vice": false,
-      "benched": true
      }
     ],
-    "count": 4
+    "count": 3
    },
    "espnId": "401878660",
    "alert": false
@@ -24771,8 +24780,8 @@
    "fpl": {
     "home": [
      {
-      "name": "Virgil",
-      "position": "DEF",
+      "name": "Gakpo",
+      "position": "MID",
       "captain": false,
       "vice": false,
       "benched": false
@@ -24785,23 +24794,8 @@
       "benched": false
      }
     ],
-    "away": [
-     {
-      "name": "Petrović",
-      "position": "GKP",
-      "captain": false,
-      "vice": true,
-      "benched": false
-     },
-     {
-      "name": "Rayan",
-      "position": "MID",
-      "captain": false,
-      "vice": false,
-      "benched": false
-     }
-    ],
-    "count": 4
+    "away": [],
+    "count": 2
    },
    "espnId": "401879059",
    "alert": false
@@ -24871,16 +24865,16 @@
    },
    "score": null,
    "fpl": {
-    "home": [
+    "home": [],
+    "away": [
      {
-      "name": "Cash",
-      "position": "DEF",
+      "name": "Dubravka",
+      "position": "GKP",
       "captain": false,
       "vice": false,
       "benched": true
      }
     ],
-    "away": [],
     "count": 1
    },
    "espnId": "401879064",
@@ -24916,7 +24910,27 @@
     }
    },
    "score": null,
-   "fpl": null,
+   "fpl": {
+    "home": [
+     {
+      "name": "Ajayi",
+      "position": "DEF",
+      "captain": false,
+      "vice": false,
+      "benched": true
+     }
+    ],
+    "away": [
+     {
+      "name": "Hall",
+      "position": "DEF",
+      "captain": false,
+      "vice": false,
+      "benched": false
+     }
+    ],
+    "count": 2
+   },
    "espnId": "401879061",
    "alert": false
   },
@@ -24954,19 +24968,7 @@
     }
    },
    "score": null,
-   "fpl": {
-    "home": [],
-    "away": [
-     {
-      "name": "Leno",
-      "position": "GKP",
-      "captain": false,
-      "vice": false,
-      "benched": true
-     }
-    ],
-    "count": 1
-   },
+   "fpl": null,
    "espnId": "401879058",
    "alert": true
   },
@@ -25012,6 +25014,20 @@
     ],
     "away": [
      {
+      "name": "Gvardiol",
+      "position": "DEF",
+      "captain": false,
+      "vice": false,
+      "benched": false
+     },
+     {
+      "name": "Cherki",
+      "position": "MID",
+      "captain": false,
+      "vice": true,
+      "benched": false
+     },
+     {
       "name": "Haaland",
       "position": "FWD",
       "captain": true,
@@ -25019,7 +25035,7 @@
       "benched": false
      }
     ],
-    "count": 2
+    "count": 4
    },
    "espnId": "401878658",
    "alert": false
@@ -25072,7 +25088,7 @@
       "position": "FWD",
       "captain": false,
       "vice": false,
-      "benched": false
+      "benched": true
      }
     ],
     "away": [

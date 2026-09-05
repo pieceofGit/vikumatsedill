@@ -1,26 +1,26 @@
 {
- "fetchedAt": "2026-09-04T09:41:18.693Z",
+ "fetchedAt": "2026-09-05T09:06:59.448Z",
  "teamId": 6870928,
  "name": "How's it Goink?",
  "manager": "Fjölnir Þrastarson",
- "gameweek": 2,
- "gameweekName": "Gameweek 2",
- "picksFrom": 2,
- "bank": 0.9,
- "squadValue": 100.3,
- "overallPoints": 126,
- "overallRank": 5238478,
- "gameweekPoints": 74,
+ "gameweek": 3,
+ "gameweekName": "Gameweek 3",
+ "picksFrom": 3,
+ "bank": 0.1,
+ "squadValue": 101,
+ "overallPoints": 150,
+ "overallRank": 2734732,
+ "gameweekPoints": 24,
  "players": [
   {
-   "id": 57,
-   "name": "Petrović",
-   "club": "Bournemouth",
+   "id": 1,
+   "name": "Raya",
+   "club": "Arsenal",
    "position": "GKP",
    "captain": false,
-   "vice": true,
+   "vice": false,
    "benched": false,
-   "points": 3
+   "points": 0
   },
   {
    "id": 8,
@@ -30,7 +30,7 @@
    "captain": false,
    "vice": false,
    "benched": false,
-   "points": 11
+   "points": 0
   },
   {
    "id": 115,
@@ -43,14 +43,24 @@
    "points": 0
   },
   {
-   "id": 356,
-   "name": "Virgil",
-   "club": "Liverpool",
+   "id": 391,
+   "name": "Gvardiol",
+   "club": "Man City",
    "position": "DEF",
    "captain": false,
    "vice": false,
    "benched": false,
-   "points": 1
+   "points": 0
+  },
+  {
+   "id": 449,
+   "name": "Hall",
+   "club": "Newcastle",
+   "position": "DEF",
+   "captain": false,
+   "vice": false,
+   "benched": false,
+   "points": 0
   },
   {
    "id": 40,
@@ -60,27 +70,27 @@
    "captain": false,
    "vice": false,
    "benched": false,
-   "points": 5
+   "points": 0
   },
   {
-   "id": 67,
-   "name": "Rayan",
-   "club": "Bournemouth",
+   "id": 399,
+   "name": "Cherki",
+   "club": "Man City",
+   "position": "MID",
+   "captain": false,
+   "vice": true,
+   "benched": false,
+   "points": 0
+  },
+  {
+   "id": 367,
+   "name": "Gakpo",
+   "club": "Liverpool",
    "position": "MID",
    "captain": false,
    "vice": false,
    "benched": false,
-   "points": 2
-  },
-  {
-   "id": 13,
-   "name": "Rice",
-   "club": "Arsenal",
-   "position": "MID",
-   "captain": false,
-   "vice": false,
-   "benched": false,
-   "points": 5
+   "points": 11
   },
   {
    "id": 565,
@@ -90,7 +100,7 @@
    "captain": false,
    "vice": false,
    "benched": false,
-   "points": 4
+   "points": 0
   },
   {
    "id": 411,
@@ -100,7 +110,7 @@
    "captain": true,
    "vice": false,
    "benched": false,
-   "points": 13
+   "points": 0
   },
   {
    "id": 379,
@@ -110,27 +120,17 @@
    "captain": false,
    "vice": false,
    "benched": false,
-   "points": 8
+   "points": 13
   },
   {
-   "id": 165,
-   "name": "João Pedro",
-   "club": "Chelsea",
-   "position": "FWD",
-   "captain": false,
-   "vice": false,
-   "benched": false,
-   "points": 9
-  },
-  {
-   "id": 250,
-   "name": "Leno",
-   "club": "Fulham",
+   "id": 497,
+   "name": "Dubravka",
+   "club": "Spurs",
    "position": "GKP",
    "captain": false,
    "vice": false,
    "benched": true,
-   "points": 3
+   "points": 0
   },
   {
    "id": 544,
@@ -140,27 +140,27 @@
    "captain": false,
    "vice": false,
    "benched": true,
-   "points": 6
+   "points": 0
   },
   {
-   "id": 113,
-   "name": "F.Kadıoğlu",
-   "club": "Brighton",
-   "position": "DEF",
+   "id": 165,
+   "name": "João Pedro",
+   "club": "Chelsea",
+   "position": "FWD",
    "captain": false,
    "vice": false,
    "benched": true,
    "points": 0
   },
   {
-   "id": 32,
-   "name": "Cash",
-   "club": "Aston Villa",
+   "id": 279,
+   "name": "Ajayi",
+   "club": "Hull City",
    "position": "DEF",
    "captain": false,
    "vice": false,
    "benched": true,
-   "points": 2
+   "points": 0
   }
  ]
 }
