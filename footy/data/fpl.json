@@ -1,5 +1,5 @@
 {
- "fetchedAt": "2026-09-05T09:06:59.448Z",
+ "fetchedAt": "2026-09-06T09:27:32.273Z",
  "teamId": 6870928,
  "name": "How's it Goink?",
  "manager": "Fjölnir Þrastarson",
@@ -8,9 +8,9 @@
  "picksFrom": 3,
  "bank": 0.1,
  "squadValue": 101,
- "overallPoints": 150,
- "overallRank": 2734732,
- "gameweekPoints": 24,
+ "overallPoints": 187,
+ "overallRank": 2150502,
+ "gameweekPoints": 61,
  "players": [
   {
    "id": 1,
@@ -40,7 +40,7 @@
    "captain": false,
    "vice": false,
    "benched": false,
-   "points": 0
+   "points": 4
   },
   {
    "id": 391,
@@ -50,7 +50,7 @@
    "captain": false,
    "vice": false,
    "benched": false,
-   "points": 0
+   "points": 8
   },
   {
    "id": 449,
@@ -60,7 +60,7 @@
    "captain": false,
    "vice": false,
    "benched": false,
-   "points": 0
+   "points": 4
   },
   {
    "id": 40,
@@ -80,7 +80,7 @@
    "captain": false,
    "vice": true,
    "benched": false,
-   "points": 0
+   "points": 3
   },
   {
    "id": 367,
@@ -110,7 +110,7 @@
    "captain": true,
    "vice": false,
    "benched": false,
-   "points": 0
+   "points": 9
   },
   {
    "id": 379,
@@ -140,7 +140,7 @@
    "captain": false,
    "vice": false,
    "benched": true,
-   "points": 0
+   "points": 3
   },
   {
    "id": 165,
@@ -160,7 +160,7 @@
    "captain": false,
    "vice": false,
    "benched": true,
-   "points": 0
+   "points": 5
   }
  ]
 }
