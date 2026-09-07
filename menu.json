@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2. september 2026",
+  "generatedAt": "7. september 2026",
   "places": [
     {
       "name": "Róót",
@@ -218,14 +218,14 @@
     {
       "name": "Makona",
       "url": "https://makona.is/lunch",
-      "week": "ágúst 31 - september 4",
+      "week": "september 7 - 11",
       "days": [
         {
           "day": "Mánudagur",
           "dishes": [
             {
-              "name": "Rjómalöguð tortellini súpa",
-              "desc": "með sítrónu",
+              "name": "Rjómalöguð grænmetissúpa með súrdeigsbrauði",
+              "desc": "",
               "tag": "SÚPA",
               "allergens": [
                 "D",
@@ -233,28 +233,35 @@
               ]
             },
             {
-              "name": "Heimalagaður Plokkfiskur",
-              "desc": "með rúgbrauði og smjöri, bearnaise sósu og piparosti",
+              "name": "Steinbítur í Arizona Butter2",
+              "desc": "með sítrónu, lauk og dijon sinneps rjóma með kirsuberjatómötum",
               "tag": "FISKUR",
               "allergens": [
-                "D",
-                "G",
-                "E"
-              ]
-            },
-            {
-              "name": "Hjónabands kjúklingabringur",
-              "desc": "með rjómakenndri sósu frá Toskana, sólþurrkuðum tómötum, parmesanosti og ferskri basiliku",
-              "tag": "KJÚKLINGUR",
-              "allergens": [
                 "D"
+              ],
+              "info": {
+                "term": "Butter",
+                "title": "Butter",
+                "info": "Butter is a dairy product made from the fat and protein components of churned cream.",
+                "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/%C5%A0v%C3%A9dsk%C3%BD_kol%C3%A1%C4%8D_naruby_904_%28cropped%29.JPG/330px-%C5%A0v%C3%A9dsk%C3%BD_kol%C3%A1%C4%8D_naruby_904_%28cropped%29.JPG?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+                "wiki": "https://en.wikipedia.org/wiki/Butter"
+              }
+            },
+            {
+              "name": "Spagetti bolognaise",
+              "desc": "með nautahakki, parmesanosti, kotasælu og hvítlauksbrauði",
+              "tag": "PASTA",
+              "allergens": [
+                "D",
+                "G"
               ]
             },
             {
-              "name": "Spaghetti alfredo",
-              "desc": "með ristuðum valhnetum og villisveppasósu (Hn)",
+              "name": "Vegan svartbauna- og sveppaborgari",
+              "desc": "með karamelluðum lauk og ferskum hummus",
               "tag": "VEGAN",
               "allergens": [
+                "S",
                 "G"
               ]
             }
@@ -264,8 +271,8 @@
           "day": "Þriðjudagur",
           "dishes": [
             {
-              "name": "Rjómalöguð aspassúpa með osta-brauðteningum",
-              "desc": "",
+              "name": "Frönsk lauksúpa",
+              "desc": "með osta focaccia stöngum",
               "tag": "SÚPA",
               "allergens": [
                 "D",
@@ -273,37 +280,29 @@
               ]
             },
             {
-              "name": "Firecracker lax",
-              "desc": "með engifer, hunangs og chiligljáa, með vorlauk og mangó salsa",
-              "tag": "FISKUR",
+              "name": "Bao buns með sticky teriaky kjúkling",
+              "desc": "með agúrkusalati og chipotle mæjónesi",
+              "tag": "KJÚKLINGUR",
               "allergens": [
-                "S"
+                "S",
+                "G"
               ]
             },
             {
-              "name": "Klassískt kjöt lasagna",
-              "desc": "með cheddar og piparosti, parmesan og pestó",
-              "tag": "PASTA",
+              "name": "Indverskt Madras-lambakarrí",
+              "desc": "með grænmeti, bragðmiklum kryddum, kanil og túrmerik hrísgrjón",
+              "tag": "LAMBAKJÖT",
               "allergens": [
-                "D",
-                "G",
-                "E"
+                "D"
               ]
             },
             {
-              "name": "Satay tofu stir fry",
-              "desc": "með brokkolí, gulrótum og hnetum, sesam sósu og sesam fræjum (Hn)",
+              "name": "Tælenskt grænmetis karrý",
+              "desc": "með tofu, bambus, kókos, límónu laufum og hvítum gufusoðnum hrísgrjónum",
               "tag": "VEGAN",
               "allergens": [
                 "S"
-              ],
-              "info": {
-                "term": "Satay",
-                "title": "Satay",
-                "info": "Satay or sate is a Southeast Asian dish consisting of small pieces of seasoned meat, seafood or vegetables skewered on sticks and grilled over charcoal.",
-                "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Sate_Udang.JPG/330px-Sate_Udang.JPG?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-                "wiki": "https://en.wikipedia.org/wiki/Satay"
-              }
+              ]
             }
           ]
         },
@@ -311,35 +310,29 @@
           "day": "Miðvikudagur",
           "dishes": [
             {
-              "name": "Rjómalöguð sveppasúpa",
-              "desc": "með trufflum",
+              "name": "Ungversk gúllassúpa",
+              "desc": "með grænmeti",
               "tag": "SÚPA",
-              "allergens": [
-                "D"
-              ]
+              "allergens": []
             },
             {
-              "name": "Indverskur tandoori kjúklingur",
-              "desc": "með tandoori sósu, hrísgrjónum og naanbrauði",
+              "name": "Beinlaus kjúklingalæri í tælensku rauðu karrýi og kókos",
+              "desc": "með bambus og sítrónugrasi",
               "tag": "KJÚKLINGUR",
+              "allergens": []
+            },
+            {
+              "name": "Sjávarrétta pasta",
+              "desc": "með rækjum, hvítlauk, kapers, sítrónu pipar, hvítvíni og smjöri (Skel)",
+              "tag": "FISKUR",
               "allergens": [
                 "D",
                 "G"
               ]
             },
             {
-              "name": "Kjötbollur í brúnni sósu",
-              "desc": ",grænum baunum, pikklað hvítkál, kartöflumús og rabbabarasulta",
-              "tag": "NAUTAKJÖT",
-              "allergens": [
-                "D",
-                "G",
-                "E"
-              ]
-            },
-            {
-              "name": "Bang bang blómkál",
-              "desc": "með sesamfræjum og sætum chili",
+              "name": "Villt sveppa risotto",
+              "desc": "með spínati, muldu tofu og ristuðu eggaldin",
               "tag": "VEGAN",
               "allergens": [
                 "S"
@@ -351,33 +344,30 @@
           "day": "Fimmtudagur",
           "dishes": [
             {
-              "name": "Mexíkósk kjúklingasúpa með cheddar osti, nachos og osti",
-              "desc": "",
+              "name": "Tómatsúpa með basil",
+              "desc": "með hvítlauks brauðteningum",
               "tag": "SÚPA",
+              "allergens": []
+            },
+            {
+              "name": "Rjómalagaður þorskhnakki",
+              "desc": "með sítrónu og sinnepi, bakaður aspas og bökuð kartafla með sýrðum rjóma og graslauk",
+              "tag": "FISKUR",
               "allergens": [
                 "D"
               ]
             },
             {
-              "name": "Lúða í Arizona marineringu ásamt krydduðum brauðteningum",
-              "desc": "með kirsuberjatómötum og sítrónu",
-              "tag": "FISKUR",
+              "name": "Chili con Carne",
+              "desc": "með nautahakki, mexíkóskum kryddum, sellerí, gulrætur, nachos og baunir",
+              "tag": "NAUTAKJÖT",
               "allergens": [
-                "G"
+                "D"
               ]
             },
             {
-              "name": "Þriggja osta rigatoni",
-              "desc": "með skinku, mozzarella, parmesan, cheddar ostasósu og kirsuberjatómatar",
-              "tag": "PASTA",
-              "allergens": [
-                "D",
-                "G"
-              ]
-            },
-            {
-              "name": "Vegan Buddha-skál",
-              "desc": "með Delhi koftas, tahini dressingu, eggaldin, papriku og bulgursalati",
+              "name": "Vegan spínat lasagne",
+              "desc": "með vegan bechamel, bræddum vegan osti og lagskipt með eggaldin",
               "tag": "VEGAN",
               "allergens": [
                 "S",
@@ -390,38 +380,35 @@
           "day": "Föstudagur",
           "dishes": [
             {
-              "name": "Rjómalöguð tómatsúpa",
-              "desc": "með basilíku",
+              "name": "Gulróta- og engifer súpa",
+              "desc": "",
               "tag": "SÚPA",
-              "allergens": [
-                "D"
-              ]
+              "allergens": []
             },
             {
-              "name": "Steik og bearnaise",
-              "desc": "nautafilé með bearnaisesósu, ristaður hvítlaukur og parmesan kartöflur",
+              "name": "Klassískur ostborgari",
+              "desc": "með cheddarosti, beikoni, sætu chili mæjónesi og karamelluðum lauk",
               "tag": "NAUTAKJÖT",
               "allergens": [
                 "D",
-                "E"
+                "G"
               ]
             },
             {
-              "name": "Grænmetis kebabspjót",
-              "desc": "með marokkóskum kryddum, tómötum, flatri steinselju og gremolata",
-              "tag": "VEGAN",
+              "name": "Hunangs- og sojubauna ofnbökuð kjúklingalæri",
+              "desc": "með hrísgrjónum, vorlauk og bok choy",
+              "tag": "KJÚKLINGUR",
               "allergens": [
                 "S"
               ]
             },
             {
-              "name": "Föstudags sætindi",
-              "desc": "Heitur og ljúffengur toffí búðingur með vanillubúðingi og karamellusósu",
-              "tag": "KAKA",
+              "name": "Vegan poke skál",
+              "desc": "með deli koftas, steiktum gulrótum, cous cous með kryddjurtum og sítrónu vegan mæjónesi",
+              "tag": "VEGAN",
               "allergens": [
-                "D",
-                "G",
-                "E"
+                "S",
+                "G"
               ]
             }
           ]
