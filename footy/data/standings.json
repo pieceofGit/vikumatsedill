@@ -1,5 +1,5 @@
 {
- "fetchedAt": "2026-09-06T09:27:33.592Z",
+ "fetchedAt": "2026-09-07T10:21:15.493Z",
  "tables": {
   "pl": {
    "name": "Premier League",
@@ -30,6 +30,30 @@
     },
     {
      "rank": 2,
+     "team": "Arsenal",
+     "played": 3,
+     "won": 3,
+     "drawn": 0,
+     "lost": 0,
+     "gf": 6,
+     "ga": 1,
+     "gd": 5,
+     "points": 9,
+     "form": [
+      {
+       "r": "W",
+       "opponent": "Aston Villa",
+       "score": "1-0"
+      },
+      {
+       "r": "W",
+       "opponent": "Coventry",
+       "score": "3-0"
+      }
+     ]
+    },
+    {
+     "rank": 3,
      "team": "Hull City",
      "played": 3,
      "won": 2,
@@ -53,39 +77,15 @@
      ]
     },
     {
-     "rank": 3,
-     "team": "Arsenal",
-     "played": 2,
-     "won": 2,
-     "drawn": 0,
-     "lost": 0,
-     "gf": 4,
-     "ga": 0,
-     "gd": 4,
-     "points": 6,
-     "form": [
-      {
-       "r": "W",
-       "opponent": "Aston Villa",
-       "score": "1-0"
-      },
-      {
-       "r": "W",
-       "opponent": "Coventry",
-       "score": "3-0"
-      }
-     ]
-    },
-    {
      "rank": 4,
      "team": "Chelsea",
-     "played": 2,
+     "played": 3,
      "won": 2,
      "drawn": 0,
-     "lost": 0,
-     "gf": 7,
-     "ga": 5,
-     "gd": 2,
+     "lost": 1,
+     "gf": 8,
+     "ga": 7,
+     "gd": 1,
      "points": 6,
      "form": [
       {
@@ -174,6 +174,30 @@
     },
     {
      "rank": 8,
+     "team": "Everton",
+     "played": 3,
+     "won": 1,
+     "drawn": 2,
+     "lost": 0,
+     "gf": 5,
+     "ga": 3,
+     "gd": 2,
+     "points": 5,
+     "form": [
+      {
+       "r": "D",
+       "opponent": "Bournemouth",
+       "score": "1-1"
+      },
+      {
+       "r": "W",
+       "opponent": "Crystal Palace",
+       "score": "2-0"
+      }
+     ]
+    },
+    {
+     "rank": 9,
      "team": "Leeds",
      "played": 3,
      "won": 1,
@@ -197,7 +221,7 @@
      ]
     },
     {
-     "rank": 9,
+     "rank": 10,
      "team": "Brighton",
      "played": 3,
      "won": 1,
@@ -221,31 +245,31 @@
      ]
     },
     {
-     "rank": 10,
-     "team": "Everton",
-     "played": 2,
+     "rank": 11,
+     "team": "Man Utd",
+     "played": 3,
      "won": 1,
      "drawn": 1,
-     "lost": 0,
-     "gf": 3,
-     "ga": 1,
-     "gd": 2,
+     "lost": 1,
+     "gf": 7,
+     "ga": 6,
+     "gd": 1,
      "points": 4,
      "form": [
       {
-       "r": "D",
-       "opponent": "Bournemouth",
-       "score": "1-1"
+       "r": "W",
+       "opponent": "Ipswich",
+       "score": "5-2"
       },
       {
-       "r": "W",
-       "opponent": "Crystal Palace",
-       "score": "2-0"
+       "r": "L",
+       "opponent": "Hull City",
+       "score": "0-2"
       }
      ]
     },
     {
-     "rank": 11,
+     "rank": 12,
      "team": "Sunderland",
      "played": 3,
      "won": 1,
@@ -265,30 +289,6 @@
        "r": "L",
        "opponent": "Ipswich",
        "score": "1-2"
-      }
-     ]
-    },
-    {
-     "rank": 12,
-     "team": "Man Utd",
-     "played": 2,
-     "won": 1,
-     "drawn": 0,
-     "lost": 1,
-     "gf": 5,
-     "ga": 4,
-     "gd": 1,
-     "points": 3,
-     "form": [
-      {
-       "r": "W",
-       "opponent": "Ipswich",
-       "score": "5-2"
-      },
-      {
-       "r": "L",
-       "opponent": "Hull City",
-       "score": "0-2"
       }
      ]
     },
