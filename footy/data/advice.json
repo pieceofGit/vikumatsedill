@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-09-07T10:21:14.967Z",
+ "generatedAt": "2026-09-08T09:43:25.630Z",
  "gameweek": 4,
  "gameweekName": "Gameweek 4",
  "deadline": "2026-09-12T12:30:00Z",
@@ -21,10 +21,10 @@
    "xgc": 4.56,
    "minutes": 250,
    "starts": 3,
-   "owned": 12.8,
+   "owned": 13.9,
    "status": "a",
    "news": null,
-   "priceMomentum": 377626,
+   "priceMomentum": 468940,
    "fixtures": [
     {
      "gw": 4,
@@ -76,10 +76,10 @@
    "xgc": 1.62,
    "minutes": 173,
    "starts": 2,
-   "owned": 30.5,
+   "owned": 30.4,
    "status": "a",
    "news": null,
-   "priceMomentum": 13651,
+   "priceMomentum": 5527,
    "fixtures": [
     {
      "gw": 4,
@@ -131,10 +131,10 @@
    "xgc": 4.08,
    "minutes": 243,
    "starts": 3,
-   "owned": 10.6,
+   "owned": 11,
    "status": "a",
    "news": null,
-   "priceMomentum": 104685,
+   "priceMomentum": 133429,
    "fixtures": [
     {
      "gw": 4,
@@ -178,7 +178,7 @@
    "name": "Isak",
    "club": "LIV",
    "position": "FWD",
-   "price": 9,
+   "price": 9.1,
    "form": 7.7,
    "ppg": 7.7,
    "total": 23,
@@ -186,10 +186,10 @@
    "xgc": 4.46,
    "minutes": 243,
    "starts": 3,
-   "owned": 19.1,
+   "owned": 20.1,
    "status": "a",
    "news": null,
-   "priceMomentum": 236886,
+   "priceMomentum": 314709,
    "fixtures": [
     {
      "gw": 4,
@@ -244,7 +244,7 @@
    "owned": 71.2,
    "status": "a",
    "news": null,
-   "priceMomentum": 14641,
+   "priceMomentum": 18612,
    "fixtures": [
     {
      "gw": 4,
@@ -296,10 +296,10 @@
    "xgc": 0.65,
    "minutes": 236,
    "starts": 3,
-   "owned": 47,
+   "owned": 47.4,
    "status": "a",
    "news": null,
-   "priceMomentum": 149324,
+   "priceMomentum": 192389,
    "fixtures": [
     {
      "gw": 4,
@@ -351,10 +351,10 @@
    "xgc": 4.79,
    "minutes": 270,
    "starts": 3,
-   "owned": 72,
+   "owned": 72.2,
    "status": "a",
    "news": null,
-   "priceMomentum": 101649,
+   "priceMomentum": 124793,
    "fixtures": [
     {
      "gw": 4,
@@ -406,10 +406,10 @@
    "xgc": 2.68,
    "minutes": 254,
    "starts": 3,
-   "owned": 19.6,
+   "owned": 19.8,
    "status": "a",
    "news": null,
-   "priceMomentum": 98231,
+   "priceMomentum": 115760,
    "fixtures": [
     {
      "gw": 4,
@@ -453,7 +453,7 @@
    "name": "De Cuyper",
    "club": "BHA",
    "position": "DEF",
-   "price": 4.7,
+   "price": 4.8,
    "form": 7,
    "ppg": 7,
    "total": 21,
@@ -461,10 +461,10 @@
    "xgc": 5.62,
    "minutes": 243,
    "starts": 3,
-   "owned": 18.8,
+   "owned": 19.5,
    "status": "a",
    "news": null,
-   "priceMomentum": 152659,
+   "priceMomentum": 209721,
    "fixtures": [
     {
      "gw": 4,
@@ -516,10 +516,10 @@
    "xgc": 4.7,
    "minutes": 257,
    "starts": 3,
-   "owned": 27.2,
+   "owned": 28,
    "status": "a",
    "news": null,
-   "priceMomentum": 263484,
+   "priceMomentum": 336954,
    "fixtures": [
     {
      "gw": 4,
@@ -571,10 +571,10 @@
    "xgc": 5.45,
    "minutes": 269,
    "starts": 3,
-   "owned": 11.1,
+   "owned": 11.6,
    "status": "a",
    "news": null,
-   "priceMomentum": 148370,
+   "priceMomentum": 189603,
    "fixtures": [
     {
      "gw": 4,
@@ -629,7 +629,7 @@
    "owned": 4.5,
    "status": "a",
    "news": null,
-   "priceMomentum": -8753,
+   "priceMomentum": -12830,
    "fixtures": [
     {
      "gw": 4,
@@ -681,10 +681,10 @@
    "xgc": 0.92,
    "minutes": 270,
    "starts": 3,
-   "owned": 38.7,
+   "owned": 38.8,
    "status": "a",
    "news": null,
-   "priceMomentum": 20458,
+   "priceMomentum": 22796,
    "fixtures": [
     {
      "gw": 4,
@@ -736,10 +736,10 @@
    "xgc": 2.28,
    "minutes": 210,
    "starts": 3,
-   "owned": 14.6,
+   "owned": 14.2,
    "status": "a",
    "news": null,
-   "priceMomentum": -53453,
+   "priceMomentum": -78393,
    "fixtures": [
     {
      "gw": 4,
@@ -794,7 +794,7 @@
    "owned": 17.9,
    "status": "a",
    "news": null,
-   "priceMomentum": 1803,
+   "priceMomentum": 1816,
    "fixtures": [
     {
      "gw": 4,
@@ -929,7 +929,7 @@
      "form": 7,
      "xgi90": 0.28,
      "ease": 2.6,
-     "owned": 1.2,
+     "owned": 1.4,
      "fixtures": [
       {
        "gw": 4,
@@ -1006,7 +1006,7 @@
      "form": 8.7,
      "xgi90": 0,
      "ease": 2.8,
-     "owned": 8.8,
+     "owned": 9.1,
      "fixtures": [
       {
        "gw": 4,
