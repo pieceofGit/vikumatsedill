@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-09-08T09:43:25.415Z",
+ "generatedAt": "2026-09-09T09:48:38.630Z",
  "fantasy": {
   "name": "How's it Goink?",
   "gameweek": 3,
@@ -1172,7 +1172,10 @@
      "note": null
     }
    },
-   "score": null,
+   "score": [
+    0,
+    2
+   ],
    "fpl": {
     "home": [],
     "away": [
@@ -1225,7 +1228,10 @@
      "note": null
     }
    },
-   "score": null,
+   "score": [
+    2,
+    2
+   ],
    "fpl": {
     "home": [
      {
@@ -1317,7 +1323,10 @@
      "note": null
     }
    },
-   "score": null,
+   "score": [
+    1,
+    0
+   ],
    "fpl": {
     "home": [
      {
@@ -1377,7 +1386,10 @@
      "note": null
     }
    },
-   "score": null,
+   "score": [
+    1,
+    1
+   ],
    "fpl": {
     "home": [
      {
@@ -1423,7 +1435,10 @@
      "note": null
     }
    },
-   "score": null,
+   "score": [
+    1,
+    1
+   ],
    "fpl": {
     "home": [
      {
@@ -1477,7 +1492,10 @@
      "note": null
     }
    },
-   "score": null,
+   "score": [
+    2,
+    3
+   ],
    "fpl": null,
    "espnId": "401879289",
    "alert": false
@@ -1561,7 +1579,10 @@
      "note": null
     }
    },
-   "score": null,
+   "score": [
+    2,
+    2
+   ],
    "fpl": null,
    "espnId": "401879291",
    "alert": true
@@ -1599,7 +1620,10 @@
      "note": null
     }
    },
-   "score": null,
+   "score": [
+    2,
+    1
+   ],
    "fpl": {
     "home": [
      {
@@ -1673,7 +1697,10 @@
      "note": null
     }
    },
-   "score": null,
+   "score": [
+    1,
+    0
+   ],
    "fpl": null,
    "alert": false
   },
@@ -1712,7 +1739,10 @@
      "note": null
     }
    },
-   "score": null,
+   "score": [
+    2,
+    3
+   ],
    "fpl": null,
    "alert": false
   },
@@ -1751,7 +1781,10 @@
      "note": null
     }
    },
-   "score": null,
+   "score": [
+    3,
+    2
+   ],
    "fpl": null,
    "alert": false
   },
@@ -1794,7 +1827,10 @@
      "note": null
     }
    },
-   "score": null,
+   "score": [
+    0,
+    2
+   ],
    "fpl": {
     "home": [],
     "away": [
@@ -1859,7 +1895,10 @@
      "note": null
     }
    },
-   "score": null,
+   "score": [
+    2,
+    3
+   ],
    "fpl": null,
    "alert": false
   },
@@ -1902,7 +1941,10 @@
      "note": null
     }
    },
-   "score": null,
+   "score": [
+    2,
+    1
+   ],
    "fpl": null,
    "alert": true
   },
@@ -3065,40 +3107,6 @@
    "alert": false
   },
   {
-   "id": "pl-matchday-5-leeds-crystal-palace",
-   "comp": "pl",
-   "round": "Matchday 5",
-   "date": "2026-09-19",
-   "time": "14:00",
-   "ukDate": "2026-09-19",
-   "ukTime": "15:00",
-   "kickoff": "2026-09-19T14:00:00.000Z",
-   "provisionalTime": false,
-   "home": "Leeds",
-   "away": "Crystal Palace",
-   "homeFull": "Leeds United FC",
-   "awayFull": "Crystal Palace FC",
-   "homeColour": "#ffcd00",
-   "awayColour": "#1b458f",
-   "highlight": null,
-   "channels": {
-    "is": {
-     "broadcaster": "syn",
-     "confidence": "rule",
-     "note": "Shown in Iceland. The 3pm Saturday blackout is a UK rule and does not apply here."
-    },
-    "uk": {
-     "broadcaster": "blackout",
-     "confidence": "rule",
-     "note": null
-    }
-   },
-   "score": null,
-   "fpl": null,
-   "espnId": "401879273",
-   "alert": false
-  },
-  {
    "id": "pl-matchday-5-brighton-arsenal",
    "comp": "pl",
    "round": "Matchday 5",
@@ -3298,6 +3306,40 @@
     "count": 2
    },
    "espnId": "401879276",
+   "alert": false
+  },
+  {
+   "id": "pl-matchday-5-leeds-crystal-palace",
+   "comp": "pl",
+   "round": "Matchday 5",
+   "date": "2026-09-20",
+   "time": "13:00",
+   "ukDate": "2026-09-20",
+   "ukTime": "14:00",
+   "kickoff": "2026-09-20T13:00:00.000Z",
+   "provisionalTime": false,
+   "home": "Leeds",
+   "away": "Crystal Palace",
+   "homeFull": "Leeds United FC",
+   "awayFull": "Crystal Palace FC",
+   "homeColour": "#ffcd00",
+   "awayColour": "#1b458f",
+   "highlight": null,
+   "channels": {
+    "is": {
+     "broadcaster": "syn",
+     "confidence": "rule",
+     "note": null
+    },
+    "uk": {
+     "broadcaster": "sky",
+     "confidence": "slot",
+     "note": null
+    }
+   },
+   "score": null,
+   "fpl": null,
+   "espnId": "401879273",
    "alert": false
   },
   {
@@ -6051,67 +6093,6 @@
    "alert": false
   },
   {
-   "id": "pl-matchday-8-liverpool-brighton",
-   "comp": "pl",
-   "round": "Matchday 8",
-   "date": "2026-10-24",
-   "time": "14:00",
-   "ukDate": "2026-10-24",
-   "ukTime": "15:00",
-   "kickoff": "2026-10-24T14:00:00.000Z",
-   "provisionalTime": false,
-   "home": "Liverpool",
-   "away": "Brighton",
-   "homeFull": "Liverpool FC",
-   "awayFull": "Brighton & Hove Albion FC",
-   "homeColour": "#c8102e",
-   "awayColour": "#0057b8",
-   "highlight": null,
-   "channels": {
-    "is": {
-     "broadcaster": "syn",
-     "confidence": "rule",
-     "note": "Shown in Iceland. The 3pm Saturday blackout is a UK rule and does not apply here."
-    },
-    "uk": {
-     "broadcaster": "blackout",
-     "confidence": "rule",
-     "note": null
-    }
-   },
-   "score": null,
-   "fpl": {
-    "home": [
-     {
-      "name": "Gakpo",
-      "position": "MID",
-      "captain": false,
-      "vice": false,
-      "benched": false
-     },
-     {
-      "name": "Isak",
-      "position": "FWD",
-      "captain": false,
-      "vice": false,
-      "benched": false
-     }
-    ],
-    "away": [
-     {
-      "name": "De Cuyper",
-      "position": "DEF",
-      "captain": false,
-      "vice": false,
-      "benched": false
-     }
-    ],
-    "count": 3
-   },
-   "espnId": "401878765",
-   "alert": false
-  },
-  {
    "id": "pl-matchday-8-arsenal-everton",
    "comp": "pl",
    "round": "Matchday 8",
@@ -6262,6 +6243,67 @@
    },
    "espnId": "401878767",
    "alert": true
+  },
+  {
+   "id": "pl-matchday-8-liverpool-brighton",
+   "comp": "pl",
+   "round": "Matchday 8",
+   "date": "2026-10-25",
+   "time": "14:00",
+   "ukDate": "2026-10-25",
+   "ukTime": "14:00",
+   "kickoff": "2026-10-25T14:00:00.000Z",
+   "provisionalTime": false,
+   "home": "Liverpool",
+   "away": "Brighton",
+   "homeFull": "Liverpool FC",
+   "awayFull": "Brighton & Hove Albion FC",
+   "homeColour": "#c8102e",
+   "awayColour": "#0057b8",
+   "highlight": null,
+   "channels": {
+    "is": {
+     "broadcaster": "syn",
+     "confidence": "rule",
+     "note": null
+    },
+    "uk": {
+     "broadcaster": "sky",
+     "confidence": "slot",
+     "note": null
+    }
+   },
+   "score": null,
+   "fpl": {
+    "home": [
+     {
+      "name": "Gakpo",
+      "position": "MID",
+      "captain": false,
+      "vice": false,
+      "benched": false
+     },
+     {
+      "name": "Isak",
+      "position": "FWD",
+      "captain": false,
+      "vice": false,
+      "benched": false
+     }
+    ],
+    "away": [
+     {
+      "name": "De Cuyper",
+      "position": "DEF",
+      "captain": false,
+      "vice": false,
+      "benched": false
+     }
+    ],
+    "count": 3
+   },
+   "espnId": "401878765",
+   "alert": false
   },
   {
    "id": "pl-matchday-8-crystal-palace-newcastle",
@@ -6794,11 +6836,11 @@
    "id": "pl-matchday-9-aston-villa-fulham",
    "comp": "pl",
    "round": "Matchday 9",
-   "date": "2026-11-01",
-   "time": "14:00",
-   "ukDate": "2026-11-01",
-   "ukTime": "14:00",
-   "kickoff": "2026-11-01T14:00:00.000Z",
+   "date": "2026-10-31",
+   "time": "20:00",
+   "ukDate": "2026-10-31",
+   "ukTime": "20:00",
+   "kickoff": "2026-10-31T20:00:00.000Z",
    "provisionalTime": false,
    "home": "Aston Villa",
    "away": "Fulham",

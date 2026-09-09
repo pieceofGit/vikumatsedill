@@ -1,5 +1,5 @@
 {
- "fetchedAt": "2026-09-08T09:43:26.030Z",
+ "fetchedAt": "2026-09-09T09:48:39.189Z",
  "tables": {
   "pl": {
    "name": "Premier League",
@@ -16,6 +16,11 @@
      "gd": 5,
      "points": 9,
      "form": [
+      {
+       "r": "W",
+       "opponent": "Coventry",
+       "score": "1-0"
+      },
       {
        "r": "W",
        "opponent": "Crystal Palace",
@@ -40,6 +45,11 @@
      "gd": 5,
      "points": 9,
      "form": [
+      {
+       "r": "W",
+       "opponent": "Chelsea",
+       "score": "2-1"
+      },
       {
        "r": "W",
        "opponent": "Aston Villa",
@@ -89,6 +99,11 @@
      "points": 6,
      "form": [
       {
+       "r": "L",
+       "opponent": "Arsenal",
+       "score": "1-2"
+      },
+      {
        "r": "W",
        "opponent": "Brighton",
        "score": "4-3"
@@ -114,6 +129,11 @@
      "form": [
       {
        "r": "D",
+       "opponent": "Sunderland",
+       "score": "1-1"
+      },
+      {
+       "r": "D",
        "opponent": "Leeds",
        "score": "1-1"
       },
@@ -136,6 +156,11 @@
      "gd": 2,
      "points": 5,
      "form": [
+      {
+       "r": "W",
+       "opponent": "Ipswich",
+       "score": "2-0"
+      },
       {
        "r": "D",
        "opponent": "Nott'm Forest",
@@ -160,6 +185,11 @@
      "gd": 2,
      "points": 5,
      "form": [
+      {
+       "r": "D",
+       "opponent": "Bournemouth",
+       "score": "2-2"
+      },
       {
        "r": "W",
        "opponent": "Tottenham",
@@ -186,6 +216,11 @@
      "form": [
       {
        "r": "D",
+       "opponent": "Man Utd",
+       "score": "2-2"
+      },
+      {
+       "r": "D",
        "opponent": "Bournemouth",
        "score": "1-1"
       },
@@ -208,6 +243,11 @@
      "gd": 1,
      "points": 5,
      "form": [
+      {
+       "r": "D",
+       "opponent": "Brighton",
+       "score": "1-1"
+      },
       {
        "r": "D",
        "opponent": "Brentford",
@@ -233,6 +273,11 @@
      "points": 4,
      "form": [
       {
+       "r": "D",
+       "opponent": "Leeds",
+       "score": "1-1"
+      },
+      {
        "r": "L",
        "opponent": "Chelsea",
        "score": "3-4"
@@ -256,6 +301,11 @@
      "gd": 1,
      "points": 4,
      "form": [
+      {
+       "r": "D",
+       "opponent": "Everton",
+       "score": "2-2"
+      },
       {
        "r": "W",
        "opponent": "Ipswich",
@@ -281,6 +331,11 @@
      "points": 4,
      "form": [
       {
+       "r": "D",
+       "opponent": "Brentford",
+       "score": "1-1"
+      },
+      {
        "r": "W",
        "opponent": "Fulham",
        "score": "1-0"
@@ -304,6 +359,11 @@
      "gd": -4,
      "points": 3,
      "form": [
+      {
+       "r": "W",
+       "opponent": "Fulham",
+       "score": "3-2"
+      },
       {
        "r": "L",
        "opponent": "Man City",
@@ -330,6 +390,11 @@
      "form": [
       {
        "r": "L",
+       "opponent": "Liverpool",
+       "score": "0-2"
+      },
+      {
+       "r": "L",
        "opponent": "Man Utd",
        "score": "2-5"
       },
@@ -352,6 +417,11 @@
      "gd": -1,
      "points": 2,
      "form": [
+      {
+       "r": "D",
+       "opponent": "Newcastle",
+       "score": "2-2"
+      },
       {
        "r": "D",
        "opponent": "Everton",
@@ -450,6 +520,11 @@
      "form": [
       {
        "r": "L",
+       "opponent": "Crystal Palace",
+       "score": "2-3"
+      },
+      {
+       "r": "L",
        "opponent": "Sunderland",
        "score": "0-1"
       },
@@ -474,6 +549,11 @@
      "form": [
       {
        "r": "L",
+       "opponent": "Man City",
+       "score": "0-1"
+      },
+      {
+       "r": "L",
        "opponent": "Hull City",
        "score": "0-1"
       },
@@ -491,19 +571,120 @@
    "rows": [
     {
      "rank": 1,
-     "team": "AEK Athens",
-     "played": 0,
-     "won": 0,
+     "team": "Man City",
+     "played": 1,
+     "won": 1,
      "drawn": 0,
      "lost": 0,
-     "gf": 0,
+     "gf": 2,
      "ga": 0,
-     "gd": 0,
-     "points": 0,
-     "form": []
+     "gd": 2,
+     "points": 3,
+     "form": [
+      {
+       "r": "W",
+       "opponent": "FC Porto",
+       "score": "2-0"
+      }
+     ]
     },
     {
      "rank": 2,
+     "team": "Aston Villa",
+     "played": 1,
+     "won": 1,
+     "drawn": 0,
+     "lost": 0,
+     "gf": 3,
+     "ga": 2,
+     "gd": 1,
+     "points": 3,
+     "form": [
+      {
+       "r": "W",
+       "opponent": "Club Brugge",
+       "score": "3-2"
+      }
+     ]
+    },
+    {
+     "rank": 3,
+     "team": "Betis",
+     "played": 1,
+     "won": 1,
+     "drawn": 0,
+     "lost": 0,
+     "gf": 3,
+     "ga": 2,
+     "gd": 1,
+     "points": 3,
+     "form": [
+      {
+       "r": "W",
+       "opponent": "Lille",
+       "score": "3-2"
+      }
+     ]
+    },
+    {
+     "rank": 4,
+     "team": "Dortmund",
+     "played": 1,
+     "won": 1,
+     "drawn": 0,
+     "lost": 0,
+     "gf": 3,
+     "ga": 2,
+     "gd": 1,
+     "points": 3,
+     "form": [
+      {
+       "r": "W",
+       "opponent": "Villarreal",
+       "score": "3-2"
+      }
+     ]
+    },
+    {
+     "rank": 5,
+     "team": "Real Madrid",
+     "played": 1,
+     "won": 1,
+     "drawn": 0,
+     "lost": 0,
+     "gf": 2,
+     "ga": 1,
+     "gd": 1,
+     "points": 3,
+     "form": [
+      {
+       "r": "W",
+       "opponent": "Inter Milan",
+       "score": "2-1"
+      }
+     ]
+    },
+    {
+     "rank": 6,
+     "team": "AEK Athens",
+     "played": 1,
+     "won": 1,
+     "drawn": 0,
+     "lost": 0,
+     "gf": 1,
+     "ga": 0,
+     "gd": 1,
+     "points": 3,
+     "form": [
+      {
+       "r": "W",
+       "opponent": "LASK Linz",
+       "score": "1-0"
+      }
+     ]
+    },
+    {
+     "rank": 7,
      "team": "Arsenal",
      "played": 0,
      "won": 0,
@@ -516,20 +697,7 @@
      "form": []
     },
     {
-     "rank": 3,
-     "team": "Aston Villa",
-     "played": 0,
-     "won": 0,
-     "drawn": 0,
-     "lost": 0,
-     "gf": 0,
-     "ga": 0,
-     "gd": 0,
-     "points": 0,
-     "form": []
-    },
-    {
-     "rank": 4,
+     "rank": 8,
      "team": "Atlético",
      "played": 0,
      "won": 0,
@@ -542,7 +710,7 @@
      "form": []
     },
     {
-     "rank": 5,
+     "rank": 9,
      "team": "Barcelona",
      "played": 0,
      "won": 0,
@@ -555,7 +723,7 @@
      "form": []
     },
     {
-     "rank": 6,
+     "rank": 10,
      "team": "Bayern",
      "played": 0,
      "won": 0,
@@ -568,7 +736,7 @@
      "form": []
     },
     {
-     "rank": 7,
+     "rank": 11,
      "team": "Bodo/Glimt",
      "played": 0,
      "won": 0,
@@ -581,33 +749,7 @@
      "form": []
     },
     {
-     "rank": 8,
-     "team": "Dortmund",
-     "played": 0,
-     "won": 0,
-     "drawn": 0,
-     "lost": 0,
-     "gf": 0,
-     "ga": 0,
-     "gd": 0,
-     "points": 0,
-     "form": []
-    },
-    {
-     "rank": 9,
-     "team": "Club Brugge",
-     "played": 0,
-     "won": 0,
-     "drawn": 0,
-     "lost": 0,
-     "gf": 0,
-     "ga": 0,
-     "gd": 0,
-     "points": 0,
-     "form": []
-    },
-    {
-     "rank": 10,
+     "rank": 12,
      "team": "Como",
      "played": 0,
      "won": 0,
@@ -620,7 +762,7 @@
      "form": []
     },
     {
-     "rank": 11,
+     "rank": 13,
      "team": "Fenerbahce",
      "played": 0,
      "won": 0,
@@ -633,7 +775,7 @@
      "form": []
     },
     {
-     "rank": 12,
+     "rank": 14,
      "team": "Feyenoord",
      "played": 0,
      "won": 0,
@@ -646,34 +788,8 @@
      "form": []
     },
     {
-     "rank": 13,
-     "team": "Galatasaray",
-     "played": 0,
-     "won": 0,
-     "drawn": 0,
-     "lost": 0,
-     "gf": 0,
-     "ga": 0,
-     "gd": 0,
-     "points": 0,
-     "form": []
-    },
-    {
-     "rank": 14,
-     "team": "Inter Milan",
-     "played": 0,
-     "won": 0,
-     "drawn": 0,
-     "lost": 0,
-     "gf": 0,
-     "ga": 0,
-     "gd": 0,
-     "points": 0,
-     "form": []
-    },
-    {
      "rank": 15,
-     "team": "LASK Linz",
+     "team": "Galatasaray",
      "played": 0,
      "won": 0,
      "drawn": 0,
@@ -699,19 +815,6 @@
     },
     {
      "rank": 17,
-     "team": "Lille",
-     "played": 0,
-     "won": 0,
-     "drawn": 0,
-     "lost": 0,
-     "gf": 0,
-     "ga": 0,
-     "gd": 0,
-     "points": 0,
-     "form": []
-    },
-    {
-     "rank": 18,
      "team": "Liverpool",
      "played": 0,
      "won": 0,
@@ -724,20 +827,7 @@
      "form": []
     },
     {
-     "rank": 19,
-     "team": "Man City",
-     "played": 0,
-     "won": 0,
-     "drawn": 0,
-     "lost": 0,
-     "gf": 0,
-     "ga": 0,
-     "gd": 0,
-     "points": 0,
-     "form": []
-    },
-    {
-     "rank": 20,
+     "rank": 18,
      "team": "Man United",
      "played": 0,
      "won": 0,
@@ -750,7 +840,7 @@
      "form": []
     },
     {
-     "rank": 21,
+     "rank": 19,
      "team": "Napoli",
      "played": 0,
      "won": 0,
@@ -763,7 +853,7 @@
      "form": []
     },
     {
-     "rank": 22,
+     "rank": 20,
      "team": "PSV",
      "played": 0,
      "won": 0,
@@ -776,7 +866,7 @@
      "form": []
     },
     {
-     "rank": 23,
+     "rank": 21,
      "team": "PSG",
      "played": 0,
      "won": 0,
@@ -789,20 +879,7 @@
      "form": []
     },
     {
-     "rank": 24,
-     "team": "FC Porto",
-     "played": 0,
-     "won": 0,
-     "drawn": 0,
-     "lost": 0,
-     "gf": 0,
-     "ga": 0,
-     "gd": 0,
-     "points": 0,
-     "form": []
-    },
-    {
-     "rank": 25,
+     "rank": 22,
      "team": "RB Leipzig",
      "played": 0,
      "won": 0,
@@ -815,33 +892,7 @@
      "form": []
     },
     {
-     "rank": 26,
-     "team": "Betis",
-     "played": 0,
-     "won": 0,
-     "drawn": 0,
-     "lost": 0,
-     "gf": 0,
-     "ga": 0,
-     "gd": 0,
-     "points": 0,
-     "form": []
-    },
-    {
-     "rank": 27,
-     "team": "Real Madrid",
-     "played": 0,
-     "won": 0,
-     "drawn": 0,
-     "lost": 0,
-     "gf": 0,
-     "ga": 0,
-     "gd": 0,
-     "points": 0,
-     "form": []
-    },
-    {
-     "rank": 28,
+     "rank": 23,
      "team": "AS Roma",
      "played": 0,
      "won": 0,
@@ -854,7 +905,7 @@
      "form": []
     },
     {
-     "rank": 29,
+     "rank": 24,
      "team": "Sabah",
      "played": 0,
      "won": 0,
@@ -867,7 +918,7 @@
      "form": []
     },
     {
-     "rank": 30,
+     "rank": 25,
      "team": "Shakhtar",
      "played": 0,
      "won": 0,
@@ -880,7 +931,7 @@
      "form": []
     },
     {
-     "rank": 31,
+     "rank": 26,
      "team": "Slavia Prague",
      "played": 0,
      "won": 0,
@@ -893,7 +944,7 @@
      "form": []
     },
     {
-     "rank": 32,
+     "rank": 27,
      "team": "S Bratislava",
      "played": 0,
      "won": 0,
@@ -906,7 +957,7 @@
      "form": []
     },
     {
-     "rank": 33,
+     "rank": 28,
      "team": "Sporting",
      "played": 0,
      "won": 0,
@@ -919,7 +970,7 @@
      "form": []
     },
     {
-     "rank": 34,
+     "rank": 29,
      "team": "Stuttgart",
      "played": 0,
      "won": 0,
@@ -932,7 +983,7 @@
      "form": []
     },
     {
-     "rank": 35,
+     "rank": 30,
      "team": "Viking FK",
      "played": 0,
      "won": 0,
@@ -945,17 +996,118 @@
      "form": []
     },
     {
-     "rank": 36,
+     "rank": 31,
      "team": "Villarreal",
-     "played": 0,
+     "played": 1,
      "won": 0,
      "drawn": 0,
-     "lost": 0,
-     "gf": 0,
-     "ga": 0,
-     "gd": 0,
+     "lost": 1,
+     "gf": 2,
+     "ga": 3,
+     "gd": -1,
      "points": 0,
-     "form": []
+     "form": [
+      {
+       "r": "L",
+       "opponent": "Dortmund",
+       "score": "2-3"
+      }
+     ]
+    },
+    {
+     "rank": 32,
+     "team": "Club Brugge",
+     "played": 1,
+     "won": 0,
+     "drawn": 0,
+     "lost": 1,
+     "gf": 2,
+     "ga": 3,
+     "gd": -1,
+     "points": 0,
+     "form": [
+      {
+       "r": "L",
+       "opponent": "Aston Villa",
+       "score": "2-3"
+      }
+     ]
+    },
+    {
+     "rank": 33,
+     "team": "Lille",
+     "played": 1,
+     "won": 0,
+     "drawn": 0,
+     "lost": 1,
+     "gf": 2,
+     "ga": 3,
+     "gd": -1,
+     "points": 0,
+     "form": [
+      {
+       "r": "L",
+       "opponent": "Betis",
+       "score": "2-3"
+      }
+     ]
+    },
+    {
+     "rank": 34,
+     "team": "Inter Milan",
+     "played": 1,
+     "won": 0,
+     "drawn": 0,
+     "lost": 1,
+     "gf": 1,
+     "ga": 2,
+     "gd": -1,
+     "points": 0,
+     "form": [
+      {
+       "r": "L",
+       "opponent": "Real Madrid",
+       "score": "1-2"
+      }
+     ]
+    },
+    {
+     "rank": 35,
+     "team": "LASK Linz",
+     "played": 1,
+     "won": 0,
+     "drawn": 0,
+     "lost": 1,
+     "gf": 0,
+     "ga": 1,
+     "gd": -1,
+     "points": 0,
+     "form": [
+      {
+       "r": "L",
+       "opponent": "AEK Athens",
+       "score": "0-1"
+      }
+     ]
+    },
+    {
+     "rank": 36,
+     "team": "FC Porto",
+     "played": 1,
+     "won": 0,
+     "drawn": 0,
+     "lost": 1,
+     "gf": 0,
+     "ga": 2,
+     "gd": -2,
+     "points": 0,
+     "form": [
+      {
+       "r": "L",
+       "opponent": "Man City",
+       "score": "0-2"
+      }
+     ]
     }
    ]
   }
