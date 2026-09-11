@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-09-10T09:46:39.227Z",
+ "generatedAt": "2026-09-11T09:43:29.323Z",
  "fantasy": {
   "name": "How's it Goink?",
   "gameweek": 3,
@@ -2285,7 +2285,10 @@
      "note": null
     }
    },
-   "score": null,
+   "score": [
+    1,
+    1
+   ],
    "fpl": null,
    "alert": false
   },
@@ -2324,7 +2327,10 @@
      "note": null
     }
    },
-   "score": null,
+   "score": [
+    1,
+    1
+   ],
    "fpl": null,
    "alert": false
   },
@@ -2363,7 +2369,10 @@
      "note": null
     }
    },
-   "score": null,
+   "score": [
+    5,
+    0
+   ],
    "fpl": null,
    "alert": false
   },
@@ -2402,7 +2411,10 @@
      "note": null
     }
    },
-   "score": null,
+   "score": [
+    4,
+    1
+   ],
    "fpl": null,
    "alert": false
   },
@@ -2445,7 +2457,10 @@
      "note": null
     }
    },
-   "score": null,
+   "score": [
+    4,
+    0
+   ],
    "fpl": null,
    "alert": true
   },
@@ -2484,7 +2499,10 @@
      "note": null
     }
    },
-   "score": null,
+   "score": [
+    2,
+    3
+   ],
    "fpl": null,
    "alert": false
   },

@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-09-10T09:46:39.381Z",
+ "generatedAt": "2026-09-11T09:43:29.483Z",
  "gameweek": 4,
  "gameweekName": "Gameweek 4",
  "deadline": "2026-09-12T12:30:00Z",
@@ -21,10 +21,10 @@
    "xgc": 1.62,
    "minutes": 173,
    "starts": 2,
-   "owned": 30.1,
+   "owned": 29.8,
    "status": "a",
    "news": null,
-   "priceMomentum": -18481,
+   "priceMomentum": -47557,
    "fixtures": [
     {
      "gw": 4,
@@ -76,10 +76,10 @@
    "xgc": 4.08,
    "minutes": 243,
    "starts": 3,
-   "owned": 11.4,
+   "owned": 11.7,
    "status": "a",
    "news": null,
-   "priceMomentum": 165943,
+   "priceMomentum": 188534,
    "fixtures": [
     {
      "gw": 4,
@@ -131,10 +131,10 @@
    "xgc": 4.46,
    "minutes": 243,
    "starts": 3,
-   "owned": 21.1,
+   "owned": 21.9,
    "status": "a",
    "news": null,
-   "priceMomentum": 382101,
+   "priceMomentum": 433519,
    "fixtures": [
     {
      "gw": 4,
@@ -189,7 +189,7 @@
    "owned": 71.3,
    "status": "a",
    "news": null,
-   "priceMomentum": 31558,
+   "priceMomentum": 36579,
    "fixtures": [
     {
      "gw": 4,
@@ -233,7 +233,7 @@
    "name": "Calafiori",
    "club": "ARS",
    "position": "DEF",
-   "price": 5.7,
+   "price": 5.8,
    "form": 7.3,
    "ppg": 7.3,
    "total": 22,
@@ -241,10 +241,10 @@
    "xgc": 0.65,
    "minutes": 236,
    "starts": 3,
-   "owned": 48,
+   "owned": 48.4,
    "status": "a",
    "news": null,
-   "priceMomentum": 245805,
+   "priceMomentum": 283338,
    "fixtures": [
     {
      "gw": 4,
@@ -296,10 +296,10 @@
    "xgc": 4.79,
    "minutes": 270,
    "starts": 3,
-   "owned": 72.5,
+   "owned": 72.8,
    "status": "a",
    "news": null,
-   "priceMomentum": 156946,
+   "priceMomentum": 183842,
    "fixtures": [
     {
      "gw": 4,
@@ -351,10 +351,10 @@
    "xgc": 2.68,
    "minutes": 254,
    "starts": 3,
-   "owned": 19.9,
+   "owned": 20,
    "status": "a",
    "news": null,
-   "priceMomentum": 130271,
+   "priceMomentum": 138523,
    "fixtures": [
     {
      "gw": 4,
@@ -406,10 +406,10 @@
    "xgc": 5.62,
    "minutes": 243,
    "starts": 3,
-   "owned": 20.2,
+   "owned": 20.8,
    "status": "a",
    "news": null,
-   "priceMomentum": 264370,
+   "priceMomentum": 312914,
    "fixtures": [
     {
      "gw": 4,
@@ -461,10 +461,10 @@
    "xgc": 4.7,
    "minutes": 257,
    "starts": 3,
-   "owned": 29.4,
+   "owned": 30.9,
    "status": "a",
    "news": null,
-   "priceMomentum": 463170,
+   "priceMomentum": 593816,
    "fixtures": [
     {
      "gw": 4,
@@ -516,10 +516,10 @@
    "xgc": 5.45,
    "minutes": 269,
    "starts": 3,
-   "owned": 12.1,
+   "owned": 12.6,
    "status": "a",
    "news": null,
-   "priceMomentum": 245750,
+   "priceMomentum": 292121,
    "fixtures": [
     {
      "gw": 4,
@@ -571,10 +571,10 @@
    "xgc": 3.96,
    "minutes": 270,
    "starts": 3,
-   "owned": 4.4,
+   "owned": 4.3,
    "status": "a",
    "news": null,
-   "priceMomentum": -18492,
+   "priceMomentum": -22853,
    "fixtures": [
     {
      "gw": 4,
@@ -626,10 +626,10 @@
    "xgc": 0.92,
    "minutes": 270,
    "starts": 3,
-   "owned": 38.9,
+   "owned": 39,
    "status": "a",
    "news": null,
-   "priceMomentum": 25100,
+   "priceMomentum": 24771,
    "fixtures": [
     {
      "gw": 4,
@@ -681,10 +681,10 @@
    "xgc": 2.28,
    "minutes": 210,
    "starts": 3,
-   "owned": 13.8,
+   "owned": 13.5,
    "status": "a",
    "news": null,
-   "priceMomentum": -110698,
+   "priceMomentum": -135538,
    "fixtures": [
     {
      "gw": 4,
@@ -736,10 +736,10 @@
    "xgc": 4.56,
    "minutes": 250,
    "starts": 3,
-   "owned": 14.2,
+   "owned": 13.7,
    "status": "d",
    "news": "Thigh injury - 75% chance of playing",
-   "priceMomentum": 494670,
+   "priceMomentum": 453966,
    "fixtures": [
     {
      "gw": 4,
@@ -794,7 +794,7 @@
    "owned": 17.9,
    "status": "a",
    "news": null,
-   "priceMomentum": 3810,
+   "priceMomentum": 7629,
    "fixtures": [
     {
      "gw": 4,
@@ -924,12 +924,12 @@
      "id": 15,
      "name": "Ødegaard",
      "club": "ARS",
-     "price": 6.6,
+     "price": 6.7,
      "rating": 5.7,
      "form": 8,
      "xgi90": 0.84,
      "ease": 3.2,
-     "owned": 14.6,
+     "owned": 15.9,
      "fixtures": [
       {
        "gw": 4,
@@ -955,12 +955,12 @@
      "id": 69,
      "name": "Scott",
      "club": "BOU",
-     "price": 6,
+     "price": 6.1,
      "rating": 5.62,
      "form": 8,
      "xgi90": 0.21,
      "ease": 2.6,
-     "owned": 4.7,
+     "owned": 5.1,
      "fixtures": [
       {
        "gw": 4,
@@ -991,7 +991,7 @@
      "form": 7,
      "xgi90": 0.61,
      "ease": 2.6,
-     "owned": 3.3,
+     "owned": 3.4,
      "fixtures": [
       {
        "gw": 4,
@@ -1037,7 +1037,7 @@
      "form": 7,
      "xgi90": 0.28,
      "ease": 2.6,
-     "owned": 1.7,
+     "owned": 1.9,
      "fixtures": [
       {
        "gw": 4,
