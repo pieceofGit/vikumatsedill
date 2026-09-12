@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-09-11T09:43:29.483Z",
+ "generatedAt": "2026-09-12T09:23:33.300Z",
  "gameweek": 4,
  "gameweekName": "Gameweek 4",
  "deadline": "2026-09-12T12:30:00Z",
@@ -21,10 +21,10 @@
    "xgc": 1.62,
    "minutes": 173,
    "starts": 2,
-   "owned": 29.8,
+   "owned": 29.1,
    "status": "a",
    "news": null,
-   "priceMomentum": -47557,
+   "priceMomentum": -105302,
    "fixtures": [
     {
      "gw": 4,
@@ -68,7 +68,7 @@
    "name": "Ajayi",
    "club": "HUL",
    "position": "DEF",
-   "price": 4.1,
+   "price": 4.2,
    "form": 8.3,
    "ppg": 8.3,
    "total": 25,
@@ -76,10 +76,10 @@
    "xgc": 4.08,
    "minutes": 243,
    "starts": 3,
-   "owned": 11.7,
+   "owned": 12.4,
    "status": "a",
    "news": null,
-   "priceMomentum": 188534,
+   "priceMomentum": 252921,
    "fixtures": [
     {
      "gw": 4,
@@ -131,10 +131,10 @@
    "xgc": 4.46,
    "minutes": 243,
    "starts": 3,
-   "owned": 21.9,
+   "owned": 23.7,
    "status": "a",
    "news": null,
-   "priceMomentum": 433519,
+   "priceMomentum": 568706,
    "fixtures": [
     {
      "gw": 4,
@@ -186,10 +186,10 @@
    "xgc": 2.68,
    "minutes": 270,
    "starts": 3,
-   "owned": 71.3,
+   "owned": 71.2,
    "status": "a",
    "news": null,
-   "priceMomentum": 36579,
+   "priceMomentum": 41986,
    "fixtures": [
     {
      "gw": 4,
@@ -241,10 +241,10 @@
    "xgc": 0.65,
    "minutes": 236,
    "starts": 3,
-   "owned": 48.4,
+   "owned": 49.2,
    "status": "a",
    "news": null,
-   "priceMomentum": 283338,
+   "priceMomentum": 364390,
    "fixtures": [
     {
      "gw": 4,
@@ -296,10 +296,10 @@
    "xgc": 4.79,
    "minutes": 270,
    "starts": 3,
-   "owned": 72.8,
+   "owned": 73.7,
    "status": "a",
    "news": null,
-   "priceMomentum": 183842,
+   "priceMomentum": 262437,
    "fixtures": [
     {
      "gw": 4,
@@ -351,10 +351,10 @@
    "xgc": 2.68,
    "minutes": 254,
    "starts": 3,
-   "owned": 20,
+   "owned": 19.9,
    "status": "a",
    "news": null,
-   "priceMomentum": 138523,
+   "priceMomentum": 149223,
    "fixtures": [
     {
      "gw": 4,
@@ -406,10 +406,10 @@
    "xgc": 5.62,
    "minutes": 243,
    "starts": 3,
-   "owned": 20.8,
+   "owned": 22.5,
    "status": "a",
    "news": null,
-   "priceMomentum": 312914,
+   "priceMomentum": 450500,
    "fixtures": [
     {
      "gw": 4,
@@ -461,10 +461,10 @@
    "xgc": 4.7,
    "minutes": 257,
    "starts": 3,
-   "owned": 30.9,
+   "owned": 34.3,
    "status": "a",
    "news": null,
-   "priceMomentum": 593816,
+   "priceMomentum": 899503,
    "fixtures": [
     {
      "gw": 4,
@@ -508,7 +508,7 @@
    "name": "Hall",
    "club": "NEW",
    "position": "DEF",
-   "price": 5.1,
+   "price": 5.2,
    "form": 6,
    "ppg": 6,
    "total": 18,
@@ -516,10 +516,10 @@
    "xgc": 5.45,
    "minutes": 269,
    "starts": 3,
-   "owned": 12.6,
+   "owned": 13.8,
    "status": "a",
    "news": null,
-   "priceMomentum": 292121,
+   "priceMomentum": 410082,
    "fixtures": [
     {
      "gw": 4,
@@ -571,10 +571,10 @@
    "xgc": 3.96,
    "minutes": 270,
    "starts": 3,
-   "owned": 4.3,
+   "owned": 4.2,
    "status": "a",
    "news": null,
-   "priceMomentum": -22853,
+   "priceMomentum": -33397,
    "fixtures": [
     {
      "gw": 4,
@@ -626,10 +626,10 @@
    "xgc": 0.92,
    "minutes": 270,
    "starts": 3,
-   "owned": 39,
+   "owned": 39.1,
    "status": "a",
    "news": null,
-   "priceMomentum": 24771,
+   "priceMomentum": 30402,
    "fixtures": [
     {
      "gw": 4,
@@ -681,10 +681,10 @@
    "xgc": 2.28,
    "minutes": 210,
    "starts": 3,
-   "owned": 13.5,
+   "owned": 12.9,
    "status": "a",
    "news": null,
-   "priceMomentum": -135538,
+   "priceMomentum": -187060,
    "fixtures": [
     {
      "gw": 4,
@@ -736,10 +736,10 @@
    "xgc": 4.56,
    "minutes": 250,
    "starts": 3,
-   "owned": 13.7,
+   "owned": 12.8,
    "status": "d",
    "news": "Thigh injury - 75% chance of playing",
-   "priceMomentum": 453966,
+   "priceMomentum": 388661,
    "fixtures": [
     {
      "gw": 4,
@@ -791,10 +791,10 @@
    "xgc": 0,
    "minutes": 0,
    "starts": 0,
-   "owned": 17.9,
+   "owned": 18,
    "status": "a",
    "news": null,
-   "priceMomentum": 7629,
+   "priceMomentum": 13601,
    "fixtures": [
     {
      "gw": 4,
@@ -929,7 +929,7 @@
      "form": 8,
      "xgi90": 0.84,
      "ease": 3.2,
-     "owned": 15.9,
+     "owned": 18.2,
      "fixtures": [
       {
        "gw": 4,
@@ -960,7 +960,7 @@
      "form": 8,
      "xgi90": 0.21,
      "ease": 2.6,
-     "owned": 5.1,
+     "owned": 5.9,
      "fixtures": [
       {
        "gw": 4,
@@ -991,7 +991,7 @@
      "form": 7,
      "xgi90": 0.61,
      "ease": 2.6,
-     "owned": 3.4,
+     "owned": 3.7,
      "fixtures": [
       {
        "gw": 4,
@@ -1037,7 +1037,7 @@
      "form": 7,
      "xgi90": 0.28,
      "ease": 2.6,
-     "owned": 1.9,
+     "owned": 2.3,
      "fixtures": [
       {
        "gw": 4,
@@ -1068,7 +1068,7 @@
      "form": 6.3,
      "xgi90": 0.43,
      "ease": 3.2,
-     "owned": 1.1,
+     "owned": 1.2,
      "fixtures": [
       {
        "gw": 4,
