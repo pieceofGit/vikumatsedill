@@ -1,11 +1,11 @@
 {
- "generatedAt": "2026-09-12T09:23:33.150Z",
+ "generatedAt": "2026-09-13T10:18:40.914Z",
  "fantasy": {
   "name": "How's it Goink?",
-  "gameweek": 3,
+  "gameweek": 4,
   "teamId": 6870928,
-  "overallPoints": 198,
-  "overallRank": 2554775
+  "overallPoints": 240,
+  "overallRank": 2902140
  },
  "season": "2026-27",
  "timezone": "Atlantic/Reykjavik",
@@ -145,10 +145,17 @@
       "captain": false,
       "vice": false,
       "benched": false
+     },
+     {
+      "name": "Ødegaard",
+      "position": "MID",
+      "captain": false,
+      "vice": false,
+      "benched": false
      }
     ],
     "away": [],
-    "count": 2
+    "count": 3
    },
    "espnId": "401879301",
    "alert": false
@@ -239,19 +246,7 @@
     2,
     1
    ],
-   "fpl": {
-    "home": [],
-    "away": [
-     {
-      "name": "Xhaka",
-      "position": "MID",
-      "captain": false,
-      "vice": false,
-      "benched": true
-     }
-    ],
-    "count": 1
-   },
+   "fpl": null,
    "espnId": "401879299",
    "alert": false
   },
@@ -363,15 +358,7 @@
     0
    ],
    "fpl": {
-    "home": [
-     {
-      "name": "M.Sangaré",
-      "position": "MID",
-      "captain": false,
-      "vice": false,
-      "benched": false
-     }
-    ],
+    "home": [],
     "away": [
      {
       "name": "Dubravka",
@@ -381,7 +368,7 @@
       "benched": true
      }
     ],
-    "count": 2
+    "count": 1
    },
    "espnId": "401879321",
    "alert": false
@@ -422,17 +409,10 @@
    "fpl": {
     "home": [
      {
-      "name": "Gvardiol",
-      "position": "DEF",
-      "captain": false,
-      "vice": false,
-      "benched": false
-     },
-     {
       "name": "Cherki",
       "position": "MID",
       "captain": false,
-      "vice": true,
+      "vice": false,
       "benched": false
      },
      {
@@ -441,6 +421,13 @@
       "captain": true,
       "vice": false,
       "benched": false
+     },
+     {
+      "name": "Gvardiol",
+      "position": "DEF",
+      "captain": false,
+      "vice": false,
+      "benched": true
      }
     ],
     "away": [],
@@ -490,10 +477,17 @@
       "captain": false,
       "vice": false,
       "benched": false
+     },
+     {
+      "name": "Yalcouyé",
+      "position": "MID",
+      "captain": false,
+      "vice": false,
+      "benched": true
      }
     ],
     "away": [],
-    "count": 1
+    "count": 2
    },
    "espnId": "401879297",
    "alert": false
@@ -553,7 +547,7 @@
       "name": "Isak",
       "position": "FWD",
       "captain": false,
-      "vice": false,
+      "vice": true,
       "benched": false
      }
     ],
@@ -614,7 +608,7 @@
       "position": "FWD",
       "captain": false,
       "vice": false,
-      "benched": true
+      "benched": false
      }
     ],
     "count": 2
@@ -659,17 +653,10 @@
     "home": [],
     "away": [
      {
-      "name": "Gvardiol",
-      "position": "DEF",
-      "captain": false,
-      "vice": false,
-      "benched": false
-     },
-     {
       "name": "Cherki",
       "position": "MID",
       "captain": false,
-      "vice": true,
+      "vice": false,
       "benched": false
      },
      {
@@ -678,6 +665,13 @@
       "captain": true,
       "vice": false,
       "benched": false
+     },
+     {
+      "name": "Gvardiol",
+      "position": "DEF",
+      "captain": false,
+      "vice": false,
+      "benched": true
      }
     ],
     "count": 3
@@ -731,7 +725,7 @@
       "name": "Isak",
       "position": "FWD",
       "captain": false,
-      "vice": false,
+      "vice": true,
       "benched": false
      }
     ],
@@ -917,19 +911,7 @@
     1,
     0
    ],
-   "fpl": {
-    "home": [
-     {
-      "name": "Xhaka",
-      "position": "MID",
-      "captain": false,
-      "vice": false,
-      "benched": true
-     }
-    ],
-    "away": [],
-    "count": 1
-   },
+   "fpl": null,
    "espnId": "401879313",
    "alert": false
   },
@@ -980,7 +962,7 @@
       "position": "FWD",
       "captain": false,
       "vice": false,
-      "benched": true
+      "benched": false
      }
     ],
     "away": [
@@ -990,9 +972,16 @@
       "captain": false,
       "vice": false,
       "benched": false
+     },
+     {
+      "name": "Yalcouyé",
+      "position": "MID",
+      "captain": false,
+      "vice": false,
+      "benched": true
      }
     ],
-    "count": 3
+    "count": 4
    },
    "espnId": "401879317",
    "alert": false
@@ -1030,19 +1019,7 @@
     1,
     1
    ],
-   "fpl": {
-    "home": [],
-    "away": [
-     {
-      "name": "M.Sangaré",
-      "position": "MID",
-      "captain": false,
-      "vice": false,
-      "benched": false
-     }
-    ],
-    "count": 1
-   },
+   "fpl": null,
    "espnId": "401879315",
    "alert": false
   },
@@ -1136,9 +1113,16 @@
       "captain": false,
       "vice": false,
       "benched": false
+     },
+     {
+      "name": "Ødegaard",
+      "position": "MID",
+      "captain": false,
+      "vice": false,
+      "benched": false
      }
     ],
-    "count": 2
+    "count": 3
    },
    "espnId": "401879295",
    "alert": false
@@ -1190,7 +1174,7 @@
       "name": "Isak",
       "position": "FWD",
       "captain": false,
-      "vice": false,
+      "vice": true,
       "benched": false
      }
     ],
@@ -1330,17 +1314,10 @@
    "fpl": {
     "home": [
      {
-      "name": "Gvardiol",
-      "position": "DEF",
-      "captain": false,
-      "vice": false,
-      "benched": false
-     },
-     {
       "name": "Cherki",
       "position": "MID",
       "captain": false,
-      "vice": true,
+      "vice": false,
       "benched": false
      },
      {
@@ -1349,6 +1326,13 @@
       "captain": true,
       "vice": false,
       "benched": false
+     },
+     {
+      "name": "Gvardiol",
+      "position": "DEF",
+      "captain": false,
+      "vice": false,
+      "benched": true
      }
     ],
     "away": [],
@@ -1398,10 +1382,17 @@
       "captain": false,
       "vice": false,
       "benched": false
+     },
+     {
+      "name": "Yalcouyé",
+      "position": "MID",
+      "captain": false,
+      "vice": false,
+      "benched": true
      }
     ],
     "away": [],
-    "count": 1
+    "count": 2
    },
    "espnId": "401879290",
    "alert": false
@@ -1439,27 +1430,7 @@
     1,
     1
    ],
-   "fpl": {
-    "home": [
-     {
-      "name": "M.Sangaré",
-      "position": "MID",
-      "captain": false,
-      "vice": false,
-      "benched": false
-     }
-    ],
-    "away": [
-     {
-      "name": "Xhaka",
-      "position": "MID",
-      "captain": false,
-      "vice": false,
-      "benched": true
-     }
-    ],
-    "count": 2
-   },
+   "fpl": null,
    "espnId": "401879311",
    "alert": false
   },
@@ -1639,6 +1610,13 @@
       "captain": false,
       "vice": false,
       "benched": false
+     },
+     {
+      "name": "Ødegaard",
+      "position": "MID",
+      "captain": false,
+      "vice": false,
+      "benched": false
      }
     ],
     "away": [
@@ -1654,10 +1632,10 @@
       "position": "FWD",
       "captain": false,
       "vice": false,
-      "benched": true
+      "benched": false
      }
     ],
-    "count": 4
+    "count": 5
    },
    "espnId": "401879292",
    "alert": true
@@ -1835,17 +1813,10 @@
     "home": [],
     "away": [
      {
-      "name": "Gvardiol",
-      "position": "DEF",
-      "captain": false,
-      "vice": false,
-      "benched": false
-     },
-     {
       "name": "Cherki",
       "position": "MID",
       "captain": false,
-      "vice": true,
+      "vice": false,
       "benched": false
      },
      {
@@ -1854,6 +1825,13 @@
       "captain": true,
       "vice": false,
       "benched": false
+     },
+     {
+      "name": "Gvardiol",
+      "position": "DEF",
+      "captain": false,
+      "vice": false,
+      "benched": true
      }
     ],
     "count": 3
@@ -2088,7 +2066,7 @@
       "name": "Isak",
       "position": "FWD",
       "captain": false,
-      "vice": false,
+      "vice": true,
       "benched": false
      }
     ],
@@ -2156,9 +2134,16 @@
       "captain": false,
       "vice": false,
       "benched": false
+     },
+     {
+      "name": "Ødegaard",
+      "position": "MID",
+      "captain": false,
+      "vice": false,
+      "benched": false
      }
     ],
-    "count": 2
+    "count": 3
    },
    "alert": true
   },
@@ -2583,7 +2568,7 @@
       "name": "Isak",
       "position": "FWD",
       "captain": false,
-      "vice": false,
+      "vice": true,
       "benched": false
      }
     ],
@@ -2657,19 +2642,7 @@
     }
    },
    "score": null,
-   "fpl": {
-    "home": [],
-    "away": [
-     {
-      "name": "M.Sangaré",
-      "position": "MID",
-      "captain": false,
-      "vice": false,
-      "benched": false
-     }
-    ],
-    "count": 1
-   },
+   "fpl": null,
    "espnId": "401879285",
    "alert": false
   },
@@ -2717,7 +2690,7 @@
       "position": "FWD",
       "captain": false,
       "vice": false,
-      "benched": true
+      "benched": false
      }
     ],
     "away": [
@@ -2811,15 +2784,7 @@
    },
    "score": null,
    "fpl": {
-    "home": [
-     {
-      "name": "Xhaka",
-      "position": "MID",
-      "captain": false,
-      "vice": false,
-      "benched": true
-     }
-    ],
+    "home": [],
     "away": [
      {
       "name": "Raya",
@@ -2831,6 +2796,13 @@
      {
       "name": "Calafiori",
       "position": "DEF",
+      "captain": false,
+      "vice": false,
+      "benched": false
+     },
+     {
+      "name": "Ødegaard",
+      "position": "MID",
       "captain": false,
       "vice": false,
       "benched": false
@@ -2880,9 +2852,16 @@
       "captain": false,
       "vice": false,
       "benched": false
+     },
+     {
+      "name": "Yalcouyé",
+      "position": "MID",
+      "captain": false,
+      "vice": false,
+      "benched": true
      }
     ],
-    "count": 1
+    "count": 2
    },
    "espnId": "401879282",
    "alert": false
@@ -2925,17 +2904,10 @@
     "home": [],
     "away": [
      {
-      "name": "Gvardiol",
-      "position": "DEF",
-      "captain": false,
-      "vice": false,
-      "benched": false
-     },
-     {
       "name": "Cherki",
       "position": "MID",
       "captain": false,
-      "vice": true,
+      "vice": false,
       "benched": false
      },
      {
@@ -2944,6 +2916,13 @@
       "captain": true,
       "vice": false,
       "benched": false
+     },
+     {
+      "name": "Gvardiol",
+      "position": "DEF",
+      "captain": false,
+      "vice": false,
+      "benched": true
      }
     ],
     "count": 3
@@ -3032,15 +3011,7 @@
    },
    "score": null,
    "fpl": {
-    "home": [
-     {
-      "name": "M.Sangaré",
-      "position": "MID",
-      "captain": false,
-      "vice": false,
-      "benched": false
-     }
-    ],
+    "home": [],
     "away": [
      {
       "name": "Rogers",
@@ -3054,10 +3025,10 @@
       "position": "FWD",
       "captain": false,
       "vice": false,
-      "benched": true
+      "benched": false
      }
     ],
-    "count": 3
+    "count": 2
    },
    "espnId": "401879275",
    "alert": true
@@ -3180,6 +3151,13 @@
       "captain": false,
       "vice": false,
       "benched": false
+     },
+     {
+      "name": "Yalcouyé",
+      "position": "MID",
+      "captain": false,
+      "vice": false,
+      "benched": true
      }
     ],
     "away": [
@@ -3196,9 +3174,16 @@
       "captain": false,
       "vice": false,
       "benched": false
+     },
+     {
+      "name": "Ødegaard",
+      "position": "MID",
+      "captain": false,
+      "vice": false,
+      "benched": false
      }
     ],
-    "count": 3
+    "count": 5
    },
    "espnId": "401879274",
    "alert": false
@@ -3335,7 +3320,7 @@
       "name": "Isak",
       "position": "FWD",
       "captain": false,
-      "vice": false,
+      "vice": true,
       "benched": false
      }
     ],
@@ -3411,17 +3396,10 @@
    "fpl": {
     "home": [
      {
-      "name": "Gvardiol",
-      "position": "DEF",
-      "captain": false,
-      "vice": false,
-      "benched": false
-     },
-     {
       "name": "Cherki",
       "position": "MID",
       "captain": false,
-      "vice": true,
+      "vice": false,
       "benched": false
      },
      {
@@ -3430,18 +3408,17 @@
       "captain": true,
       "vice": false,
       "benched": false
-     }
-    ],
-    "away": [
+     },
      {
-      "name": "Xhaka",
-      "position": "MID",
+      "name": "Gvardiol",
+      "position": "DEF",
       "captain": false,
       "vice": false,
       "benched": true
      }
     ],
-    "count": 4
+    "away": [],
+    "count": 3
    },
    "espnId": "401879272",
    "alert": false
@@ -3529,10 +3506,17 @@
       "captain": false,
       "vice": false,
       "benched": false
+     },
+     {
+      "name": "Ødegaard",
+      "position": "MID",
+      "captain": false,
+      "vice": false,
+      "benched": false
      }
     ],
     "away": [],
-    "count": 2
+    "count": 3
    },
    "espnId": "401879268",
    "alert": false
@@ -3568,15 +3552,7 @@
    },
    "score": null,
    "fpl": {
-    "home": [
-     {
-      "name": "Xhaka",
-      "position": "MID",
-      "captain": false,
-      "vice": false,
-      "benched": true
-     }
-    ],
+    "home": [],
     "away": [
      {
       "name": "De Cuyper",
@@ -3584,6 +3560,13 @@
       "captain": false,
       "vice": false,
       "benched": false
+     },
+     {
+      "name": "Yalcouyé",
+      "position": "MID",
+      "captain": false,
+      "vice": false,
+      "benched": true
      }
     ],
     "count": 2
@@ -3635,7 +3618,7 @@
       "position": "FWD",
       "captain": false,
       "vice": false,
-      "benched": true
+      "benched": false
      }
     ],
     "away": [],
@@ -3708,19 +3691,7 @@
     }
    },
    "score": null,
-   "fpl": {
-    "home": [],
-    "away": [
-     {
-      "name": "M.Sangaré",
-      "position": "MID",
-      "captain": false,
-      "vice": false,
-      "benched": false
-     }
-    ],
-    "count": 1
-   },
+   "fpl": null,
    "espnId": "401878776",
    "alert": false
   },
@@ -3901,23 +3872,16 @@
       "name": "Isak",
       "position": "FWD",
       "captain": false,
-      "vice": false,
+      "vice": true,
       "benched": false
      }
     ],
     "away": [
      {
-      "name": "Gvardiol",
-      "position": "DEF",
-      "captain": false,
-      "vice": false,
-      "benched": false
-     },
-     {
       "name": "Cherki",
       "position": "MID",
       "captain": false,
-      "vice": true,
+      "vice": false,
       "benched": false
      },
      {
@@ -3926,6 +3890,13 @@
       "captain": true,
       "vice": false,
       "benched": false
+     },
+     {
+      "name": "Gvardiol",
+      "position": "DEF",
+      "captain": false,
+      "vice": false,
+      "benched": true
      }
     ],
     "count": 5
@@ -4108,10 +4079,17 @@
       "captain": false,
       "vice": false,
       "benched": false
+     },
+     {
+      "name": "Ødegaard",
+      "position": "MID",
+      "captain": false,
+      "vice": false,
+      "benched": false
      }
     ],
     "away": [],
-    "count": 2
+    "count": 3
    },
    "alert": false
   },
@@ -4442,7 +4420,7 @@
       "name": "Isak",
       "position": "FWD",
       "captain": false,
-      "vice": false,
+      "vice": true,
       "benched": false
      }
     ],
@@ -4614,17 +4592,10 @@
    "fpl": {
     "home": [
      {
-      "name": "Gvardiol",
-      "position": "DEF",
-      "captain": false,
-      "vice": false,
-      "benched": false
-     },
-     {
       "name": "Cherki",
       "position": "MID",
       "captain": false,
-      "vice": true,
+      "vice": false,
       "benched": false
      },
      {
@@ -4633,6 +4604,13 @@
       "captain": true,
       "vice": false,
       "benched": false
+     },
+     {
+      "name": "Gvardiol",
+      "position": "DEF",
+      "captain": false,
+      "vice": false,
+      "benched": true
      }
     ],
     "away": [],
@@ -4802,7 +4780,7 @@
       "position": "FWD",
       "captain": false,
       "vice": false,
-      "benched": true
+      "benched": false
      }
     ],
     "count": 2
@@ -4889,17 +4867,10 @@
    "fpl": {
     "home": [
      {
-      "name": "Gvardiol",
-      "position": "DEF",
-      "captain": false,
-      "vice": false,
-      "benched": false
-     },
-     {
       "name": "Cherki",
       "position": "MID",
       "captain": false,
-      "vice": true,
+      "vice": false,
       "benched": false
      },
      {
@@ -4908,6 +4879,13 @@
       "captain": true,
       "vice": false,
       "benched": false
+     },
+     {
+      "name": "Gvardiol",
+      "position": "DEF",
+      "captain": false,
+      "vice": false,
+      "benched": true
      }
     ],
     "away": [],
@@ -4947,15 +4925,7 @@
    },
    "score": null,
    "fpl": {
-    "home": [
-     {
-      "name": "M.Sangaré",
-      "position": "MID",
-      "captain": false,
-      "vice": false,
-      "benched": false
-     }
-    ],
+    "home": [],
     "away": [
      {
       "name": "Gakpo",
@@ -4968,11 +4938,11 @@
       "name": "Isak",
       "position": "FWD",
       "captain": false,
-      "vice": false,
+      "vice": true,
       "benched": false
      }
     ],
-    "count": 3
+    "count": 2
    },
    "espnId": "401879262",
    "alert": false
@@ -5053,19 +5023,7 @@
     }
    },
    "score": null,
-   "fpl": {
-    "home": [],
-    "away": [
-     {
-      "name": "Xhaka",
-      "position": "MID",
-      "captain": false,
-      "vice": false,
-      "benched": true
-     }
-    ],
-    "count": 1
-   },
+   "fpl": null,
    "espnId": "401879263",
    "alert": false
   },
@@ -5149,10 +5107,17 @@
       "captain": false,
       "vice": false,
       "benched": false
+     },
+     {
+      "name": "Yalcouyé",
+      "position": "MID",
+      "captain": false,
+      "vice": false,
+      "benched": true
      }
     ],
     "away": [],
-    "count": 1
+    "count": 2
    },
    "espnId": "401879261",
    "alert": true
@@ -5203,9 +5168,16 @@
       "captain": false,
       "vice": false,
       "benched": false
+     },
+     {
+      "name": "Ødegaard",
+      "position": "MID",
+      "captain": false,
+      "vice": false,
+      "benched": false
      }
     ],
-    "count": 2
+    "count": 3
    },
    "espnId": "401878769",
    "alert": false
@@ -5461,7 +5433,7 @@
       "name": "Isak",
       "position": "FWD",
       "captain": false,
-      "vice": false,
+      "vice": true,
       "benched": false
      }
     ],
@@ -5509,17 +5481,10 @@
    "fpl": {
     "home": [
      {
-      "name": "Gvardiol",
-      "position": "DEF",
-      "captain": false,
-      "vice": false,
-      "benched": false
-     },
-     {
       "name": "Cherki",
       "position": "MID",
       "captain": false,
-      "vice": true,
+      "vice": false,
       "benched": false
      },
      {
@@ -5528,6 +5493,13 @@
       "captain": true,
       "vice": false,
       "benched": false
+     },
+     {
+      "name": "Gvardiol",
+      "position": "DEF",
+      "captain": false,
+      "vice": false,
+      "benched": true
      }
     ],
     "away": [],
@@ -5833,9 +5805,16 @@
       "captain": false,
       "vice": false,
       "benched": false
+     },
+     {
+      "name": "Ødegaard",
+      "position": "MID",
+      "captain": false,
+      "vice": false,
+      "benched": false
      }
     ],
-    "count": 2
+    "count": 3
    },
    "alert": true
   },
@@ -6102,17 +6081,10 @@
     "home": [],
     "away": [
      {
-      "name": "Gvardiol",
-      "position": "DEF",
-      "captain": false,
-      "vice": false,
-      "benched": false
-     },
-     {
       "name": "Cherki",
       "position": "MID",
       "captain": false,
-      "vice": true,
+      "vice": false,
       "benched": false
      },
      {
@@ -6121,6 +6093,13 @@
       "captain": true,
       "vice": false,
       "benched": false
+     },
+     {
+      "name": "Gvardiol",
+      "position": "DEF",
+      "captain": false,
+      "vice": false,
+      "benched": true
      }
     ],
     "count": 3
@@ -6173,10 +6152,17 @@
       "captain": false,
       "vice": false,
       "benched": false
+     },
+     {
+      "name": "Ødegaard",
+      "position": "MID",
+      "captain": false,
+      "vice": false,
+      "benched": false
      }
     ],
     "away": [],
-    "count": 2
+    "count": 3
    },
    "espnId": "401878768",
    "alert": false
@@ -6263,7 +6249,7 @@
       "position": "FWD",
       "captain": false,
       "vice": false,
-      "benched": true
+      "benched": false
      }
     ],
     "away": [
@@ -6323,7 +6309,7 @@
       "name": "Isak",
       "position": "FWD",
       "captain": false,
-      "vice": false,
+      "vice": true,
       "benched": false
      }
     ],
@@ -6334,9 +6320,16 @@
       "captain": false,
       "vice": false,
       "benched": false
+     },
+     {
+      "name": "Yalcouyé",
+      "position": "MID",
+      "captain": false,
+      "vice": false,
+      "benched": true
      }
     ],
-    "count": 3
+    "count": 4
    },
    "espnId": "401878765",
    "alert": false
@@ -6465,16 +6458,8 @@
       "benched": true
      }
     ],
-    "away": [
-     {
-      "name": "M.Sangaré",
-      "position": "MID",
-      "captain": false,
-      "vice": false,
-      "benched": false
-     }
-    ],
-    "count": 2
+    "away": [],
+    "count": 1
    },
    "espnId": "401878766",
    "alert": false
@@ -6509,19 +6494,7 @@
     }
    },
    "score": null,
-   "fpl": {
-    "home": [
-     {
-      "name": "Xhaka",
-      "position": "MID",
-      "captain": false,
-      "vice": false,
-      "benched": true
-     }
-    ],
-    "away": [],
-    "count": 1
-   },
+   "fpl": null,
    "espnId": "401878764",
    "alert": false
   },
@@ -6573,7 +6546,7 @@
       "position": "FWD",
       "captain": false,
       "vice": false,
-      "benched": true
+      "benched": false
      }
     ],
     "away": [],
@@ -6615,17 +6588,10 @@
    "fpl": {
     "home": [
      {
-      "name": "Gvardiol",
-      "position": "DEF",
-      "captain": false,
-      "vice": false,
-      "benched": false
-     },
-     {
       "name": "Cherki",
       "position": "MID",
       "captain": false,
-      "vice": true,
+      "vice": false,
       "benched": false
      },
      {
@@ -6634,6 +6600,13 @@
       "captain": true,
       "vice": false,
       "benched": false
+     },
+     {
+      "name": "Gvardiol",
+      "position": "DEF",
+      "captain": false,
+      "vice": false,
+      "benched": true
      }
     ],
     "away": [
@@ -6643,9 +6616,16 @@
       "captain": false,
       "vice": false,
       "benched": false
+     },
+     {
+      "name": "Yalcouyé",
+      "position": "MID",
+      "captain": false,
+      "vice": false,
+      "benched": true
      }
     ],
-    "count": 4
+    "count": 5
    },
    "espnId": "401879245",
    "alert": false
@@ -6714,19 +6694,7 @@
     }
    },
    "score": null,
-   "fpl": {
-    "home": [],
-    "away": [
-     {
-      "name": "Xhaka",
-      "position": "MID",
-      "captain": false,
-      "vice": false,
-      "benched": true
-     }
-    ],
-    "count": 1
-   },
+   "fpl": null,
    "espnId": "401879247",
    "alert": false
   },
@@ -6806,19 +6774,7 @@
     }
    },
    "score": null,
-   "fpl": {
-    "home": [
-     {
-      "name": "M.Sangaré",
-      "position": "MID",
-      "captain": false,
-      "vice": false,
-      "benched": false
-     }
-    ],
-    "away": [],
-    "count": 1
-   },
+   "fpl": null,
    "espnId": "401879249",
    "alert": false
   },
@@ -6949,7 +6905,7 @@
       "name": "Isak",
       "position": "FWD",
       "captain": false,
-      "vice": false,
+      "vice": true,
       "benched": false
      }
     ],
@@ -6967,9 +6923,16 @@
       "captain": false,
       "vice": false,
       "benched": false
+     },
+     {
+      "name": "Ødegaard",
+      "position": "MID",
+      "captain": false,
+      "vice": false,
+      "benched": false
      }
     ],
-    "count": 4
+    "count": 5
    },
    "espnId": "401879246",
    "alert": true
@@ -7472,7 +7435,7 @@
       "name": "Isak",
       "position": "FWD",
       "captain": false,
-      "vice": false,
+      "vice": true,
       "benched": false
      }
     ],
@@ -7680,17 +7643,10 @@
     "home": [],
     "away": [
      {
-      "name": "Gvardiol",
-      "position": "DEF",
-      "captain": false,
-      "vice": false,
-      "benched": false
-     },
-     {
       "name": "Cherki",
       "position": "MID",
       "captain": false,
-      "vice": true,
+      "vice": false,
       "benched": false
      },
      {
@@ -7699,6 +7655,13 @@
       "captain": true,
       "vice": false,
       "benched": false
+     },
+     {
+      "name": "Gvardiol",
+      "position": "DEF",
+      "captain": false,
+      "vice": false,
+      "benched": true
      }
     ],
     "count": 3
@@ -7757,9 +7720,16 @@
       "captain": false,
       "vice": false,
       "benched": false
+     },
+     {
+      "name": "Ødegaard",
+      "position": "MID",
+      "captain": false,
+      "vice": false,
+      "benched": false
      }
     ],
-    "count": 2
+    "count": 3
    },
    "alert": false
   },
@@ -7847,6 +7817,13 @@
       "captain": false,
       "vice": false,
       "benched": false
+     },
+     {
+      "name": "Ødegaard",
+      "position": "MID",
+      "captain": false,
+      "vice": false,
+      "benched": false
      }
     ],
     "away": [
@@ -7858,7 +7835,7 @@
       "benched": true
      }
     ],
-    "count": 3
+    "count": 4
    },
    "espnId": "401878760",
    "alert": false
@@ -7897,17 +7874,10 @@
     "home": [],
     "away": [
      {
-      "name": "Gvardiol",
-      "position": "DEF",
-      "captain": false,
-      "vice": false,
-      "benched": false
-     },
-     {
       "name": "Cherki",
       "position": "MID",
       "captain": false,
-      "vice": true,
+      "vice": false,
       "benched": false
      },
      {
@@ -7916,6 +7886,13 @@
       "captain": true,
       "vice": false,
       "benched": false
+     },
+     {
+      "name": "Gvardiol",
+      "position": "DEF",
+      "captain": false,
+      "vice": false,
+      "benched": true
      }
     ],
     "count": 3
@@ -8093,7 +8070,7 @@
       "name": "Isak",
       "position": "FWD",
       "captain": false,
-      "vice": false,
+      "vice": true,
       "benched": false
      }
     ],
@@ -8133,15 +8110,7 @@
    },
    "score": null,
    "fpl": {
-    "home": [
-     {
-      "name": "Xhaka",
-      "position": "MID",
-      "captain": false,
-      "vice": false,
-      "benched": true
-     }
-    ],
+    "home": [],
     "away": [
      {
       "name": "Rogers",
@@ -8155,10 +8124,10 @@
       "position": "FWD",
       "captain": false,
       "vice": false,
-      "benched": true
+      "benched": false
      }
     ],
-    "count": 3
+    "count": 2
    },
    "espnId": "401879239",
    "alert": false
@@ -8235,17 +8204,16 @@
       "captain": false,
       "vice": false,
       "benched": false
-     }
-    ],
-    "away": [
+     },
      {
-      "name": "M.Sangaré",
+      "name": "Yalcouyé",
       "position": "MID",
       "captain": false,
       "vice": false,
-      "benched": false
+      "benched": true
      }
     ],
+    "away": [],
     "count": 2
    },
    "espnId": "401879244",
@@ -8333,7 +8301,7 @@
       "position": "FWD",
       "captain": false,
       "vice": false,
-      "benched": true
+      "benched": false
      }
     ],
     "away": [],
@@ -8375,17 +8343,10 @@
    "fpl": {
     "home": [
      {
-      "name": "Gvardiol",
-      "position": "DEF",
-      "captain": false,
-      "vice": false,
-      "benched": false
-     },
-     {
       "name": "Cherki",
       "position": "MID",
       "captain": false,
-      "vice": true,
+      "vice": false,
       "benched": false
      },
      {
@@ -8394,6 +8355,13 @@
       "captain": true,
       "vice": false,
       "benched": false
+     },
+     {
+      "name": "Gvardiol",
+      "position": "DEF",
+      "captain": false,
+      "vice": false,
+      "benched": true
      }
     ],
     "away": [],
@@ -8432,19 +8400,7 @@
     }
    },
    "score": null,
-   "fpl": {
-    "home": [],
-    "away": [
-     {
-      "name": "Xhaka",
-      "position": "MID",
-      "captain": false,
-      "vice": false,
-      "benched": true
-     }
-    ],
-    "count": 1
-   },
+   "fpl": null,
    "espnId": "401878756",
    "alert": false
   },
@@ -8495,7 +8451,7 @@
       "name": "Isak",
       "position": "FWD",
       "captain": false,
-      "vice": false,
+      "vice": true,
       "benched": false
      }
     ],
@@ -8552,9 +8508,16 @@
       "captain": false,
       "vice": false,
       "benched": false
+     },
+     {
+      "name": "Yalcouyé",
+      "position": "MID",
+      "captain": false,
+      "vice": false,
+      "benched": true
      }
     ],
-    "count": 2
+    "count": 3
    },
    "espnId": "401879234",
    "alert": false
@@ -8669,19 +8632,7 @@
     }
    },
    "score": null,
-   "fpl": {
-    "home": [
-     {
-      "name": "M.Sangaré",
-      "position": "MID",
-      "captain": false,
-      "vice": false,
-      "benched": false
-     }
-    ],
-    "away": [],
-    "count": 1
-   },
+   "fpl": null,
    "espnId": "401879237",
    "alert": false
   },
@@ -8773,9 +8724,16 @@
       "captain": false,
       "vice": false,
       "benched": false
+     },
+     {
+      "name": "Ødegaard",
+      "position": "MID",
+      "captain": false,
+      "vice": false,
+      "benched": false
      }
     ],
-    "count": 3
+    "count": 4
    },
    "espnId": "401879232",
    "alert": false
@@ -8913,10 +8871,17 @@
       "captain": false,
       "vice": false,
       "benched": false
+     },
+     {
+      "name": "Ødegaard",
+      "position": "MID",
+      "captain": false,
+      "vice": false,
+      "benched": false
      }
     ],
     "away": [],
-    "count": 2
+    "count": 3
    },
    "alert": true
   },
@@ -9041,17 +9006,10 @@
    "fpl": {
     "home": [
      {
-      "name": "Gvardiol",
-      "position": "DEF",
-      "captain": false,
-      "vice": false,
-      "benched": false
-     },
-     {
       "name": "Cherki",
       "position": "MID",
       "captain": false,
-      "vice": true,
+      "vice": false,
       "benched": false
      },
      {
@@ -9060,6 +9018,13 @@
       "captain": true,
       "vice": false,
       "benched": false
+     },
+     {
+      "name": "Gvardiol",
+      "position": "DEF",
+      "captain": false,
+      "vice": false,
+      "benched": true
      }
     ],
     "away": [],
@@ -9351,7 +9316,7 @@
       "name": "Isak",
       "position": "FWD",
       "captain": false,
-      "vice": false,
+      "vice": true,
       "benched": false
      }
     ],
@@ -9679,21 +9644,21 @@
       "captain": false,
       "vice": false,
       "benched": false
+     },
+     {
+      "name": "Ødegaard",
+      "position": "MID",
+      "captain": false,
+      "vice": false,
+      "benched": false
      }
     ],
     "away": [
      {
-      "name": "Gvardiol",
-      "position": "DEF",
-      "captain": false,
-      "vice": false,
-      "benched": false
-     },
-     {
       "name": "Cherki",
       "position": "MID",
       "captain": false,
-      "vice": true,
+      "vice": false,
       "benched": false
      },
      {
@@ -9702,9 +9667,16 @@
       "captain": true,
       "vice": false,
       "benched": false
+     },
+     {
+      "name": "Gvardiol",
+      "position": "DEF",
+      "captain": false,
+      "vice": false,
+      "benched": true
      }
     ],
-    "count": 5
+    "count": 6
    },
    "espnId": "401878753",
    "alert": true
@@ -9743,19 +9715,7 @@
     }
    },
    "score": null,
-   "fpl": {
-    "home": [],
-    "away": [
-     {
-      "name": "M.Sangaré",
-      "position": "MID",
-      "captain": false,
-      "vice": false,
-      "benched": false
-     }
-    ],
-    "count": 1
-   },
+   "fpl": null,
    "espnId": "401879226",
    "alert": true
   },
@@ -9807,7 +9767,7 @@
       "name": "Isak",
       "position": "FWD",
       "captain": false,
-      "vice": false,
+      "vice": true,
       "benched": false
      }
     ],
@@ -9895,7 +9855,7 @@
       "position": "FWD",
       "captain": false,
       "vice": false,
-      "benched": true
+      "benched": false
      }
     ],
     "count": 2
@@ -9941,6 +9901,13 @@
       "captain": false,
       "vice": false,
       "benched": false
+     },
+     {
+      "name": "Yalcouyé",
+      "position": "MID",
+      "captain": false,
+      "vice": false,
+      "benched": true
      }
     ],
     "away": [
@@ -9952,7 +9919,7 @@
       "benched": false
      }
     ],
-    "count": 2
+    "count": 3
    },
    "espnId": "401879231",
    "alert": false
@@ -9988,15 +9955,7 @@
    },
    "score": null,
    "fpl": {
-    "home": [
-     {
-      "name": "Xhaka",
-      "position": "MID",
-      "captain": false,
-      "vice": false,
-      "benched": true
-     }
-    ],
+    "home": [],
     "away": [
      {
       "name": "Dubravka",
@@ -10006,7 +9965,7 @@
       "benched": true
      }
     ],
-    "count": 2
+    "count": 1
    },
    "espnId": "401879224",
    "alert": false
@@ -10146,20 +10105,12 @@
       "name": "Isak",
       "position": "FWD",
       "captain": false,
-      "vice": false,
+      "vice": true,
       "benched": false
      }
     ],
-    "away": [
-     {
-      "name": "Xhaka",
-      "position": "MID",
-      "captain": false,
-      "vice": false,
-      "benched": true
-     }
-    ],
-    "count": 3
+    "away": [],
+    "count": 2
    },
    "espnId": "401879219",
    "alert": false
@@ -10254,7 +10205,7 @@
       "position": "FWD",
       "captain": false,
       "vice": false,
-      "benched": true
+      "benched": false
      }
     ],
     "away": [],
@@ -10328,15 +10279,7 @@
    },
    "score": null,
    "fpl": {
-    "home": [
-     {
-      "name": "M.Sangaré",
-      "position": "MID",
-      "captain": false,
-      "vice": false,
-      "benched": false
-     }
-    ],
+    "home": [],
     "away": [
      {
       "name": "Raya",
@@ -10348,6 +10291,13 @@
      {
       "name": "Calafiori",
       "position": "DEF",
+      "captain": false,
+      "vice": false,
+      "benched": false
+     },
+     {
+      "name": "Ødegaard",
+      "position": "MID",
       "captain": false,
       "vice": false,
       "benched": false
@@ -10425,17 +10375,10 @@
    "fpl": {
     "home": [
      {
-      "name": "Gvardiol",
-      "position": "DEF",
-      "captain": false,
-      "vice": false,
-      "benched": false
-     },
-     {
       "name": "Cherki",
       "position": "MID",
       "captain": false,
-      "vice": true,
+      "vice": false,
       "benched": false
      },
      {
@@ -10444,6 +10387,13 @@
       "captain": true,
       "vice": false,
       "benched": false
+     },
+     {
+      "name": "Gvardiol",
+      "position": "DEF",
+      "captain": false,
+      "vice": false,
+      "benched": true
      }
     ],
     "away": [],
@@ -10541,9 +10491,16 @@
       "captain": false,
       "vice": false,
       "benched": false
+     },
+     {
+      "name": "Yalcouyé",
+      "position": "MID",
+      "captain": false,
+      "vice": false,
+      "benched": true
      }
     ],
-    "count": 1
+    "count": 2
    },
    "espnId": "401879223",
    "alert": false
@@ -10606,9 +10563,16 @@
       "captain": false,
       "vice": false,
       "benched": false
+     },
+     {
+      "name": "Ødegaard",
+      "position": "MID",
+      "captain": false,
+      "vice": false,
+      "benched": false
      }
     ],
-    "count": 3
+    "count": 4
    },
    "espnId": "401879209",
    "alert": true
@@ -10729,16 +10693,8 @@
       "benched": false
      }
     ],
-    "away": [
-     {
-      "name": "Xhaka",
-      "position": "MID",
-      "captain": false,
-      "vice": false,
-      "benched": true
-     }
-    ],
-    "count": 2
+    "away": [],
+    "count": 1
    },
    "espnId": "401878748",
    "alert": true
@@ -10791,7 +10747,7 @@
       "position": "FWD",
       "captain": false,
       "vice": false,
-      "benched": true
+      "benched": false
      }
     ],
     "away": [
@@ -10806,7 +10762,7 @@
       "name": "Isak",
       "position": "FWD",
       "captain": false,
-      "vice": false,
+      "vice": true,
       "benched": false
      }
     ],
@@ -10846,28 +10802,13 @@
    },
    "score": null,
    "fpl": {
-    "home": [
-     {
-      "name": "M.Sangaré",
-      "position": "MID",
-      "captain": false,
-      "vice": false,
-      "benched": false
-     }
-    ],
+    "home": [],
     "away": [
-     {
-      "name": "Gvardiol",
-      "position": "DEF",
-      "captain": false,
-      "vice": false,
-      "benched": false
-     },
      {
       "name": "Cherki",
       "position": "MID",
       "captain": false,
-      "vice": true,
+      "vice": false,
       "benched": false
      },
      {
@@ -10876,9 +10817,16 @@
       "captain": true,
       "vice": false,
       "benched": false
+     },
+     {
+      "name": "Gvardiol",
+      "position": "DEF",
+      "captain": false,
+      "vice": false,
+      "benched": true
      }
     ],
-    "count": 4
+    "count": 3
    },
    "espnId": "401879214",
    "alert": false
@@ -11002,9 +10950,16 @@
       "captain": false,
       "vice": false,
       "benched": false
+     },
+     {
+      "name": "Yalcouyé",
+      "position": "MID",
+      "captain": false,
+      "vice": false,
+      "benched": true
      }
     ],
-    "count": 1
+    "count": 2
    },
    "espnId": "401878747",
    "alert": false
@@ -11286,17 +11241,10 @@
     "home": [],
     "away": [
      {
-      "name": "Gvardiol",
-      "position": "DEF",
-      "captain": false,
-      "vice": false,
-      "benched": false
-     },
-     {
       "name": "Cherki",
       "position": "MID",
       "captain": false,
-      "vice": true,
+      "vice": false,
       "benched": false
      },
      {
@@ -11305,6 +11253,13 @@
       "captain": true,
       "vice": false,
       "benched": false
+     },
+     {
+      "name": "Gvardiol",
+      "position": "DEF",
+      "captain": false,
+      "vice": false,
+      "benched": true
      }
     ],
     "count": 3
@@ -11565,10 +11520,17 @@
       "captain": false,
       "vice": false,
       "benched": false
+     },
+     {
+      "name": "Ødegaard",
+      "position": "MID",
+      "captain": false,
+      "vice": false,
+      "benched": false
      }
     ],
     "away": [],
-    "count": 2
+    "count": 3
    },
    "alert": true
   },
@@ -11746,7 +11708,7 @@
       "name": "Isak",
       "position": "FWD",
       "captain": false,
-      "vice": false,
+      "vice": true,
       "benched": false
      }
     ],
@@ -11863,19 +11825,7 @@
     }
    },
    "score": null,
-   "fpl": {
-    "home": [
-     {
-      "name": "Xhaka",
-      "position": "MID",
-      "captain": false,
-      "vice": false,
-      "benched": true
-     }
-    ],
-    "away": [],
-    "count": 1
-   },
+   "fpl": null,
    "espnId": "401878741",
    "alert": false
   },
@@ -12009,10 +11959,17 @@
       "captain": false,
       "vice": false,
       "benched": false
+     },
+     {
+      "name": "Yalcouyé",
+      "position": "MID",
+      "captain": false,
+      "vice": false,
+      "benched": true
      }
     ],
     "away": [],
-    "count": 1
+    "count": 2
    },
    "espnId": "401878745",
    "alert": false
@@ -12142,10 +12099,17 @@
       "captain": false,
       "vice": false,
       "benched": false
+     },
+     {
+      "name": "Ødegaard",
+      "position": "MID",
+      "captain": false,
+      "vice": false,
+      "benched": false
      }
     ],
     "away": [],
-    "count": 2
+    "count": 3
    },
    "espnId": "401878746",
    "alert": false
@@ -12187,17 +12151,10 @@
    "fpl": {
     "home": [
      {
-      "name": "Gvardiol",
-      "position": "DEF",
-      "captain": false,
-      "vice": false,
-      "benched": false
-     },
-     {
       "name": "Cherki",
       "position": "MID",
       "captain": false,
-      "vice": true,
+      "vice": false,
       "benched": false
      },
      {
@@ -12206,6 +12163,13 @@
       "captain": true,
       "vice": false,
       "benched": false
+     },
+     {
+      "name": "Gvardiol",
+      "position": "DEF",
+      "captain": false,
+      "vice": false,
+      "benched": true
      }
     ],
     "away": [
@@ -12221,7 +12185,7 @@
       "position": "FWD",
       "captain": false,
       "vice": false,
-      "benched": true
+      "benched": false
      }
     ],
     "count": 5
@@ -12272,7 +12236,7 @@
       "name": "Isak",
       "position": "FWD",
       "captain": false,
-      "vice": false,
+      "vice": true,
       "benched": false
      }
     ],
@@ -12316,19 +12280,7 @@
     }
    },
    "score": null,
-   "fpl": {
-    "home": [],
-    "away": [
-     {
-      "name": "M.Sangaré",
-      "position": "MID",
-      "captain": false,
-      "vice": false,
-      "benched": false
-     }
-    ],
-    "count": 1
-   },
+   "fpl": null,
    "espnId": "401879206",
    "alert": true
   },
@@ -12404,10 +12356,17 @@
       "captain": false,
       "vice": false,
       "benched": false
+     },
+     {
+      "name": "Yalcouyé",
+      "position": "MID",
+      "captain": false,
+      "vice": false,
+      "benched": true
      }
     ],
     "away": [],
-    "count": 1
+    "count": 2
    },
    "espnId": "401878739",
    "alert": false
@@ -12477,15 +12436,7 @@
    },
    "score": null,
    "fpl": {
-    "home": [
-     {
-      "name": "M.Sangaré",
-      "position": "MID",
-      "captain": false,
-      "vice": false,
-      "benched": false
-     }
-    ],
+    "home": [],
     "away": [
      {
       "name": "Hall",
@@ -12495,7 +12446,7 @@
       "benched": false
      }
     ],
-    "count": 2
+    "count": 1
    },
    "espnId": "401879203",
    "alert": false
@@ -12533,17 +12484,10 @@
    "fpl": {
     "home": [
      {
-      "name": "Gvardiol",
-      "position": "DEF",
-      "captain": false,
-      "vice": false,
-      "benched": false
-     },
-     {
       "name": "Cherki",
       "position": "MID",
       "captain": false,
-      "vice": true,
+      "vice": false,
       "benched": false
      },
      {
@@ -12552,6 +12496,13 @@
       "captain": true,
       "vice": false,
       "benched": false
+     },
+     {
+      "name": "Gvardiol",
+      "position": "DEF",
+      "captain": false,
+      "vice": false,
+      "benched": true
      }
     ],
     "away": [
@@ -12598,19 +12549,7 @@
     }
    },
    "score": null,
-   "fpl": {
-    "home": [
-     {
-      "name": "Xhaka",
-      "position": "MID",
-      "captain": false,
-      "vice": false,
-      "benched": true
-     }
-    ],
-    "away": [],
-    "count": 1
-   },
+   "fpl": null,
    "espnId": "401878738",
    "alert": false
   },
@@ -12697,10 +12636,17 @@
       "captain": false,
       "vice": false,
       "benched": false
+     },
+     {
+      "name": "Ødegaard",
+      "position": "MID",
+      "captain": false,
+      "vice": false,
+      "benched": false
      }
     ],
     "away": [],
-    "count": 2
+    "count": 3
    },
    "espnId": "401879204",
    "alert": true
@@ -12752,7 +12698,7 @@
       "name": "Isak",
       "position": "FWD",
       "captain": false,
-      "vice": false,
+      "vice": true,
       "benched": false
      }
     ],
@@ -12814,7 +12760,7 @@
       "position": "FWD",
       "captain": false,
       "vice": false,
-      "benched": true
+      "benched": false
      }
     ],
     "away": [],
@@ -12941,9 +12887,16 @@
       "captain": false,
       "vice": false,
       "benched": false
+     },
+     {
+      "name": "Ødegaard",
+      "position": "MID",
+      "captain": false,
+      "vice": false,
+      "benched": false
      }
     ],
-    "count": 2
+    "count": 3
    },
    "espnId": "401878735",
    "alert": false
@@ -12978,19 +12931,7 @@
     }
    },
    "score": null,
-   "fpl": {
-    "home": [],
-    "away": [
-     {
-      "name": "Xhaka",
-      "position": "MID",
-      "captain": false,
-      "vice": false,
-      "benched": true
-     }
-    ],
-    "count": 1
-   },
+   "fpl": null,
    "espnId": "401879197",
    "alert": false
   },
@@ -13039,7 +12980,7 @@
       "position": "FWD",
       "captain": false,
       "vice": false,
-      "benched": true
+      "benched": false
      }
     ],
     "count": 2
@@ -13089,17 +13030,10 @@
     ],
     "away": [
      {
-      "name": "Gvardiol",
-      "position": "DEF",
-      "captain": false,
-      "vice": false,
-      "benched": false
-     },
-     {
       "name": "Cherki",
       "position": "MID",
       "captain": false,
-      "vice": true,
+      "vice": false,
       "benched": false
      },
      {
@@ -13108,6 +13042,13 @@
       "captain": true,
       "vice": false,
       "benched": false
+     },
+     {
+      "name": "Gvardiol",
+      "position": "DEF",
+      "captain": false,
+      "vice": false,
+      "benched": true
      }
     ],
     "count": 4
@@ -13154,9 +13095,16 @@
       "captain": false,
       "vice": false,
       "benched": false
+     },
+     {
+      "name": "Yalcouyé",
+      "position": "MID",
+      "captain": false,
+      "vice": false,
+      "benched": true
      }
     ],
-    "count": 1
+    "count": 2
    },
    "espnId": "401878734",
    "alert": false
@@ -13259,7 +13207,7 @@
       "name": "Isak",
       "position": "FWD",
       "captain": false,
-      "vice": false,
+      "vice": true,
       "benched": false
      }
     ],
@@ -13298,19 +13246,7 @@
     }
    },
    "score": null,
-   "fpl": {
-    "home": [],
-    "away": [
-     {
-      "name": "M.Sangaré",
-      "position": "MID",
-      "captain": false,
-      "vice": false,
-      "benched": false
-     }
-    ],
-    "count": 1
-   },
+   "fpl": null,
    "espnId": "401879196",
    "alert": false
   },
@@ -13360,9 +13296,16 @@
       "captain": false,
       "vice": false,
       "benched": false
+     },
+     {
+      "name": "Ødegaard",
+      "position": "MID",
+      "captain": false,
+      "vice": false,
+      "benched": false
      }
     ],
-    "count": 2
+    "count": 3
    },
    "espnId": "401879191",
    "alert": false
@@ -13397,19 +13340,7 @@
     }
    },
    "score": null,
-   "fpl": {
-    "home": [],
-    "away": [
-     {
-      "name": "M.Sangaré",
-      "position": "MID",
-      "captain": false,
-      "vice": false,
-      "benched": false
-     }
-    ],
-    "count": 1
-   },
+   "fpl": null,
    "espnId": "401878730",
    "alert": false
   },
@@ -13457,7 +13388,7 @@
       "name": "Isak",
       "position": "FWD",
       "captain": false,
-      "vice": false,
+      "vice": true,
       "benched": false
      }
     ],
@@ -13592,19 +13523,7 @@
     }
    },
    "score": null,
-   "fpl": {
-    "home": [],
-    "away": [
-     {
-      "name": "Xhaka",
-      "position": "MID",
-      "captain": false,
-      "vice": false,
-      "benched": true
-     }
-    ],
-    "count": 1
-   },
+   "fpl": null,
    "espnId": "401879188",
    "alert": true
   },
@@ -13653,7 +13572,7 @@
       "position": "FWD",
       "captain": false,
       "vice": false,
-      "benched": true
+      "benched": false
      }
     ],
     "count": 2
@@ -13708,9 +13627,16 @@
       "captain": false,
       "vice": false,
       "benched": false
+     },
+     {
+      "name": "Yalcouyé",
+      "position": "MID",
+      "captain": false,
+      "vice": false,
+      "benched": true
      }
     ],
-    "count": 2
+    "count": 3
    },
    "espnId": "401879186",
    "alert": false
@@ -13749,17 +13675,10 @@
     "home": [],
     "away": [
      {
-      "name": "Gvardiol",
-      "position": "DEF",
-      "captain": false,
-      "vice": false,
-      "benched": false
-     },
-     {
       "name": "Cherki",
       "position": "MID",
       "captain": false,
-      "vice": true,
+      "vice": false,
       "benched": false
      },
      {
@@ -13768,6 +13687,13 @@
       "captain": true,
       "vice": false,
       "benched": false
+     },
+     {
+      "name": "Gvardiol",
+      "position": "DEF",
+      "captain": false,
+      "vice": false,
+      "benched": true
      }
     ],
     "count": 3
@@ -13873,19 +13799,7 @@
     }
    },
    "score": null,
-   "fpl": {
-    "home": [
-     {
-      "name": "M.Sangaré",
-      "position": "MID",
-      "captain": false,
-      "vice": false,
-      "benched": false
-     }
-    ],
-    "away": [],
-    "count": 1
-   },
+   "fpl": null,
    "espnId": "401879184",
    "alert": false
   },
@@ -13968,10 +13882,17 @@
       "captain": false,
       "vice": false,
       "benched": false
+     },
+     {
+      "name": "Ødegaard",
+      "position": "MID",
+      "captain": false,
+      "vice": false,
+      "benched": false
      }
     ],
     "away": [],
-    "count": 2
+    "count": 3
    },
    "espnId": "401879185",
    "alert": false
@@ -14007,15 +13928,7 @@
    },
    "score": null,
    "fpl": {
-    "home": [
-     {
-      "name": "Xhaka",
-      "position": "MID",
-      "captain": false,
-      "vice": false,
-      "benched": true
-     }
-    ],
+    "home": [],
     "away": [
      {
       "name": "Ajayi",
@@ -14025,7 +13938,7 @@
       "benched": true
      }
     ],
-    "count": 2
+    "count": 1
    },
    "espnId": "401879178",
    "alert": false
@@ -14073,7 +13986,7 @@
       "name": "Isak",
       "position": "FWD",
       "captain": false,
-      "vice": false,
+      "vice": true,
       "benched": false
      }
     ],
@@ -14127,7 +14040,7 @@
       "position": "FWD",
       "captain": false,
       "vice": false,
-      "benched": true
+      "benched": false
      }
     ],
     "away": [
@@ -14220,10 +14133,17 @@
       "captain": false,
       "vice": false,
       "benched": false
+     },
+     {
+      "name": "Yalcouyé",
+      "position": "MID",
+      "captain": false,
+      "vice": false,
+      "benched": true
      }
     ],
     "away": [],
-    "count": 1
+    "count": 2
    },
    "espnId": "401878728",
    "alert": true
@@ -14265,17 +14185,10 @@
    "fpl": {
     "home": [
      {
-      "name": "Gvardiol",
-      "position": "DEF",
-      "captain": false,
-      "vice": false,
-      "benched": false
-     },
-     {
       "name": "Cherki",
       "position": "MID",
       "captain": false,
-      "vice": true,
+      "vice": false,
       "benched": false
      },
      {
@@ -14284,6 +14197,13 @@
       "captain": true,
       "vice": false,
       "benched": false
+     },
+     {
+      "name": "Gvardiol",
+      "position": "DEF",
+      "captain": false,
+      "vice": false,
+      "benched": true
      }
     ],
     "away": [
@@ -14345,17 +14265,16 @@
       "captain": false,
       "vice": false,
       "benched": false
-     }
-    ],
-    "away": [
+     },
      {
-      "name": "M.Sangaré",
+      "name": "Ødegaard",
       "position": "MID",
       "captain": false,
       "vice": false,
       "benched": false
      }
     ],
+    "away": [],
     "count": 3
    },
    "espnId": "401879177",
@@ -14395,17 +14314,10 @@
     "home": [],
     "away": [
      {
-      "name": "Gvardiol",
-      "position": "DEF",
-      "captain": false,
-      "vice": false,
-      "benched": false
-     },
-     {
       "name": "Cherki",
       "position": "MID",
       "captain": false,
-      "vice": true,
+      "vice": false,
       "benched": false
      },
      {
@@ -14414,6 +14326,13 @@
       "captain": true,
       "vice": false,
       "benched": false
+     },
+     {
+      "name": "Gvardiol",
+      "position": "DEF",
+      "captain": false,
+      "vice": false,
+      "benched": true
      }
     ],
     "count": 3
@@ -14509,10 +14428,17 @@
       "captain": false,
       "vice": false,
       "benched": false
+     },
+     {
+      "name": "Yalcouyé",
+      "position": "MID",
+      "captain": false,
+      "vice": false,
+      "benched": true
      }
     ],
     "away": [],
-    "count": 1
+    "count": 2
    },
    "espnId": "401879176",
    "alert": false
@@ -14674,15 +14600,7 @@
    },
    "score": null,
    "fpl": {
-    "home": [
-     {
-      "name": "Xhaka",
-      "position": "MID",
-      "captain": false,
-      "vice": false,
-      "benched": true
-     }
-    ],
+    "home": [],
     "away": [
      {
       "name": "Gakpo",
@@ -14695,11 +14613,11 @@
       "name": "Isak",
       "position": "FWD",
       "captain": false,
-      "vice": false,
+      "vice": true,
       "benched": false
      }
     ],
-    "count": 3
+    "count": 2
    },
    "espnId": "401878727",
    "alert": false
@@ -14749,7 +14667,7 @@
       "position": "FWD",
       "captain": false,
       "vice": false,
-      "benched": true
+      "benched": false
      }
     ],
     "count": 2
@@ -14858,17 +14776,10 @@
    "fpl": {
     "home": [
      {
-      "name": "Gvardiol",
-      "position": "DEF",
-      "captain": false,
-      "vice": false,
-      "benched": false
-     },
-     {
       "name": "Cherki",
       "position": "MID",
       "captain": false,
-      "vice": true,
+      "vice": false,
       "benched": false
      },
      {
@@ -14877,6 +14788,13 @@
       "captain": true,
       "vice": false,
       "benched": false
+     },
+     {
+      "name": "Gvardiol",
+      "position": "DEF",
+      "captain": false,
+      "vice": false,
+      "benched": true
      }
     ],
     "away": [],
@@ -14929,19 +14847,11 @@
       "position": "FWD",
       "captain": false,
       "vice": false,
-      "benched": true
+      "benched": false
      }
     ],
-    "away": [
-     {
-      "name": "Xhaka",
-      "position": "MID",
-      "captain": false,
-      "vice": false,
-      "benched": true
-     }
-    ],
-    "count": 3
+    "away": [],
+    "count": 2
    },
    "espnId": "401879167",
    "alert": false
@@ -14977,15 +14887,7 @@
    },
    "score": null,
    "fpl": {
-    "home": [
-     {
-      "name": "M.Sangaré",
-      "position": "MID",
-      "captain": false,
-      "vice": false,
-      "benched": false
-     }
-    ],
+    "home": [],
     "away": [
      {
       "name": "De Cuyper",
@@ -14993,6 +14895,13 @@
       "captain": false,
       "vice": false,
       "benched": false
+     },
+     {
+      "name": "Yalcouyé",
+      "position": "MID",
+      "captain": false,
+      "vice": false,
+      "benched": true
      }
     ],
     "count": 2
@@ -15161,7 +15070,7 @@
       "name": "Isak",
       "position": "FWD",
       "captain": false,
-      "vice": false,
+      "vice": true,
       "benched": false
      }
     ],
@@ -15225,9 +15134,16 @@
       "captain": false,
       "vice": false,
       "benched": false
+     },
+     {
+      "name": "Ødegaard",
+      "position": "MID",
+      "captain": false,
+      "vice": false,
+      "benched": false
      }
     ],
-    "count": 3
+    "count": 4
    },
    "espnId": "401878723",
    "alert": false
@@ -15527,7 +15443,7 @@
       "name": "Isak",
       "position": "FWD",
       "captain": false,
-      "vice": false,
+      "vice": true,
       "benched": false
      }
     ],
@@ -15813,17 +15729,10 @@
     "home": [],
     "away": [
      {
-      "name": "Gvardiol",
-      "position": "DEF",
-      "captain": false,
-      "vice": false,
-      "benched": false
-     },
-     {
       "name": "Cherki",
       "position": "MID",
       "captain": false,
-      "vice": true,
+      "vice": false,
       "benched": false
      },
      {
@@ -15832,6 +15741,13 @@
       "captain": true,
       "vice": false,
       "benched": false
+     },
+     {
+      "name": "Gvardiol",
+      "position": "DEF",
+      "captain": false,
+      "vice": false,
+      "benched": true
      }
     ],
     "count": 3
@@ -15972,9 +15888,16 @@
       "captain": false,
       "vice": false,
       "benched": false
+     },
+     {
+      "name": "Ødegaard",
+      "position": "MID",
+      "captain": false,
+      "vice": false,
+      "benched": false
      }
     ],
-    "count": 2
+    "count": 3
    },
    "alert": false
   },
@@ -16132,19 +16055,7 @@
     }
    },
    "score": null,
-   "fpl": {
-    "home": [],
-    "away": [
-     {
-      "name": "M.Sangaré",
-      "position": "MID",
-      "captain": false,
-      "vice": false,
-      "benched": false
-     }
-    ],
-    "count": 1
-   },
+   "fpl": null,
    "espnId": "401879162",
    "alert": false
   },
@@ -16178,19 +16089,7 @@
     }
    },
    "score": null,
-   "fpl": {
-    "home": [
-     {
-      "name": "Xhaka",
-      "position": "MID",
-      "captain": false,
-      "vice": false,
-      "benched": true
-     }
-    ],
-    "away": [],
-    "count": 1
-   },
+   "fpl": null,
    "espnId": "401879159",
    "alert": false
   },
@@ -16273,6 +16172,13 @@
       "captain": false,
       "vice": false,
       "benched": false
+     },
+     {
+      "name": "Ødegaard",
+      "position": "MID",
+      "captain": false,
+      "vice": false,
+      "benched": false
      }
     ],
     "away": [
@@ -16284,7 +16190,7 @@
       "benched": false
      }
     ],
-    "count": 3
+    "count": 4
    },
    "espnId": "401878720",
    "alert": false
@@ -16334,7 +16240,7 @@
       "position": "FWD",
       "captain": false,
       "vice": false,
-      "benched": true
+      "benched": false
      }
     ],
     "count": 2
@@ -16424,7 +16330,7 @@
       "name": "Isak",
       "position": "FWD",
       "captain": false,
-      "vice": false,
+      "vice": true,
       "benched": false
      }
     ],
@@ -16471,21 +16377,21 @@
       "captain": false,
       "vice": false,
       "benched": false
+     },
+     {
+      "name": "Yalcouyé",
+      "position": "MID",
+      "captain": false,
+      "vice": false,
+      "benched": true
      }
     ],
     "away": [
      {
-      "name": "Gvardiol",
-      "position": "DEF",
-      "captain": false,
-      "vice": false,
-      "benched": false
-     },
-     {
       "name": "Cherki",
       "position": "MID",
       "captain": false,
-      "vice": true,
+      "vice": false,
       "benched": false
      },
      {
@@ -16494,9 +16400,16 @@
       "captain": true,
       "vice": false,
       "benched": false
+     },
+     {
+      "name": "Gvardiol",
+      "position": "DEF",
+      "captain": false,
+      "vice": false,
+      "benched": true
      }
     ],
-    "count": 4
+    "count": 5
    },
    "espnId": "401879164",
    "alert": false
@@ -16598,10 +16511,17 @@
       "captain": false,
       "vice": false,
       "benched": false
+     },
+     {
+      "name": "Ødegaard",
+      "position": "MID",
+      "captain": false,
+      "vice": false,
+      "benched": false
      }
     ],
     "away": [],
-    "count": 2
+    "count": 3
    },
    "alert": false
   },
@@ -16966,7 +16886,7 @@
       "name": "Isak",
       "position": "FWD",
       "captain": false,
-      "vice": false,
+      "vice": true,
       "benched": false
      }
     ],
@@ -17014,17 +16934,10 @@
    "fpl": {
     "home": [
      {
-      "name": "Gvardiol",
-      "position": "DEF",
-      "captain": false,
-      "vice": false,
-      "benched": false
-     },
-     {
       "name": "Cherki",
       "position": "MID",
       "captain": false,
-      "vice": true,
+      "vice": false,
       "benched": false
      },
      {
@@ -17033,6 +16946,13 @@
       "captain": true,
       "vice": false,
       "benched": false
+     },
+     {
+      "name": "Gvardiol",
+      "position": "DEF",
+      "captain": false,
+      "vice": false,
+      "benched": true
      }
     ],
     "away": [],
@@ -17361,16 +17281,8 @@
       "benched": true
      }
     ],
-    "away": [
-     {
-      "name": "Xhaka",
-      "position": "MID",
-      "captain": false,
-      "vice": false,
-      "benched": true
-     }
-    ],
-    "count": 2
+    "away": [],
+    "count": 1
    },
    "espnId": "401879153",
    "alert": false
@@ -17409,19 +17321,7 @@
     }
    },
    "score": null,
-   "fpl": {
-    "home": [
-     {
-      "name": "M.Sangaré",
-      "position": "MID",
-      "captain": false,
-      "vice": false,
-      "benched": false
-     }
-    ],
-    "away": [],
-    "count": 1
-   },
+   "fpl": null,
    "espnId": "401878715",
    "alert": true
   },
@@ -17472,9 +17372,16 @@
       "captain": false,
       "vice": false,
       "benched": false
+     },
+     {
+      "name": "Yalcouyé",
+      "position": "MID",
+      "captain": false,
+      "vice": false,
+      "benched": true
      }
     ],
-    "count": 2
+    "count": 3
    },
    "espnId": "401878713",
    "alert": false
@@ -17637,7 +17544,7 @@
       "position": "FWD",
       "captain": false,
       "vice": false,
-      "benched": true
+      "benched": false
      }
     ],
     "away": [],
@@ -17693,7 +17600,7 @@
       "name": "Isak",
       "position": "FWD",
       "captain": false,
-      "vice": false,
+      "vice": true,
       "benched": false
      }
     ],
@@ -17740,17 +17647,10 @@
    "fpl": {
     "home": [
      {
-      "name": "Gvardiol",
-      "position": "DEF",
-      "captain": false,
-      "vice": false,
-      "benched": false
-     },
-     {
       "name": "Cherki",
       "position": "MID",
       "captain": false,
-      "vice": true,
+      "vice": false,
       "benched": false
      },
      {
@@ -17759,6 +17659,13 @@
       "captain": true,
       "vice": false,
       "benched": false
+     },
+     {
+      "name": "Gvardiol",
+      "position": "DEF",
+      "captain": false,
+      "vice": false,
+      "benched": true
      }
     ],
     "away": [
@@ -17775,9 +17682,16 @@
       "captain": false,
       "vice": false,
       "benched": false
+     },
+     {
+      "name": "Ødegaard",
+      "position": "MID",
+      "captain": false,
+      "vice": false,
+      "benched": false
      }
     ],
-    "count": 5
+    "count": 6
    },
    "espnId": "401879154",
    "alert": true
@@ -17865,6 +17779,13 @@
       "captain": false,
       "vice": false,
       "benched": false
+     },
+     {
+      "name": "Ødegaard",
+      "position": "MID",
+      "captain": false,
+      "vice": false,
+      "benched": false
      }
     ],
     "away": [
@@ -17879,11 +17800,11 @@
       "name": "Isak",
       "position": "FWD",
       "captain": false,
-      "vice": false,
+      "vice": true,
       "benched": false
      }
     ],
-    "count": 4
+    "count": 5
    },
    "espnId": "401878712",
    "alert": true
@@ -17926,6 +17847,13 @@
       "captain": false,
       "vice": false,
       "benched": false
+     },
+     {
+      "name": "Yalcouyé",
+      "position": "MID",
+      "captain": false,
+      "vice": false,
+      "benched": true
      }
     ],
     "away": [
@@ -17937,7 +17865,7 @@
       "benched": true
      }
     ],
-    "count": 2
+    "count": 3
    },
    "espnId": "401878711",
    "alert": false
@@ -17972,19 +17900,7 @@
     }
    },
    "score": null,
-   "fpl": {
-    "home": [
-     {
-      "name": "Xhaka",
-      "position": "MID",
-      "captain": false,
-      "vice": false,
-      "benched": true
-     }
-    ],
-    "away": [],
-    "count": 1
-   },
+   "fpl": null,
    "espnId": "401878709",
    "alert": false
   },
@@ -18148,17 +18064,10 @@
     "home": [],
     "away": [
      {
-      "name": "Gvardiol",
-      "position": "DEF",
-      "captain": false,
-      "vice": false,
-      "benched": false
-     },
-     {
       "name": "Cherki",
       "position": "MID",
       "captain": false,
-      "vice": true,
+      "vice": false,
       "benched": false
      },
      {
@@ -18167,6 +18076,13 @@
       "captain": true,
       "vice": false,
       "benched": false
+     },
+     {
+      "name": "Gvardiol",
+      "position": "DEF",
+      "captain": false,
+      "vice": false,
+      "benched": true
      }
     ],
     "count": 3
@@ -18257,7 +18173,7 @@
       "position": "FWD",
       "captain": false,
       "vice": false,
-      "benched": true
+      "benched": false
      }
     ],
     "count": 2
@@ -18295,19 +18211,7 @@
     }
    },
    "score": null,
-   "fpl": {
-    "home": [],
-    "away": [
-     {
-      "name": "M.Sangaré",
-      "position": "MID",
-      "captain": false,
-      "vice": false,
-      "benched": false
-     }
-    ],
-    "count": 1
-   },
+   "fpl": null,
    "espnId": "401879147",
    "alert": false
   },
@@ -18389,7 +18293,7 @@
       "name": "Isak",
       "position": "FWD",
       "captain": false,
-      "vice": false,
+      "vice": true,
       "benched": false
      }
     ],
@@ -18438,16 +18342,8 @@
       "benched": true
      }
     ],
-    "away": [
-     {
-      "name": "Xhaka",
-      "position": "MID",
-      "captain": false,
-      "vice": false,
-      "benched": true
-     }
-    ],
-    "count": 2
+    "away": [],
+    "count": 1
    },
    "espnId": "401879143",
    "alert": false
@@ -18516,19 +18412,7 @@
     }
    },
    "score": null,
-   "fpl": {
-    "home": [],
-    "away": [
-     {
-      "name": "M.Sangaré",
-      "position": "MID",
-      "captain": false,
-      "vice": false,
-      "benched": false
-     }
-    ],
-    "count": 1
-   },
+   "fpl": null,
    "espnId": "401878708",
    "alert": false
   },
@@ -18585,7 +18469,7 @@
       "position": "FWD",
       "captain": false,
       "vice": false,
-      "benched": true
+      "benched": false
      }
     ],
     "count": 3
@@ -18673,17 +18557,10 @@
     ],
     "away": [
      {
-      "name": "Gvardiol",
-      "position": "DEF",
-      "captain": false,
-      "vice": false,
-      "benched": false
-     },
-     {
       "name": "Cherki",
       "position": "MID",
       "captain": false,
-      "vice": true,
+      "vice": false,
       "benched": false
      },
      {
@@ -18692,6 +18569,13 @@
       "captain": true,
       "vice": false,
       "benched": false
+     },
+     {
+      "name": "Gvardiol",
+      "position": "DEF",
+      "captain": false,
+      "vice": false,
+      "benched": true
      }
     ],
     "count": 4
@@ -18742,9 +18626,16 @@
       "captain": false,
       "vice": false,
       "benched": false
+     },
+     {
+      "name": "Yalcouyé",
+      "position": "MID",
+      "captain": false,
+      "vice": false,
+      "benched": true
      }
     ],
-    "count": 1
+    "count": 2
    },
    "espnId": "401879142",
    "alert": true
@@ -18795,9 +18686,16 @@
       "captain": false,
       "vice": false,
       "benched": false
+     },
+     {
+      "name": "Ødegaard",
+      "position": "MID",
+      "captain": false,
+      "vice": false,
+      "benched": false
      }
     ],
-    "count": 2
+    "count": 3
    },
    "espnId": "401878706",
    "alert": false
@@ -18835,17 +18733,10 @@
    "fpl": {
     "home": [
      {
-      "name": "Gvardiol",
-      "position": "DEF",
-      "captain": false,
-      "vice": false,
-      "benched": false
-     },
-     {
       "name": "Cherki",
       "position": "MID",
       "captain": false,
-      "vice": true,
+      "vice": false,
       "benched": false
      },
      {
@@ -18854,6 +18745,13 @@
       "captain": true,
       "vice": false,
       "benched": false
+     },
+     {
+      "name": "Gvardiol",
+      "position": "DEF",
+      "captain": false,
+      "vice": false,
+      "benched": true
      }
     ],
     "away": [
@@ -18934,19 +18832,7 @@
     }
    },
    "score": null,
-   "fpl": {
-    "home": [
-     {
-      "name": "M.Sangaré",
-      "position": "MID",
-      "captain": false,
-      "vice": false,
-      "benched": false
-     }
-    ],
-    "away": [],
-    "count": 1
-   },
+   "fpl": null,
    "espnId": "401879138",
    "alert": false
   },
@@ -18994,7 +18880,7 @@
       "position": "FWD",
       "captain": false,
       "vice": false,
-      "benched": true
+      "benched": false
      }
     ],
     "away": [],
@@ -19046,7 +18932,7 @@
       "name": "Isak",
       "position": "FWD",
       "captain": false,
-      "vice": false,
+      "vice": true,
       "benched": false
      }
     ],
@@ -19109,10 +18995,17 @@
       "captain": false,
       "vice": false,
       "benched": false
+     },
+     {
+      "name": "Ødegaard",
+      "position": "MID",
+      "captain": false,
+      "vice": false,
+      "benched": false
      }
     ],
     "away": [],
-    "count": 2
+    "count": 3
    },
    "espnId": "401878705",
    "alert": false
@@ -19193,6 +19086,13 @@
       "captain": false,
       "vice": false,
       "benched": false
+     },
+     {
+      "name": "Yalcouyé",
+      "position": "MID",
+      "captain": false,
+      "vice": false,
+      "benched": true
      }
     ],
     "away": [
@@ -19204,7 +19104,7 @@
       "benched": true
      }
     ],
-    "count": 2
+    "count": 3
    },
    "espnId": "401879137",
    "alert": false
@@ -19239,19 +19139,7 @@
     }
    },
    "score": null,
-   "fpl": {
-    "home": [
-     {
-      "name": "Xhaka",
-      "position": "MID",
-      "captain": false,
-      "vice": false,
-      "benched": true
-     }
-    ],
-    "away": [],
-    "count": 1
-   },
+   "fpl": null,
    "espnId": "401878702",
    "alert": false
   },
@@ -19319,19 +19207,7 @@
     }
    },
    "score": null,
-   "fpl": {
-    "home": [],
-    "away": [
-     {
-      "name": "Xhaka",
-      "position": "MID",
-      "captain": false,
-      "vice": false,
-      "benched": true
-     }
-    ],
-    "count": 1
-   },
+   "fpl": null,
    "espnId": "401878701",
    "alert": false
   },
@@ -19385,9 +19261,16 @@
       "captain": false,
       "vice": false,
       "benched": false
+     },
+     {
+      "name": "Ødegaard",
+      "position": "MID",
+      "captain": false,
+      "vice": false,
+      "benched": false
      }
     ],
-    "count": 2
+    "count": 3
    },
    "espnId": "401878697",
    "alert": true
@@ -19431,9 +19314,16 @@
       "captain": false,
       "vice": false,
       "benched": false
+     },
+     {
+      "name": "Yalcouyé",
+      "position": "MID",
+      "captain": false,
+      "vice": false,
+      "benched": true
      }
     ],
-    "count": 1
+    "count": 2
    },
    "espnId": "401879131",
    "alert": false
@@ -19585,7 +19475,7 @@
       "position": "FWD",
       "captain": false,
       "vice": false,
-      "benched": true
+      "benched": false
      }
     ],
     "count": 2
@@ -19649,7 +19539,7 @@
       "name": "Isak",
       "position": "FWD",
       "captain": false,
-      "vice": false,
+      "vice": true,
       "benched": false
      }
     ],
@@ -19698,16 +19588,8 @@
       "benched": false
      }
     ],
-    "away": [
-     {
-      "name": "M.Sangaré",
-      "position": "MID",
-      "captain": false,
-      "vice": false,
-      "benched": false
-     }
-    ],
-    "count": 2
+    "away": [],
+    "count": 1
    },
    "espnId": "401879130",
    "alert": false
@@ -19754,17 +19636,10 @@
     ],
     "away": [
      {
-      "name": "Gvardiol",
-      "position": "DEF",
-      "captain": false,
-      "vice": false,
-      "benched": false
-     },
-     {
       "name": "Cherki",
       "position": "MID",
       "captain": false,
-      "vice": true,
+      "vice": false,
       "benched": false
      },
      {
@@ -19773,6 +19648,13 @@
       "captain": true,
       "vice": false,
       "benched": false
+     },
+     {
+      "name": "Gvardiol",
+      "position": "DEF",
+      "captain": false,
+      "vice": false,
+      "benched": true
      }
     ],
     "count": 4
@@ -19905,17 +19787,10 @@
    "fpl": {
     "home": [
      {
-      "name": "Gvardiol",
-      "position": "DEF",
-      "captain": false,
-      "vice": false,
-      "benched": false
-     },
-     {
       "name": "Cherki",
       "position": "MID",
       "captain": false,
-      "vice": true,
+      "vice": false,
       "benched": false
      },
      {
@@ -19924,6 +19799,13 @@
       "captain": true,
       "vice": false,
       "benched": false
+     },
+     {
+      "name": "Gvardiol",
+      "position": "DEF",
+      "captain": false,
+      "vice": false,
+      "benched": true
      }
     ],
     "away": [],
@@ -19977,10 +19859,17 @@
       "captain": false,
       "vice": false,
       "benched": false
+     },
+     {
+      "name": "Ødegaard",
+      "position": "MID",
+      "captain": false,
+      "vice": false,
+      "benched": false
      }
     ],
     "away": [],
-    "count": 2
+    "count": 3
    },
    "espnId": "401878696",
    "alert": false
@@ -20065,19 +19954,7 @@
     }
    },
    "score": null,
-   "fpl": {
-    "home": [
-     {
-      "name": "Xhaka",
-      "position": "MID",
-      "captain": false,
-      "vice": false,
-      "benched": true
-     }
-    ],
-    "away": [],
-    "count": 1
-   },
+   "fpl": null,
    "espnId": "401879122",
    "alert": true
   },
@@ -20124,7 +20001,7 @@
       "name": "Isak",
       "position": "FWD",
       "captain": false,
-      "vice": false,
+      "vice": true,
       "benched": false
      }
     ],
@@ -20172,10 +20049,17 @@
       "captain": false,
       "vice": false,
       "benched": false
+     },
+     {
+      "name": "Yalcouyé",
+      "position": "MID",
+      "captain": false,
+      "vice": false,
+      "benched": true
      }
     ],
     "away": [],
-    "count": 1
+    "count": 2
    },
    "espnId": "401878695",
    "alert": false
@@ -20210,19 +20094,7 @@
     }
    },
    "score": null,
-   "fpl": {
-    "home": [
-     {
-      "name": "M.Sangaré",
-      "position": "MID",
-      "captain": false,
-      "vice": false,
-      "benched": false
-     }
-    ],
-    "away": [],
-    "count": 1
-   },
+   "fpl": null,
    "espnId": "401879127",
    "alert": false
   },
@@ -20270,7 +20142,7 @@
       "position": "FWD",
       "captain": false,
       "vice": false,
-      "benched": true
+      "benched": false
      }
     ],
     "away": [],
@@ -20318,9 +20190,16 @@
       "captain": false,
       "vice": false,
       "benched": false
+     },
+     {
+      "name": "Yalcouyé",
+      "position": "MID",
+      "captain": false,
+      "vice": false,
+      "benched": true
      }
     ],
-    "count": 1
+    "count": 2
    },
    "espnId": "401879119",
    "alert": false
@@ -20448,7 +20327,7 @@
       "name": "Isak",
       "position": "FWD",
       "captain": false,
-      "vice": false,
+      "vice": true,
       "benched": false
      }
     ],
@@ -20492,17 +20371,10 @@
     "home": [],
     "away": [
      {
-      "name": "Gvardiol",
-      "position": "DEF",
-      "captain": false,
-      "vice": false,
-      "benched": false
-     },
-     {
       "name": "Cherki",
       "position": "MID",
       "captain": false,
-      "vice": true,
+      "vice": false,
       "benched": false
      },
      {
@@ -20511,6 +20383,13 @@
       "captain": true,
       "vice": false,
       "benched": false
+     },
+     {
+      "name": "Gvardiol",
+      "position": "DEF",
+      "captain": false,
+      "vice": false,
+      "benched": true
      }
     ],
     "count": 3
@@ -20612,7 +20491,7 @@
       "position": "FWD",
       "captain": false,
       "vice": false,
-      "benched": true
+      "benched": false
      }
     ],
     "away": [
@@ -20629,9 +20508,16 @@
       "captain": false,
       "vice": false,
       "benched": false
+     },
+     {
+      "name": "Ødegaard",
+      "position": "MID",
+      "captain": false,
+      "vice": false,
+      "benched": false
      }
     ],
-    "count": 4
+    "count": 5
    },
    "espnId": "401878693",
    "alert": true
@@ -20750,27 +20636,7 @@
     }
    },
    "score": null,
-   "fpl": {
-    "home": [
-     {
-      "name": "Xhaka",
-      "position": "MID",
-      "captain": false,
-      "vice": false,
-      "benched": true
-     }
-    ],
-    "away": [
-     {
-      "name": "M.Sangaré",
-      "position": "MID",
-      "captain": false,
-      "vice": false,
-      "benched": false
-     }
-    ],
-    "count": 2
-   },
+   "fpl": null,
    "espnId": "401879117",
    "alert": false
   },
@@ -20804,19 +20670,7 @@
     }
    },
    "score": null,
-   "fpl": {
-    "home": [
-     {
-      "name": "M.Sangaré",
-      "position": "MID",
-      "captain": false,
-      "vice": false,
-      "benched": false
-     }
-    ],
-    "away": [],
-    "count": 1
-   },
+   "fpl": null,
    "espnId": "401879114",
    "alert": false
   },
@@ -20858,10 +20712,17 @@
       "captain": false,
       "vice": false,
       "benched": false
+     },
+     {
+      "name": "Yalcouyé",
+      "position": "MID",
+      "captain": false,
+      "vice": false,
+      "benched": true
      }
     ],
     "away": [],
-    "count": 1
+    "count": 2
    },
    "espnId": "401879113",
    "alert": false
@@ -20903,17 +20764,10 @@
    "fpl": {
     "home": [
      {
-      "name": "Gvardiol",
-      "position": "DEF",
-      "captain": false,
-      "vice": false,
-      "benched": false
-     },
-     {
       "name": "Cherki",
       "position": "MID",
       "captain": false,
-      "vice": true,
+      "vice": false,
       "benched": false
      },
      {
@@ -20922,6 +20776,13 @@
       "captain": true,
       "vice": false,
       "benched": false
+     },
+     {
+      "name": "Gvardiol",
+      "position": "DEF",
+      "captain": false,
+      "vice": false,
+      "benched": true
      }
     ],
     "away": [],
@@ -21009,17 +20870,16 @@
       "captain": false,
       "vice": false,
       "benched": false
-     }
-    ],
-    "away": [
+     },
      {
-      "name": "Xhaka",
+      "name": "Ødegaard",
       "position": "MID",
       "captain": false,
       "vice": false,
-      "benched": true
+      "benched": false
      }
     ],
+    "away": [],
     "count": 3
    },
    "espnId": "401879115",
@@ -21069,7 +20929,7 @@
       "name": "Isak",
       "position": "FWD",
       "captain": false,
-      "vice": false,
+      "vice": true,
       "benched": false
      }
     ],
@@ -21131,7 +20991,7 @@
       "position": "FWD",
       "captain": false,
       "vice": false,
-      "benched": true
+      "benched": false
      }
     ],
     "count": 3
@@ -21295,19 +21155,7 @@
     }
    },
    "score": null,
-   "fpl": {
-    "home": [
-     {
-      "name": "Xhaka",
-      "position": "MID",
-      "captain": false,
-      "vice": false,
-      "benched": true
-     }
-    ],
-    "away": [],
-    "count": 1
-   },
+   "fpl": null,
    "espnId": "401878687",
    "alert": false
   },
@@ -21443,7 +21291,7 @@
       "position": "FWD",
       "captain": false,
       "vice": false,
-      "benched": true
+      "benched": false
      }
     ],
     "away": [],
@@ -21495,7 +21343,7 @@
       "name": "Isak",
       "position": "FWD",
       "captain": false,
-      "vice": false,
+      "vice": true,
       "benched": false
      }
     ],
@@ -21559,9 +21407,16 @@
       "captain": false,
       "vice": false,
       "benched": false
+     },
+     {
+      "name": "Ødegaard",
+      "position": "MID",
+      "captain": false,
+      "vice": false,
+      "benched": false
      }
     ],
-    "count": 2
+    "count": 3
    },
    "espnId": "401879103",
    "alert": false
@@ -21600,17 +21455,10 @@
     "home": [],
     "away": [
      {
-      "name": "Gvardiol",
-      "position": "DEF",
-      "captain": false,
-      "vice": false,
-      "benched": false
-     },
-     {
       "name": "Cherki",
       "position": "MID",
       "captain": false,
-      "vice": true,
+      "vice": false,
       "benched": false
      },
      {
@@ -21619,6 +21467,13 @@
       "captain": true,
       "vice": false,
       "benched": false
+     },
+     {
+      "name": "Gvardiol",
+      "position": "DEF",
+      "captain": false,
+      "vice": false,
+      "benched": true
      }
     ],
     "count": 3
@@ -21700,16 +21555,8 @@
       "benched": true
      }
     ],
-    "away": [
-     {
-      "name": "M.Sangaré",
-      "position": "MID",
-      "captain": false,
-      "vice": false,
-      "benched": false
-     }
-    ],
-    "count": 2
+    "away": [],
+    "count": 1
    },
    "espnId": "401879099",
    "alert": false
@@ -21753,9 +21600,16 @@
       "captain": false,
       "vice": false,
       "benched": false
+     },
+     {
+      "name": "Yalcouyé",
+      "position": "MID",
+      "captain": false,
+      "vice": false,
+      "benched": true
      }
     ],
-    "count": 1
+    "count": 2
    },
    "espnId": "401879105",
    "alert": false
@@ -21798,6 +21652,13 @@
       "captain": false,
       "vice": false,
       "benched": false
+     },
+     {
+      "name": "Yalcouyé",
+      "position": "MID",
+      "captain": false,
+      "vice": false,
+      "benched": true
      }
     ],
     "away": [
@@ -21813,10 +21674,10 @@
       "position": "FWD",
       "captain": false,
       "vice": false,
-      "benched": true
+      "benched": false
      }
     ],
-    "count": 3
+    "count": 4
    },
    "espnId": "401878685",
    "alert": false
@@ -21851,19 +21712,7 @@
     }
    },
    "score": null,
-   "fpl": {
-    "home": [],
-    "away": [
-     {
-      "name": "Xhaka",
-      "position": "MID",
-      "captain": false,
-      "vice": false,
-      "benched": true
-     }
-    ],
-    "count": 1
-   },
+   "fpl": null,
    "espnId": "401879097",
    "alert": false
   },
@@ -21897,19 +21746,7 @@
     }
    },
    "score": null,
-   "fpl": {
-    "home": [
-     {
-      "name": "M.Sangaré",
-      "position": "MID",
-      "captain": false,
-      "vice": false,
-      "benched": false
-     }
-    ],
-    "away": [],
-    "count": 1
-   },
+   "fpl": null,
    "espnId": "401879098",
    "alert": false
   },
@@ -21957,7 +21794,7 @@
       "name": "Isak",
       "position": "FWD",
       "captain": false,
-      "vice": false,
+      "vice": true,
       "benched": false
      }
     ],
@@ -22057,10 +21894,17 @@
       "captain": false,
       "vice": false,
       "benched": false
+     },
+     {
+      "name": "Ødegaard",
+      "position": "MID",
+      "captain": false,
+      "vice": false,
+      "benched": false
      }
     ],
     "away": [],
-    "count": 2
+    "count": 3
    },
    "espnId": "401878686",
    "alert": false
@@ -22136,17 +21980,10 @@
    "fpl": {
     "home": [
      {
-      "name": "Gvardiol",
-      "position": "DEF",
-      "captain": false,
-      "vice": false,
-      "benched": false
-     },
-     {
       "name": "Cherki",
       "position": "MID",
       "captain": false,
-      "vice": true,
+      "vice": false,
       "benched": false
      },
      {
@@ -22155,6 +21992,13 @@
       "captain": true,
       "vice": false,
       "benched": false
+     },
+     {
+      "name": "Gvardiol",
+      "position": "DEF",
+      "captain": false,
+      "vice": false,
+      "benched": true
      }
     ],
     "away": [],
@@ -22299,22 +22143,15 @@
       "position": "FWD",
       "captain": false,
       "vice": false,
-      "benched": true
+      "benched": false
      }
     ],
     "away": [
      {
-      "name": "Gvardiol",
-      "position": "DEF",
-      "captain": false,
-      "vice": false,
-      "benched": false
-     },
-     {
       "name": "Cherki",
       "position": "MID",
       "captain": false,
-      "vice": true,
+      "vice": false,
       "benched": false
      },
      {
@@ -22323,6 +22160,13 @@
       "captain": true,
       "vice": false,
       "benched": false
+     },
+     {
+      "name": "Gvardiol",
+      "position": "DEF",
+      "captain": false,
+      "vice": false,
+      "benched": true
      }
     ],
     "count": 5
@@ -22376,9 +22220,16 @@
       "captain": false,
       "vice": false,
       "benched": false
+     },
+     {
+      "name": "Ødegaard",
+      "position": "MID",
+      "captain": false,
+      "vice": false,
+      "benched": false
      }
     ],
-    "count": 2
+    "count": 3
    },
    "espnId": "401878680",
    "alert": false
@@ -22514,9 +22365,16 @@
       "captain": false,
       "vice": false,
       "benched": false
+     },
+     {
+      "name": "Yalcouyé",
+      "position": "MID",
+      "captain": false,
+      "vice": false,
+      "benched": true
      }
     ],
-    "count": 1
+    "count": 2
    },
    "espnId": "401879093",
    "alert": false
@@ -22551,19 +22409,7 @@
     }
    },
    "score": null,
-   "fpl": {
-    "home": [],
-    "away": [
-     {
-      "name": "Xhaka",
-      "position": "MID",
-      "captain": false,
-      "vice": false,
-      "benched": true
-     }
-    ],
-    "count": 1
-   },
+   "fpl": null,
    "espnId": "401879089",
    "alert": false
   },
@@ -22681,19 +22527,7 @@
     }
    },
    "score": null,
-   "fpl": {
-    "home": [
-     {
-      "name": "M.Sangaré",
-      "position": "MID",
-      "captain": false,
-      "vice": false,
-      "benched": false
-     }
-    ],
-    "away": [],
-    "count": 1
-   },
+   "fpl": null,
    "espnId": "401878678",
    "alert": true
   },
@@ -22741,7 +22575,7 @@
       "name": "Isak",
       "position": "FWD",
       "captain": false,
-      "vice": false,
+      "vice": true,
       "benched": false
      }
     ],
@@ -22785,15 +22619,7 @@
    },
    "score": null,
    "fpl": {
-    "home": [
-     {
-      "name": "Xhaka",
-      "position": "MID",
-      "captain": false,
-      "vice": false,
-      "benched": true
-     }
-    ],
+    "home": [],
     "away": [
      {
       "name": "Hall",
@@ -22803,7 +22629,7 @@
       "benched": false
      }
     ],
-    "count": 2
+    "count": 1
    },
    "espnId": "401878673",
    "alert": true
@@ -22846,10 +22672,17 @@
       "captain": false,
       "vice": false,
       "benched": false
+     },
+     {
+      "name": "Yalcouyé",
+      "position": "MID",
+      "captain": false,
+      "vice": false,
+      "benched": true
      }
     ],
     "away": [],
-    "count": 1
+    "count": 2
    },
    "espnId": "401879088",
    "alert": false
@@ -22971,17 +22804,10 @@
    "fpl": {
     "home": [
      {
-      "name": "Gvardiol",
-      "position": "DEF",
-      "captain": false,
-      "vice": false,
-      "benched": false
-     },
-     {
       "name": "Cherki",
       "position": "MID",
       "captain": false,
-      "vice": true,
+      "vice": false,
       "benched": false
      },
      {
@@ -22990,18 +22816,17 @@
       "captain": true,
       "vice": false,
       "benched": false
-     }
-    ],
-    "away": [
+     },
      {
-      "name": "M.Sangaré",
-      "position": "MID",
+      "name": "Gvardiol",
+      "position": "DEF",
       "captain": false,
       "vice": false,
-      "benched": false
+      "benched": true
      }
     ],
-    "count": 4
+    "away": [],
+    "count": 3
    },
    "espnId": "401879083",
    "alert": false
@@ -23087,7 +22912,7 @@
       "name": "Isak",
       "position": "FWD",
       "captain": false,
-      "vice": false,
+      "vice": true,
       "benched": false
      }
     ],
@@ -23104,7 +22929,7 @@
       "position": "FWD",
       "captain": false,
       "vice": false,
-      "benched": true
+      "benched": false
      }
     ],
     "count": 4
@@ -23161,6 +22986,13 @@
       "captain": false,
       "vice": false,
       "benched": false
+     },
+     {
+      "name": "Ødegaard",
+      "position": "MID",
+      "captain": false,
+      "vice": false,
+      "benched": false
      }
     ],
     "away": [
@@ -23172,7 +23004,7 @@
       "benched": true
      }
     ],
-    "count": 3
+    "count": 4
    },
    "espnId": "401878676",
    "alert": true
@@ -23282,17 +23114,10 @@
    "fpl": {
     "home": [
      {
-      "name": "Gvardiol",
-      "position": "DEF",
-      "captain": false,
-      "vice": false,
-      "benched": false
-     },
-     {
       "name": "Cherki",
       "position": "MID",
       "captain": false,
-      "vice": true,
+      "vice": false,
       "benched": false
      },
      {
@@ -23301,6 +23126,13 @@
       "captain": true,
       "vice": false,
       "benched": false
+     },
+     {
+      "name": "Gvardiol",
+      "position": "DEF",
+      "captain": false,
+      "vice": false,
+      "benched": true
      }
     ],
     "away": [
@@ -23315,7 +23147,7 @@
       "name": "Isak",
       "position": "FWD",
       "captain": false,
-      "vice": false,
+      "vice": true,
       "benched": false
      }
     ],
@@ -23370,9 +23202,16 @@
       "captain": false,
       "vice": false,
       "benched": false
+     },
+     {
+      "name": "Ødegaard",
+      "position": "MID",
+      "captain": false,
+      "vice": false,
+      "benched": false
      }
     ],
-    "count": 2
+    "count": 3
    },
    "espnId": "401879081",
    "alert": false
@@ -23475,19 +23314,7 @@
     }
    },
    "score": null,
-   "fpl": {
-    "home": [
-     {
-      "name": "M.Sangaré",
-      "position": "MID",
-      "captain": false,
-      "vice": false,
-      "benched": false
-     }
-    ],
-    "away": [],
-    "count": 1
-   },
+   "fpl": null,
    "espnId": "401879082",
    "alert": false
   },
@@ -23575,17 +23402,16 @@
       "captain": false,
       "vice": false,
       "benched": false
-     }
-    ],
-    "away": [
+     },
      {
-      "name": "Xhaka",
+      "name": "Yalcouyé",
       "position": "MID",
       "captain": false,
       "vice": false,
       "benched": true
      }
     ],
+    "away": [],
     "count": 2
    },
    "espnId": "401878671",
@@ -23648,7 +23474,7 @@
       "position": "FWD",
       "captain": false,
       "vice": false,
-      "benched": true
+      "benched": false
      }
     ],
     "count": 3
@@ -23867,9 +23693,16 @@
       "captain": false,
       "vice": false,
       "benched": false
+     },
+     {
+      "name": "Yalcouyé",
+      "position": "MID",
+      "captain": false,
+      "vice": false,
+      "benched": true
      }
     ],
-    "count": 1
+    "count": 2
    },
    "espnId": "401878664",
    "alert": true
@@ -23964,7 +23797,7 @@
       "position": "FWD",
       "captain": false,
       "vice": false,
-      "benched": true
+      "benched": false
      }
     ],
     "away": [],
@@ -24049,19 +23882,7 @@
     }
    },
    "score": null,
-   "fpl": {
-    "home": [
-     {
-      "name": "Xhaka",
-      "position": "MID",
-      "captain": false,
-      "vice": false,
-      "benched": true
-     }
-    ],
-    "away": [],
-    "count": 1
-   },
+   "fpl": null,
    "espnId": "401879073",
    "alert": false
   },
@@ -24108,20 +23929,12 @@
       "name": "Isak",
       "position": "FWD",
       "captain": false,
-      "vice": false,
+      "vice": true,
       "benched": false
      }
     ],
-    "away": [
-     {
-      "name": "M.Sangaré",
-      "position": "MID",
-      "captain": false,
-      "vice": false,
-      "benched": false
-     }
-    ],
-    "count": 3
+    "away": [],
+    "count": 2
    },
    "espnId": "401878663",
    "alert": false
@@ -24160,17 +23973,10 @@
     "home": [],
     "away": [
      {
-      "name": "Gvardiol",
-      "position": "DEF",
-      "captain": false,
-      "vice": false,
-      "benched": false
-     },
-     {
       "name": "Cherki",
       "position": "MID",
       "captain": false,
-      "vice": true,
+      "vice": false,
       "benched": false
      },
      {
@@ -24179,6 +23985,13 @@
       "captain": true,
       "vice": false,
       "benched": false
+     },
+     {
+      "name": "Gvardiol",
+      "position": "DEF",
+      "captain": false,
+      "vice": false,
+      "benched": true
      }
     ],
     "count": 3
@@ -24231,10 +24044,17 @@
       "captain": false,
       "vice": false,
       "benched": false
+     },
+     {
+      "name": "Ødegaard",
+      "position": "MID",
+      "captain": false,
+      "vice": false,
+      "benched": false
      }
     ],
     "away": [],
-    "count": 2
+    "count": 3
    },
    "espnId": "401879079",
    "alert": false
@@ -24270,15 +24090,7 @@
    },
    "score": null,
    "fpl": {
-    "home": [
-     {
-      "name": "M.Sangaré",
-      "position": "MID",
-      "captain": false,
-      "vice": false,
-      "benched": false
-     }
-    ],
+    "home": [],
     "away": [
      {
       "name": "Ajayi",
@@ -24288,7 +24100,7 @@
       "benched": true
      }
     ],
-    "count": 2
+    "count": 1
    },
    "espnId": "401879071",
    "alert": false
@@ -24419,19 +24231,7 @@
     }
    },
    "score": null,
-   "fpl": {
-    "home": [],
-    "away": [
-     {
-      "name": "Xhaka",
-      "position": "MID",
-      "captain": false,
-      "vice": false,
-      "benched": true
-     }
-    ],
-    "count": 1
-   },
+   "fpl": null,
    "espnId": "401879068",
    "alert": false
   },
@@ -24473,6 +24273,13 @@
       "captain": false,
       "vice": false,
       "benched": false
+     },
+     {
+      "name": "Yalcouyé",
+      "position": "MID",
+      "captain": false,
+      "vice": false,
+      "benched": true
      }
     ],
     "away": [
@@ -24487,11 +24294,11 @@
       "name": "Isak",
       "position": "FWD",
       "captain": false,
-      "vice": false,
+      "vice": true,
       "benched": false
      }
     ],
-    "count": 3
+    "count": 4
    },
    "espnId": "401878662",
    "alert": false
@@ -24575,7 +24382,7 @@
       "position": "FWD",
       "captain": false,
       "vice": false,
-      "benched": true
+      "benched": false
      }
     ],
     "count": 2
@@ -24663,9 +24470,16 @@
       "captain": false,
       "vice": false,
       "benched": false
+     },
+     {
+      "name": "Ødegaard",
+      "position": "MID",
+      "captain": false,
+      "vice": false,
+      "benched": false
      }
     ],
-    "count": 2
+    "count": 3
    },
    "espnId": "401879070",
    "alert": false
@@ -24703,17 +24517,10 @@
    "fpl": {
     "home": [
      {
-      "name": "Gvardiol",
-      "position": "DEF",
-      "captain": false,
-      "vice": false,
-      "benched": false
-     },
-     {
       "name": "Cherki",
       "position": "MID",
       "captain": false,
-      "vice": true,
+      "vice": false,
       "benched": false
      },
      {
@@ -24722,6 +24529,13 @@
       "captain": true,
       "vice": false,
       "benched": false
+     },
+     {
+      "name": "Gvardiol",
+      "position": "DEF",
+      "captain": false,
+      "vice": false,
+      "benched": true
      }
     ],
     "away": [],
@@ -24809,6 +24623,13 @@
       "captain": false,
       "vice": false,
       "benched": false
+     },
+     {
+      "name": "Ødegaard",
+      "position": "MID",
+      "captain": false,
+      "vice": false,
+      "benched": false
      }
     ],
     "away": [
@@ -24818,9 +24639,16 @@
       "captain": false,
       "vice": false,
       "benched": false
+     },
+     {
+      "name": "Yalcouyé",
+      "position": "MID",
+      "captain": false,
+      "vice": false,
+      "benched": true
      }
     ],
-    "count": 3
+    "count": 5
    },
    "espnId": "401878660",
    "alert": false
@@ -24868,7 +24696,7 @@
       "name": "Isak",
       "position": "FWD",
       "captain": false,
-      "vice": false,
+      "vice": true,
       "benched": false
      }
     ],
@@ -25081,28 +24909,13 @@
    },
    "score": null,
    "fpl": {
-    "home": [
-     {
-      "name": "Xhaka",
-      "position": "MID",
-      "captain": false,
-      "vice": false,
-      "benched": true
-     }
-    ],
+    "home": [],
     "away": [
-     {
-      "name": "Gvardiol",
-      "position": "DEF",
-      "captain": false,
-      "vice": false,
-      "benched": false
-     },
      {
       "name": "Cherki",
       "position": "MID",
       "captain": false,
-      "vice": true,
+      "vice": false,
       "benched": false
      },
      {
@@ -25111,9 +24924,16 @@
       "captain": true,
       "vice": false,
       "benched": false
+     },
+     {
+      "name": "Gvardiol",
+      "position": "DEF",
+      "captain": false,
+      "vice": false,
+      "benched": true
      }
     ],
-    "count": 4
+    "count": 3
    },
    "espnId": "401878658",
    "alert": false
@@ -25166,19 +24986,11 @@
       "position": "FWD",
       "captain": false,
       "vice": false,
-      "benched": true
-     }
-    ],
-    "away": [
-     {
-      "name": "M.Sangaré",
-      "position": "MID",
-      "captain": false,
-      "vice": false,
       "benched": false
      }
     ],
-    "count": 3
+    "away": [],
+    "count": 2
    },
    "espnId": "401879063",
    "alert": true
