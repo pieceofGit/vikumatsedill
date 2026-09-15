@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-09-14T10:42:25.519Z",
+ "generatedAt": "2026-09-15T10:06:22.817Z",
  "gameweek": 5,
  "gameweekName": "Gameweek 5",
  "deadline": "2026-09-18T17:30:00Z",
@@ -21,10 +21,10 @@
    "xgc": 3.68,
    "minutes": 360,
    "starts": 4,
-   "owned": 72,
+   "owned": 72.3,
    "status": "a",
    "news": null,
-   "priceMomentum": 40975,
+   "priceMomentum": 65925,
    "fixtures": [
     {
      "gw": 5,
@@ -76,10 +76,10 @@
    "xgc": 3.68,
    "minutes": 344,
    "starts": 4,
-   "owned": 21.7,
+   "owned": 22.7,
    "status": "a",
    "news": null,
-   "priceMomentum": 136638,
+   "priceMomentum": 225864,
    "fixtures": [
     {
      "gw": 5,
@@ -131,10 +131,10 @@
    "xgc": 6.17,
    "minutes": 360,
    "starts": 4,
-   "owned": 74.8,
+   "owned": 75.2,
    "status": "a",
    "news": null,
-   "priceMomentum": 118076,
+   "priceMomentum": 160886,
    "fixtures": [
     {
      "gw": 5,
@@ -186,10 +186,10 @@
    "xgc": 2.72,
    "minutes": 360,
    "starts": 4,
-   "owned": 39.9,
+   "owned": 40.3,
    "status": "a",
    "news": null,
-   "priceMomentum": 81648,
+   "priceMomentum": 116291,
    "fixtures": [
     {
      "gw": 5,
@@ -241,10 +241,10 @@
    "xgc": 2.45,
    "minutes": 326,
    "starts": 4,
-   "owned": 49.9,
+   "owned": 50.1,
    "status": "a",
    "news": null,
-   "priceMomentum": 81969,
+   "priceMomentum": 107473,
    "fixtures": [
     {
      "gw": 5,
@@ -296,10 +296,10 @@
    "xgc": 6.95,
    "minutes": 333,
    "starts": 4,
-   "owned": 22.9,
+   "owned": 23.5,
    "status": "a",
    "news": null,
-   "priceMomentum": 93572,
+   "priceMomentum": 153326,
    "fixtures": [
     {
      "gw": 5,
@@ -351,10 +351,10 @@
    "xgc": 4.72,
    "minutes": 280,
    "starts": 3,
-   "owned": 12.2,
+   "owned": 12.1,
    "status": "a",
    "news": null,
-   "priceMomentum": -23540,
+   "priceMomentum": -28715,
    "fixtures": [
     {
      "gw": 5,
@@ -406,10 +406,10 @@
    "xgc": 4.99,
    "minutes": 333,
    "starts": 4,
-   "owned": 13.4,
+   "owned": 13.6,
    "status": "a",
    "news": null,
-   "priceMomentum": 80008,
+   "priceMomentum": 99181,
    "fixtures": [
     {
      "gw": 5,
@@ -461,10 +461,10 @@
    "xgc": 6.08,
    "minutes": 347,
    "starts": 4,
-   "owned": 36.5,
+   "owned": 37.4,
    "status": "a",
    "news": null,
-   "priceMomentum": 247047,
+   "priceMomentum": 334234,
    "fixtures": [
     {
      "gw": 5,
@@ -516,10 +516,10 @@
    "xgc": 2.46,
    "minutes": 305,
    "starts": 4,
-   "owned": 19,
+   "owned": 19.2,
    "status": "a",
    "news": null,
-   "priceMomentum": 72793,
+   "priceMomentum": 103898,
    "fixtures": [
     {
      "gw": 5,
@@ -571,10 +571,10 @@
    "xgc": 1.82,
    "minutes": 218,
    "starts": 3,
-   "owned": 28.8,
+   "owned": 28.5,
    "status": "a",
    "news": null,
-   "priceMomentum": -47120,
+   "priceMomentum": -74742,
    "fixtures": [
     {
      "gw": 5,
@@ -626,10 +626,10 @@
    "xgc": 5.16,
    "minutes": 333,
    "starts": 4,
-   "owned": 22.4,
+   "owned": 22.2,
    "status": "a",
    "news": null,
-   "priceMomentum": -36329,
+   "priceMomentum": -60415,
    "fixtures": [
     {
      "gw": 5,
@@ -675,16 +675,16 @@
    "position": "DEF",
    "price": 5.2,
    "form": 4.5,
-   "ppg": 6,
+   "ppg": 4.5,
    "total": 18,
-   "xgi90": 0.23,
-   "xgc": 5.45,
-   "minutes": 269,
-   "starts": 3,
-   "owned": 14.5,
+   "xgi90": 0.19,
+   "xgc": 7.53,
+   "minutes": 359,
+   "starts": 4,
+   "owned": 14.4,
    "status": "a",
    "news": null,
-   "priceMomentum": 58632,
+   "priceMomentum": 52451,
    "fixtures": [
     {
      "gw": 5,
@@ -718,7 +718,7 @@
     }
    ],
    "ease": 3.4,
-   "rating": 4.19,
+   "rating": 3.59,
    "captain": false,
    "vice": false,
    "benched": false
@@ -736,10 +736,10 @@
    "xgc": 6.43,
    "minutes": 231,
    "starts": 3,
-   "owned": 3.5,
+   "owned": 3.7,
    "status": "a",
    "news": null,
-   "priceMomentum": 25471,
+   "priceMomentum": 42641,
    "fixtures": [
     {
      "gw": 5,
@@ -794,7 +794,7 @@
    "owned": 17.7,
    "status": "a",
    "news": null,
-   "priceMomentum": -9992,
+   "priceMomentum": -14857,
    "fixtures": [
     {
      "gw": 5,
@@ -906,5 +906,114 @@
    "form": 7.2
   }
  ],
- "suggestions": []
+ "suggestions": [
+  {
+   "out": {
+    "name": "Hall",
+    "club": "NEW",
+    "position": "DEF",
+    "price": 5.2,
+    "rating": 3.59,
+    "form": 4.5,
+    "ease": 3.4,
+    "status": "a",
+    "news": null
+   },
+   "options": [
+    {
+     "id": 330,
+     "name": "Bogle",
+     "club": "LEE",
+     "price": 4.5,
+     "rating": 5.83,
+     "form": 9.2,
+     "xgi90": 0.41,
+     "ease": 2.4,
+     "owned": 2.8,
+     "fixtures": [
+      {
+       "gw": 5,
+       "opponent": "CRY",
+       "home": true,
+       "difficulty": 3
+      },
+      {
+       "gw": 6,
+       "opponent": "ARS",
+       "home": false,
+       "difficulty": 5
+      },
+      {
+       "gw": 7,
+       "opponent": "MUN",
+       "home": true,
+       "difficulty": 4
+      }
+     ]
+    },
+    {
+     "id": 277,
+     "name": "Egan",
+     "club": "HUL",
+     "price": 4.1,
+     "rating": 4.8,
+     "form": 6.2,
+     "xgi90": 0.01,
+     "ease": 3.2,
+     "owned": 6.7,
+     "fixtures": [
+      {
+       "gw": 5,
+       "opponent": "NEW",
+       "home": false,
+       "difficulty": 3
+      },
+      {
+       "gw": 6,
+       "opponent": "EVE",
+       "home": true,
+       "difficulty": 3
+      },
+      {
+       "gw": 7,
+       "opponent": "FUL",
+       "home": false,
+       "difficulty": 3
+      }
+     ]
+    },
+    {
+     "id": 649,
+     "name": "Maitland-Niles",
+     "club": "EVE",
+     "price": 4.5,
+     "rating": 4.72,
+     "form": 6.5,
+     "xgi90": 0.2,
+     "ease": 2.8,
+     "owned": 0.7,
+     "fixtures": [
+      {
+       "gw": 5,
+       "opponent": "IPS",
+       "home": true,
+       "difficulty": 2
+      },
+      {
+       "gw": 6,
+       "opponent": "HUL",
+       "home": false,
+       "difficulty": 2
+      },
+      {
+       "gw": 7,
+       "opponent": "CHE",
+       "home": true,
+       "difficulty": 4
+      }
+     ]
+    }
+   ]
+  }
+ ]
 }
