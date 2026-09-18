@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-09-17T10:00:52.181Z",
+ "generatedAt": "2026-09-18T09:47:23.756Z",
  "gameweek": 5,
  "gameweekName": "Gameweek 5",
  "deadline": "2026-09-18T17:30:00Z",
@@ -13,7 +13,7 @@
    "name": "Haaland",
    "club": "MCI",
    "position": "FWD",
-   "price": 15.5,
+   "price": 15.6,
    "form": 8.2,
    "ppg": 8.2,
    "total": 33,
@@ -21,10 +21,10 @@
    "xgc": 3.68,
    "minutes": 360,
    "starts": 4,
-   "owned": 72.6,
+   "owned": 73,
    "status": "a",
    "news": null,
-   "priceMomentum": 99595,
+   "priceMomentum": 131548,
    "fixtures": [
     {
      "gw": 5,
@@ -76,10 +76,10 @@
    "xgc": 3.68,
    "minutes": 344,
    "starts": 4,
-   "owned": 24,
+   "owned": 25.1,
    "status": "a",
    "news": null,
-   "priceMomentum": 331506,
+   "priceMomentum": 420670,
    "fixtures": [
     {
      "gw": 5,
@@ -131,10 +131,10 @@
    "xgc": 2.72,
    "minutes": 360,
    "starts": 4,
-   "owned": 40.8,
+   "owned": 41,
    "status": "a",
    "news": null,
-   "priceMomentum": 157846,
+   "priceMomentum": 181222,
    "fixtures": [
     {
      "gw": 5,
@@ -189,7 +189,7 @@
    "owned": 50.2,
    "status": "a",
    "news": null,
-   "priceMomentum": 137329,
+   "priceMomentum": 159277,
    "fixtures": [
     {
      "gw": 5,
@@ -241,10 +241,10 @@
    "xgc": 6.95,
    "minutes": 333,
    "starts": 4,
-   "owned": 24.1,
+   "owned": 24.3,
    "status": "a",
    "news": null,
-   "priceMomentum": 219492,
+   "priceMomentum": 253612,
    "fixtures": [
     {
      "gw": 5,
@@ -296,10 +296,10 @@
    "xgc": 4.72,
    "minutes": 280,
    "starts": 3,
-   "owned": 12.4,
+   "owned": 12.5,
    "status": "a",
    "news": null,
-   "priceMomentum": -14817,
+   "priceMomentum": -268,
    "fixtures": [
     {
      "gw": 5,
@@ -351,10 +351,10 @@
    "xgc": 4.99,
    "minutes": 333,
    "starts": 4,
-   "owned": 13.8,
+   "owned": 14,
    "status": "a",
    "news": null,
-   "priceMomentum": 116732,
+   "priceMomentum": 134188,
    "fixtures": [
     {
      "gw": 5,
@@ -406,10 +406,10 @@
    "xgc": 6.08,
    "minutes": 347,
    "starts": 4,
-   "owned": 38.3,
+   "owned": 39.1,
    "status": "a",
    "news": null,
-   "priceMomentum": 427141,
+   "priceMomentum": 507284,
    "fixtures": [
     {
      "gw": 5,
@@ -453,7 +453,7 @@
    "name": "Ødegaard",
    "club": "ARS",
    "position": "MID",
-   "price": 6.7,
+   "price": 6.8,
    "form": 6.8,
    "ppg": 6.8,
    "total": 27,
@@ -461,10 +461,10 @@
    "xgc": 2.46,
    "minutes": 305,
    "starts": 4,
-   "owned": 19.5,
+   "owned": 19.7,
    "status": "a",
    "news": null,
-   "priceMomentum": 139220,
+   "priceMomentum": 165721,
    "fixtures": [
     {
      "gw": 5,
@@ -516,10 +516,10 @@
    "xgc": 1.82,
    "minutes": 218,
    "starts": 3,
-   "owned": 28.2,
+   "owned": 28.1,
    "status": "a",
    "news": null,
-   "priceMomentum": -102879,
+   "priceMomentum": -114465,
    "fixtures": [
     {
      "gw": 5,
@@ -571,10 +571,10 @@
    "xgc": 5.16,
    "minutes": 333,
    "starts": 4,
-   "owned": 21.9,
+   "owned": 21.8,
    "status": "a",
    "news": null,
-   "priceMomentum": -83903,
+   "priceMomentum": -90503,
    "fixtures": [
     {
      "gw": 5,
@@ -626,10 +626,10 @@
    "xgc": 7.53,
    "minutes": 359,
    "starts": 4,
-   "owned": 14.4,
+   "owned": 14.6,
    "status": "a",
    "news": null,
-   "priceMomentum": 52429,
+   "priceMomentum": 72242,
    "fixtures": [
     {
      "gw": 5,
@@ -681,10 +681,10 @@
    "xgc": 6.43,
    "minutes": 231,
    "starts": 3,
-   "owned": 3.8,
+   "owned": 4,
    "status": "a",
    "news": null,
-   "priceMomentum": 58684,
+   "priceMomentum": 70557,
    "fixtures": [
     {
      "gw": 5,
@@ -736,10 +736,10 @@
    "xgc": 6.17,
    "minutes": 360,
    "starts": 4,
-   "owned": 74.5,
+   "owned": 71.6,
    "status": "d",
    "news": "Unspecified injury - 75% chance of playing",
-   "priceMomentum": 121464,
+   "priceMomentum": -110822,
    "fixtures": [
     {
      "gw": 5,
@@ -794,7 +794,7 @@
    "owned": 17.6,
    "status": "a",
    "news": null,
-   "priceMomentum": -18704,
+   "priceMomentum": -21434,
    "fixtures": [
     {
      "gw": 5,
@@ -929,7 +929,7 @@
      "form": 5,
      "xgi90": 0.7,
      "ease": 2.4,
-     "owned": 23.4,
+     "owned": 24.7,
      "fixtures": [
       {
        "gw": 5,
@@ -960,7 +960,7 @@
      "form": 6,
      "xgi90": 0.6,
      "ease": 3,
-     "owned": 2.8,
+     "owned": 3,
      "fixtures": [
       {
        "gw": 5,
@@ -991,7 +991,7 @@
      "form": 4.2,
      "xgi90": 0.32,
      "ease": 3,
-     "owned": 7.9,
+     "owned": 8.2,
      "fixtures": [
       {
        "gw": 5,
