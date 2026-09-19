@@ -1,5 +1,5 @@
 {
- "fetchedAt": "2026-09-18T09:47:23.962Z",
+ "fetchedAt": "2026-09-19T09:33:15.887Z",
  "tables": {
   "pl": {
    "name": "Premier League",
@@ -16,6 +16,11 @@
      "gd": 7,
      "points": 12,
      "form": [
+      {
+       "r": "W",
+       "opponent": "Sunderland",
+       "score": "2-0"
+      },
       {
        "r": "W",
        "opponent": "Chelsea",
@@ -47,6 +52,11 @@
      "form": [
       {
        "r": "W",
+       "opponent": "Man Utd",
+       "score": "1-0"
+      },
+      {
+       "r": "W",
        "opponent": "Coventry",
        "score": "1-0"
       },
@@ -64,6 +74,40 @@
     },
     {
      "rank": 3,
+     "team": "Brentford",
+     "played": 5,
+     "won": 2,
+     "drawn": 3,
+     "lost": 0,
+     "gf": 10,
+     "ga": 4,
+     "gd": 6,
+     "points": 9,
+     "form": [
+      {
+       "r": "D",
+       "opponent": "Bournemouth",
+       "score": "2-2"
+      },
+      {
+       "r": "D",
+       "opponent": "Sunderland",
+       "score": "1-1"
+      },
+      {
+       "r": "D",
+       "opponent": "Leeds",
+       "score": "1-1"
+      },
+      {
+       "r": "W",
+       "opponent": "Tottenham",
+       "score": "3-0"
+      }
+     ]
+    },
+    {
+     "rank": 4,
      "team": "Leeds",
      "played": 4,
      "won": 2,
@@ -74,6 +118,11 @@
      "gd": 4,
      "points": 8,
      "form": [
+      {
+       "r": "W",
+       "opponent": "Newcastle",
+       "score": "4-1"
+      },
       {
        "r": "D",
        "opponent": "Brighton",
@@ -92,7 +141,7 @@
      ]
     },
     {
-     "rank": 4,
+     "rank": 5,
      "team": "Hull City",
      "played": 4,
      "won": 2,
@@ -103,6 +152,11 @@
      "gd": 3,
      "points": 8,
      "form": [
+      {
+       "r": "D",
+       "opponent": "Chelsea",
+       "score": "2-2"
+      },
       {
        "r": "W",
        "opponent": "Coventry",
@@ -116,7 +170,7 @@
      ]
     },
     {
-     "rank": 5,
+     "rank": 6,
      "team": "Brighton",
      "played": 4,
      "won": 2,
@@ -127,6 +181,11 @@
      "gd": 8,
      "points": 7,
      "form": [
+      {
+       "r": "W",
+       "opponent": "Coventry",
+       "score": "5-0"
+      },
       {
        "r": "D",
        "opponent": "Leeds",
@@ -145,17 +204,22 @@
      ]
     },
     {
-     "rank": 6,
+     "rank": 7,
      "team": "Chelsea",
-     "played": 4,
+     "played": 5,
      "won": 2,
      "drawn": 1,
-     "lost": 1,
+     "lost": 2,
      "gf": 10,
-     "ga": 9,
-     "gd": 1,
+     "ga": 12,
+     "gd": -2,
      "points": 7,
      "form": [
+      {
+       "r": "D",
+       "opponent": "Hull City",
+       "score": "2-2"
+      },
       {
        "r": "L",
        "opponent": "Arsenal",
@@ -170,35 +234,6 @@
        "r": "W",
        "opponent": "Fulham",
        "score": "3-2"
-      }
-     ]
-    },
-    {
-     "rank": 7,
-     "team": "Brentford",
-     "played": 4,
-     "won": 1,
-     "drawn": 3,
-     "lost": 0,
-     "gf": 7,
-     "ga": 4,
-     "gd": 3,
-     "points": 6,
-     "form": [
-      {
-       "r": "D",
-       "opponent": "Sunderland",
-       "score": "1-1"
-      },
-      {
-       "r": "D",
-       "opponent": "Leeds",
-       "score": "1-1"
-      },
-      {
-       "r": "W",
-       "opponent": "Tottenham",
-       "score": "3-0"
       }
      ]
     },
@@ -273,6 +308,11 @@
      "points": 6,
      "form": [
       {
+       "r": "W",
+       "opponent": "Crystal Palace",
+       "score": "3-2"
+      },
+      {
        "r": "L",
        "opponent": "Liverpool",
        "score": "0-2"
@@ -302,6 +342,11 @@
      "points": 5,
      "form": [
       {
+       "r": "W",
+       "opponent": "Aston Villa",
+       "score": "2-1"
+      },
+      {
        "r": "D",
        "opponent": "Liverpool",
        "score": "2-2"
@@ -325,6 +370,11 @@
      "gd": -1,
      "points": 5,
      "form": [
+      {
+       "r": "L",
+       "opponent": "Leeds",
+       "score": "1-4"
+      },
       {
        "r": "D",
        "opponent": "Bournemouth",
@@ -355,6 +405,11 @@
      "points": 4,
      "form": [
       {
+       "r": "L",
+       "opponent": "Man City",
+       "score": "0-1"
+      },
+      {
        "r": "D",
        "opponent": "Everton",
        "score": "2-2"
@@ -383,6 +438,11 @@
      "gd": -2,
      "points": 4,
      "form": [
+      {
+       "r": "L",
+       "opponent": "Arsenal",
+       "score": "0-2"
+      },
       {
        "r": "D",
        "opponent": "Brentford",
@@ -414,6 +474,11 @@
      "form": [
       {
        "r": "D",
+       "opponent": "Brentford",
+       "score": "2-2"
+      },
+      {
+       "r": "D",
        "opponent": "Newcastle",
        "score": "2-2"
       },
@@ -441,6 +506,11 @@
      "gd": -5,
      "points": 3,
      "form": [
+      {
+       "r": "L",
+       "opponent": "Ipswich",
+       "score": "2-3"
+      },
       {
        "r": "W",
        "opponent": "Fulham",
@@ -525,6 +595,11 @@
      "form": [
       {
        "r": "L",
+       "opponent": "Nott'm Forest",
+       "score": "1-2"
+      },
+      {
+       "r": "L",
        "opponent": "Arsenal",
        "score": "0-1"
       },
@@ -547,6 +622,11 @@
      "gd": -10,
      "points": 0,
      "form": [
+      {
+       "r": "L",
+       "opponent": "Brighton",
+       "score": "0-5"
+      },
       {
        "r": "L",
        "opponent": "Man City",
