@@ -1,11 +1,11 @@
 {
- "generatedAt": "2026-09-21T10:45:39.139Z",
+ "generatedAt": "2026-09-22T09:59:16.879Z",
  "fantasy": {
   "name": "How's it Goink?",
   "gameweek": 5,
   "teamId": 6870928,
   "overallPoints": 326,
-  "overallRank": 2196443
+  "overallRank": 2196434
  },
  "season": "2026-27",
  "timezone": "Atlantic/Reykjavik",
@@ -2993,7 +2993,10 @@
      "note": null
     }
    },
-   "score": null,
+   "score": [
+    3,
+    0
+   ],
    "fpl": {
     "home": [],
     "away": [
@@ -3045,7 +3048,10 @@
      "note": null
     }
    },
-   "score": null,
+   "score": [
+    2,
+    3
+   ],
    "fpl": {
     "home": [
      {
@@ -3090,7 +3096,10 @@
      "note": null
     }
    },
-   "score": null,
+   "score": [
+    1,
+    0
+   ],
    "fpl": null,
    "alert": false
   },
@@ -3123,7 +3132,10 @@
      "note": null
     }
    },
-   "score": null,
+   "score": [
+    3,
+    0
+   ],
    "fpl": {
     "home": [
      {
@@ -3197,7 +3209,10 @@
      "note": null
     }
    },
-   "score": null,
+   "score": [
+    2,
+    1
+   ],
    "fpl": {
     "home": [
      {
@@ -3250,7 +3265,10 @@
      "note": null
     }
    },
-   "score": null,
+   "score": [
+    0,
+    1
+   ],
    "fpl": null,
    "alert": false
   },
@@ -3283,7 +3301,10 @@
      "note": null
     }
    },
-   "score": null,
+   "score": [
+    0,
+    1
+   ],
    "fpl": {
     "home": [],
     "away": [
@@ -3368,7 +3389,10 @@
      "note": null
     }
    },
-   "score": null,
+   "score": [
+    5,
+    3
+   ],
    "fpl": {
     "home": [
      {
@@ -3431,7 +3455,10 @@
      "note": null
     }
    },
-   "score": null,
+   "score": [
+    1,
+    1
+   ],
    "fpl": null,
    "alert": true
   },
