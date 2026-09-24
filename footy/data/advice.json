@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-09-23T10:00:42.770Z",
+ "generatedAt": "2026-09-24T10:03:28.523Z",
  "gameweek": 6,
  "gameweekName": "Gameweek 6",
  "deadline": "2026-10-10T10:00:00Z",
@@ -24,7 +24,7 @@
    "owned": 73.7,
    "status": "a",
    "news": null,
-   "priceMomentum": 45996,
+   "priceMomentum": 48570,
    "fixtures": [
     {
      "gw": 6,
@@ -79,7 +79,7 @@
    "owned": 26.6,
    "status": "a",
    "news": null,
-   "priceMomentum": 79650,
+   "priceMomentum": 83237,
    "fixtures": [
     {
      "gw": 6,
@@ -134,7 +134,7 @@
    "owned": 22.4,
    "status": "a",
    "news": null,
-   "priceMomentum": 35286,
+   "priceMomentum": 38127,
    "fixtures": [
     {
      "gw": 6,
@@ -186,10 +186,10 @@
    "xgc": 9.12,
    "minutes": 449,
    "starts": 5,
-   "owned": 16.9,
+   "owned": 17,
    "status": "a",
    "news": null,
-   "priceMomentum": 192147,
+   "priceMomentum": 200878,
    "fixtures": [
     {
      "gw": 6,
@@ -241,10 +241,10 @@
    "xgc": 5,
    "minutes": 302,
    "starts": 4,
-   "owned": 28.2,
+   "owned": 28.3,
    "status": "a",
    "news": null,
-   "priceMomentum": 17414,
+   "priceMomentum": 20026,
    "fixtures": [
     {
      "gw": 6,
@@ -299,7 +299,7 @@
    "owned": 42.2,
    "status": "a",
    "news": null,
-   "priceMomentum": 71038,
+   "priceMomentum": 72304,
    "fixtures": [
     {
      "gw": 6,
@@ -351,10 +351,10 @@
    "xgc": 8.58,
    "minutes": 423,
    "starts": 5,
-   "owned": 27.3,
+   "owned": 27.4,
    "status": "a",
    "news": null,
-   "priceMomentum": 223504,
+   "priceMomentum": 235164,
    "fixtures": [
     {
      "gw": 6,
@@ -394,61 +394,6 @@
    "benched": true
   },
   {
-   "id": 40,
-   "name": "Rogers",
-   "club": "CHE",
-   "position": "MID",
-   "price": 7.7,
-   "form": 5.8,
-   "ppg": 5.8,
-   "total": 29,
-   "xgi90": 0.6,
-   "xgc": 8.73,
-   "minutes": 437,
-   "starts": 5,
-   "owned": 40.4,
-   "status": "a",
-   "news": null,
-   "priceMomentum": 56220,
-   "fixtures": [
-    {
-     "gw": 6,
-     "opponent": "BOU",
-     "home": true,
-     "difficulty": 3
-    },
-    {
-     "gw": 7,
-     "opponent": "EVE",
-     "home": false,
-     "difficulty": 3
-    },
-    {
-     "gw": 8,
-     "opponent": "TOT",
-     "home": true,
-     "difficulty": 3
-    },
-    {
-     "gw": 9,
-     "opponent": "MUN",
-     "home": true,
-     "difficulty": 4
-    },
-    {
-     "gw": 10,
-     "opponent": "SUN",
-     "home": false,
-     "difficulty": 3
-    }
-   ],
-   "ease": 2.8,
-   "rating": 4.21,
-   "captain": false,
-   "vice": false,
-   "benched": false
-  },
-  {
    "id": 8,
    "name": "Calafiori",
    "club": "ARS",
@@ -464,7 +409,7 @@
    "owned": 50.6,
    "status": "a",
    "news": null,
-   "priceMomentum": 9183,
+   "priceMomentum": 9905,
    "fixtures": [
     {
      "gw": 6,
@@ -519,7 +464,7 @@
    "owned": 12.6,
    "status": "a",
    "news": null,
-   "priceMomentum": -23648,
+   "priceMomentum": -24755,
    "fixtures": [
     {
      "gw": 6,
@@ -559,6 +504,61 @@
    "benched": false
   },
   {
+   "id": 40,
+   "name": "Rogers",
+   "club": "CHE",
+   "position": "MID",
+   "price": 7.7,
+   "form": 5.2,
+   "ppg": 5.8,
+   "total": 29,
+   "xgi90": 0.6,
+   "xgc": 8.73,
+   "minutes": 437,
+   "starts": 5,
+   "owned": 40.4,
+   "status": "a",
+   "news": null,
+   "priceMomentum": 60347,
+   "fixtures": [
+    {
+     "gw": 6,
+     "opponent": "BOU",
+     "home": true,
+     "difficulty": 3
+    },
+    {
+     "gw": 7,
+     "opponent": "EVE",
+     "home": false,
+     "difficulty": 3
+    },
+    {
+     "gw": 8,
+     "opponent": "TOT",
+     "home": true,
+     "difficulty": 3
+    },
+    {
+     "gw": 9,
+     "opponent": "MUN",
+     "home": true,
+     "difficulty": 4
+    },
+    {
+     "gw": 10,
+     "opponent": "SUN",
+     "home": false,
+     "difficulty": 3
+    }
+   ],
+   "ease": 2.8,
+   "rating": 3.99,
+   "captain": false,
+   "vice": false,
+   "benched": false
+  },
+  {
    "id": 15,
    "name": "Ødegaard",
    "club": "ARS",
@@ -574,7 +574,7 @@
    "owned": 19.8,
    "status": "a",
    "news": null,
-   "priceMomentum": -13397,
+   "priceMomentum": -13647,
    "fixtures": [
     {
      "gw": 6,
@@ -626,10 +626,10 @@
    "xgc": 6.43,
    "minutes": 423,
    "starts": 5,
-   "owned": 14.1,
+   "owned": 14,
    "status": "a",
    "news": null,
-   "priceMomentum": -10317,
+   "priceMomentum": -11698,
    "fixtures": [
     {
      "gw": 6,
@@ -684,7 +684,7 @@
    "owned": 4,
    "status": "a",
    "news": null,
-   "priceMomentum": -7038,
+   "priceMomentum": -7037,
    "fixtures": [
     {
      "gw": 6,
@@ -729,7 +729,7 @@
    "club": "CHE",
    "position": "FWD",
    "price": 5.9,
-   "form": 0.8,
+   "form": 1,
    "ppg": 1.3,
    "total": 4,
    "xgi90": 0.15,
@@ -739,7 +739,7 @@
    "owned": 1,
    "status": "a",
    "news": null,
-   "priceMomentum": -1847,
+   "priceMomentum": -1976,
    "fixtures": [
     {
      "gw": 6,
@@ -773,7 +773,7 @@
     }
    ],
    "ease": 2.8,
-   "rating": 0.76,
+   "rating": 0.83,
    "captain": false,
    "vice": false,
    "benched": false
@@ -794,7 +794,7 @@
    "owned": 17.2,
    "status": "a",
    "news": null,
-   "priceMomentum": -17817,
+   "priceMomentum": -18864,
    "fixtures": [
     {
      "gw": 6,
@@ -892,18 +892,18 @@
    "form": 4.5
   },
   {
-   "name": "Rogers",
-   "rating": 5.8,
+   "name": "Haaland",
+   "rating": 5.67,
    "fixtures": [
     {
      "gw": 6,
-     "opponent": "BOU",
-     "home": true,
-     "difficulty": 3
+     "opponent": "LIV",
+     "home": false,
+     "difficulty": 4
     }
    ],
-   "xgi90": 0.6,
-   "form": 5.8
+   "xgi90": 0.99,
+   "form": 9.2
   }
  ],
  "suggestions": [
@@ -929,7 +929,7 @@
      "form": 6,
      "xgi90": 0,
      "ease": 2.8,
-     "owned": 12.4,
+     "owned": 12.5,
      "fixtures": [
       {
        "gw": 6,
@@ -960,7 +960,7 @@
      "form": 6.2,
      "xgi90": 0,
      "ease": 2.8,
-     "owned": 3.9,
+     "owned": 4,
      "fixtures": [
       {
        "gw": 6,
@@ -1021,8 +1021,8 @@
     "club": "CHE",
     "position": "FWD",
     "price": 5.9,
-    "rating": 0.76,
-    "form": 0.8,
+    "rating": 0.83,
+    "form": 1,
     "ease": 2.8,
     "status": "a",
     "news": null
@@ -1037,7 +1037,7 @@
      "form": 6.8,
      "xgi90": 0.36,
      "ease": 2.4,
-     "owned": 3.5,
+     "owned": 3.7,
      "fixtures": [
       {
        "gw": 6,
@@ -1068,7 +1068,7 @@
      "form": 5.5,
      "xgi90": 0.68,
      "ease": 3.4,
-     "owned": 6.9,
+     "owned": 7,
      "fixtures": [
       {
        "gw": 6,
@@ -1099,7 +1099,7 @@
      "form": 5.2,
      "xgi90": 0.66,
      "ease": 2.4,
-     "owned": 25,
+     "owned": 24.9,
      "fixtures": [
       {
        "gw": 6,
@@ -1145,7 +1145,7 @@
      "form": 11.2,
      "xgi90": 0.52,
      "ease": 2.4,
-     "owned": 27.8,
+     "owned": 28.1,
      "fixtures": [
       {
        "gw": 6,
@@ -1176,7 +1176,7 @@
      "form": 9,
      "xgi90": 0.37,
      "ease": 2.8,
-     "owned": 10.8,
+     "owned": 11,
      "fixtures": [
       {
        "gw": 6,
