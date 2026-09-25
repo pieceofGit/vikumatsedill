@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-09-24T10:03:28.523Z",
+ "generatedAt": "2026-09-25T10:13:02.439Z",
  "gameweek": 6,
  "gameweekName": "Gameweek 6",
  "deadline": "2026-10-10T10:00:00Z",
@@ -24,7 +24,7 @@
    "owned": 73.7,
    "status": "a",
    "news": null,
-   "priceMomentum": 48570,
+   "priceMomentum": 51015,
    "fixtures": [
     {
      "gw": 6,
@@ -76,10 +76,10 @@
    "xgc": 7.25,
    "minutes": 434,
    "starts": 5,
-   "owned": 26.6,
+   "owned": 26.7,
    "status": "a",
    "news": null,
-   "priceMomentum": 83237,
+   "priceMomentum": 86052,
    "fixtures": [
     {
      "gw": 6,
@@ -131,10 +131,10 @@
    "xgc": 5.82,
    "minutes": 413,
    "starts": 5,
-   "owned": 22.4,
+   "owned": 22.5,
    "status": "a",
    "news": null,
-   "priceMomentum": 38127,
+   "priceMomentum": 41307,
    "fixtures": [
     {
      "gw": 6,
@@ -186,10 +186,10 @@
    "xgc": 9.12,
    "minutes": 449,
    "starts": 5,
-   "owned": 17,
+   "owned": 17.1,
    "status": "a",
    "news": null,
-   "priceMomentum": 200878,
+   "priceMomentum": 207385,
    "fixtures": [
     {
      "gw": 6,
@@ -244,7 +244,7 @@
    "owned": 28.3,
    "status": "a",
    "news": null,
-   "priceMomentum": 20026,
+   "priceMomentum": 24257,
    "fixtures": [
     {
      "gw": 6,
@@ -299,7 +299,7 @@
    "owned": 42.2,
    "status": "a",
    "news": null,
-   "priceMomentum": 72304,
+   "priceMomentum": 73659,
    "fixtures": [
     {
      "gw": 6,
@@ -351,10 +351,10 @@
    "xgc": 8.58,
    "minutes": 423,
    "starts": 5,
-   "owned": 27.4,
+   "owned": 27.5,
    "status": "a",
    "news": null,
-   "priceMomentum": 235164,
+   "priceMomentum": 252114,
    "fixtures": [
     {
      "gw": 6,
@@ -406,10 +406,10 @@
    "xgc": 3.76,
    "minutes": 416,
    "starts": 5,
-   "owned": 50.6,
+   "owned": 50.5,
    "status": "a",
    "news": null,
-   "priceMomentum": 9905,
+   "priceMomentum": 10309,
    "fixtures": [
     {
      "gw": 6,
@@ -464,7 +464,7 @@
    "owned": 12.6,
    "status": "a",
    "news": null,
-   "priceMomentum": -24755,
+   "priceMomentum": -24855,
    "fixtures": [
     {
      "gw": 6,
@@ -519,7 +519,7 @@
    "owned": 40.4,
    "status": "a",
    "news": null,
-   "priceMomentum": 60347,
+   "priceMomentum": 64069,
    "fixtures": [
     {
      "gw": 6,
@@ -574,7 +574,7 @@
    "owned": 19.8,
    "status": "a",
    "news": null,
-   "priceMomentum": -13647,
+   "priceMomentum": -13189,
    "fixtures": [
     {
      "gw": 6,
@@ -629,7 +629,7 @@
    "owned": 14,
    "status": "a",
    "news": null,
-   "priceMomentum": -11698,
+   "priceMomentum": -12747,
    "fixtures": [
     {
      "gw": 6,
@@ -684,7 +684,7 @@
    "owned": 4,
    "status": "a",
    "news": null,
-   "priceMomentum": -7037,
+   "priceMomentum": -6870,
    "fixtures": [
     {
      "gw": 6,
@@ -739,7 +739,7 @@
    "owned": 1,
    "status": "a",
    "news": null,
-   "priceMomentum": -1976,
+   "priceMomentum": -2044,
    "fixtures": [
     {
      "gw": 6,
@@ -791,10 +791,10 @@
    "xgc": 0,
    "minutes": 0,
    "starts": 0,
-   "owned": 17.2,
+   "owned": 17.1,
    "status": "a",
    "news": null,
-   "priceMomentum": -18864,
+   "priceMomentum": -19726,
    "fixtures": [
     {
      "gw": 6,
@@ -924,12 +924,12 @@
      "id": 572,
      "name": "Tzolakis",
      "club": "HUL",
-     "price": 4.6,
+     "price": 4.7,
      "rating": 4.65,
      "form": 6,
      "xgi90": 0,
      "ease": 2.8,
-     "owned": 12.5,
+     "owned": 12.7,
      "fixtures": [
       {
        "gw": 6,
@@ -1037,7 +1037,7 @@
      "form": 6.8,
      "xgi90": 0.36,
      "ease": 2.4,
-     "owned": 3.7,
+     "owned": 3.8,
      "fixtures": [
       {
        "gw": 6,
@@ -1056,37 +1056,6 @@
        "opponent": "LIV",
        "home": false,
        "difficulty": 4
-      }
-     ]
-    },
-    {
-     "id": 552,
-     "name": "Brobbey",
-     "club": "SUN",
-     "price": 5.7,
-     "rating": 4.1,
-     "form": 5.5,
-     "xgi90": 0.68,
-     "ease": 3.4,
-     "owned": 7,
-     "fixtures": [
-      {
-       "gw": 6,
-       "opponent": "BHA",
-       "home": true,
-       "difficulty": 2
-      },
-      {
-       "gw": 7,
-       "opponent": "BOU",
-       "home": false,
-       "difficulty": 3
-      },
-      {
-       "gw": 8,
-       "opponent": "LEE",
-       "home": true,
-       "difficulty": 2
       }
      ]
     },
@@ -1120,6 +1089,37 @@
        "difficulty": 3
       }
      ]
+    },
+    {
+     "id": 316,
+     "name": "Emersonn",
+     "club": "IPS",
+     "price": 5.5,
+     "rating": 2.79,
+     "form": 4.2,
+     "xgi90": 0.49,
+     "ease": 3,
+     "owned": 3.5,
+     "fixtures": [
+      {
+       "gw": 6,
+       "opponent": "FUL",
+       "home": true,
+       "difficulty": 2
+      },
+      {
+       "gw": 7,
+       "opponent": "MCI",
+       "home": false,
+       "difficulty": 5
+      },
+      {
+       "gw": 8,
+       "opponent": "NFO",
+       "home": true,
+       "difficulty": 3
+      }
+     ]
     }
    ]
   },
@@ -1145,7 +1145,7 @@
      "form": 11.2,
      "xgi90": 0.52,
      "ease": 2.4,
-     "owned": 28.1,
+     "owned": 28.3,
      "fixtures": [
       {
        "gw": 6,
@@ -1176,7 +1176,7 @@
      "form": 9,
      "xgi90": 0.37,
      "ease": 2.8,
-     "owned": 11,
+     "owned": 11.1,
      "fixtures": [
       {
        "gw": 6,
