@@ -1,43 +1,54 @@
 {
-  "generatedAt": "21. september 2026",
+  "generatedAt": "28. september 2026",
   "places": [
     {
       "name": "Róót",
       "url": "https://rootbistro.is/matsedill",
-      "week": "21. - 25.September",
+      "week": "28.- 2. September- Október",
       "days": [
         {
           "day": "Mánudagur",
           "dishes": [
             {
-              "name": "Ristuð gulrótarsúpa með ástaraldini og kóríanderolíu",
-              "desc": "Ristuð gulrótarsúpa með chili, ástaraldini og kóríanderolíu.",
+              "name": "Kínversk súrsæt og sterk sveppasúpa",
+              "desc": "Sveppasúpa með hvítkáli, gulrótum, engifer, hvítlauk, soja, hrísgrjónaediki og sesamolíu.",
               "tag": "Súpa",
-              "allergens": []
+              "allergens": [
+                "S"
+              ]
             },
             {
-              "name": "Kjúklingur með apríkósu–gochujang-gljáa og sesam-fetakremi",
-              "desc": "Ofnbakaður kjúklingur með apríkósu–gochujang-gljáa, borinn fram með sesam-fetakremi.",
+              "name": "Kung Pao-kjúklingur með drekasósu",
+              "desc": "Kjúklingur með cashewhnetum, Sichuan-pipar og vorlauk í drekasósu, borinn fram með sítrónuhrísgrjónum.",
               "tag": "Kjúklingur",
               "allergens": []
             },
             {
-              "name": "Ýsa piccata með ponzu-smjörsósu og kapers",
-              "desc": "Ofnbökuð ýsa með ponzu-smjörsósu og kapers, borin fram með ristuðu smælki.",
+              "name": "Þorskur með chorizo, hvítum baunum og steinselju",
+              "desc": "Ofnbakaður þorskur á ragú úr chorizo, hvítum baunum, tómötum og ristuðum paprikum, með steinselju og sítrónu.",
               "tag": "Fiskur",
-              "allergens": [
-                "D"
-              ]
-            },
-            {
-              "name": "Ristaðar gulrófur með döðlu–harissagljáa, sítrónubyggi og tófú",
-              "desc": "Ristaðar gulrófur með döðlu–harissagljáa, bornar fram með sítrónubyggi og tófú.",
-              "tag": "Vegan",
               "allergens": []
             },
             {
-              "name": "Grænar baunir með ferskjum, pikluðum skalottlauk og sherry-vinaigrette",
-              "desc": "Salat úr grænum baunum og ferskjum með pikluðum skalottlauk og sherry-vinaigrette.",
+              "name": "Tempura með spergilkáli og aspas",
+              "desc": "Tempura með spergilkáli og aspas, mangóchutney og vegan graslaukssósu úr majónesi og sojajógúrt.",
+              "tag": "Vegan",
+              "allergens": [
+                "D",
+                "E",
+                "S"
+              ],
+              "info": {
+                "term": "Tempura",
+                "title": "Tempura",
+                "info": "Tempura is a Japanese dish that usually consists of seafood and vegetables that have been coated in a thin batter and deep-fried.",
+                "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2e/Tempura_01.jpg/330px-Tempura_01.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+                "wiki": "https://en.wikipedia.org/wiki/Tempura"
+              }
+            },
+            {
+              "name": "Gúrku- og fennelsalat með grænum eplum",
+              "desc": "Gúrkur, fennel, græn epli, vorlaukur og dill með Dijon- og eplaediksvinaigrette.",
               "tag": "Vegan",
               "allergens": []
             }
@@ -47,43 +58,38 @@
           "day": "Þriðjudagur",
           "dishes": [
             {
-              "name": "Tómat- og tamarindsúpa með ristuðum broddkúmenfræjum",
-              "desc": "Tómatsúpa með tamarind og ristuðum broddkúmenfræjum.",
+              "name": "Kartöflu- og blaðlaukssúpa með ristuðum hvítlauk",
+              "desc": "Kartöflu- og blaðlaukssúpa með ristuðum hvítlauk og hafrarjóma, borin fram með stökkum kartöflustrimlum og graslauk.",
               "tag": "Súpa",
-              "allergens": [
-                "S"
-              ]
-            },
-            {
-              "name": "Kjúklingur tikka masala butter chicken með kókos–lime-hrísgrjónum",
-              "desc": "Kjúklingur í kryddaðri tómat-, smjör- og rjómasósu, borinn fram með kókos–lime-hrísgrjónum.",
-              "tag": "Kjúklingur",
               "allergens": [
                 "D"
               ]
             },
             {
-              "name": "Ofnbakaðar sætar kartöflur og fava með appelsínu–miso-gljáa",
-              "desc": "Ofnbakaðar sætar kartöflur og fava með appelsínu–miso-gljáa, bornar fram með svörtum hrísgrjónum og pikluðum radísum.",
+              "name": "Chili con carne",
+              "desc": "Nautahakk með rauðum nýrnabaunum, paprikum, tómötum og chilíkryddum, borið fram með hrísgrjónum.",
+              "tag": "Nautakjöt",
+              "allergens": []
+            },
+            {
+              "name": "Lúða - Sudado de pescado með leche de tigre",
+              "desc": "Lúða í tómat-, rauðlauks- og ají amarillo-soði, með leche de tigre úr fiskisoði og selleríi, ristuðu smælki og sítrónuertum.",
+              "tag": "Fiskur",
+              "allergens": []
+            },
+            {
+              "name": "Ristaðar gulrófur með sveppa-byggotto og salvíu",
+              "desc": "Ristaðar gulrófur á sveppa-byggotto með hafrarjóma, sítrónu og salvíuolíu.",
               "tag": "Vegan",
               "allergens": [
-                "S"
+                "D"
               ]
             },
             {
-              "name": "Couscous-salat með ristuðum gulrótum, súrum kirsuberjum og sumac",
-              "desc": "Couscous með ristuðum gulrótum, súrum kirsuberjum og sumac.",
+              "name": "Brokkolíhrásalat með vínberjum og radísum",
+              "desc": "Fínt skorið brokkolí með vínberjum, radísum og rauðlauk í sítrónu-tahinidressingu.",
               "tag": "Vegan",
-              "allergens": [
-                "G"
-              ],
-              "info": {
-                "term": "Couscous",
-                "title": "Couscous",
-                "info": "Couscous, is a traditional North African dish of small steamed granules of rolled semolina that is often served with a stew spooned on top.",
-                "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0c/Moroccan_cuscus%2C_from_Casablanca%2C_September_2018.jpg/330px-Moroccan_cuscus%2C_from_Casablanca%2C_September_2018.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-                "wiki": "https://en.wikipedia.org/wiki/Couscous"
-              }
+              "allergens": []
             }
           ]
         },
@@ -91,47 +97,46 @@
           "day": "Miðvikudagur",
           "dishes": [
             {
-              "name": "Sætkartöflusúpa með appelsínu, ancho-chili og graskersfræjakremi",
-              "desc": "Sætkartöflusúpa með appelsínu og ancho-chili, borin fram með graskersfræjakremi.",
+              "name": "Græn baunasúpa með myntu og sítrónu",
+              "desc": "Maukuð græn ertusúpa með kartöflum, lauk, myntu og sítrónu, toppuð með sítrónuolíu.",
               "tag": "Súpa",
               "allergens": []
             },
             {
-              "name": "Nautaragù með soja, engifer og rigatoni",
-              "desc": "Hægeldað nautaragù með tómötum, soja, engifer og hvítlauk, borið fram með rigatoni og vorlauk.",
-              "tag": "Nautakjöt",
+              "name": "Kjúklingur með mangó-chipotle-gljáa og lime",
+              "desc": "Kjúklingur með mangó-chipotle-gljáa, hrísgrjónum með svörtum baunum og paprikum, og kóríander-vorlaukssalsa.",
+              "tag": "Kjúklingur",
+              "allergens": []
+            },
+            {
+              "name": "Bleikja með dill-sinnepssósu og rúgbrauðsmylsnu",
+              "desc": "Bleikja með dill-sinnepssósu og smjörbakaðri rúgbrauðsmylsnu, krydduðum kartöflum, smjörbökuðum blaðlauk og pikkluðum gúrkum.",
+              "tag": "Fiskur",
+              "allergens": [
+                "D",
+                "G"
+              ]
+            },
+            {
+              "name": "Stökkbakaðar kartöflur og kjúklingabaunir að indverskum hætti",
+              "desc": "Stökkbakaðar kartöflur og kjúklingabaunir með spínati, broddkúmeni og sinnepsfræjum, bornar fram með tamarind-döðlusósu.",
+              "tag": "Vegan",
               "allergens": [
                 "S"
               ]
             },
             {
-              "name": "Bleikja með tandoori-kryddsmjöri og gúrku–myntu-raita",
-              "desc": "Ofnbökuð bleikja með tandoori-kryddsmjöri, borin fram með gúrku–myntu-raita.",
-              "tag": "Fiskur",
-              "allergens": [
-                "D"
-              ]
-            },
-            {
-              "name": "Gnocchi í grænni karrísósu með kjúklingabaunum, spínati og taíbasilíku",
-              "desc": "Gnocchi og kjúklingabaunir í grænni karrísósu með spínati og taíbasilíku.",
+              "name": "Radicchio- og spínatsalat með ferskum plómum",
+              "desc": "Radicchio og spínat með ferskum plómum, gulrótarborðum og myntu, borið fram með appelsínu-balsamikdressingu.",
               "tag": "Vegan",
-              "allergens": [
-                "G"
-              ],
+              "allergens": [],
               "info": {
-                "term": "Gnocchi",
-                "title": "Gnocchi",
-                "info": "Gnocchi are a varied family of pasta-like dumplings in Italian cuisine.",
-                "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/Gnocchi_di_ricotta_burro_e_salvia.jpg/330px-Gnocchi_di_ricotta_burro_e_salvia.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-                "wiki": "https://en.wikipedia.org/wiki/Gnocchi"
+                "term": "Radicchio",
+                "title": "Radicchio",
+                "info": "Radicchio is a perennial cultivated form of leaf chicory, commonly used in Italian cuisine.",
+                "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e8/RadicchioNL.jpg/330px-RadicchioNL.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+                "wiki": "https://en.wikipedia.org/wiki/Radicchio"
               }
-            },
-            {
-              "name": "Kramdar gúrkur með ananas, taíbasilíku og chili–lime-dressingu",
-              "desc": "Kramdar gúrkur og ananas með taíbasilíku og chili–lime-dressingu.",
-              "tag": "Vegan",
-              "allergens": []
             }
           ]
         },
@@ -139,38 +144,32 @@
           "day": "Fimmtudagur",
           "dishes": [
             {
-              "name": "Hvítbauna- og sítrónusúpa með za’atar og pikluðu chili",
-              "desc": "Hvítbauna- og sítrónusúpa með za’atar, borin fram með pikluðu chili.",
+              "name": "Tex-Mex-sjávarréttasúpa",
+              "desc": "Tómat- og rjómalöguð sjávarréttasúpa með fiski, maís, papriku, selleríi, chipotle og límónu.",
               "tag": "Súpa",
-              "allergens": []
-            },
-            {
-              "name": "Granatepla-lamb barbacoa með ancho-chili, hrísgrjónum og maístortillum",
-              "desc": "Hægeldað lamb barbacoa með granateplum og ancho-chili, borið fram með hrísgrjónum og maístortillum.",
-              "tag": "Lambakjöt",
-              "allergens": [
-                "G"
-              ]
-            },
-            {
-              "name": "Steinbítur með maískremi, chipotle og lime-salsa verde",
-              "desc": "Ofnbakaður steinbítur með maískremi, chipotle og lime-salsa verde.",
-              "tag": "Fiskur",
-              "allergens": []
-            },
-            {
-              "name": "Smjörbaunir í saffran–kókossósu með ristuðum fennel og chili crisp",
-              "desc": "Smjörbaunir í saffran–kókossósu, bornar fram með ristuðum fennel og chili crisp.",
-              "tag": "Vegan",
               "allergens": [
                 "D"
               ]
             },
             {
-              "name": "Ristað rósakál með appelsínum, döðlum og tahini-vinaigrette",
-              "desc": "Ristað rósakál með appelsínum og döðlum, borið fram með tahini-vinaigrette.",
+              "name": "BBQ-hlaðborð",
+              "desc": "Nautabrisket með kaffi-svart pipar rub, svínahnakki með epla-sinnepsgljáa, Sichuan-kjúklingavængir og grísarif með BBQ-gljáa, með bökuðum kartöflum og chimichurri.",
+              "tag": "Kjúklingur",
+              "allergens": []
+            },
+            {
+              "name": "BBQ-portobello með borlotti-baunum og stökkum kartöflum",
+              "desc": "BBQ-gljáðir portobello-sveppir með borlotti-baunum, stökkum kartöflum og chimichurri.",
               "tag": "Vegan",
               "allergens": []
+            },
+            {
+              "name": "Hvítkáls- og gulrótahrásalat með sellerífræjum",
+              "desc": "Hvítkáls- og gulrótahrásalat með vegan majónesi, Dijon-sinnepi, eplaediki og sellerífræjum.",
+              "tag": "Vegan",
+              "allergens": [
+                "E"
+              ]
             }
           ]
         },
@@ -178,28 +177,39 @@
           "day": "Föstudagur",
           "dishes": [
             {
-              "name": "Fennel- og sítrónusúpa með hvítu miso og ristuðu sesami",
-              "desc": "Fennel- og sítrónusúpa með hvítu miso, borin fram með ristuðu sesami.",
+              "name": "Marokkósk harira með kjúklingabaunum og linsum",
+              "desc": "Tómatsúpa með kjúklingabaunum, linsum, selleríi, engifer, broddkúmeni og kanil, með sítrónu og ferskum kryddjurtum.",
               "tag": "Súpa",
+              "allergens": []
+            },
+            {
+              "name": "Kjúklingur með za’atar og sítrónu á krydduðum hrísgrjónum",
+              "desc": "Kjúklingur með za’atar og sítrónu á krydduðum hrísgrjónum með karamellíseruðum lauk, hvítlauksjógúrt og myntu.",
+              "tag": "Kjúklingur",
               "allergens": [
-                "S"
+                "D"
               ]
             },
             {
-              "name": "Stökkbakaður kjúklingur með nam jim ranch, pikluðum tómötum og steiktum hrísgrjónum",
-              "desc": "Stökkbakaður kjúklingur, borinn fram með nam jim ranch, pikluðum tómötum og steiktum hrísgrjónum.",
-              "tag": "Kjúklingur",
-              "allergens": []
-            },
-            {
-              "name": "Ristað blómkál með shawarma-kryddum, Oumph og granatepla–zhoug",
-              "desc": "Ristað blómkál með shawarma-kryddum, borið fram með Oumph og granatepla–zhoug.",
+              "name": "Falafel með hummus, rauðlauk, raita og arabísku brauði",
+              "desc": "Falafel úr kjúklingabaunum og kryddjurtum, með hummus, rauðlauk, vegan raita úr sojajógúrt og arabísku brauði.",
               "tag": "Vegan",
-              "allergens": []
+              "allergens": [
+                "D",
+                "G",
+                "S"
+              ],
+              "info": {
+                "term": "Falafel",
+                "title": "Falafel",
+                "info": "Falafel is a deep-fried ball or patty-shaped fritter of Egyptian origin that features in Middle Eastern cuisine, particularly Levantine cuisines.",
+                "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/57/Falafels_2.jpg/330px-Falafels_2.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+                "wiki": "https://en.wikipedia.org/wiki/Falafel"
+              }
             },
             {
-              "name": "Rauðkál með greipaldini, avókadó og ristuðu sesami",
-              "desc": "Rauðkálssalat með greipaldini, avókadó og ristuðu sesami.",
+              "name": "Blómkálstabbouleh með granatepli og myntu",
+              "desc": "Hrátt blómkálstabbouleh með gúrku, tómötum, granateplum, steinselju og myntu í sítrónu- og ólífuolíudressingu.",
               "tag": "Vegan",
               "allergens": []
             }
@@ -210,42 +220,38 @@
     {
       "name": "Makona",
       "url": "https://makona.is/lunch",
-      "week": "september 21 - 25",
+      "week": "september 28 - október 2",
       "days": [
         {
           "day": "Mánudagur",
           "dishes": [
             {
-              "name": "Íslensk kjötsúpa",
-              "desc": "með rótar grænmeti",
+              "name": "Rjómalöguð tómatsúpa með basil",
+              "desc": "",
               "tag": "SÚPA",
+              "allergens": [
+                "D"
+              ]
+            },
+            {
+              "name": "Bang bang ofnsteiktur lax",
+              "desc": "með chipotle-sósu, vorlauk og svörtum sesamfræjum",
+              "tag": "FISKUR",
               "allergens": []
             },
             {
-              "name": "Ofnsteiktur þorskur",
-              "desc": "í panko með kapers, lauki og steinselju smjöri og sítrónu",
-              "tag": "FISKUR",
-              "allergens": [
-                "G",
-                "D",
-                "D",
-                "G"
-              ]
+              "name": "Kókos og lime kjúklingabringa",
+              "desc": "með bambus, sætum kartöflubátum og brúnum hrísgrjónum",
+              "tag": "KJÚKLINGUR",
+              "allergens": []
             },
             {
-              "name": "Miðausturlensk shawarma vefja",
-              "desc": "með rifnu lambakjöti, ristaðri papriku og fetaosta sósu, og hrásalati",
-              "tag": "LAMBAKJÖT",
-              "allergens": [
-                "D",
-                "G"
-              ]
-            },
-            {
-              "name": "Vegan pizza",
-              "desc": "með sticky tofu, sætum kartöflum, papriku, klettasalati og kjúklingabaunum",
+              "name": "vegan vefjur",
+              "desc": "með krydduðum kartöflum, spínati, delhi koftum og hummus",
               "tag": "VEGAN",
               "allergens": [
+                "G",
+                "S",
                 "S",
                 "G"
               ]
@@ -256,21 +262,22 @@
           "day": "Þriðjudagur",
           "dishes": [
             {
-              "name": "Trufflu- og nípu súpa",
-              "desc": "með hnetum og sykruðu beikoni (Hn)",
+              "name": "Minestrone súpa",
+              "desc": "með linsubaunum, chorizo, baunum og papriku",
               "tag": "SÚPA",
-              "allergens": []
+              "allergens": [],
+              "info": {
+                "term": "Minestrone",
+                "title": "Minestrone",
+                "info": "Minestrone or minestrone di verdure is a thick vegetable soup of Italian origin.",
+                "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fe/Minestrone_soup_%285%29.jpg/330px-Minestrone_soup_%285%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+                "wiki": "https://en.wikipedia.org/wiki/Minestrone"
+              }
             },
             {
-              "name": "Keto Perú kjúklingabringa",
-              "desc": "með hvítlauk-lime kjúkling, stökkar kartöflur, avókadó, maís bauna salsa og jalapeno- og lime sósa",
-              "tag": "KJÚKLINGUR",
-              "allergens": []
-            },
-            {
-              "name": "Svínasnitzel",
-              "desc": "með kartöflumús, sveppasósu, rauðkáli, grænum baunum og rababarasultu",
-              "tag": "SVÍNAKJÖT",
+              "name": "Klassískt kjöt lasagna",
+              "desc": "með cheddar- og piparosti, parmesan og pestó",
+              "tag": "PASTA",
               "allergens": [
                 "D",
                 "G",
@@ -278,8 +285,16 @@
               ]
             },
             {
-              "name": "Vegan kókos og hrísgrjóna skál",
-              "desc": "með kókos hrísgrjónum, gljáðu tofu, grænu grænmeti og ristuðum kókosflögum",
+              "name": "Grísk souvlaki kjúklinga skál",
+              "desc": "með hvítlaukssósu, hrísgrjónum, agúrku, konfekt tómötum, rauðlauk og svartar ólífur",
+              "tag": "KJÚKLINGUR",
+              "allergens": [
+                "D"
+              ]
+            },
+            {
+              "name": "Villisveppa stroganoff",
+              "desc": "með kartöflumús og ristuðu tofu með gremolata",
               "tag": "VEGAN",
               "allergens": [
                 "S"
@@ -291,61 +306,25 @@
           "day": "Miðvikudagur",
           "dishes": [
             {
-              "name": "Rjómalöguð súpa með hvítum aspas",
-              "desc": "",
+              "name": "Rjómalöguð sveppasúpa",
+              "desc": "með trufflum",
               "tag": "SÚPA",
               "allergens": [
                 "D"
               ]
             },
             {
-              "name": "Mexíkósk chipotle nautaskál",
-              "desc": "með kóríander hrísgrjónum, svörtum baunum, cajun maís, avókadó og lime dressingu",
+              "name": "Hægeldaður svínahnakki með kúbönsku mojo",
+              "desc": "með marineringu úr appelsínu, límónu og hunangi og rjómalagaðri kartöflumús",
+              "tag": "SVÍNAKJÖT",
+              "allergens": [
+                "D"
+              ]
+            },
+            {
+              "name": "Kjötbollur í brúnni sósu",
+              "desc": ",grænum baunum, pikklað hvítkál, kartöflumús og rababarasulta",
               "tag": "NAUTAKJÖT",
-              "allergens": []
-            },
-            {
-              "name": "Toskana kjúklinga linguine",
-              "desc": "með sólþurrkuðum tómötum, parmesan osti, fersku basil og spínati",
-              "tag": "PASTA",
-              "allergens": [
-                "D",
-                "G"
-              ]
-            },
-            {
-              "name": "Miso gljáð eggaldin",
-              "desc": ",sesam núðlur, edamame baunir og ferskt grænmeti",
-              "tag": "VEGAN",
-              "allergens": [
-                "S",
-                "G"
-              ],
-              "info": {
-                "term": "Miso",
-                "title": "Miso",
-                "info": "Miso is a traditional Japanese seasoning.",
-                "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Miso_001.jpg/330px-Miso_001.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-                "wiki": "https://en.wikipedia.org/wiki/Miso"
-              }
-            }
-          ]
-        },
-        {
-          "day": "Fimmtudagur",
-          "dishes": [
-            {
-              "name": "Mexíkósk kjúklingasúpa",
-              "desc": "með nachos og cheddar osti",
-              "tag": "SÚPA",
-              "allergens": [
-                "D"
-              ]
-            },
-            {
-              "name": "Heimalagaður Plokkfiskur",
-              "desc": "með rúgbrauði og smjöri, bearnaise sósu og piparosti",
-              "tag": "FISKUR",
               "allergens": [
                 "D",
                 "G",
@@ -353,20 +332,48 @@
               ]
             },
             {
-              "name": "Indverskur smjörkjúklingur",
-              "desc": "með ilmandi hrísgrjónum, hvítlauks naanbrauði og sítrónu jógúrtsósu",
-              "tag": "KJÚKLINGUR",
+              "name": "Vegan moussaka",
+              "desc": "með eggaldin sósu, cumin, bræddum veganosti og kartöflu sneiðum",
+              "tag": "VEGAN",
+              "allergens": [
+                "S",
+                "G"
+              ]
+            }
+          ]
+        },
+        {
+          "day": "Fimmtudagur",
+          "dishes": [
+            {
+              "name": "Brokkolí og cheddar súpa",
+              "desc": "",
+              "tag": "SÚPA",
+              "allergens": [
+                "D"
+              ]
+            },
+            {
+              "name": "Stökkur tempura þorskur",
+              "desc": "með heimagerðu remúlaði, handskornum kartöflubitum og salati",
+              "tag": "FISKUR",
               "allergens": [
                 "D",
                 "G"
               ]
             },
             {
-              "name": "Blómkáls tikka marsala með rótargrænmeti",
-              "desc": "með hrísgrjónum og sítrónu vegan mæjónesi",
+              "name": "Nauta bourguignon",
+              "desc": "með rauðvíni, ristuðum kartöflum, ristuðum gulrótum og gremólötu",
+              "tag": "NAUTAKJÖT",
+              "allergens": []
+            },
+            {
+              "name": "Vegan gnocchi",
+              "desc": "með vegan rjómakenndu pepperonata, spínati og tómötum",
               "tag": "VEGAN",
               "allergens": [
-                "S"
+                "G"
               ]
             }
           ]
@@ -375,40 +382,40 @@
           "day": "Föstudagur",
           "dishes": [
             {
-              "name": "Klassískur kjúklinga parmesan",
-              "desc": "ristaður með tómötum, bráðnum cheddar og parmesan osti",
+              "name": "Ungversk gúllassúpa",
+              "desc": "með grænmeti",
+              "tag": "SÚPA",
+              "allergens": []
+            },
+            {
+              "name": "Tandoori ristuð úrbeinuð kjúklingalæri",
+              "desc": "með lime, kókos hrísgjónum og agúrku jógúrtsósu",
               "tag": "KJÚKLINGUR",
               "allergens": [
-                "D",
-                "G",
-                "E"
-              ]
-            },
-            {
-              "name": "Spaghetti með trufflum",
-              "desc": "með sveppum, beikoni og parmesan",
-              "tag": "PASTA",
-              "allergens": [
-                "D",
-                "G"
-              ]
-            },
-            {
-              "name": "Vegan enchiladas",
-              "desc": "fylltar með svartbaunum , spínati og með guacamole",
-              "tag": "VEGAN",
-              "allergens": [
-                "S",
-                "G"
-              ]
-            },
-            {
-              "name": "Hrísgrjónagrautur",
-              "desc": "með kanelsykri og rababarasultu",
-              "tag": "KAKA",
-              "allergens": [
                 "D"
+              ],
+              "info": {
+                "term": "Tandoori",
+                "title": "Tandoor",
+                "info": "A tandoor is a large vase-shaped oven, usually made of clay.",
+                "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c2/Luxury_tandoor.png/330px-Luxury_tandoor.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+                "wiki": "https://en.wikipedia.org/wiki/Tandoor"
+              }
+            },
+            {
+              "name": "Tex mex taco nauta miniborgarar",
+              "desc": "með stökkum lauk, mexíkóskum osti og súrum gúrkum",
+              "tag": "NAUTAKJÖT",
+              "allergens": [
+                "D",
+                "G"
               ]
+            },
+            {
+              "name": "Vegan karrí með kjúklingabaunum og eggaldin",
+              "desc": ", túrmerik, kókos og döðlum, borið fram með villihrísgrjónum",
+              "tag": "VEGAN",
+              "allergens": []
             }
           ]
         }
