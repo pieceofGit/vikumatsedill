@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-09-30T11:10:53.468Z",
+ "generatedAt": "2026-10-01T11:38:14.586Z",
  "gameweek": 6,
  "gameweekName": "Gameweek 6",
  "deadline": "2026-10-10T10:00:00Z",
@@ -24,7 +24,7 @@
    "owned": 73.8,
    "status": "a",
    "news": null,
-   "priceMomentum": 57314,
+   "priceMomentum": 57940,
    "fixtures": [
     {
      "gw": 6,
@@ -79,7 +79,7 @@
    "owned": 26.8,
    "status": "a",
    "news": null,
-   "priceMomentum": 91722,
+   "priceMomentum": 91882,
    "fixtures": [
     {
      "gw": 6,
@@ -131,10 +131,10 @@
    "xgc": 8.58,
    "minutes": 423,
    "starts": 5,
-   "owned": 27.7,
+   "owned": 27.8,
    "status": "a",
    "news": null,
-   "priceMomentum": 274879,
+   "priceMomentum": 277427,
    "fixtures": [
     {
      "gw": 6,
@@ -189,7 +189,7 @@
    "owned": 17.3,
    "status": "a",
    "news": null,
-   "priceMomentum": 222178,
+   "priceMomentum": 224377,
    "fixtures": [
     {
      "gw": 6,
@@ -244,7 +244,7 @@
    "owned": 42.3,
    "status": "a",
    "news": null,
-   "priceMomentum": 77925,
+   "priceMomentum": 78527,
    "fixtures": [
     {
      "gw": 6,
@@ -299,7 +299,7 @@
    "owned": 40.5,
    "status": "a",
    "news": null,
-   "priceMomentum": 75157,
+   "priceMomentum": 77210,
    "fixtures": [
     {
      "gw": 6,
@@ -339,61 +339,6 @@
    "benched": false
   },
   {
-   "id": 8,
-   "name": "Calafiori",
-   "club": "ARS",
-   "position": "DEF",
-   "price": 5.8,
-   "form": 5,
-   "ppg": 5.8,
-   "total": 29,
-   "xgi90": 0.27,
-   "xgc": 3.76,
-   "minutes": 416,
-   "starts": 5,
-   "owned": 50.5,
-   "status": "a",
-   "news": null,
-   "priceMomentum": 12296,
-   "fixtures": [
-    {
-     "gw": 6,
-     "opponent": "LEE",
-     "home": true,
-     "difficulty": 3
-    },
-    {
-     "gw": 7,
-     "opponent": "NFO",
-     "home": false,
-     "difficulty": 3
-    },
-    {
-     "gw": 8,
-     "opponent": "EVE",
-     "home": true,
-     "difficulty": 3
-    },
-    {
-     "gw": 9,
-     "opponent": "LIV",
-     "home": false,
-     "difficulty": 4
-    },
-    {
-     "gw": 10,
-     "opponent": "HUL",
-     "home": true,
-     "difficulty": 2
-    }
-   ],
-   "ease": 3,
-   "rating": 4.05,
-   "captain": false,
-   "vice": false,
-   "benched": false
-  },
-  {
    "id": 399,
    "name": "Cherki",
    "club": "MCI",
@@ -409,7 +354,7 @@
    "owned": 28.4,
    "status": "a",
    "news": null,
-   "priceMomentum": 32994,
+   "priceMomentum": 33680,
    "fixtures": [
     {
      "gw": 6,
@@ -454,7 +399,7 @@
    "club": "ARS",
    "position": "MID",
    "price": 6.8,
-   "form": 4.5,
+   "form": 5,
    "ppg": 5.8,
    "total": 29,
    "xgi90": 0.58,
@@ -464,7 +409,7 @@
    "owned": 19.8,
    "status": "a",
    "news": null,
-   "priceMomentum": -12064,
+   "priceMomentum": -11779,
    "fixtures": [
     {
      "gw": 6,
@@ -498,7 +443,62 @@
     }
    ],
    "ease": 3,
-   "rating": 3.64,
+   "rating": 3.82,
+   "captain": false,
+   "vice": false,
+   "benched": false
+  },
+  {
+   "id": 8,
+   "name": "Calafiori",
+   "club": "ARS",
+   "position": "DEF",
+   "price": 5.8,
+   "form": 3,
+   "ppg": 5.8,
+   "total": 29,
+   "xgi90": 0.27,
+   "xgc": 3.76,
+   "minutes": 416,
+   "starts": 5,
+   "owned": 50.5,
+   "status": "a",
+   "news": null,
+   "priceMomentum": 12595,
+   "fixtures": [
+    {
+     "gw": 6,
+     "opponent": "LEE",
+     "home": true,
+     "difficulty": 3
+    },
+    {
+     "gw": 7,
+     "opponent": "NFO",
+     "home": false,
+     "difficulty": 3
+    },
+    {
+     "gw": 8,
+     "opponent": "EVE",
+     "home": true,
+     "difficulty": 3
+    },
+    {
+     "gw": 9,
+     "opponent": "LIV",
+     "home": false,
+     "difficulty": 4
+    },
+    {
+     "gw": 10,
+     "opponent": "HUL",
+     "home": true,
+     "difficulty": 2
+    }
+   ],
+   "ease": 3,
+   "rating": 3.3,
    "captain": false,
    "vice": false,
    "benched": false
@@ -519,7 +519,7 @@
    "owned": 14,
    "status": "a",
    "news": null,
-   "priceMomentum": -15120,
+   "priceMomentum": -15397,
    "fixtures": [
     {
      "gw": 6,
@@ -574,7 +574,7 @@
    "owned": 4,
    "status": "a",
    "news": null,
-   "priceMomentum": -6701,
+   "priceMomentum": -6817,
    "fixtures": [
     {
      "gw": 6,
@@ -629,7 +629,7 @@
    "owned": 22.4,
    "status": "d",
    "news": "Thigh injury - 75% chance of playing",
-   "priceMomentum": 34895,
+   "priceMomentum": 32391,
    "fixtures": [
     {
      "gw": 6,
@@ -684,7 +684,7 @@
    "owned": 12.4,
    "status": "d",
    "news": "Ankle injury - 75% chance of playing",
-   "priceMomentum": -36129,
+   "priceMomentum": -38881,
    "fixtures": [
     {
      "gw": 6,
@@ -739,7 +739,7 @@
    "owned": 1,
    "status": "a",
    "news": null,
-   "priceMomentum": -1768,
+   "priceMomentum": -1740,
    "fixtures": [
     {
      "gw": 6,
@@ -794,7 +794,7 @@
    "owned": 17.1,
    "status": "a",
    "news": null,
-   "priceMomentum": -21113,
+   "priceMomentum": -21331,
    "fixtures": [
     {
      "gw": 6,
@@ -878,7 +878,7 @@
    "form": 5.3
   },
   {
-   "name": "Calafiori",
+   "name": "Ødegaard",
    "rating": 5.4,
    "fixtures": [
     {
@@ -888,7 +888,7 @@
      "difficulty": 3
     }
    ],
-   "xgi90": 0.27,
+   "xgi90": 0.58,
    "form": 5
   },
   {
@@ -1037,7 +1037,7 @@
      "form": 7.3,
      "xgi90": 0.36,
      "ease": 2.6,
-     "owned": 4.1,
+     "owned": 4.2,
      "fixtures": [
       {
        "gw": 6,
@@ -1145,7 +1145,7 @@
      "form": 10.7,
      "xgi90": 0.52,
      "ease": 2.6,
-     "owned": 28.8,
+     "owned": 28.9,
      "fixtures": [
       {
        "gw": 6,
