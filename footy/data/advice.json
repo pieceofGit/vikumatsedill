@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-01T11:38:14.586Z",
+ "generatedAt": "2026-10-02T11:07:27.454Z",
  "gameweek": 6,
  "gameweekName": "Gameweek 6",
  "deadline": "2026-10-10T10:00:00Z",
@@ -24,7 +24,7 @@
    "owned": 73.8,
    "status": "a",
    "news": null,
-   "priceMomentum": 57940,
+   "priceMomentum": 58860,
    "fixtures": [
     {
      "gw": 6,
@@ -79,7 +79,7 @@
    "owned": 26.8,
    "status": "a",
    "news": null,
-   "priceMomentum": 91882,
+   "priceMomentum": 92858,
    "fixtures": [
     {
      "gw": 6,
@@ -134,7 +134,7 @@
    "owned": 27.8,
    "status": "a",
    "news": null,
-   "priceMomentum": 277427,
+   "priceMomentum": 280535,
    "fixtures": [
     {
      "gw": 6,
@@ -189,7 +189,7 @@
    "owned": 17.3,
    "status": "a",
    "news": null,
-   "priceMomentum": 224377,
+   "priceMomentum": 227109,
    "fixtures": [
     {
      "gw": 6,
@@ -244,7 +244,7 @@
    "owned": 42.3,
    "status": "a",
    "news": null,
-   "priceMomentum": 78527,
+   "priceMomentum": 79373,
    "fixtures": [
     {
      "gw": 6,
@@ -299,7 +299,7 @@
    "owned": 40.5,
    "status": "a",
    "news": null,
-   "priceMomentum": 77210,
+   "priceMomentum": 79460,
    "fixtures": [
     {
      "gw": 6,
@@ -354,7 +354,7 @@
    "owned": 28.4,
    "status": "a",
    "news": null,
-   "priceMomentum": 33680,
+   "priceMomentum": 34425,
    "fixtures": [
     {
      "gw": 6,
@@ -409,7 +409,7 @@
    "owned": 19.8,
    "status": "a",
    "news": null,
-   "priceMomentum": -11779,
+   "priceMomentum": -10946,
    "fixtures": [
     {
      "gw": 6,
@@ -464,7 +464,7 @@
    "owned": 50.5,
    "status": "a",
    "news": null,
-   "priceMomentum": 12595,
+   "priceMomentum": 13171,
    "fixtures": [
     {
      "gw": 6,
@@ -519,7 +519,7 @@
    "owned": 14,
    "status": "a",
    "news": null,
-   "priceMomentum": -15397,
+   "priceMomentum": -15603,
    "fixtures": [
     {
      "gw": 6,
@@ -574,7 +574,7 @@
    "owned": 4,
    "status": "a",
    "news": null,
-   "priceMomentum": -6817,
+   "priceMomentum": -6892,
    "fixtures": [
     {
      "gw": 6,
@@ -626,10 +626,10 @@
    "xgc": 5.82,
    "minutes": 413,
    "starts": 5,
-   "owned": 22.4,
+   "owned": 22.3,
    "status": "d",
    "news": "Thigh injury - 75% chance of playing",
-   "priceMomentum": 32391,
+   "priceMomentum": 29363,
    "fixtures": [
     {
      "gw": 6,
@@ -684,7 +684,7 @@
    "owned": 12.4,
    "status": "d",
    "news": "Ankle injury - 75% chance of playing",
-   "priceMomentum": -38881,
+   "priceMomentum": -42039,
    "fixtures": [
     {
      "gw": 6,
@@ -739,7 +739,7 @@
    "owned": 1,
    "status": "a",
    "news": null,
-   "priceMomentum": -1740,
+   "priceMomentum": -1664,
    "fixtures": [
     {
      "gw": 6,
@@ -794,7 +794,7 @@
    "owned": 17.1,
    "status": "a",
    "news": null,
-   "priceMomentum": -21331,
+   "priceMomentum": -21588,
    "fixtures": [
     {
      "gw": 6,
@@ -1068,7 +1068,7 @@
      "form": 5.3,
      "xgi90": 0.49,
      "ease": 3,
-     "owned": 3.5,
+     "owned": 3.6,
      "fixtures": [
       {
        "gw": 6,
@@ -1145,7 +1145,7 @@
      "form": 10.7,
      "xgi90": 0.52,
      "ease": 2.6,
-     "owned": 28.9,
+     "owned": 29,
      "fixtures": [
       {
        "gw": 6,
@@ -1176,7 +1176,7 @@
      "form": 8.7,
      "xgi90": 0.37,
      "ease": 2.8,
-     "owned": 11.5,
+     "owned": 11.6,
      "fixtures": [
       {
        "gw": 6,
