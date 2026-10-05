@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-04T11:07:51.667Z",
+ "generatedAt": "2026-10-05T12:18:10.900Z",
  "gameweek": 6,
  "gameweekName": "Gameweek 6",
  "deadline": "2026-10-10T10:00:00Z",
@@ -24,7 +24,7 @@
    "owned": 73.9,
    "status": "a",
    "news": null,
-   "priceMomentum": 60781,
+   "priceMomentum": 61177,
    "fixtures": [
     {
      "gw": 6,
@@ -79,7 +79,7 @@
    "owned": 26.9,
    "status": "a",
    "news": null,
-   "priceMomentum": 94979,
+   "priceMomentum": 96169,
    "fixtures": [
     {
      "gw": 6,
@@ -134,7 +134,7 @@
    "owned": 27.9,
    "status": "a",
    "news": null,
-   "priceMomentum": 287852,
+   "priceMomentum": 292738,
    "fixtures": [
     {
      "gw": 6,
@@ -179,17 +179,17 @@
    "club": "NEW",
    "position": "DEF",
    "price": 5.3,
-   "form": 5.7,
+   "form": 6.5,
    "ppg": 6.2,
    "total": 31,
    "xgi90": 0.21,
    "xgc": 9.12,
    "minutes": 449,
    "starts": 5,
-   "owned": 17.4,
+   "owned": 17.5,
    "status": "a",
    "news": null,
-   "priceMomentum": 233537,
+   "priceMomentum": 238201,
    "fixtures": [
     {
      "gw": 6,
@@ -223,7 +223,7 @@
     }
    ],
    "ease": 3.2,
-   "rating": 4.61,
+   "rating": 4.91,
    "captain": false,
    "vice": false,
    "benched": false
@@ -244,7 +244,7 @@
    "owned": 42.3,
    "status": "a",
    "news": null,
-   "priceMomentum": 80547,
+   "priceMomentum": 81166,
    "fixtures": [
     {
      "gw": 6,
@@ -299,7 +299,7 @@
    "owned": 40.6,
    "status": "a",
    "news": null,
-   "priceMomentum": 85278,
+   "priceMomentum": 90592,
    "fixtures": [
     {
      "gw": 6,
@@ -354,7 +354,7 @@
    "owned": 28.4,
    "status": "a",
    "news": null,
-   "priceMomentum": 36182,
+   "priceMomentum": 36314,
    "fixtures": [
     {
      "gw": 6,
@@ -409,7 +409,7 @@
    "owned": 19.8,
    "status": "a",
    "news": null,
-   "priceMomentum": -9554,
+   "priceMomentum": -8673,
    "fixtures": [
     {
      "gw": 6,
@@ -464,7 +464,7 @@
    "owned": 50.5,
    "status": "a",
    "news": null,
-   "priceMomentum": 15349,
+   "priceMomentum": 16997,
    "fixtures": [
     {
      "gw": 6,
@@ -519,7 +519,7 @@
    "owned": 13.9,
    "status": "a",
    "news": null,
-   "priceMomentum": -15993,
+   "priceMomentum": -16225,
    "fixtures": [
     {
      "gw": 6,
@@ -574,7 +574,7 @@
    "owned": 4,
    "status": "a",
    "news": null,
-   "priceMomentum": -7233,
+   "priceMomentum": -7420,
    "fixtures": [
     {
      "gw": 6,
@@ -619,7 +619,7 @@
    "club": "LIV",
    "position": "FWD",
    "price": 9.1,
-   "form": 7.7,
+   "form": 5,
    "ppg": 6.6,
    "total": 33,
    "xgi90": 0.79,
@@ -629,7 +629,7 @@
    "owned": 22.2,
    "status": "d",
    "news": "Thigh injury - 75% chance of playing",
-   "priceMomentum": 23059,
+   "priceMomentum": 19233,
    "fixtures": [
     {
      "gw": 6,
@@ -663,7 +663,7 @@
     }
    ],
    "ease": 2.6,
-   "rating": 1.76,
+   "rating": 1.43,
    "captain": false,
    "vice": true,
    "benched": false
@@ -674,17 +674,17 @@
    "club": "LIV",
    "position": "MID",
    "price": 7.2,
-   "form": 5,
+   "form": 2,
    "ppg": 6.4,
    "total": 32,
    "xgi90": 0.58,
    "xgc": 5.51,
    "minutes": 370,
    "starts": 4,
-   "owned": 12.3,
+   "owned": 12.2,
    "status": "d",
    "news": "Ankle injury - 75% chance of playing",
-   "priceMomentum": -48737,
+   "priceMomentum": -53014,
    "fixtures": [
     {
      "gw": 6,
@@ -718,7 +718,7 @@
     }
    ],
    "ease": 2.6,
-   "rating": 1.4,
+   "rating": 1.03,
    "captain": false,
    "vice": false,
    "benched": false
@@ -739,7 +739,7 @@
    "owned": 1,
    "status": "a",
    "news": null,
-   "priceMomentum": -1492,
+   "priceMomentum": -1406,
    "fixtures": [
     {
      "gw": 6,
@@ -794,7 +794,7 @@
    "owned": 17.1,
    "status": "a",
    "news": null,
-   "priceMomentum": -22289,
+   "priceMomentum": -22623,
    "fixtures": [
     {
      "gw": 6,
@@ -837,7 +837,7 @@
  "captainRanking": [
   {
    "name": "Hall",
-   "rating": 7.93,
+   "rating": 8.47,
    "fixtures": [
     {
      "gw": 6,
@@ -847,7 +847,7 @@
     }
    ],
    "xgi90": 0.21,
-   "form": 5.7
+   "form": 6.5
   },
   {
    "name": "Raya",
@@ -925,11 +925,11 @@
      "name": "A.Becker",
      "club": "LIV",
      "price": 5.5,
-     "rating": 4.81,
-     "form": 8.3,
+     "rating": 4.88,
+     "form": 8.5,
      "xgi90": 0,
      "ease": 2.6,
-     "owned": 4.1,
+     "owned": 4.2,
      "fixtures": [
       {
        "gw": 6,
@@ -1037,7 +1037,7 @@
      "form": 7.3,
      "xgi90": 0.36,
      "ease": 2.6,
-     "owned": 4.3,
+     "owned": 4.4,
      "fixtures": [
       {
        "gw": 6,
@@ -1064,8 +1064,8 @@
      "name": "Emersonn",
      "club": "IPS",
      "price": 5.5,
-     "rating": 3.12,
-     "form": 5.3,
+     "rating": 3.63,
+     "form": 7,
      "xgi90": 0.49,
      "ease": 3,
      "owned": 3.6,
@@ -1129,8 +1129,8 @@
     "club": "LIV",
     "position": "MID",
     "price": 7.2,
-    "rating": 1.4,
-    "form": 5,
+    "rating": 1.03,
+    "form": 2,
     "ease": 2.6,
     "status": "d",
     "news": "Ankle injury - 75% chance of playing"
@@ -1145,7 +1145,7 @@
      "form": 10.7,
      "xgi90": 0.52,
      "ease": 2.6,
-     "owned": 29.2,
+     "owned": 29.4,
      "fixtures": [
       {
        "gw": 6,
@@ -1176,7 +1176,7 @@
      "form": 8.7,
      "xgi90": 0.37,
      "ease": 2.8,
-     "owned": 11.7,
+     "owned": 11.8,
      "fixtures": [
       {
        "gw": 6,
@@ -1199,32 +1199,32 @@
      ]
     },
     {
-     "id": 453,
-     "name": "Barnes",
-     "club": "NEW",
-     "price": 6.1,
-     "rating": 5.15,
-     "form": 7.7,
-     "xgi90": 0.22,
-     "ease": 3.2,
-     "owned": 5.8,
+     "id": 286,
+     "name": "Belloumi",
+     "club": "HUL",
+     "price": 5.1,
+     "rating": 4.83,
+     "form": 7.3,
+     "xgi90": 0.26,
+     "ease": 2.8,
+     "owned": 5.2,
      "fixtures": [
       {
        "gw": 6,
-       "opponent": "COV",
-       "home": false,
-       "difficulty": 2
-      },
-      {
-       "gw": 7,
-       "opponent": "AVL",
+       "opponent": "EVE",
        "home": true,
        "difficulty": 3
       },
       {
-       "gw": 8,
-       "opponent": "CRY",
+       "gw": 7,
+       "opponent": "FUL",
        "home": false,
+       "difficulty": 3
+      },
+      {
+       "gw": 8,
+       "opponent": "BRE",
+       "home": true,
        "difficulty": 3
       }
      ]
