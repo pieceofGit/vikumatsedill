@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-05T12:18:10.900Z",
+ "generatedAt": "2026-10-06T12:02:51.190Z",
  "gameweek": 6,
  "gameweekName": "Gameweek 6",
  "deadline": "2026-10-10T10:00:00Z",
@@ -14,7 +14,7 @@
    "club": "MCI",
    "position": "FWD",
    "price": 15.6,
-   "form": 8,
+   "form": 7.5,
    "ppg": 7.8,
    "total": 39,
    "xgi90": 0.99,
@@ -24,7 +24,7 @@
    "owned": 73.9,
    "status": "a",
    "news": null,
-   "priceMomentum": 61177,
+   "priceMomentum": 62074,
    "fixtures": [
     {
      "gw": 6,
@@ -58,63 +58,8 @@
     }
    ],
    "ease": 3,
-   "rating": 5.93,
+   "rating": 5.74,
    "captain": true,
-   "vice": false,
-   "benched": false
-  },
-  {
-   "id": 391,
-   "name": "Gvardiol",
-   "club": "MCI",
-   "position": "DEF",
-   "price": 5.7,
-   "form": 7.7,
-   "ppg": 7.4,
-   "total": 37,
-   "xgi90": 0.2,
-   "xgc": 7.25,
-   "minutes": 434,
-   "starts": 5,
-   "owned": 26.9,
-   "status": "a",
-   "news": null,
-   "priceMomentum": 96169,
-   "fixtures": [
-    {
-     "gw": 6,
-     "opponent": "LIV",
-     "home": false,
-     "difficulty": 4
-    },
-    {
-     "gw": 7,
-     "opponent": "IPS",
-     "home": true,
-     "difficulty": 2
-    },
-    {
-     "gw": 8,
-     "opponent": "AVL",
-     "home": false,
-     "difficulty": 3
-    },
-    {
-     "gw": 9,
-     "opponent": "BHA",
-     "home": true,
-     "difficulty": 3
-    },
-    {
-     "gw": 10,
-     "opponent": "NFO",
-     "home": false,
-     "difficulty": 3
-    }
-   ],
-   "ease": 3,
-   "rating": 5.66,
-   "captain": false,
    "vice": false,
    "benched": false
   },
@@ -124,17 +69,17 @@
    "club": "BHA",
    "position": "DEF",
    "price": 5,
-   "form": 7,
+   "form": 8.5,
    "ppg": 7.6,
    "total": 38,
    "xgi90": 0.47,
    "xgc": 8.58,
    "minutes": 423,
    "starts": 5,
-   "owned": 27.9,
+   "owned": 28,
    "status": "a",
    "news": null,
-   "priceMomentum": 292738,
+   "priceMomentum": 301623,
    "fixtures": [
     {
      "gw": 6,
@@ -168,10 +113,65 @@
     }
    ],
    "ease": 2.6,
-   "rating": 5.12,
+   "rating": 5.65,
    "captain": false,
    "vice": false,
    "benched": true
+  },
+  {
+   "id": 391,
+   "name": "Gvardiol",
+   "club": "MCI",
+   "position": "DEF",
+   "price": 5.7,
+   "form": 7.5,
+   "ppg": 7.4,
+   "total": 37,
+   "xgi90": 0.2,
+   "xgc": 7.25,
+   "minutes": 434,
+   "starts": 5,
+   "owned": 26.9,
+   "status": "a",
+   "news": null,
+   "priceMomentum": 97851,
+   "fixtures": [
+    {
+     "gw": 6,
+     "opponent": "LIV",
+     "home": false,
+     "difficulty": 4
+    },
+    {
+     "gw": 7,
+     "opponent": "IPS",
+     "home": true,
+     "difficulty": 2
+    },
+    {
+     "gw": 8,
+     "opponent": "AVL",
+     "home": false,
+     "difficulty": 3
+    },
+    {
+     "gw": 9,
+     "opponent": "BHA",
+     "home": true,
+     "difficulty": 3
+    },
+    {
+     "gw": 10,
+     "opponent": "NFO",
+     "home": false,
+     "difficulty": 3
+    }
+   ],
+   "ease": 3,
+   "rating": 5.59,
+   "captain": false,
+   "vice": false,
+   "benched": false
   },
   {
    "id": 449,
@@ -189,7 +189,7 @@
    "owned": 17.5,
    "status": "a",
    "news": null,
-   "priceMomentum": 238201,
+   "priceMomentum": 246371,
    "fixtures": [
     {
      "gw": 6,
@@ -244,7 +244,7 @@
    "owned": 42.3,
    "status": "a",
    "news": null,
-   "priceMomentum": 81166,
+   "priceMomentum": 82735,
    "fixtures": [
     {
      "gw": 6,
@@ -296,10 +296,10 @@
    "xgc": 8.73,
    "minutes": 437,
    "starts": 5,
-   "owned": 40.6,
+   "owned": 40.7,
    "status": "a",
    "news": null,
-   "priceMomentum": 90592,
+   "priceMomentum": 100702,
    "fixtures": [
     {
      "gw": 6,
@@ -344,7 +344,7 @@
    "club": "MCI",
    "position": "MID",
    "price": 7.8,
-   "form": 4,
+   "form": 4.5,
    "ppg": 6.8,
    "total": 34,
    "xgi90": 0.67,
@@ -354,7 +354,7 @@
    "owned": 28.4,
    "status": "a",
    "news": null,
-   "priceMomentum": 36314,
+   "priceMomentum": 37541,
    "fixtures": [
     {
      "gw": 6,
@@ -388,7 +388,7 @@
     }
    ],
    "ease": 3,
-   "rating": 3.82,
+   "rating": 4,
    "captain": false,
    "vice": false,
    "benched": false
@@ -409,7 +409,7 @@
    "owned": 19.8,
    "status": "a",
    "news": null,
-   "priceMomentum": -8673,
+   "priceMomentum": -7458,
    "fixtures": [
     {
      "gw": 6,
@@ -453,7 +453,7 @@
    "name": "Calafiori",
    "club": "ARS",
    "position": "DEF",
-   "price": 5.8,
+   "price": 5.9,
    "form": 3,
    "ppg": 5.8,
    "total": 29,
@@ -464,7 +464,7 @@
    "owned": 50.5,
    "status": "a",
    "news": null,
-   "priceMomentum": 16997,
+   "priceMomentum": 22924,
    "fixtures": [
     {
      "gw": 6,
@@ -504,67 +504,12 @@
    "benched": false
   },
   {
-   "id": 279,
-   "name": "Ajayi",
-   "club": "HUL",
-   "position": "DEF",
-   "price": 4.2,
-   "form": 2.3,
-   "ppg": 5.4,
-   "total": 27,
-   "xgi90": 0.14,
-   "xgc": 6.43,
-   "minutes": 423,
-   "starts": 5,
-   "owned": 13.9,
-   "status": "a",
-   "news": null,
-   "priceMomentum": -16225,
-   "fixtures": [
-    {
-     "gw": 6,
-     "opponent": "EVE",
-     "home": true,
-     "difficulty": 3
-    },
-    {
-     "gw": 7,
-     "opponent": "FUL",
-     "home": false,
-     "difficulty": 3
-    },
-    {
-     "gw": 8,
-     "opponent": "BRE",
-     "home": true,
-     "difficulty": 3
-    },
-    {
-     "gw": 9,
-     "opponent": "IPS",
-     "home": true,
-     "difficulty": 2
-    },
-    {
-     "gw": 10,
-     "opponent": "ARS",
-     "home": false,
-     "difficulty": 5
-    }
-   ],
-   "ease": 2.8,
-   "rating": 2.8,
-   "captain": false,
-   "vice": false,
-   "benched": true
-  },
-  {
    "id": 605,
    "name": "Yalcouyé",
    "club": "BHA",
    "position": "MID",
    "price": 4.5,
-   "form": 3.7,
+   "form": 4.5,
    "ppg": 4,
    "total": 20,
    "xgi90": 0.73,
@@ -574,7 +519,7 @@
    "owned": 4,
    "status": "a",
    "news": null,
-   "priceMomentum": -7420,
+   "priceMomentum": -7589,
    "fixtures": [
     {
      "gw": 6,
@@ -608,7 +553,62 @@
     }
    ],
    "ease": 2.6,
-   "rating": 2.66,
+   "rating": 2.93,
+   "captain": false,
+   "vice": false,
+   "benched": true
+  },
+  {
+   "id": 279,
+   "name": "Ajayi",
+   "club": "HUL",
+   "position": "DEF",
+   "price": 4.2,
+   "form": 1,
+   "ppg": 5.4,
+   "total": 27,
+   "xgi90": 0.14,
+   "xgc": 6.43,
+   "minutes": 423,
+   "starts": 5,
+   "owned": 13.9,
+   "status": "a",
+   "news": null,
+   "priceMomentum": -16324,
+   "fixtures": [
+    {
+     "gw": 6,
+     "opponent": "EVE",
+     "home": true,
+     "difficulty": 3
+    },
+    {
+     "gw": 7,
+     "opponent": "FUL",
+     "home": false,
+     "difficulty": 3
+    },
+    {
+     "gw": 8,
+     "opponent": "BRE",
+     "home": true,
+     "difficulty": 3
+    },
+    {
+     "gw": 9,
+     "opponent": "IPS",
+     "home": true,
+     "difficulty": 2
+    },
+    {
+     "gw": 10,
+     "opponent": "ARS",
+     "home": false,
+     "difficulty": 5
+    }
+   ],
+   "ease": 2.8,
+   "rating": 2.32,
    "captain": false,
    "vice": false,
    "benched": true
@@ -626,10 +626,10 @@
    "xgc": 5.82,
    "minutes": 413,
    "starts": 5,
-   "owned": 22.2,
+   "owned": 22.1,
    "status": "d",
    "news": "Thigh injury - 75% chance of playing",
-   "priceMomentum": 19233,
+   "priceMomentum": 12712,
    "fixtures": [
     {
      "gw": 6,
@@ -684,7 +684,7 @@
    "owned": 12.2,
    "status": "d",
    "news": "Ankle injury - 75% chance of playing",
-   "priceMomentum": -53014,
+   "priceMomentum": -59461,
    "fixtures": [
     {
      "gw": 6,
@@ -739,7 +739,7 @@
    "owned": 1,
    "status": "a",
    "news": null,
-   "priceMomentum": -1406,
+   "priceMomentum": -1286,
    "fixtures": [
     {
      "gw": 6,
@@ -794,7 +794,7 @@
    "owned": 17.1,
    "status": "a",
    "news": null,
-   "priceMomentum": -22623,
+   "priceMomentum": -22759,
    "fixtures": [
     {
      "gw": 6,
@@ -893,7 +893,7 @@
   },
   {
    "name": "Haaland",
-   "rating": 5.27,
+   "rating": 5.1,
    "fixtures": [
     {
      "gw": 6,
@@ -903,7 +903,7 @@
     }
    ],
    "xgi90": 0.99,
-   "form": 8
+   "form": 7.5
   }
  ],
  "suggestions": [
@@ -952,43 +952,12 @@
      ]
     },
     {
-     "id": 572,
-     "name": "Tzolakis",
-     "club": "HUL",
-     "price": 4.7,
-     "rating": 4.17,
-     "form": 4.7,
-     "xgi90": 0,
-     "ease": 2.8,
-     "owned": 12.8,
-     "fixtures": [
-      {
-       "gw": 6,
-       "opponent": "EVE",
-       "home": true,
-       "difficulty": 3
-      },
-      {
-       "gw": 7,
-       "opponent": "FUL",
-       "home": false,
-       "difficulty": 3
-      },
-      {
-       "gw": 8,
-       "opponent": "BRE",
-       "home": true,
-       "difficulty": 3
-      }
-     ]
-    },
-    {
      "id": 385,
      "name": "Trafford",
      "club": "LEE",
      "price": 5,
-     "rating": 3.83,
-     "form": 5.3,
+     "rating": 4.25,
+     "form": 6.5,
      "xgi90": 0,
      "ease": 2.6,
      "owned": 5.5,
@@ -1012,6 +981,37 @@
        "difficulty": 3
       }
      ]
+    },
+    {
+     "id": 109,
+     "name": "Verbruggen",
+     "club": "BHA",
+     "price": 4.5,
+     "rating": 4.07,
+     "form": 7,
+     "xgi90": 0.04,
+     "ease": 2.6,
+     "owned": 21.6,
+     "fixtures": [
+      {
+       "gw": 6,
+       "opponent": "SUN",
+       "home": false,
+       "difficulty": 3
+      },
+      {
+       "gw": 7,
+       "opponent": "CRY",
+       "home": true,
+       "difficulty": 2
+      },
+      {
+       "gw": 8,
+       "opponent": "LIV",
+       "home": false,
+       "difficulty": 4
+      }
+     ]
     }
    ]
   },
@@ -1033,11 +1033,11 @@
      "name": "Kostoulas",
      "club": "BHA",
      "price": 5.6,
-     "rating": 4.53,
-     "form": 7.3,
+     "rating": 5.48,
+     "form": 10,
      "xgi90": 0.36,
      "ease": 2.6,
-     "owned": 4.4,
+     "owned": 4.6,
      "fixtures": [
       {
        "gw": 6,
@@ -1056,6 +1056,37 @@
        "opponent": "LIV",
        "home": false,
        "difficulty": 4
+      }
+     ]
+    },
+    {
+     "id": 346,
+     "name": "Calvert-Lewin",
+     "club": "LEE",
+     "price": 6,
+     "rating": 3.65,
+     "form": 6,
+     "xgi90": 0.66,
+     "ease": 2.6,
+     "owned": 24.8,
+     "fixtures": [
+      {
+       "gw": 6,
+       "opponent": "ARS",
+       "home": false,
+       "difficulty": 5
+      },
+      {
+       "gw": 7,
+       "opponent": "MUN",
+       "home": true,
+       "difficulty": 4
+      },
+      {
+       "gw": 8,
+       "opponent": "SUN",
+       "home": false,
+       "difficulty": 3
       }
      ]
     },
@@ -1089,37 +1120,6 @@
        "difficulty": 3
       }
      ]
-    },
-    {
-     "id": 346,
-     "name": "Calvert-Lewin",
-     "club": "LEE",
-     "price": 6,
-     "rating": 3.05,
-     "form": 4.3,
-     "xgi90": 0.66,
-     "ease": 2.6,
-     "owned": 24.8,
-     "fixtures": [
-      {
-       "gw": 6,
-       "opponent": "ARS",
-       "home": false,
-       "difficulty": 5
-      },
-      {
-       "gw": 7,
-       "opponent": "MUN",
-       "home": true,
-       "difficulty": 4
-      },
-      {
-       "gw": 8,
-       "opponent": "SUN",
-       "home": false,
-       "difficulty": 3
-      }
-     ]
     }
    ]
   },
@@ -1141,11 +1141,11 @@
      "name": "Groß",
      "club": "BHA",
      "price": 5.9,
-     "rating": 7.06,
-     "form": 10.7,
+     "rating": 8.74,
+     "form": 15.5,
      "xgi90": 0.52,
      "ease": 2.6,
-     "owned": 29.4,
+     "owned": 29.6,
      "fixtures": [
       {
        "gw": 6,
@@ -1172,11 +1172,11 @@
      "name": "Schade",
      "club": "BRE",
      "price": 6.2,
-     "rating": 5.99,
-     "form": 8.7,
+     "rating": 7.19,
+     "form": 12,
      "xgi90": 0.37,
      "ease": 2.8,
-     "owned": 11.8,
+     "owned": 12,
      "fixtures": [
       {
        "gw": 6,
@@ -1203,8 +1203,8 @@
      "name": "Belloumi",
      "club": "HUL",
      "price": 5.1,
-     "rating": 4.83,
-     "form": 7.3,
+     "rating": 5.26,
+     "form": 8.5,
      "xgi90": 0.26,
      "ease": 2.8,
      "owned": 5.2,
