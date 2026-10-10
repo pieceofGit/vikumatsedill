@@ -1,16 +1,16 @@
 {
- "fetchedAt": "2026-10-09T11:55:15.330Z",
+ "fetchedAt": "2026-10-10T11:12:00.300Z",
  "teamId": 6870928,
  "name": "How's it Goink?",
  "manager": "Fjölnir Þrastarson",
- "gameweek": 5,
- "gameweekName": "Gameweek 5",
- "picksFrom": 5,
+ "gameweek": 6,
+ "gameweekName": "Gameweek 6",
+ "picksFrom": 6,
  "bank": 1.8,
- "squadValue": 102.2,
+ "squadValue": 102.7,
  "overallPoints": 326,
- "overallRank": 2196139,
- "gameweekPoints": 56,
+ "overallRank": 2150842,
+ "gameweekPoints": 0,
  "players": [
   {
    "id": 1,
@@ -20,7 +20,7 @@
    "captain": false,
    "vice": false,
    "benched": false,
-   "points": 1
+   "points": 0
   },
   {
    "id": 8,
@@ -30,7 +30,7 @@
    "captain": false,
    "vice": false,
    "benched": false,
-   "points": 1
+   "points": 0
   },
   {
    "id": 449,
@@ -40,7 +40,7 @@
    "captain": false,
    "vice": false,
    "benched": false,
-   "points": 13
+   "points": 0
   },
   {
    "id": 391,
@@ -50,7 +50,7 @@
    "captain": false,
    "vice": false,
    "benched": false,
-   "points": 4
+   "points": 0
   },
   {
    "id": 40,
@@ -60,7 +60,7 @@
    "captain": false,
    "vice": false,
    "benched": false,
-   "points": 2
+   "points": 0
   },
   {
    "id": 399,
@@ -70,7 +70,7 @@
    "captain": false,
    "vice": false,
    "benched": false,
-   "points": 8
+   "points": 0
   },
   {
    "id": 367,
@@ -80,7 +80,7 @@
    "captain": false,
    "vice": false,
    "benched": false,
-   "points": 3
+   "points": 0
   },
   {
    "id": 15,
@@ -90,7 +90,7 @@
    "captain": false,
    "vice": false,
    "benched": false,
-   "points": 2
+   "points": 0
   },
   {
    "id": 411,
@@ -100,7 +100,7 @@
    "captain": true,
    "vice": false,
    "benched": false,
-   "points": 6
+   "points": 0
   },
   {
    "id": 379,
@@ -110,7 +110,7 @@
    "captain": false,
    "vice": true,
    "benched": false,
-   "points": 8
+   "points": 0
   },
   {
    "id": 136,
@@ -120,7 +120,7 @@
    "captain": false,
    "vice": false,
    "benched": false,
-   "points": 2
+   "points": 0
   },
   {
    "id": 497,
@@ -140,7 +140,7 @@
    "captain": false,
    "vice": false,
    "benched": true,
-   "points": 1
+   "points": 0
   },
   {
    "id": 115,
@@ -150,7 +150,7 @@
    "captain": false,
    "vice": false,
    "benched": true,
-   "points": 6
+   "points": 0
   },
   {
    "id": 279,
@@ -160,7 +160,7 @@
    "captain": false,
    "vice": false,
    "benched": true,
-   "points": 1
+   "points": 0
   }
  ]
 }
