@@ -1,0 +1,9 @@
+project,client,year,type,estimate_isk,lowest_bidder,lowest_bid_isk,lowest_over_estimate,num_bids,source,verified
+"Vesturlandsvegur, Kjalarnes widening phase 2",Vegagerðin,2026,widening,5180542567,Suðurverk/Fossvélar,4680697303,0.90,4,mbl.is/frettir/innlent/2026/09/17/breikkun_vegar_verdi_lokid_2029/,no
+"Vestfjarðavegur, Gufudalssveit (4.6 km + 210 m bridge)",Vegagerðin,2026,new road,2431870289,ÞG verktakar,3888451476,1.60,2,mbl.is/frettir/innlent/2026/10/04/vegagerdin_metur_tilbod_i_vestfjardaveg/,no
+"Einholtsvegur 358, Bláskógabyggð",Vegagerðin,2026,rebuild,467700000,Þróttur ehf,486141889,1.04,6,mbl.is/frettir/innlent/2026/02/05/vegabaetur_i_blaskogabyggd/,no
+"Arnarnesvegur phase 3",Vegagerðin/Reykjavík,2023,new road + bridge,6200000000,,5400000000,0.87,5,reykjavik.is/en/node/34104,no
+"Laxárdalsvegur",Vegagerðin,2022,rebuild,329500000,VBF Mjölnir,328800000,1.00,,mbl.is/frettir/innlent/2022/08/14/laxardalsvegur_endurbaettur/,no
+"Dynjandisheiði, Vestfjarðavegur",Vegagerðin,2021,new road,1762000000,Borgarverk,1482000000,0.84,,Framkvæmdafréttir (year uncertain),no
+"Vesturlandsvegur, Mosfellsbær",Vegagerðin,2020,widening,706000000,,490000000,0.69,,visir.is/g/20201036453d,no
+"Fossvogsbrú land fills",Vegagerðin,2024,fill,1282627290,ÍAV,1292618241,1.01,,Framkvæmdafréttir Dec 2024,no

@@ -19,6 +19,8 @@ Data falls into four groups:
 | D. Test data | Past jobs + public tender results | To test the prototype |
 
 Templates for B and D are in [`templates/`](templates/).
+Public Icelandic sources (past tenders, indexes, prices, terrain, weather) are
+listed in [DATA-SOURCES-ICELAND.md](DATA-SOURCES-ICELAND.md).
 
 ---
 
