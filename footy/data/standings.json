@@ -1,5 +1,5 @@
 {
- "fetchedAt": "2026-10-12T13:11:57.686Z",
+ "fetchedAt": "2026-10-13T12:44:02.774Z",
  "tables": {
   "pl": {
    "name": "Premier League",
@@ -377,13 +377,13 @@
     {
      "rank": 11,
      "team": "Newcastle",
-     "played": 5,
+     "played": 6,
      "won": 2,
      "drawn": 2,
-     "lost": 1,
-     "gf": 9,
-     "ga": 9,
-     "gd": 0,
+     "lost": 2,
+     "gf": 10,
+     "ga": 13,
+     "gd": -3,
      "points": 8,
      "form": [
       {
@@ -488,6 +488,45 @@
     },
     {
      "rank": 14,
+     "team": "Coventry",
+     "played": 6,
+     "won": 2,
+     "drawn": 0,
+     "lost": 4,
+     "gf": 5,
+     "ga": 11,
+     "gd": -6,
+     "points": 6,
+     "form": [
+      {
+       "r": "W",
+       "opponent": "Nott'm Forest",
+       "score": "1-0"
+      },
+      {
+       "r": "L",
+       "opponent": "Brighton",
+       "score": "0-5"
+      },
+      {
+       "r": "L",
+       "opponent": "Man City",
+       "score": "0-1"
+      },
+      {
+       "r": "L",
+       "opponent": "Hull City",
+       "score": "0-1"
+      },
+      {
+       "r": "L",
+       "opponent": "Arsenal",
+       "score": "0-3"
+      }
+     ]
+    },
+    {
+     "rank": 15,
      "team": "Nott'm Forest",
      "played": 6,
      "won": 1,
@@ -521,7 +560,7 @@
      ]
     },
     {
-     "rank": 15,
+     "rank": 16,
      "team": "Aston Villa",
      "played": 6,
      "won": 1,
@@ -555,7 +594,7 @@
      ]
     },
     {
-     "rank": 16,
+     "rank": 17,
      "team": "Sunderland",
      "played": 6,
      "won": 1,
@@ -594,7 +633,7 @@
      ]
     },
     {
-     "rank": 17,
+     "rank": 18,
      "team": "Bournemouth",
      "played": 6,
      "won": 0,
@@ -633,7 +672,7 @@
      ]
     },
     {
-     "rank": 18,
+     "rank": 19,
      "team": "Tottenham",
      "played": 6,
      "won": 0,
@@ -657,45 +696,6 @@
       {
        "r": "L",
        "opponent": "Brentford",
-       "score": "0-3"
-      }
-     ]
-    },
-    {
-     "rank": 19,
-     "team": "Coventry",
-     "played": 5,
-     "won": 1,
-     "drawn": 0,
-     "lost": 4,
-     "gf": 1,
-     "ga": 10,
-     "gd": -9,
-     "points": 3,
-     "form": [
-      {
-       "r": "W",
-       "opponent": "Nott'm Forest",
-       "score": "1-0"
-      },
-      {
-       "r": "L",
-       "opponent": "Brighton",
-       "score": "0-5"
-      },
-      {
-       "r": "L",
-       "opponent": "Man City",
-       "score": "0-1"
-      },
-      {
-       "r": "L",
-       "opponent": "Hull City",
-       "score": "0-1"
-      },
-      {
-       "r": "L",
-       "opponent": "Arsenal",
        "score": "0-3"
       }
      ]

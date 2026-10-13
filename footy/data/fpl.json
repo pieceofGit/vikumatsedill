@@ -1,5 +1,5 @@
 {
- "fetchedAt": "2026-10-12T13:11:56.549Z",
+ "fetchedAt": "2026-10-13T12:44:01.643Z",
  "teamId": 6870928,
  "name": "How's it Goink?",
  "manager": "Fjölnir Þrastarson",
@@ -8,9 +8,9 @@
  "picksFrom": 6,
  "bank": 1.8,
  "squadValue": 102.7,
- "overallPoints": 375,
- "overallRank": 3013141,
- "gameweekPoints": 49,
+ "overallPoints": 391,
+ "overallRank": 2130543,
+ "gameweekPoints": 65,
  "players": [
   {
    "id": 1,
@@ -53,6 +53,16 @@
    "points": 4
   },
   {
+   "id": 115,
+   "name": "De Cuyper",
+   "club": "Brighton",
+   "position": "DEF",
+   "captain": false,
+   "vice": false,
+   "benched": false,
+   "points": 15
+  },
+  {
    "id": 40,
    "name": "Rogers",
    "club": "Chelsea",
@@ -73,19 +83,19 @@
    "points": 10
   },
   {
-   "id": 367,
-   "name": "Gakpo",
-   "club": "Liverpool",
+   "id": 15,
+   "name": "Ødegaard",
+   "club": "Arsenal",
    "position": "MID",
    "captain": false,
    "vice": false,
    "benched": false,
-   "points": 0
+   "points": 1
   },
   {
-   "id": 15,
-   "name": "Ødegaard",
-   "club": "Arsenal",
+   "id": 605,
+   "name": "Yalcouyé",
+   "club": "Brighton",
    "position": "MID",
    "captain": false,
    "vice": false,
@@ -101,16 +111,6 @@
    "vice": false,
    "benched": false,
    "points": 6
-  },
-  {
-   "id": 379,
-   "name": "Isak",
-   "club": "Liverpool",
-   "position": "FWD",
-   "captain": false,
-   "vice": true,
-   "benched": false,
-   "points": 0
   },
   {
    "id": 136,
@@ -133,24 +133,24 @@
    "points": 0
   },
   {
-   "id": 605,
-   "name": "Yalcouyé",
-   "club": "Brighton",
+   "id": 367,
+   "name": "Gakpo",
+   "club": "Liverpool",
    "position": "MID",
    "captain": false,
    "vice": false,
    "benched": true,
-   "points": 1
+   "points": 0
   },
   {
-   "id": 115,
-   "name": "De Cuyper",
-   "club": "Brighton",
-   "position": "DEF",
+   "id": 379,
+   "name": "Isak",
+   "club": "Liverpool",
+   "position": "FWD",
    "captain": false,
-   "vice": false,
+   "vice": true,
    "benched": true,
-   "points": 15
+   "points": 0
   },
   {
    "id": 279,

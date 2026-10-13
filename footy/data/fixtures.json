@@ -1,11 +1,11 @@
 {
- "generatedAt": "2026-10-12T13:11:57.185Z",
+ "generatedAt": "2026-10-13T12:44:02.274Z",
  "fantasy": {
   "name": "How's it Goink?",
   "gameweek": 6,
   "teamId": 6870928,
-  "overallPoints": 375,
-  "overallRank": 3013141
+  "overallPoints": 391,
+  "overallRank": 2130543
  },
  "season": "2026-27",
  "timezone": "Atlantic/Reykjavik",
@@ -465,18 +465,18 @@
    "fpl": {
     "home": [
      {
-      "name": "Yalcouyé",
-      "position": "MID",
-      "captain": false,
-      "vice": false,
-      "benched": true
-     },
-     {
       "name": "De Cuyper",
       "position": "DEF",
       "captain": false,
       "vice": false,
-      "benched": true
+      "benched": false
+     },
+     {
+      "name": "Yalcouyé",
+      "position": "MID",
+      "captain": false,
+      "vice": false,
+      "benched": false
      }
     ],
     "away": [],
@@ -533,14 +533,14 @@
       "position": "MID",
       "captain": false,
       "vice": false,
-      "benched": false
+      "benched": true
      },
      {
       "name": "Isak",
       "position": "FWD",
       "captain": false,
       "vice": true,
-      "benched": false
+      "benched": true
      }
     ],
     "count": 3
@@ -708,14 +708,14 @@
       "position": "MID",
       "captain": false,
       "vice": false,
-      "benched": false
+      "benched": true
      },
      {
       "name": "Isak",
       "position": "FWD",
       "captain": false,
       "vice": true,
-      "benched": false
+      "benched": true
      }
     ],
     "away": [],
@@ -951,18 +951,18 @@
     ],
     "away": [
      {
-      "name": "Yalcouyé",
-      "position": "MID",
-      "captain": false,
-      "vice": false,
-      "benched": true
-     },
-     {
       "name": "De Cuyper",
       "position": "DEF",
       "captain": false,
       "vice": false,
-      "benched": true
+      "benched": false
+     },
+     {
+      "name": "Yalcouyé",
+      "position": "MID",
+      "captain": false,
+      "vice": false,
+      "benched": false
      }
     ],
     "count": 4
@@ -1148,14 +1148,14 @@
       "position": "MID",
       "captain": false,
       "vice": false,
-      "benched": false
+      "benched": true
      },
      {
       "name": "Isak",
       "position": "FWD",
       "captain": false,
       "vice": true,
-      "benched": false
+      "benched": true
      }
     ],
     "count": 2
@@ -1353,18 +1353,18 @@
    "fpl": {
     "home": [
      {
-      "name": "Yalcouyé",
-      "position": "MID",
-      "captain": false,
-      "vice": false,
-      "benched": true
-     },
-     {
       "name": "De Cuyper",
       "position": "DEF",
       "captain": false,
       "vice": false,
-      "benched": true
+      "benched": false
+     },
+     {
+      "name": "Yalcouyé",
+      "position": "MID",
+      "captain": false,
+      "vice": false,
+      "benched": false
      }
     ],
     "away": [],
@@ -2030,14 +2030,14 @@
       "position": "MID",
       "captain": false,
       "vice": false,
-      "benched": false
+      "benched": true
      },
      {
       "name": "Isak",
       "position": "FWD",
       "captain": false,
       "vice": true,
-      "benched": false
+      "benched": true
      }
     ],
     "away": [],
@@ -2534,14 +2534,14 @@
       "position": "MID",
       "captain": false,
       "vice": false,
-      "benched": false
+      "benched": true
      },
      {
       "name": "Isak",
       "position": "FWD",
       "captain": false,
       "vice": true,
-      "benched": false
+      "benched": true
      }
     ],
     "away": [],
@@ -2828,18 +2828,18 @@
     "home": [],
     "away": [
      {
-      "name": "Yalcouyé",
-      "position": "MID",
-      "captain": false,
-      "vice": false,
-      "benched": true
-     },
-     {
       "name": "De Cuyper",
       "position": "DEF",
       "captain": false,
       "vice": false,
-      "benched": true
+      "benched": false
+     },
+     {
+      "name": "Yalcouyé",
+      "position": "MID",
+      "captain": false,
+      "vice": false,
+      "benched": false
      }
     ],
     "count": 2
@@ -3139,18 +3139,18 @@
    "fpl": {
     "home": [
      {
-      "name": "Yalcouyé",
-      "position": "MID",
-      "captain": false,
-      "vice": false,
-      "benched": true
-     },
-     {
       "name": "De Cuyper",
       "position": "DEF",
       "captain": false,
       "vice": false,
-      "benched": true
+      "benched": false
+     },
+     {
+      "name": "Yalcouyé",
+      "position": "MID",
+      "captain": false,
+      "vice": false,
+      "benched": false
      }
     ],
     "away": [
@@ -3313,14 +3313,14 @@
       "position": "MID",
       "captain": false,
       "vice": false,
-      "benched": false
+      "benched": true
      },
      {
       "name": "Isak",
       "position": "FWD",
       "captain": false,
       "vice": true,
-      "benched": false
+      "benched": true
      }
     ],
     "count": 2
@@ -3555,18 +3555,18 @@
     "home": [],
     "away": [
      {
-      "name": "Yalcouyé",
-      "position": "MID",
-      "captain": false,
-      "vice": false,
-      "benched": true
-     },
-     {
       "name": "De Cuyper",
       "position": "DEF",
       "captain": false,
       "vice": false,
-      "benched": true
+      "benched": false
+     },
+     {
+      "name": "Yalcouyé",
+      "position": "MID",
+      "captain": false,
+      "vice": false,
+      "benched": false
      }
     ],
     "count": 2
@@ -3859,14 +3859,14 @@
       "position": "MID",
       "captain": false,
       "vice": false,
-      "benched": false
+      "benched": true
      },
      {
       "name": "Isak",
       "position": "FWD",
       "captain": false,
       "vice": true,
-      "benched": false
+      "benched": true
      }
     ],
     "away": [
@@ -4405,14 +4405,14 @@
       "position": "MID",
       "captain": false,
       "vice": false,
-      "benched": false
+      "benched": true
      },
      {
       "name": "Isak",
       "position": "FWD",
       "captain": false,
       "vice": true,
-      "benched": false
+      "benched": true
      }
     ],
     "count": 2
@@ -4920,14 +4920,14 @@
       "position": "MID",
       "captain": false,
       "vice": false,
-      "benched": false
+      "benched": true
      },
      {
       "name": "Isak",
       "position": "FWD",
       "captain": false,
       "vice": true,
-      "benched": false
+      "benched": true
      }
     ],
     "count": 2
@@ -5086,18 +5086,18 @@
    "fpl": {
     "home": [
      {
-      "name": "Yalcouyé",
-      "position": "MID",
-      "captain": false,
-      "vice": false,
-      "benched": true
-     },
-     {
       "name": "De Cuyper",
       "position": "DEF",
       "captain": false,
       "vice": false,
-      "benched": true
+      "benched": false
+     },
+     {
+      "name": "Yalcouyé",
+      "position": "MID",
+      "captain": false,
+      "vice": false,
+      "benched": false
      }
     ],
     "away": [],
@@ -5408,14 +5408,14 @@
       "position": "MID",
       "captain": false,
       "vice": false,
-      "benched": false
+      "benched": true
      },
      {
       "name": "Isak",
       "position": "FWD",
       "captain": false,
       "vice": true,
-      "benched": false
+      "benched": true
      }
     ],
     "away": [],
@@ -6279,30 +6279,30 @@
       "position": "MID",
       "captain": false,
       "vice": false,
-      "benched": false
+      "benched": true
      },
      {
       "name": "Isak",
       "position": "FWD",
       "captain": false,
       "vice": true,
-      "benched": false
+      "benched": true
      }
     ],
     "away": [
-     {
-      "name": "Yalcouyé",
-      "position": "MID",
-      "captain": false,
-      "vice": false,
-      "benched": true
-     },
      {
       "name": "De Cuyper",
       "position": "DEF",
       "captain": false,
       "vice": false,
-      "benched": true
+      "benched": false
+     },
+     {
+      "name": "Yalcouyé",
+      "position": "MID",
+      "captain": false,
+      "vice": false,
+      "benched": false
      }
     ],
     "count": 4
@@ -6581,18 +6581,18 @@
     ],
     "away": [
      {
-      "name": "Yalcouyé",
-      "position": "MID",
-      "captain": false,
-      "vice": false,
-      "benched": true
-     },
-     {
       "name": "De Cuyper",
       "position": "DEF",
       "captain": false,
       "vice": false,
-      "benched": true
+      "benched": false
+     },
+     {
+      "name": "Yalcouyé",
+      "position": "MID",
+      "captain": false,
+      "vice": false,
+      "benched": false
      }
     ],
     "count": 5
@@ -6862,14 +6862,14 @@
       "position": "MID",
       "captain": false,
       "vice": false,
-      "benched": false
+      "benched": true
      },
      {
       "name": "Isak",
       "position": "FWD",
       "captain": false,
       "vice": true,
-      "benched": false
+      "benched": true
      }
     ],
     "away": [
@@ -7390,14 +7390,14 @@
       "position": "MID",
       "captain": false,
       "vice": false,
-      "benched": false
+      "benched": true
      },
      {
       "name": "Isak",
       "position": "FWD",
       "captain": false,
       "vice": true,
-      "benched": false
+      "benched": true
      }
     ],
     "count": 2
@@ -8020,14 +8020,14 @@
       "position": "MID",
       "captain": false,
       "vice": false,
-      "benched": false
+      "benched": true
      },
      {
       "name": "Isak",
       "position": "FWD",
       "captain": false,
       "vice": true,
-      "benched": false
+      "benched": true
      }
     ],
     "count": 2
@@ -8152,18 +8152,18 @@
    "fpl": {
     "home": [
      {
-      "name": "Yalcouyé",
-      "position": "MID",
-      "captain": false,
-      "vice": false,
-      "benched": true
-     },
-     {
       "name": "De Cuyper",
       "position": "DEF",
       "captain": false,
       "vice": false,
-      "benched": true
+      "benched": false
+     },
+     {
+      "name": "Yalcouyé",
+      "position": "MID",
+      "captain": false,
+      "vice": false,
+      "benched": false
      }
     ],
     "away": [],
@@ -8393,14 +8393,14 @@
       "position": "MID",
       "captain": false,
       "vice": false,
-      "benched": false
+      "benched": true
      },
      {
       "name": "Isak",
       "position": "FWD",
       "captain": false,
       "vice": true,
-      "benched": false
+      "benched": true
      }
     ],
     "away": [],
@@ -8450,18 +8450,18 @@
     ],
     "away": [
      {
-      "name": "Yalcouyé",
-      "position": "MID",
-      "captain": false,
-      "vice": false,
-      "benched": true
-     },
-     {
       "name": "De Cuyper",
       "position": "DEF",
       "captain": false,
       "vice": false,
-      "benched": true
+      "benched": false
+     },
+     {
+      "name": "Yalcouyé",
+      "position": "MID",
+      "captain": false,
+      "vice": false,
+      "benched": false
      }
     ],
     "count": 3
@@ -9251,14 +9251,14 @@
       "position": "MID",
       "captain": false,
       "vice": false,
-      "benched": false
+      "benched": true
      },
      {
       "name": "Isak",
       "position": "FWD",
       "captain": false,
       "vice": true,
-      "benched": false
+      "benched": true
      }
     ],
     "count": 2
@@ -9698,14 +9698,14 @@
       "position": "MID",
       "captain": false,
       "vice": false,
-      "benched": false
+      "benched": true
      },
      {
       "name": "Isak",
       "position": "FWD",
       "captain": false,
       "vice": true,
-      "benched": false
+      "benched": true
      }
     ],
     "count": 2
@@ -9830,18 +9830,18 @@
    "fpl": {
     "home": [
      {
-      "name": "Yalcouyé",
-      "position": "MID",
-      "captain": false,
-      "vice": false,
-      "benched": true
-     },
-     {
       "name": "De Cuyper",
       "position": "DEF",
       "captain": false,
       "vice": false,
-      "benched": true
+      "benched": false
+     },
+     {
+      "name": "Yalcouyé",
+      "position": "MID",
+      "captain": false,
+      "vice": false,
+      "benched": false
      }
     ],
     "away": [
@@ -10029,14 +10029,14 @@
       "position": "MID",
       "captain": false,
       "vice": false,
-      "benched": false
+      "benched": true
      },
      {
       "name": "Isak",
       "position": "FWD",
       "captain": false,
       "vice": true,
-      "benched": false
+      "benched": true
      }
     ],
     "away": [],
@@ -10408,18 +10408,18 @@
     "home": [],
     "away": [
      {
-      "name": "Yalcouyé",
-      "position": "MID",
-      "captain": false,
-      "vice": false,
-      "benched": true
-     },
-     {
       "name": "De Cuyper",
       "position": "DEF",
       "captain": false,
       "vice": false,
-      "benched": true
+      "benched": false
+     },
+     {
+      "name": "Yalcouyé",
+      "position": "MID",
+      "captain": false,
+      "vice": false,
+      "benched": false
      }
     ],
     "count": 2
@@ -10673,14 +10673,14 @@
       "position": "MID",
       "captain": false,
       "vice": false,
-      "benched": false
+      "benched": true
      },
      {
       "name": "Isak",
       "position": "FWD",
       "captain": false,
       "vice": true,
-      "benched": false
+      "benched": true
      }
     ],
     "count": 4
@@ -10858,18 +10858,18 @@
     "home": [],
     "away": [
      {
-      "name": "Yalcouyé",
-      "position": "MID",
-      "captain": false,
-      "vice": false,
-      "benched": true
-     },
-     {
       "name": "De Cuyper",
       "position": "DEF",
       "captain": false,
       "vice": false,
-      "benched": true
+      "benched": false
+     },
+     {
+      "name": "Yalcouyé",
+      "position": "MID",
+      "captain": false,
+      "vice": false,
+      "benched": false
      }
     ],
     "count": 2
@@ -11613,14 +11613,14 @@
       "position": "MID",
       "captain": false,
       "vice": false,
-      "benched": false
+      "benched": true
      },
      {
       "name": "Isak",
       "position": "FWD",
       "captain": false,
       "vice": true,
-      "benched": false
+      "benched": true
      }
     ],
     "away": [],
@@ -11862,18 +11862,18 @@
    "fpl": {
     "home": [
      {
-      "name": "Yalcouyé",
-      "position": "MID",
-      "captain": false,
-      "vice": false,
-      "benched": true
-     },
-     {
       "name": "De Cuyper",
       "position": "DEF",
       "captain": false,
       "vice": false,
-      "benched": true
+      "benched": false
+     },
+     {
+      "name": "Yalcouyé",
+      "position": "MID",
+      "captain": false,
+      "vice": false,
+      "benched": false
      }
     ],
     "away": [],
@@ -12133,14 +12133,14 @@
       "position": "MID",
       "captain": false,
       "vice": false,
-      "benched": false
+      "benched": true
      },
      {
       "name": "Isak",
       "position": "FWD",
       "captain": false,
       "vice": true,
-      "benched": false
+      "benched": true
      }
     ],
     "away": [],
@@ -12251,18 +12251,18 @@
    "fpl": {
     "home": [
      {
-      "name": "Yalcouyé",
-      "position": "MID",
-      "captain": false,
-      "vice": false,
-      "benched": true
-     },
-     {
       "name": "De Cuyper",
       "position": "DEF",
       "captain": false,
       "vice": false,
-      "benched": true
+      "benched": false
+     },
+     {
+      "name": "Yalcouyé",
+      "position": "MID",
+      "captain": false,
+      "vice": false,
+      "benched": false
      }
     ],
     "away": [],
@@ -12585,14 +12585,14 @@
       "position": "MID",
       "captain": false,
       "vice": false,
-      "benched": false
+      "benched": true
      },
      {
       "name": "Isak",
       "position": "FWD",
       "captain": false,
       "vice": true,
-      "benched": false
+      "benched": true
      }
     ],
     "away": [
@@ -12760,18 +12760,18 @@
     "home": [],
     "away": [
      {
-      "name": "Yalcouyé",
-      "position": "MID",
-      "captain": false,
-      "vice": false,
-      "benched": true
-     },
-     {
       "name": "De Cuyper",
       "position": "DEF",
       "captain": false,
       "vice": false,
-      "benched": true
+      "benched": false
+     },
+     {
+      "name": "Yalcouyé",
+      "position": "MID",
+      "captain": false,
+      "vice": false,
+      "benched": false
      }
     ],
     "count": 2
@@ -12902,14 +12902,14 @@
       "position": "MID",
       "captain": false,
       "vice": false,
-      "benched": false
+      "benched": true
      },
      {
       "name": "Isak",
       "position": "FWD",
       "captain": false,
       "vice": true,
-      "benched": false
+      "benched": true
      }
     ],
     "count": 3
@@ -13218,18 +13218,18 @@
     ],
     "away": [
      {
-      "name": "Yalcouyé",
-      "position": "MID",
-      "captain": false,
-      "vice": false,
-      "benched": true
-     },
-     {
       "name": "De Cuyper",
       "position": "DEF",
       "captain": false,
       "vice": false,
-      "benched": true
+      "benched": false
+     },
+     {
+      "name": "Yalcouyé",
+      "position": "MID",
+      "captain": false,
+      "vice": false,
+      "benched": false
      }
     ],
     "count": 3
@@ -13540,14 +13540,14 @@
       "position": "MID",
       "captain": false,
       "vice": false,
-      "benched": false
+      "benched": true
      },
      {
       "name": "Isak",
       "position": "FWD",
       "captain": false,
       "vice": true,
-      "benched": false
+      "benched": true
      }
     ],
     "count": 2
@@ -13676,18 +13676,18 @@
    "fpl": {
     "home": [
      {
-      "name": "Yalcouyé",
-      "position": "MID",
-      "captain": false,
-      "vice": false,
-      "benched": true
-     },
-     {
       "name": "De Cuyper",
       "position": "DEF",
       "captain": false,
       "vice": false,
-      "benched": true
+      "benched": false
+     },
+     {
+      "name": "Yalcouyé",
+      "position": "MID",
+      "captain": false,
+      "vice": false,
+      "benched": false
      }
     ],
     "away": [],
@@ -13869,14 +13869,14 @@
       "position": "MID",
       "captain": false,
       "vice": false,
-      "benched": false
+      "benched": true
      },
      {
       "name": "Isak",
       "position": "FWD",
       "captain": false,
       "vice": true,
-      "benched": false
+      "benched": true
      }
     ],
     "away": [],
@@ -14173,18 +14173,18 @@
    "fpl": {
     "home": [
      {
-      "name": "Yalcouyé",
-      "position": "MID",
-      "captain": false,
-      "vice": false,
-      "benched": true
-     },
-     {
       "name": "De Cuyper",
       "position": "DEF",
       "captain": false,
       "vice": false,
-      "benched": true
+      "benched": false
+     },
+     {
+      "name": "Yalcouyé",
+      "position": "MID",
+      "captain": false,
+      "vice": false,
+      "benched": false
      }
     ],
     "away": [],
@@ -14308,14 +14308,14 @@
       "position": "MID",
       "captain": false,
       "vice": false,
-      "benched": false
+      "benched": true
      },
      {
       "name": "Isak",
       "position": "FWD",
       "captain": false,
       "vice": true,
-      "benched": false
+      "benched": true
      }
     ],
     "count": 2
@@ -14738,18 +14738,18 @@
     "home": [],
     "away": [
      {
-      "name": "Yalcouyé",
-      "position": "MID",
-      "captain": false,
-      "vice": false,
-      "benched": true
-     },
-     {
       "name": "De Cuyper",
       "position": "DEF",
       "captain": false,
       "vice": false,
-      "benched": true
+      "benched": false
+     },
+     {
+      "name": "Yalcouyé",
+      "position": "MID",
+      "captain": false,
+      "vice": false,
+      "benched": false
      }
     ],
     "count": 2
@@ -14908,14 +14908,14 @@
       "position": "MID",
       "captain": false,
       "vice": false,
-      "benched": false
+      "benched": true
      },
      {
       "name": "Isak",
       "position": "FWD",
       "captain": false,
       "vice": true,
-      "benched": false
+      "benched": true
      }
     ],
     "away": [],
@@ -15278,14 +15278,14 @@
       "position": "MID",
       "captain": false,
       "vice": false,
-      "benched": false
+      "benched": true
      },
      {
       "name": "Isak",
       "position": "FWD",
       "captain": false,
       "vice": true,
-      "benched": false
+      "benched": true
      }
     ],
     "count": 2
@@ -16158,14 +16158,14 @@
       "position": "MID",
       "captain": false,
       "vice": false,
-      "benched": false
+      "benched": true
      },
      {
       "name": "Isak",
       "position": "FWD",
       "captain": false,
       "vice": true,
-      "benched": false
+      "benched": true
      }
     ],
     "count": 2
@@ -16205,18 +16205,18 @@
    "fpl": {
     "home": [
      {
-      "name": "Yalcouyé",
-      "position": "MID",
-      "captain": false,
-      "vice": false,
-      "benched": true
-     },
-     {
       "name": "De Cuyper",
       "position": "DEF",
       "captain": false,
       "vice": false,
-      "benched": true
+      "benched": false
+     },
+     {
+      "name": "Yalcouyé",
+      "position": "MID",
+      "captain": false,
+      "vice": false,
+      "benched": false
      }
     ],
     "away": [
@@ -16711,14 +16711,14 @@
       "position": "MID",
       "captain": false,
       "vice": false,
-      "benched": false
+      "benched": true
      },
      {
       "name": "Isak",
       "position": "FWD",
       "captain": false,
       "vice": true,
-      "benched": false
+      "benched": true
      }
     ],
     "away": [],
@@ -17196,18 +17196,18 @@
     ],
     "away": [
      {
-      "name": "Yalcouyé",
-      "position": "MID",
-      "captain": false,
-      "vice": false,
-      "benched": true
-     },
-     {
       "name": "De Cuyper",
       "position": "DEF",
       "captain": false,
       "vice": false,
-      "benched": true
+      "benched": false
+     },
+     {
+      "name": "Yalcouyé",
+      "position": "MID",
+      "captain": false,
+      "vice": false,
+      "benched": false
      }
     ],
     "count": 3
@@ -17418,14 +17418,14 @@
       "position": "MID",
       "captain": false,
       "vice": false,
-      "benched": false
+      "benched": true
      },
      {
       "name": "Isak",
       "position": "FWD",
       "captain": false,
       "vice": true,
-      "benched": false
+      "benched": true
      }
     ],
     "away": [],
@@ -17615,14 +17615,14 @@
       "position": "MID",
       "captain": false,
       "vice": false,
-      "benched": false
+      "benched": true
      },
      {
       "name": "Isak",
       "position": "FWD",
       "captain": false,
       "vice": true,
-      "benched": false
+      "benched": true
      }
     ],
     "count": 5
@@ -17662,18 +17662,18 @@
    "fpl": {
     "home": [
      {
-      "name": "Yalcouyé",
-      "position": "MID",
-      "captain": false,
-      "vice": false,
-      "benched": true
-     },
-     {
       "name": "De Cuyper",
       "position": "DEF",
       "captain": false,
       "vice": false,
-      "benched": true
+      "benched": false
+     },
+     {
+      "name": "Yalcouyé",
+      "position": "MID",
+      "captain": false,
+      "vice": false,
+      "benched": false
      }
     ],
     "away": [
@@ -18097,14 +18097,14 @@
       "position": "MID",
       "captain": false,
       "vice": false,
-      "benched": false
+      "benched": true
      },
      {
       "name": "Isak",
       "position": "FWD",
       "captain": false,
       "vice": true,
-      "benched": false
+      "benched": true
      }
     ],
     "count": 2
@@ -18424,18 +18424,18 @@
     "home": [],
     "away": [
      {
-      "name": "Yalcouyé",
-      "position": "MID",
-      "captain": false,
-      "vice": false,
-      "benched": true
-     },
-     {
       "name": "De Cuyper",
       "position": "DEF",
       "captain": false,
       "vice": false,
-      "benched": true
+      "benched": false
+     },
+     {
+      "name": "Yalcouyé",
+      "position": "MID",
+      "captain": false,
+      "vice": false,
+      "benched": false
      }
     ],
     "count": 2
@@ -18723,14 +18723,14 @@
       "position": "MID",
       "captain": false,
       "vice": false,
-      "benched": false
+      "benched": true
      },
      {
       "name": "Isak",
       "position": "FWD",
       "captain": false,
       "vice": true,
-      "benched": false
+      "benched": true
      }
     ],
     "away": [
@@ -18875,18 +18875,18 @@
    "fpl": {
     "home": [
      {
-      "name": "Yalcouyé",
-      "position": "MID",
-      "captain": false,
-      "vice": false,
-      "benched": true
-     },
-     {
       "name": "De Cuyper",
       "position": "DEF",
       "captain": false,
       "vice": false,
-      "benched": true
+      "benched": false
+     },
+     {
+      "name": "Yalcouyé",
+      "position": "MID",
+      "captain": false,
+      "vice": false,
+      "benched": false
      }
     ],
     "away": [
@@ -19098,18 +19098,18 @@
     "home": [],
     "away": [
      {
-      "name": "Yalcouyé",
-      "position": "MID",
-      "captain": false,
-      "vice": false,
-      "benched": true
-     },
-     {
       "name": "De Cuyper",
       "position": "DEF",
       "captain": false,
       "vice": false,
-      "benched": true
+      "benched": false
+     },
+     {
+      "name": "Yalcouyé",
+      "position": "MID",
+      "captain": false,
+      "vice": false,
+      "benched": false
      }
     ],
     "count": 2
@@ -19317,14 +19317,14 @@
       "position": "MID",
       "captain": false,
       "vice": false,
-      "benched": false
+      "benched": true
      },
      {
       "name": "Isak",
       "position": "FWD",
       "captain": false,
       "vice": true,
-      "benched": false
+      "benched": true
      }
     ],
     "count": 3
@@ -19770,14 +19770,14 @@
       "position": "MID",
       "captain": false,
       "vice": false,
-      "benched": false
+      "benched": true
      },
      {
       "name": "Isak",
       "position": "FWD",
       "captain": false,
       "vice": true,
-      "benched": false
+      "benched": true
      }
     ],
     "away": [],
@@ -19818,18 +19818,18 @@
    "fpl": {
     "home": [
      {
-      "name": "Yalcouyé",
-      "position": "MID",
-      "captain": false,
-      "vice": false,
-      "benched": true
-     },
-     {
       "name": "De Cuyper",
       "position": "DEF",
       "captain": false,
       "vice": false,
-      "benched": true
+      "benched": false
+     },
+     {
+      "name": "Yalcouyé",
+      "position": "MID",
+      "captain": false,
+      "vice": false,
+      "benched": false
      }
     ],
     "away": [],
@@ -19956,18 +19956,18 @@
     "home": [],
     "away": [
      {
-      "name": "Yalcouyé",
-      "position": "MID",
-      "captain": false,
-      "vice": false,
-      "benched": true
-     },
-     {
       "name": "De Cuyper",
       "position": "DEF",
       "captain": false,
       "vice": false,
-      "benched": true
+      "benched": false
+     },
+     {
+      "name": "Yalcouyé",
+      "position": "MID",
+      "captain": false,
+      "vice": false,
+      "benched": false
      }
     ],
     "count": 2
@@ -20089,14 +20089,14 @@
       "position": "MID",
       "captain": false,
       "vice": false,
-      "benched": false
+      "benched": true
      },
      {
       "name": "Isak",
       "position": "FWD",
       "captain": false,
       "vice": true,
-      "benched": false
+      "benched": true
      }
     ],
     "away": [],
@@ -20467,18 +20467,18 @@
    "fpl": {
     "home": [
      {
-      "name": "Yalcouyé",
-      "position": "MID",
-      "captain": false,
-      "vice": false,
-      "benched": true
-     },
-     {
       "name": "De Cuyper",
       "position": "DEF",
       "captain": false,
       "vice": false,
-      "benched": true
+      "benched": false
+     },
+     {
+      "name": "Yalcouyé",
+      "position": "MID",
+      "captain": false,
+      "vice": false,
+      "benched": false
      }
     ],
     "away": [],
@@ -20679,14 +20679,14 @@
       "position": "MID",
       "captain": false,
       "vice": false,
-      "benched": false
+      "benched": true
      },
      {
       "name": "Isak",
       "position": "FWD",
       "captain": false,
       "vice": true,
-      "benched": false
+      "benched": true
      }
     ],
     "count": 2
@@ -21084,14 +21084,14 @@
       "position": "MID",
       "captain": false,
       "vice": false,
-      "benched": false
+      "benched": true
      },
      {
       "name": "Isak",
       "position": "FWD",
       "captain": false,
       "vice": true,
-      "benched": false
+      "benched": true
      }
     ],
     "away": [
@@ -21337,18 +21337,18 @@
     "home": [],
     "away": [
      {
-      "name": "Yalcouyé",
-      "position": "MID",
-      "captain": false,
-      "vice": false,
-      "benched": true
-     },
-     {
       "name": "De Cuyper",
       "position": "DEF",
       "captain": false,
       "vice": false,
-      "benched": true
+      "benched": false
+     },
+     {
+      "name": "Yalcouyé",
+      "position": "MID",
+      "captain": false,
+      "vice": false,
+      "benched": false
      }
     ],
     "count": 2
@@ -21388,18 +21388,18 @@
    "fpl": {
     "home": [
      {
-      "name": "Yalcouyé",
-      "position": "MID",
-      "captain": false,
-      "vice": false,
-      "benched": true
-     },
-     {
       "name": "De Cuyper",
       "position": "DEF",
       "captain": false,
       "vice": false,
-      "benched": true
+      "benched": false
+     },
+     {
+      "name": "Yalcouyé",
+      "position": "MID",
+      "captain": false,
+      "vice": false,
+      "benched": false
      }
     ],
     "away": [
@@ -21526,14 +21526,14 @@
       "position": "MID",
       "captain": false,
       "vice": false,
-      "benched": false
+      "benched": true
      },
      {
       "name": "Isak",
       "position": "FWD",
       "captain": false,
       "vice": true,
-      "benched": false
+      "benched": true
      }
     ],
     "count": 2
@@ -22087,18 +22087,18 @@
     "home": [],
     "away": [
      {
-      "name": "Yalcouyé",
-      "position": "MID",
-      "captain": false,
-      "vice": false,
-      "benched": true
-     },
-     {
       "name": "De Cuyper",
       "position": "DEF",
       "captain": false,
       "vice": false,
-      "benched": true
+      "benched": false
+     },
+     {
+      "name": "Yalcouyé",
+      "position": "MID",
+      "captain": false,
+      "vice": false,
+      "benched": false
      }
     ],
     "count": 2
@@ -22291,14 +22291,14 @@
       "position": "MID",
       "captain": false,
       "vice": false,
-      "benched": false
+      "benched": true
      },
      {
       "name": "Isak",
       "position": "FWD",
       "captain": false,
       "vice": true,
-      "benched": false
+      "benched": true
      }
     ],
     "count": 2
@@ -22387,18 +22387,18 @@
    "fpl": {
     "home": [
      {
-      "name": "Yalcouyé",
-      "position": "MID",
-      "captain": false,
-      "vice": false,
-      "benched": true
-     },
-     {
       "name": "De Cuyper",
       "position": "DEF",
       "captain": false,
       "vice": false,
-      "benched": true
+      "benched": false
+     },
+     {
+      "name": "Yalcouyé",
+      "position": "MID",
+      "captain": false,
+      "vice": false,
+      "benched": false
      }
     ],
     "away": [],
@@ -22621,14 +22621,14 @@
       "position": "MID",
       "captain": false,
       "vice": false,
-      "benched": false
+      "benched": true
      },
      {
       "name": "Isak",
       "position": "FWD",
       "captain": false,
       "vice": true,
-      "benched": false
+      "benched": true
      }
     ],
     "away": [
@@ -22852,14 +22852,14 @@
       "position": "MID",
       "captain": false,
       "vice": false,
-      "benched": false
+      "benched": true
      },
      {
       "name": "Isak",
       "position": "FWD",
       "captain": false,
       "vice": true,
-      "benched": false
+      "benched": true
      }
     ],
     "count": 5
@@ -23102,18 +23102,18 @@
    "fpl": {
     "home": [
      {
-      "name": "Yalcouyé",
-      "position": "MID",
-      "captain": false,
-      "vice": false,
-      "benched": true
-     },
-     {
       "name": "De Cuyper",
       "position": "DEF",
       "captain": false,
       "vice": false,
-      "benched": true
+      "benched": false
+     },
+     {
+      "name": "Yalcouyé",
+      "position": "MID",
+      "captain": false,
+      "vice": false,
+      "benched": false
      }
     ],
     "away": [],
@@ -23387,18 +23387,18 @@
     "home": [],
     "away": [
      {
-      "name": "Yalcouyé",
-      "position": "MID",
-      "captain": false,
-      "vice": false,
-      "benched": true
-     },
-     {
       "name": "De Cuyper",
       "position": "DEF",
       "captain": false,
       "vice": false,
-      "benched": true
+      "benched": false
+     },
+     {
+      "name": "Yalcouyé",
+      "position": "MID",
+      "captain": false,
+      "vice": false,
+      "benched": false
      }
     ],
     "count": 2
@@ -23617,14 +23617,14 @@
       "position": "MID",
       "captain": false,
       "vice": false,
-      "benched": false
+      "benched": true
      },
      {
       "name": "Isak",
       "position": "FWD",
       "captain": false,
       "vice": true,
-      "benched": false
+      "benched": true
      }
     ],
     "away": [],
@@ -23955,18 +23955,18 @@
    "fpl": {
     "home": [
      {
-      "name": "Yalcouyé",
-      "position": "MID",
-      "captain": false,
-      "vice": false,
-      "benched": true
-     },
-     {
       "name": "De Cuyper",
       "position": "DEF",
       "captain": false,
       "vice": false,
-      "benched": true
+      "benched": false
+     },
+     {
+      "name": "Yalcouyé",
+      "position": "MID",
+      "captain": false,
+      "vice": false,
+      "benched": false
      }
     ],
     "away": [
@@ -23975,14 +23975,14 @@
       "position": "MID",
       "captain": false,
       "vice": false,
-      "benched": false
+      "benched": true
      },
      {
       "name": "Isak",
       "position": "FWD",
       "captain": false,
       "vice": true,
-      "benched": false
+      "benched": true
      }
     ],
     "count": 4
@@ -24314,18 +24314,18 @@
     ],
     "away": [
      {
-      "name": "Yalcouyé",
-      "position": "MID",
-      "captain": false,
-      "vice": false,
-      "benched": true
-     },
-     {
       "name": "De Cuyper",
       "position": "DEF",
       "captain": false,
       "vice": false,
-      "benched": true
+      "benched": false
+     },
+     {
+      "name": "Yalcouyé",
+      "position": "MID",
+      "captain": false,
+      "vice": false,
+      "benched": false
      }
     ],
     "count": 5
@@ -24369,14 +24369,14 @@
       "position": "MID",
       "captain": false,
       "vice": false,
-      "benched": false
+      "benched": true
      },
      {
       "name": "Isak",
       "position": "FWD",
       "captain": false,
       "vice": true,
-      "benched": false
+      "benched": true
      }
     ],
     "away": [],
