@@ -1,0 +1,3 @@
+id,type,model,year,weight_t,bucket_or_capacity,engine_kw,purchase_price_isk,est_residual_isk,life_hours,hours_used,annual_hours,fuel_l_per_h,maintenance_isk_per_h,tyres_tracks_isk_per_h,gps_machine_control,home_base,available_from
+EX-01,excavator,CAT 336,2019,36,2.1 m3,224,,,12000,,1400,22,,,yes,Reykjavík,2027-04-01
+DT-01,articulated dump truck,Volvo A30G,2021,25,17.5 m3 heaped,275,,,15000,,1600,18,,,no,Reykjavík,2027-04-01

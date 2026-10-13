@@ -1,0 +1,2 @@
+job_id,client,location,year,road_length_km,road_class,pavement_type,tender_total_isk,our_bid_isk,winning_bid_isk,client_estimate_isk,won,actual_total_cost_isk,planned_days,actual_days,season,notes
+R-2024-01,,,2024,,,surface dressing/asphalt,,,,,yes/no,,,,,

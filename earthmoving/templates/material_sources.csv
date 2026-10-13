@@ -1,0 +1,2 @@
+pit_id,name,lat,lon,material,usable_volume_m3,quality_tested,suitable_for,needs_crushing,needs_blasting,royalty_isk_per_m3,permit_status,notes
+P-01,,,,gravel,,yes/no,fill/subbase/base/chippings,yes/no,yes/no,,,

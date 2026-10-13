@@ -1,0 +1,2 @@
+job_id,item_no,description,unit,tender_qty,tender_unit_price_isk,actual_qty,actual_cost_isk,machine_hours,labour_hours,haul_distance_km,soil_or_rock,notes
+R-2024-01,,cut to fill,m3,,,,,,,,,

@@ -1,0 +1,11 @@
+category,item,unit,price_isk,source,valid_from,notes
+labour,machine operator,hour,,payroll,,loaded cost incl. taxes/pension
+labour,overtime multiplier,factor,,collective agreement,,
+fuel,diesel (off-road),litre,,supplier,,
+rental,excavator 30-40 t,day,,rental company,,without operator
+transport,lowbed move,km,,haulier,,
+material,royalty (efnisgjald) borrow pit X,m3,,landowner,,
+material,bitumen for surface dressing,tonne,,supplier,,
+subcontract,road markings,m,,quote,,
+overhead,company overhead,percent,,accounts,,
+margin,target profit,percent,,management,,

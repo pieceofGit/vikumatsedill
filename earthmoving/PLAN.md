@@ -107,6 +107,9 @@ Build steps:
 
 ## 3. Data the prototype needs
 
+> Road construction is the first focus – see [DATA-ROAD.md](DATA-ROAD.md) for
+> the detailed data list and [`templates/`](templates/) for CSV templates.
+
 Collect these before building – the quality of the estimate is capped by
 the quality of this data.
 
