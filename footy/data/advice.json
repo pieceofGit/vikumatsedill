@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-14T10:15:25.097Z",
+ "generatedAt": "2026-10-15T09:57:18.788Z",
  "gameweek": 7,
  "gameweekName": "Gameweek 7",
  "deadline": "2026-10-17T10:00:00Z",
@@ -21,10 +21,10 @@
    "xgc": 9.15,
    "minutes": 490,
    "starts": 6,
-   "owned": 35.3,
+   "owned": 35.8,
    "status": "a",
    "news": null,
-   "priceMomentum": 419433,
+   "priceMomentum": 462123,
    "fixtures": [
     {
      "gw": 7,
@@ -76,10 +76,10 @@
    "xgc": 5.94,
    "minutes": 392,
    "starts": 5,
-   "owned": 31.8,
+   "owned": 32.3,
    "status": "a",
    "news": null,
-   "priceMomentum": 331630,
+   "priceMomentum": 381091,
    "fixtures": [
     {
      "gw": 7,
@@ -131,10 +131,10 @@
    "xgc": 8.12,
    "minutes": 529,
    "starts": 6,
-   "owned": 75.2,
+   "owned": 75.3,
    "status": "a",
    "news": null,
-   "priceMomentum": 78059,
+   "priceMomentum": 90067,
    "fixtures": [
     {
      "gw": 7,
@@ -186,10 +186,10 @@
    "xgc": 10.05,
    "minutes": 520,
    "starts": 6,
-   "owned": 45,
+   "owned": 45.2,
    "status": "a",
    "news": null,
-   "priceMomentum": 245305,
+   "priceMomentum": 267807,
    "fixtures": [
     {
      "gw": 7,
@@ -244,7 +244,7 @@
    "owned": 28.1,
    "status": "a",
    "news": null,
-   "priceMomentum": 63441,
+   "priceMomentum": 72268,
    "fixtures": [
     {
      "gw": 7,
@@ -284,6 +284,61 @@
    "benched": false
   },
   {
+   "id": 449,
+   "name": "Hall",
+   "club": "NEW",
+   "position": "DEF",
+   "price": 5.3,
+   "form": 6.5,
+   "ppg": 5.2,
+   "total": 31,
+   "xgi90": 0.19,
+   "xgc": 10.59,
+   "minutes": 539,
+   "starts": 6,
+   "owned": 20.7,
+   "status": "a",
+   "news": null,
+   "priceMomentum": -7203,
+   "fixtures": [
+    {
+     "gw": 7,
+     "opponent": "AVL",
+     "home": true,
+     "difficulty": 3
+    },
+    {
+     "gw": 8,
+     "opponent": "CRY",
+     "home": false,
+     "difficulty": 3
+    },
+    {
+     "gw": 9,
+     "opponent": "EVE",
+     "home": true,
+     "difficulty": 3
+    },
+    {
+     "gw": 10,
+     "opponent": "FUL",
+     "home": false,
+     "difficulty": 3
+    },
+    {
+     "gw": 11,
+     "opponent": "ARS",
+     "home": true,
+     "difficulty": 4
+    }
+   ],
+   "ease": 2.8,
+   "rating": 4.25,
+   "captain": false,
+   "vice": false,
+   "benched": false
+  },
+  {
    "id": 8,
    "name": "Calafiori",
    "club": "ARS",
@@ -296,10 +351,10 @@
    "xgc": 4.38,
    "minutes": 497,
    "starts": 6,
-   "owned": 52.3,
+   "owned": 52.4,
    "status": "a",
    "news": null,
-   "priceMomentum": 100136,
+   "priceMomentum": 110294,
    "fixtures": [
     {
      "gw": 7,
@@ -339,61 +394,6 @@
    "benched": false
   },
   {
-   "id": 449,
-   "name": "Hall",
-   "club": "NEW",
-   "position": "DEF",
-   "price": 5.3,
-   "form": 4.3,
-   "ppg": 5.2,
-   "total": 31,
-   "xgi90": 0.19,
-   "xgc": 10.59,
-   "minutes": 539,
-   "starts": 6,
-   "owned": 20.7,
-   "status": "a",
-   "news": null,
-   "priceMomentum": -1595,
-   "fixtures": [
-    {
-     "gw": 7,
-     "opponent": "AVL",
-     "home": true,
-     "difficulty": 3
-    },
-    {
-     "gw": 8,
-     "opponent": "CRY",
-     "home": false,
-     "difficulty": 3
-    },
-    {
-     "gw": 9,
-     "opponent": "EVE",
-     "home": true,
-     "difficulty": 3
-    },
-    {
-     "gw": 10,
-     "opponent": "FUL",
-     "home": false,
-     "difficulty": 3
-    },
-    {
-     "gw": 11,
-     "opponent": "ARS",
-     "home": true,
-     "difficulty": 4
-    }
-   ],
-   "ease": 2.8,
-   "rating": 3.45,
-   "captain": false,
-   "vice": false,
-   "benched": false
-  },
-  {
    "id": 1,
    "name": "Raya",
    "club": "ARS",
@@ -409,7 +409,7 @@
    "owned": 43.7,
    "status": "a",
    "news": null,
-   "priceMomentum": 1982,
+   "priceMomentum": 2293,
    "fixtures": [
     {
      "gw": 7,
@@ -461,10 +461,10 @@
    "xgc": 3.85,
    "minutes": 466,
    "starts": 6,
-   "owned": 19.8,
+   "owned": 19.7,
    "status": "a",
    "news": null,
-   "priceMomentum": -66065,
+   "priceMomentum": -74629,
    "fixtures": [
     {
      "gw": 7,
@@ -516,10 +516,10 @@
    "xgc": 8.11,
    "minutes": 513,
    "starts": 6,
-   "owned": 13.8,
+   "owned": 13.7,
    "status": "a",
    "news": null,
-   "priceMomentum": -27603,
+   "priceMomentum": -30318,
    "fixtures": [
     {
      "gw": 7,
@@ -574,7 +574,7 @@
    "owned": 3.8,
    "status": "a",
    "news": null,
-   "priceMomentum": -15211,
+   "priceMomentum": -17136,
    "fixtures": [
     {
      "gw": 7,
@@ -626,10 +626,10 @@
    "xgc": 5.82,
    "minutes": 413,
    "starts": 5,
-   "owned": 14.4,
+   "owned": 14.1,
    "status": "i",
    "news": "Thigh injury - Unknown return date",
-   "priceMomentum": -266297,
+   "priceMomentum": -298236,
    "fixtures": [
     {
      "gw": 7,
@@ -684,7 +684,7 @@
    "owned": 0.9,
    "status": "a",
    "news": null,
-   "priceMomentum": -8296,
+   "priceMomentum": -9154,
    "fixtures": [
     {
      "gw": 7,
@@ -736,10 +736,10 @@
    "xgc": 5.51,
    "minutes": 370,
    "starts": 4,
-   "owned": 7.7,
+   "owned": 7.6,
    "status": "i",
    "news": "Ankle injury - Unknown return date",
-   "priceMomentum": -192248,
+   "priceMomentum": -210314,
    "fixtures": [
     {
      "gw": 7,
@@ -794,7 +794,7 @@
    "owned": 16.8,
    "status": "a",
    "news": null,
-   "priceMomentum": -13834,
+   "priceMomentum": -15339,
    "fixtures": [
     {
      "gw": 7,
@@ -929,7 +929,7 @@
      "form": 7.5,
      "xgi90": 0.03,
      "ease": 2.8,
-     "owned": 21.9,
+     "owned": 22,
      "fixtures": [
       {
        "gw": 7,
@@ -960,7 +960,7 @@
      "form": 7,
      "xgi90": 0,
      "ease": 3.4,
-     "owned": 0.7,
+     "owned": 0.8,
      "fixtures": [
       {
        "gw": 7,
@@ -1037,7 +1037,7 @@
      "form": 10,
      "xgi90": 0.13,
      "ease": 3,
-     "owned": 0.4,
+     "owned": 0.5,
      "fixtures": [
       {
        "gw": 7,
@@ -1068,7 +1068,7 @@
      "form": 10,
      "xgi90": 0.52,
      "ease": 2.8,
-     "owned": 39.5,
+     "owned": 39.9,
      "fixtures": [
       {
        "gw": 7,
@@ -1099,7 +1099,7 @@
      "form": 10,
      "xgi90": 0.3,
      "ease": 3.4,
-     "owned": 13.7,
+     "owned": 13.8,
      "fixtures": [
       {
        "gw": 7,
@@ -1176,7 +1176,7 @@
      "form": 7.5,
      "xgi90": 0.43,
      "ease": 2.8,
-     "owned": 2.6,
+     "owned": 2.8,
      "fixtures": [
       {
        "gw": 7,
