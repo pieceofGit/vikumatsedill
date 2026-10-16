@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-15T09:57:18.788Z",
+ "generatedAt": "2026-10-16T09:52:14.295Z",
  "gameweek": 7,
  "gameweekName": "Gameweek 7",
  "deadline": "2026-10-17T10:00:00Z",
@@ -21,10 +21,10 @@
    "xgc": 9.15,
    "minutes": 490,
    "starts": 6,
-   "owned": 35.8,
+   "owned": 36.6,
    "status": "a",
    "news": null,
-   "priceMomentum": 462123,
+   "priceMomentum": 548262,
    "fixtures": [
     {
      "gw": 7,
@@ -76,10 +76,10 @@
    "xgc": 5.94,
    "minutes": 392,
    "starts": 5,
-   "owned": 32.3,
+   "owned": 33.2,
    "status": "a",
    "news": null,
-   "priceMomentum": 381091,
+   "priceMomentum": 481458,
    "fixtures": [
     {
      "gw": 7,
@@ -131,10 +131,10 @@
    "xgc": 8.12,
    "minutes": 529,
    "starts": 6,
-   "owned": 75.3,
+   "owned": 75.5,
    "status": "a",
    "news": null,
-   "priceMomentum": 90067,
+   "priceMomentum": 113185,
    "fixtures": [
     {
      "gw": 7,
@@ -186,10 +186,10 @@
    "xgc": 10.05,
    "minutes": 520,
    "starts": 6,
-   "owned": 45.2,
+   "owned": 45.5,
    "status": "a",
    "news": null,
-   "priceMomentum": 267807,
+   "priceMomentum": 309772,
    "fixtures": [
     {
      "gw": 7,
@@ -241,10 +241,10 @@
    "xgc": 7.32,
    "minutes": 458,
    "starts": 5,
-   "owned": 28.1,
+   "owned": 28.3,
    "status": "a",
    "news": null,
-   "priceMomentum": 72268,
+   "priceMomentum": 91222,
    "fixtures": [
     {
      "gw": 7,
@@ -296,10 +296,10 @@
    "xgc": 10.59,
    "minutes": 539,
    "starts": 6,
-   "owned": 20.7,
+   "owned": 20.6,
    "status": "a",
    "news": null,
-   "priceMomentum": -7203,
+   "priceMomentum": -16916,
    "fixtures": [
     {
      "gw": 7,
@@ -351,10 +351,10 @@
    "xgc": 4.38,
    "minutes": 497,
    "starts": 6,
-   "owned": 52.4,
+   "owned": 52.6,
    "status": "a",
    "news": null,
-   "priceMomentum": 110294,
+   "priceMomentum": 129427,
    "fixtures": [
     {
      "gw": 7,
@@ -409,7 +409,7 @@
    "owned": 43.7,
    "status": "a",
    "news": null,
-   "priceMomentum": 2293,
+   "priceMomentum": 3531,
    "fixtures": [
     {
      "gw": 7,
@@ -461,10 +461,10 @@
    "xgc": 3.85,
    "minutes": 466,
    "starts": 6,
-   "owned": 19.7,
+   "owned": 19.5,
    "status": "a",
    "news": null,
-   "priceMomentum": -74629,
+   "priceMomentum": -91915,
    "fixtures": [
     {
      "gw": 7,
@@ -519,7 +519,7 @@
    "owned": 13.7,
    "status": "a",
    "news": null,
-   "priceMomentum": -30318,
+   "priceMomentum": -34571,
    "fixtures": [
     {
      "gw": 7,
@@ -571,10 +571,10 @@
    "xgc": 6.72,
    "minutes": 258,
    "starts": 3,
-   "owned": 3.8,
+   "owned": 3.7,
    "status": "a",
    "news": null,
-   "priceMomentum": -17136,
+   "priceMomentum": -20870,
    "fixtures": [
     {
      "gw": 7,
@@ -626,10 +626,10 @@
    "xgc": 5.82,
    "minutes": 413,
    "starts": 5,
-   "owned": 14.1,
-   "status": "i",
-   "news": "Thigh injury - Unknown return date",
-   "priceMomentum": -298236,
+   "owned": 13.6,
+   "status": "d",
+   "news": "Thigh injury - 25% chance of playing",
+   "priceMomentum": -353326,
    "fixtures": [
     {
      "gw": 7,
@@ -681,10 +681,10 @@
    "xgc": 2.04,
    "minutes": 92,
    "starts": 1,
-   "owned": 0.9,
+   "owned": 0.8,
    "status": "a",
    "news": null,
-   "priceMomentum": -9154,
+   "priceMomentum": -10869,
    "fixtures": [
     {
      "gw": 7,
@@ -736,10 +736,10 @@
    "xgc": 5.51,
    "minutes": 370,
    "starts": 4,
-   "owned": 7.6,
-   "status": "i",
-   "news": "Ankle injury - Unknown return date",
-   "priceMomentum": -210314,
+   "owned": 7.3,
+   "status": "d",
+   "news": "Ankle injury - 25% chance of playing",
+   "priceMomentum": -238972,
    "fixtures": [
     {
      "gw": 7,
@@ -794,7 +794,7 @@
    "owned": 16.8,
    "status": "a",
    "news": null,
-   "priceMomentum": -15339,
+   "priceMomentum": -18691,
    "fixtures": [
     {
      "gw": 7,
@@ -929,7 +929,7 @@
      "form": 7.5,
      "xgi90": 0.03,
      "ease": 2.8,
-     "owned": 22,
+     "owned": 22.1,
      "fixtures": [
       {
        "gw": 7,
@@ -1024,8 +1024,8 @@
     "rating": 0.97,
     "form": 1.5,
     "ease": 2.6,
-    "status": "i",
-    "news": "Ankle injury - Unknown return date"
+    "status": "d",
+    "news": "Ankle injury - 25% chance of playing"
    },
    "options": [
     {
@@ -1068,7 +1068,7 @@
      "form": 10,
      "xgi90": 0.52,
      "ease": 2.8,
-     "owned": 39.9,
+     "owned": 40.6,
      "fixtures": [
       {
        "gw": 7,
@@ -1099,7 +1099,7 @@
      "form": 10,
      "xgi90": 0.3,
      "ease": 3.4,
-     "owned": 13.8,
+     "owned": 14,
      "fixtures": [
       {
        "gw": 7,
@@ -1168,6 +1168,37 @@
      ]
     },
     {
+     "id": 552,
+     "name": "Brobbey",
+     "club": "SUN",
+     "price": 5.7,
+     "rating": 4.98,
+     "form": 8.5,
+     "xgi90": 0.68,
+     "ease": 3,
+     "owned": 5.1,
+     "fixtures": [
+      {
+       "gw": 7,
+       "opponent": "BOU",
+       "home": false,
+       "difficulty": 3
+      },
+      {
+       "gw": 8,
+       "opponent": "LEE",
+       "home": true,
+       "difficulty": 3
+      },
+      {
+       "gw": 9,
+       "opponent": "COV",
+       "home": false,
+       "difficulty": 2
+      }
+     ]
+    },
+    {
      "id": 166,
      "name": "N.Jackson",
      "club": "AVL",
@@ -1176,7 +1207,7 @@
      "form": 7.5,
      "xgi90": 0.43,
      "ease": 2.8,
-     "owned": 2.8,
+     "owned": 3.1,
      "fixtures": [
       {
        "gw": 7,
@@ -1195,37 +1226,6 @@
        "opponent": "FUL",
        "home": true,
        "difficulty": 2
-      }
-     ]
-    },
-    {
-     "id": 138,
-     "name": "Kostoulas",
-     "club": "BHA",
-     "price": 5.7,
-     "rating": 3.74,
-     "form": 5.5,
-     "xgi90": 0.32,
-     "ease": 2.8,
-     "owned": 8.7,
-     "fixtures": [
-      {
-       "gw": 7,
-       "opponent": "CRY",
-       "home": true,
-       "difficulty": 2
-      },
-      {
-       "gw": 8,
-       "opponent": "LIV",
-       "home": false,
-       "difficulty": 4
-      },
-      {
-       "gw": 9,
-       "opponent": "MCI",
-       "home": false,
-       "difficulty": 5
       }
      ]
     }
