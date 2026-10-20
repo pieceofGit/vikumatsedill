@@ -1,5 +1,5 @@
 {
- "fetchedAt": "2026-10-19T10:48:00.003Z",
+ "fetchedAt": "2026-10-20T10:06:07.484Z",
  "tables": {
   "pl": {
    "name": "Premier League",
@@ -561,14 +561,43 @@
     },
     {
      "rank": 16,
+     "team": "Tottenham",
+     "played": 7,
+     "won": 1,
+     "drawn": 3,
+     "lost": 3,
+     "gf": 6,
+     "ga": 10,
+     "gd": -4,
+     "points": 6,
+     "form": [
+      {
+       "r": "L",
+       "opponent": "Aston Villa",
+       "score": "2-3"
+      },
+      {
+       "r": "L",
+       "opponent": "Newcastle",
+       "score": "0-2"
+      },
+      {
+       "r": "L",
+       "opponent": "Brentford",
+       "score": "0-3"
+      }
+     ]
+    },
+    {
+     "rank": 17,
      "team": "Coventry",
-     "played": 6,
+     "played": 7,
      "won": 2,
      "drawn": 0,
-     "lost": 4,
-     "gf": 5,
-     "ga": 11,
-     "gd": -6,
+     "lost": 5,
+     "gf": 6,
+     "ga": 14,
+     "gd": -8,
      "points": 6,
      "form": [
       {
@@ -599,7 +628,7 @@
      ]
     },
     {
-     "rank": 17,
+     "rank": 18,
      "team": "Fulham",
      "played": 7,
      "won": 1,
@@ -633,7 +662,7 @@
      ]
     },
     {
-     "rank": 18,
+     "rank": 19,
      "team": "Nott'm Forest",
      "played": 7,
      "won": 1,
@@ -667,7 +696,7 @@
      ]
     },
     {
-     "rank": 19,
+     "rank": 20,
      "team": "Sunderland",
      "played": 7,
      "won": 1,
@@ -702,35 +731,6 @@
        "r": "L",
        "opponent": "Ipswich",
        "score": "1-2"
-      }
-     ]
-    },
-    {
-     "rank": 20,
-     "team": "Tottenham",
-     "played": 6,
-     "won": 0,
-     "drawn": 3,
-     "lost": 3,
-     "gf": 3,
-     "ga": 9,
-     "gd": -6,
-     "points": 3,
-     "form": [
-      {
-       "r": "L",
-       "opponent": "Aston Villa",
-       "score": "2-3"
-      },
-      {
-       "r": "L",
-       "opponent": "Newcastle",
-       "score": "0-2"
-      },
-      {
-       "r": "L",
-       "opponent": "Brentford",
-       "score": "0-3"
       }
      ]
     }

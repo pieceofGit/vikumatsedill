@@ -1,5 +1,5 @@
 {
- "fetchedAt": "2026-10-19T10:47:58.688Z",
+ "fetchedAt": "2026-10-20T10:06:06.367Z",
  "teamId": 6870928,
  "name": "How's it Goink?",
  "manager": "Fjölnir Þrastarson",
@@ -9,7 +9,7 @@
  "bank": 0.5,
  "squadValue": 103,
  "overallPoints": 468,
- "overallRank": 1421582,
+ "overallRank": 1462774,
  "gameweekPoints": 81,
  "players": [
   {
@@ -63,24 +63,14 @@
    "points": 2
   },
   {
-   "id": 399,
-   "name": "Cherki",
-   "club": "Man City",
+   "id": 605,
+   "name": "Yalcouyé",
+   "club": "Brighton",
    "position": "MID",
    "captain": false,
    "vice": false,
    "benched": false,
-   "points": 0
-  },
-  {
-   "id": 154,
-   "name": "Palmer",
-   "club": "Chelsea",
-   "position": "MID",
-   "captain": false,
-   "vice": false,
-   "benched": false,
-   "points": 2
+   "points": 1
   },
   {
    "id": 15,
@@ -91,6 +81,16 @@
    "vice": false,
    "benched": false,
    "points": 3
+  },
+  {
+   "id": 154,
+   "name": "Palmer",
+   "club": "Chelsea",
+   "position": "MID",
+   "captain": false,
+   "vice": false,
+   "benched": false,
+   "points": 2
   },
   {
    "id": 411,
@@ -133,14 +133,14 @@
    "points": 0
   },
   {
-   "id": 605,
-   "name": "Yalcouyé",
-   "club": "Brighton",
+   "id": 399,
+   "name": "Cherki",
+   "club": "Man City",
    "position": "MID",
    "captain": false,
    "vice": false,
    "benched": true,
-   "points": 1
+   "points": 0
   },
   {
    "id": 449,
