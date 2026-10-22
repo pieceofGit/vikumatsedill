@@ -5,10 +5,24 @@ export const TOPIC_URL = 'https://ntfy.sh/vikumatsedill-umsagnir-0f3cb0fe4f';
 export const MAX_TEXT = 500;
 export const SIMILAR = 0.7;
 
+export async function sha256hex(text) {
+  const buf = await crypto.subtle.digest('SHA-256', new TextEncoder().encode(text));
+  return [...new Uint8Array(buf)].map(b => b.toString(16).padStart(2, '0')).join('');
+}
+
+function parseMessage(event) {
+  try { return JSON.parse(event.message); } catch { return null; }
+}
+
+// Deleting is authorised by the secret whose hash the review was posted with;
+// only the posting browser ever holds it.
+function toDeletion(m) {
+  return m && typeof m.delete === 'string' && typeof m.secret === 'string' ? { id: m.delete, secret: m.secret } : null;
+}
+
 export function toReview(event) {
   if (event.event !== 'message') return null;
-  let m;
-  try { m = JSON.parse(event.message); } catch { return null; }
+  const m = parseMessage(event);
   if (!m || typeof m.place !== 'string' || typeof m.dish !== 'string' || !m.place || !m.dish) return null;
   if (!Number.isInteger(m.rating) || m.rating < 1 || m.rating > 5) return null;
   return {
@@ -19,19 +33,28 @@ export function toReview(event) {
     rating: m.rating,
     text: typeof m.text === 'string' ? m.text.slice(0, MAX_TEXT) : '',
     name: typeof m.name === 'string' ? m.name.slice(0, 40) : '',
+    key: typeof m.key === 'string' ? m.key : '',
   };
 }
 
 export function parseNtfyLines(body) {
-  const reviews = [], rejected = [];
+  const reviews = [], deletions = [], rejected = [];
   for (const line of body.split('\n')) {
     if (!line.trim()) continue;
     const event = JSON.parse(line);
     if (event.event !== 'message') continue;
-    const r = toReview(event);
-    if (r) reviews.push(r); else rejected.push(event.id);
+    const d = toDeletion(parseMessage(event));
+    const r = d ? null : toReview(event);
+    if (d) deletions.push(d); else if (r) reviews.push(r); else rejected.push(event.id);
   }
-  return { reviews, rejected };
+  return { reviews, deletions, rejected };
+}
+
+export async function applyDeletions(byId, deletions) {
+  for (const d of deletions) {
+    const r = byId.get(d.id);
+    if (r?.key && r.key === await sha256hex(d.secret)) byId.delete(d.id);
+  }
 }
 
 const STOP = new Set(['með', 'og', 'í', 'á', 'úr', 'að', 'eða', 'the', 'with', 'and', 'of', 'in']);

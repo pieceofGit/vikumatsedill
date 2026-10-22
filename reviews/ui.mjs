@@ -1,7 +1,10 @@
-import { TOPIC_URL, MAX_TEXT, SIMILAR, toReview, parseNtfyLines, similarity } from './core.mjs';
+import { TOPIC_URL, MAX_TEXT, SIMILAR, toReview, parseNtfyLines, applyDeletions, similarity, sha256hex } from './core.mjs';
 
 const byId = new Map();
 const NAME_KEY = 'vikumatsedill:name';
+const MINE_KEY = 'vikumatsedill:mine';
+const mine = JSON.parse(localStorage.getItem(MINE_KEY) || '{}');
+const saveMine = () => localStorage.setItem(MINE_KEY, JSON.stringify(mine));
 
 const el = (tag, props = {}, ...kids) => {
   const n = Object.assign(document.createElement(tag), props);
@@ -37,15 +40,18 @@ function form(place, dish) {
     send.disabled = true;
     status.textContent = '';
     localStorage.setItem(NAME_KEY, name.value.trim());
+    const secret = crypto.randomUUID();
     try {
       const res = await fetch(TOPIC_URL, {
         method: 'POST',
-        body: JSON.stringify({ place, dish, rating: Number(f.rating.value), text: text.value.trim(), name: name.value.trim() }),
+        body: JSON.stringify({ place, dish, rating: Number(f.rating.value), text: text.value.trim(), name: name.value.trim(), key: await sha256hex(secret) }),
       });
       if (!res.ok) throw new Error(`${res.status}`);
       const r = toReview(await res.json());
       if (!r) throw new Error('ógilt svar');
       byId.set(r.id, r);
+      mine[r.id] = secret;
+      saveMine();
       renderAll();
     } catch (err) {
       console.error('review post failed', err);
@@ -54,6 +60,26 @@ function form(place, dish) {
     }
   });
   return f;
+}
+
+function deleteButton(r) {
+  const b = el('button', { type: 'button', className: 'rv__del', textContent: 'Eyða' });
+  b.addEventListener('click', async () => {
+    b.disabled = true;
+    try {
+      const res = await fetch(TOPIC_URL, { method: 'POST', body: JSON.stringify({ delete: r.id, secret: mine[r.id] }) });
+      if (!res.ok) throw new Error(`${res.status}`);
+      byId.delete(r.id);
+      delete mine[r.id];
+      saveMine();
+      renderAll();
+    } catch (err) {
+      console.error('review delete failed', err);
+      b.textContent = 'Tókst ekki, reyndu aftur';
+      b.disabled = false;
+    }
+  });
+  return b;
 }
 
 function render(li) {
@@ -74,6 +100,7 @@ function render(li) {
       r.text ? el('q', { textContent: r.text }) : null,
       el('span', { className: 'rv__meta', textContent: [r.name, fmtDate(r.time)].filter(Boolean).join(' · ') }),
       r.dish !== dish ? el('span', { className: 'rv__similar', textContent: `Um svipaðan rétt: ${r.dish}` }) : null,
+      mine[r.id] ? deleteButton(r) : null,
     ))) : null,
     form(place, dish)].filter(Boolean));
 }
@@ -88,6 +115,9 @@ const [stored, live] = await Promise.allSettled([
 ]);
 if (stored.status === 'fulfilled') stored.value.forEach(r => byId.set(r.id, r));
 else console.error('stored reviews unavailable', stored.reason);
-if (live.status === 'fulfilled') parseNtfyLines(live.value).reviews.forEach(r => byId.set(r.id, r));
-else console.error('recent reviews unavailable', live.reason);
+if (live.status === 'fulfilled') {
+  const { reviews, deletions } = parseNtfyLines(live.value);
+  reviews.forEach(r => byId.set(r.id, r));
+  await applyDeletions(byId, deletions);
+} else console.error('recent reviews unavailable', live.reason);
 renderAll();

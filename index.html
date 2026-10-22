@@ -62,11 +62,10 @@ h1{font-family:"Familjen Grotesk",ui-sans-serif,sans-serif;font-weight:700;
 .sources{display:flex;flex-wrap:wrap;gap:1rem;border-top:1px solid var(--line);
   padding-top:1rem;color:var(--muted);font-size:.8rem}
 .sources a{color:var(--accent)}
-.wx{display:inline-flex;align-items:baseline;gap:.5rem;min-width:15.5rem;
-  font-family:"Familjen Grotesk",sans-serif;font-size:.85rem;color:var(--muted)}
-.wx__place{font-weight:700;font-size:.7rem;letter-spacing:.14em;text-transform:uppercase;
-  color:var(--accent);background:var(--accent-soft);padding:.15rem .45rem;border-radius:3px}
-#wx-now{font-weight:700;font-size:1.25rem;color:var(--ink)}
+.cell__head{display:flex;flex-wrap:wrap;align-items:baseline;gap:.3rem .6rem}
+.wx{font-family:"Familjen Grotesk",sans-serif;font-size:.78rem;color:var(--muted)}
+.col:not(.today) .wx{display:none}
+.wx__now{font-size:1.05rem;color:var(--ink)}
 .rv{border-top:1px dashed var(--line);margin-top:.35rem;padding-top:.3rem;font-size:.75rem}
 .rv summary{cursor:pointer;color:var(--accent);font-weight:500;width:max-content;max-width:100%}
 .rv__body{display:flex;flex-direction:column;gap:.6rem;padding-top:.5rem}
@@ -89,6 +88,8 @@ h1{font-family:"Familjen Grotesk",ui-sans-serif,sans-serif;font-weight:700;
 .rv__row{display:flex;gap:.4rem}
 .rv button{font:inherit;font-weight:600;background:var(--accent);color:var(--surface);
   border:0;border-radius:3px;padding:.35rem .8rem;cursor:pointer;flex:none}
+.rv .rv__del{align-self:flex-start;background:none;color:var(--muted);padding:0;
+  font-size:.7rem;font-weight:500;text-decoration:underline}
 .rv button:disabled{opacity:.5;cursor:wait}
 .rv__status{color:#b3261e;font-size:.7rem}
 .rv__status:empty{display:none}
@@ -101,14 +102,13 @@ a:focus-visible{outline:2px solid var(--accent);outline-offset:3px}
   <header class="masthead">
     <h1>Vikumatseðill</h1>
     <span class="week">19. - 23. Október</span>
-    <span class="wx" id="wx" title="Núna við Borgartún 26"><span class="wx__place">Makona</span><span id="wx-now">–°</span><span class="wx__feels">vindkæling <span id="wx-feels">–°</span></span><span id="wx-sky"></span></span>
     <span class="stamp">Uppfært 22. október 2026</span>
   </header>
   <div class="board">
     <section class="col" data-weekday="1">
       <h2 class="col__day">Mánudagur</h2>
       <div class="cell">
-      <span class="cell__place">Róót</span>
+      <div class="cell__head"><span class="cell__place">Róót</span></div>
       <ul><li data-place="Róót" data-dish="Gulrótarsúpa með appelsínu og kardimommum"><span class="dish">Gulrótarsúpa með appelsínu og kardimommum <span class="tag">Súpa</span></span><span class="desc">Ristaðar gulrætur og laukur með appelsínuberki, kardimommum og kóríanderfræjum. Myntuolía og ristuð graskersfræ yfir.</span>
         <details class="rv"><summary>Gefa umsögn</summary><div class="rv__body"></div></details></li><li data-place="Róót" data-dish="Buffalo-kjúklingur með gráðostakremi"><span class="dish">Buffalo-kjúklingur með gráðostakremi <span class="tag">Kjúklingur</span> <span class="alg">Mjólkurvörur</span></span><span class="desc">Ofnbökuð kjúklingalæri með sterkum Buffalo-gljáa úr cayenne-chili, eplaediki og brúnu smjöri. Borin fram með stökku smælki og gráðostakremi með graslauk og skyri.</span>
         <details class="rv"><summary>Gefa umsögn</summary><div class="rv__body"></div></details></li><li data-place="Róót" data-dish="Pönnusteiktur þorskur með sítrónu–tahinisósu og kryddjurtum"><span class="dish">Pönnusteiktur þorskur með sítrónu–tahinisósu og kryddjurtum <span class="tag">Fiskur</span></span><span class="desc">Pönnusteiktur þorskur með léttri sítrónu–tahinisósu, ristuðu broddkúmeni og ferskri myntu. Borið fram með stökku smælki.</span>
@@ -116,7 +116,8 @@ a:focus-visible{outline:2px solid var(--accent);outline-offset:3px}
         <details class="rv"><summary>Gefa umsögn</summary><div class="rv__body"></div></details></li><li data-place="Róót" data-dish="Tómata- og granateplasalat með myntu"><span class="dish">Tómata- og granateplasalat með myntu <span class="tag">Vegan</span></span><span class="desc">Tómatar, granatepli og fínsaxaður rauðlaukur með myntu, steinselju og granateplavinaigrette.</span>
         <details class="rv"><summary>Gefa umsögn</summary><div class="rv__body"></div></details></li></ul>
     </div><div class="cell">
-      <span class="cell__place">Makona</span>
+      <div class="cell__head"><span class="cell__place">Makona</span>
+        <span class="wx" title="Núna við Borgartún 26"><b class="wx__now">–°</b> feels like <span class="wx__feels">–°</span> <span class="wx__sky"></span></span></div>
       <ul><li data-place="Makona" data-dish="Rjómalöguð sveppasúpa"><span class="dish">Rjómalöguð sveppasúpa <span class="tag">SÚPA</span> <span class="alg">Mjólkurvörur</span></span>
         <details class="rv"><summary>Gefa umsögn</summary><div class="rv__body"></div></details></li><li data-place="Makona" data-dish="Ofnbakaður þorskur"><span class="dish">Ofnbakaður þorskur <span class="tag">FISKUR</span> <span class="alg">Mjólkurvörur · Glúten</span></span><span class="desc">með parmesan og panko, lauk- og kapers smjöri</span>
         <details class="rv"><summary>Gefa umsögn</summary><div class="rv__body"></div></details></li><li data-place="Makona" data-dish="Spagetti bolognaise"><span class="dish">Spagetti bolognaise <span class="tag">PASTA</span> <span class="alg">Mjólkurvörur · Glúten</span></span><span class="desc">með nautahakki, parmesanosti, kotasælu og hvítlauksbrauði</span>
@@ -129,14 +130,15 @@ a:focus-visible{outline:2px solid var(--accent);outline-offset:3px}
     </section><section class="col" data-weekday="2">
       <h2 class="col__day">Þriðjudagur</h2>
       <div class="cell">
-      <span class="cell__place">Róót</span>
+      <div class="cell__head"><span class="cell__place">Róót</span></div>
       <ul><li data-place="Róót" data-dish="Ristuð blómkálssúpa með sítrónu og hvítum pipar"><span class="dish">Ristuð blómkálssúpa með sítrónu og hvítum pipar <span class="tag">Súpa</span></span><span class="desc">Ristað blómkál, laukur og hvítlaukur með sítrónuberki, hvítum pipar og graslauksolíu.</span>
         <details class="rv"><summary>Gefa umsögn</summary><div class="rv__body"></div></details></li><li data-place="Róót" data-dish="Tælenskar kjötbollur í kókossósu með thai-basil og steiktu eggi"><span class="dish">Tælenskar kjötbollur í kókossósu með thai-basil og steiktu eggi <span class="tag">Kjöt</span> <span class="alg">Egg</span></span><span class="desc">Kryddaðar kjötbollur með engifer, hvítlauk og chili í kókossósu með thai-basil og límónu. Bornar fram með jasmínhrísgrjónum og steiktu eggi.</span>
         <details class="rv"><summary>Gefa umsögn</summary><div class="rv__body"></div></details></li><li data-place="Róót" data-dish="Grænmetispaella með ætiþistlum og stórum hvítum baunum"><span class="dish">Grænmetispaella með ætiþistlum og stórum hvítum baunum <span class="tag">Vegan</span></span><span class="desc">Hrísgrjón með ætiþistlum, hvítum baunum, grænum belgbaunum og tómötum, bökuð í krydduðu grænmetissoði. Sítróna og steinselja yfir.</span>
         <details class="rv"><summary>Gefa umsögn</summary><div class="rv__body"></div></details></li><li data-place="Róót" data-dish="Appelsínu- og ólífusalat með klettasalati"><span class="dish">Appelsínu- og ólífusalat með klettasalati <span class="tag">Vegan</span></span><span class="desc">Appelsínur, svartar ólífur, klettasalat og þunnt skorinn rauðlaukur með sherryvinaigrette.</span>
         <details class="rv"><summary>Gefa umsögn</summary><div class="rv__body"></div></details></li></ul>
     </div><div class="cell">
-      <span class="cell__place">Makona</span>
+      <div class="cell__head"><span class="cell__place">Makona</span>
+        <span class="wx" title="Núna við Borgartún 26"><b class="wx__now">–°</b> feels like <span class="wx__feels">–°</span> <span class="wx__sky"></span></span></div>
       <ul><li data-place="Makona" data-dish="Tom Yum súpa"><span class="dish">Tom Yum súpa <span class="tag">SÚPA</span> <span class="alg">Soja</span></span><span class="desc">Tælensk kjúklingasúpa með kókoshnetumjólk og lime</span>
         <details class="rv"><summary>Gefa umsögn</summary><div class="rv__body"></div></details></li><li data-place="Makona" data-dish="Naut Milanese"><span class="dish">Naut Milanese <span class="tag">NAUTAKJÖT</span> <span class="alg">Mjólkurvörur · Glúten · Egg</span></span><span class="desc">með hvítlauks sveppum, parmesan og soðnum kartöflum</span>
         <details class="rv"><summary>Gefa umsögn</summary><div class="rv__body"></div></details></li><li data-place="Makona" data-dish="Kjúklinga tikka marsala"><span class="dish">Kjúklinga tikka marsala <span class="tag">KJÚKLINGUR</span> <span class="alg">Mjólkurvörur · Glúten</span></span><span class="desc">með garam marsala, engifer rót, naan brauði og kókos hrísgrjónum</span>
@@ -146,7 +148,7 @@ a:focus-visible{outline:2px solid var(--accent);outline-offset:3px}
     </section><section class="col" data-weekday="3">
       <h2 class="col__day">Miðvikudagur</h2>
       <div class="cell">
-      <span class="cell__place">Róót</span>
+      <div class="cell__head"><span class="cell__place">Róót</span></div>
       <ul><li data-place="Róót" data-dish="Bygg- og grænmetissúpa með grænkáli og timjan"><span class="dish">Bygg- og grænmetissúpa með grænkáli og timjan <span class="tag">Súpa</span></span><span class="desc">Perlubygg, gulrætur, gulrófur, sellerí og grænkál í kraftmiklu grænmetissoði með timjan og steinselju.</span>
         <details class="rv"><summary>Gefa umsögn</summary><div class="rv__body"></div></details></li><li data-place="Róót" data-dish="Paprikukjúklingur með ristuðum hvítlauk"><span class="dish">Paprikukjúklingur með ristuðum hvítlauk <span class="tag">Kjúklingur</span></span><span class="desc">Ofnbökuð kjúklingalæri í þykkri sósu úr ristuðum paprikum, tómötum og reyktu paprikukryddi, með hvítlauk og lárviðarlaufum. Borin fram með krydduðum bökuðum kartöflum.</span>
         <details class="rv"><summary>Gefa umsögn</summary><div class="rv__body"></div></details></li><li data-place="Róót" data-dish="Stökkbökuð ýsa í súrdeigsbrauðshjúp með dill–skyrssósu"><span class="dish">Stökkbökuð ýsa í súrdeigsbrauðshjúp með dill–skyrssósu <span class="tag">Fiskur</span> <span class="alg">Mjólkurvörur · Glúten</span></span><span class="desc">Ýsa í grófum súrdeigsbrauðshjúp með sítrónuberki og steinselju, borin fram með krydduðum bökuðum kartöflum, dill–skyrssósu og pikluðum agúrkum.</span>
@@ -157,7 +159,8 @@ a:focus-visible{outline:2px solid var(--accent);outline-offset:3px}
         <details class="rv"><summary>Gefa umsögn</summary><div class="rv__body"></div></details></li><li data-place="Róót" data-dish="Rauðrófu- og perusalat með piparrót"><span class="dish">Rauðrófu- og perusalat með piparrót <span class="tag">Vegan</span></span><span class="desc">Bakaðar rauðrófur, fersk pera og spínat með piparrótarvinaigrette og ristuðum sólblómafræjum.</span>
         <details class="rv"><summary>Gefa umsögn</summary><div class="rv__body"></div></details></li></ul>
     </div><div class="cell">
-      <span class="cell__place">Makona</span>
+      <div class="cell__head"><span class="cell__place">Makona</span>
+        <span class="wx" title="Núna við Borgartún 26"><b class="wx__now">–°</b> feels like <span class="wx__feels">–°</span> <span class="wx__sky"></span></span></div>
       <ul><li data-place="Makona" data-dish="Frönsk lauksúpa"><span class="dish">Frönsk lauksúpa <span class="tag">SÚPA</span> <span class="alg">Mjólkurvörur · Glúten</span></span><span class="desc">með osta focaccia stöngum</span>
         <details class="rv"><summary>Gefa umsögn</summary><div class="rv__body"></div></details></li><li data-place="Makona" data-dish="Hægeldað chili con carne"><span class="dish">Hægeldað chili con carne <span class="tag">NAUTAKJÖT</span> <span class="alg">Mjólkurvörur</span></span><span class="desc">eldað yfir nótt með baunum, nachos, sýrðum rjóma og bræddum osti</span>
         <details class="rv"><summary>Gefa umsögn</summary><div class="rv__body"></div></details></li><li data-place="Makona" data-dish="Harissa kjúklingur með feta flatbrauði"><span class="dish">Harissa kjúklingur með feta flatbrauði <span class="tag">KJÚKLINGUR</span> <span class="alg">Mjólkurvörur · Glúten</span></span><span class="desc">,steiktur kjúklingur, hummus, fetaostur, pikklaður laukur og kryddjurta salat</span>
@@ -173,7 +176,7 @@ a:focus-visible{outline:2px solid var(--accent);outline-offset:3px}
     </section><section class="col" data-weekday="4">
       <h2 class="col__day">Fimmtudagur</h2>
       <div class="cell">
-      <span class="cell__place">Róót</span>
+      <div class="cell__head"><span class="cell__place">Róót</span></div>
       <ul><li data-place="Róót" data-dish="Svartbaunasúpa með ristuðum tómötum og chipotle"><span class="dish">Svartbaunasúpa með ristuðum tómötum og chipotle <span class="tag">Súpa</span></span><span class="desc">Svartar baunir, ristaðir tómatar og laukur með broddkúmeni, mildum chipotle og límónu. Ferskur kóríander yfir.</span>
         <details class="rv"><summary>Gefa umsögn</summary><div class="rv__body"></div></details></li><li data-place="Róót" data-dish="Taco-hlaðborð með appelsínuhægelduðum grís"><span class="dish">Taco-hlaðborð með appelsínuhægelduðum grís <span class="tag">Svínakjöt</span> <span class="alg">Glúten</span></span><span class="desc">Rifið grísakjöt með appelsínu, hvítlauk og ancho-chili, borið fram á mjúkum maístortillum. Með ristuðu ananassalsa, avókadókremi, pikluðum rauðlauk, límónu, salsa verde og pico de gallo.</span>
         <details class="rv"><summary>Gefa umsögn</summary><div class="rv__body"></div></details></li><li data-place="Róót" data-dish="Fisktacos með kryddristuðum karfa og ananassalsa"><span class="dish">Fisktacos með kryddristuðum karfa og ananassalsa <span class="tag">Fiskur</span> <span class="alg">Glúten</span></span><span class="desc">Ofnristaður karfi með ancho-chili, broddkúmeni og límónu, borinn fram á mjúkum maístortillum með ristuðu ananassalsa, avókadókremi, pikluðum rauðlauk, salsa verde og pico de gallo.</span>
@@ -181,7 +184,8 @@ a:focus-visible{outline:2px solid var(--accent);outline-offset:3px}
         <details class="rv"><summary>Gefa umsögn</summary><div class="rv__body"></div></details></li><li data-place="Róót" data-dish="Hnúðkáls- og radísusalat með límónu"><span class="dish">Hnúðkáls- og radísusalat með límónu <span class="tag">Vegan</span></span><span class="desc">Stökkir hnúðkálsstrimlar, radísur og vorlaukur með límónu, ferskum kóríander og ristuðum graskersfræjum.</span>
         <details class="rv"><summary>Gefa umsögn</summary><div class="rv__body"></div></details></li></ul>
     </div><div class="cell">
-      <span class="cell__place">Makona</span>
+      <div class="cell__head"><span class="cell__place">Makona</span>
+        <span class="wx" title="Núna við Borgartún 26"><b class="wx__now">–°</b> feels like <span class="wx__feels">–°</span> <span class="wx__sky"></span></span></div>
       <ul><li data-place="Makona" data-dish="Ítölsk tómatsúpa"><span class="dish">Ítölsk tómatsúpa <span class="tag">SÚPA</span> <span class="alg">Mjólkurvörur · Glúten</span></span><span class="desc">með ostabrauði og balsamík</span>
         <details class="rv"><summary>Gefa umsögn</summary><div class="rv__body"></div></details></li><li data-place="Makona" data-dish="Ofnbakaðar fiskibollur"><span class="dish">Ofnbakaðar fiskibollur <span class="tag">FISKUR</span> <span class="alg">Mjólkurvörur · Glúten · Egg</span></span><span class="desc">,kartöflumús og rjóma-sítrónusósa með dilli</span>
         <details class="rv"><summary>Gefa umsögn</summary><div class="rv__body"></div></details></li><li data-place="Makona" data-dish="Karabískur jerk kjúklingur"><span class="dish">Karabískur jerk kjúklingur <span class="tag">KJÚKLINGUR</span> <span class="alg">Mjólkurvörur</span></span><span class="desc">,ristaður maís og mangó, svartbauna salsa , sítrónu og hunangs- og chili mæjónes</span>
@@ -191,7 +195,7 @@ a:focus-visible{outline:2px solid var(--accent);outline-offset:3px}
     </section><section class="col" data-weekday="5">
       <h2 class="col__day">Föstudagur</h2>
       <div class="cell">
-      <span class="cell__place">Róót</span>
+      <div class="cell__head"><span class="cell__place">Róót</span></div>
       <ul><li data-place="Róót" data-dish="Maíssúpa með ristuðum lauk og salvíu"><span class="dish">Maíssúpa með ristuðum lauk og salvíu <span class="tag">Súpa</span></span><span class="desc">Sætmaís og ristaður laukur með hvítum pipar, salvíuolíu og brenndum maískornum.</span>
         <details class="rv"><summary>Gefa umsögn</summary><div class="rv__body"></div></details></li><li data-place="Róót" data-dish="Stökkbakaður kjúklingur með chili–hunangi"><span class="dish">Stökkbakaður kjúklingur með chili–hunangi <span class="tag">Kjúklingur</span> <span class="alg">Mjólkurvörur</span></span><span class="desc">Safarík kjúklingalæri í stökkum kryddhjúp með chili–hunangsgljáa. Borin fram með bökuðum kartöflubátum, súrum gúrkum og graslauks–súrmjólkursósu.</span>
         <details class="rv"><summary>Gefa umsögn</summary><div class="rv__body"></div></details></li><li data-place="Róót" data-dish="Makkarónubaka með graskerskremi, spergilkáli og veganosti"><span class="dish">Makkarónubaka með graskerskremi, spergilkáli og veganosti <span class="tag">Vegan</span> <span class="alg">Mjólkurvörur</span></span><span class="desc">Makkarónur í ristuðu graskers- og sólblómafrækremi með spergilkáli, hvítlauk og salvíu, bakaðar með veganosti undir stökkri kryddjurtamylsnu.</span>
@@ -199,7 +203,8 @@ a:focus-visible{outline:2px solid var(--accent);outline-offset:3px}
         <details class="rv"><summary>Gefa umsögn</summary><div class="rv__body"></div></details></li><li data-place="Róót" data-dish="Súkkulaði- og appelsínukaka með söltu karamellukremi"><span class="dish">Súkkulaði- og appelsínukaka með söltu karamellukremi <span class="alg">Glúten</span></span><span class="desc">Safarík dökk súkkulaðikaka með appelsínuberki, mjúku karamellukremi og sjávarsalti.</span>
         <details class="rv"><summary>Gefa umsögn</summary><div class="rv__body"></div></details></li></ul>
     </div><div class="cell">
-      <span class="cell__place">Makona</span>
+      <div class="cell__head"><span class="cell__place">Makona</span>
+        <span class="wx" title="Núna við Borgartún 26"><b class="wx__now">–°</b> feels like <span class="wx__feels">–°</span> <span class="wx__sky"></span></span></div>
       <ul><li data-place="Makona" data-dish="Rjómalöguð grænmetissúpa með súrdeigsbrauði"><span class="dish">Rjómalöguð grænmetissúpa með súrdeigsbrauði <span class="tag">SÚPA</span> <span class="alg">Mjólkurvörur · Glúten</span></span>
         <details class="rv"><summary>Gefa umsögn</summary><div class="rv__body"></div></details></li><li data-place="Makona" data-dish="Brioche hamborgari með hreinu nautakjöti"><span class="dish">Brioche hamborgari með hreinu nautakjöti <span class="tag">NAUTAKJÖT</span> <span class="alg">Mjólkurvörur · Glúten</span></span><span class="desc">með bráðnum cheddarosti, rauðlaukssultu, sterku mæjónesi, súrum gúrkum, tómötum og salati, parmesan-kartöflur með trufflumæjónesi</span>
         <details class="rv"><summary>Gefa umsögn</summary><div class="rv__body"></div></details></li><li data-place="Makona" data-dish="Sæt kartöflu baka"><span class="dish">Sæt kartöflu baka <span class="tag">VEGAN</span> <span class="alg">Soja</span></span><span class="desc">með mexíkóskum baunum og brúnum hrísgrjónum</span>
@@ -228,11 +233,13 @@ fetch('https://api.open-meteo.com/v1/forecast?latitude=64.1456&longitude=-21.904
   .then(r => { if (!r.ok) throw new Error('open-meteo ' + r.status); return r.json(); })
   .then(({ current: c }) => {
     const deg = v => Math.round(v) + '°';
-    document.getElementById('wx-now').textContent = deg(c.temperature_2m);
-    document.getElementById('wx-feels').textContent = deg(c.apparent_temperature);
-    document.getElementById('wx-sky').textContent = WX[c.weather_code] ?? '';
+    document.querySelectorAll('.wx').forEach(w => {
+      w.querySelector('.wx__now').textContent = deg(c.temperature_2m);
+      w.querySelector('.wx__feels').textContent = deg(c.apparent_temperature);
+      w.querySelector('.wx__sky').textContent = WX[c.weather_code] ?? '';
+    });
   })
-  .catch(e => { console.error('weather unavailable', e); document.getElementById('wx').hidden = true; });
+  .catch(e => { console.error('weather unavailable', e); document.querySelectorAll('.wx').forEach(w => { w.hidden = true; }); });
 if (location.hostname.endsWith('github.io')) {
   fetch('https://abacus.jasoncameron.dev/hit/pieceofgit-vikumatsedill/pageviews')
     .then(r => r.json())
