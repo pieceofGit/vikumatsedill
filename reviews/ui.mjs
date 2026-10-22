@@ -102,7 +102,9 @@ function render(li) {
       r.dish !== dish ? el('span', { className: 'rv__similar', textContent: `Um svipaðan rétt: ${r.dish}` }) : null,
       mine[r.id] ? deleteButton(r) : null,
     ))) : null,
-    form(place, dish)].filter(Boolean));
+    found.some(r => mine[r.id] && r.dish === dish)
+      ? el('span', { className: 'rv__meta', textContent: 'Þú hefur gefið þessum rétti einkunn.' })
+      : form(place, dish)].filter(Boolean));
 }
 
 function renderAll() {
