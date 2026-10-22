@@ -1,0 +1,41 @@
+name: Harvest lunch reviews
+
+# ntfy.sh drops cached messages after ~12h; hourly keeps a wide margin even
+# when GitHub delays scheduled runs.
+on:
+  schedule:
+    - cron: '23 * * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: reviews
+  cancel-in-progress: false
+
+jobs:
+  harvest:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+
+      - name: Harvest
+        run: node reviews/harvest.mjs
+
+      - name: Commit if changed
+        run: |
+          if git diff --quiet -- reviews.json; then
+            echo "Reviews unchanged; nothing to commit."
+            exit 0
+          fi
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add reviews.json
+          git commit -m "Harvest reviews [skip ci]"
+          git pull --rebase
+          git push
