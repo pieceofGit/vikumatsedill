@@ -68,14 +68,14 @@ function render(li) {
     summary.textContent = `★ ${avg.toLocaleString('is-IS', { maximumFractionDigits: 1 })} · ${found.length} ${found.length === 1 ? 'umsögn' : 'umsagnir'}`;
   } else summary.textContent = 'Gefa umsögn';
 
-  body.replaceChildren(
+  body.replaceChildren(...[
     found.length ? el('ul', { className: 'rv__list' }, ...found.map(r => el('li', {},
       el('span', { className: 'rv__stars', textContent: stars(r.rating), title: `${r.rating} af 5` }),
       r.text ? el('q', { textContent: r.text }) : null,
       el('span', { className: 'rv__meta', textContent: [r.name, fmtDate(r.time)].filter(Boolean).join(' · ') }),
       r.dish !== dish ? el('span', { className: 'rv__similar', textContent: `Um svipaðan rétt: ${r.dish}` }) : null,
     ))) : null,
-    form(place, dish));
+    form(place, dish)].filter(Boolean));
 }
 
 function renderAll() {
