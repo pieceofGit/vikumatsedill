@@ -1,1 +1,202 @@
-[]
+[
+ {
+  "id": "etofZ1HctKEq",
+  "time": 1792668778,
+  "place": "Róót",
+  "dish": "Svartbaunasúpa með ristuðum tómötum og chipotle",
+  "rating": 4,
+  "text": "fínasta súpa. Fær þrjár stjörnur en fékk líka hrós fyrir buxurnar þannig að bumpar það upp í fjórar stjörnur",
+  "name": "Fjölnir",
+  "key": "c3253f63a1d03a36b56a36ec721e8872764268a1a4d82620fb0df31676ff39e4"
+ },
+ {
+  "id": "HB8yVeVhHNgW",
+  "time": 1792669081,
+  "place": "Makona",
+  "dish": "Karabískur jerk kjúklingur",
+  "rating": 4,
+  "text": "Gott fyrir utan fjöðrina",
+  "name": "",
+  "key": "0098607c229f9eba58a0aab58a7675bdee910b71434b45a94d5113cd6923ce4b"
+ },
+ {
+  "id": "XGEToTzkwxfZ",
+  "time": 1792670150,
+  "place": "Makona",
+  "dish": "Karabískur jerk kjúklingur",
+  "rating": 4,
+  "text": "",
+  "name": "",
+  "key": "9f12ba04c216e33d2bd21bc38dd2da38f567e63804e77cc0e8c43e0816a99e1c"
+ },
+ {
+  "id": "NHjlQzH5LKFP",
+  "time": 1792670180,
+  "place": "Róót",
+  "dish": "Taco-hlaðborð með appelsínuhægelduðum grís",
+  "rating": 2,
+  "text": "",
+  "name": "",
+  "key": "a855fb1e4c0e9560b8c1b7730448e586970df6a16f78a4d09299588ef3d3238d"
+ },
+ {
+  "id": "OxngAFghcXNk",
+  "time": 1792670580,
+  "place": "Makona",
+  "dish": "Ofnbakaðar fiskibollur",
+  "rating": 3,
+  "text": "",
+  "name": "",
+  "key": "4677b2257424522db88ded04918242c0a291796a0f65b9a315054de7a8ae9c81"
+ },
+ {
+  "id": "9fys8DU7NXtf",
+  "time": 1792670587,
+  "place": "Makona",
+  "dish": "Karabískur jerk kjúklingur",
+  "rating": 4,
+  "text": "Fínasti kjúklingur",
+  "name": "Orri",
+  "key": "e48cea3ea75b63591c0ef731ab6c41e25dd23198f6da23d5458bf95014529e03"
+ },
+ {
+  "id": "aKDJNIoKsQsY",
+  "time": 1792670587,
+  "place": "Róót",
+  "dish": "Hnúðkáls- og radísusalat með límónu",
+  "rating": 3,
+  "text": "",
+  "name": "",
+  "key": "5b89a5b86399a65d77613a33f3f3dd1fbf2155cf236522afe369a6611776e671"
+ },
+ {
+  "id": "dnXsG31uiWOj",
+  "time": 1792670618,
+  "place": "Róót",
+  "dish": "Svartbaunasúpa með ristuðum tómötum og chipotle",
+  "rating": 4,
+  "text": "",
+  "name": "",
+  "key": "b5e53b8b338f1986b97dcdf0989cdf51e50d16708143446c7fa7c1614bdc6ba0"
+ },
+ {
+  "id": "vxpbN4axl792",
+  "time": 1792670631,
+  "place": "Róót",
+  "dish": "Gulrótarsúpa með appelsínu og kardimommum",
+  "rating": 5,
+  "text": "",
+  "name": "",
+  "key": "bda5d40b63f740146fc06e31ea2763e08b28a6057dfdfdc106c7c183ff5ca9b9"
+ },
+ {
+  "id": "AWVsJV8iaheF",
+  "time": 1792671761,
+  "place": "Róót",
+  "dish": "Fisktacos með kryddristuðum karfa og ananassalsa",
+  "rating": 3,
+  "text": "Fiskurinn betri en kjötið",
+  "name": "Fjölnir",
+  "key": "772846fe5e2cebbe039e1672a1cae3e3a323ed5f704b02c0b91f3f5191f02e60"
+ },
+ {
+  "id": "ZENtLqI3fCZD",
+  "time": 1792672206,
+  "place": "Róót",
+  "dish": "Taco-hlaðborð með appelsínuhægelduðum grís",
+  "rating": 2,
+  "text": "",
+  "name": "Fjölnir",
+  "key": "42247964c55d4c805d50e7cb63a8b02f83d696d62acbe03adc07a830fa3badbc"
+ },
+ {
+  "id": "ZcYktl2Z8t5s",
+  "time": 1792672506,
+  "place": "Róót",
+  "dish": "Taco-hlaðborð með appelsínuhægelduðum grís",
+  "rating": 3,
+  "text": "",
+  "name": "",
+  "key": "8d919431f30ce88b55cacbe24b2ec85b2d8e027b88e9fe0169c6ac788126faba"
+ },
+ {
+  "id": "3UJLCo7BIa9U",
+  "time": 1792672554,
+  "place": "Róót",
+  "dish": "Taco-hlaðborð með appelsínuhægelduðum grís",
+  "rating": 3,
+  "text": "Maískökurnar ekkert spes",
+  "name": "Salsa Stefán",
+  "key": "34576b703bd077c7b0d0b23c253f2002de5a2f58e49fd16995d92842bb6868c5"
+ },
+ {
+  "id": "9M0uDs2HUD5X",
+  "time": 1792672572,
+  "place": "Makona",
+  "dish": "Ofnbakaðar fiskibollur",
+  "rating": 5,
+  "text": "",
+  "name": "",
+  "key": "f123289d83d6332849cb515d48b03d5b9dd0f0329d62561e5950717c3ac3e75e"
+ },
+ {
+  "id": "a0cTmvHmNekR",
+  "time": 1792677805,
+  "place": "Róót",
+  "dish": "Taco-hlaðborð með appelsínuhægelduðum grís",
+  "rating": 3,
+  "text": "Hvar er OStaSÓSan?",
+  "name": "",
+  "key": "54e8c788e0dcd744b8c366cc4b8a446107ad5fd7989fffd2f4564c94f4c736ca"
+ },
+ {
+  "id": "LYvWOSU3sae2",
+  "time": 1792677830,
+  "place": "Róót",
+  "dish": "Bygg- og grænmetissúpa með grænkáli og timjan",
+  "rating": 4,
+  "text": "Kom á óvart, mjög fín",
+  "name": "",
+  "key": "5284c5c7cc2ce13f1b5930ed68fdf9374049b8190efb748af810820aa4440f4b"
+ },
+ {
+  "id": "q3uqxIfFGpjN",
+  "time": 1792677856,
+  "place": "Róót",
+  "dish": "Stökkbökuð ýsa í súrdeigsbrauðshjúp með dill–skyrssósu",
+  "rating": 3,
+  "text": "Fínasti fiskur. Hefði mátt vera betri sósa með",
+  "name": "",
+  "key": "0bad54dd62a3ec1e86f300c35d97bbe1410b57213af2c034bfbe6974c1a85ab0"
+ },
+ {
+  "id": "7u16aci0JO19",
+  "time": 1792678193,
+  "place": "Makona",
+  "dish": "Karabískur jerk kjúklingur",
+  "rating": 4,
+  "text": "",
+  "name": "",
+  "key": "b68c71c2f652429550f2d82039cf0e0bfe65c2cd23c910d7aba47b9c5b59b091"
+ },
+ {
+  "id": "du4HXI6J50O5",
+  "time": 1792678297,
+  "place": "Róót",
+  "dish": "Taco-hlaðborð með appelsínuhægelduðum grís",
+  "rating": 5,
+  "text": "alveg eins og amma gerði þetta",
+  "name": "Unnar",
+  "key": "558aedc7d229604cbac1231992f3ae315bfc4342e9d23788e5209addf7fdde6c"
+ },
+ {
+  "id": "CyIiY59F8kKH",
+  "time": 1792681579,
+  "place": "Makona",
+  "dish": "Hægeldað chili con carne",
+  "rating": 4,
+  "text": "",
+  "name": "",
+  "key": "35d7b1a141cd18454d723b562aa2158fd6584f7d759bbe72b5b9edc0efe4e2e0"
+ }
+]
