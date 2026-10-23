@@ -198,5 +198,25 @@
   "text": "",
   "name": "",
   "key": "35d7b1a141cd18454d723b562aa2158fd6584f7d759bbe72b5b9edc0efe4e2e0"
+ },
+ {
+  "id": "QEVNeUyzBjWT",
+  "time": 1792757675,
+  "place": "Makona",
+  "dish": "Brioche hamborgari með hreinu nautakjöti",
+  "rating": 3,
+  "text": "",
+  "name": "Fjölnir",
+  "key": "1aeeca40b3a35f9881ba72f5e0e8061a6866d11acd44bdcf3b8a65eb255a5468"
+ },
+ {
+  "id": "LtvenhGkDzqg",
+  "time": 1792757687,
+  "place": "Makona",
+  "dish": "Eplabaka með þreyttum rjóma",
+  "rating": 3,
+  "text": "",
+  "name": "Fjölnir",
+  "key": "58ebb520e40603b50cea785955f5dcffb2012cf5071e04a52be63d71b14a23e6"
  }
 ]
