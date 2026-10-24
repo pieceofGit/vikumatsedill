@@ -1,11 +1,11 @@
 {
- "generatedAt": "2026-10-23T10:06:04.317Z",
+ "generatedAt": "2026-10-24T09:33:33.592Z",
  "fantasy": {
   "name": "How's it Goink?",
-  "gameweek": 7,
+  "gameweek": 8,
   "teamId": 6870928,
   "overallPoints": 469,
-  "overallRank": 1500588
+  "overallRank": 1527882
  },
  "season": "2026-27",
  "timezone": "Atlantic/Reykjavik",
@@ -410,18 +410,18 @@
       "benched": false
      },
      {
+      "name": "Cherki",
+      "position": "MID",
+      "captain": false,
+      "vice": false,
+      "benched": false
+     },
+     {
       "name": "Haaland",
       "position": "FWD",
       "captain": true,
       "vice": false,
       "benched": false
-     },
-     {
-      "name": "Cherki",
-      "position": "MID",
-      "captain": false,
-      "vice": false,
-      "benched": true
      }
     ],
     "away": [],
@@ -472,18 +472,18 @@
       "benched": false
      },
      {
-      "name": "Yalcouyé",
-      "position": "MID",
-      "captain": false,
-      "vice": false,
-      "benched": false
-     },
-     {
       "name": "Kostoulas",
       "position": "FWD",
       "captain": false,
       "vice": false,
       "benched": false
+     },
+     {
+      "name": "Yalcouyé",
+      "position": "MID",
+      "captain": false,
+      "vice": false,
+      "benched": true
      }
     ],
     "away": [],
@@ -649,18 +649,18 @@
       "benched": false
      },
      {
+      "name": "Cherki",
+      "position": "MID",
+      "captain": false,
+      "vice": false,
+      "benched": false
+     },
+     {
       "name": "Haaland",
       "position": "FWD",
       "captain": true,
       "vice": false,
       "benched": false
-     },
-     {
-      "name": "Cherki",
-      "position": "MID",
-      "captain": false,
-      "vice": false,
-      "benched": true
      }
     ],
     "count": 3
@@ -945,18 +945,18 @@
       "benched": false
      },
      {
-      "name": "Yalcouyé",
-      "position": "MID",
-      "captain": false,
-      "vice": false,
-      "benched": false
-     },
-     {
       "name": "Kostoulas",
       "position": "FWD",
       "captain": false,
       "vice": false,
       "benched": false
+     },
+     {
+      "name": "Yalcouyé",
+      "position": "MID",
+      "captain": false,
+      "vice": false,
+      "benched": true
      }
     ],
     "count": 6
@@ -1273,18 +1273,18 @@
       "benched": false
      },
      {
+      "name": "Cherki",
+      "position": "MID",
+      "captain": false,
+      "vice": false,
+      "benched": false
+     },
+     {
       "name": "Haaland",
       "position": "FWD",
       "captain": true,
       "vice": false,
       "benched": false
-     },
-     {
-      "name": "Cherki",
-      "position": "MID",
-      "captain": false,
-      "vice": false,
-      "benched": true
      }
     ],
     "away": [],
@@ -1335,18 +1335,18 @@
       "benched": false
      },
      {
-      "name": "Yalcouyé",
-      "position": "MID",
-      "captain": false,
-      "vice": false,
-      "benched": false
-     },
-     {
       "name": "Kostoulas",
       "position": "FWD",
       "captain": false,
       "vice": false,
       "benched": false
+     },
+     {
+      "name": "Yalcouyé",
+      "position": "MID",
+      "captain": false,
+      "vice": false,
+      "benched": true
      }
     ],
     "away": [],
@@ -1779,18 +1779,18 @@
       "benched": false
      },
      {
+      "name": "Cherki",
+      "position": "MID",
+      "captain": false,
+      "vice": false,
+      "benched": false
+     },
+     {
       "name": "Haaland",
       "position": "FWD",
       "captain": true,
       "vice": false,
       "benched": false
-     },
-     {
-      "name": "Cherki",
-      "position": "MID",
-      "captain": false,
-      "vice": false,
-      "benched": true
      }
     ],
     "count": 3
@@ -2793,18 +2793,18 @@
       "benched": false
      },
      {
-      "name": "Yalcouyé",
-      "position": "MID",
-      "captain": false,
-      "vice": false,
-      "benched": false
-     },
-     {
       "name": "Kostoulas",
       "position": "FWD",
       "captain": false,
       "vice": false,
       "benched": false
+     },
+     {
+      "name": "Yalcouyé",
+      "position": "MID",
+      "captain": false,
+      "vice": false,
+      "benched": true
      }
     ],
     "count": 3
@@ -2859,18 +2859,18 @@
       "benched": false
      },
      {
+      "name": "Cherki",
+      "position": "MID",
+      "captain": false,
+      "vice": false,
+      "benched": false
+     },
+     {
       "name": "Haaland",
       "position": "FWD",
       "captain": true,
       "vice": false,
       "benched": false
-     },
-     {
-      "name": "Cherki",
-      "position": "MID",
-      "captain": false,
-      "vice": false,
-      "benched": true
      }
     ],
     "count": 3
@@ -3118,18 +3118,18 @@
       "benched": false
      },
      {
-      "name": "Yalcouyé",
-      "position": "MID",
-      "captain": false,
-      "vice": false,
-      "benched": false
-     },
-     {
       "name": "Kostoulas",
       "position": "FWD",
       "captain": false,
       "vice": false,
       "benched": false
+     },
+     {
+      "name": "Yalcouyé",
+      "position": "MID",
+      "captain": false,
+      "vice": false,
+      "benched": true
      }
     ],
     "away": [
@@ -3363,18 +3363,18 @@
       "benched": false
      },
      {
+      "name": "Cherki",
+      "position": "MID",
+      "captain": false,
+      "vice": false,
+      "benched": false
+     },
+     {
       "name": "Haaland",
       "position": "FWD",
       "captain": true,
       "vice": false,
       "benched": false
-     },
-     {
-      "name": "Cherki",
-      "position": "MID",
-      "captain": false,
-      "vice": false,
-      "benched": true
      }
     ],
     "away": [],
@@ -3522,18 +3522,18 @@
       "benched": false
      },
      {
-      "name": "Yalcouyé",
-      "position": "MID",
-      "captain": false,
-      "vice": false,
-      "benched": false
-     },
-     {
       "name": "Kostoulas",
       "position": "FWD",
       "captain": false,
       "vice": false,
       "benched": false
+     },
+     {
+      "name": "Yalcouyé",
+      "position": "MID",
+      "captain": false,
+      "vice": false,
+      "benched": true
      }
     ],
     "count": 3
@@ -3837,18 +3837,18 @@
       "benched": false
      },
      {
+      "name": "Cherki",
+      "position": "MID",
+      "captain": false,
+      "vice": false,
+      "benched": false
+     },
+     {
       "name": "Haaland",
       "position": "FWD",
       "captain": true,
       "vice": false,
       "benched": false
-     },
-     {
-      "name": "Cherki",
-      "position": "MID",
-      "captain": false,
-      "vice": false,
-      "benched": true
      }
     ],
     "count": 3
@@ -4530,18 +4530,18 @@
       "benched": false
      },
      {
+      "name": "Cherki",
+      "position": "MID",
+      "captain": false,
+      "vice": false,
+      "benched": false
+     },
+     {
       "name": "Haaland",
       "position": "FWD",
       "captain": true,
       "vice": false,
       "benched": false
-     },
-     {
-      "name": "Cherki",
-      "position": "MID",
-      "captain": false,
-      "vice": false,
-      "benched": true
      }
     ],
     "away": [],
@@ -4810,18 +4810,18 @@
       "benched": false
      },
      {
+      "name": "Cherki",
+      "position": "MID",
+      "captain": false,
+      "vice": false,
+      "benched": false
+     },
+     {
       "name": "Haaland",
       "position": "FWD",
       "captain": true,
       "vice": false,
       "benched": false
-     },
-     {
-      "name": "Cherki",
-      "position": "MID",
-      "captain": false,
-      "vice": false,
-      "benched": true
      }
     ],
     "away": [],
@@ -5021,18 +5021,18 @@
       "benched": false
      },
      {
-      "name": "Yalcouyé",
-      "position": "MID",
-      "captain": false,
-      "vice": false,
-      "benched": false
-     },
-     {
       "name": "Kostoulas",
       "position": "FWD",
       "captain": false,
       "vice": false,
       "benched": false
+     },
+     {
+      "name": "Yalcouyé",
+      "position": "MID",
+      "captain": false,
+      "vice": false,
+      "benched": true
      }
     ],
     "away": [],
@@ -5385,18 +5385,18 @@
       "benched": false
      },
      {
+      "name": "Cherki",
+      "position": "MID",
+      "captain": false,
+      "vice": false,
+      "benched": false
+     },
+     {
       "name": "Haaland",
       "position": "FWD",
       "captain": true,
       "vice": false,
       "benched": false
-     },
-     {
-      "name": "Cherki",
-      "position": "MID",
-      "captain": false,
-      "vice": false,
-      "benched": true
      }
     ],
     "away": [],
@@ -5984,18 +5984,18 @@
       "benched": false
      },
      {
+      "name": "Cherki",
+      "position": "MID",
+      "captain": false,
+      "vice": false,
+      "benched": false
+     },
+     {
       "name": "Haaland",
       "position": "FWD",
       "captain": true,
       "vice": false,
       "benched": false
-     },
-     {
-      "name": "Cherki",
-      "position": "MID",
-      "captain": false,
-      "vice": false,
-      "benched": true
      }
     ],
     "count": 3
@@ -6206,18 +6206,18 @@
       "benched": false
      },
      {
-      "name": "Yalcouyé",
-      "position": "MID",
-      "captain": false,
-      "vice": false,
-      "benched": false
-     },
-     {
       "name": "Kostoulas",
       "position": "FWD",
       "captain": false,
       "vice": false,
       "benched": false
+     },
+     {
+      "name": "Yalcouyé",
+      "position": "MID",
+      "captain": false,
+      "vice": false,
+      "benched": true
      }
     ],
     "count": 3
@@ -6487,18 +6487,18 @@
       "benched": false
      },
      {
+      "name": "Cherki",
+      "position": "MID",
+      "captain": false,
+      "vice": false,
+      "benched": false
+     },
+     {
       "name": "Haaland",
       "position": "FWD",
       "captain": true,
       "vice": false,
       "benched": false
-     },
-     {
-      "name": "Cherki",
-      "position": "MID",
-      "captain": false,
-      "vice": false,
-      "benched": true
      }
     ],
     "away": [
@@ -6510,18 +6510,18 @@
       "benched": false
      },
      {
-      "name": "Yalcouyé",
-      "position": "MID",
-      "captain": false,
-      "vice": false,
-      "benched": false
-     },
-     {
       "name": "Kostoulas",
       "position": "FWD",
       "captain": false,
       "vice": false,
       "benched": false
+     },
+     {
+      "name": "Yalcouyé",
+      "position": "MID",
+      "captain": false,
+      "vice": false,
+      "benched": true
      }
     ],
     "count": 6
@@ -7506,18 +7506,18 @@
       "benched": false
      },
      {
+      "name": "Cherki",
+      "position": "MID",
+      "captain": false,
+      "vice": false,
+      "benched": false
+     },
+     {
       "name": "Haaland",
       "position": "FWD",
       "captain": true,
       "vice": false,
       "benched": false
-     },
-     {
-      "name": "Cherki",
-      "position": "MID",
-      "captain": false,
-      "vice": false,
-      "benched": true
      }
     ],
     "count": 3
@@ -7736,18 +7736,18 @@
       "benched": false
      },
      {
+      "name": "Cherki",
+      "position": "MID",
+      "captain": false,
+      "vice": false,
+      "benched": false
+     },
+     {
       "name": "Haaland",
       "position": "FWD",
       "captain": true,
       "vice": false,
       "benched": false
-     },
-     {
-      "name": "Cherki",
-      "position": "MID",
-      "captain": false,
-      "vice": false,
-      "benched": true
      }
     ],
     "count": 3
@@ -8042,18 +8042,18 @@
       "benched": false
      },
      {
-      "name": "Yalcouyé",
-      "position": "MID",
-      "captain": false,
-      "vice": false,
-      "benched": false
-     },
-     {
       "name": "Kostoulas",
       "position": "FWD",
       "captain": false,
       "vice": false,
       "benched": false
+     },
+     {
+      "name": "Yalcouyé",
+      "position": "MID",
+      "captain": false,
+      "vice": false,
+      "benched": true
      }
     ],
     "away": [],
@@ -8197,18 +8197,18 @@
       "benched": false
      },
      {
+      "name": "Cherki",
+      "position": "MID",
+      "captain": false,
+      "vice": false,
+      "benched": false
+     },
+     {
       "name": "Haaland",
       "position": "FWD",
       "captain": true,
       "vice": false,
       "benched": false
-     },
-     {
-      "name": "Cherki",
-      "position": "MID",
-      "captain": false,
-      "vice": false,
-      "benched": true
      }
     ],
     "away": [],
@@ -8335,18 +8335,18 @@
       "benched": false
      },
      {
-      "name": "Yalcouyé",
-      "position": "MID",
-      "captain": false,
-      "vice": false,
-      "benched": false
-     },
-     {
       "name": "Kostoulas",
       "position": "FWD",
       "captain": false,
       "vice": false,
       "benched": false
+     },
+     {
+      "name": "Yalcouyé",
+      "position": "MID",
+      "captain": false,
+      "vice": false,
+      "benched": true
      }
     ],
     "count": 4
@@ -8839,18 +8839,18 @@
       "benched": false
      },
      {
+      "name": "Cherki",
+      "position": "MID",
+      "captain": false,
+      "vice": false,
+      "benched": false
+     },
+     {
       "name": "Haaland",
       "position": "FWD",
       "captain": true,
       "vice": false,
       "benched": false
-     },
-     {
-      "name": "Cherki",
-      "position": "MID",
-      "captain": false,
-      "vice": false,
-      "benched": true
      }
     ],
     "away": [],
@@ -9467,18 +9467,18 @@
       "benched": false
      },
      {
+      "name": "Cherki",
+      "position": "MID",
+      "captain": false,
+      "vice": false,
+      "benched": false
+     },
+     {
       "name": "Haaland",
       "position": "FWD",
       "captain": true,
       "vice": false,
       "benched": false
-     },
-     {
-      "name": "Cherki",
-      "position": "MID",
-      "captain": false,
-      "vice": false,
-      "benched": true
      }
     ],
     "count": 6
@@ -9691,18 +9691,18 @@
       "benched": false
      },
      {
-      "name": "Yalcouyé",
-      "position": "MID",
-      "captain": false,
-      "vice": false,
-      "benched": false
-     },
-     {
       "name": "Kostoulas",
       "position": "FWD",
       "captain": false,
       "vice": false,
       "benched": false
+     },
+     {
+      "name": "Yalcouyé",
+      "position": "MID",
+      "captain": false,
+      "vice": false,
+      "benched": true
      }
     ],
     "away": [
@@ -10155,18 +10155,18 @@
       "benched": false
      },
      {
+      "name": "Cherki",
+      "position": "MID",
+      "captain": false,
+      "vice": false,
+      "benched": false
+     },
+     {
       "name": "Haaland",
       "position": "FWD",
       "captain": true,
       "vice": false,
       "benched": false
-     },
-     {
-      "name": "Cherki",
-      "position": "MID",
-      "captain": false,
-      "vice": false,
-      "benched": true
      }
     ],
     "away": [],
@@ -10264,18 +10264,18 @@
       "benched": false
      },
      {
-      "name": "Yalcouyé",
-      "position": "MID",
-      "captain": false,
-      "vice": false,
-      "benched": false
-     },
-     {
       "name": "Kostoulas",
       "position": "FWD",
       "captain": false,
       "vice": false,
       "benched": false
+     },
+     {
+      "name": "Yalcouyé",
+      "position": "MID",
+      "captain": false,
+      "vice": false,
+      "benched": true
      }
     ],
     "count": 3
@@ -10576,18 +10576,18 @@
       "benched": false
      },
      {
+      "name": "Cherki",
+      "position": "MID",
+      "captain": false,
+      "vice": false,
+      "benched": false
+     },
+     {
       "name": "Haaland",
       "position": "FWD",
       "captain": true,
       "vice": false,
       "benched": false
-     },
-     {
-      "name": "Cherki",
-      "position": "MID",
-      "captain": false,
-      "vice": false,
-      "benched": true
      }
     ],
     "count": 3
@@ -10713,18 +10713,18 @@
       "benched": false
      },
      {
-      "name": "Yalcouyé",
-      "position": "MID",
-      "captain": false,
-      "vice": false,
-      "benched": false
-     },
-     {
       "name": "Kostoulas",
       "position": "FWD",
       "captain": false,
       "vice": false,
       "benched": false
+     },
+     {
+      "name": "Yalcouyé",
+      "position": "MID",
+      "captain": false,
+      "vice": false,
+      "benched": true
      }
     ],
     "count": 3
@@ -11014,18 +11014,18 @@
       "benched": false
      },
      {
+      "name": "Cherki",
+      "position": "MID",
+      "captain": false,
+      "vice": false,
+      "benched": false
+     },
+     {
       "name": "Haaland",
       "position": "FWD",
       "captain": true,
       "vice": false,
       "benched": false
-     },
-     {
-      "name": "Cherki",
-      "position": "MID",
-      "captain": false,
-      "vice": false,
-      "benched": true
      }
     ],
     "count": 3
@@ -11705,18 +11705,18 @@
       "benched": false
      },
      {
-      "name": "Yalcouyé",
-      "position": "MID",
-      "captain": false,
-      "vice": false,
-      "benched": false
-     },
-     {
       "name": "Kostoulas",
       "position": "FWD",
       "captain": false,
       "vice": false,
       "benched": false
+     },
+     {
+      "name": "Yalcouyé",
+      "position": "MID",
+      "captain": false,
+      "vice": false,
+      "benched": true
      }
     ],
     "away": [],
@@ -11905,18 +11905,18 @@
       "benched": false
      },
      {
+      "name": "Cherki",
+      "position": "MID",
+      "captain": false,
+      "vice": false,
+      "benched": false
+     },
+     {
       "name": "Haaland",
       "position": "FWD",
       "captain": true,
       "vice": false,
       "benched": false
-     },
-     {
-      "name": "Cherki",
-      "position": "MID",
-      "captain": false,
-      "vice": false,
-      "benched": true
      }
     ],
     "away": [
@@ -12089,18 +12089,18 @@
       "benched": false
      },
      {
-      "name": "Yalcouyé",
-      "position": "MID",
-      "captain": false,
-      "vice": false,
-      "benched": false
-     },
-     {
       "name": "Kostoulas",
       "position": "FWD",
       "captain": false,
       "vice": false,
       "benched": false
+     },
+     {
+      "name": "Yalcouyé",
+      "position": "MID",
+      "captain": false,
+      "vice": false,
+      "benched": true
      }
     ],
     "away": [],
@@ -12226,18 +12226,18 @@
       "benched": false
      },
      {
+      "name": "Cherki",
+      "position": "MID",
+      "captain": false,
+      "vice": false,
+      "benched": false
+     },
+     {
       "name": "Haaland",
       "position": "FWD",
       "captain": true,
       "vice": false,
       "benched": false
-     },
-     {
-      "name": "Cherki",
-      "position": "MID",
-      "captain": false,
-      "vice": false,
-      "benched": true
      }
     ],
     "away": [
@@ -12597,18 +12597,18 @@
       "benched": false
      },
      {
-      "name": "Yalcouyé",
-      "position": "MID",
-      "captain": false,
-      "vice": false,
-      "benched": false
-     },
-     {
       "name": "Kostoulas",
       "position": "FWD",
       "captain": false,
       "vice": false,
       "benched": false
+     },
+     {
+      "name": "Yalcouyé",
+      "position": "MID",
+      "captain": false,
+      "vice": false,
+      "benched": true
      }
     ],
     "count": 3
@@ -12787,18 +12787,18 @@
       "benched": false
      },
      {
+      "name": "Cherki",
+      "position": "MID",
+      "captain": false,
+      "vice": false,
+      "benched": false
+     },
+     {
       "name": "Haaland",
       "position": "FWD",
       "captain": true,
       "vice": false,
       "benched": false
-     },
-     {
-      "name": "Cherki",
-      "position": "MID",
-      "captain": false,
-      "vice": false,
-      "benched": true
      }
     ],
     "count": 4
@@ -13054,18 +13054,18 @@
       "benched": false
      },
      {
-      "name": "Yalcouyé",
-      "position": "MID",
-      "captain": false,
-      "vice": false,
-      "benched": false
-     },
-     {
       "name": "Kostoulas",
       "position": "FWD",
       "captain": false,
       "vice": false,
       "benched": false
+     },
+     {
+      "name": "Yalcouyé",
+      "position": "MID",
+      "captain": false,
+      "vice": false,
+      "benched": true
      }
     ],
     "count": 4
@@ -13113,18 +13113,18 @@
       "benched": false
      },
      {
+      "name": "Cherki",
+      "position": "MID",
+      "captain": false,
+      "vice": false,
+      "benched": false
+     },
+     {
       "name": "Haaland",
       "position": "FWD",
       "captain": true,
       "vice": false,
       "benched": false
-     },
-     {
-      "name": "Cherki",
-      "position": "MID",
-      "captain": false,
-      "vice": false,
-      "benched": true
      }
     ],
     "count": 3
@@ -13507,18 +13507,18 @@
       "benched": false
      },
      {
-      "name": "Yalcouyé",
-      "position": "MID",
-      "captain": false,
-      "vice": false,
-      "benched": false
-     },
-     {
       "name": "Kostoulas",
       "position": "FWD",
       "captain": false,
       "vice": false,
       "benched": false
+     },
+     {
+      "name": "Yalcouyé",
+      "position": "MID",
+      "captain": false,
+      "vice": false,
+      "benched": true
      }
     ],
     "away": [],
@@ -13873,18 +13873,18 @@
       "benched": false
      },
      {
+      "name": "Cherki",
+      "position": "MID",
+      "captain": false,
+      "vice": false,
+      "benched": false
+     },
+     {
       "name": "Haaland",
       "position": "FWD",
       "captain": true,
       "vice": false,
       "benched": false
-     },
-     {
-      "name": "Cherki",
-      "position": "MID",
-      "captain": false,
-      "vice": false,
-      "benched": true
      }
     ],
     "away": [
@@ -13999,18 +13999,18 @@
       "benched": false
      },
      {
-      "name": "Yalcouyé",
-      "position": "MID",
-      "captain": false,
-      "vice": false,
-      "benched": false
-     },
-     {
       "name": "Kostoulas",
       "position": "FWD",
       "captain": false,
       "vice": false,
       "benched": false
+     },
+     {
+      "name": "Yalcouyé",
+      "position": "MID",
+      "captain": false,
+      "vice": false,
+      "benched": true
      }
     ],
     "away": [],
@@ -14307,18 +14307,18 @@
       "benched": false
      },
      {
+      "name": "Cherki",
+      "position": "MID",
+      "captain": false,
+      "vice": false,
+      "benched": false
+     },
+     {
       "name": "Haaland",
       "position": "FWD",
       "captain": true,
       "vice": false,
       "benched": false
-     },
-     {
-      "name": "Cherki",
-      "position": "MID",
-      "captain": false,
-      "vice": false,
-      "benched": true
      }
     ],
     "count": 3
@@ -14447,18 +14447,18 @@
       "benched": false
      },
      {
+      "name": "Cherki",
+      "position": "MID",
+      "captain": false,
+      "vice": false,
+      "benched": false
+     },
+     {
       "name": "Haaland",
       "position": "FWD",
       "captain": true,
       "vice": false,
       "benched": false
-     },
-     {
-      "name": "Cherki",
-      "position": "MID",
-      "captain": false,
-      "vice": false,
-      "benched": true
      }
     ],
     "away": [],
@@ -14566,18 +14566,18 @@
       "benched": false
      },
      {
-      "name": "Yalcouyé",
-      "position": "MID",
-      "captain": false,
-      "vice": false,
-      "benched": false
-     },
-     {
       "name": "Kostoulas",
       "position": "FWD",
       "captain": false,
       "vice": false,
       "benched": false
+     },
+     {
+      "name": "Yalcouyé",
+      "position": "MID",
+      "captain": false,
+      "vice": false,
+      "benched": true
      }
     ],
     "count": 3
@@ -15367,18 +15367,18 @@
       "benched": false
      },
      {
+      "name": "Cherki",
+      "position": "MID",
+      "captain": false,
+      "vice": false,
+      "benched": false
+     },
+     {
       "name": "Haaland",
       "position": "FWD",
       "captain": true,
       "vice": false,
       "benched": false
-     },
-     {
-      "name": "Cherki",
-      "position": "MID",
-      "captain": false,
-      "vice": false,
-      "benched": true
      }
     ],
     "count": 3
@@ -15990,18 +15990,18 @@
       "benched": false
      },
      {
-      "name": "Yalcouyé",
-      "position": "MID",
-      "captain": false,
-      "vice": false,
-      "benched": false
-     },
-     {
       "name": "Kostoulas",
       "position": "FWD",
       "captain": false,
       "vice": false,
       "benched": false
+     },
+     {
+      "name": "Yalcouyé",
+      "position": "MID",
+      "captain": false,
+      "vice": false,
+      "benched": true
      }
     ],
     "away": [
@@ -16013,18 +16013,18 @@
       "benched": false
      },
      {
+      "name": "Cherki",
+      "position": "MID",
+      "captain": false,
+      "vice": false,
+      "benched": false
+     },
+     {
       "name": "Haaland",
       "position": "FWD",
       "captain": true,
       "vice": false,
       "benched": false
-     },
-     {
-      "name": "Cherki",
-      "position": "MID",
-      "captain": false,
-      "vice": false,
-      "benched": true
      }
     ],
     "count": 6
@@ -16538,18 +16538,18 @@
       "benched": false
      },
      {
+      "name": "Cherki",
+      "position": "MID",
+      "captain": false,
+      "vice": false,
+      "benched": false
+     },
+     {
       "name": "Haaland",
       "position": "FWD",
       "captain": true,
       "vice": false,
       "benched": false
-     },
-     {
-      "name": "Cherki",
-      "position": "MID",
-      "captain": false,
-      "vice": false,
-      "benched": true
      }
     ],
     "away": [],
@@ -16969,18 +16969,18 @@
       "benched": false
      },
      {
-      "name": "Yalcouyé",
-      "position": "MID",
-      "captain": false,
-      "vice": false,
-      "benched": false
-     },
-     {
       "name": "Kostoulas",
       "position": "FWD",
       "captain": false,
       "vice": false,
       "benched": false
+     },
+     {
+      "name": "Yalcouyé",
+      "position": "MID",
+      "captain": false,
+      "vice": false,
+      "benched": true
      }
     ],
     "count": 4
@@ -17238,18 +17238,18 @@
       "benched": false
      },
      {
+      "name": "Cherki",
+      "position": "MID",
+      "captain": false,
+      "vice": false,
+      "benched": false
+     },
+     {
       "name": "Haaland",
       "position": "FWD",
       "captain": true,
       "vice": false,
       "benched": false
-     },
-     {
-      "name": "Cherki",
-      "position": "MID",
-      "captain": false,
-      "vice": false,
-      "benched": true
      }
     ],
     "away": [
@@ -17415,18 +17415,18 @@
       "benched": false
      },
      {
-      "name": "Yalcouyé",
-      "position": "MID",
-      "captain": false,
-      "vice": false,
-      "benched": false
-     },
-     {
       "name": "Kostoulas",
       "position": "FWD",
       "captain": false,
       "vice": false,
       "benched": false
+     },
+     {
+      "name": "Yalcouyé",
+      "position": "MID",
+      "captain": false,
+      "vice": false,
+      "benched": true
      }
     ],
     "away": [
@@ -17639,18 +17639,18 @@
       "benched": false
      },
      {
+      "name": "Cherki",
+      "position": "MID",
+      "captain": false,
+      "vice": false,
+      "benched": false
+     },
+     {
       "name": "Haaland",
       "position": "FWD",
       "captain": true,
       "vice": false,
       "benched": false
-     },
-     {
-      "name": "Cherki",
-      "position": "MID",
-      "captain": false,
-      "vice": false,
-      "benched": true
      }
     ],
     "count": 3
@@ -18116,18 +18116,18 @@
       "benched": false
      },
      {
+      "name": "Cherki",
+      "position": "MID",
+      "captain": false,
+      "vice": false,
+      "benched": false
+     },
+     {
       "name": "Haaland",
       "position": "FWD",
       "captain": true,
       "vice": false,
       "benched": false
-     },
-     {
-      "name": "Cherki",
-      "position": "MID",
-      "captain": false,
-      "vice": false,
-      "benched": true
      }
     ],
     "count": 4
@@ -18179,18 +18179,18 @@
       "benched": false
      },
      {
-      "name": "Yalcouyé",
-      "position": "MID",
-      "captain": false,
-      "vice": false,
-      "benched": false
-     },
-     {
       "name": "Kostoulas",
       "position": "FWD",
       "captain": false,
       "vice": false,
       "benched": false
+     },
+     {
+      "name": "Yalcouyé",
+      "position": "MID",
+      "captain": false,
+      "vice": false,
+      "benched": true
      }
     ],
     "count": 3
@@ -18296,18 +18296,18 @@
       "benched": false
      },
      {
+      "name": "Cherki",
+      "position": "MID",
+      "captain": false,
+      "vice": false,
+      "benched": false
+     },
+     {
       "name": "Haaland",
       "position": "FWD",
       "captain": true,
       "vice": false,
       "benched": false
-     },
-     {
-      "name": "Cherki",
-      "position": "MID",
-      "captain": false,
-      "vice": false,
-      "benched": true
      }
     ],
     "away": [
@@ -18629,18 +18629,18 @@
       "benched": false
      },
      {
-      "name": "Yalcouyé",
-      "position": "MID",
-      "captain": false,
-      "vice": false,
-      "benched": false
-     },
-     {
       "name": "Kostoulas",
       "position": "FWD",
       "captain": false,
       "vice": false,
       "benched": false
+     },
+     {
+      "name": "Yalcouyé",
+      "position": "MID",
+      "captain": false,
+      "vice": false,
+      "benched": true
      }
     ],
     "away": [
@@ -18859,18 +18859,18 @@
       "benched": false
      },
      {
-      "name": "Yalcouyé",
-      "position": "MID",
-      "captain": false,
-      "vice": false,
-      "benched": false
-     },
-     {
       "name": "Kostoulas",
       "position": "FWD",
       "captain": false,
       "vice": false,
       "benched": false
+     },
+     {
+      "name": "Yalcouyé",
+      "position": "MID",
+      "captain": false,
+      "vice": false,
+      "benched": true
      }
     ],
     "count": 3
@@ -19178,18 +19178,18 @@
       "benched": false
      },
      {
+      "name": "Cherki",
+      "position": "MID",
+      "captain": false,
+      "vice": false,
+      "benched": false
+     },
+     {
       "name": "Haaland",
       "position": "FWD",
       "captain": true,
       "vice": false,
       "benched": false
-     },
-     {
-      "name": "Cherki",
-      "position": "MID",
-      "captain": false,
-      "vice": false,
-      "benched": true
      }
     ],
     "count": 4
@@ -19326,18 +19326,18 @@
       "benched": false
      },
      {
+      "name": "Cherki",
+      "position": "MID",
+      "captain": false,
+      "vice": false,
+      "benched": false
+     },
+     {
       "name": "Haaland",
       "position": "FWD",
       "captain": true,
       "vice": false,
       "benched": false
-     },
-     {
-      "name": "Cherki",
-      "position": "MID",
-      "captain": false,
-      "vice": false,
-      "benched": true
      }
     ],
     "away": [],
@@ -19559,18 +19559,18 @@
       "benched": false
      },
      {
-      "name": "Yalcouyé",
-      "position": "MID",
-      "captain": false,
-      "vice": false,
-      "benched": false
-     },
-     {
       "name": "Kostoulas",
       "position": "FWD",
       "captain": false,
       "vice": false,
       "benched": false
+     },
+     {
+      "name": "Yalcouyé",
+      "position": "MID",
+      "captain": false,
+      "vice": false,
+      "benched": true
      }
     ],
     "away": [],
@@ -19711,18 +19711,18 @@
       "benched": false
      },
      {
-      "name": "Yalcouyé",
-      "position": "MID",
-      "captain": false,
-      "vice": false,
-      "benched": false
-     },
-     {
       "name": "Kostoulas",
       "position": "FWD",
       "captain": false,
       "vice": false,
       "benched": false
+     },
+     {
+      "name": "Yalcouyé",
+      "position": "MID",
+      "captain": false,
+      "vice": false,
+      "benched": true
      }
     ],
     "count": 3
@@ -19881,18 +19881,18 @@
       "benched": false
      },
      {
+      "name": "Cherki",
+      "position": "MID",
+      "captain": false,
+      "vice": false,
+      "benched": false
+     },
+     {
       "name": "Haaland",
       "position": "FWD",
       "captain": true,
       "vice": false,
       "benched": false
-     },
-     {
-      "name": "Cherki",
-      "position": "MID",
-      "captain": false,
-      "vice": false,
-      "benched": true
      }
     ],
     "count": 3
@@ -20217,18 +20217,18 @@
       "benched": false
      },
      {
-      "name": "Yalcouyé",
-      "position": "MID",
-      "captain": false,
-      "vice": false,
-      "benched": false
-     },
-     {
       "name": "Kostoulas",
       "position": "FWD",
       "captain": false,
       "vice": false,
       "benched": false
+     },
+     {
+      "name": "Yalcouyé",
+      "position": "MID",
+      "captain": false,
+      "vice": false,
+      "benched": true
      }
     ],
     "away": [],
@@ -20280,18 +20280,18 @@
       "benched": false
      },
      {
+      "name": "Cherki",
+      "position": "MID",
+      "captain": false,
+      "vice": false,
+      "benched": false
+     },
+     {
       "name": "Haaland",
       "position": "FWD",
       "captain": true,
       "vice": false,
       "benched": false
-     },
-     {
-      "name": "Cherki",
-      "position": "MID",
-      "captain": false,
-      "vice": false,
-      "benched": true
      }
     ],
     "away": [],
@@ -20937,18 +20937,18 @@
       "benched": false
      },
      {
+      "name": "Cherki",
+      "position": "MID",
+      "captain": false,
+      "vice": false,
+      "benched": false
+     },
+     {
       "name": "Haaland",
       "position": "FWD",
       "captain": true,
       "vice": false,
       "benched": false
-     },
-     {
-      "name": "Cherki",
-      "position": "MID",
-      "captain": false,
-      "vice": false,
-      "benched": true
      }
     ],
     "count": 3
@@ -21074,18 +21074,18 @@
       "benched": false
      },
      {
-      "name": "Yalcouyé",
-      "position": "MID",
-      "captain": false,
-      "vice": false,
-      "benched": false
-     },
-     {
       "name": "Kostoulas",
       "position": "FWD",
       "captain": false,
       "vice": false,
       "benched": false
+     },
+     {
+      "name": "Yalcouyé",
+      "position": "MID",
+      "captain": false,
+      "vice": false,
+      "benched": true
      }
     ],
     "count": 3
@@ -21132,18 +21132,18 @@
       "benched": false
      },
      {
-      "name": "Yalcouyé",
-      "position": "MID",
-      "captain": false,
-      "vice": false,
-      "benched": false
-     },
-     {
       "name": "Kostoulas",
       "position": "FWD",
       "captain": false,
       "vice": false,
       "benched": false
+     },
+     {
+      "name": "Yalcouyé",
+      "position": "MID",
+      "captain": false,
+      "vice": false,
+      "benched": true
      }
     ],
     "away": [
@@ -21453,18 +21453,18 @@
       "benched": false
      },
      {
+      "name": "Cherki",
+      "position": "MID",
+      "captain": false,
+      "vice": false,
+      "benched": false
+     },
+     {
       "name": "Haaland",
       "position": "FWD",
       "captain": true,
       "vice": false,
       "benched": false
-     },
-     {
-      "name": "Cherki",
-      "position": "MID",
-      "captain": false,
-      "vice": false,
-      "benched": true
      }
     ],
     "away": [],
@@ -21625,18 +21625,18 @@
       "benched": false
      },
      {
+      "name": "Cherki",
+      "position": "MID",
+      "captain": false,
+      "vice": false,
+      "benched": false
+     },
+     {
       "name": "Haaland",
       "position": "FWD",
       "captain": true,
       "vice": false,
       "benched": false
-     },
-     {
-      "name": "Cherki",
-      "position": "MID",
-      "captain": false,
-      "vice": false,
-      "benched": true
      }
     ],
     "count": 6
@@ -21833,18 +21833,18 @@
       "benched": false
      },
      {
-      "name": "Yalcouyé",
-      "position": "MID",
-      "captain": false,
-      "vice": false,
-      "benched": false
-     },
-     {
       "name": "Kostoulas",
       "position": "FWD",
       "captain": false,
       "vice": false,
       "benched": false
+     },
+     {
+      "name": "Yalcouyé",
+      "position": "MID",
+      "captain": false,
+      "vice": false,
+      "benched": true
      }
     ],
     "count": 3
@@ -22121,18 +22121,18 @@
       "benched": false
      },
      {
-      "name": "Yalcouyé",
-      "position": "MID",
-      "captain": false,
-      "vice": false,
-      "benched": false
-     },
-     {
       "name": "Kostoulas",
       "position": "FWD",
       "captain": false,
       "vice": false,
       "benched": false
+     },
+     {
+      "name": "Yalcouyé",
+      "position": "MID",
+      "captain": false,
+      "vice": false,
+      "benched": true
      }
     ],
     "away": [],
@@ -22262,18 +22262,18 @@
       "benched": false
      },
      {
+      "name": "Cherki",
+      "position": "MID",
+      "captain": false,
+      "vice": false,
+      "benched": false
+     },
+     {
       "name": "Haaland",
       "position": "FWD",
       "captain": true,
       "vice": false,
       "benched": false
-     },
-     {
-      "name": "Cherki",
-      "position": "MID",
-      "captain": false,
-      "vice": false,
-      "benched": true
      }
     ],
     "away": [],
@@ -22558,18 +22558,18 @@
       "benched": false
      },
      {
+      "name": "Cherki",
+      "position": "MID",
+      "captain": false,
+      "vice": false,
+      "benched": false
+     },
+     {
       "name": "Haaland",
       "position": "FWD",
       "captain": true,
       "vice": false,
       "benched": false
-     },
-     {
-      "name": "Cherki",
-      "position": "MID",
-      "captain": false,
-      "vice": false,
-      "benched": true
      }
     ],
     "away": [],
@@ -22820,18 +22820,18 @@
       "benched": false
      },
      {
-      "name": "Yalcouyé",
-      "position": "MID",
-      "captain": false,
-      "vice": false,
-      "benched": false
-     },
-     {
       "name": "Kostoulas",
       "position": "FWD",
       "captain": false,
       "vice": false,
       "benched": false
+     },
+     {
+      "name": "Yalcouyé",
+      "position": "MID",
+      "captain": false,
+      "vice": false,
+      "benched": true
      }
     ],
     "away": [],
@@ -23119,18 +23119,18 @@
       "benched": false
      },
      {
-      "name": "Yalcouyé",
-      "position": "MID",
-      "captain": false,
-      "vice": false,
-      "benched": false
-     },
-     {
       "name": "Kostoulas",
       "position": "FWD",
       "captain": false,
       "vice": false,
       "benched": false
+     },
+     {
+      "name": "Yalcouyé",
+      "position": "MID",
+      "captain": false,
+      "vice": false,
+      "benched": true
      }
     ],
     "count": 3
@@ -23393,18 +23393,18 @@
       "benched": false
      },
      {
+      "name": "Cherki",
+      "position": "MID",
+      "captain": false,
+      "vice": false,
+      "benched": false
+     },
+     {
       "name": "Haaland",
       "position": "FWD",
       "captain": true,
       "vice": false,
       "benched": false
-     },
-     {
-      "name": "Cherki",
-      "position": "MID",
-      "captain": false,
-      "vice": false,
-      "benched": true
      }
     ],
     "count": 3
@@ -23682,18 +23682,18 @@
       "benched": false
      },
      {
-      "name": "Yalcouyé",
-      "position": "MID",
-      "captain": false,
-      "vice": false,
-      "benched": false
-     },
-     {
       "name": "Kostoulas",
       "position": "FWD",
       "captain": false,
       "vice": false,
       "benched": false
+     },
+     {
+      "name": "Yalcouyé",
+      "position": "MID",
+      "captain": false,
+      "vice": false,
+      "benched": true
      }
     ],
     "away": [],
@@ -23925,18 +23925,18 @@
       "benched": false
      },
      {
+      "name": "Cherki",
+      "position": "MID",
+      "captain": false,
+      "vice": false,
+      "benched": false
+     },
+     {
       "name": "Haaland",
       "position": "FWD",
       "captain": true,
       "vice": false,
       "benched": false
-     },
-     {
-      "name": "Cherki",
-      "position": "MID",
-      "captain": false,
-      "vice": false,
-      "benched": true
      }
     ],
     "away": [],
@@ -24040,18 +24040,18 @@
       "benched": false
      },
      {
-      "name": "Yalcouyé",
-      "position": "MID",
-      "captain": false,
-      "vice": false,
-      "benched": false
-     },
-     {
       "name": "Kostoulas",
       "position": "FWD",
       "captain": false,
       "vice": false,
       "benched": false
+     },
+     {
+      "name": "Yalcouyé",
+      "position": "MID",
+      "captain": false,
+      "vice": false,
+      "benched": true
      }
     ],
     "count": 6
@@ -24300,18 +24300,18 @@
       "benched": false
      },
      {
+      "name": "Cherki",
+      "position": "MID",
+      "captain": false,
+      "vice": false,
+      "benched": false
+     },
+     {
       "name": "Haaland",
       "position": "FWD",
       "captain": true,
       "vice": false,
       "benched": false
-     },
-     {
-      "name": "Cherki",
-      "position": "MID",
-      "captain": false,
-      "vice": false,
-      "benched": true
      }
     ],
     "count": 3

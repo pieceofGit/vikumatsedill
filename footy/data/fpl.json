@@ -1,16 +1,16 @@
 {
- "fetchedAt": "2026-10-23T10:06:03.686Z",
+ "fetchedAt": "2026-10-24T09:33:32.826Z",
  "teamId": 6870928,
  "name": "How's it Goink?",
  "manager": "Fjölnir Þrastarson",
- "gameweek": 7,
- "gameweekName": "Gameweek 7",
- "picksFrom": 7,
+ "gameweek": 8,
+ "gameweekName": "Gameweek 8",
+ "picksFrom": 8,
  "bank": 0.5,
- "squadValue": 103,
+ "squadValue": 103.6,
  "overallPoints": 469,
- "overallRank": 1500588,
- "gameweekPoints": 82,
+ "overallRank": 1527882,
+ "gameweekPoints": 0,
  "players": [
   {
    "id": 1,
@@ -20,7 +20,7 @@
    "captain": false,
    "vice": false,
    "benched": false,
-   "points": 9
+   "points": 0
   },
   {
    "id": 8,
@@ -30,7 +30,7 @@
    "captain": false,
    "vice": false,
    "benched": false,
-   "points": 6
+   "points": 0
   },
   {
    "id": 115,
@@ -40,7 +40,7 @@
    "captain": false,
    "vice": false,
    "benched": false,
-   "points": 6
+   "points": 0
   },
   {
    "id": 391,
@@ -60,27 +60,17 @@
    "captain": false,
    "vice": false,
    "benched": false,
-   "points": 2
+   "points": 0
   },
   {
-   "id": 605,
-   "name": "Yalcouyé",
-   "club": "Brighton",
+   "id": 399,
+   "name": "Cherki",
+   "club": "Man City",
    "position": "MID",
    "captain": false,
    "vice": false,
    "benched": false,
-   "points": 1
-  },
-  {
-   "id": 15,
-   "name": "Ødegaard",
-   "club": "Arsenal",
-   "position": "MID",
-   "captain": false,
-   "vice": false,
-   "benched": false,
-   "points": 3
+   "points": 0
   },
   {
    "id": 154,
@@ -90,7 +80,17 @@
    "captain": false,
    "vice": false,
    "benched": false,
-   "points": 2
+   "points": 0
+  },
+  {
+   "id": 15,
+   "name": "Ødegaard",
+   "club": "Arsenal",
+   "position": "MID",
+   "captain": false,
+   "vice": false,
+   "benched": false,
+   "points": 0
   },
   {
    "id": 411,
@@ -100,7 +100,7 @@
    "captain": true,
    "vice": false,
    "benched": false,
-   "points": 13
+   "points": 0
   },
   {
    "id": 165,
@@ -110,7 +110,7 @@
    "captain": false,
    "vice": true,
    "benched": false,
-   "points": 2
+   "points": 0
   },
   {
    "id": 138,
@@ -120,7 +120,7 @@
    "captain": false,
    "vice": false,
    "benched": false,
-   "points": 12
+   "points": 0
   },
   {
    "id": 497,
@@ -133,9 +133,9 @@
    "points": 0
   },
   {
-   "id": 399,
-   "name": "Cherki",
-   "club": "Man City",
+   "id": 605,
+   "name": "Yalcouyé",
+   "club": "Brighton",
    "position": "MID",
    "captain": false,
    "vice": false,
@@ -150,7 +150,7 @@
    "captain": false,
    "vice": false,
    "benched": true,
-   "points": 4
+   "points": 0
   },
   {
    "id": 279,
@@ -160,7 +160,7 @@
    "captain": false,
    "vice": false,
    "benched": true,
-   "points": 2
+   "points": 0
   }
  ]
 }
