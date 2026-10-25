@@ -19,3 +19,15 @@ browser's "Add to Home Screen" to install it like an app.
   phone notification) deletes the ones still waiting.
 
 Everything else stays in `localStorage` on the device. No build step.
+
+## Siri
+
+These links start or finish a machine, so a Shortcut with an **Open URLs**
+action can do it by voice:
+
+- `…/laundry/?start=washer` or `?start=dryer`: uses that machine's last length
+- `…/laundry/?start=washer&min=90`: a set length in minutes
+- `…/laundry/?finish=washer`: emptied, which stops the reminders
+
+Shortcuts opens links in Safari, whose storage is separate from the
+home-screen app, so use the page in Safari if you start machines with Siri.

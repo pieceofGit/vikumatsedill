@@ -128,5 +128,18 @@ code{background:var(--accent-soft);border-radius:3px;padding:.05rem .3rem;font-s
       </div>
     </div>
   </details>
+
+  <details class="settings">
+    <summary>Start with Siri</summary>
+    <div class="body">
+      <p>A shortcut can open a link that starts a machine, so you can say “Hey Siri, washer on”. In the <b>Shortcuts</b> app: tap <b>+</b>, add the <b>Open URLs</b> action, paste a link from below and name the shortcut what you want to say to Siri.</p>
+      <p>Washer on: <code data-link="?start=washer"></code><br>
+         Dryer on: <code data-link="?start=dryer"></code><br>
+         Washer emptied: <code data-link="?finish=washer"></code><br>
+         Dryer emptied: <code data-link="?finish=dryer"></code></p>
+      <p>A start link uses the length you used last time for that machine. To set it, add <code>&amp;min=</code> and the number of minutes, e.g. <code data-link="?start=washer&amp;min=90"></code>.</p>
+      <p>Shortcuts opens these links in Safari, which keeps its timers apart from the home-screen app. If you use Siri, use this page in Safari too, and turn on phone reminders there so the nagging still reaches you when the screen locks.</p>
+    </div>
+  </details>
 </div>
 <script type="module" src="app.js"></script>
