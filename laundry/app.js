@@ -170,6 +170,7 @@ function stop(machine) {
   const run = state.machines[machine].run;
   if (!run) return;
   state.machines[machine].run = null;
+  if (run.siri) siriQuietUntil[machine] = Date.now() + 60000;
   save();
   render();
   cancelPhoneReminders(run.topic, seqIds(run));
@@ -250,7 +251,7 @@ function renderCard(machine) {
   if (st === 'running') {
     card.innerHTML = `${head}
       <div class="big" data-countdown></div>
-      <p class="sub">Ready at <b>${clock(run.end)}</b> · started ${clock(run.start)}</p>
+      <p class="sub">Ready at <b>${clock(run.end)}</b> · ${run.siri ? 'started with Siri' : `started ${clock(run.start)}`}</p>
       <div class="row">
         <button type="button" class="secondary" data-act="plus">+5 min</button>
         <button type="button" class="secondary" data-act="stop">Cancel</button>
@@ -383,6 +384,49 @@ function initSiri() {
   renderSiri();
 }
 
+// ---------- picking up runs the Siri shortcut started ----------
+
+// The shortcut never touches this page, so ask ntfy which reminders are still
+// waiting under the shortcut's fixed IDs and show that machine as running.
+const siriQuietUntil = {};
+
+async function syncSiriRuns() {
+  if (!state.ntfy || !state.topic) return;
+  let body;
+  try {
+    const res = await fetch(`${NTFY}/${state.topic}/json?poll=1&sched=1`);
+    if (!res.ok) return;
+    body = await res.text();
+  } catch { return; }
+  const now = Date.now(), every = state.interval * 60000;
+  const pending = {};
+  for (const line of body.split('\n')) {
+    let m;
+    try { m = JSON.parse(line); } catch { continue; }
+    const hit = /^(washer|dryer)-(\d+)$/.exec(m.sequence_id || '');
+    if (m.event !== 'message' || !hit || m.time * 1000 <= now) continue;
+    const at = m.time * 1000, k = +hit[2];
+    if (!pending[hit[1]] || at < pending[hit[1]].at) pending[hit[1]] = { at, k };
+  }
+  let changed = false;
+  for (const machine of Object.keys(MACHINES)) {
+    const ms = state.machines[machine];
+    if (ms.run && !ms.run.siri) continue;           // a run started here wins
+    if ((siriQuietUntil[machine] || 0) > now) continue;
+    const p = pending[machine];
+    if (!p) {
+      // Nothing left on ntfy: the shortcut's run was finished somewhere else.
+      if (ms.run?.siri) { ms.run = null; changed = true; }
+      continue;
+    }
+    const end = p.at - (p.k - 1) * every;            // reminder 1 is the end time
+    if (ms.run?.siri && Math.abs(ms.run.end - end) < 60000) continue;
+    ms.run = { id: machine, siri: true, start: null, end, alerted: Math.max(0, p.k - 1), booked: PHONE_MAX, topic: state.topic };
+    changed = true;
+  }
+  if (changed) { save(); render(); }
+}
+
 // ---------- links from the phone notification and Siri Shortcuts ----------
 
 function handleLink() {
@@ -413,5 +457,7 @@ render();
 handleLink();
 check();
 setInterval(check, 1000);
-document.addEventListener('visibilitychange', () => { if (!document.hidden) check(); });
+syncSiriRuns();
+setInterval(syncSiriRuns, 60000);
+document.addEventListener('visibilitychange', () => { if (!document.hidden) { check(); syncSiriRuns(); } });
 document.addEventListener('pointerdown', unlockAudio, { once: true });
