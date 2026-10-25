@@ -24,6 +24,7 @@ function load() {
   s.ntfy ??= false;
   s.topic ??= 'laundry-' + randomId(12);
   s.machines ??= {};
+  s.history ??= [];
   for (const m of Object.keys(MACHINES)) s.machines[m] ??= { minutes: MACHINES[m].fallback, run: null };
   return s;
 }
@@ -163,6 +164,7 @@ function start(machine, minutes) {
   ms.minutes = minutes;
   const now = Date.now();
   ms.run = { id: `${machine.slice(0, 1)}${randomId(8)}`, start: now, end: now + minutes * 60000, alerted: 0 };
+  logEntry({ id: ms.run.id, machine, start: now, end: ms.run.end });
   save();
   render();
   bookPhoneReminders(machine, ms.run).catch(e => setStatus('ntfy-status', `Phone reminders failed: ${e.message}`));
@@ -173,6 +175,7 @@ function stop(machine) {
   if (!run) return;
   state.machines[machine].run = null;
   if (run.siri) siriQuietUntil[machine] = Date.now() + 60000;
+  closeEntry(machine, run);
   save();
   render();
   cancelPhoneReminders(run.topic, seqIds(run));
@@ -186,7 +189,9 @@ function extend(machine, minutes) {
   unlockAudio();
   // Push the end time out from whichever is later: the old end or now (when it's already done).
   const end = Math.max(old.end, Date.now()) + minutes * 60000;
-  ms.run = { ...old, id: `${machine.slice(0, 1)}${randomId(8)}`, end, alerted: 0, booked: 0 };
+  ms.run = { ...old, id: `${machine.slice(0, 1)}${randomId(8)}`, hid: old.hid || old.id, end, alerted: 0, booked: 0 };
+  const entry = state.history.find(e => e.id === ms.run.hid);
+  if (entry) entry.end = end;
   save();
   render();
   cancelPhoneReminders(old.topic, seqIds(old));
@@ -293,6 +298,7 @@ function check() {
       run.alerted = due;
       save();
       alarm(machine, run, due - 1);
+      if (due === 1) renderHistory();
     }
   }
   render();
@@ -382,6 +388,10 @@ const siriQuietUntil = {};
 
 async function syncSiriRuns() {
   if (!state.ntfy || !state.topic) return;
+  fetch(`${NTFY}/${state.topic}/json?poll=1&since=all`)
+    .then(r => r.ok ? r.text() : '')
+    .then(t => ingestHistory(t.split('\n').flatMap(l => { try { return [JSON.parse(l)]; } catch { return []; } })))
+    .catch(() => {});
   let body;
   try {
     const res = await fetch(`${NTFY}/${state.topic}/json?poll=1&sched=1`);
@@ -417,9 +427,109 @@ async function syncSiriRuns() {
   if (changed) { save(); render(); }
 }
 
+// ---------- history ----------
+
+function logEntry(entry) {
+  const i = state.history.findIndex(e => e.id === entry.id);
+  if (i >= 0) Object.assign(state.history[i], entry);
+  else state.history.push(entry);
+  state.history.sort((a, b) => (a.start || a.end) - (b.start || b.end));
+  if (state.history.length > 300) state.history.splice(0, state.history.length - 300);
+  renderHistory();
+}
+
+// The newest load of this machine that hasn't been emptied or cancelled yet.
+function openEntry(machine, before = Infinity) {
+  return state.history.filter(e => e.machine === machine && !e.emptied && !e.cancelled && (e.start || e.end) <= before).at(-1);
+}
+
+// Marks a load emptied (or cancelled, if it wasn't done yet). Siri loads may
+// not have an entry if this device never saw the "timer set" message.
+function closeEntry(machine, run, at = Date.now()) {
+  let entry = run && state.history.find(e => e.id === (run.hid || run.id)) || openEntry(machine, at);
+  if (!entry && run?.siri) {
+    entry = { id: `siri-${machine}-${Math.floor(run.end / 1000)}`, machine, start: null, end: run.end, siri: true };
+    state.history.push(entry);
+  }
+  if (!entry || entry.emptied || entry.cancelled) return false;
+  if (at < entry.end) entry.cancelled = at;
+  else entry.emptied = at;
+  renderHistory();
+  return true;
+}
+
+// The Siri workflow's "timer set" and "emptied" messages carry the details
+// in their click link (…#h=start.washer.<start>.<end> / #h=done.washer.<at>),
+// so loads started or finished by voice land in the history too. ntfy.sh
+// keeps messages for 12 hours, so this catches up whenever the page is opened.
+function ingestHistory(messages) {
+  let changed = false;
+  for (const m of messages.sort((a, b) => a.time - b.time)) {
+    const h = /#h=(start|done)\.(washer|dryer)\.(\d+)(?:\.(\d+))?$/.exec(m.click || '');
+    if (!h) continue;
+    const [, kind, machine, a, b] = h;
+    if (kind === 'start') {
+      const id = `siri-${machine}-${a}`;
+      if (state.history.some(e => e.id === id)) continue;
+      // An earlier Siri load of this machine that was never marked emptied
+      // gets replaced by this one, the same way its reminders were.
+      const prev = openEntry(machine);
+      if (prev?.siri) prev.cancelled = +a * 1000;
+      state.history.push({ id, machine, start: +a * 1000, end: +b * 1000, siri: true });
+      changed = true;
+    } else if (closeEntry(machine, null, +a * 1000)) {
+      changed = true;
+    }
+  }
+  if (changed) { state.history.sort((x, y) => (x.start || x.end) - (y.start || y.end)); save(); renderHistory(); }
+}
+
+const fmtDay = t => new Date(t).toLocaleDateString('en-GB', { weekday: 'short', day: 'numeric', month: 'short' });
+const fmtDur = ms => { const m = Math.round(ms / 60000); return m < 60 ? `${m} min` : `${Math.floor(m / 60)} h${m % 60 ? ` ${m % 60} min` : ''}`; };
+
+function renderHistory() {
+  const box = document.getElementById('history-list');
+  if (!box) return;
+  const rows = state.history.slice().reverse().slice(0, showAllHistory ? 300 : 12);
+  document.getElementById('history-more').hidden = showAllHistory || state.history.length <= 12;
+  if (!rows.length) { box.innerHTML = '<li class="empty">Nothing yet. Loads show up here once you start one.</li>'; return; }
+  const now = Date.now();
+  box.innerHTML = rows.map(e => {
+    const { name, emoji } = MACHINES[e.machine];
+    const running = !e.emptied && !e.cancelled && state.machines[e.machine].run && (state.machines[e.machine].run.hid || state.machines[e.machine].run.id) === e.id;
+    let status;
+    if (e.cancelled) status = `<span class="h-muted">cancelled ${clock(e.cancelled)}</span>`;
+    else if (e.emptied) status = `emptied ${clock(e.emptied)} <span class="h-muted">· waited ${fmtDur(Math.max(0, e.emptied - e.end))}</span>`;
+    else if (e.end > now) status = `<span class="h-live">running</span>`;
+    else if (running || e.siri) status = `<span class="h-alert">waiting since ${clock(e.end)}</span>`;
+    else status = '<span class="h-muted">not marked emptied</span>';
+    const len = e.start ? fmtDur(e.end - e.start) : '';
+    return `<li><span class="h-what"><span aria-hidden="true">${emoji}</span> ${name}${e.siri ? ' <span class="h-tag">Siri</span>' : ''}</span>
+      <span class="h-when">${fmtDay(e.start || e.end)} · ${e.start ? `${clock(e.start)}–` : 'ready '}${clock(e.end)}${len ? ` <span class="h-muted">(${len})</span>` : ''}</span>
+      <span class="h-status">${status}</span></li>`;
+  }).join('');
+}
+
+let showAllHistory = false;
+function initHistory() {
+  document.getElementById('history-more').addEventListener('click', () => { showAllHistory = true; renderHistory(); });
+  document.getElementById('history-clear').addEventListener('click', () => {
+    if (!confirm('Clear the whole laundry history on this device?')) return;
+    state.history = [];
+    save();
+    renderHistory();
+  });
+  renderHistory();
+}
+
 // ---------- links from the phone notification and Siri Shortcuts ----------
 
 function handleLink() {
+  // Tapping a "timer set"/"emptied" notification opens the page with its details in the hash.
+  if (location.hash.startsWith('#h=')) {
+    ingestHistory([{ time: 0, click: location.href }]);
+    history.replaceState(null, '', location.pathname + location.search);
+  }
   const q = new URLSearchParams(location.search);
   const stopArg = q.get('stop'), finishArg = q.get('finish'), startArg = q.get('start');
   if (!stopArg && !finishArg && !startArg) return;
@@ -439,15 +549,17 @@ function handleLink() {
   if (topic && id && +count > 0) {
     cancelPhoneReminders(topic, Array.from({ length: Math.min(+count, PHONE_MAX) }, (_, i) => `${id}-${i}`));
   }
+  if (MACHINES[finishArg] && closeEntry(finishArg, null)) { save(); renderHistory(); }
 }
 
 initSettings();
 initSiri();
+initHistory();
 render();
 handleLink();
 check();
 setInterval(check, 1000);
 syncSiriRuns();
-setInterval(syncSiriRuns, 60000);
+setInterval(() => { syncSiriRuns(); renderHistory(); }, 60000);
 document.addEventListener('visibilitychange', () => { if (!document.hidden) { check(); syncSiriRuns(); } });
 document.addEventListener('pointerdown', unlockAudio, { once: true });

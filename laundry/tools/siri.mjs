@@ -95,6 +95,7 @@ export async function main() {
     try {
       if (isDone(text)) {
         await cancel(topic, machine)
+        await ntfy('POST', topic, { title: `${MACHINES[machine].name} emptied`, tags: 'white_check_mark', priority: '1', click: `${PAGE_URL}#h=done.${machine}.${c.time}` }, `Reminders stopped.`)
         console.log(`${machine}: cancelled`)
       } else {
         const min = parseMinutes(text)
@@ -106,7 +107,7 @@ export async function main() {
         const end = c.time * 1000 + min * 60000
         await cancel(topic, machine)
         await book(topic, machine, interval, end)
-        await ntfy('POST', topic, { title: `${MACHINES[machine].name} timer set`, tags: 'stopwatch', priority: '2' }, `Ready at ${clock(end)} (${min} min). Reminders every ${interval} min until you empty it.`)
+        await ntfy('POST', topic, { title: `${MACHINES[machine].name} timer set`, tags: 'stopwatch', priority: '2', click: `${PAGE_URL}#h=start.${machine}.${c.time}.${Math.floor(end / 1000)}` }, `Ready at ${clock(end)} (${min} min). Reminders every ${interval} min until you empty it.`)
         console.log(`${machine}: ${min} min, ready ${clock(end)}, ${Math.round((Date.now() - c.time * 1000) / 1000)}s after Siri`)
       }
       done++

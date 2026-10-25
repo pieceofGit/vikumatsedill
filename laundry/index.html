@@ -79,6 +79,21 @@ code{background:var(--accent-soft);border-radius:3px;padding:.05rem .3rem;font-s
 .steps ul{padding-left:1.1rem;margin:.3rem 0}
 .steps code{display:block;margin-top:.25rem}
 .copy{font:inherit;font-size:.75rem;font-weight:600;background:var(--accent);color:var(--surface);border:0;border-radius:3px;padding:.1rem .5rem;cursor:pointer}
+.history{display:flex;flex-direction:column;gap:.6rem}
+.history h2{margin:0;font-family:"Familjen Grotesk",sans-serif;font-weight:700;font-size:.8rem;
+  letter-spacing:.16em;text-transform:uppercase;color:var(--muted)}
+#history-list{list-style:none;margin:0;padding:0;background:var(--surface);border:1px solid var(--line);border-radius:6px}
+#history-list li{display:grid;grid-template-columns:minmax(6.5rem,auto) 1fr;gap:.1rem .9rem;padding:.65rem .9rem;font-size:.86rem}
+#history-list li+li{border-top:1px solid var(--line)}
+#history-list li.empty{display:block;color:var(--muted)}
+.h-what{font-weight:600;grid-row:span 2}
+.h-when{color:var(--ink)}
+.h-status{font-size:.8rem}
+.h-muted{color:var(--muted)}
+.h-live{color:var(--accent);font-weight:600}
+.h-alert{color:var(--alert);font-weight:600}
+.h-tag{font-size:.65rem;font-weight:600;letter-spacing:.06em;text-transform:uppercase;background:var(--accent-soft);color:var(--accent);border-radius:3px;padding:.05rem .35rem;vertical-align:.1em}
+button.linkish{font:inherit;font-size:.8rem;background:none;border:0;color:var(--muted);text-decoration:underline;cursor:pointer;padding:.3rem 0;margin-left:auto}
 .note{font-size:.82rem;color:var(--muted);margin:0}
 .status{font-size:.8rem;color:var(--alert)}
 .status:empty{display:none}
@@ -95,6 +110,15 @@ code{background:var(--accent-soft);border-radius:3px;padding:.05rem .3rem;font-s
     <section class="card" id="washer" data-machine="washer" aria-live="polite"></section>
     <section class="card" id="dryer" data-machine="dryer" aria-live="polite"></section>
   </div>
+
+  <section class="history" aria-labelledby="history-h">
+    <h2 id="history-h">History</h2>
+    <ul id="history-list"></ul>
+    <div class="row">
+      <button type="button" class="secondary" id="history-more" hidden>Show all</button>
+      <button type="button" class="linkish" id="history-clear">Clear history</button>
+    </div>
+  </section>
 
   <details class="settings" id="settings">
     <summary>Reminders</summary>
