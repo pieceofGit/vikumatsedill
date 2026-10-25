@@ -36,9 +36,6 @@ jobs:
           key: laundry-siri-${{ github.run_id }}
           restore-keys: laundry-siri-
 
-      - name: Diagnose ntfy
-        run: node laundry/tools/diag.mjs
-
       - name: Handle commands
         run: node laundry/tools/siri.mjs
 

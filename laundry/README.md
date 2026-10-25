@@ -20,6 +20,14 @@ browser's "Add to Home Screen" to install it like an app.
 
 Everything else stays in `localStorage` on the device. No build step.
 
+## History
+
+The page keeps a list of loads on the device: start, ready and emptied
+times, and how long the load waited. Loads started or finished by Siri are
+added from the workflow's "timer set" and "emptied" messages (their click
+link carries the details), which ntfy.sh keeps for 12 hours, so open the page
+at least that often to keep the history complete.
+
 ## Siri
 
 The Siri shortcut is two actions: **Ask for Input**, then **Get Contents of
