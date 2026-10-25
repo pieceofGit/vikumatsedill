@@ -1,0 +1,17 @@
+// Temporary: checks how ntfy.sh handles scheduled messages with sequence IDs.
+const T = 'vk-diag-' + Math.random().toString(36).slice(2, 10)
+const show = async (label, res) => console.log(`--- ${label}: ${res.status}\n${(await res.text()).slice(0, 1500)}`)
+const at = Math.floor(Date.now() / 1000) + 3600
+await show('publish seq washer-1', await fetch(`https://ntfy.sh/${T}/washer-1?at=${at}&title=Washer+is+done`, { method: 'POST', body: 'x' }))
+await show('publish seq washer-2', await fetch(`https://ntfy.sh/${T}/washer-2?at=${at + 600}&title=Washer+is+done`, { method: 'POST', body: 'y' }))
+await show('poll sched=1', await fetch(`https://ntfy.sh/${T}/json?poll=1&sched=1`))
+await show('poll scheduled=1', await fetch(`https://ntfy.sh/${T}/json?poll=1&scheduled=1`))
+await show('DELETE washer-1', await fetch(`https://ntfy.sh/${T}/washer-1`, { method: 'DELETE' }))
+await show('DELETE washer-9 (never existed)', await fetch(`https://ntfy.sh/${T}/washer-9`, { method: 'DELETE' }))
+await show('poll after delete', await fetch(`https://ntfy.sh/${T}/json?poll=1&sched=1`))
+await show('GET publish like the shortcut', await fetch(`https://ntfy.sh/${T}-cmd/publish?title=laundry-x.washer.10&message=2%20hours`))
+await show('poll cmd', await fetch(`https://ntfy.sh/${T}-cmd/json?poll=1&since=1h`))
+await show('CORS preflight DELETE', await fetch(`https://ntfy.sh/${T}/washer-2`, { method: 'OPTIONS', headers: { Origin: 'https://pieceofgit.github.io', 'Access-Control-Request-Method': 'DELETE' } }))
+const r = await fetch(`https://ntfy.sh/${T}/washer-2`, { method: 'OPTIONS', headers: { Origin: 'https://pieceofgit.github.io', 'Access-Control-Request-Method': 'DELETE' } })
+console.log('preflight headers', JSON.stringify(Object.fromEntries(r.headers)))
+await fetch(`https://ntfy.sh/${T}/washer-2`, { method: 'DELETE' })
