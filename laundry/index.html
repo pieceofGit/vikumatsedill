@@ -73,6 +73,11 @@ button:focus-visible,.chip:focus-visible,input:focus-visible,select:focus-visibl
 code{background:var(--accent-soft);border-radius:3px;padding:.05rem .3rem;font-size:.85em;overflow-wrap:anywhere}
 .check{display:flex;gap:.6rem;align-items:flex-start;color:var(--ink);font-size:.9rem;cursor:pointer}
 .check input{margin:.25rem 0 0;width:1.1rem;height:1.1rem;flex:none;accent-color:var(--accent)}
+.settings h3{margin:.4rem 0 0;font-size:1rem}
+.steps{margin:0;padding-left:1.3rem;font-size:.88rem;display:flex;flex-direction:column;gap:.55rem}
+.steps ol{padding-left:1.2rem;margin:.35rem 0;display:flex;flex-direction:column;gap:.3rem}
+.steps code{display:block;margin-top:.25rem}
+.copy{font:inherit;font-size:.75rem;font-weight:600;background:var(--accent);color:var(--surface);border:0;border-radius:3px;padding:.1rem .5rem;cursor:pointer}
 .note{font-size:.82rem;color:var(--muted);margin:0}
 .status{font-size:.8rem;color:var(--alert)}
 .status:empty{display:none}
@@ -129,16 +134,43 @@ code{background:var(--accent-soft);border-radius:3px;padding:.05rem .3rem;font-s
     </div>
   </details>
 
-  <details class="settings">
+  <details class="settings" id="siri">
     <summary>Start with Siri</summary>
     <div class="body">
-      <p>A shortcut can open a link that starts a machine, so you can say “Hey Siri, washer on”. In the <b>Shortcuts</b> app: tap <b>+</b>, add the <b>Open URLs</b> action, paste a link from below and name the shortcut what you want to say to Siri.</p>
-      <p>Washer on: <code data-link="?start=washer"></code><br>
-         Dryer on: <code data-link="?start=dryer"></code><br>
-         Washer emptied: <code data-link="?finish=washer"></code><br>
-         Dryer emptied: <code data-link="?finish=dryer"></code></p>
-      <p>A start link uses the length you used last time for that machine. To set it, add <code>&amp;min=</code> and the number of minutes, e.g. <code data-link="?start=washer&amp;min=90"></code>.</p>
-      <p>Shortcuts opens these links in Safari, which keeps its timers apart from the home-screen app. If you use Siri, use this page in Safari too, and turn on phone reminders there so the nagging still reaches you when the screen locks.</p>
+      <p>A shortcut can book the reminders itself, in the background, without opening anything. They arrive in the ntfy app, so set up <b>Phone reminders through ntfy</b> under <i>Reminders</i> first. The text below has your topic filled in.</p>
+      <div class="row">
+        <label for="siri-machine">Shortcut for the</label>
+        <select id="siri-machine"><option value="washer">Washer</option><option value="dryer">Dryer</option></select>
+      </div>
+
+      <h3>“<span data-s="name"></span> on”</h3>
+      <p>In <b>Shortcuts</b> tap <b>+</b>, name it “<span data-s="name"></span> on” and add these actions in order. Use <b>Copy</b> and paste where it says to.</p>
+      <ol class="steps">
+        <li><b>Ask for Number</b> with “For how long?”</li>
+        <li><b>Text</b>: paste <button type="button" class="copy" data-copy="offsets">Copy</button>
+          <code data-s="offsets"></code></li>
+        <li><b>Split Text</b>: set it to split by <b>Spaces</b>.</li>
+        <li><b>Repeat with Each</b> item in <b>Split Text</b>. Put steps 5 and 6 inside it, before <i>End Repeat</i>.</li>
+        <li><b>Calculate</b>: <b>Repeat Item</b> + <b>Provided Input</b> (tap the number and pick Provided Input).</li>
+        <li><b>Get Contents of URL</b>. In the URL box, build it from three pieces:
+          <ol type="a">
+            <li>paste <button type="button" class="copy" data-copy="url1">Copy</button> <code data-s="url1"></code></li>
+            <li>insert the <b>Repeat Index</b> variable (above the keyboard)</li>
+            <li>paste <button type="button" class="copy" data-copy="url2">Copy</button> <code data-s="url2"></code></li>
+            <li>insert the <b>Calculation Result</b> variable</li>
+            <li>paste <button type="button" class="copy" data-copy="url3">Copy</button> <code data-s="url3"></code></li>
+          </ol>
+          Then tap <b>›</b> (Show More) and set <b>Method</b> to <b>POST</b>.</li>
+      </ol>
+      <p>Say “Hey Siri, <span data-s="lname"></span> on”, answer the number of minutes, and you're done. Nothing opens. Reminders come at that time and then every <span data-s="every"></span> min for 3 hours. Their <b>Emptied it</b> button stops the rest.</p>
+
+      <h3>“<span data-s="name"></span> emptied” (optional)</h3>
+      <p>Stops the reminders by voice:</p>
+      <ol class="steps">
+        <li><b>Repeat</b> <b data-s="count"></b> times. Put step 2 inside it.</li>
+        <li><b>Get Contents of URL</b>: paste <button type="button" class="copy" data-copy="url1">Copy</button> <code data-s="url1"></code>, then insert the <b>Repeat Index</b> variable. Under Show More, set <b>Method</b> to <b>DELETE</b>.</li>
+      </ol>
+      <p class="note">If you change the topic or the reminder interval, the shortcuts need these texts copied again.</p>
     </div>
   </details>
 </div>

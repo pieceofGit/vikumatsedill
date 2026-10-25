@@ -22,12 +22,11 @@ Everything else stays in `localStorage` on the device. No build step.
 
 ## Siri
 
-These links start or finish a machine, so a Shortcut with an **Open URLs**
-action can do it by voice:
+The page's **Start with Siri** section walks through two Shortcuts with your
+topic filled in. "Washer on" asks how many minutes, then posts the scheduled
+reminders straight to ntfy (fixed sequence IDs `washer-1`, `washer-2`, …), so
+nothing opens. "Washer emptied" deletes those same IDs. Starting again
+replaces the old batch.
 
-- `…/laundry/?start=washer` or `?start=dryer`: uses that machine's last length
-- `…/laundry/?start=washer&min=90`: a set length in minutes
-- `…/laundry/?finish=washer`: emptied, which stops the reminders
-
-Shortcuts opens links in Safari, whose storage is separate from the
-home-screen app, so use the page in Safari if you start machines with Siri.
+Links also work if you'd rather open the page: `?start=washer&min=90` starts a
+timer on the page and `?finish=washer` ends it.

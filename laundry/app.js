@@ -339,6 +339,50 @@ function initSettings() {
   showPerm();
 }
 
+// ---------- Siri shortcut that books ntfy reminders itself ----------
+
+// The shortcut posts one scheduled message per offset to fixed sequence IDs
+// (washer-1, washer-2, …), so starting again replaces the old batch and the
+// "emptied" shortcut and the notification's stop link can delete them by name.
+function siriTexts(machine) {
+  const { name, tag } = MACHINES[machine];
+  const count = Math.min(PHONE_MAX - 1, 1 + Math.floor(PHONE_WINDOW_MIN / state.interval));
+  const stopUrl = `${pageUrl()}?stop=${encodeURIComponent(`${state.topic}.${machine}.${count + 1}`)}&finish=${machine}`;
+  const rest = new URLSearchParams({
+    title: `${name} is done`,
+    message: `Empty the ${name.toLowerCase()}.`,
+    priority: '5',
+    tags: tag,
+    click: pageUrl(),
+    actions: `view, Emptied it, ${stopUrl}, clear=true`,
+  });
+  return {
+    name, lname: name.toLowerCase(), count: String(count), every: String(state.interval),
+    offsets: Array.from({ length: count }, (_, i) => i * state.interval).join(' '),
+    url1: `${NTFY}/${state.topic}/${machine}-`,
+    url2: '?in=',
+    url3: `m&${rest}`,
+  };
+}
+
+function renderSiri() {
+  const texts = siriTexts($('#siri-machine').value);
+  document.querySelectorAll('#siri [data-s]').forEach(el => { el.textContent = texts[el.dataset.s]; });
+}
+
+function initSiri() {
+  $('#siri-machine').addEventListener('change', renderSiri);
+  ['#interval', '#topic'].forEach(sel => $(sel).addEventListener('change', renderSiri));
+  document.querySelectorAll('#siri .copy').forEach(btn => btn.addEventListener('click', async () => {
+    try {
+      await navigator.clipboard.writeText(siriTexts($('#siri-machine').value)[btn.dataset.copy]);
+      btn.textContent = 'Copied';
+    } catch { btn.textContent = 'Copy failed'; }
+    setTimeout(() => { btn.textContent = 'Copy'; }, 1500);
+  }));
+  renderSiri();
+}
+
 // ---------- links from the phone notification and Siri Shortcuts ----------
 
 function handleLink() {
@@ -363,8 +407,8 @@ function handleLink() {
   }
 }
 
-document.querySelectorAll('[data-link]').forEach(c => { c.textContent = pageUrl() + c.dataset.link; });
 initSettings();
+initSiri();
 render();
 handleLink();
 check();
