@@ -357,7 +357,7 @@ function siriTexts(machine) {
     actions: `view, Emptied it, ${stopUrl}, clear=true`,
   });
   return {
-    name, lname: name.toLowerCase(), count: String(count), every: String(state.interval),
+    name, count: String(count), every: String(state.interval),
     offsets: Array.from({ length: count }, (_, i) => i * state.interval).join(' '),
     url1: `${NTFY}/${state.topic}/${machine}-`,
     url2: '?in=',

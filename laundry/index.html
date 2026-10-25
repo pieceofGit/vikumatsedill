@@ -143,15 +143,16 @@ code{background:var(--accent-soft);border-radius:3px;padding:.05rem .3rem;font-s
         <select id="siri-machine"><option value="washer">Washer</option><option value="dryer">Dryer</option></select>
       </div>
 
-      <h3>“<span data-s="name"></span> on”</h3>
-      <p>In <b>Shortcuts</b> tap <b>+</b>, name it “<span data-s="name"></span> on” and add these actions in order. Use <b>Copy</b> and paste where it says to.</p>
+      <h3>“<span data-s="name"></span> started”</h3>
+      <p>In <b>Shortcuts</b> tap <b>+</b>, give it a name Siri won’t mistake for a smart-home command, e.g. “<span data-s="name"></span> started”, and add these actions in order. Use <b>Copy</b> and paste where it says to.</p>
       <ol class="steps">
-        <li><b>Ask for Number</b> with “For how long?”</li>
+        <li><b>Ask for Input</b>: leave the type as <b>Text</b>, prompt “For how long?”</li>
+        <li><b>Get Numbers from Input</b>: this picks the 90 out of “90 minutes”, so you can answer Siri naturally (always in minutes).</li>
         <li><b>Text</b>: paste <button type="button" class="copy" data-copy="offsets">Copy</button>
           <code data-s="offsets"></code></li>
         <li><b>Split Text</b>: set it to split by <b>Spaces</b>.</li>
-        <li><b>Repeat with Each</b> item in <b>Split Text</b>. Put steps 5 and 6 inside it, before <i>End Repeat</i>.</li>
-        <li><b>Calculate</b>: <b>Repeat Item</b> + <b>Provided Input</b> (tap the number and pick Provided Input).</li>
+        <li><b>Repeat with Each</b> item in <b>Split Text</b>. Put steps 6 and 7 inside it, before <i>End Repeat</i>.</li>
+        <li><b>Calculate</b>: <b>Repeat Item</b> + <b>Numbers</b> (tap the number and pick Numbers).</li>
         <li><b>Get Contents of URL</b>. In the URL box, build it from three pieces:
           <ol type="a">
             <li>paste <button type="button" class="copy" data-copy="url1">Copy</button> <code data-s="url1"></code></li>
@@ -162,7 +163,7 @@ code{background:var(--accent-soft);border-radius:3px;padding:.05rem .3rem;font-s
           </ol>
           Then tap <b>›</b> (Show More) and set <b>Method</b> to <b>POST</b>.</li>
       </ol>
-      <p>Say “Hey Siri, <span data-s="lname"></span> on”, answer the number of minutes, and you're done. Nothing opens. Reminders come at that time and then every <span data-s="every"></span> min for 3 hours. Their <b>Emptied it</b> button stops the rest.</p>
+      <p>Say the shortcut’s name to Siri and answer with the minutes, e.g. “90 minutes”, and you're done. Nothing opens. Reminders come at that time and then every <span data-s="every"></span> min for 3 hours. Their <b>Emptied it</b> button stops the rest.</p>
 
       <h3>“<span data-s="name"></span> emptied” (optional)</h3>
       <p>Stops the reminders by voice:</p>
