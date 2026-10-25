@@ -138,46 +138,30 @@ code{background:var(--accent-soft);border-radius:3px;padding:.05rem .3rem;font-s
   <details class="settings" id="siri">
     <summary>Start with Siri</summary>
     <div class="body">
-      <p>A shortcut can book the reminders itself, in the background, without opening anything. They arrive in the ntfy app, so set up <b>Phone reminders through ntfy</b> under <i>Reminders</i> first. The text below has your topic filled in.</p>
+      <p>Say “Hey Siri, washing machine started”, answer “2 hours” or “90 minutes”, and the reminders get booked. Nothing opens. Set up <b>Phone reminders through ntfy</b> under <i>Reminders</i> first: the reminders, and a “timer set” confirmation, arrive in the ntfy app. Expect the confirmation within about 5–15 minutes. The countdown starts from when you spoke to Siri, so the reminders still come on time.</p>
       <div class="row">
         <label for="siri-machine">Shortcut for the</label>
         <select id="siri-machine"><option value="washer">Washer</option><option value="dryer">Dryer</option></select>
       </div>
 
-      <h3>“<span data-s="name"></span> started”</h3>
-      <p>In <b>Shortcuts</b> tap <b>+</b>, give it a name Siri won’t mistake for a smart-home command, e.g. “<span data-s="name"></span> started”, and add these actions in order. Use <b>Copy</b> and paste where it says to.</p>
+      <h3>Starting</h3>
+      <p>In <b>Shortcuts</b>, make a shortcut named what you'll say to Siri (e.g. “Washing machine started”) with just two actions:</p>
       <ol class="steps">
-        <li><b>Ask for Input</b>: leave the type as <b>Text</b>, prompt “For how long?”</li>
-        <li><b>Get Numbers from Input</b>: this picks the 90 out of “90 minutes”, so you can answer Siri naturally.</li>
-        <li><b>If</b> <b>Provided Input</b> <b>contains</b> <code style="display:inline">hour</code>, so “2 hours” counts as 120 minutes:
-          <ul>
-            <li>under <i>If</i>: <b>Calculate</b> <b>Numbers</b> × 60</li>
-            <li>under <i>Otherwise</i>: <b>Calculate</b> <b>Numbers</b> × 1</li>
-          </ul></li>
-        <li><b>Text</b>: paste <button type="button" class="copy" data-copy="offsets">Copy</button>
-          <code data-s="offsets"></code></li>
-        <li><b>Split Text</b>: set it to split by <b>Spaces</b>.</li>
-        <li><b>Repeat with Each</b> item in <b>Split Text</b>. Put steps 7 and 8 inside it, before <i>End Repeat</i>.</li>
-        <li><b>Calculate</b>: <b>Repeat Item</b> + <b>If Result</b> (tap the number and pick If Result).</li>
-        <li><b>Get Contents of URL</b>. In the URL box, build it from three pieces:
-          <ol type="a">
-            <li>paste <button type="button" class="copy" data-copy="url1">Copy</button> <code data-s="url1"></code></li>
-            <li>insert the <b>Repeat Index</b> variable (above the keyboard)</li>
-            <li>paste <button type="button" class="copy" data-copy="url2">Copy</button> <code data-s="url2"></code></li>
-            <li>insert the <b>Calculation Result</b> variable</li>
-            <li>paste <button type="button" class="copy" data-copy="url3">Copy</button> <code data-s="url3"></code></li>
-          </ol>
-          Then tap <b>›</b> (Show More) and set <b>Method</b> to <b>POST</b>.</li>
+        <li><b>Ask for Input</b>: type <b>Text</b>, prompt “For how long?”</li>
+        <li><b>Get Contents of URL</b>: tap the address box, paste <button type="button" class="copy" data-copy="start">Copy</button>
+          <code data-s="start"></code>
+          then, with the cursor at the very end, tap <b>Provided Input</b> above the keyboard.</li>
       </ol>
-      <p>Say the shortcut’s name to Siri and answer with the minutes, e.g. “90 minutes”, and you're done. Nothing opens. Reminders come at that time and then every <span data-s="every"></span> min for 3 hours. Their <b>Emptied it</b> button stops the rest.</p>
+      <p class="note">Already have a “Washing machine started” shortcut? Delete everything except <b>Ask for Input</b>, then do step 2.</p>
 
-      <h3>“<span data-s="name"></span> emptied” (optional)</h3>
-      <p>Stops the reminders by voice:</p>
+      <h3>Emptied (optional)</h3>
+      <p>A second shortcut, e.g. “Washing machine emptied”, with one action:</p>
       <ol class="steps">
-        <li><b>Repeat</b> <b data-s="count"></b> times. Put step 2 inside it.</li>
-        <li><b>Get Contents of URL</b>: paste <button type="button" class="copy" data-copy="url1">Copy</button> <code data-s="url1"></code>, then insert the <b>Repeat Index</b> variable. Under Show More, set <b>Method</b> to <b>DELETE</b>.</li>
+        <li><b>Get Contents of URL</b>: paste <button type="button" class="copy" data-copy="done">Copy</button>
+          <code data-s="done"></code></li>
       </ol>
-      <p class="note">If you change the topic or the reminder interval, the shortcuts need these texts copied again.</p>
+      <p>Or tap <b>Emptied it</b> on a reminder, or <b>Finished</b> here. The page shows a machine started with Siri as running.</p>
+      <p class="note">Reminders come every <span data-s="every"></span> min (your setting when you copied the address). If you change the topic or interval, copy the addresses again.</p>
     </div>
   </details>
 </div>

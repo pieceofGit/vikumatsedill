@@ -1,0 +1,47 @@
+name: Laundry Siri commands
+
+# The laundry Siri shortcut only posts "washer 2 hours" to an ntfy topic; this
+# turns that into the scheduled reminders. Every 5 minutes because that is as
+# often as GitHub runs schedules (and it is often a few minutes late).
+on:
+  schedule:
+    - cron: '*/5 * * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: laundry-siri
+  cancel-in-progress: false
+
+jobs:
+  commands:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          sparse-checkout: laundry
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+
+      # Remembers which commands were already handled, so none is booked twice.
+      - name: Restore state
+        uses: actions/cache/restore@v4
+        with:
+          path: laundry/.siri-state.json
+          key: laundry-siri-${{ github.run_id }}
+          restore-keys: laundry-siri-
+
+      - name: Handle commands
+        run: node laundry/tools/siri.mjs
+
+      - name: Save state
+        if: always()
+        uses: actions/cache/save@v4
+        with:
+          path: laundry/.siri-state.json
+          key: laundry-siri-${{ github.run_id }}

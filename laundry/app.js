@@ -2,6 +2,8 @@
 // thing that leaves it is the optional batch of scheduled ntfy.sh messages,
 // which is what keeps nagging a phone after the page has gone to sleep.
 
+import { SIRI_TOPIC } from './shared.mjs';
+
 const STORE = 'laundry.v1';
 const NTFY = 'https://ntfy.sh';
 const PHONE_WINDOW_MIN = 180;   // how long ntfy keeps reminding after the end time
@@ -340,29 +342,17 @@ function initSettings() {
   showPerm();
 }
 
-// ---------- Siri shortcut that books ntfy reminders itself ----------
+// ---------- Siri shortcut ----------
 
-// The shortcut posts one scheduled message per offset to fixed sequence IDs
-// (washer-1, washer-2, …), so starting again replaces the old batch and the
-// "emptied" shortcut and the notification's stop link can delete them by name.
+// The shortcut only sends what was said to SIRI_TOPIC, titled with this
+// topic, machine and interval; tools/siri.mjs (run by a GitHub workflow)
+// books the reminders from it.
 function siriTexts(machine) {
-  const { name, tag } = MACHINES[machine];
-  const count = Math.min(PHONE_MAX - 1, 1 + Math.floor(PHONE_WINDOW_MIN / state.interval));
-  const stopUrl = `${pageUrl()}?stop=${encodeURIComponent(`${state.topic}.${machine}.${count + 1}`)}&finish=${machine}`;
-  const rest = new URLSearchParams({
-    title: `${name} is done`,
-    message: `Empty the ${name.toLowerCase()}.`,
-    priority: '5',
-    tags: tag,
-    click: pageUrl(),
-    actions: `view, Emptied it, ${stopUrl}, clear=true`,
-  });
+  const base = `${NTFY}/${SIRI_TOPIC}/publish?` + new URLSearchParams({ title: `${state.topic}.${machine}.${state.interval}` });
   return {
-    name, count: String(count), every: String(state.interval),
-    offsets: Array.from({ length: count }, (_, i) => i * state.interval).join(' '),
-    url1: `${NTFY}/${state.topic}/${machine}-`,
-    url2: '?in=',
-    url3: `m&${rest}`,
+    name: MACHINES[machine].name, every: String(state.interval),
+    start: `${base}&message=`,
+    done: `${base}&message=done`,
   };
 }
 

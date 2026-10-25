@@ -22,11 +22,15 @@ Everything else stays in `localStorage` on the device. No build step.
 
 ## Siri
 
-The page's **Start with Siri** section walks through two Shortcuts with your
-topic filled in. "Washer on" asks how many minutes, then posts the scheduled
-reminders straight to ntfy (fixed sequence IDs `washer-1`, `washer-2`, …), so
-nothing opens. "Washer emptied" deletes those same IDs. Starting again
-replaces the old batch.
+The Siri shortcut is two actions: **Ask for Input**, then **Get Contents of
+URL** on an address the page's *Start with Siri* section gives you, with the
+answer stuck on the end. That just posts "2 hours" (titled with your topic and
+machine) to a command topic on ntfy.sh. The `laundry-siri` workflow polls it
+every 5 minutes and runs `tools/siri.mjs`, which understands "90 minutes",
+"2 hours", "an hour and a half", "done"… and books the reminders on your topic
+under fixed IDs (`washer-1`, `washer-2`, …). The reminders count from when you
+spoke to Siri, so a late GitHub run only delays the "timer set" confirmation.
+The page polls ntfy for those IDs and shows the machine as running.
 
 Links also work if you'd rather open the page: `?start=washer&min=90` starts a
 timer on the page and `?finish=washer` ends it.
