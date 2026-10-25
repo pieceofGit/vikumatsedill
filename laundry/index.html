@@ -76,6 +76,7 @@ code{background:var(--accent-soft);border-radius:3px;padding:.05rem .3rem;font-s
 .settings h3{margin:.4rem 0 0;font-size:1rem}
 .steps{margin:0;padding-left:1.3rem;font-size:.88rem;display:flex;flex-direction:column;gap:.55rem}
 .steps ol{padding-left:1.2rem;margin:.35rem 0;display:flex;flex-direction:column;gap:.3rem}
+.steps ul{padding-left:1.1rem;margin:.3rem 0}
 .steps code{display:block;margin-top:.25rem}
 .copy{font:inherit;font-size:.75rem;font-weight:600;background:var(--accent);color:var(--surface);border:0;border-radius:3px;padding:.1rem .5rem;cursor:pointer}
 .note{font-size:.82rem;color:var(--muted);margin:0}
@@ -147,12 +148,17 @@ code{background:var(--accent-soft);border-radius:3px;padding:.05rem .3rem;font-s
       <p>In <b>Shortcuts</b> tap <b>+</b>, give it a name Siri won’t mistake for a smart-home command, e.g. “<span data-s="name"></span> started”, and add these actions in order. Use <b>Copy</b> and paste where it says to.</p>
       <ol class="steps">
         <li><b>Ask for Input</b>: leave the type as <b>Text</b>, prompt “For how long?”</li>
-        <li><b>Get Numbers from Input</b>: this picks the 90 out of “90 minutes”, so you can answer Siri naturally (always in minutes).</li>
+        <li><b>Get Numbers from Input</b>: this picks the 90 out of “90 minutes”, so you can answer Siri naturally.</li>
+        <li><b>If</b> <b>Provided Input</b> <b>contains</b> <code style="display:inline">hour</code>, so “2 hours” counts as 120 minutes:
+          <ul>
+            <li>under <i>If</i>: <b>Calculate</b> <b>Numbers</b> × 60</li>
+            <li>under <i>Otherwise</i>: <b>Calculate</b> <b>Numbers</b> × 1</li>
+          </ul></li>
         <li><b>Text</b>: paste <button type="button" class="copy" data-copy="offsets">Copy</button>
           <code data-s="offsets"></code></li>
         <li><b>Split Text</b>: set it to split by <b>Spaces</b>.</li>
-        <li><b>Repeat with Each</b> item in <b>Split Text</b>. Put steps 6 and 7 inside it, before <i>End Repeat</i>.</li>
-        <li><b>Calculate</b>: <b>Repeat Item</b> + <b>Numbers</b> (tap the number and pick Numbers).</li>
+        <li><b>Repeat with Each</b> item in <b>Split Text</b>. Put steps 7 and 8 inside it, before <i>End Repeat</i>.</li>
+        <li><b>Calculate</b>: <b>Repeat Item</b> + <b>If Result</b> (tap the number and pick If Result).</li>
         <li><b>Get Contents of URL</b>. In the URL box, build it from three pieces:
           <ol type="a">
             <li>paste <button type="button" class="copy" data-copy="url1">Copy</button> <code data-s="url1"></code></li>
