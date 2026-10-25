@@ -1,0 +1,132 @@
+<!doctype html>
+<html lang="en">
+<meta charset="utf-8">
+<title>Laundry</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#0f5c4a">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="icon" href="icon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="icon.svg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Familjen+Grotesk:wght@500;700&family=IBM+Plex+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+:root{
+  --bg:#e8ecea; --surface:#fbfcfb; --ink:#0f1614; --muted:#586662;
+  --line:#ccd6d2; --accent:#0f5c4a; --accent-soft:#dbe8e3; --alert:#b3261e; --alert-soft:#f6dedb;
+}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --bg:#0c1211; --surface:#141c19; --ink:#e5ece9; --muted:#8b9d97;
+  --line:#25322e; --accent:#5fd6ab; --accent-soft:#1a2a25; --alert:#ff8a7a; --alert-soft:#3a1f1b;
+}}
+:root[data-theme="dark"]{
+  --bg:#0c1211; --surface:#141c19; --ink:#e5ece9; --muted:#8b9d97;
+  --line:#25322e; --accent:#5fd6ab; --accent-soft:#1a2a25; --alert:#ff8a7a; --alert-soft:#3a1f1b;
+}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);
+  font-family:"IBM Plex Sans",ui-sans-serif,system-ui,sans-serif;line-height:1.5;
+  font-variant-numeric:tabular-nums}
+.wrap{max-width:760px;margin:0 auto;padding:clamp(1.25rem,3vw,2.5rem) 1rem 3rem;
+  display:flex;flex-direction:column;gap:1.25rem}
+.masthead{border-bottom:1px solid var(--line);padding-bottom:.9rem}
+h1{font-family:"Familjen Grotesk",ui-sans-serif,sans-serif;font-weight:700;
+  font-size:clamp(1.9rem,6vw,2.6rem);letter-spacing:-.03em;margin:0}
+.masthead p{margin:.2rem 0 0;color:var(--muted);font-size:.9rem}
+.machines{display:grid;gap:1rem;grid-template-columns:repeat(auto-fit,minmax(min(100%,300px),1fr))}
+.card{background:var(--surface);border:1px solid var(--line);border-radius:6px;
+  padding:1.1rem;display:flex;flex-direction:column;gap:.9rem;min-width:0}
+.card h2{margin:0;font-family:"Familjen Grotesk",sans-serif;font-weight:700;font-size:.8rem;
+  letter-spacing:.16em;text-transform:uppercase;color:var(--accent);display:flex;align-items:center;gap:.5rem}
+.card h2 .state{margin-left:auto;font-weight:500;letter-spacing:.08em;font-size:.68rem;
+  background:var(--accent-soft);border-radius:3px;padding:.1rem .45rem}
+.card[data-state="done"]{border-color:var(--alert);box-shadow:0 0 0 1px var(--alert)}
+.card[data-state="done"] h2,.card[data-state="done"] .big{color:var(--alert)}
+.card[data-state="done"] h2 .state{background:var(--alert-soft)}
+.card.ringing{animation:ring .9s ease-in-out 3}
+@keyframes ring{50%{background:var(--alert-soft)}}
+@media (prefers-reduced-motion:reduce){.card.ringing{animation:none}}
+.chips{display:flex;flex-wrap:wrap;gap:.4rem}
+.chip{font:inherit;font-size:.85rem;background:var(--accent-soft);color:var(--accent);border:1px solid transparent;
+  border-radius:999px;padding:.3rem .75rem;cursor:pointer}
+.chip[aria-pressed="true"]{border-color:var(--accent);font-weight:600}
+.row{display:flex;flex-wrap:wrap;align-items:center;gap:.5rem .75rem}
+label{font-size:.85rem;color:var(--muted)}
+input,select{font:inherit;color:var(--ink);background:var(--surface);border:1px solid var(--line);
+  border-radius:4px;padding:.4rem .5rem;min-width:0}
+input[type="number"]{width:5.5rem}
+input[type="time"]{width:7.5rem}
+.big{font-family:"Familjen Grotesk",sans-serif;font-weight:700;font-size:clamp(2.6rem,12vw,3.6rem);
+  letter-spacing:-.02em;line-height:1}
+.sub{color:var(--muted);font-size:.88rem;margin:0}
+button.primary,button.secondary{font:inherit;font-weight:600;border-radius:4px;padding:.6rem 1rem;cursor:pointer}
+button.primary{background:var(--accent);color:var(--surface);border:0}
+.card[data-state="done"] button.primary{background:var(--alert)}
+button.secondary{background:none;color:var(--ink);border:1px solid var(--line)}
+button.wide{width:100%;font-size:1.05rem;padding:.8rem 1rem}
+button:focus-visible,.chip:focus-visible,input:focus-visible,select:focus-visible,summary:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+.settings{background:var(--surface);border:1px solid var(--line);border-radius:6px;padding:.9rem 1.1rem}
+.settings summary{cursor:pointer;font-weight:600}
+.settings .body{display:flex;flex-direction:column;gap:.9rem;padding-top:.9rem}
+.settings p{margin:0;font-size:.85rem;color:var(--muted)}
+.settings a{color:var(--accent)}
+code{background:var(--accent-soft);border-radius:3px;padding:.05rem .3rem;font-size:.85em;overflow-wrap:anywhere}
+.check{display:flex;gap:.6rem;align-items:flex-start;color:var(--ink);font-size:.9rem;cursor:pointer}
+.check input{margin:.25rem 0 0;width:1.1rem;height:1.1rem;flex:none;accent-color:var(--accent)}
+.note{font-size:.82rem;color:var(--muted);margin:0}
+.status{font-size:.8rem;color:var(--alert)}
+.status:empty{display:none}
+.status.ok{color:var(--accent)}
+[hidden]{display:none!important}
+</style>
+<div class="wrap">
+  <header class="masthead">
+    <h1>Laundry</h1>
+    <p>Start a timer when you switch a machine on. When it's done you'll get a reminder again and again until you say you've emptied it.</p>
+  </header>
+
+  <div class="machines">
+    <section class="card" id="washer" data-machine="washer" aria-live="polite"></section>
+    <section class="card" id="dryer" data-machine="dryer" aria-live="polite"></section>
+  </div>
+
+  <details class="settings" id="settings">
+    <summary>Reminders</summary>
+    <div class="body">
+      <div class="row">
+        <label for="interval">Remind me every</label>
+        <select id="interval">
+          <option value="5">5 min</option>
+          <option value="10">10 min</option>
+          <option value="15">15 min</option>
+          <option value="20">20 min</option>
+          <option value="30">30 min</option>
+        </select>
+        <span class="note">until I mark it finished</span>
+      </div>
+
+      <div class="row">
+        <button type="button" class="secondary" id="allow">Allow notifications on this device</button>
+        <span class="status" id="allow-status"></span>
+      </div>
+      <p>This page beeps, vibrates and shows a notification while it's open. Phones pause pages that are in the background or have the screen off, so turn on phone reminders below if you want to be nagged while you're doing something else.</p>
+
+      <label class="check"><input type="checkbox" id="ntfy-on"> <span>Phone reminders through <b>ntfy</b> (also works with the page closed)</span></label>
+      <div class="body" id="ntfy-setup" style="padding:0">
+        <p>1. Install the free <a href="https://ntfy.sh/" target="_blank" rel="noreferrer">ntfy app</a> (Android or iPhone).<br>
+           2. In the app, subscribe to the topic <code id="topic-code"></code> on ntfy.sh. The topic name is private to you, so keep it to yourself.<br>
+           3. Send a test notification to check it arrives.</p>
+        <div class="row">
+          <label for="topic">Topic</label>
+          <input id="topic" spellcheck="false" autocomplete="off" style="flex:1;min-width:12rem">
+        </div>
+        <div class="row">
+          <button type="button" class="secondary" id="ntfy-test">Send test notification</button>
+          <span class="status" id="ntfy-status"></span>
+        </div>
+        <p>When a machine starts, the reminders are booked on ntfy.sh straight away: one when it should be done, then one every interval for the next 3 hours. Marking it finished cancels the rest. The <b>Emptied it</b> button on the phone notification opens this page and does the same.</p>
+      </div>
+    </div>
+  </details>
+</div>
+<script type="module" src="app.js"></script>
