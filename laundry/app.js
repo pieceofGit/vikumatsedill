@@ -339,13 +339,19 @@ function initSettings() {
   showPerm();
 }
 
-// ---------- links from the phone notification ----------
+// ---------- links from the phone notification and Siri Shortcuts ----------
 
 function handleLink() {
   const q = new URLSearchParams(location.search);
-  const stopArg = q.get('stop'), finishArg = q.get('finish');
-  if (!stopArg && !finishArg) return;
+  const stopArg = q.get('stop'), finishArg = q.get('finish'), startArg = q.get('start');
+  if (!stopArg && !finishArg && !startArg) return;
   history.replaceState(null, '', location.pathname);
+  // ?start=washer[&min=60] — what a "turn on the washer" shortcut opens.
+  if (startArg) {
+    if (!MACHINES[startArg]) return;
+    const min = +q.get('min');
+    return start(startArg, min >= 1 && min <= 600 ? min : state.machines[startArg].minutes);
+  }
   const ms = state.machines[finishArg];
   const [topic, id, count] = (stopArg || '').split('.');
   // A link from an older run must not end the one that's going now.
@@ -357,6 +363,7 @@ function handleLink() {
   }
 }
 
+document.querySelectorAll('[data-link]').forEach(c => { c.textContent = pageUrl() + c.dataset.link; });
 initSettings();
 render();
 handleLink();
