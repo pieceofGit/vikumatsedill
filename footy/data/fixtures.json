@@ -1,11 +1,11 @@
 {
- "generatedAt": "2026-10-25T09:49:54.207Z",
+ "generatedAt": "2026-10-26T11:09:03.319Z",
  "fantasy": {
   "name": "How's it Goink?",
   "gameweek": 8,
   "teamId": 6870928,
-  "overallPoints": 497,
-  "overallRank": 1602778
+  "overallPoints": 501,
+  "overallRank": 2241148
  },
  "season": "2026-27",
  "timezone": "Atlantic/Reykjavik",
@@ -472,18 +472,18 @@
       "benched": false
      },
      {
-      "name": "Kostoulas",
-      "position": "FWD",
+      "name": "Yalcouyé",
+      "position": "MID",
       "captain": false,
       "vice": false,
       "benched": false
      },
      {
-      "name": "Yalcouyé",
-      "position": "MID",
+      "name": "Kostoulas",
+      "position": "FWD",
       "captain": false,
       "vice": false,
-      "benched": true
+      "benched": false
      }
     ],
     "away": [],
@@ -598,7 +598,7 @@
       "position": "FWD",
       "captain": false,
       "vice": true,
-      "benched": false
+      "benched": true
      }
     ],
     "count": 3
@@ -933,7 +933,7 @@
       "position": "FWD",
       "captain": false,
       "vice": true,
-      "benched": false
+      "benched": true
      }
     ],
     "away": [
@@ -945,18 +945,18 @@
       "benched": false
      },
      {
-      "name": "Kostoulas",
-      "position": "FWD",
+      "name": "Yalcouyé",
+      "position": "MID",
       "captain": false,
       "vice": false,
       "benched": false
      },
      {
-      "name": "Yalcouyé",
-      "position": "MID",
+      "name": "Kostoulas",
+      "position": "FWD",
       "captain": false,
       "vice": false,
-      "benched": true
+      "benched": false
      }
     ],
     "count": 6
@@ -1335,18 +1335,18 @@
       "benched": false
      },
      {
-      "name": "Kostoulas",
-      "position": "FWD",
+      "name": "Yalcouyé",
+      "position": "MID",
       "captain": false,
       "vice": false,
       "benched": false
      },
      {
-      "name": "Yalcouyé",
-      "position": "MID",
+      "name": "Kostoulas",
+      "position": "FWD",
       "captain": false,
       "vice": false,
-      "benched": true
+      "benched": false
      }
     ],
     "away": [],
@@ -1592,7 +1592,7 @@
       "position": "FWD",
       "captain": false,
       "vice": true,
-      "benched": false
+      "benched": true
      }
     ],
     "count": 6
@@ -2626,7 +2626,7 @@
       "position": "FWD",
       "captain": false,
       "vice": true,
-      "benched": false
+      "benched": true
      }
     ],
     "away": [
@@ -2793,18 +2793,18 @@
       "benched": false
      },
      {
-      "name": "Kostoulas",
-      "position": "FWD",
+      "name": "Yalcouyé",
+      "position": "MID",
       "captain": false,
       "vice": false,
       "benched": false
      },
      {
-      "name": "Yalcouyé",
-      "position": "MID",
+      "name": "Kostoulas",
+      "position": "FWD",
       "captain": false,
       "vice": false,
-      "benched": true
+      "benched": false
      }
     ],
     "count": 3
@@ -2984,7 +2984,7 @@
       "position": "FWD",
       "captain": false,
       "vice": true,
-      "benched": false
+      "benched": true
      }
     ],
     "count": 3
@@ -3118,18 +3118,18 @@
       "benched": false
      },
      {
-      "name": "Kostoulas",
-      "position": "FWD",
+      "name": "Yalcouyé",
+      "position": "MID",
       "captain": false,
       "vice": false,
       "benched": false
      },
      {
-      "name": "Yalcouyé",
-      "position": "MID",
+      "name": "Kostoulas",
+      "position": "FWD",
       "captain": false,
       "vice": false,
-      "benched": true
+      "benched": false
      }
     ],
     "away": [
@@ -3522,18 +3522,18 @@
       "benched": false
      },
      {
-      "name": "Kostoulas",
-      "position": "FWD",
+      "name": "Yalcouyé",
+      "position": "MID",
       "captain": false,
       "vice": false,
       "benched": false
      },
      {
-      "name": "Yalcouyé",
-      "position": "MID",
+      "name": "Kostoulas",
+      "position": "FWD",
       "captain": false,
       "vice": false,
-      "benched": true
+      "benched": false
      }
     ],
     "count": 3
@@ -3591,7 +3591,7 @@
       "position": "FWD",
       "captain": false,
       "vice": true,
-      "benched": false
+      "benched": true
      }
     ],
     "away": [],
@@ -4718,7 +4718,7 @@
       "position": "FWD",
       "captain": false,
       "vice": true,
-      "benched": false
+      "benched": true
      }
     ],
     "count": 3
@@ -5021,18 +5021,18 @@
       "benched": false
      },
      {
-      "name": "Kostoulas",
-      "position": "FWD",
+      "name": "Yalcouyé",
+      "position": "MID",
       "captain": false,
       "vice": false,
       "benched": false
      },
      {
-      "name": "Yalcouyé",
-      "position": "MID",
+      "name": "Kostoulas",
+      "position": "FWD",
       "captain": false,
       "vice": false,
-      "benched": true
+      "benched": false
      }
     ],
     "away": [],
@@ -6149,7 +6149,7 @@
       "position": "FWD",
       "captain": false,
       "vice": true,
-      "benched": false
+      "benched": true
      }
     ],
     "away": [
@@ -6206,18 +6206,18 @@
       "benched": false
      },
      {
-      "name": "Kostoulas",
-      "position": "FWD",
+      "name": "Yalcouyé",
+      "position": "MID",
       "captain": false,
       "vice": false,
       "benched": false
      },
      {
-      "name": "Yalcouyé",
-      "position": "MID",
+      "name": "Kostoulas",
+      "position": "FWD",
       "captain": false,
       "vice": false,
-      "benched": true
+      "benched": false
      }
     ],
     "count": 3
@@ -6439,7 +6439,7 @@
       "position": "FWD",
       "captain": false,
       "vice": true,
-      "benched": false
+      "benched": true
      }
     ],
     "away": [],
@@ -6510,18 +6510,18 @@
       "benched": false
      },
      {
-      "name": "Kostoulas",
-      "position": "FWD",
+      "name": "Yalcouyé",
+      "position": "MID",
       "captain": false,
       "vice": false,
       "benched": false
      },
      {
-      "name": "Yalcouyé",
-      "position": "MID",
+      "name": "Kostoulas",
+      "position": "FWD",
       "captain": false,
       "vice": false,
-      "benched": true
+      "benched": false
      }
     ],
     "count": 6
@@ -7962,7 +7962,7 @@
       "position": "FWD",
       "captain": false,
       "vice": true,
-      "benched": false
+      "benched": true
      }
     ],
     "count": 3
@@ -8042,18 +8042,18 @@
       "benched": false
      },
      {
-      "name": "Kostoulas",
-      "position": "FWD",
+      "name": "Yalcouyé",
+      "position": "MID",
       "captain": false,
       "vice": false,
       "benched": false
      },
      {
-      "name": "Yalcouyé",
-      "position": "MID",
+      "name": "Kostoulas",
+      "position": "FWD",
       "captain": false,
       "vice": false,
-      "benched": true
+      "benched": false
      }
     ],
     "away": [],
@@ -8149,7 +8149,7 @@
       "position": "FWD",
       "captain": false,
       "vice": true,
-      "benched": false
+      "benched": true
      }
     ],
     "away": [],
@@ -8335,18 +8335,18 @@
       "benched": false
      },
      {
-      "name": "Kostoulas",
-      "position": "FWD",
+      "name": "Yalcouyé",
+      "position": "MID",
       "captain": false,
       "vice": false,
       "benched": false
      },
      {
-      "name": "Yalcouyé",
-      "position": "MID",
+      "name": "Kostoulas",
+      "position": "FWD",
       "captain": false,
       "vice": false,
-      "benched": true
+      "benched": false
      }
     ],
     "count": 4
@@ -9644,7 +9644,7 @@
       "position": "FWD",
       "captain": false,
       "vice": true,
-      "benched": false
+      "benched": true
      }
     ],
     "count": 3
@@ -9691,18 +9691,18 @@
       "benched": false
      },
      {
-      "name": "Kostoulas",
-      "position": "FWD",
+      "name": "Yalcouyé",
+      "position": "MID",
       "captain": false,
       "vice": false,
       "benched": false
      },
      {
-      "name": "Yalcouyé",
-      "position": "MID",
+      "name": "Kostoulas",
+      "position": "FWD",
       "captain": false,
       "vice": false,
-      "benched": true
+      "benched": false
      }
     ],
     "away": [
@@ -9982,7 +9982,7 @@
       "position": "FWD",
       "captain": false,
       "vice": true,
-      "benched": false
+      "benched": true
      }
     ],
     "away": [],
@@ -10264,18 +10264,18 @@
       "benched": false
      },
      {
-      "name": "Kostoulas",
-      "position": "FWD",
+      "name": "Yalcouyé",
+      "position": "MID",
       "captain": false,
       "vice": false,
       "benched": false
      },
      {
-      "name": "Yalcouyé",
-      "position": "MID",
+      "name": "Kostoulas",
+      "position": "FWD",
       "captain": false,
       "vice": false,
-      "benched": true
+      "benched": false
      }
     ],
     "count": 3
@@ -10527,7 +10527,7 @@
       "position": "FWD",
       "captain": false,
       "vice": true,
-      "benched": false
+      "benched": true
      }
     ],
     "away": [],
@@ -10713,18 +10713,18 @@
       "benched": false
      },
      {
-      "name": "Kostoulas",
-      "position": "FWD",
+      "name": "Yalcouyé",
+      "position": "MID",
       "captain": false,
       "vice": false,
       "benched": false
      },
      {
-      "name": "Yalcouyé",
-      "position": "MID",
+      "name": "Kostoulas",
+      "position": "FWD",
       "captain": false,
       "vice": false,
-      "benched": true
+      "benched": false
      }
     ],
     "count": 3
@@ -11705,18 +11705,18 @@
       "benched": false
      },
      {
-      "name": "Kostoulas",
-      "position": "FWD",
+      "name": "Yalcouyé",
+      "position": "MID",
       "captain": false,
       "vice": false,
       "benched": false
      },
      {
-      "name": "Yalcouyé",
-      "position": "MID",
+      "name": "Kostoulas",
+      "position": "FWD",
       "captain": false,
       "vice": false,
-      "benched": true
+      "benched": false
      }
     ],
     "away": [],
@@ -11939,7 +11939,7 @@
       "position": "FWD",
       "captain": false,
       "vice": true,
-      "benched": false
+      "benched": true
      }
     ],
     "count": 6
@@ -12089,18 +12089,18 @@
       "benched": false
      },
      {
-      "name": "Kostoulas",
-      "position": "FWD",
+      "name": "Yalcouyé",
+      "position": "MID",
       "captain": false,
       "vice": false,
       "benched": false
      },
      {
-      "name": "Yalcouyé",
-      "position": "MID",
+      "name": "Kostoulas",
+      "position": "FWD",
       "captain": false,
       "vice": false,
-      "benched": true
+      "benched": false
      }
     ],
     "away": [],
@@ -12482,7 +12482,7 @@
       "position": "FWD",
       "captain": false,
       "vice": true,
-      "benched": false
+      "benched": true
      }
     ],
     "away": [],
@@ -12597,18 +12597,18 @@
       "benched": false
      },
      {
-      "name": "Kostoulas",
-      "position": "FWD",
+      "name": "Yalcouyé",
+      "position": "MID",
       "captain": false,
       "vice": false,
       "benched": false
      },
      {
-      "name": "Yalcouyé",
-      "position": "MID",
+      "name": "Kostoulas",
+      "position": "FWD",
       "captain": false,
       "vice": false,
-      "benched": true
+      "benched": false
      }
     ],
     "count": 3
@@ -12857,7 +12857,7 @@
       "position": "FWD",
       "captain": false,
       "vice": true,
-      "benched": false
+      "benched": true
      }
     ],
     "count": 3
@@ -13054,18 +13054,18 @@
       "benched": false
      },
      {
-      "name": "Kostoulas",
-      "position": "FWD",
+      "name": "Yalcouyé",
+      "position": "MID",
       "captain": false,
       "vice": false,
       "benched": false
      },
      {
-      "name": "Yalcouyé",
-      "position": "MID",
+      "name": "Kostoulas",
+      "position": "FWD",
       "captain": false,
       "vice": false,
-      "benched": true
+      "benched": false
      }
     ],
     "count": 4
@@ -13423,7 +13423,7 @@
       "position": "FWD",
       "captain": false,
       "vice": true,
-      "benched": false
+      "benched": true
      }
     ],
     "count": 3
@@ -13507,18 +13507,18 @@
       "benched": false
      },
      {
-      "name": "Kostoulas",
-      "position": "FWD",
+      "name": "Yalcouyé",
+      "position": "MID",
       "captain": false,
       "vice": false,
       "benched": false
      },
      {
-      "name": "Yalcouyé",
-      "position": "MID",
+      "name": "Kostoulas",
+      "position": "FWD",
       "captain": false,
       "vice": false,
-      "benched": true
+      "benched": false
      }
     ],
     "away": [],
@@ -13813,7 +13813,7 @@
       "position": "FWD",
       "captain": false,
       "vice": true,
-      "benched": false
+      "benched": true
      }
     ],
     "away": [
@@ -13999,18 +13999,18 @@
       "benched": false
      },
      {
-      "name": "Kostoulas",
-      "position": "FWD",
+      "name": "Yalcouyé",
+      "position": "MID",
       "captain": false,
       "vice": false,
       "benched": false
      },
      {
-      "name": "Yalcouyé",
-      "position": "MID",
+      "name": "Kostoulas",
+      "position": "FWD",
       "captain": false,
       "vice": false,
-      "benched": true
+      "benched": false
      }
     ],
     "away": [],
@@ -14226,7 +14226,7 @@
       "position": "FWD",
       "captain": false,
       "vice": true,
-      "benched": false
+      "benched": true
      }
     ],
     "count": 3
@@ -14517,7 +14517,7 @@
       "position": "FWD",
       "captain": false,
       "vice": true,
-      "benched": false
+      "benched": true
      }
     ],
     "away": [],
@@ -14566,18 +14566,18 @@
       "benched": false
      },
      {
-      "name": "Kostoulas",
-      "position": "FWD",
+      "name": "Yalcouyé",
+      "position": "MID",
       "captain": false,
       "vice": false,
       "benched": false
      },
      {
-      "name": "Yalcouyé",
-      "position": "MID",
+      "name": "Kostoulas",
+      "position": "FWD",
       "captain": false,
       "vice": false,
-      "benched": true
+      "benched": false
      }
     ],
     "count": 3
@@ -15873,7 +15873,7 @@
       "position": "FWD",
       "captain": false,
       "vice": true,
-      "benched": false
+      "benched": true
      }
     ],
     "count": 3
@@ -15990,18 +15990,18 @@
       "benched": false
      },
      {
-      "name": "Kostoulas",
-      "position": "FWD",
+      "name": "Yalcouyé",
+      "position": "MID",
       "captain": false,
       "vice": false,
       "benched": false
      },
      {
-      "name": "Yalcouyé",
-      "position": "MID",
+      "name": "Kostoulas",
+      "position": "FWD",
       "captain": false,
       "vice": false,
-      "benched": true
+      "benched": false
      }
     ],
     "away": [
@@ -16969,18 +16969,18 @@
       "benched": false
      },
      {
-      "name": "Kostoulas",
-      "position": "FWD",
+      "name": "Yalcouyé",
+      "position": "MID",
       "captain": false,
       "vice": false,
       "benched": false
      },
      {
-      "name": "Yalcouyé",
-      "position": "MID",
+      "name": "Kostoulas",
+      "position": "FWD",
       "captain": false,
       "vice": false,
-      "benched": true
+      "benched": false
      }
     ],
     "count": 4
@@ -17149,7 +17149,7 @@
       "position": "FWD",
       "captain": false,
       "vice": true,
-      "benched": false
+      "benched": true
      }
     ],
     "away": [],
@@ -17415,18 +17415,18 @@
       "benched": false
      },
      {
-      "name": "Kostoulas",
-      "position": "FWD",
+      "name": "Yalcouyé",
+      "position": "MID",
       "captain": false,
       "vice": false,
       "benched": false
      },
      {
-      "name": "Yalcouyé",
-      "position": "MID",
+      "name": "Kostoulas",
+      "position": "FWD",
       "captain": false,
       "vice": false,
-      "benched": true
+      "benched": false
      }
     ],
     "away": [
@@ -17746,7 +17746,7 @@
       "position": "FWD",
       "captain": false,
       "vice": true,
-      "benched": false
+      "benched": true
      }
     ],
     "count": 3
@@ -18023,7 +18023,7 @@
       "position": "FWD",
       "captain": false,
       "vice": true,
-      "benched": false
+      "benched": true
      }
     ],
     "count": 4
@@ -18179,18 +18179,18 @@
       "benched": false
      },
      {
-      "name": "Kostoulas",
-      "position": "FWD",
+      "name": "Yalcouyé",
+      "position": "MID",
       "captain": false,
       "vice": false,
       "benched": false
      },
      {
-      "name": "Yalcouyé",
-      "position": "MID",
+      "name": "Kostoulas",
+      "position": "FWD",
       "captain": false,
       "vice": false,
-      "benched": true
+      "benched": false
      }
     ],
     "count": 3
@@ -18440,7 +18440,7 @@
       "position": "FWD",
       "captain": false,
       "vice": true,
-      "benched": false
+      "benched": true
      }
     ],
     "away": [],
@@ -18629,18 +18629,18 @@
       "benched": false
      },
      {
-      "name": "Kostoulas",
-      "position": "FWD",
+      "name": "Yalcouyé",
+      "position": "MID",
       "captain": false,
       "vice": false,
       "benched": false
      },
      {
-      "name": "Yalcouyé",
-      "position": "MID",
+      "name": "Kostoulas",
+      "position": "FWD",
       "captain": false,
       "vice": false,
-      "benched": true
+      "benched": false
      }
     ],
     "away": [
@@ -18859,18 +18859,18 @@
       "benched": false
      },
      {
-      "name": "Kostoulas",
-      "position": "FWD",
+      "name": "Yalcouyé",
+      "position": "MID",
       "captain": false,
       "vice": false,
       "benched": false
      },
      {
-      "name": "Yalcouyé",
-      "position": "MID",
+      "name": "Kostoulas",
+      "position": "FWD",
       "captain": false,
       "vice": false,
-      "benched": true
+      "benched": false
      }
     ],
     "count": 3
@@ -19028,7 +19028,7 @@
       "position": "FWD",
       "captain": false,
       "vice": true,
-      "benched": false
+      "benched": true
      }
     ],
     "count": 3
@@ -19559,18 +19559,18 @@
       "benched": false
      },
      {
-      "name": "Kostoulas",
-      "position": "FWD",
+      "name": "Yalcouyé",
+      "position": "MID",
       "captain": false,
       "vice": false,
       "benched": false
      },
      {
-      "name": "Yalcouyé",
-      "position": "MID",
+      "name": "Kostoulas",
+      "position": "FWD",
       "captain": false,
       "vice": false,
-      "benched": true
+      "benched": false
      }
     ],
     "away": [],
@@ -19662,7 +19662,7 @@
       "position": "FWD",
       "captain": false,
       "vice": true,
-      "benched": false
+      "benched": true
      }
     ],
     "away": [],
@@ -19711,18 +19711,18 @@
       "benched": false
      },
      {
-      "name": "Kostoulas",
-      "position": "FWD",
+      "name": "Yalcouyé",
+      "position": "MID",
       "captain": false,
       "vice": false,
       "benched": false
      },
      {
-      "name": "Yalcouyé",
-      "position": "MID",
+      "name": "Kostoulas",
+      "position": "FWD",
       "captain": false,
       "vice": false,
-      "benched": true
+      "benched": false
      }
     ],
     "count": 3
@@ -19999,7 +19999,7 @@
       "position": "FWD",
       "captain": false,
       "vice": true,
-      "benched": false
+      "benched": true
      }
     ],
     "away": [
@@ -20217,18 +20217,18 @@
       "benched": false
      },
      {
-      "name": "Kostoulas",
-      "position": "FWD",
+      "name": "Yalcouyé",
+      "position": "MID",
       "captain": false,
       "vice": false,
       "benched": false
      },
      {
-      "name": "Yalcouyé",
-      "position": "MID",
+      "name": "Kostoulas",
+      "position": "FWD",
       "captain": false,
       "vice": false,
-      "benched": true
+      "benched": false
      }
     ],
     "away": [],
@@ -20484,7 +20484,7 @@
       "position": "FWD",
       "captain": false,
       "vice": true,
-      "benched": false
+      "benched": true
      }
     ],
     "count": 4
@@ -20784,7 +20784,7 @@
       "position": "FWD",
       "captain": false,
       "vice": true,
-      "benched": false
+      "benched": true
      }
     ],
     "away": [],
@@ -21074,18 +21074,18 @@
       "benched": false
      },
      {
-      "name": "Kostoulas",
-      "position": "FWD",
+      "name": "Yalcouyé",
+      "position": "MID",
       "captain": false,
       "vice": false,
       "benched": false
      },
      {
-      "name": "Yalcouyé",
-      "position": "MID",
+      "name": "Kostoulas",
+      "position": "FWD",
       "captain": false,
       "vice": false,
-      "benched": true
+      "benched": false
      }
     ],
     "count": 3
@@ -21132,18 +21132,18 @@
       "benched": false
      },
      {
-      "name": "Kostoulas",
-      "position": "FWD",
+      "name": "Yalcouyé",
+      "position": "MID",
       "captain": false,
       "vice": false,
       "benched": false
      },
      {
-      "name": "Yalcouyé",
-      "position": "MID",
+      "name": "Kostoulas",
+      "position": "FWD",
       "captain": false,
       "vice": false,
-      "benched": true
+      "benched": false
      }
     ],
     "away": [
@@ -21166,7 +21166,7 @@
       "position": "FWD",
       "captain": false,
       "vice": true,
-      "benched": false
+      "benched": true
      }
     ],
     "count": 6
@@ -21613,7 +21613,7 @@
       "position": "FWD",
       "captain": false,
       "vice": true,
-      "benched": false
+      "benched": true
      }
     ],
     "away": [
@@ -21833,18 +21833,18 @@
       "benched": false
      },
      {
-      "name": "Kostoulas",
-      "position": "FWD",
+      "name": "Yalcouyé",
+      "position": "MID",
       "captain": false,
       "vice": false,
       "benched": false
      },
      {
-      "name": "Yalcouyé",
-      "position": "MID",
+      "name": "Kostoulas",
+      "position": "FWD",
       "captain": false,
       "vice": false,
-      "benched": true
+      "benched": false
      }
     ],
     "count": 3
@@ -22121,18 +22121,18 @@
       "benched": false
      },
      {
-      "name": "Kostoulas",
-      "position": "FWD",
+      "name": "Yalcouyé",
+      "position": "MID",
       "captain": false,
       "vice": false,
       "benched": false
      },
      {
-      "name": "Yalcouyé",
-      "position": "MID",
+      "name": "Kostoulas",
+      "position": "FWD",
       "captain": false,
       "vice": false,
-      "benched": true
+      "benched": false
      }
     ],
     "away": [],
@@ -22370,7 +22370,7 @@
       "position": "FWD",
       "captain": false,
       "vice": true,
-      "benched": false
+      "benched": true
      }
     ],
     "count": 3
@@ -22820,18 +22820,18 @@
       "benched": false
      },
      {
-      "name": "Kostoulas",
-      "position": "FWD",
+      "name": "Yalcouyé",
+      "position": "MID",
       "captain": false,
       "vice": false,
       "benched": false
      },
      {
-      "name": "Yalcouyé",
-      "position": "MID",
+      "name": "Kostoulas",
+      "position": "FWD",
       "captain": false,
       "vice": false,
-      "benched": true
+      "benched": false
      }
     ],
     "away": [],
@@ -22903,7 +22903,7 @@
       "position": "FWD",
       "captain": false,
       "vice": true,
-      "benched": false
+      "benched": true
      }
     ],
     "count": 4
@@ -23119,18 +23119,18 @@
       "benched": false
      },
      {
-      "name": "Kostoulas",
-      "position": "FWD",
+      "name": "Yalcouyé",
+      "position": "MID",
       "captain": false,
       "vice": false,
       "benched": false
      },
      {
-      "name": "Yalcouyé",
-      "position": "MID",
+      "name": "Kostoulas",
+      "position": "FWD",
       "captain": false,
       "vice": false,
-      "benched": true
+      "benched": false
      }
     ],
     "count": 3
@@ -23233,7 +23233,7 @@
       "position": "FWD",
       "captain": false,
       "vice": true,
-      "benched": false
+      "benched": true
      }
     ],
     "away": [],
@@ -23682,18 +23682,18 @@
       "benched": false
      },
      {
-      "name": "Kostoulas",
-      "position": "FWD",
+      "name": "Yalcouyé",
+      "position": "MID",
       "captain": false,
       "vice": false,
       "benched": false
      },
      {
-      "name": "Yalcouyé",
-      "position": "MID",
+      "name": "Kostoulas",
+      "position": "FWD",
       "captain": false,
       "vice": false,
-      "benched": true
+      "benched": false
      }
     ],
     "away": [],
@@ -23786,7 +23786,7 @@
       "position": "FWD",
       "captain": false,
       "vice": true,
-      "benched": false
+      "benched": true
      }
     ],
     "count": 3
@@ -24040,18 +24040,18 @@
       "benched": false
      },
      {
-      "name": "Kostoulas",
-      "position": "FWD",
+      "name": "Yalcouyé",
+      "position": "MID",
       "captain": false,
       "vice": false,
       "benched": false
      },
      {
-      "name": "Yalcouyé",
-      "position": "MID",
+      "name": "Kostoulas",
+      "position": "FWD",
       "captain": false,
       "vice": false,
-      "benched": true
+      "benched": false
      }
     ],
     "count": 6
@@ -24373,7 +24373,7 @@
       "position": "FWD",
       "captain": false,
       "vice": true,
-      "benched": false
+      "benched": true
      }
     ],
     "away": [],

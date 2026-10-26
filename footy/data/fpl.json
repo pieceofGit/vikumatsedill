@@ -1,5 +1,5 @@
 {
- "fetchedAt": "2026-10-25T09:49:53.435Z",
+ "fetchedAt": "2026-10-26T11:09:02.542Z",
  "teamId": 6870928,
  "name": "How's it Goink?",
  "manager": "Fjölnir Þrastarson",
@@ -8,9 +8,9 @@
  "picksFrom": 8,
  "bank": 0.5,
  "squadValue": 103.6,
- "overallPoints": 497,
- "overallRank": 1602778,
- "gameweekPoints": 28,
+ "overallPoints": 501,
+ "overallRank": 2241148,
+ "gameweekPoints": 32,
  "players": [
   {
    "id": 1,
@@ -40,7 +40,7 @@
    "captain": false,
    "vice": false,
    "benched": false,
-   "points": 0
+   "points": 1
   },
   {
    "id": 391,
@@ -73,6 +73,16 @@
    "points": 0
   },
   {
+   "id": 15,
+   "name": "Ødegaard",
+   "club": "Arsenal",
+   "position": "MID",
+   "captain": false,
+   "vice": false,
+   "benched": false,
+   "points": 3
+  },
+  {
    "id": 154,
    "name": "Palmer",
    "club": "Chelsea",
@@ -83,14 +93,14 @@
    "points": -1
   },
   {
-   "id": 15,
-   "name": "Ødegaard",
-   "club": "Arsenal",
+   "id": 605,
+   "name": "Yalcouyé",
+   "club": "Brighton",
    "position": "MID",
    "captain": false,
    "vice": false,
    "benched": false,
-   "points": 3
+   "points": 1
   },
   {
    "id": 411,
@@ -103,16 +113,6 @@
    "points": 8
   },
   {
-   "id": 165,
-   "name": "João Pedro",
-   "club": "Chelsea",
-   "position": "FWD",
-   "captain": false,
-   "vice": true,
-   "benched": false,
-   "points": 0
-  },
-  {
    "id": 138,
    "name": "Kostoulas",
    "club": "Brighton",
@@ -120,7 +120,7 @@
    "captain": false,
    "vice": false,
    "benched": false,
-   "points": 0
+   "points": 2
   },
   {
    "id": 497,
@@ -133,12 +133,12 @@
    "points": 0
   },
   {
-   "id": 605,
-   "name": "Yalcouyé",
-   "club": "Brighton",
-   "position": "MID",
+   "id": 165,
+   "name": "João Pedro",
+   "club": "Chelsea",
+   "position": "FWD",
    "captain": false,
-   "vice": false,
+   "vice": true,
    "benched": true,
    "points": 0
   },
@@ -150,7 +150,7 @@
    "captain": false,
    "vice": false,
    "benched": true,
-   "points": 0
+   "points": 5
   },
   {
    "id": 279,
@@ -160,7 +160,7 @@
    "captain": false,
    "vice": false,
    "benched": true,
-   "points": 0
+   "points": 4
   }
  ]
 }
