@@ -218,5 +218,105 @@
   "text": "",
   "name": "Fjölnir",
   "key": "58ebb520e40603b50cea785955f5dcffb2012cf5071e04a52be63d71b14a23e6"
+ },
+ {
+  "id": "s2kEPcRtcn7u",
+  "time": 1793016343,
+  "place": "Makona",
+  "dish": "Firecraker bakaður lax í hunangi",
+  "rating": 5,
+  "text": "Þetta var á einhverju öðru leveli",
+  "name": "Gylfi",
+  "key": "b2b9624a91895d53f452284c3ca83c3c66b13c105936deb668132c0f3a7047d8"
+ },
+ {
+  "id": "ShsKTZxbn7zi",
+  "time": 1793016381,
+  "place": "Makona",
+  "dish": "Mangó kjúklingur",
+  "rating": 5,
+  "text": "Einn besti kjúklingur sem ég hef smakkað, ekki flókið",
+  "name": "Gylfi",
+  "key": "a991568a74f16485e26f1239658327bb9ed565a273b42c69f1465a6d1b9435f1"
+ },
+ {
+  "id": "THM6BwGNyxvH",
+  "time": 1793016404,
+  "place": "Makona",
+  "dish": "Stökkt eggaldins schnitzel",
+  "rating": 3,
+  "text": "Sjálfur er ég ekki vegan en þetta var alveg ágætt.",
+  "name": "Gylfi",
+  "key": "8ea5873dece63a18f1f73ef979942e48494e9b89a826e0967d471c9c74a704f3"
+ },
+ {
+  "id": "zv7HEg8jjWWQ",
+  "time": 1793021253,
+  "place": "Róót",
+  "dish": "Ristuð fennel- og kartöflusúpa með sítrónu",
+  "rating": 4,
+  "text": "Fínasta súpa",
+  "name": "",
+  "key": "ab0cb96deddd1e1dea494106cb59760c32a96599ec2eea401ca369680b4a4524"
+ },
+ {
+  "id": "DX5TmHhqudXB",
+  "time": 1793021287,
+  "place": "Róót",
+  "dish": "Núðlur með krydduðu nautahakki og sesamsósu",
+  "rating": 3,
+  "text": "Hakk og núður skrítið kombó, en slapp alveg",
+  "name": "",
+  "key": "4dfca3d954d39fdbf2a413aa8c35a51b10ced4bdb115e199a9f9c9559f1ef54b"
+ },
+ {
+  "id": "UfKFifCG7kTx",
+  "time": 1793021304,
+  "place": "Róót",
+  "dish": "Rauðkáls- og eplasalat með ristuðu sesami",
+  "rating": 4,
+  "text": "Mjög gott",
+  "name": "",
+  "key": "4e96d97429d377c7d9d9da8c008769b4428ee03b5558ca8b5fc7836f1b856c79"
+ },
+ {
+  "id": "N5OVsNOtDcyu",
+  "time": 1793021329,
+  "place": "Róót",
+  "dish": "Ristaður kúrbítur og augnabaunir með apríkósum og kryddjurtum",
+  "rating": 1,
+  "text": "Las augabrúnir - smakkaði ekki",
+  "name": "",
+  "key": "5eaf4eedbc6fc00e0140f258e7d8643f1abb9428463cc6b472560ad4a3e11ffd"
+ },
+ {
+  "id": "itGuKM1RcA2E",
+  "time": 1793026901,
+  "place": "Makona",
+  "dish": "Mangó kjúklingur",
+  "rating": 3,
+  "text": "solid, ekki jafn lengst uppi og Gylfi samt",
+  "name": "Fjölnir",
+  "key": "d6a2da294970a3abd6f8ce14e0702f198dad67cd639a6f6b960da6443fe9475f"
+ },
+ {
+  "id": "PdudHGMZQ9C7",
+  "time": 1793026942,
+  "place": "Makona",
+  "dish": "Firecraker bakaður lax í hunangi",
+  "rating": 4,
+  "text": "top dawg fishy",
+  "name": "Fjölnir",
+  "key": "b524f537fc427a1523c88776bd738a7e735efff18000079f58652b3543438934"
+ },
+ {
+  "id": "r46zCHI4p30v",
+  "time": 1793026960,
+  "place": "Makona",
+  "dish": "Rjómalöguð brokkáls- spínat og basil súpa með sítrónu",
+  "rating": 5,
+  "text": "ÞVÆLA",
+  "name": "Fjölnir",
+  "key": "9ee1e3016bb455c32cebc6e0c5505fb46d357a0258a192d5449c764d64e7c4c4"
  }
 ]
