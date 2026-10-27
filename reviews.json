@@ -318,5 +318,25 @@
   "text": "ÞVÆLA",
   "name": "Fjölnir",
   "key": "9ee1e3016bb455c32cebc6e0c5505fb46d357a0258a192d5449c764d64e7c4c4"
+ },
+ {
+  "id": "FF1G6rOHBAzH",
+  "time": 1793103223,
+  "place": "Makona",
+  "dish": "Spaghetti með trufflum",
+  "rating": 5,
+  "text": "",
+  "name": "Fjölnir",
+  "key": "8ef28b744a896a5718bfa1cbd7046b4db96bbdb2211836a134a84fb5927b0ad4"
+ },
+ {
+  "id": "XiEw9yFlZhef",
+  "time": 1793103227,
+  "place": "Makona",
+  "dish": "Kóreskir stökkir kjúklinga strimlar",
+  "rating": 3,
+  "text": "",
+  "name": "Fjölnir",
+  "key": "21d31100084bf5ba0d3875b87adf02e63526b25f4048db3c956ce0296ee88456"
  }
 ]
