@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-27T10:37:01.883Z",
+ "generatedAt": "2026-10-28T11:21:47.482Z",
  "gameweek": 9,
  "gameweekName": "Gameweek 9",
  "deadline": "2026-10-31T11:00:00Z",
@@ -13,7 +13,7 @@
    "name": "Haaland",
    "club": "MCI",
    "position": "FWD",
-   "price": 15.7,
+   "price": 15.8,
    "form": 9,
    "ppg": 8.2,
    "total": 66,
@@ -21,10 +21,10 @@
    "xgc": 10.59,
    "minutes": 709,
    "starts": 8,
-   "owned": 78,
+   "owned": 78.2,
    "status": "a",
    "news": null,
-   "priceMomentum": 60463,
+   "priceMomentum": 76741,
    "fixtures": [
     {
      "gw": 9,
@@ -79,7 +79,7 @@
    "owned": 42.6,
    "status": "a",
    "news": null,
-   "priceMomentum": 67688,
+   "priceMomentum": 78648,
    "fixtures": [
     {
      "gw": 9,
@@ -134,7 +134,7 @@
    "owned": 45.7,
    "status": "a",
    "news": null,
-   "priceMomentum": 39636,
+   "priceMomentum": 47857,
    "fixtures": [
     {
      "gw": 9,
@@ -189,7 +189,7 @@
    "owned": 10.2,
    "status": "a",
    "news": null,
-   "priceMomentum": -4205,
+   "priceMomentum": -3710,
    "fixtures": [
     {
      "gw": 9,
@@ -244,7 +244,7 @@
    "owned": 50.1,
    "status": "a",
    "news": null,
-   "priceMomentum": 52773,
+   "priceMomentum": 64292,
    "fixtures": [
     {
      "gw": 9,
@@ -296,10 +296,10 @@
    "xgc": 6.34,
    "minutes": 437,
    "starts": 6,
-   "owned": 38.6,
+   "owned": 38.3,
    "status": "a",
    "news": null,
-   "priceMomentum": -57363,
+   "priceMomentum": -77771,
    "fixtures": [
     {
      "gw": 9,
@@ -351,10 +351,10 @@
    "xgc": 11.07,
    "minutes": 698,
    "starts": 8,
-   "owned": 27.5,
+   "owned": 27.4,
    "status": "a",
    "news": null,
-   "priceMomentum": -100312,
+   "priceMomentum": -114608,
    "fixtures": [
     {
      "gw": 9,
@@ -409,7 +409,7 @@
    "owned": 20.5,
    "status": "a",
    "news": null,
-   "priceMomentum": 1740,
+   "priceMomentum": 2643,
    "fixtures": [
     {
      "gw": 9,
@@ -461,10 +461,10 @@
    "xgc": 8.87,
    "minutes": 577,
    "starts": 6,
-   "owned": 27,
+   "owned": 26.8,
    "status": "a",
    "news": null,
-   "priceMomentum": -56576,
+   "priceMomentum": -65029,
    "fixtures": [
     {
      "gw": 9,
@@ -516,10 +516,10 @@
    "xgc": 5.38,
    "minutes": 646,
    "starts": 8,
-   "owned": 17.7,
+   "owned": 17.6,
    "status": "a",
    "news": null,
-   "priceMomentum": -59958,
+   "priceMomentum": -72908,
    "fixtures": [
     {
      "gw": 9,
@@ -574,7 +574,7 @@
    "owned": 13,
    "status": "a",
    "news": null,
-   "priceMomentum": -14647,
+   "priceMomentum": -16776,
    "fixtures": [
     {
      "gw": 9,
@@ -618,7 +618,7 @@
    "name": "João Pedro",
    "club": "CHE",
    "position": "FWD",
-   "price": 7.9,
+   "price": 7.8,
    "form": 4.7,
    "ppg": 7.8,
    "total": 47,
@@ -626,10 +626,10 @@
    "xgc": 7.92,
    "minutes": 521,
    "starts": 6,
-   "owned": 70.7,
-   "status": "d",
-   "news": "Unspecified injury - 75% chance of playing",
-   "priceMomentum": -280872,
+   "owned": 65.1,
+   "status": "i",
+   "news": "Thigh injury - Unknown return date",
+   "priceMomentum": -881360,
    "fixtures": [
     {
      "gw": 9,
@@ -684,7 +684,7 @@
    "owned": 3.1,
    "status": "a",
    "news": null,
-   "priceMomentum": -12149,
+   "priceMomentum": -15240,
    "fixtures": [
     {
      "gw": 9,
@@ -736,10 +736,10 @@
    "xgc": 5.52,
    "minutes": 609,
    "starts": 7,
-   "owned": 52.4,
+   "owned": 51.6,
    "status": "d",
    "news": "Hip injury - 75% chance of playing",
-   "priceMomentum": -207950,
+   "priceMomentum": -275314,
    "fixtures": [
     {
      "gw": 9,
@@ -791,10 +791,10 @@
    "xgc": 0,
    "minutes": 0,
    "starts": 0,
-   "owned": 16.1,
+   "owned": 16,
    "status": "a",
    "news": null,
-   "priceMomentum": -16001,
+   "priceMomentum": -21062,
    "fixtures": [
     {
      "gw": 9,
@@ -929,7 +929,7 @@
      "form": 4.7,
      "xgi90": 0,
      "ease": 3.6,
-     "owned": 14.9,
+     "owned": 15,
      "fixtures": [
       {
        "gw": 9,
@@ -1037,7 +1037,7 @@
      "form": 9,
      "xgi90": 0.1,
      "ease": 2.8,
-     "owned": 20,
+     "owned": 20.3,
      "fixtures": [
       {
        "gw": 9,
@@ -1063,7 +1063,7 @@
      "id": 504,
      "name": "Vuskovic",
      "club": "BHA",
-     "price": 5.1,
+     "price": 5.2,
      "rating": 4.79,
      "form": 6.7,
      "xgi90": 0.18,
@@ -1099,7 +1099,7 @@
      "form": 7,
      "xgi90": 0.17,
      "ease": 2.8,
-     "owned": 4.5,
+     "owned": 4.6,
      "fixtures": [
       {
        "gw": 9,
@@ -1207,7 +1207,7 @@
      "form": 5,
      "xgi90": 0.52,
      "ease": 3.4,
-     "owned": 0.6,
+     "owned": 0.7,
      "fixtures": [
       {
        "gw": 9,
