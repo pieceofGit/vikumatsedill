@@ -348,5 +348,55 @@
   "text": "",
   "name": "",
   "key": "13378a7c5d8de44c5eba3755738d5aec776d71ef760db8b609f069f7bdc349ed"
+ },
+ {
+  "id": "sZwORURe6vU3",
+  "time": 1793266736,
+  "place": "Róót",
+  "dish": "Lasagne með hvítlauksbrauði",
+  "rating": 3,
+  "text": "",
+  "name": "Fjölnir",
+  "key": "ad545cf7fadeea617f252760ad1d7ff9df20ef677241e6c479ed40194dbe7595"
+ },
+ {
+  "id": "HPhQMChLDdeT",
+  "time": 1793267956,
+  "place": "Róót",
+  "dish": "Lasagne með hvítlauksbrauði",
+  "rating": 4,
+  "text": "",
+  "name": "",
+  "key": "56e806fe27ac568144ae688cca84cd49d20eade0dc6ef154cef255233b375812"
+ },
+ {
+  "id": "4KyIrpGVQYdr",
+  "time": 1793267964,
+  "place": "Róót",
+  "dish": "Bleikja með bakaðri papriku, aspas og yuzu-hollandaise",
+  "rating": 4,
+  "text": "",
+  "name": "",
+  "key": "5bd337513bb9c9e48ab8ddbd8f5a5b4e25a9bdac4581f053c05e356b557b8968"
+ },
+ {
+  "id": "0zIbJ9KG70z4",
+  "time": 1793267970,
+  "place": "Róót",
+  "dish": "Þorskgratín að miðjarðarhafshætti",
+  "rating": 1,
+  "text": "",
+  "name": "",
+  "key": "e4cae3ea340f7ee8fbea1421201d428b0794f6da664194a5f2afff180811cb8f"
+ },
+ {
+  "id": "Dw2a3rEYFHV6",
+  "time": 1793267975,
+  "place": "Róót",
+  "dish": "Pestókjúklingur með sítrónuorzo og ristuðum gulrótum",
+  "rating": 4,
+  "text": "",
+  "name": "",
+  "key": "1735b114e711772de5e02b6ea993079070af0a384fd79d538cb3fbb66fab57eb"
  }
 ]
