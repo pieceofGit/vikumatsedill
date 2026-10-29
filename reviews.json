@@ -398,5 +398,85 @@
   "text": "",
   "name": "",
   "key": "1735b114e711772de5e02b6ea993079070af0a384fd79d538cb3fbb66fab57eb"
+ },
+ {
+  "id": "1b0tO1W5MF29",
+  "time": 1793271018,
+  "place": "Róót",
+  "dish": "Lasagne með hvítlauksbrauði",
+  "rating": 4,
+  "text": "",
+  "name": "",
+  "key": "b65384000ec640d50baaba4d0c5fecdb5d73f205d6f7033183cb17dbb138b129"
+ },
+ {
+  "id": "Wh5REoe0jriu",
+  "time": 1793271023,
+  "place": "Róót",
+  "dish": "Bleikja með bakaðri papriku, aspas og yuzu-hollandaise",
+  "rating": 4,
+  "text": "",
+  "name": "",
+  "key": "5321a6bda18f8f5a8535e81d87f29a10560b8d390e10541e16ddff1732de4bea"
+ },
+ {
+  "id": "QkVWAgoLiRSa",
+  "time": 1793271695,
+  "place": "Róót",
+  "dish": "Lasagne með hvítlauksbrauði",
+  "rating": 5,
+  "text": "",
+  "name": "",
+  "key": "9784ca0cd7e11e6601cd0362793e04b6a49fdcba41aaa1ae58d762e8f993ba68"
+ },
+ {
+  "id": "SRpIbqbRxzCA",
+  "time": 1793271701,
+  "place": "Makona",
+  "dish": "Spaghetti með trufflum",
+  "rating": 5,
+  "text": "",
+  "name": "",
+  "key": "4272772d9692d137e336c5e6d4427af5c1f8f4f138ae7528f35b6b310753c4e9"
+ },
+ {
+  "id": "EfmXzb0OBQdw",
+  "time": 1793272044,
+  "place": "Róót",
+  "dish": "Lasagne með hvítlauksbrauði",
+  "rating": 4,
+  "text": "Aðeins meira krydd og þá hefði 4ða bæst við",
+  "name": "",
+  "key": "69a6d214e8a8bbe6ac279cd3ce1dd1755e6f2b0056deced420b31b33ffaffd7b"
+ },
+ {
+  "id": "n6hRX6IiCl1Z",
+  "time": 1793272058,
+  "place": "Róót",
+  "dish": "Rósakálssalat með rauðum vínberjum",
+  "rating": 5,
+  "text": "Gott!",
+  "name": "",
+  "key": "7b785ea186b6c18c7a28109383688d6b665739cbfeec3f2e3dcece9587513b88"
+ },
+ {
+  "id": "Of3SKq2vQdu1",
+  "time": 1793288161,
+  "place": "Róót",
+  "dish": "Kjúklingaborgari með maple-beikonsultu og leynisósunni",
+  "rating": 5,
+  "text": "",
+  "name": "",
+  "key": "e07d8e62a5ce0a00c996936d89e56f2ec802fadbf76632a2f09b48070309fb37"
+ },
+ {
+  "id": "tJORybBDrOp4",
+  "time": 1793288346,
+  "place": "Róót",
+  "dish": "Lasagne með hvítlauksbrauði",
+  "rating": 4,
+  "text": "",
+  "name": "",
+  "key": "e37d392e8c724865a274f81296197b7a797c041c128f2f3295070ec1370d717a"
  }
 ]
