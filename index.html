@@ -6,15 +6,15 @@
 <style>
 :root{
   --bg:#e8ecea; --surface:#fbfcfb; --ink:#0f1614; --muted:#586662;
-  --line:#ccd6d2; --accent:#0f5c4a; --accent-soft:#dbe8e3;
+  --line:#ccd6d2; --accent:#0f5c4a; --accent-soft:#dbe8e3; --warn:#b3261e;
 }
 @media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
   --bg:#0c1211; --surface:#141c19; --ink:#e5ece9; --muted:#8b9d97;
-  --line:#25322e; --accent:#5fd6ab; --accent-soft:#1a2a25;
+  --line:#25322e; --accent:#5fd6ab; --accent-soft:#1a2a25; --warn:#ff8a80;
 }}
 :root[data-theme="dark"]{
   --bg:#0c1211; --surface:#141c19; --ink:#e5ece9; --muted:#8b9d97;
-  --line:#25322e; --accent:#5fd6ab; --accent-soft:#1a2a25;
+  --line:#25322e; --accent:#5fd6ab; --accent-soft:#1a2a25; --warn:#ff8a80;
 }
 *{box-sizing:border-box}
 body{margin:0;background:var(--bg);color:var(--ink);
@@ -94,6 +94,11 @@ h1{font-family:"Familjen Grotesk",ui-sans-serif,sans-serif;font-weight:700;
 .rv button:disabled{opacity:.5;cursor:wait}
 .rv__status{color:#b3261e;font-size:.7rem}
 .rv__status:empty{display:none}
+.banner{display:flex;flex-wrap:wrap;align-items:center;gap:.4rem .8rem;
+  background:var(--surface);border:1px solid var(--line);border-left:4px solid var(--accent);
+  border-radius:4px;padding:.6rem .9rem;font-size:.85rem;color:var(--muted)}
+.banner .cell__place{text-decoration:none}
+.banner__closed{font-weight:600;color:var(--warn)}
 a:focus-visible{outline:2px solid var(--accent);outline-offset:3px}
 @media (max-width:900px){.board{grid-template-columns:1fr;grid-template-rows:none}
   .col{grid-row:auto;grid-template-rows:none;display:flex;flex-direction:column}
@@ -103,8 +108,13 @@ a:focus-visible{outline:2px solid var(--accent);outline-offset:3px}
   <header class="masthead">
     <h1>Vikumatseðill</h1>
     <span class="week">26. - 30. Október</span>
-    <span class="stamp">Uppfært 26. október 2026</span>
+    <span class="stamp">Uppfært 29. október 2026</span>
   </header>
+  <aside class="banner">
+    <a class="cell__place" href="https://ciboamore.is" target="_blank" rel="noreferrer">Cibo Amore</a>
+    <span>Ítalskar focaccia samlokur</span>
+    <span class="banner__closed">Lokað fimmtudag 29. okt. og föstudag 30. okt.</span>
+  </aside>
   <div class="board">
     <section class="col" data-weekday="1">
       <h2 class="col__day">Mánudagur</h2>
