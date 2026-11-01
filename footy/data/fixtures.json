@@ -1,11 +1,11 @@
 {
- "generatedAt": "2026-10-31T10:56:21.591Z",
+ "generatedAt": "2026-11-01T11:51:53.082Z",
  "fantasy": {
   "name": "How's it Goink?",
-  "gameweek": 8,
+  "gameweek": 9,
   "teamId": 6870928,
-  "overallPoints": 501,
-  "overallRank": 2241112
+  "overallPoints": 533,
+  "overallRank": 2514036
  },
  "season": "2026-27",
  "timezone": "Atlantic/Reykjavik",
@@ -410,13 +410,6 @@
       "benched": false
      },
      {
-      "name": "Cherki",
-      "position": "MID",
-      "captain": false,
-      "vice": false,
-      "benched": false
-     },
-     {
       "name": "Haaland",
       "position": "FWD",
       "captain": true,
@@ -424,7 +417,15 @@
       "benched": false
      }
     ],
-    "away": [],
+    "away": [
+     {
+      "name": "Tavernier",
+      "position": "MID",
+      "captain": false,
+      "vice": false,
+      "benched": false
+     }
+    ],
     "count": 3
    },
    "alert": false
@@ -465,29 +466,37 @@
    "fpl": {
     "home": [
      {
-      "name": "De Cuyper",
-      "position": "DEF",
+      "name": "Kostoulas",
+      "position": "FWD",
       "captain": false,
       "vice": false,
       "benched": false
      },
      {
-      "name": "Yalcouyé",
+      "name": "De Cuyper",
+      "position": "DEF",
+      "captain": false,
+      "vice": false,
+      "benched": true
+     }
+    ],
+    "away": [
+     {
+      "name": "Manzambi",
       "position": "MID",
       "captain": false,
       "vice": false,
       "benched": false
      },
      {
-      "name": "Kostoulas",
+      "name": "N.Jackson",
       "position": "FWD",
       "captain": false,
-      "vice": false,
+      "vice": true,
       "benched": false
      }
     ],
-    "away": [],
-    "count": 3
+    "count": 4
    },
    "alert": false
   },
@@ -531,7 +540,7 @@
       "position": "DEF",
       "captain": false,
       "vice": false,
-      "benched": true
+      "benched": false
      }
     ],
     "away": [],
@@ -591,17 +600,10 @@
       "position": "MID",
       "captain": false,
       "vice": false,
-      "benched": false
-     },
-     {
-      "name": "João Pedro",
-      "position": "FWD",
-      "captain": false,
-      "vice": true,
       "benched": true
      }
     ],
-    "count": 3
+    "count": 2
    },
    "alert": true
   },
@@ -649,13 +651,6 @@
       "benched": false
      },
      {
-      "name": "Cherki",
-      "position": "MID",
-      "captain": false,
-      "vice": false,
-      "benched": false
-     },
-     {
       "name": "Haaland",
       "position": "FWD",
       "captain": true,
@@ -663,7 +658,7 @@
       "benched": false
      }
     ],
-    "count": 3
+    "count": 2
    },
    "alert": false
   },
@@ -736,7 +731,19 @@
     1,
     1
    ],
-   "fpl": null,
+   "fpl": {
+    "home": [
+     {
+      "name": "Tavernier",
+      "position": "MID",
+      "captain": false,
+      "vice": false,
+      "benched": false
+     }
+    ],
+    "away": [],
+    "count": 1
+   },
    "alert": false
   },
   {
@@ -836,7 +843,7 @@
       "position": "DEF",
       "captain": false,
       "vice": false,
-      "benched": true
+      "benched": false
      }
     ],
     "count": 2
@@ -926,40 +933,26 @@
       "position": "MID",
       "captain": false,
       "vice": false,
-      "benched": false
-     },
-     {
-      "name": "João Pedro",
-      "position": "FWD",
-      "captain": false,
-      "vice": true,
       "benched": true
      }
     ],
     "away": [
-     {
-      "name": "De Cuyper",
-      "position": "DEF",
-      "captain": false,
-      "vice": false,
-      "benched": false
-     },
-     {
-      "name": "Yalcouyé",
-      "position": "MID",
-      "captain": false,
-      "vice": false,
-      "benched": false
-     },
      {
       "name": "Kostoulas",
       "position": "FWD",
       "captain": false,
       "vice": false,
       "benched": false
+     },
+     {
+      "name": "De Cuyper",
+      "position": "DEF",
+      "captain": false,
+      "vice": false,
+      "benched": true
      }
     ],
-    "count": 6
+    "count": 4
    },
    "alert": false
   },
@@ -1073,7 +1066,22 @@
     1
    ],
    "fpl": {
-    "home": [],
+    "home": [
+     {
+      "name": "Manzambi",
+      "position": "MID",
+      "captain": false,
+      "vice": false,
+      "benched": false
+     },
+     {
+      "name": "N.Jackson",
+      "position": "FWD",
+      "captain": false,
+      "vice": true,
+      "benched": false
+     }
+    ],
     "away": [
      {
       "name": "Raya",
@@ -1097,7 +1105,7 @@
       "benched": false
      }
     ],
-    "count": 3
+    "count": 5
    },
    "alert": false
   },
@@ -1177,11 +1185,19 @@
       "position": "DEF",
       "captain": false,
       "vice": false,
-      "benched": true
+      "benched": false
      }
     ],
-    "away": [],
-    "count": 1
+    "away": [
+     {
+      "name": "Tavernier",
+      "position": "MID",
+      "captain": false,
+      "vice": false,
+      "benched": false
+     }
+    ],
+    "count": 2
    },
    "alert": false
   },
@@ -1273,13 +1289,6 @@
       "benched": false
      },
      {
-      "name": "Cherki",
-      "position": "MID",
-      "captain": false,
-      "vice": false,
-      "benched": false
-     },
-     {
       "name": "Haaland",
       "position": "FWD",
       "captain": true,
@@ -1288,7 +1297,7 @@
      }
     ],
     "away": [],
-    "count": 3
+    "count": 2
    },
    "alert": false
   },
@@ -1328,29 +1337,22 @@
    "fpl": {
     "home": [
      {
-      "name": "De Cuyper",
-      "position": "DEF",
-      "captain": false,
-      "vice": false,
-      "benched": false
-     },
-     {
-      "name": "Yalcouyé",
-      "position": "MID",
-      "captain": false,
-      "vice": false,
-      "benched": false
-     },
-     {
       "name": "Kostoulas",
       "position": "FWD",
       "captain": false,
       "vice": false,
       "benched": false
+     },
+     {
+      "name": "De Cuyper",
+      "position": "DEF",
+      "captain": false,
+      "vice": false,
+      "benched": true
      }
     ],
     "away": [],
-    "count": 3
+    "count": 2
    },
    "alert": false
   },
@@ -1466,8 +1468,23 @@
       "benched": true
      }
     ],
-    "away": [],
-    "count": 1
+    "away": [
+     {
+      "name": "Manzambi",
+      "position": "MID",
+      "captain": false,
+      "vice": false,
+      "benched": false
+     },
+     {
+      "name": "N.Jackson",
+      "position": "FWD",
+      "captain": false,
+      "vice": true,
+      "benched": false
+     }
+    ],
+    "count": 3
    },
    "alert": false
   },
@@ -1585,17 +1602,10 @@
       "position": "MID",
       "captain": false,
       "vice": false,
-      "benched": false
-     },
-     {
-      "name": "João Pedro",
-      "position": "FWD",
-      "captain": false,
-      "vice": true,
       "benched": true
      }
     ],
-    "count": 6
+    "count": 5
    },
    "alert": true
   },
@@ -1680,7 +1690,26 @@
     2,
     3
    ],
-   "fpl": null,
+   "fpl": {
+    "home": [],
+    "away": [
+     {
+      "name": "Manzambi",
+      "position": "MID",
+      "captain": false,
+      "vice": false,
+      "benched": false
+     },
+     {
+      "name": "N.Jackson",
+      "position": "FWD",
+      "captain": false,
+      "vice": true,
+      "benched": false
+     }
+    ],
+    "count": 2
+   },
    "alert": false
   },
   {
@@ -1779,13 +1808,6 @@
       "benched": false
      },
      {
-      "name": "Cherki",
-      "position": "MID",
-      "captain": false,
-      "vice": false,
-      "benched": false
-     },
-     {
       "name": "Haaland",
       "position": "FWD",
       "captain": true,
@@ -1793,7 +1815,7 @@
       "benched": false
      }
     ],
-    "count": 3
+    "count": 2
    },
    "alert": true
   },
@@ -2533,7 +2555,26 @@
     1,
     2
    ],
-   "fpl": null,
+   "fpl": {
+    "home": [
+     {
+      "name": "Manzambi",
+      "position": "MID",
+      "captain": false,
+      "vice": false,
+      "benched": false
+     },
+     {
+      "name": "N.Jackson",
+      "position": "FWD",
+      "captain": false,
+      "vice": true,
+      "benched": false
+     }
+    ],
+    "away": [],
+    "count": 2
+   },
    "alert": false
   },
   {
@@ -2569,7 +2610,19 @@
     2,
     2
    ],
-   "fpl": null,
+   "fpl": {
+    "home": [
+     {
+      "name": "Tavernier",
+      "position": "MID",
+      "captain": false,
+      "vice": false,
+      "benched": false
+     }
+    ],
+    "away": [],
+    "count": 1
+   },
    "alert": false
   },
   {
@@ -2619,13 +2672,6 @@
       "position": "MID",
       "captain": false,
       "vice": false,
-      "benched": false
-     },
-     {
-      "name": "João Pedro",
-      "position": "FWD",
-      "captain": false,
-      "vice": true,
       "benched": true
      }
     ],
@@ -2638,7 +2684,7 @@
       "benched": true
      }
     ],
-    "count": 4
+    "count": 3
    },
    "alert": false
   },
@@ -2786,28 +2832,21 @@
     "home": [],
     "away": [
      {
-      "name": "De Cuyper",
-      "position": "DEF",
-      "captain": false,
-      "vice": false,
-      "benched": false
-     },
-     {
-      "name": "Yalcouyé",
-      "position": "MID",
-      "captain": false,
-      "vice": false,
-      "benched": false
-     },
-     {
       "name": "Kostoulas",
       "position": "FWD",
       "captain": false,
       "vice": false,
       "benched": false
+     },
+     {
+      "name": "De Cuyper",
+      "position": "DEF",
+      "captain": false,
+      "vice": false,
+      "benched": true
      }
     ],
-    "count": 3
+    "count": 2
    },
    "alert": false
   },
@@ -2859,13 +2898,6 @@
       "benched": false
      },
      {
-      "name": "Cherki",
-      "position": "MID",
-      "captain": false,
-      "vice": false,
-      "benched": false
-     },
-     {
       "name": "Haaland",
       "position": "FWD",
       "captain": true,
@@ -2873,7 +2905,7 @@
       "benched": false
      }
     ],
-    "count": 3
+    "count": 2
    },
    "alert": true
   },
@@ -2918,7 +2950,7 @@
       "position": "DEF",
       "captain": false,
       "vice": false,
-      "benched": true
+      "benched": false
      }
     ],
     "count": 1
@@ -2977,17 +3009,10 @@
       "position": "MID",
       "captain": false,
       "vice": false,
-      "benched": false
-     },
-     {
-      "name": "João Pedro",
-      "position": "FWD",
-      "captain": false,
-      "vice": true,
       "benched": true
      }
     ],
-    "count": 3
+    "count": 2
    },
    "alert": true
   },
@@ -3034,8 +3059,23 @@
       "benched": true
      }
     ],
-    "away": [],
-    "count": 1
+    "away": [
+     {
+      "name": "Manzambi",
+      "position": "MID",
+      "captain": false,
+      "vice": false,
+      "benched": false
+     },
+     {
+      "name": "N.Jackson",
+      "position": "FWD",
+      "captain": false,
+      "vice": true,
+      "benched": false
+     }
+    ],
+    "count": 3
    },
    "alert": false
   },
@@ -3111,25 +3151,18 @@
    "fpl": {
     "home": [
      {
-      "name": "De Cuyper",
-      "position": "DEF",
-      "captain": false,
-      "vice": false,
-      "benched": false
-     },
-     {
-      "name": "Yalcouyé",
-      "position": "MID",
-      "captain": false,
-      "vice": false,
-      "benched": false
-     },
-     {
       "name": "Kostoulas",
       "position": "FWD",
       "captain": false,
       "vice": false,
       "benched": false
+     },
+     {
+      "name": "De Cuyper",
+      "position": "DEF",
+      "captain": false,
+      "vice": false,
+      "benched": true
      }
     ],
     "away": [
@@ -3155,7 +3188,7 @@
       "benched": false
      }
     ],
-    "count": 6
+    "count": 5
    },
    "alert": false
   },
@@ -3199,7 +3232,7 @@
       "position": "DEF",
       "captain": false,
       "vice": false,
-      "benched": true
+      "benched": false
      }
     ],
     "away": [
@@ -3284,7 +3317,19 @@
     0,
     1
    ],
-   "fpl": null,
+   "fpl": {
+    "home": [
+     {
+      "name": "Tavernier",
+      "position": "MID",
+      "captain": false,
+      "vice": false,
+      "benched": false
+     }
+    ],
+    "away": [],
+    "count": 1
+   },
    "alert": false
   },
   {
@@ -3363,13 +3408,6 @@
       "benched": false
      },
      {
-      "name": "Cherki",
-      "position": "MID",
-      "captain": false,
-      "vice": false,
-      "benched": false
-     },
-     {
       "name": "Haaland",
       "position": "FWD",
       "captain": true,
@@ -3378,7 +3416,7 @@
      }
     ],
     "away": [],
-    "count": 3
+    "count": 2
    },
    "alert": false
   },
@@ -3515,28 +3553,21 @@
     "home": [],
     "away": [
      {
-      "name": "De Cuyper",
-      "position": "DEF",
-      "captain": false,
-      "vice": false,
-      "benched": false
-     },
-     {
-      "name": "Yalcouyé",
-      "position": "MID",
-      "captain": false,
-      "vice": false,
-      "benched": false
-     },
-     {
       "name": "Kostoulas",
       "position": "FWD",
       "captain": false,
       "vice": false,
       "benched": false
+     },
+     {
+      "name": "De Cuyper",
+      "position": "DEF",
+      "captain": false,
+      "vice": false,
+      "benched": true
      }
     ],
-    "count": 3
+    "count": 2
    },
    "alert": false
   },
@@ -3584,17 +3615,18 @@
       "position": "MID",
       "captain": false,
       "vice": false,
-      "benched": false
-     },
-     {
-      "name": "João Pedro",
-      "position": "FWD",
-      "captain": false,
-      "vice": true,
       "benched": true
      }
     ],
-    "away": [],
+    "away": [
+     {
+      "name": "Tavernier",
+      "position": "MID",
+      "captain": false,
+      "vice": false,
+      "benched": false
+     }
+    ],
     "count": 3
    },
    "alert": false
@@ -3662,7 +3694,26 @@
     }
    },
    "score": null,
-   "fpl": null,
+   "fpl": {
+    "home": [
+     {
+      "name": "Manzambi",
+      "position": "MID",
+      "captain": false,
+      "vice": false,
+      "benched": false
+     },
+     {
+      "name": "N.Jackson",
+      "position": "FWD",
+      "captain": false,
+      "vice": true,
+      "benched": false
+     }
+    ],
+    "away": [],
+    "count": 2
+   },
    "alert": false
   },
   {
@@ -3837,13 +3888,6 @@
       "benched": false
      },
      {
-      "name": "Cherki",
-      "position": "MID",
-      "captain": false,
-      "vice": false,
-      "benched": false
-     },
-     {
       "name": "Haaland",
       "position": "FWD",
       "captain": true,
@@ -3851,7 +3895,7 @@
       "benched": false
      }
     ],
-    "count": 3
+    "count": 2
    },
    "alert": true
   },
@@ -3893,7 +3937,7 @@
       "position": "DEF",
       "captain": false,
       "vice": false,
-      "benched": true
+      "benched": false
      }
     ],
     "count": 1
@@ -4438,7 +4482,26 @@
     }
    },
    "score": null,
-   "fpl": null,
+   "fpl": {
+    "home": [
+     {
+      "name": "Manzambi",
+      "position": "MID",
+      "captain": false,
+      "vice": false,
+      "benched": false
+     },
+     {
+      "name": "N.Jackson",
+      "position": "FWD",
+      "captain": false,
+      "vice": true,
+      "benched": false
+     }
+    ],
+    "away": [],
+    "count": 2
+   },
    "alert": false
   },
   {
@@ -4530,13 +4593,6 @@
       "benched": false
      },
      {
-      "name": "Cherki",
-      "position": "MID",
-      "captain": false,
-      "vice": false,
-      "benched": false
-     },
-     {
       "name": "Haaland",
       "position": "FWD",
       "captain": true,
@@ -4545,7 +4601,7 @@
      }
     ],
     "away": [],
-    "count": 3
+    "count": 2
    },
    "alert": true
   },
@@ -4711,17 +4767,10 @@
       "position": "MID",
       "captain": false,
       "vice": false,
-      "benched": false
-     },
-     {
-      "name": "João Pedro",
-      "position": "FWD",
-      "captain": false,
-      "vice": true,
       "benched": true
      }
     ],
-    "count": 3
+    "count": 2
    },
    "alert": false
   },
@@ -4810,13 +4859,6 @@
       "benched": false
      },
      {
-      "name": "Cherki",
-      "position": "MID",
-      "captain": false,
-      "vice": false,
-      "benched": false
-     },
-     {
       "name": "Haaland",
       "position": "FWD",
       "captain": true,
@@ -4825,7 +4867,7 @@
      }
     ],
     "away": [],
-    "count": 3
+    "count": 2
    },
    "alert": false
   },
@@ -4899,11 +4941,26 @@
       "position": "DEF",
       "captain": false,
       "vice": false,
-      "benched": true
+      "benched": false
      }
     ],
-    "away": [],
-    "count": 1
+    "away": [
+     {
+      "name": "Manzambi",
+      "position": "MID",
+      "captain": false,
+      "vice": false,
+      "benched": false
+     },
+     {
+      "name": "N.Jackson",
+      "position": "FWD",
+      "captain": false,
+      "vice": true,
+      "benched": false
+     }
+    ],
+    "count": 3
    },
    "alert": false
   },
@@ -4937,7 +4994,19 @@
     }
    },
    "score": null,
-   "fpl": null,
+   "fpl": {
+    "home": [
+     {
+      "name": "Tavernier",
+      "position": "MID",
+      "captain": false,
+      "vice": false,
+      "benched": false
+     }
+    ],
+    "away": [],
+    "count": 1
+   },
    "alert": false
   },
   {
@@ -5014,29 +5083,22 @@
    "fpl": {
     "home": [
      {
-      "name": "De Cuyper",
-      "position": "DEF",
-      "captain": false,
-      "vice": false,
-      "benched": false
-     },
-     {
-      "name": "Yalcouyé",
-      "position": "MID",
-      "captain": false,
-      "vice": false,
-      "benched": false
-     },
-     {
       "name": "Kostoulas",
       "position": "FWD",
       "captain": false,
       "vice": false,
       "benched": false
+     },
+     {
+      "name": "De Cuyper",
+      "position": "DEF",
+      "captain": false,
+      "vice": false,
+      "benched": true
      }
     ],
     "away": [],
-    "count": 3
+    "count": 2
    },
    "alert": true
   },
@@ -5385,13 +5447,6 @@
       "benched": false
      },
      {
-      "name": "Cherki",
-      "position": "MID",
-      "captain": false,
-      "vice": false,
-      "benched": false
-     },
-     {
       "name": "Haaland",
       "position": "FWD",
       "captain": true,
@@ -5400,7 +5455,7 @@
      }
     ],
     "away": [],
-    "count": 3
+    "count": 2
    },
    "alert": false
   },
@@ -5643,7 +5698,26 @@
     }
    },
    "score": null,
-   "fpl": null,
+   "fpl": {
+    "home": [
+     {
+      "name": "Manzambi",
+      "position": "MID",
+      "captain": false,
+      "vice": false,
+      "benched": false
+     },
+     {
+      "name": "N.Jackson",
+      "position": "FWD",
+      "captain": false,
+      "vice": true,
+      "benched": false
+     }
+    ],
+    "away": [],
+    "count": 2
+   },
    "alert": false
   },
   {
@@ -5974,18 +6048,26 @@
    },
    "score": null,
    "fpl": {
-    "home": [],
-    "away": [
+    "home": [
      {
-      "name": "Gvardiol",
-      "position": "DEF",
+      "name": "Manzambi",
+      "position": "MID",
       "captain": false,
       "vice": false,
       "benched": false
      },
      {
-      "name": "Cherki",
-      "position": "MID",
+      "name": "N.Jackson",
+      "position": "FWD",
+      "captain": false,
+      "vice": true,
+      "benched": false
+     }
+    ],
+    "away": [
+     {
+      "name": "Gvardiol",
+      "position": "DEF",
       "captain": false,
       "vice": false,
       "benched": false
@@ -5998,7 +6080,7 @@
       "benched": false
      }
     ],
-    "count": 3
+    "count": 4
    },
    "alert": false
   },
@@ -6142,13 +6224,6 @@
       "position": "MID",
       "captain": false,
       "vice": false,
-      "benched": false
-     },
-     {
-      "name": "João Pedro",
-      "position": "FWD",
-      "captain": false,
-      "vice": true,
       "benched": true
      }
     ],
@@ -6161,7 +6236,7 @@
       "benched": true
      }
     ],
-    "count": 4
+    "count": 3
    },
    "alert": true
   },
@@ -6199,28 +6274,21 @@
     "home": [],
     "away": [
      {
-      "name": "De Cuyper",
-      "position": "DEF",
-      "captain": false,
-      "vice": false,
-      "benched": false
-     },
-     {
-      "name": "Yalcouyé",
-      "position": "MID",
-      "captain": false,
-      "vice": false,
-      "benched": false
-     },
-     {
       "name": "Kostoulas",
       "position": "FWD",
       "captain": false,
       "vice": false,
       "benched": false
+     },
+     {
+      "name": "De Cuyper",
+      "position": "DEF",
+      "captain": false,
+      "vice": false,
+      "benched": true
      }
     ],
-    "count": 3
+    "count": 2
    },
    "alert": false
   },
@@ -6262,7 +6330,7 @@
       "position": "DEF",
       "captain": false,
       "vice": false,
-      "benched": true
+      "benched": false
      }
     ],
     "count": 1
@@ -6303,7 +6371,19 @@
     }
    },
    "score": null,
-   "fpl": null,
+   "fpl": {
+    "home": [],
+    "away": [
+     {
+      "name": "Tavernier",
+      "position": "MID",
+      "captain": false,
+      "vice": false,
+      "benched": false
+     }
+    ],
+    "count": 1
+   },
    "alert": true
   },
   {
@@ -6432,18 +6512,11 @@
       "position": "MID",
       "captain": false,
       "vice": false,
-      "benched": false
-     },
-     {
-      "name": "João Pedro",
-      "position": "FWD",
-      "captain": false,
-      "vice": true,
       "benched": true
      }
     ],
     "away": [],
-    "count": 3
+    "count": 2
    },
    "alert": true
   },
@@ -6487,13 +6560,6 @@
       "benched": false
      },
      {
-      "name": "Cherki",
-      "position": "MID",
-      "captain": false,
-      "vice": false,
-      "benched": false
-     },
-     {
       "name": "Haaland",
       "position": "FWD",
       "captain": true,
@@ -6503,28 +6569,21 @@
     ],
     "away": [
      {
-      "name": "De Cuyper",
-      "position": "DEF",
-      "captain": false,
-      "vice": false,
-      "benched": false
-     },
-     {
-      "name": "Yalcouyé",
-      "position": "MID",
-      "captain": false,
-      "vice": false,
-      "benched": false
-     },
-     {
       "name": "Kostoulas",
       "position": "FWD",
       "captain": false,
       "vice": false,
       "benched": false
+     },
+     {
+      "name": "De Cuyper",
+      "position": "DEF",
+      "captain": false,
+      "vice": false,
+      "benched": true
      }
     ],
-    "count": 6
+    "count": 4
    },
    "alert": false
   },
@@ -6558,7 +6617,19 @@
     }
    },
    "score": null,
-   "fpl": null,
+   "fpl": {
+    "home": [
+     {
+      "name": "Tavernier",
+      "position": "MID",
+      "captain": false,
+      "vice": false,
+      "benched": false
+     }
+    ],
+    "away": [],
+    "count": 1
+   },
    "alert": false
   },
   {
@@ -6747,7 +6818,26 @@
     }
    },
    "score": null,
-   "fpl": null,
+   "fpl": {
+    "home": [
+     {
+      "name": "Manzambi",
+      "position": "MID",
+      "captain": false,
+      "vice": false,
+      "benched": false
+     },
+     {
+      "name": "N.Jackson",
+      "position": "FWD",
+      "captain": false,
+      "vice": true,
+      "benched": false
+     }
+    ],
+    "away": [],
+    "count": 2
+   },
    "alert": false
   },
   {
@@ -6850,7 +6940,7 @@
       "position": "DEF",
       "captain": false,
       "vice": false,
-      "benched": true
+      "benched": false
      }
     ],
     "away": [],
@@ -7015,7 +7105,26 @@
     }
    },
    "score": null,
-   "fpl": null,
+   "fpl": {
+    "home": [],
+    "away": [
+     {
+      "name": "Manzambi",
+      "position": "MID",
+      "captain": false,
+      "vice": false,
+      "benched": false
+     },
+     {
+      "name": "N.Jackson",
+      "position": "FWD",
+      "captain": false,
+      "vice": true,
+      "benched": false
+     }
+    ],
+    "count": 2
+   },
    "alert": false
   },
   {
@@ -7506,13 +7615,6 @@
       "benched": false
      },
      {
-      "name": "Cherki",
-      "position": "MID",
-      "captain": false,
-      "vice": false,
-      "benched": false
-     },
-     {
       "name": "Haaland",
       "position": "FWD",
       "captain": true,
@@ -7520,7 +7622,7 @@
       "benched": false
      }
     ],
-    "count": 3
+    "count": 2
    },
    "alert": false
   },
@@ -7736,13 +7838,6 @@
       "benched": false
      },
      {
-      "name": "Cherki",
-      "position": "MID",
-      "captain": false,
-      "vice": false,
-      "benched": false
-     },
-     {
       "name": "Haaland",
       "position": "FWD",
       "captain": true,
@@ -7750,7 +7845,7 @@
       "benched": false
      }
     ],
-    "count": 3
+    "count": 2
    },
    "alert": false
   },
@@ -7837,7 +7932,7 @@
       "position": "DEF",
       "captain": false,
       "vice": false,
-      "benched": true
+      "benched": false
      }
     ],
     "count": 1
@@ -7955,17 +8050,10 @@
       "position": "MID",
       "captain": false,
       "vice": false,
-      "benched": false
-     },
-     {
-      "name": "João Pedro",
-      "position": "FWD",
-      "captain": false,
-      "vice": true,
       "benched": true
      }
     ],
-    "count": 3
+    "count": 2
    },
    "alert": false
   },
@@ -7999,7 +8087,19 @@
     }
    },
    "score": null,
-   "fpl": null,
+   "fpl": {
+    "home": [],
+    "away": [
+     {
+      "name": "Tavernier",
+      "position": "MID",
+      "captain": false,
+      "vice": false,
+      "benched": false
+     }
+    ],
+    "count": 1
+   },
    "alert": false
   },
   {
@@ -8035,29 +8135,22 @@
    "fpl": {
     "home": [
      {
-      "name": "De Cuyper",
-      "position": "DEF",
-      "captain": false,
-      "vice": false,
-      "benched": false
-     },
-     {
-      "name": "Yalcouyé",
-      "position": "MID",
-      "captain": false,
-      "vice": false,
-      "benched": false
-     },
-     {
       "name": "Kostoulas",
       "position": "FWD",
       "captain": false,
       "vice": false,
       "benched": false
+     },
+     {
+      "name": "De Cuyper",
+      "position": "DEF",
+      "captain": false,
+      "vice": false,
+      "benched": true
      }
     ],
     "away": [],
-    "count": 3
+    "count": 2
    },
    "alert": false
   },
@@ -8095,7 +8188,26 @@
     }
    },
    "score": null,
-   "fpl": null,
+   "fpl": {
+    "home": [],
+    "away": [
+     {
+      "name": "Manzambi",
+      "position": "MID",
+      "captain": false,
+      "vice": false,
+      "benched": false
+     },
+     {
+      "name": "N.Jackson",
+      "position": "FWD",
+      "captain": false,
+      "vice": true,
+      "benched": false
+     }
+    ],
+    "count": 2
+   },
    "alert": true
   },
   {
@@ -8142,18 +8254,11 @@
       "position": "MID",
       "captain": false,
       "vice": false,
-      "benched": false
-     },
-     {
-      "name": "João Pedro",
-      "position": "FWD",
-      "captain": false,
-      "vice": true,
       "benched": true
      }
     ],
     "away": [],
-    "count": 3
+    "count": 2
    },
    "alert": false
   },
@@ -8197,13 +8302,6 @@
       "benched": false
      },
      {
-      "name": "Cherki",
-      "position": "MID",
-      "captain": false,
-      "vice": false,
-      "benched": false
-     },
-     {
       "name": "Haaland",
       "position": "FWD",
       "captain": true,
@@ -8212,7 +8310,7 @@
      }
     ],
     "away": [],
-    "count": 3
+    "count": 2
    },
    "alert": false
   },
@@ -8246,7 +8344,26 @@
     }
    },
    "score": null,
-   "fpl": null,
+   "fpl": {
+    "home": [
+     {
+      "name": "Manzambi",
+      "position": "MID",
+      "captain": false,
+      "vice": false,
+      "benched": false
+     },
+     {
+      "name": "N.Jackson",
+      "position": "FWD",
+      "captain": false,
+      "vice": true,
+      "benched": false
+     }
+    ],
+    "away": [],
+    "count": 2
+   },
    "alert": false
   },
   {
@@ -8328,28 +8445,21 @@
     ],
     "away": [
      {
-      "name": "De Cuyper",
-      "position": "DEF",
-      "captain": false,
-      "vice": false,
-      "benched": false
-     },
-     {
-      "name": "Yalcouyé",
-      "position": "MID",
-      "captain": false,
-      "vice": false,
-      "benched": false
-     },
-     {
       "name": "Kostoulas",
       "position": "FWD",
       "captain": false,
       "vice": false,
       "benched": false
+     },
+     {
+      "name": "De Cuyper",
+      "position": "DEF",
+      "captain": false,
+      "vice": false,
+      "benched": true
      }
     ],
-    "count": 4
+    "count": 3
    },
    "alert": false
   },
@@ -8383,7 +8493,19 @@
     }
    },
    "score": null,
-   "fpl": null,
+   "fpl": {
+    "home": [
+     {
+      "name": "Tavernier",
+      "position": "MID",
+      "captain": false,
+      "vice": false,
+      "benched": false
+     }
+    ],
+    "away": [],
+    "count": 1
+   },
    "alert": false
   },
   {
@@ -8534,7 +8656,7 @@
       "position": "DEF",
       "captain": false,
       "vice": false,
-      "benched": true
+      "benched": false
      }
     ],
     "away": [
@@ -8639,7 +8761,26 @@
     }
    },
    "score": null,
-   "fpl": null,
+   "fpl": {
+    "home": [],
+    "away": [
+     {
+      "name": "Manzambi",
+      "position": "MID",
+      "captain": false,
+      "vice": false,
+      "benched": false
+     },
+     {
+      "name": "N.Jackson",
+      "position": "FWD",
+      "captain": false,
+      "vice": true,
+      "benched": false
+     }
+    ],
+    "count": 2
+   },
    "alert": false
   },
   {
@@ -8839,13 +8980,6 @@
       "benched": false
      },
      {
-      "name": "Cherki",
-      "position": "MID",
-      "captain": false,
-      "vice": false,
-      "benched": false
-     },
-     {
       "name": "Haaland",
       "position": "FWD",
       "captain": true,
@@ -8854,7 +8988,7 @@
      }
     ],
     "away": [],
-    "count": 3
+    "count": 2
    },
    "alert": true
   },
@@ -9397,7 +9531,26 @@
     }
    },
    "score": null,
-   "fpl": null,
+   "fpl": {
+    "home": [],
+    "away": [
+     {
+      "name": "Manzambi",
+      "position": "MID",
+      "captain": false,
+      "vice": false,
+      "benched": false
+     },
+     {
+      "name": "N.Jackson",
+      "position": "FWD",
+      "captain": false,
+      "vice": true,
+      "benched": false
+     }
+    ],
+    "count": 2
+   },
    "alert": false
   },
   {
@@ -9467,13 +9620,6 @@
       "benched": false
      },
      {
-      "name": "Cherki",
-      "position": "MID",
-      "captain": false,
-      "vice": false,
-      "benched": false
-     },
-     {
       "name": "Haaland",
       "position": "FWD",
       "captain": true,
@@ -9481,7 +9627,7 @@
       "benched": false
      }
     ],
-    "count": 6
+    "count": 5
    },
    "alert": true
   },
@@ -9589,7 +9735,19 @@
     }
    },
    "score": null,
-   "fpl": null,
+   "fpl": {
+    "home": [],
+    "away": [
+     {
+      "name": "Tavernier",
+      "position": "MID",
+      "captain": false,
+      "vice": false,
+      "benched": false
+     }
+    ],
+    "count": 1
+   },
    "alert": false
   },
   {
@@ -9637,17 +9795,10 @@
       "position": "MID",
       "captain": false,
       "vice": false,
-      "benched": false
-     },
-     {
-      "name": "João Pedro",
-      "position": "FWD",
-      "captain": false,
-      "vice": true,
       "benched": true
      }
     ],
-    "count": 3
+    "count": 2
    },
    "alert": false
   },
@@ -9684,25 +9835,18 @@
    "fpl": {
     "home": [
      {
-      "name": "De Cuyper",
-      "position": "DEF",
-      "captain": false,
-      "vice": false,
-      "benched": false
-     },
-     {
-      "name": "Yalcouyé",
-      "position": "MID",
-      "captain": false,
-      "vice": false,
-      "benched": false
-     },
-     {
       "name": "Kostoulas",
       "position": "FWD",
       "captain": false,
       "vice": false,
       "benched": false
+     },
+     {
+      "name": "De Cuyper",
+      "position": "DEF",
+      "captain": false,
+      "vice": false,
+      "benched": true
      }
     ],
     "away": [
@@ -9711,10 +9855,10 @@
       "position": "DEF",
       "captain": false,
       "vice": false,
-      "benched": true
+      "benched": false
      }
     ],
-    "count": 4
+    "count": 3
    },
    "alert": false
   },
@@ -9975,18 +10119,11 @@
       "position": "MID",
       "captain": false,
       "vice": false,
-      "benched": false
-     },
-     {
-      "name": "João Pedro",
-      "position": "FWD",
-      "captain": false,
-      "vice": true,
       "benched": true
      }
     ],
     "away": [],
-    "count": 3
+    "count": 2
    },
    "alert": false
   },
@@ -10020,7 +10157,26 @@
     }
    },
    "score": null,
-   "fpl": null,
+   "fpl": {
+    "home": [
+     {
+      "name": "Manzambi",
+      "position": "MID",
+      "captain": false,
+      "vice": false,
+      "benched": false
+     },
+     {
+      "name": "N.Jackson",
+      "position": "FWD",
+      "captain": false,
+      "vice": true,
+      "benched": false
+     }
+    ],
+    "away": [],
+    "count": 2
+   },
    "alert": false
   },
   {
@@ -10155,13 +10311,6 @@
       "benched": false
      },
      {
-      "name": "Cherki",
-      "position": "MID",
-      "captain": false,
-      "vice": false,
-      "benched": false
-     },
-     {
       "name": "Haaland",
       "position": "FWD",
       "captain": true,
@@ -10170,7 +10319,7 @@
      }
     ],
     "away": [],
-    "count": 3
+    "count": 2
    },
    "alert": false
   },
@@ -10215,7 +10364,7 @@
       "position": "DEF",
       "captain": false,
       "vice": false,
-      "benched": true
+      "benched": false
      }
     ],
     "away": [],
@@ -10254,28 +10403,29 @@
    },
    "score": null,
    "fpl": {
-    "home": [],
-    "away": [
+    "home": [
      {
-      "name": "De Cuyper",
-      "position": "DEF",
-      "captain": false,
-      "vice": false,
-      "benched": false
-     },
-     {
-      "name": "Yalcouyé",
+      "name": "Tavernier",
       "position": "MID",
       "captain": false,
       "vice": false,
       "benched": false
-     },
+     }
+    ],
+    "away": [
      {
       "name": "Kostoulas",
       "position": "FWD",
       "captain": false,
       "vice": false,
       "benched": false
+     },
+     {
+      "name": "De Cuyper",
+      "position": "DEF",
+      "captain": false,
+      "vice": false,
+      "benched": true
      }
     ],
     "count": 3
@@ -10464,7 +10614,7 @@
       "position": "DEF",
       "captain": false,
       "vice": false,
-      "benched": true
+      "benched": false
      }
     ],
     "away": [],
@@ -10520,18 +10670,11 @@
       "position": "MID",
       "captain": false,
       "vice": false,
-      "benched": false
-     },
-     {
-      "name": "João Pedro",
-      "position": "FWD",
-      "captain": false,
-      "vice": true,
       "benched": true
      }
     ],
     "away": [],
-    "count": 3
+    "count": 2
    },
    "alert": true
   },
@@ -10576,13 +10719,6 @@
       "benched": false
      },
      {
-      "name": "Cherki",
-      "position": "MID",
-      "captain": false,
-      "vice": false,
-      "benched": false
-     },
-     {
       "name": "Haaland",
       "position": "FWD",
       "captain": true,
@@ -10590,7 +10726,7 @@
       "benched": false
      }
     ],
-    "count": 3
+    "count": 2
    },
    "alert": false
   },
@@ -10625,7 +10761,15 @@
    },
    "score": null,
    "fpl": {
-    "home": [],
+    "home": [
+     {
+      "name": "Tavernier",
+      "position": "MID",
+      "captain": false,
+      "vice": false,
+      "benched": false
+     }
+    ],
     "away": [
      {
       "name": "Ajayi",
@@ -10635,7 +10779,7 @@
       "benched": true
      }
     ],
-    "count": 1
+    "count": 2
    },
    "alert": false
   },
@@ -10669,7 +10813,26 @@
     }
    },
    "score": null,
-   "fpl": null,
+   "fpl": {
+    "home": [
+     {
+      "name": "Manzambi",
+      "position": "MID",
+      "captain": false,
+      "vice": false,
+      "benched": false
+     },
+     {
+      "name": "N.Jackson",
+      "position": "FWD",
+      "captain": false,
+      "vice": true,
+      "benched": false
+     }
+    ],
+    "away": [],
+    "count": 2
+   },
    "alert": false
   },
   {
@@ -10706,28 +10869,21 @@
     "home": [],
     "away": [
      {
-      "name": "De Cuyper",
-      "position": "DEF",
-      "captain": false,
-      "vice": false,
-      "benched": false
-     },
-     {
-      "name": "Yalcouyé",
-      "position": "MID",
-      "captain": false,
-      "vice": false,
-      "benched": false
-     },
-     {
       "name": "Kostoulas",
       "position": "FWD",
       "captain": false,
       "vice": false,
       "benched": false
+     },
+     {
+      "name": "De Cuyper",
+      "position": "DEF",
+      "captain": false,
+      "vice": false,
+      "benched": true
      }
     ],
-    "count": 3
+    "count": 2
    },
    "alert": false
   },
@@ -10960,7 +11116,26 @@
     }
    },
    "score": null,
-   "fpl": null,
+   "fpl": {
+    "home": [
+     {
+      "name": "Manzambi",
+      "position": "MID",
+      "captain": false,
+      "vice": false,
+      "benched": false
+     },
+     {
+      "name": "N.Jackson",
+      "position": "FWD",
+      "captain": false,
+      "vice": true,
+      "benched": false
+     }
+    ],
+    "away": [],
+    "count": 2
+   },
    "alert": true
   },
   {
@@ -11014,13 +11189,6 @@
       "benched": false
      },
      {
-      "name": "Cherki",
-      "position": "MID",
-      "captain": false,
-      "vice": false,
-      "benched": false
-     },
-     {
       "name": "Haaland",
       "position": "FWD",
       "captain": true,
@@ -11028,7 +11196,7 @@
       "benched": false
      }
     ],
-    "count": 3
+    "count": 2
    },
    "alert": true
   },
@@ -11698,29 +11866,22 @@
    "fpl": {
     "home": [
      {
-      "name": "De Cuyper",
-      "position": "DEF",
-      "captain": false,
-      "vice": false,
-      "benched": false
-     },
-     {
-      "name": "Yalcouyé",
-      "position": "MID",
-      "captain": false,
-      "vice": false,
-      "benched": false
-     },
-     {
       "name": "Kostoulas",
       "position": "FWD",
       "captain": false,
       "vice": false,
       "benched": false
+     },
+     {
+      "name": "De Cuyper",
+      "position": "DEF",
+      "captain": false,
+      "vice": false,
+      "benched": true
      }
     ],
     "away": [],
-    "count": 3
+    "count": 2
    },
    "alert": false
   },
@@ -11762,7 +11923,7 @@
       "position": "DEF",
       "captain": false,
       "vice": false,
-      "benched": true
+      "benched": false
      }
     ],
     "count": 1
@@ -11799,7 +11960,26 @@
     }
    },
    "score": null,
-   "fpl": null,
+   "fpl": {
+    "home": [],
+    "away": [
+     {
+      "name": "Manzambi",
+      "position": "MID",
+      "captain": false,
+      "vice": false,
+      "benched": false
+     },
+     {
+      "name": "N.Jackson",
+      "position": "FWD",
+      "captain": false,
+      "vice": true,
+      "benched": false
+     }
+    ],
+    "count": 2
+   },
    "alert": false
   },
   {
@@ -11856,8 +12036,16 @@
       "benched": false
      }
     ],
-    "away": [],
-    "count": 3
+    "away": [
+     {
+      "name": "Tavernier",
+      "position": "MID",
+      "captain": false,
+      "vice": false,
+      "benched": false
+     }
+    ],
+    "count": 4
    },
    "alert": false
   },
@@ -11905,13 +12093,6 @@
       "benched": false
      },
      {
-      "name": "Cherki",
-      "position": "MID",
-      "captain": false,
-      "vice": false,
-      "benched": false
-     },
-     {
       "name": "Haaland",
       "position": "FWD",
       "captain": true,
@@ -11932,17 +12113,10 @@
       "position": "MID",
       "captain": false,
       "vice": false,
-      "benched": false
-     },
-     {
-      "name": "João Pedro",
-      "position": "FWD",
-      "captain": false,
-      "vice": true,
       "benched": true
      }
     ],
-    "count": 6
+    "count": 4
    },
    "alert": true
   },
@@ -12082,29 +12256,22 @@
    "fpl": {
     "home": [
      {
-      "name": "De Cuyper",
-      "position": "DEF",
-      "captain": false,
-      "vice": false,
-      "benched": false
-     },
-     {
-      "name": "Yalcouyé",
-      "position": "MID",
-      "captain": false,
-      "vice": false,
-      "benched": false
-     },
-     {
       "name": "Kostoulas",
       "position": "FWD",
       "captain": false,
       "vice": false,
       "benched": false
+     },
+     {
+      "name": "De Cuyper",
+      "position": "DEF",
+      "captain": false,
+      "vice": false,
+      "benched": true
      }
     ],
     "away": [],
-    "count": 3
+    "count": 2
    },
    "alert": false
   },
@@ -12179,7 +12346,7 @@
       "position": "DEF",
       "captain": false,
       "vice": false,
-      "benched": true
+      "benched": false
      }
     ],
     "count": 1
@@ -12226,13 +12393,6 @@
       "benched": false
      },
      {
-      "name": "Cherki",
-      "position": "MID",
-      "captain": false,
-      "vice": false,
-      "benched": false
-     },
-     {
       "name": "Haaland",
       "position": "FWD",
       "captain": true,
@@ -12249,7 +12409,7 @@
       "benched": true
      }
     ],
-    "count": 4
+    "count": 3
    },
    "alert": false
   },
@@ -12316,7 +12476,19 @@
     }
    },
    "score": null,
-   "fpl": null,
+   "fpl": {
+    "home": [
+     {
+      "name": "Tavernier",
+      "position": "MID",
+      "captain": false,
+      "vice": false,
+      "benched": false
+     }
+    ],
+    "away": [],
+    "count": 1
+   },
    "alert": false
   },
   {
@@ -12475,18 +12647,26 @@
       "position": "MID",
       "captain": false,
       "vice": false,
-      "benched": false
-     },
-     {
-      "name": "João Pedro",
-      "position": "FWD",
-      "captain": false,
-      "vice": true,
       "benched": true
      }
     ],
-    "away": [],
-    "count": 3
+    "away": [
+     {
+      "name": "Manzambi",
+      "position": "MID",
+      "captain": false,
+      "vice": false,
+      "benched": false
+     },
+     {
+      "name": "N.Jackson",
+      "position": "FWD",
+      "captain": false,
+      "vice": true,
+      "benched": false
+     }
+    ],
+    "count": 4
    },
    "alert": false
   },
@@ -12520,7 +12700,26 @@
     }
    },
    "score": null,
-   "fpl": null,
+   "fpl": {
+    "home": [
+     {
+      "name": "Manzambi",
+      "position": "MID",
+      "captain": false,
+      "vice": false,
+      "benched": false
+     },
+     {
+      "name": "N.Jackson",
+      "position": "FWD",
+      "captain": false,
+      "vice": true,
+      "benched": false
+     }
+    ],
+    "away": [],
+    "count": 2
+   },
    "alert": false
   },
   {
@@ -12590,28 +12789,21 @@
     "home": [],
     "away": [
      {
-      "name": "De Cuyper",
-      "position": "DEF",
-      "captain": false,
-      "vice": false,
-      "benched": false
-     },
-     {
-      "name": "Yalcouyé",
-      "position": "MID",
-      "captain": false,
-      "vice": false,
-      "benched": false
-     },
-     {
       "name": "Kostoulas",
       "position": "FWD",
       "captain": false,
       "vice": false,
       "benched": false
+     },
+     {
+      "name": "De Cuyper",
+      "position": "DEF",
+      "captain": false,
+      "vice": false,
+      "benched": true
      }
     ],
-    "count": 3
+    "count": 2
    },
    "alert": false
   },
@@ -12655,8 +12847,16 @@
       "benched": true
      }
     ],
-    "away": [],
-    "count": 1
+    "away": [
+     {
+      "name": "Tavernier",
+      "position": "MID",
+      "captain": false,
+      "vice": false,
+      "benched": false
+     }
+    ],
+    "count": 2
    },
    "alert": false
   },
@@ -12775,20 +12975,13 @@
       "position": "DEF",
       "captain": false,
       "vice": false,
-      "benched": true
+      "benched": false
      }
     ],
     "away": [
      {
       "name": "Gvardiol",
       "position": "DEF",
-      "captain": false,
-      "vice": false,
-      "benched": false
-     },
-     {
-      "name": "Cherki",
-      "position": "MID",
       "captain": false,
       "vice": false,
       "benched": false
@@ -12801,7 +12994,7 @@
       "benched": false
      }
     ],
-    "count": 4
+    "count": 3
    },
    "alert": false
   },
@@ -12850,17 +13043,10 @@
       "position": "MID",
       "captain": false,
       "vice": false,
-      "benched": false
-     },
-     {
-      "name": "João Pedro",
-      "position": "FWD",
-      "captain": false,
-      "vice": true,
       "benched": true
      }
     ],
-    "count": 3
+    "count": 2
    },
    "alert": false
   },
@@ -13047,28 +13233,21 @@
     ],
     "away": [
      {
-      "name": "De Cuyper",
-      "position": "DEF",
-      "captain": false,
-      "vice": false,
-      "benched": false
-     },
-     {
-      "name": "Yalcouyé",
-      "position": "MID",
-      "captain": false,
-      "vice": false,
-      "benched": false
-     },
-     {
       "name": "Kostoulas",
       "position": "FWD",
       "captain": false,
       "vice": false,
       "benched": false
+     },
+     {
+      "name": "De Cuyper",
+      "position": "DEF",
+      "captain": false,
+      "vice": false,
+      "benched": true
      }
     ],
-    "count": 4
+    "count": 3
    },
    "alert": false
   },
@@ -13113,13 +13292,6 @@
       "benched": false
      },
      {
-      "name": "Cherki",
-      "position": "MID",
-      "captain": false,
-      "vice": false,
-      "benched": false
-     },
-     {
       "name": "Haaland",
       "position": "FWD",
       "captain": true,
@@ -13127,7 +13299,7 @@
       "benched": false
      }
     ],
-    "count": 3
+    "count": 2
    },
    "alert": false
   },
@@ -13260,7 +13432,7 @@
       "position": "DEF",
       "captain": false,
       "vice": false,
-      "benched": true
+      "benched": false
      }
     ],
     "away": [],
@@ -13335,7 +13507,19 @@
     }
    },
    "score": null,
-   "fpl": null,
+   "fpl": {
+    "home": [],
+    "away": [
+     {
+      "name": "Tavernier",
+      "position": "MID",
+      "captain": false,
+      "vice": false,
+      "benched": false
+     }
+    ],
+    "count": 1
+   },
    "alert": false
   },
   {
@@ -13368,7 +13552,26 @@
     }
    },
    "score": null,
-   "fpl": null,
+   "fpl": {
+    "home": [
+     {
+      "name": "Manzambi",
+      "position": "MID",
+      "captain": false,
+      "vice": false,
+      "benched": false
+     },
+     {
+      "name": "N.Jackson",
+      "position": "FWD",
+      "captain": false,
+      "vice": true,
+      "benched": false
+     }
+    ],
+    "away": [],
+    "count": 2
+   },
    "alert": false
   },
   {
@@ -13416,17 +13619,10 @@
       "position": "MID",
       "captain": false,
       "vice": false,
-      "benched": false
-     },
-     {
-      "name": "João Pedro",
-      "position": "FWD",
-      "captain": false,
-      "vice": true,
       "benched": true
      }
     ],
-    "count": 3
+    "count": 2
    },
    "alert": false
   },
@@ -13500,29 +13696,22 @@
    "fpl": {
     "home": [
      {
-      "name": "De Cuyper",
-      "position": "DEF",
-      "captain": false,
-      "vice": false,
-      "benched": false
-     },
-     {
-      "name": "Yalcouyé",
-      "position": "MID",
-      "captain": false,
-      "vice": false,
-      "benched": false
-     },
-     {
       "name": "Kostoulas",
       "position": "FWD",
       "captain": false,
       "vice": false,
       "benched": false
+     },
+     {
+      "name": "De Cuyper",
+      "position": "DEF",
+      "captain": false,
+      "vice": false,
+      "benched": true
      }
     ],
     "away": [],
-    "count": 3
+    "count": 2
    },
    "alert": true
   },
@@ -13759,7 +13948,34 @@
     }
    },
    "score": null,
-   "fpl": null,
+   "fpl": {
+    "home": [
+     {
+      "name": "Tavernier",
+      "position": "MID",
+      "captain": false,
+      "vice": false,
+      "benched": false
+     }
+    ],
+    "away": [
+     {
+      "name": "Manzambi",
+      "position": "MID",
+      "captain": false,
+      "vice": false,
+      "benched": false
+     },
+     {
+      "name": "N.Jackson",
+      "position": "FWD",
+      "captain": false,
+      "vice": true,
+      "benched": false
+     }
+    ],
+    "count": 3
+   },
    "alert": false
   },
   {
@@ -13806,13 +14022,6 @@
       "position": "MID",
       "captain": false,
       "vice": false,
-      "benched": false
-     },
-     {
-      "name": "João Pedro",
-      "position": "FWD",
-      "captain": false,
-      "vice": true,
       "benched": true
      }
     ],
@@ -13822,10 +14031,10 @@
       "position": "DEF",
       "captain": false,
       "vice": false,
-      "benched": true
+      "benched": false
      }
     ],
-    "count": 4
+    "count": 3
    },
    "alert": false
   },
@@ -13873,13 +14082,6 @@
       "benched": false
      },
      {
-      "name": "Cherki",
-      "position": "MID",
-      "captain": false,
-      "vice": false,
-      "benched": false
-     },
-     {
       "name": "Haaland",
       "position": "FWD",
       "captain": true,
@@ -13896,7 +14098,7 @@
       "benched": true
      }
     ],
-    "count": 4
+    "count": 3
    },
    "alert": true
   },
@@ -13992,28 +14194,29 @@
    "fpl": {
     "home": [
      {
-      "name": "De Cuyper",
-      "position": "DEF",
-      "captain": false,
-      "vice": false,
-      "benched": false
-     },
-     {
-      "name": "Yalcouyé",
-      "position": "MID",
-      "captain": false,
-      "vice": false,
-      "benched": false
-     },
-     {
       "name": "Kostoulas",
       "position": "FWD",
       "captain": false,
       "vice": false,
       "benched": false
+     },
+     {
+      "name": "De Cuyper",
+      "position": "DEF",
+      "captain": false,
+      "vice": false,
+      "benched": true
      }
     ],
-    "away": [],
+    "away": [
+     {
+      "name": "Tavernier",
+      "position": "MID",
+      "captain": false,
+      "vice": false,
+      "benched": false
+     }
+    ],
     "count": 3
    },
    "alert": false
@@ -14093,7 +14296,26 @@
     }
    },
    "score": null,
-   "fpl": null,
+   "fpl": {
+    "home": [],
+    "away": [
+     {
+      "name": "Manzambi",
+      "position": "MID",
+      "captain": false,
+      "vice": false,
+      "benched": false
+     },
+     {
+      "name": "N.Jackson",
+      "position": "FWD",
+      "captain": false,
+      "vice": true,
+      "benched": false
+     }
+    ],
+    "count": 2
+   },
    "alert": false
   },
   {
@@ -14219,17 +14441,10 @@
       "position": "MID",
       "captain": false,
       "vice": false,
-      "benched": false
-     },
-     {
-      "name": "João Pedro",
-      "position": "FWD",
-      "captain": false,
-      "vice": true,
       "benched": true
      }
     ],
-    "count": 3
+    "count": 2
    },
    "alert": false
   },
@@ -14307,13 +14522,6 @@
       "benched": false
      },
      {
-      "name": "Cherki",
-      "position": "MID",
-      "captain": false,
-      "vice": false,
-      "benched": false
-     },
-     {
       "name": "Haaland",
       "position": "FWD",
       "captain": true,
@@ -14321,7 +14529,7 @@
       "benched": false
      }
     ],
-    "count": 3
+    "count": 2
    },
    "alert": false
   },
@@ -14367,7 +14575,7 @@
       "position": "DEF",
       "captain": false,
       "vice": false,
-      "benched": true
+      "benched": false
      }
     ],
     "count": 1
@@ -14404,7 +14612,19 @@
     }
    },
    "score": null,
-   "fpl": null,
+   "fpl": {
+    "home": [
+     {
+      "name": "Tavernier",
+      "position": "MID",
+      "captain": false,
+      "vice": false,
+      "benched": false
+     }
+    ],
+    "away": [],
+    "count": 1
+   },
    "alert": false
   },
   {
@@ -14447,13 +14667,6 @@
       "benched": false
      },
      {
-      "name": "Cherki",
-      "position": "MID",
-      "captain": false,
-      "vice": false,
-      "benched": false
-     },
-     {
       "name": "Haaland",
       "position": "FWD",
       "captain": true,
@@ -14462,7 +14675,7 @@
      }
     ],
     "away": [],
-    "count": 3
+    "count": 2
    },
    "alert": false
   },
@@ -14510,18 +14723,11 @@
       "position": "MID",
       "captain": false,
       "vice": false,
-      "benched": false
-     },
-     {
-      "name": "João Pedro",
-      "position": "FWD",
-      "captain": false,
-      "vice": true,
       "benched": true
      }
     ],
     "away": [],
-    "count": 3
+    "count": 2
    },
    "alert": false
   },
@@ -14559,28 +14765,21 @@
     "home": [],
     "away": [
      {
-      "name": "De Cuyper",
-      "position": "DEF",
-      "captain": false,
-      "vice": false,
-      "benched": false
-     },
-     {
-      "name": "Yalcouyé",
-      "position": "MID",
-      "captain": false,
-      "vice": false,
-      "benched": false
-     },
-     {
       "name": "Kostoulas",
       "position": "FWD",
       "captain": false,
       "vice": false,
       "benched": false
+     },
+     {
+      "name": "De Cuyper",
+      "position": "DEF",
+      "captain": false,
+      "vice": false,
+      "benched": true
      }
     ],
-    "count": 3
+    "count": 2
    },
    "alert": false
   },
@@ -14618,7 +14817,26 @@
     }
    },
    "score": null,
-   "fpl": null,
+   "fpl": {
+    "home": [
+     {
+      "name": "Manzambi",
+      "position": "MID",
+      "captain": false,
+      "vice": false,
+      "benched": false
+     },
+     {
+      "name": "N.Jackson",
+      "position": "FWD",
+      "captain": false,
+      "vice": true,
+      "benched": false
+     }
+    ],
+    "away": [],
+    "count": 2
+   },
    "alert": true
   },
   {
@@ -14836,7 +15054,7 @@
       "position": "DEF",
       "captain": false,
       "vice": false,
-      "benched": true
+      "benched": false
      }
     ],
     "away": [],
@@ -14997,7 +15215,26 @@
     }
    },
    "score": null,
-   "fpl": null,
+   "fpl": {
+    "home": [
+     {
+      "name": "Manzambi",
+      "position": "MID",
+      "captain": false,
+      "vice": false,
+      "benched": false
+     },
+     {
+      "name": "N.Jackson",
+      "position": "FWD",
+      "captain": false,
+      "vice": true,
+      "benched": false
+     }
+    ],
+    "away": [],
+    "count": 2
+   },
    "alert": false
   },
   {
@@ -15367,13 +15604,6 @@
       "benched": false
      },
      {
-      "name": "Cherki",
-      "position": "MID",
-      "captain": false,
-      "vice": false,
-      "benched": false
-     },
-     {
       "name": "Haaland",
       "position": "FWD",
       "captain": true,
@@ -15381,7 +15611,7 @@
       "benched": false
      }
     ],
-    "count": 3
+    "count": 2
    },
    "alert": false
   },
@@ -15751,7 +15981,19 @@
     }
    },
    "score": null,
-   "fpl": null,
+   "fpl": {
+    "home": [],
+    "away": [
+     {
+      "name": "Tavernier",
+      "position": "MID",
+      "captain": false,
+      "vice": false,
+      "benched": false
+     }
+    ],
+    "count": 1
+   },
    "alert": false
   },
   {
@@ -15814,7 +16056,7 @@
       "position": "DEF",
       "captain": false,
       "vice": false,
-      "benched": true
+      "benched": false
      }
     ],
     "count": 4
@@ -15866,17 +16108,10 @@
       "position": "MID",
       "captain": false,
       "vice": false,
-      "benched": false
-     },
-     {
-      "name": "João Pedro",
-      "position": "FWD",
-      "captain": false,
-      "vice": true,
       "benched": true
      }
     ],
-    "count": 3
+    "count": 2
    },
    "alert": false
   },
@@ -15910,7 +16145,26 @@
     }
    },
    "score": null,
-   "fpl": null,
+   "fpl": {
+    "home": [],
+    "away": [
+     {
+      "name": "Manzambi",
+      "position": "MID",
+      "captain": false,
+      "vice": false,
+      "benched": false
+     },
+     {
+      "name": "N.Jackson",
+      "position": "FWD",
+      "captain": false,
+      "vice": true,
+      "benched": false
+     }
+    ],
+    "count": 2
+   },
    "alert": false
   },
   {
@@ -15983,38 +16237,24 @@
    "fpl": {
     "home": [
      {
-      "name": "De Cuyper",
-      "position": "DEF",
-      "captain": false,
-      "vice": false,
-      "benched": false
-     },
-     {
-      "name": "Yalcouyé",
-      "position": "MID",
-      "captain": false,
-      "vice": false,
-      "benched": false
-     },
-     {
       "name": "Kostoulas",
       "position": "FWD",
       "captain": false,
       "vice": false,
       "benched": false
+     },
+     {
+      "name": "De Cuyper",
+      "position": "DEF",
+      "captain": false,
+      "vice": false,
+      "benched": true
      }
     ],
     "away": [
      {
       "name": "Gvardiol",
       "position": "DEF",
-      "captain": false,
-      "vice": false,
-      "benched": false
-     },
-     {
-      "name": "Cherki",
-      "position": "MID",
       "captain": false,
       "vice": false,
       "benched": false
@@ -16027,7 +16267,7 @@
       "benched": false
      }
     ],
-    "count": 6
+    "count": 4
    },
    "alert": false
   },
@@ -16538,13 +16778,6 @@
       "benched": false
      },
      {
-      "name": "Cherki",
-      "position": "MID",
-      "captain": false,
-      "vice": false,
-      "benched": false
-     },
-     {
       "name": "Haaland",
       "position": "FWD",
       "captain": true,
@@ -16553,7 +16786,7 @@
      }
     ],
     "away": [],
-    "count": 3
+    "count": 2
    },
    "alert": false
   },
@@ -16753,7 +16986,26 @@
     }
    },
    "score": null,
-   "fpl": null,
+   "fpl": {
+    "home": [],
+    "away": [
+     {
+      "name": "Manzambi",
+      "position": "MID",
+      "captain": false,
+      "vice": false,
+      "benched": false
+     },
+     {
+      "name": "N.Jackson",
+      "position": "FWD",
+      "captain": false,
+      "vice": true,
+      "benched": false
+     }
+    ],
+    "count": 2
+   },
    "alert": false
   },
   {
@@ -16957,33 +17209,26 @@
       "position": "DEF",
       "captain": false,
       "vice": false,
-      "benched": true
+      "benched": false
      }
     ],
     "away": [
-     {
-      "name": "De Cuyper",
-      "position": "DEF",
-      "captain": false,
-      "vice": false,
-      "benched": false
-     },
-     {
-      "name": "Yalcouyé",
-      "position": "MID",
-      "captain": false,
-      "vice": false,
-      "benched": false
-     },
      {
       "name": "Kostoulas",
       "position": "FWD",
       "captain": false,
       "vice": false,
       "benched": false
+     },
+     {
+      "name": "De Cuyper",
+      "position": "DEF",
+      "captain": false,
+      "vice": false,
+      "benched": true
      }
     ],
-    "count": 4
+    "count": 3
    },
    "alert": false
   },
@@ -17095,7 +17340,19 @@
     }
    },
    "score": null,
-   "fpl": null,
+   "fpl": {
+    "home": [
+     {
+      "name": "Tavernier",
+      "position": "MID",
+      "captain": false,
+      "vice": false,
+      "benched": false
+     }
+    ],
+    "away": [],
+    "count": 1
+   },
    "alert": false
   },
   {
@@ -17142,18 +17399,11 @@
       "position": "MID",
       "captain": false,
       "vice": false,
-      "benched": false
-     },
-     {
-      "name": "João Pedro",
-      "position": "FWD",
-      "captain": false,
-      "vice": true,
       "benched": true
      }
     ],
     "away": [],
-    "count": 3
+    "count": 2
    },
    "alert": false
   },
@@ -17238,13 +17488,6 @@
       "benched": false
      },
      {
-      "name": "Cherki",
-      "position": "MID",
-      "captain": false,
-      "vice": false,
-      "benched": false
-     },
-     {
       "name": "Haaland",
       "position": "FWD",
       "captain": true,
@@ -17275,7 +17518,7 @@
       "benched": false
      }
     ],
-    "count": 6
+    "count": 5
    },
    "alert": true
   },
@@ -17309,7 +17552,26 @@
     }
    },
    "score": null,
-   "fpl": null,
+   "fpl": {
+    "home": [
+     {
+      "name": "Manzambi",
+      "position": "MID",
+      "captain": false,
+      "vice": false,
+      "benched": false
+     },
+     {
+      "name": "N.Jackson",
+      "position": "FWD",
+      "captain": false,
+      "vice": true,
+      "benched": false
+     }
+    ],
+    "away": [],
+    "count": 2
+   },
    "alert": false
   },
   {
@@ -17408,25 +17670,18 @@
    "fpl": {
     "home": [
      {
-      "name": "De Cuyper",
-      "position": "DEF",
-      "captain": false,
-      "vice": false,
-      "benched": false
-     },
-     {
-      "name": "Yalcouyé",
-      "position": "MID",
-      "captain": false,
-      "vice": false,
-      "benched": false
-     },
-     {
       "name": "Kostoulas",
       "position": "FWD",
       "captain": false,
       "vice": false,
       "benched": false
+     },
+     {
+      "name": "De Cuyper",
+      "position": "DEF",
+      "captain": false,
+      "vice": false,
+      "benched": true
      }
     ],
     "away": [
@@ -17438,7 +17693,7 @@
       "benched": true
      }
     ],
-    "count": 4
+    "count": 3
    },
    "alert": false
   },
@@ -17472,7 +17727,26 @@
     }
    },
    "score": null,
-   "fpl": null,
+   "fpl": {
+    "home": [],
+    "away": [
+     {
+      "name": "Manzambi",
+      "position": "MID",
+      "captain": false,
+      "vice": false,
+      "benched": false
+     },
+     {
+      "name": "N.Jackson",
+      "position": "FWD",
+      "captain": false,
+      "vice": true,
+      "benched": false
+     }
+    ],
+    "count": 2
+   },
    "alert": false
   },
   {
@@ -17591,7 +17865,7 @@
       "position": "DEF",
       "captain": false,
       "vice": false,
-      "benched": true
+      "benched": false
      }
     ],
     "count": 1
@@ -17639,13 +17913,6 @@
       "benched": false
      },
      {
-      "name": "Cherki",
-      "position": "MID",
-      "captain": false,
-      "vice": false,
-      "benched": false
-     },
-     {
       "name": "Haaland",
       "position": "FWD",
       "captain": true,
@@ -17653,7 +17920,7 @@
       "benched": false
      }
     ],
-    "count": 3
+    "count": 2
    },
    "alert": false
   },
@@ -17687,7 +17954,19 @@
     }
    },
    "score": null,
-   "fpl": null,
+   "fpl": {
+    "home": [],
+    "away": [
+     {
+      "name": "Tavernier",
+      "position": "MID",
+      "captain": false,
+      "vice": false,
+      "benched": false
+     }
+    ],
+    "count": 1
+   },
    "alert": false
   },
   {
@@ -17739,17 +18018,10 @@
       "position": "MID",
       "captain": false,
       "vice": false,
-      "benched": false
-     },
-     {
-      "name": "João Pedro",
-      "position": "FWD",
-      "captain": false,
-      "vice": true,
       "benched": true
      }
     ],
-    "count": 3
+    "count": 2
    },
    "alert": true
   },
@@ -17927,7 +18199,34 @@
     }
    },
    "score": null,
-   "fpl": null,
+   "fpl": {
+    "home": [
+     {
+      "name": "Manzambi",
+      "position": "MID",
+      "captain": false,
+      "vice": false,
+      "benched": false
+     },
+     {
+      "name": "N.Jackson",
+      "position": "FWD",
+      "captain": false,
+      "vice": true,
+      "benched": false
+     }
+    ],
+    "away": [
+     {
+      "name": "Tavernier",
+      "position": "MID",
+      "captain": false,
+      "vice": false,
+      "benched": false
+     }
+    ],
+    "count": 3
+   },
    "alert": false
   },
   {
@@ -18000,7 +18299,7 @@
       "position": "DEF",
       "captain": false,
       "vice": false,
-      "benched": true
+      "benched": false
      }
     ],
     "away": [
@@ -18016,17 +18315,10 @@
       "position": "MID",
       "captain": false,
       "vice": false,
-      "benched": false
-     },
-     {
-      "name": "João Pedro",
-      "position": "FWD",
-      "captain": false,
-      "vice": true,
       "benched": true
      }
     ],
-    "count": 4
+    "count": 3
    },
    "alert": false
   },
@@ -18116,13 +18408,6 @@
       "benched": false
      },
      {
-      "name": "Cherki",
-      "position": "MID",
-      "captain": false,
-      "vice": false,
-      "benched": false
-     },
-     {
       "name": "Haaland",
       "position": "FWD",
       "captain": true,
@@ -18130,7 +18415,7 @@
       "benched": false
      }
     ],
-    "count": 4
+    "count": 3
    },
    "alert": true
   },
@@ -18172,28 +18457,21 @@
     "home": [],
     "away": [
      {
-      "name": "De Cuyper",
-      "position": "DEF",
-      "captain": false,
-      "vice": false,
-      "benched": false
-     },
-     {
-      "name": "Yalcouyé",
-      "position": "MID",
-      "captain": false,
-      "vice": false,
-      "benched": false
-     },
-     {
       "name": "Kostoulas",
       "position": "FWD",
       "captain": false,
       "vice": false,
       "benched": false
+     },
+     {
+      "name": "De Cuyper",
+      "position": "DEF",
+      "captain": false,
+      "vice": false,
+      "benched": true
      }
     ],
-    "count": 3
+    "count": 2
    },
    "alert": true
   },
@@ -18296,13 +18574,6 @@
       "benched": false
      },
      {
-      "name": "Cherki",
-      "position": "MID",
-      "captain": false,
-      "vice": false,
-      "benched": false
-     },
-     {
       "name": "Haaland",
       "position": "FWD",
       "captain": true,
@@ -18316,10 +18587,10 @@
       "position": "DEF",
       "captain": false,
       "vice": false,
-      "benched": true
+      "benched": false
      }
     ],
-    "count": 4
+    "count": 3
    },
    "alert": false
   },
@@ -18353,7 +18624,19 @@
     }
    },
    "score": null,
-   "fpl": null,
+   "fpl": {
+    "home": [
+     {
+      "name": "Tavernier",
+      "position": "MID",
+      "captain": false,
+      "vice": false,
+      "benched": false
+     }
+    ],
+    "away": [],
+    "count": 1
+   },
    "alert": false
   },
   {
@@ -18433,18 +18716,11 @@
       "position": "MID",
       "captain": false,
       "vice": false,
-      "benched": false
-     },
-     {
-      "name": "João Pedro",
-      "position": "FWD",
-      "captain": false,
-      "vice": true,
       "benched": true
      }
     ],
     "away": [],
-    "count": 3
+    "count": 2
    },
    "alert": false
   },
@@ -18622,25 +18898,18 @@
    "fpl": {
     "home": [
      {
-      "name": "De Cuyper",
-      "position": "DEF",
-      "captain": false,
-      "vice": false,
-      "benched": false
-     },
-     {
-      "name": "Yalcouyé",
-      "position": "MID",
-      "captain": false,
-      "vice": false,
-      "benched": false
-     },
-     {
       "name": "Kostoulas",
       "position": "FWD",
       "captain": false,
       "vice": false,
       "benched": false
+     },
+     {
+      "name": "De Cuyper",
+      "position": "DEF",
+      "captain": false,
+      "vice": false,
+      "benched": true
      }
     ],
     "away": [
@@ -18652,7 +18921,7 @@
       "benched": true
      }
     ],
-    "count": 4
+    "count": 3
    },
    "alert": false
   },
@@ -18719,7 +18988,26 @@
     }
    },
    "score": null,
-   "fpl": null,
+   "fpl": {
+    "home": [],
+    "away": [
+     {
+      "name": "Manzambi",
+      "position": "MID",
+      "captain": false,
+      "vice": false,
+      "benched": false
+     },
+     {
+      "name": "N.Jackson",
+      "position": "FWD",
+      "captain": false,
+      "vice": true,
+      "benched": false
+     }
+    ],
+    "count": 2
+   },
    "alert": false
   },
   {
@@ -18852,28 +19140,21 @@
     "home": [],
     "away": [
      {
-      "name": "De Cuyper",
-      "position": "DEF",
-      "captain": false,
-      "vice": false,
-      "benched": false
-     },
-     {
-      "name": "Yalcouyé",
-      "position": "MID",
-      "captain": false,
-      "vice": false,
-      "benched": false
-     },
-     {
       "name": "Kostoulas",
       "position": "FWD",
       "captain": false,
       "vice": false,
       "benched": false
+     },
+     {
+      "name": "De Cuyper",
+      "position": "DEF",
+      "captain": false,
+      "vice": false,
+      "benched": true
      }
     ],
-    "count": 3
+    "count": 2
    },
    "alert": false
   },
@@ -18907,7 +19188,19 @@
     }
    },
    "score": null,
-   "fpl": null,
+   "fpl": {
+    "home": [],
+    "away": [
+     {
+      "name": "Tavernier",
+      "position": "MID",
+      "captain": false,
+      "vice": false,
+      "benched": false
+     }
+    ],
+    "count": 1
+   },
    "alert": false
   },
   {
@@ -19007,7 +19300,22 @@
    },
    "score": null,
    "fpl": {
-    "home": [],
+    "home": [
+     {
+      "name": "Manzambi",
+      "position": "MID",
+      "captain": false,
+      "vice": false,
+      "benched": false
+     },
+     {
+      "name": "N.Jackson",
+      "position": "FWD",
+      "captain": false,
+      "vice": true,
+      "benched": false
+     }
+    ],
     "away": [
      {
       "name": "Rogers",
@@ -19021,17 +19329,10 @@
       "position": "MID",
       "captain": false,
       "vice": false,
-      "benched": false
-     },
-     {
-      "name": "João Pedro",
-      "position": "FWD",
-      "captain": false,
-      "vice": true,
       "benched": true
      }
     ],
-    "count": 3
+    "count": 4
    },
    "alert": false
   },
@@ -19121,7 +19422,7 @@
       "position": "DEF",
       "captain": false,
       "vice": false,
-      "benched": true
+      "benched": false
      }
     ],
     "away": [],
@@ -19178,13 +19479,6 @@
       "benched": false
      },
      {
-      "name": "Cherki",
-      "position": "MID",
-      "captain": false,
-      "vice": false,
-      "benched": false
-     },
-     {
       "name": "Haaland",
       "position": "FWD",
       "captain": true,
@@ -19192,7 +19486,7 @@
       "benched": false
      }
     ],
-    "count": 4
+    "count": 3
    },
    "alert": false
   },
@@ -19234,7 +19528,7 @@
       "position": "DEF",
       "captain": false,
       "vice": false,
-      "benched": true
+      "benched": false
      }
     ],
     "count": 1
@@ -19272,7 +19566,15 @@
    },
    "score": null,
    "fpl": {
-    "home": [],
+    "home": [
+     {
+      "name": "Tavernier",
+      "position": "MID",
+      "captain": false,
+      "vice": false,
+      "benched": false
+     }
+    ],
     "away": [
      {
       "name": "Dubravka",
@@ -19282,7 +19584,7 @@
       "benched": true
      }
     ],
-    "count": 1
+    "count": 2
    },
    "alert": false
   },
@@ -19326,13 +19628,6 @@
       "benched": false
      },
      {
-      "name": "Cherki",
-      "position": "MID",
-      "captain": false,
-      "vice": false,
-      "benched": false
-     },
-     {
       "name": "Haaland",
       "position": "FWD",
       "captain": true,
@@ -19341,7 +19636,7 @@
      }
     ],
     "away": [],
-    "count": 3
+    "count": 2
    },
    "alert": false
   },
@@ -19516,7 +19811,26 @@
     }
    },
    "score": null,
-   "fpl": null,
+   "fpl": {
+    "home": [],
+    "away": [
+     {
+      "name": "Manzambi",
+      "position": "MID",
+      "captain": false,
+      "vice": false,
+      "benched": false
+     },
+     {
+      "name": "N.Jackson",
+      "position": "FWD",
+      "captain": false,
+      "vice": true,
+      "benched": false
+     }
+    ],
+    "count": 2
+   },
    "alert": false
   },
   {
@@ -19552,29 +19866,22 @@
    "fpl": {
     "home": [
      {
-      "name": "De Cuyper",
-      "position": "DEF",
-      "captain": false,
-      "vice": false,
-      "benched": false
-     },
-     {
-      "name": "Yalcouyé",
-      "position": "MID",
-      "captain": false,
-      "vice": false,
-      "benched": false
-     },
-     {
       "name": "Kostoulas",
       "position": "FWD",
       "captain": false,
       "vice": false,
       "benched": false
+     },
+     {
+      "name": "De Cuyper",
+      "position": "DEF",
+      "captain": false,
+      "vice": false,
+      "benched": true
      }
     ],
     "away": [],
-    "count": 3
+    "count": 2
    },
    "alert": false
   },
@@ -19655,18 +19962,11 @@
       "position": "MID",
       "captain": false,
       "vice": false,
-      "benched": false
-     },
-     {
-      "name": "João Pedro",
-      "position": "FWD",
-      "captain": false,
-      "vice": true,
       "benched": true
      }
     ],
     "away": [],
-    "count": 3
+    "count": 2
    },
    "alert": false
   },
@@ -19704,28 +20004,21 @@
     "home": [],
     "away": [
      {
-      "name": "De Cuyper",
-      "position": "DEF",
-      "captain": false,
-      "vice": false,
-      "benched": false
-     },
-     {
-      "name": "Yalcouyé",
-      "position": "MID",
-      "captain": false,
-      "vice": false,
-      "benched": false
-     },
-     {
       "name": "Kostoulas",
       "position": "FWD",
       "captain": false,
       "vice": false,
       "benched": false
+     },
+     {
+      "name": "De Cuyper",
+      "position": "DEF",
+      "captain": false,
+      "vice": false,
+      "benched": true
      }
     ],
-    "count": 3
+    "count": 2
    },
    "alert": false
   },
@@ -19881,13 +20174,6 @@
       "benched": false
      },
      {
-      "name": "Cherki",
-      "position": "MID",
-      "captain": false,
-      "vice": false,
-      "benched": false
-     },
-     {
       "name": "Haaland",
       "position": "FWD",
       "captain": true,
@@ -19895,7 +20181,7 @@
       "benched": false
      }
     ],
-    "count": 3
+    "count": 2
    },
    "alert": false
   },
@@ -19930,17 +20216,25 @@
    },
    "score": null,
    "fpl": {
-    "home": [],
+    "home": [
+     {
+      "name": "Tavernier",
+      "position": "MID",
+      "captain": false,
+      "vice": false,
+      "benched": false
+     }
+    ],
     "away": [
      {
       "name": "Hall",
       "position": "DEF",
       "captain": false,
       "vice": false,
-      "benched": true
+      "benched": false
      }
     ],
-    "count": 1
+    "count": 2
    },
    "alert": false
   },
@@ -19992,13 +20286,6 @@
       "position": "MID",
       "captain": false,
       "vice": false,
-      "benched": false
-     },
-     {
-      "name": "João Pedro",
-      "position": "FWD",
-      "captain": false,
-      "vice": true,
       "benched": true
      }
     ],
@@ -20025,7 +20312,7 @@
       "benched": false
      }
     ],
-    "count": 6
+    "count": 5
    },
    "alert": true
   },
@@ -20060,7 +20347,22 @@
    },
    "score": null,
    "fpl": {
-    "home": [],
+    "home": [
+     {
+      "name": "Manzambi",
+      "position": "MID",
+      "captain": false,
+      "vice": false,
+      "benched": false
+     },
+     {
+      "name": "N.Jackson",
+      "position": "FWD",
+      "captain": false,
+      "vice": true,
+      "benched": false
+     }
+    ],
     "away": [
      {
       "name": "Ajayi",
@@ -20070,7 +20372,7 @@
       "benched": true
      }
     ],
-    "count": 1
+    "count": 3
    },
    "alert": false
   },
@@ -20174,7 +20476,19 @@
     }
    },
    "score": null,
-   "fpl": null,
+   "fpl": {
+    "home": [],
+    "away": [
+     {
+      "name": "Tavernier",
+      "position": "MID",
+      "captain": false,
+      "vice": false,
+      "benched": false
+     }
+    ],
+    "count": 1
+   },
    "alert": false
   },
   {
@@ -20210,29 +20524,22 @@
    "fpl": {
     "home": [
      {
-      "name": "De Cuyper",
-      "position": "DEF",
-      "captain": false,
-      "vice": false,
-      "benched": false
-     },
-     {
-      "name": "Yalcouyé",
-      "position": "MID",
-      "captain": false,
-      "vice": false,
-      "benched": false
-     },
-     {
       "name": "Kostoulas",
       "position": "FWD",
       "captain": false,
       "vice": false,
       "benched": false
+     },
+     {
+      "name": "De Cuyper",
+      "position": "DEF",
+      "captain": false,
+      "vice": false,
+      "benched": true
      }
     ],
     "away": [],
-    "count": 3
+    "count": 2
    },
    "alert": false
   },
@@ -20280,13 +20587,6 @@
       "benched": false
      },
      {
-      "name": "Cherki",
-      "position": "MID",
-      "captain": false,
-      "vice": false,
-      "benched": false
-     },
-     {
       "name": "Haaland",
       "position": "FWD",
       "captain": true,
@@ -20295,7 +20595,7 @@
      }
     ],
     "away": [],
-    "count": 3
+    "count": 2
    },
    "alert": true
   },
@@ -20477,17 +20777,10 @@
       "position": "MID",
       "captain": false,
       "vice": false,
-      "benched": false
-     },
-     {
-      "name": "João Pedro",
-      "position": "FWD",
-      "captain": false,
-      "vice": true,
       "benched": true
      }
     ],
-    "count": 4
+    "count": 3
    },
    "alert": false
   },
@@ -20521,7 +20814,26 @@
     }
    },
    "score": null,
-   "fpl": null,
+   "fpl": {
+    "home": [],
+    "away": [
+     {
+      "name": "Manzambi",
+      "position": "MID",
+      "captain": false,
+      "vice": false,
+      "benched": false
+     },
+     {
+      "name": "N.Jackson",
+      "position": "FWD",
+      "captain": false,
+      "vice": true,
+      "benched": false
+     }
+    ],
+    "count": 2
+   },
    "alert": false
   },
   {
@@ -20606,7 +20918,7 @@
       "position": "DEF",
       "captain": false,
       "vice": false,
-      "benched": true
+      "benched": false
      }
     ],
     "away": [],
@@ -20777,18 +21089,11 @@
       "position": "MID",
       "captain": false,
       "vice": false,
-      "benched": false
-     },
-     {
-      "name": "João Pedro",
-      "position": "FWD",
-      "captain": false,
-      "vice": true,
       "benched": true
      }
     ],
     "away": [],
-    "count": 3
+    "count": 2
    },
    "alert": true
   },
@@ -20830,7 +21135,7 @@
       "position": "DEF",
       "captain": false,
       "vice": false,
-      "benched": true
+      "benched": false
      }
     ],
     "count": 1
@@ -20927,18 +21232,19 @@
    },
    "score": null,
    "fpl": {
-    "home": [],
+    "home": [
+     {
+      "name": "Tavernier",
+      "position": "MID",
+      "captain": false,
+      "vice": false,
+      "benched": false
+     }
+    ],
     "away": [
      {
       "name": "Gvardiol",
       "position": "DEF",
-      "captain": false,
-      "vice": false,
-      "benched": false
-     },
-     {
-      "name": "Cherki",
-      "position": "MID",
       "captain": false,
       "vice": false,
       "benched": false
@@ -21064,31 +21370,39 @@
    },
    "score": null,
    "fpl": {
-    "home": [],
-    "away": [
+    "home": [
      {
-      "name": "De Cuyper",
-      "position": "DEF",
-      "captain": false,
-      "vice": false,
-      "benched": false
-     },
-     {
-      "name": "Yalcouyé",
+      "name": "Manzambi",
       "position": "MID",
       "captain": false,
       "vice": false,
       "benched": false
      },
      {
+      "name": "N.Jackson",
+      "position": "FWD",
+      "captain": false,
+      "vice": true,
+      "benched": false
+     }
+    ],
+    "away": [
+     {
       "name": "Kostoulas",
       "position": "FWD",
       "captain": false,
       "vice": false,
       "benched": false
+     },
+     {
+      "name": "De Cuyper",
+      "position": "DEF",
+      "captain": false,
+      "vice": false,
+      "benched": true
      }
     ],
-    "count": 3
+    "count": 4
    },
    "alert": false
   },
@@ -21125,25 +21439,18 @@
    "fpl": {
     "home": [
      {
-      "name": "De Cuyper",
-      "position": "DEF",
-      "captain": false,
-      "vice": false,
-      "benched": false
-     },
-     {
-      "name": "Yalcouyé",
-      "position": "MID",
-      "captain": false,
-      "vice": false,
-      "benched": false
-     },
-     {
       "name": "Kostoulas",
       "position": "FWD",
       "captain": false,
       "vice": false,
       "benched": false
+     },
+     {
+      "name": "De Cuyper",
+      "position": "DEF",
+      "captain": false,
+      "vice": false,
+      "benched": true
      }
     ],
     "away": [
@@ -21159,17 +21466,10 @@
       "position": "MID",
       "captain": false,
       "vice": false,
-      "benched": false
-     },
-     {
-      "name": "João Pedro",
-      "position": "FWD",
-      "captain": false,
-      "vice": true,
       "benched": true
      }
     ],
-    "count": 6
+    "count": 4
    },
    "alert": false
   },
@@ -21371,8 +21671,23 @@
       "benched": false
      }
     ],
-    "away": [],
-    "count": 3
+    "away": [
+     {
+      "name": "Manzambi",
+      "position": "MID",
+      "captain": false,
+      "vice": false,
+      "benched": false
+     },
+     {
+      "name": "N.Jackson",
+      "position": "FWD",
+      "captain": false,
+      "vice": true,
+      "benched": false
+     }
+    ],
+    "count": 5
    },
    "alert": false
   },
@@ -21453,13 +21768,6 @@
       "benched": false
      },
      {
-      "name": "Cherki",
-      "position": "MID",
-      "captain": false,
-      "vice": false,
-      "benched": false
-     },
-     {
       "name": "Haaland",
       "position": "FWD",
       "captain": true,
@@ -21468,7 +21776,7 @@
      }
     ],
     "away": [],
-    "count": 3
+    "count": 2
    },
    "alert": false
   },
@@ -21509,7 +21817,7 @@
       "position": "DEF",
       "captain": false,
       "vice": false,
-      "benched": true
+      "benched": false
      }
     ],
     "away": [
@@ -21555,7 +21863,19 @@
     }
    },
    "score": null,
-   "fpl": null,
+   "fpl": {
+    "home": [],
+    "away": [
+     {
+      "name": "Tavernier",
+      "position": "MID",
+      "captain": false,
+      "vice": false,
+      "benched": false
+     }
+    ],
+    "count": 1
+   },
    "alert": false
   },
   {
@@ -21606,13 +21926,6 @@
       "position": "MID",
       "captain": false,
       "vice": false,
-      "benched": false
-     },
-     {
-      "name": "João Pedro",
-      "position": "FWD",
-      "captain": false,
-      "vice": true,
       "benched": true
      }
     ],
@@ -21625,13 +21938,6 @@
       "benched": false
      },
      {
-      "name": "Cherki",
-      "position": "MID",
-      "captain": false,
-      "vice": false,
-      "benched": false
-     },
-     {
       "name": "Haaland",
       "position": "FWD",
       "captain": true,
@@ -21639,7 +21945,7 @@
       "benched": false
      }
     ],
-    "count": 6
+    "count": 4
    },
    "alert": true
   },
@@ -21674,7 +21980,15 @@
    },
    "score": null,
    "fpl": {
-    "home": [],
+    "home": [
+     {
+      "name": "Tavernier",
+      "position": "MID",
+      "captain": false,
+      "vice": false,
+      "benched": false
+     }
+    ],
     "away": [
      {
       "name": "Raya",
@@ -21698,7 +22012,7 @@
       "benched": false
      }
     ],
-    "count": 3
+    "count": 4
    },
    "alert": false
   },
@@ -21826,28 +22140,21 @@
     "home": [],
     "away": [
      {
-      "name": "De Cuyper",
-      "position": "DEF",
-      "captain": false,
-      "vice": false,
-      "benched": false
-     },
-     {
-      "name": "Yalcouyé",
-      "position": "MID",
-      "captain": false,
-      "vice": false,
-      "benched": false
-     },
-     {
       "name": "Kostoulas",
       "position": "FWD",
       "captain": false,
       "vice": false,
       "benched": false
+     },
+     {
+      "name": "De Cuyper",
+      "position": "DEF",
+      "captain": false,
+      "vice": false,
+      "benched": true
      }
     ],
-    "count": 3
+    "count": 2
    },
    "alert": false
   },
@@ -21921,7 +22228,7 @@
       "position": "DEF",
       "captain": false,
       "vice": false,
-      "benched": true
+      "benched": false
      }
     ],
     "away": [],
@@ -21959,7 +22266,26 @@
     }
    },
    "score": null,
-   "fpl": null,
+   "fpl": {
+    "home": [
+     {
+      "name": "Manzambi",
+      "position": "MID",
+      "captain": false,
+      "vice": false,
+      "benched": false
+     },
+     {
+      "name": "N.Jackson",
+      "position": "FWD",
+      "captain": false,
+      "vice": true,
+      "benched": false
+     }
+    ],
+    "away": [],
+    "count": 2
+   },
    "alert": false
   },
   {
@@ -22074,7 +22400,7 @@
       "position": "DEF",
       "captain": false,
       "vice": false,
-      "benched": true
+      "benched": false
      }
     ],
     "count": 1
@@ -22114,29 +22440,22 @@
    "fpl": {
     "home": [
      {
-      "name": "De Cuyper",
-      "position": "DEF",
-      "captain": false,
-      "vice": false,
-      "benched": false
-     },
-     {
-      "name": "Yalcouyé",
-      "position": "MID",
-      "captain": false,
-      "vice": false,
-      "benched": false
-     },
-     {
       "name": "Kostoulas",
       "position": "FWD",
       "captain": false,
       "vice": false,
       "benched": false
+     },
+     {
+      "name": "De Cuyper",
+      "position": "DEF",
+      "captain": false,
+      "vice": false,
+      "benched": true
      }
     ],
     "away": [],
-    "count": 3
+    "count": 2
    },
    "alert": false
   },
@@ -22217,8 +22536,16 @@
       "benched": true
      }
     ],
-    "away": [],
-    "count": 1
+    "away": [
+     {
+      "name": "Tavernier",
+      "position": "MID",
+      "captain": false,
+      "vice": false,
+      "benched": false
+     }
+    ],
+    "count": 2
    },
    "alert": false
   },
@@ -22262,13 +22589,6 @@
       "benched": false
      },
      {
-      "name": "Cherki",
-      "position": "MID",
-      "captain": false,
-      "vice": false,
-      "benched": false
-     },
-     {
       "name": "Haaland",
       "position": "FWD",
       "captain": true,
@@ -22277,7 +22597,7 @@
      }
     ],
     "away": [],
-    "count": 3
+    "count": 2
    },
    "alert": false
   },
@@ -22363,17 +22683,10 @@
       "position": "MID",
       "captain": false,
       "vice": false,
-      "benched": false
-     },
-     {
-      "name": "João Pedro",
-      "position": "FWD",
-      "captain": false,
-      "vice": true,
       "benched": true
      }
     ],
-    "count": 3
+    "count": 2
    },
    "alert": true
   },
@@ -22478,7 +22791,26 @@
     }
    },
    "score": null,
-   "fpl": null,
+   "fpl": {
+    "home": [],
+    "away": [
+     {
+      "name": "Manzambi",
+      "position": "MID",
+      "captain": false,
+      "vice": false,
+      "benched": false
+     },
+     {
+      "name": "N.Jackson",
+      "position": "FWD",
+      "captain": false,
+      "vice": true,
+      "benched": false
+     }
+    ],
+    "count": 2
+   },
    "alert": false
   },
   {
@@ -22558,13 +22890,6 @@
       "benched": false
      },
      {
-      "name": "Cherki",
-      "position": "MID",
-      "captain": false,
-      "vice": false,
-      "benched": false
-     },
-     {
       "name": "Haaland",
       "position": "FWD",
       "captain": true,
@@ -22573,7 +22898,7 @@
      }
     ],
     "away": [],
-    "count": 3
+    "count": 2
    },
    "alert": true
   },
@@ -22732,7 +23057,26 @@
     }
    },
    "score": null,
-   "fpl": null,
+   "fpl": {
+    "home": [],
+    "away": [
+     {
+      "name": "Manzambi",
+      "position": "MID",
+      "captain": false,
+      "vice": false,
+      "benched": false
+     },
+     {
+      "name": "N.Jackson",
+      "position": "FWD",
+      "captain": false,
+      "vice": true,
+      "benched": false
+     }
+    ],
+    "count": 2
+   },
    "alert": false
   },
   {
@@ -22772,7 +23116,7 @@
       "position": "DEF",
       "captain": false,
       "vice": false,
-      "benched": true
+      "benched": false
      }
     ],
     "away": [],
@@ -22813,29 +23157,22 @@
    "fpl": {
     "home": [
      {
-      "name": "De Cuyper",
-      "position": "DEF",
-      "captain": false,
-      "vice": false,
-      "benched": false
-     },
-     {
-      "name": "Yalcouyé",
-      "position": "MID",
-      "captain": false,
-      "vice": false,
-      "benched": false
-     },
-     {
       "name": "Kostoulas",
       "position": "FWD",
       "captain": false,
       "vice": false,
       "benched": false
+     },
+     {
+      "name": "De Cuyper",
+      "position": "DEF",
+      "captain": false,
+      "vice": false,
+      "benched": true
      }
     ],
     "away": [],
-    "count": 3
+    "count": 2
    },
    "alert": false
   },
@@ -22896,17 +23233,10 @@
       "position": "MID",
       "captain": false,
       "vice": false,
-      "benched": false
-     },
-     {
-      "name": "João Pedro",
-      "position": "FWD",
-      "captain": false,
-      "vice": true,
       "benched": true
      }
     ],
-    "count": 4
+    "count": 3
    },
    "alert": true
   },
@@ -22989,7 +23319,19 @@
     }
    },
    "score": null,
-   "fpl": null,
+   "fpl": {
+    "home": [
+     {
+      "name": "Tavernier",
+      "position": "MID",
+      "captain": false,
+      "vice": false,
+      "benched": false
+     }
+    ],
+    "away": [],
+    "count": 1
+   },
    "alert": true
   },
   {
@@ -23112,28 +23454,21 @@
     "home": [],
     "away": [
      {
-      "name": "De Cuyper",
-      "position": "DEF",
-      "captain": false,
-      "vice": false,
-      "benched": false
-     },
-     {
-      "name": "Yalcouyé",
-      "position": "MID",
-      "captain": false,
-      "vice": false,
-      "benched": false
-     },
-     {
       "name": "Kostoulas",
       "position": "FWD",
       "captain": false,
       "vice": false,
       "benched": false
+     },
+     {
+      "name": "De Cuyper",
+      "position": "DEF",
+      "captain": false,
+      "vice": false,
+      "benched": true
      }
     ],
-    "count": 3
+    "count": 2
    },
    "alert": true
   },
@@ -23168,17 +23503,32 @@
    },
    "score": null,
    "fpl": {
-    "home": [],
+    "home": [
+     {
+      "name": "Manzambi",
+      "position": "MID",
+      "captain": false,
+      "vice": false,
+      "benched": false
+     },
+     {
+      "name": "N.Jackson",
+      "position": "FWD",
+      "captain": false,
+      "vice": true,
+      "benched": false
+     }
+    ],
     "away": [
      {
       "name": "Hall",
       "position": "DEF",
       "captain": false,
       "vice": false,
-      "benched": true
+      "benched": false
      }
     ],
-    "count": 1
+    "count": 3
    },
    "alert": false
   },
@@ -23226,18 +23576,11 @@
       "position": "MID",
       "captain": false,
       "vice": false,
-      "benched": false
-     },
-     {
-      "name": "João Pedro",
-      "position": "FWD",
-      "captain": false,
-      "vice": true,
       "benched": true
      }
     ],
     "away": [],
-    "count": 3
+    "count": 2
    },
    "alert": false
   },
@@ -23316,7 +23659,19 @@
     }
    },
    "score": null,
-   "fpl": null,
+   "fpl": {
+    "home": [],
+    "away": [
+     {
+      "name": "Tavernier",
+      "position": "MID",
+      "captain": false,
+      "vice": false,
+      "benched": false
+     }
+    ],
+    "count": 1
+   },
    "alert": false
   },
   {
@@ -23393,13 +23748,6 @@
       "benched": false
      },
      {
-      "name": "Cherki",
-      "position": "MID",
-      "captain": false,
-      "vice": false,
-      "benched": false
-     },
-     {
       "name": "Haaland",
       "position": "FWD",
       "captain": true,
@@ -23407,7 +23755,7 @@
       "benched": false
      }
     ],
-    "count": 3
+    "count": 2
    },
    "alert": false
   },
@@ -23552,7 +23900,7 @@
       "position": "DEF",
       "captain": false,
       "vice": false,
-      "benched": true
+      "benched": false
      }
     ],
     "away": [],
@@ -23675,29 +24023,22 @@
    "fpl": {
     "home": [
      {
-      "name": "De Cuyper",
-      "position": "DEF",
-      "captain": false,
-      "vice": false,
-      "benched": false
-     },
-     {
-      "name": "Yalcouyé",
-      "position": "MID",
-      "captain": false,
-      "vice": false,
-      "benched": false
-     },
-     {
       "name": "Kostoulas",
       "position": "FWD",
       "captain": false,
       "vice": false,
       "benched": false
+     },
+     {
+      "name": "De Cuyper",
+      "position": "DEF",
+      "captain": false,
+      "vice": false,
+      "benched": true
      }
     ],
     "away": [],
-    "count": 3
+    "count": 2
    },
    "alert": false
   },
@@ -23765,7 +24106,15 @@
    },
    "score": null,
    "fpl": {
-    "home": [],
+    "home": [
+     {
+      "name": "Tavernier",
+      "position": "MID",
+      "captain": false,
+      "vice": false,
+      "benched": false
+     }
+    ],
     "away": [
      {
       "name": "Rogers",
@@ -23779,13 +24128,6 @@
       "position": "MID",
       "captain": false,
       "vice": false,
-      "benched": false
-     },
-     {
-      "name": "João Pedro",
-      "position": "FWD",
-      "captain": false,
-      "vice": true,
       "benched": true
      }
     ],
@@ -23925,13 +24267,6 @@
       "benched": false
      },
      {
-      "name": "Cherki",
-      "position": "MID",
-      "captain": false,
-      "vice": false,
-      "benched": false
-     },
-     {
       "name": "Haaland",
       "position": "FWD",
       "captain": true,
@@ -23939,8 +24274,23 @@
       "benched": false
      }
     ],
-    "away": [],
-    "count": 3
+    "away": [
+     {
+      "name": "Manzambi",
+      "position": "MID",
+      "captain": false,
+      "vice": false,
+      "benched": false
+     },
+     {
+      "name": "N.Jackson",
+      "position": "FWD",
+      "captain": false,
+      "vice": true,
+      "benched": false
+     }
+    ],
+    "count": 4
    },
    "alert": false
   },
@@ -24033,28 +24383,21 @@
     ],
     "away": [
      {
-      "name": "De Cuyper",
-      "position": "DEF",
-      "captain": false,
-      "vice": false,
-      "benched": false
-     },
-     {
-      "name": "Yalcouyé",
-      "position": "MID",
-      "captain": false,
-      "vice": false,
-      "benched": false
-     },
-     {
       "name": "Kostoulas",
       "position": "FWD",
       "captain": false,
       "vice": false,
       "benched": false
+     },
+     {
+      "name": "De Cuyper",
+      "position": "DEF",
+      "captain": false,
+      "vice": false,
+      "benched": true
      }
     ],
-    "count": 6
+    "count": 5
    },
    "alert": false
   },
@@ -24088,7 +24431,19 @@
     }
    },
    "score": null,
-   "fpl": null,
+   "fpl": {
+    "home": [],
+    "away": [
+     {
+      "name": "Tavernier",
+      "position": "MID",
+      "captain": false,
+      "vice": false,
+      "benched": false
+     }
+    ],
+    "count": 1
+   },
    "alert": false
   },
   {
@@ -24155,7 +24510,22 @@
    },
    "score": null,
    "fpl": {
-    "home": [],
+    "home": [
+     {
+      "name": "Manzambi",
+      "position": "MID",
+      "captain": false,
+      "vice": false,
+      "benched": false
+     },
+     {
+      "name": "N.Jackson",
+      "position": "FWD",
+      "captain": false,
+      "vice": true,
+      "benched": false
+     }
+    ],
     "away": [
      {
       "name": "Dubravka",
@@ -24165,7 +24535,7 @@
       "benched": true
      }
     ],
-    "count": 1
+    "count": 3
    },
    "alert": false
   },
@@ -24215,7 +24585,7 @@
       "position": "DEF",
       "captain": false,
       "vice": false,
-      "benched": true
+      "benched": false
      }
     ],
     "count": 2
@@ -24300,13 +24670,6 @@
       "benched": false
      },
      {
-      "name": "Cherki",
-      "position": "MID",
-      "captain": false,
-      "vice": false,
-      "benched": false
-     },
-     {
       "name": "Haaland",
       "position": "FWD",
       "captain": true,
@@ -24314,7 +24677,7 @@
       "benched": false
      }
     ],
-    "count": 3
+    "count": 2
    },
    "alert": false
   },
@@ -24366,18 +24729,11 @@
       "position": "MID",
       "captain": false,
       "vice": false,
-      "benched": false
-     },
-     {
-      "name": "João Pedro",
-      "position": "FWD",
-      "captain": false,
-      "vice": true,
       "benched": true
      }
     ],
     "away": [],
-    "count": 3
+    "count": 2
    },
    "alert": true
   },

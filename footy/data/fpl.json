@@ -1,16 +1,16 @@
 {
- "fetchedAt": "2026-10-31T10:56:20.914Z",
+ "fetchedAt": "2026-11-01T11:51:52.201Z",
  "teamId": 6870928,
  "name": "How's it Goink?",
  "manager": "Fjölnir Þrastarson",
- "gameweek": 8,
- "gameweekName": "Gameweek 8",
- "picksFrom": 8,
- "bank": 0.5,
+ "gameweek": 9,
+ "gameweekName": "Gameweek 9",
+ "picksFrom": 9,
+ "bank": 1.3,
  "squadValue": 103.6,
- "overallPoints": 501,
- "overallRank": 2241112,
- "gameweekPoints": 32,
+ "overallPoints": 533,
+ "overallRank": 2514036,
+ "gameweekPoints": 36,
  "players": [
   {
    "id": 1,
@@ -20,7 +20,17 @@
    "captain": false,
    "vice": false,
    "benched": false,
-   "points": 7
+   "points": 0
+  },
+  {
+   "id": 449,
+   "name": "Hall",
+   "club": "Newcastle",
+   "position": "DEF",
+   "captain": false,
+   "vice": false,
+   "benched": false,
+   "points": 0
   },
   {
    "id": 8,
@@ -30,17 +40,7 @@
    "captain": false,
    "vice": false,
    "benched": false,
-   "points": 1
-  },
-  {
-   "id": 115,
-   "name": "De Cuyper",
-   "club": "Brighton",
-   "position": "DEF",
-   "captain": false,
-   "vice": false,
-   "benched": false,
-   "points": 1
+   "points": 0
   },
   {
    "id": 391,
@@ -50,7 +50,7 @@
    "captain": false,
    "vice": false,
    "benched": false,
-   "points": 1
+   "points": 2
   },
   {
    "id": 40,
@@ -60,17 +60,27 @@
    "captain": false,
    "vice": false,
    "benched": false,
-   "points": 1
+   "points": 9
   },
   {
-   "id": 399,
-   "name": "Cherki",
-   "club": "Man City",
+   "id": 53,
+   "name": "Manzambi",
+   "club": "Aston Villa",
    "position": "MID",
    "captain": false,
    "vice": false,
    "benched": false,
-   "points": 0
+   "points": 7
+  },
+  {
+   "id": 68,
+   "name": "Tavernier",
+   "club": "Bournemouth",
+   "position": "MID",
+   "captain": false,
+   "vice": false,
+   "benched": false,
+   "points": 3
   },
   {
    "id": 15,
@@ -80,27 +90,7 @@
    "captain": false,
    "vice": false,
    "benched": false,
-   "points": 3
-  },
-  {
-   "id": 154,
-   "name": "Palmer",
-   "club": "Chelsea",
-   "position": "MID",
-   "captain": false,
-   "vice": false,
-   "benched": false,
-   "points": -1
-  },
-  {
-   "id": 605,
-   "name": "Yalcouyé",
-   "club": "Brighton",
-   "position": "MID",
-   "captain": false,
-   "vice": false,
-   "benched": false,
-   "points": 1
+   "points": 0
   },
   {
    "id": 411,
@@ -110,7 +100,17 @@
    "captain": true,
    "vice": false,
    "benched": false,
-   "points": 8
+   "points": 2
+  },
+  {
+   "id": 166,
+   "name": "N.Jackson",
+   "club": "Aston Villa",
+   "position": "FWD",
+   "captain": false,
+   "vice": true,
+   "benched": false,
+   "points": 9
   },
   {
    "id": 138,
@@ -133,24 +133,24 @@
    "points": 0
   },
   {
-   "id": 165,
-   "name": "João Pedro",
+   "id": 154,
+   "name": "Palmer",
    "club": "Chelsea",
-   "position": "FWD",
+   "position": "MID",
    "captain": false,
-   "vice": true,
+   "vice": false,
    "benched": true,
-   "points": 0
+   "points": 8
   },
   {
-   "id": 449,
-   "name": "Hall",
-   "club": "Newcastle",
+   "id": 115,
+   "name": "De Cuyper",
+   "club": "Brighton",
    "position": "DEF",
    "captain": false,
    "vice": false,
    "benched": true,
-   "points": 5
+   "points": 9
   },
   {
    "id": 279,
@@ -160,7 +160,7 @@
    "captain": false,
    "vice": false,
    "benched": true,
-   "points": 4
+   "points": 2
   }
  ]
 }
