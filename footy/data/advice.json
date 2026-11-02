@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-01T11:51:53.289Z",
+ "generatedAt": "2026-11-02T13:31:53.215Z",
  "gameweek": 10,
  "gameweekName": "Gameweek 10",
  "deadline": "2026-11-06T18:30:00Z",
@@ -21,10 +21,10 @@
    "xgc": 12.29,
    "minutes": 741,
    "starts": 9,
-   "owned": 44.1,
+   "owned": 44.6,
    "status": "a",
    "news": null,
-   "priceMomentum": 65079,
+   "priceMomentum": 112160,
    "fixtures": [
     {
      "gw": 10,
@@ -76,10 +76,10 @@
    "xgc": 11.59,
    "minutes": 799,
    "starts": 9,
-   "owned": 78.9,
+   "owned": 79,
    "status": "a",
    "news": null,
-   "priceMomentum": 7654,
+   "priceMomentum": 12922,
    "fixtures": [
     {
      "gw": 10,
@@ -131,10 +131,10 @@
    "xgc": 8.34,
    "minutes": 637,
    "starts": 8,
-   "owned": 24.2,
+   "owned": 25.2,
    "status": "a",
    "news": null,
-   "priceMomentum": 130435,
+   "priceMomentum": 233983,
    "fixtures": [
     {
      "gw": 10,
@@ -186,10 +186,10 @@
    "xgc": 9.42,
    "minutes": 750,
    "starts": 9,
-   "owned": 26.2,
+   "owned": 26.9,
    "status": "a",
    "news": null,
-   "priceMomentum": 105767,
+   "priceMomentum": 181736,
    "fixtures": [
     {
      "gw": 10,
@@ -241,10 +241,10 @@
    "xgc": 6.06,
    "minutes": 384,
    "starts": 5,
-   "owned": 6.4,
+   "owned": 6.8,
    "status": "a",
    "news": null,
-   "priceMomentum": 30378,
+   "priceMomentum": 62335,
    "fixtures": [
     {
      "gw": 10,
@@ -289,17 +289,17 @@
    "club": "ARS",
    "position": "GKP",
    "price": 6.2,
-   "form": 4.8,
-   "ppg": 6.1,
-   "total": 49,
+   "form": 6,
+   "ppg": 6,
+   "total": 54,
    "xgi90": 0,
-   "xgc": 6.18,
-   "minutes": 720,
-   "starts": 8,
-   "owned": 46.3,
+   "xgc": 7.23,
+   "minutes": 810,
+   "starts": 9,
+   "owned": 46.5,
    "status": "a",
    "news": null,
-   "priceMomentum": 12860,
+   "priceMomentum": 27038,
    "fixtures": [
     {
      "gw": 10,
@@ -333,7 +333,62 @@
     }
    ],
    "ease": 3,
-   "rating": 4.09,
+   "rating": 4.5,
+   "captain": false,
+   "vice": false,
+   "benched": false
+  },
+  {
+   "id": 8,
+   "name": "Calafiori",
+   "club": "ARS",
+   "position": "DEF",
+   "price": 5.9,
+   "form": 5.5,
+   "ppg": 5.7,
+   "total": 51,
+   "xgi90": 0.29,
+   "xgc": 6.57,
+   "minutes": 699,
+   "starts": 8,
+   "owned": 47.9,
+   "status": "a",
+   "news": null,
+   "priceMomentum": -43017,
+   "fixtures": [
+    {
+     "gw": 10,
+     "opponent": "HUL",
+     "home": true,
+     "difficulty": 2
+    },
+    {
+     "gw": 11,
+     "opponent": "NEW",
+     "home": false,
+     "difficulty": 3
+    },
+    {
+     "gw": 12,
+     "opponent": "MCI",
+     "home": true,
+     "difficulty": 4
+    },
+    {
+     "gw": 13,
+     "opponent": "BRE",
+     "home": false,
+     "difficulty": 3
+    },
+    {
+     "gw": 14,
+     "opponent": "TOT",
+     "home": false,
+     "difficulty": 3
+    }
+   ],
+   "ease": 3,
+   "rating": 4.2,
    "captain": false,
    "vice": false,
    "benched": false
@@ -351,10 +406,10 @@
    "xgc": 12.46,
    "minutes": 790,
    "starts": 9,
-   "owned": 51.6,
+   "owned": 52,
    "status": "a",
    "news": null,
-   "priceMomentum": 72103,
+   "priceMomentum": 121736,
    "fixtures": [
     {
      "gw": 10,
@@ -406,10 +461,10 @@
    "xgc": 11.16,
    "minutes": 643,
    "starts": 8,
-   "owned": 10.3,
+   "owned": 10.2,
    "status": "a",
    "news": null,
-   "priceMomentum": -25,
+   "priceMomentum": -1599,
    "fixtures": [
     {
      "gw": 10,
@@ -461,10 +516,10 @@
    "xgc": 12.31,
    "minutes": 788,
    "starts": 9,
-   "owned": 27.6,
+   "owned": 27.9,
    "status": "a",
    "news": null,
-   "priceMomentum": 40516,
+   "priceMomentum": 67878,
    "fixtures": [
     {
      "gw": 10,
@@ -504,6 +559,61 @@
    "benched": true
   },
   {
+   "id": 15,
+   "name": "Ødegaard",
+   "club": "ARS",
+   "position": "MID",
+   "price": 6.7,
+   "form": 2.5,
+   "ppg": 4.3,
+   "total": 39,
+   "xgi90": 0.53,
+   "xgc": 6.28,
+   "minutes": 733,
+   "starts": 9,
+   "owned": 16.7,
+   "status": "a",
+   "news": null,
+   "priceMomentum": -17222,
+   "fixtures": [
+    {
+     "gw": 10,
+     "opponent": "HUL",
+     "home": true,
+     "difficulty": 2
+    },
+    {
+     "gw": 11,
+     "opponent": "NEW",
+     "home": false,
+     "difficulty": 3
+    },
+    {
+     "gw": 12,
+     "opponent": "MCI",
+     "home": true,
+     "difficulty": 4
+    },
+    {
+     "gw": 13,
+     "opponent": "BRE",
+     "home": false,
+     "difficulty": 3
+    },
+    {
+     "gw": 14,
+     "opponent": "TOT",
+     "home": false,
+     "difficulty": 3
+    }
+   ],
+   "ease": 3,
+   "rating": 2.55,
+   "captain": false,
+   "vice": false,
+   "benched": false
+  },
+  {
    "id": 449,
    "name": "Hall",
    "club": "NEW",
@@ -516,10 +626,10 @@
    "xgc": 13.75,
    "minutes": 719,
    "starts": 8,
-   "owned": 20.3,
+   "owned": 20.2,
    "status": "a",
    "news": null,
-   "priceMomentum": -9111,
+   "priceMomentum": -19267,
    "fixtures": [
     {
      "gw": 10,
@@ -571,10 +681,10 @@
    "xgc": 9.69,
    "minutes": 655,
    "starts": 7,
-   "owned": 26.4,
+   "owned": 26.2,
    "status": "a",
    "news": null,
-   "priceMomentum": -21536,
+   "priceMomentum": -45831,
    "fixtures": [
     {
      "gw": 10,
@@ -614,61 +724,6 @@
    "benched": false
   },
   {
-   "id": 15,
-   "name": "Ødegaard",
-   "club": "ARS",
-   "position": "MID",
-   "price": 6.7,
-   "form": 1.8,
-   "ppg": 4.5,
-   "total": 36,
-   "xgi90": 0.58,
-   "xgc": 5.38,
-   "minutes": 646,
-   "starts": 8,
-   "owned": 16.8,
-   "status": "a",
-   "news": null,
-   "priceMomentum": -2917,
-   "fixtures": [
-    {
-     "gw": 10,
-     "opponent": "HUL",
-     "home": true,
-     "difficulty": 2
-    },
-    {
-     "gw": 11,
-     "opponent": "NEW",
-     "home": false,
-     "difficulty": 3
-    },
-    {
-     "gw": 12,
-     "opponent": "MCI",
-     "home": true,
-     "difficulty": 4
-    },
-    {
-     "gw": 13,
-     "opponent": "BRE",
-     "home": false,
-     "difficulty": 3
-    },
-    {
-     "gw": 14,
-     "opponent": "TOT",
-     "home": false,
-     "difficulty": 3
-    }
-   ],
-   "ease": 3,
-   "rating": 2.36,
-   "captain": false,
-   "vice": false,
-   "benched": false
-  },
-  {
    "id": 279,
    "name": "Ajayi",
    "club": "HUL",
@@ -681,10 +736,10 @@
    "xgc": 12.29,
    "minutes": 783,
    "starts": 9,
-   "owned": 12.7,
+   "owned": 12.6,
    "status": "a",
    "news": null,
-   "priceMomentum": -14863,
+   "priceMomentum": -29439,
    "fixtures": [
     {
      "gw": 10,
@@ -724,61 +779,6 @@
    "benched": true
   },
   {
-   "id": 8,
-   "name": "Calafiori",
-   "club": "ARS",
-   "position": "DEF",
-   "price": 5.9,
-   "form": 4,
-   "ppg": 5.6,
-   "total": 45,
-   "xgi90": 0.32,
-   "xgc": 5.52,
-   "minutes": 609,
-   "starts": 7,
-   "owned": 47.8,
-   "status": "d",
-   "news": "Hip injury - 75% chance of playing",
-   "priceMomentum": -52515,
-   "fixtures": [
-    {
-     "gw": 10,
-     "opponent": "HUL",
-     "home": true,
-     "difficulty": 2
-    },
-    {
-     "gw": 11,
-     "opponent": "NEW",
-     "home": false,
-     "difficulty": 3
-    },
-    {
-     "gw": 12,
-     "opponent": "MCI",
-     "home": true,
-     "difficulty": 4
-    },
-    {
-     "gw": 13,
-     "opponent": "BRE",
-     "home": false,
-     "difficulty": 3
-    },
-    {
-     "gw": 14,
-     "opponent": "TOT",
-     "home": false,
-     "difficulty": 3
-    }
-   ],
-   "ease": 3,
-   "rating": 1.26,
-   "captain": false,
-   "vice": false,
-   "benched": false
-  },
-  {
    "id": 497,
    "name": "Dubravka",
    "club": "TOT",
@@ -794,7 +794,7 @@
    "owned": 15.7,
    "status": "a",
    "news": null,
-   "priceMomentum": -5941,
+   "priceMomentum": -11881,
    "fixtures": [
     {
      "gw": 10,
@@ -850,6 +850,34 @@
    "form": 6
   },
   {
+   "name": "Raya",
+   "rating": 8,
+   "fixtures": [
+    {
+     "gw": 10,
+     "opponent": "HUL",
+     "home": true,
+     "difficulty": 2
+    }
+   ],
+   "xgi90": 0,
+   "form": 6
+  },
+  {
+   "name": "Calafiori",
+   "rating": 7.47,
+   "fixtures": [
+    {
+     "gw": 10,
+     "opponent": "HUL",
+     "home": true,
+     "difficulty": 2
+    }
+   ],
+   "xgi90": 0.29,
+   "form": 5.5
+  },
+  {
    "name": "Haaland",
    "rating": 7.4,
    "fixtures": [
@@ -864,20 +892,6 @@
    "form": 7.2
   },
   {
-   "name": "Raya",
-   "rating": 7.27,
-   "fixtures": [
-    {
-     "gw": 10,
-     "opponent": "HUL",
-     "home": true,
-     "difficulty": 2
-    }
-   ],
-   "xgi90": 0,
-   "form": 4.8
-  },
-  {
    "name": "Rogers",
    "rating": 5.4,
    "fixtures": [
@@ -890,20 +904,6 @@
    ],
    "xgi90": 0.48,
    "form": 5.2
-  },
-  {
-   "name": "Kostoulas",
-   "rating": 4.6,
-   "fixtures": [
-    {
-     "gw": 10,
-     "opponent": "BRE",
-     "home": true,
-     "difficulty": 3
-    }
-   ],
-   "xgi90": 0.35,
-   "form": 4.2
   }
  ],
  "suggestions": [
@@ -929,7 +929,7 @@
      "form": 7,
      "xgi90": 0.02,
      "ease": 3.2,
-     "owned": 22.7,
+     "owned": 22.9,
      "fixtures": [
       {
        "gw": 10,
@@ -1017,17 +1017,48 @@
   },
   {
    "out": {
-    "name": "Calafiori",
-    "club": "ARS",
+    "name": "Ajayi",
+    "club": "HUL",
     "position": "DEF",
-    "price": 5.9,
-    "rating": 1.26,
-    "form": 4,
-    "ease": 3,
-    "status": "d",
-    "news": "Hip injury - 75% chance of playing"
+    "price": 4.2,
+    "rating": 2.18,
+    "form": 2.2,
+    "ease": 2.6,
+    "status": "a",
+    "news": null
    },
    "options": [
+    {
+     "id": 31,
+     "name": "Konsa",
+     "club": "ARS",
+     "price": 4.7,
+     "rating": 5.74,
+     "form": 9.2,
+     "xgi90": 0.09,
+     "ease": 3,
+     "owned": 22.5,
+     "fixtures": [
+      {
+       "gw": 10,
+       "opponent": "HUL",
+       "home": true,
+       "difficulty": 2
+      },
+      {
+       "gw": 11,
+       "opponent": "NEW",
+       "home": false,
+       "difficulty": 3
+      },
+      {
+       "gw": 12,
+       "opponent": "MCI",
+       "home": true,
+       "difficulty": 4
+      }
+     ]
+    },
     {
      "id": 112,
      "name": "Van Hecke",
@@ -1037,7 +1068,7 @@
      "form": 7.2,
      "xgi90": 0.26,
      "ease": 3.2,
-     "owned": 10,
+     "owned": 10.6,
      "fixtures": [
       {
        "gw": 10,
@@ -1068,7 +1099,7 @@
      "form": 6.5,
      "xgi90": 0.16,
      "ease": 3.2,
-     "owned": 7.1,
+     "owned": 7.2,
      "fixtures": [
       {
        "gw": 10,
@@ -1089,49 +1120,18 @@
        "difficulty": 3
       }
      ]
-    },
-    {
-     "id": 31,
-     "name": "Konsa",
-     "club": "ARS",
-     "price": 4.7,
-     "rating": 4.65,
-     "form": 6.8,
-     "xgi90": 0.1,
-     "ease": 3,
-     "owned": 21.9,
-     "fixtures": [
-      {
-       "gw": 10,
-       "opponent": "HUL",
-       "home": true,
-       "difficulty": 2
-      },
-      {
-       "gw": 11,
-       "opponent": "NEW",
-       "home": false,
-       "difficulty": 3
-      },
-      {
-       "gw": 12,
-       "opponent": "MCI",
-       "home": true,
-       "difficulty": 4
-      }
-     ]
     }
    ]
   },
   {
    "out": {
-    "name": "Ajayi",
-    "club": "HUL",
+    "name": "Gvardiol",
+    "club": "MCI",
     "position": "DEF",
-    "price": 4.2,
-    "rating": 2.18,
-    "form": 2.2,
-    "ease": 2.6,
+    "price": 5.7,
+    "rating": 2.43,
+    "form": 1.8,
+    "ease": 2.8,
     "status": "a",
     "news": null
    },
@@ -1145,7 +1145,7 @@
      "form": 6.5,
      "xgi90": 0.11,
      "ease": 3.4,
-     "owned": 2.3,
+     "owned": 2.4,
      "fixtures": [
       {
        "gw": 10,
@@ -1176,7 +1176,7 @@
      "form": 6,
      "xgi90": 0.18,
      "ease": 3.4,
-     "owned": 2.1,
+     "owned": 2.3,
      "fixtures": [
       {
        "gw": 10,
@@ -1207,7 +1207,7 @@
      "form": 5.2,
      "xgi90": 0.17,
      "ease": 3,
-     "owned": 4.8,
+     "owned": 4.7,
      "fixtures": [
       {
        "gw": 10,
