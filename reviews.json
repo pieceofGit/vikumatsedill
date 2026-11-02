@@ -488,5 +488,35 @@
   "text": "sloppy namm",
   "name": "",
   "key": "f4c7d01e92c49ae249ae997e1f5bb89400c307a203b7186cd64af144356f9ddd"
+ },
+ {
+  "id": "nOElEuL4oqZP",
+  "time": 1793629225,
+  "place": "Makona",
+  "dish": "Sjávarrétta bouillabaisse",
+  "rating": 3,
+  "text": "",
+  "name": "Fjölnir",
+  "key": "3fea6c637fd333b543dec12cf8e19fcf38a5f394d1c50728ef91de64e1929320"
+ },
+ {
+  "id": "PiKvhOhsKs10",
+  "time": 1793629230,
+  "place": "Makona",
+  "dish": "Rjómalöguð sveppasúpa",
+  "rating": 3,
+  "text": "",
+  "name": "Fjölnir",
+  "key": "4899f21b2b27b782ade37277611d8a468d02cb7a74c3c06664aec305e5fef843"
+ },
+ {
+  "id": "GfDE9iZ5T7ko",
+  "time": 1793629237,
+  "place": "Makona",
+  "dish": "Perú kjúklingur",
+  "rating": 2,
+  "text": "",
+  "name": "Fjölnir",
+  "key": "1ad2a34ec263b6a311cf8133b0eebdbfb88aa4b7fa1a0507a32057b819b6a990"
  }
 ]
