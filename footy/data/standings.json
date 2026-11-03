@@ -1,5 +1,5 @@
 {
- "fetchedAt": "2026-11-02T13:31:53.622Z",
+ "fetchedAt": "2026-11-03T12:49:15.628Z",
  "tables": {
   "pl": {
    "name": "Premier League",
@@ -235,6 +235,40 @@
     },
     {
      "rank": 7,
+     "team": "Everton",
+     "played": 9,
+     "won": 3,
+     "drawn": 4,
+     "lost": 2,
+     "gf": 9,
+     "ga": 9,
+     "gd": 0,
+     "points": 13,
+     "form": [
+      {
+       "r": "W",
+       "opponent": "Ipswich",
+       "score": "1-0"
+      },
+      {
+       "r": "D",
+       "opponent": "Man Utd",
+       "score": "2-2"
+      },
+      {
+       "r": "D",
+       "opponent": "Bournemouth",
+       "score": "1-1"
+      },
+      {
+       "r": "W",
+       "opponent": "Crystal Palace",
+       "score": "2-0"
+      }
+     ]
+    },
+    {
+     "rank": 8,
      "team": "Bournemouth",
      "played": 9,
      "won": 3,
@@ -273,7 +307,7 @@
      ]
     },
     {
-     "rank": 8,
+     "rank": 9,
      "team": "Tottenham",
      "played": 9,
      "won": 3,
@@ -302,7 +336,7 @@
      ]
     },
     {
-     "rank": 9,
+     "rank": 10,
      "team": "Aston Villa",
      "played": 9,
      "won": 3,
@@ -336,7 +370,7 @@
      ]
     },
     {
-     "rank": 10,
+     "rank": 11,
      "team": "Hull City",
      "played": 9,
      "won": 2,
@@ -370,7 +404,7 @@
      ]
     },
     {
-     "rank": 11,
+     "rank": 12,
      "team": "Leeds",
      "played": 9,
      "won": 2,
@@ -404,15 +438,15 @@
      ]
     },
     {
-     "rank": 12,
+     "rank": 13,
      "team": "Newcastle",
-     "played": 8,
+     "played": 9,
      "won": 3,
      "drawn": 2,
-     "lost": 3,
+     "lost": 4,
      "gf": 12,
-     "ga": 14,
-     "gd": -2,
+     "ga": 15,
+     "gd": -3,
      "points": 11,
      "form": [
       {
@@ -443,7 +477,7 @@
      ]
     },
     {
-     "rank": 13,
+     "rank": 14,
      "team": "Ipswich",
      "played": 9,
      "won": 3,
@@ -478,40 +512,6 @@
        "r": "W",
        "opponent": "Sunderland",
        "score": "2-1"
-      }
-     ]
-    },
-    {
-     "rank": 14,
-     "team": "Everton",
-     "played": 8,
-     "won": 2,
-     "drawn": 4,
-     "lost": 2,
-     "gf": 8,
-     "ga": 9,
-     "gd": -1,
-     "points": 10,
-     "form": [
-      {
-       "r": "W",
-       "opponent": "Ipswich",
-       "score": "1-0"
-      },
-      {
-       "r": "D",
-       "opponent": "Man Utd",
-       "score": "2-2"
-      },
-      {
-       "r": "D",
-       "opponent": "Bournemouth",
-       "score": "1-1"
-      },
-      {
-       "r": "W",
-       "opponent": "Crystal Palace",
-       "score": "2-0"
       }
      ]
     },
