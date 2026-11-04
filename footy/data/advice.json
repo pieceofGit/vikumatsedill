@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-03T12:49:15.157Z",
+ "generatedAt": "2026-11-04T13:00:15.094Z",
  "gameweek": 10,
  "gameweekName": "Gameweek 10",
  "deadline": "2026-11-06T18:30:00Z",
@@ -21,10 +21,10 @@
    "xgc": 12.29,
    "minutes": 741,
    "starts": 9,
-   "owned": 44.9,
+   "owned": 45.1,
    "status": "a",
    "news": null,
-   "priceMomentum": 146715,
+   "priceMomentum": 169380,
    "fixtures": [
     {
      "gw": 10,
@@ -76,10 +76,10 @@
    "xgc": 8.34,
    "minutes": 637,
    "starts": 8,
-   "owned": 25.8,
+   "owned": 26.2,
    "status": "a",
    "news": null,
-   "priceMomentum": 300767,
+   "priceMomentum": 342759,
    "fixtures": [
     {
      "gw": 10,
@@ -134,7 +134,7 @@
    "owned": 79,
    "status": "a",
    "news": null,
-   "priceMomentum": 16661,
+   "priceMomentum": 20207,
    "fixtures": [
     {
      "gw": 10,
@@ -186,10 +186,10 @@
    "xgc": 6.06,
    "minutes": 384,
    "starts": 5,
-   "owned": 7,
+   "owned": 7.1,
    "status": "a",
    "news": null,
-   "priceMomentum": 85091,
+   "priceMomentum": 100722,
    "fixtures": [
     {
      "gw": 10,
@@ -241,10 +241,10 @@
    "xgc": 9.42,
    "minutes": 750,
    "starts": 9,
-   "owned": 27.5,
+   "owned": 27.8,
    "status": "a",
    "news": null,
-   "priceMomentum": 238598,
+   "priceMomentum": 274659,
    "fixtures": [
     {
      "gw": 10,
@@ -296,10 +296,10 @@
    "xgc": 7.23,
    "minutes": 810,
    "starts": 9,
-   "owned": 46.6,
+   "owned": 46.7,
    "status": "a",
    "news": null,
-   "priceMomentum": 37598,
+   "priceMomentum": 44668,
    "fixtures": [
     {
      "gw": 10,
@@ -343,7 +343,7 @@
    "name": "Rogers",
    "club": "CHE",
    "position": "MID",
-   "price": 8.1,
+   "price": 8.2,
    "form": 5.2,
    "ppg": 5.6,
    "total": 50,
@@ -351,10 +351,10 @@
    "xgc": 12.46,
    "minutes": 790,
    "starts": 9,
-   "owned": 52.4,
+   "owned": 52.6,
    "status": "a",
    "news": null,
-   "priceMomentum": 157743,
+   "priceMomentum": 180983,
    "fixtures": [
     {
      "gw": 10,
@@ -406,10 +406,10 @@
    "xgc": 6.57,
    "minutes": 699,
    "starts": 8,
-   "owned": 47.9,
+   "owned": 48,
    "status": "a",
    "news": null,
-   "priceMomentum": -35621,
+   "priceMomentum": -30996,
    "fixtures": [
     {
      "gw": 10,
@@ -464,7 +464,7 @@
    "owned": 10.2,
    "status": "a",
    "news": null,
-   "priceMomentum": -1905,
+   "priceMomentum": -2039,
    "fixtures": [
     {
      "gw": 10,
@@ -516,10 +516,10 @@
    "xgc": 12.31,
    "minutes": 788,
    "starts": 9,
-   "owned": 28,
+   "owned": 28.1,
    "status": "a",
    "news": null,
-   "priceMomentum": 84992,
+   "priceMomentum": 94286,
    "fixtures": [
     {
      "gw": 10,
@@ -571,10 +571,10 @@
    "xgc": 16.09,
    "minutes": 809,
    "starts": 9,
-   "owned": 20,
+   "owned": 19.8,
    "status": "a",
    "news": null,
-   "priceMomentum": -45407,
+   "priceMomentum": -63106,
    "fixtures": [
     {
      "gw": 10,
@@ -626,10 +626,10 @@
    "xgc": 6.28,
    "minutes": 733,
    "starts": 9,
-   "owned": 16.6,
+   "owned": 16.5,
    "status": "a",
    "news": null,
-   "priceMomentum": -26197,
+   "priceMomentum": -32017,
    "fixtures": [
     {
      "gw": 10,
@@ -681,10 +681,10 @@
    "xgc": 9.69,
    "minutes": 655,
    "starts": 7,
-   "owned": 26,
+   "owned": 25.9,
    "status": "a",
    "news": null,
-   "priceMomentum": -62821,
+   "priceMomentum": -72996,
    "fixtures": [
     {
      "gw": 10,
@@ -736,10 +736,10 @@
    "xgc": 12.29,
    "minutes": 783,
    "starts": 9,
-   "owned": 12.5,
+   "owned": 12.4,
    "status": "a",
    "news": null,
-   "priceMomentum": -39372,
+   "priceMomentum": -45643,
    "fixtures": [
     {
      "gw": 10,
@@ -794,7 +794,7 @@
    "owned": 15.6,
    "status": "a",
    "news": null,
-   "priceMomentum": -16214,
+   "priceMomentum": -18742,
    "fixtures": [
     {
      "gw": 10,
@@ -929,7 +929,7 @@
      "form": 7,
      "xgi90": 0.02,
      "ease": 3.2,
-     "owned": 23,
+     "owned": 23.1,
      "fixtures": [
       {
        "gw": 10,
@@ -1032,12 +1032,12 @@
      "id": 31,
      "name": "Konsa",
      "club": "ARS",
-     "price": 4.7,
+     "price": 4.8,
      "rating": 5.55,
      "form": 9.2,
      "xgi90": 0.09,
      "ease": 2.8,
-     "owned": 22.9,
+     "owned": 23.1,
      "fixtures": [
       {
        "gw": 10,
@@ -1068,7 +1068,7 @@
      "form": 7.2,
      "xgi90": 0.26,
      "ease": 3.2,
-     "owned": 11.1,
+     "owned": 11.4,
      "fixtures": [
       {
        "gw": 10,
@@ -1099,7 +1099,7 @@
      "form": 6.5,
      "xgi90": 0.16,
      "ease": 3.2,
-     "owned": 7.3,
+     "owned": 7.4,
      "fixtures": [
       {
        "gw": 10,
@@ -1145,7 +1145,7 @@
      "form": 6.5,
      "xgi90": 0.11,
      "ease": 3.2,
-     "owned": 2.5,
+     "owned": 2.6,
      "fixtures": [
       {
        "gw": 10,
@@ -1171,12 +1171,12 @@
      "id": 566,
      "name": "Silva",
      "club": "BOU",
-     "price": 5,
+     "price": 5.1,
      "rating": 3.91,
      "form": 6,
      "xgi90": 0.18,
      "ease": 3.2,
-     "owned": 2.4,
+     "owned": 2.6,
      "fixtures": [
       {
        "gw": 10,
@@ -1207,7 +1207,7 @@
      "form": 5.2,
      "xgi90": 0.17,
      "ease": 2.8,
-     "owned": 4.7,
+     "owned": 4.6,
      "fixtures": [
       {
        "gw": 10,
