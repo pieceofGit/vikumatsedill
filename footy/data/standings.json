@@ -1,5 +1,5 @@
 {
- "fetchedAt": "2026-11-06T12:58:08.642Z",
+ "fetchedAt": "2026-11-07T11:44:43.910Z",
  "tables": {
   "pl": {
    "name": "Premier League",
@@ -162,6 +162,40 @@
     },
     {
      "rank": 5,
+     "team": "Everton",
+     "played": 10,
+     "won": 4,
+     "drawn": 4,
+     "lost": 2,
+     "gf": 12,
+     "ga": 10,
+     "gd": 2,
+     "points": 16,
+     "form": [
+      {
+       "r": "W",
+       "opponent": "Ipswich",
+       "score": "1-0"
+      },
+      {
+       "r": "D",
+       "opponent": "Man Utd",
+       "score": "2-2"
+      },
+      {
+       "r": "D",
+       "opponent": "Bournemouth",
+       "score": "1-1"
+      },
+      {
+       "r": "W",
+       "opponent": "Crystal Palace",
+       "score": "2-0"
+      }
+     ]
+    },
+    {
+     "rank": 6,
      "team": "Liverpool",
      "played": 9,
      "won": 4,
@@ -195,7 +229,7 @@
      ]
     },
     {
-     "rank": 6,
+     "rank": 7,
      "team": "Brentford",
      "played": 9,
      "won": 3,
@@ -230,40 +264,6 @@
        "r": "W",
        "opponent": "Tottenham",
        "score": "3-0"
-      }
-     ]
-    },
-    {
-     "rank": 7,
-     "team": "Everton",
-     "played": 9,
-     "won": 3,
-     "drawn": 4,
-     "lost": 2,
-     "gf": 9,
-     "ga": 9,
-     "gd": 0,
-     "points": 13,
-     "form": [
-      {
-       "r": "W",
-       "opponent": "Ipswich",
-       "score": "1-0"
-      },
-      {
-       "r": "D",
-       "opponent": "Man Utd",
-       "score": "2-2"
-      },
-      {
-       "r": "D",
-       "opponent": "Bournemouth",
-       "score": "1-1"
-      },
-      {
-       "r": "W",
-       "opponent": "Crystal Palace",
-       "score": "2-0"
       }
      ]
     },
@@ -552,13 +552,13 @@
     {
      "rank": 16,
      "team": "Coventry",
-     "played": 9,
+     "played": 10,
      "won": 3,
      "drawn": 0,
-     "lost": 6,
-     "gf": 9,
-     "ga": 16,
-     "gd": -7,
+     "lost": 7,
+     "gf": 10,
+     "ga": 19,
+     "gd": -9,
      "points": 9,
      "form": [
       {

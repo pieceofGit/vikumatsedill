@@ -1,11 +1,11 @@
 {
- "generatedAt": "2026-11-06T12:58:08.249Z",
+ "generatedAt": "2026-11-07T11:44:43.481Z",
  "fantasy": {
   "name": "How's it Goink?",
-  "gameweek": 9,
+  "gameweek": 10,
   "teamId": 6870928,
   "overallPoints": 549,
-  "overallRank": 2444379
+  "overallRank": 2569789
  },
  "season": "2026-27",
  "timezone": "Atlantic/Reykjavik",
@@ -423,7 +423,7 @@
       "position": "MID",
       "captain": false,
       "vice": false,
-      "benched": false
+      "benched": true
      }
     ],
     "count": 3
@@ -466,18 +466,18 @@
    "fpl": {
     "home": [
      {
-      "name": "Kostoulas",
-      "position": "FWD",
+      "name": "De Cuyper",
+      "position": "DEF",
       "captain": false,
       "vice": false,
       "benched": false
      },
      {
-      "name": "De Cuyper",
-      "position": "DEF",
+      "name": "Kostoulas",
+      "position": "FWD",
       "captain": false,
       "vice": false,
-      "benched": true
+      "benched": false
      }
     ],
     "away": [
@@ -540,7 +540,7 @@
       "position": "DEF",
       "captain": false,
       "vice": false,
-      "benched": false
+      "benched": true
      }
     ],
     "away": [],
@@ -600,7 +600,7 @@
       "position": "MID",
       "captain": false,
       "vice": false,
-      "benched": true
+      "benched": false
      }
     ],
     "count": 2
@@ -738,7 +738,7 @@
       "position": "MID",
       "captain": false,
       "vice": false,
-      "benched": false
+      "benched": true
      }
     ],
     "away": [],
@@ -843,7 +843,7 @@
       "position": "DEF",
       "captain": false,
       "vice": false,
-      "benched": false
+      "benched": true
      }
     ],
     "count": 2
@@ -933,23 +933,23 @@
       "position": "MID",
       "captain": false,
       "vice": false,
-      "benched": true
+      "benched": false
      }
     ],
     "away": [
+     {
+      "name": "De Cuyper",
+      "position": "DEF",
+      "captain": false,
+      "vice": false,
+      "benched": false
+     },
      {
       "name": "Kostoulas",
       "position": "FWD",
       "captain": false,
       "vice": false,
       "benched": false
-     },
-     {
-      "name": "De Cuyper",
-      "position": "DEF",
-      "captain": false,
-      "vice": false,
-      "benched": true
      }
     ],
     "count": 4
@@ -1185,7 +1185,7 @@
       "position": "DEF",
       "captain": false,
       "vice": false,
-      "benched": false
+      "benched": true
      }
     ],
     "away": [
@@ -1194,7 +1194,7 @@
       "position": "MID",
       "captain": false,
       "vice": false,
-      "benched": false
+      "benched": true
      }
     ],
     "count": 2
@@ -1337,18 +1337,18 @@
    "fpl": {
     "home": [
      {
-      "name": "Kostoulas",
-      "position": "FWD",
+      "name": "De Cuyper",
+      "position": "DEF",
       "captain": false,
       "vice": false,
       "benched": false
      },
      {
-      "name": "De Cuyper",
-      "position": "DEF",
+      "name": "Kostoulas",
+      "position": "FWD",
       "captain": false,
       "vice": false,
-      "benched": true
+      "benched": false
      }
     ],
     "away": [],
@@ -1602,7 +1602,7 @@
       "position": "MID",
       "captain": false,
       "vice": false,
-      "benched": true
+      "benched": false
      }
     ],
     "count": 5
@@ -2617,7 +2617,7 @@
       "position": "MID",
       "captain": false,
       "vice": false,
-      "benched": false
+      "benched": true
      }
     ],
     "away": [],
@@ -2672,7 +2672,7 @@
       "position": "MID",
       "captain": false,
       "vice": false,
-      "benched": true
+      "benched": false
      }
     ],
     "away": [
@@ -2832,18 +2832,18 @@
     "home": [],
     "away": [
      {
-      "name": "Kostoulas",
-      "position": "FWD",
+      "name": "De Cuyper",
+      "position": "DEF",
       "captain": false,
       "vice": false,
       "benched": false
      },
      {
-      "name": "De Cuyper",
-      "position": "DEF",
+      "name": "Kostoulas",
+      "position": "FWD",
       "captain": false,
       "vice": false,
-      "benched": true
+      "benched": false
      }
     ],
     "count": 2
@@ -2950,7 +2950,7 @@
       "position": "DEF",
       "captain": false,
       "vice": false,
-      "benched": false
+      "benched": true
      }
     ],
     "count": 1
@@ -3009,7 +3009,7 @@
       "position": "MID",
       "captain": false,
       "vice": false,
-      "benched": true
+      "benched": false
      }
     ],
     "count": 2
@@ -3151,18 +3151,18 @@
    "fpl": {
     "home": [
      {
-      "name": "Kostoulas",
-      "position": "FWD",
+      "name": "De Cuyper",
+      "position": "DEF",
       "captain": false,
       "vice": false,
       "benched": false
      },
      {
-      "name": "De Cuyper",
-      "position": "DEF",
+      "name": "Kostoulas",
+      "position": "FWD",
       "captain": false,
       "vice": false,
-      "benched": true
+      "benched": false
      }
     ],
     "away": [
@@ -3232,7 +3232,7 @@
       "position": "DEF",
       "captain": false,
       "vice": false,
-      "benched": false
+      "benched": true
      }
     ],
     "away": [
@@ -3324,7 +3324,7 @@
       "position": "MID",
       "captain": false,
       "vice": false,
-      "benched": false
+      "benched": true
      }
     ],
     "away": [],
@@ -3553,18 +3553,18 @@
     "home": [],
     "away": [
      {
-      "name": "Kostoulas",
-      "position": "FWD",
+      "name": "De Cuyper",
+      "position": "DEF",
       "captain": false,
       "vice": false,
       "benched": false
      },
      {
-      "name": "De Cuyper",
-      "position": "DEF",
+      "name": "Kostoulas",
+      "position": "FWD",
       "captain": false,
       "vice": false,
-      "benched": true
+      "benched": false
      }
     ],
     "count": 2
@@ -3615,7 +3615,7 @@
       "position": "MID",
       "captain": false,
       "vice": false,
-      "benched": true
+      "benched": false
      }
     ],
     "away": [
@@ -3624,7 +3624,7 @@
       "position": "MID",
       "captain": false,
       "vice": false,
-      "benched": false
+      "benched": true
      }
     ],
     "count": 3
@@ -3937,7 +3937,7 @@
       "position": "DEF",
       "captain": false,
       "vice": false,
-      "benched": false
+      "benched": true
      }
     ],
     "count": 1
@@ -4767,7 +4767,7 @@
       "position": "MID",
       "captain": false,
       "vice": false,
-      "benched": true
+      "benched": false
      }
     ],
     "count": 2
@@ -4941,7 +4941,7 @@
       "position": "DEF",
       "captain": false,
       "vice": false,
-      "benched": false
+      "benched": true
      }
     ],
     "away": [
@@ -5001,7 +5001,7 @@
       "position": "MID",
       "captain": false,
       "vice": false,
-      "benched": false
+      "benched": true
      }
     ],
     "away": [],
@@ -5083,18 +5083,18 @@
    "fpl": {
     "home": [
      {
-      "name": "Kostoulas",
-      "position": "FWD",
+      "name": "De Cuyper",
+      "position": "DEF",
       "captain": false,
       "vice": false,
       "benched": false
      },
      {
-      "name": "De Cuyper",
-      "position": "DEF",
+      "name": "Kostoulas",
+      "position": "FWD",
       "captain": false,
       "vice": false,
-      "benched": true
+      "benched": false
      }
     ],
     "away": [],
@@ -6224,7 +6224,7 @@
       "position": "MID",
       "captain": false,
       "vice": false,
-      "benched": true
+      "benched": false
      }
     ],
     "away": [
@@ -6274,18 +6274,18 @@
     "home": [],
     "away": [
      {
-      "name": "Kostoulas",
-      "position": "FWD",
+      "name": "De Cuyper",
+      "position": "DEF",
       "captain": false,
       "vice": false,
       "benched": false
      },
      {
-      "name": "De Cuyper",
-      "position": "DEF",
+      "name": "Kostoulas",
+      "position": "FWD",
       "captain": false,
       "vice": false,
-      "benched": true
+      "benched": false
      }
     ],
     "count": 2
@@ -6330,7 +6330,7 @@
       "position": "DEF",
       "captain": false,
       "vice": false,
-      "benched": false
+      "benched": true
      }
     ],
     "count": 1
@@ -6379,7 +6379,7 @@
       "position": "MID",
       "captain": false,
       "vice": false,
-      "benched": false
+      "benched": true
      }
     ],
     "count": 1
@@ -6512,7 +6512,7 @@
       "position": "MID",
       "captain": false,
       "vice": false,
-      "benched": true
+      "benched": false
      }
     ],
     "away": [],
@@ -6569,18 +6569,18 @@
     ],
     "away": [
      {
-      "name": "Kostoulas",
-      "position": "FWD",
+      "name": "De Cuyper",
+      "position": "DEF",
       "captain": false,
       "vice": false,
       "benched": false
      },
      {
-      "name": "De Cuyper",
-      "position": "DEF",
+      "name": "Kostoulas",
+      "position": "FWD",
       "captain": false,
       "vice": false,
-      "benched": true
+      "benched": false
      }
     ],
     "count": 4
@@ -6624,7 +6624,7 @@
       "position": "MID",
       "captain": false,
       "vice": false,
-      "benched": false
+      "benched": true
      }
     ],
     "away": [],
@@ -6940,7 +6940,7 @@
       "position": "DEF",
       "captain": false,
       "vice": false,
-      "benched": false
+      "benched": true
      }
     ],
     "away": [],
@@ -7932,7 +7932,7 @@
       "position": "DEF",
       "captain": false,
       "vice": false,
-      "benched": false
+      "benched": true
      }
     ],
     "count": 1
@@ -8050,7 +8050,7 @@
       "position": "MID",
       "captain": false,
       "vice": false,
-      "benched": true
+      "benched": false
      }
     ],
     "count": 2
@@ -8095,7 +8095,7 @@
       "position": "MID",
       "captain": false,
       "vice": false,
-      "benched": false
+      "benched": true
      }
     ],
     "count": 1
@@ -8135,18 +8135,18 @@
    "fpl": {
     "home": [
      {
-      "name": "Kostoulas",
-      "position": "FWD",
+      "name": "De Cuyper",
+      "position": "DEF",
       "captain": false,
       "vice": false,
       "benched": false
      },
      {
-      "name": "De Cuyper",
-      "position": "DEF",
+      "name": "Kostoulas",
+      "position": "FWD",
       "captain": false,
       "vice": false,
-      "benched": true
+      "benched": false
      }
     ],
     "away": [],
@@ -8254,7 +8254,7 @@
       "position": "MID",
       "captain": false,
       "vice": false,
-      "benched": true
+      "benched": false
      }
     ],
     "away": [],
@@ -8445,18 +8445,18 @@
     ],
     "away": [
      {
-      "name": "Kostoulas",
-      "position": "FWD",
+      "name": "De Cuyper",
+      "position": "DEF",
       "captain": false,
       "vice": false,
       "benched": false
      },
      {
-      "name": "De Cuyper",
-      "position": "DEF",
+      "name": "Kostoulas",
+      "position": "FWD",
       "captain": false,
       "vice": false,
-      "benched": true
+      "benched": false
      }
     ],
     "count": 3
@@ -8500,7 +8500,7 @@
       "position": "MID",
       "captain": false,
       "vice": false,
-      "benched": false
+      "benched": true
      }
     ],
     "away": [],
@@ -8656,7 +8656,7 @@
       "position": "DEF",
       "captain": false,
       "vice": false,
-      "benched": false
+      "benched": true
      }
     ],
     "away": [
@@ -9743,7 +9743,7 @@
       "position": "MID",
       "captain": false,
       "vice": false,
-      "benched": false
+      "benched": true
      }
     ],
     "count": 1
@@ -9795,7 +9795,7 @@
       "position": "MID",
       "captain": false,
       "vice": false,
-      "benched": true
+      "benched": false
      }
     ],
     "count": 2
@@ -9835,18 +9835,18 @@
    "fpl": {
     "home": [
      {
-      "name": "Kostoulas",
-      "position": "FWD",
+      "name": "De Cuyper",
+      "position": "DEF",
       "captain": false,
       "vice": false,
       "benched": false
      },
      {
-      "name": "De Cuyper",
-      "position": "DEF",
+      "name": "Kostoulas",
+      "position": "FWD",
       "captain": false,
       "vice": false,
-      "benched": true
+      "benched": false
      }
     ],
     "away": [
@@ -9855,7 +9855,7 @@
       "position": "DEF",
       "captain": false,
       "vice": false,
-      "benched": false
+      "benched": true
      }
     ],
     "count": 3
@@ -10119,7 +10119,7 @@
       "position": "MID",
       "captain": false,
       "vice": false,
-      "benched": true
+      "benched": false
      }
     ],
     "away": [],
@@ -10364,7 +10364,7 @@
       "position": "DEF",
       "captain": false,
       "vice": false,
-      "benched": false
+      "benched": true
      }
     ],
     "away": [],
@@ -10409,23 +10409,23 @@
       "position": "MID",
       "captain": false,
       "vice": false,
-      "benched": false
+      "benched": true
      }
     ],
     "away": [
+     {
+      "name": "De Cuyper",
+      "position": "DEF",
+      "captain": false,
+      "vice": false,
+      "benched": false
+     },
      {
       "name": "Kostoulas",
       "position": "FWD",
       "captain": false,
       "vice": false,
       "benched": false
-     },
-     {
-      "name": "De Cuyper",
-      "position": "DEF",
-      "captain": false,
-      "vice": false,
-      "benched": true
      }
     ],
     "count": 3
@@ -10614,7 +10614,7 @@
       "position": "DEF",
       "captain": false,
       "vice": false,
-      "benched": false
+      "benched": true
      }
     ],
     "away": [],
@@ -10670,7 +10670,7 @@
       "position": "MID",
       "captain": false,
       "vice": false,
-      "benched": true
+      "benched": false
      }
     ],
     "away": [],
@@ -10767,7 +10767,7 @@
       "position": "MID",
       "captain": false,
       "vice": false,
-      "benched": false
+      "benched": true
      }
     ],
     "away": [
@@ -10869,18 +10869,18 @@
     "home": [],
     "away": [
      {
-      "name": "Kostoulas",
-      "position": "FWD",
+      "name": "De Cuyper",
+      "position": "DEF",
       "captain": false,
       "vice": false,
       "benched": false
      },
      {
-      "name": "De Cuyper",
-      "position": "DEF",
+      "name": "Kostoulas",
+      "position": "FWD",
       "captain": false,
       "vice": false,
-      "benched": true
+      "benched": false
      }
     ],
     "count": 2
@@ -11866,18 +11866,18 @@
    "fpl": {
     "home": [
      {
-      "name": "Kostoulas",
-      "position": "FWD",
+      "name": "De Cuyper",
+      "position": "DEF",
       "captain": false,
       "vice": false,
       "benched": false
      },
      {
-      "name": "De Cuyper",
-      "position": "DEF",
+      "name": "Kostoulas",
+      "position": "FWD",
       "captain": false,
       "vice": false,
-      "benched": true
+      "benched": false
      }
     ],
     "away": [],
@@ -11923,7 +11923,7 @@
       "position": "DEF",
       "captain": false,
       "vice": false,
-      "benched": false
+      "benched": true
      }
     ],
     "count": 1
@@ -12042,7 +12042,7 @@
       "position": "MID",
       "captain": false,
       "vice": false,
-      "benched": false
+      "benched": true
      }
     ],
     "count": 4
@@ -12113,7 +12113,7 @@
       "position": "MID",
       "captain": false,
       "vice": false,
-      "benched": true
+      "benched": false
      }
     ],
     "count": 4
@@ -12256,18 +12256,18 @@
    "fpl": {
     "home": [
      {
-      "name": "Kostoulas",
-      "position": "FWD",
+      "name": "De Cuyper",
+      "position": "DEF",
       "captain": false,
       "vice": false,
       "benched": false
      },
      {
-      "name": "De Cuyper",
-      "position": "DEF",
+      "name": "Kostoulas",
+      "position": "FWD",
       "captain": false,
       "vice": false,
-      "benched": true
+      "benched": false
      }
     ],
     "away": [],
@@ -12346,7 +12346,7 @@
       "position": "DEF",
       "captain": false,
       "vice": false,
-      "benched": false
+      "benched": true
      }
     ],
     "count": 1
@@ -12483,7 +12483,7 @@
       "position": "MID",
       "captain": false,
       "vice": false,
-      "benched": false
+      "benched": true
      }
     ],
     "away": [],
@@ -12647,7 +12647,7 @@
       "position": "MID",
       "captain": false,
       "vice": false,
-      "benched": true
+      "benched": false
      }
     ],
     "away": [
@@ -12789,18 +12789,18 @@
     "home": [],
     "away": [
      {
-      "name": "Kostoulas",
-      "position": "FWD",
+      "name": "De Cuyper",
+      "position": "DEF",
       "captain": false,
       "vice": false,
       "benched": false
      },
      {
-      "name": "De Cuyper",
-      "position": "DEF",
+      "name": "Kostoulas",
+      "position": "FWD",
       "captain": false,
       "vice": false,
-      "benched": true
+      "benched": false
      }
     ],
     "count": 2
@@ -12853,7 +12853,7 @@
       "position": "MID",
       "captain": false,
       "vice": false,
-      "benched": false
+      "benched": true
      }
     ],
     "count": 2
@@ -12975,7 +12975,7 @@
       "position": "DEF",
       "captain": false,
       "vice": false,
-      "benched": false
+      "benched": true
      }
     ],
     "away": [
@@ -13043,7 +13043,7 @@
       "position": "MID",
       "captain": false,
       "vice": false,
-      "benched": true
+      "benched": false
      }
     ],
     "count": 2
@@ -13233,18 +13233,18 @@
     ],
     "away": [
      {
-      "name": "Kostoulas",
-      "position": "FWD",
+      "name": "De Cuyper",
+      "position": "DEF",
       "captain": false,
       "vice": false,
       "benched": false
      },
      {
-      "name": "De Cuyper",
-      "position": "DEF",
+      "name": "Kostoulas",
+      "position": "FWD",
       "captain": false,
       "vice": false,
-      "benched": true
+      "benched": false
      }
     ],
     "count": 3
@@ -13432,7 +13432,7 @@
       "position": "DEF",
       "captain": false,
       "vice": false,
-      "benched": false
+      "benched": true
      }
     ],
     "away": [],
@@ -13515,7 +13515,7 @@
       "position": "MID",
       "captain": false,
       "vice": false,
-      "benched": false
+      "benched": true
      }
     ],
     "count": 1
@@ -13619,7 +13619,7 @@
       "position": "MID",
       "captain": false,
       "vice": false,
-      "benched": true
+      "benched": false
      }
     ],
     "count": 2
@@ -13696,18 +13696,18 @@
    "fpl": {
     "home": [
      {
-      "name": "Kostoulas",
-      "position": "FWD",
+      "name": "De Cuyper",
+      "position": "DEF",
       "captain": false,
       "vice": false,
       "benched": false
      },
      {
-      "name": "De Cuyper",
-      "position": "DEF",
+      "name": "Kostoulas",
+      "position": "FWD",
       "captain": false,
       "vice": false,
-      "benched": true
+      "benched": false
      }
     ],
     "away": [],
@@ -13955,7 +13955,7 @@
       "position": "MID",
       "captain": false,
       "vice": false,
-      "benched": false
+      "benched": true
      }
     ],
     "away": [
@@ -14022,7 +14022,7 @@
       "position": "MID",
       "captain": false,
       "vice": false,
-      "benched": true
+      "benched": false
      }
     ],
     "away": [
@@ -14031,7 +14031,7 @@
       "position": "DEF",
       "captain": false,
       "vice": false,
-      "benched": false
+      "benched": true
      }
     ],
     "count": 3
@@ -14194,18 +14194,18 @@
    "fpl": {
     "home": [
      {
-      "name": "Kostoulas",
-      "position": "FWD",
+      "name": "De Cuyper",
+      "position": "DEF",
       "captain": false,
       "vice": false,
       "benched": false
      },
      {
-      "name": "De Cuyper",
-      "position": "DEF",
+      "name": "Kostoulas",
+      "position": "FWD",
       "captain": false,
       "vice": false,
-      "benched": true
+      "benched": false
      }
     ],
     "away": [
@@ -14214,7 +14214,7 @@
       "position": "MID",
       "captain": false,
       "vice": false,
-      "benched": false
+      "benched": true
      }
     ],
     "count": 3
@@ -14441,7 +14441,7 @@
       "position": "MID",
       "captain": false,
       "vice": false,
-      "benched": true
+      "benched": false
      }
     ],
     "count": 2
@@ -14575,7 +14575,7 @@
       "position": "DEF",
       "captain": false,
       "vice": false,
-      "benched": false
+      "benched": true
      }
     ],
     "count": 1
@@ -14619,7 +14619,7 @@
       "position": "MID",
       "captain": false,
       "vice": false,
-      "benched": false
+      "benched": true
      }
     ],
     "away": [],
@@ -14723,7 +14723,7 @@
       "position": "MID",
       "captain": false,
       "vice": false,
-      "benched": true
+      "benched": false
      }
     ],
     "away": [],
@@ -14765,18 +14765,18 @@
     "home": [],
     "away": [
      {
-      "name": "Kostoulas",
-      "position": "FWD",
+      "name": "De Cuyper",
+      "position": "DEF",
       "captain": false,
       "vice": false,
       "benched": false
      },
      {
-      "name": "De Cuyper",
-      "position": "DEF",
+      "name": "Kostoulas",
+      "position": "FWD",
       "captain": false,
       "vice": false,
-      "benched": true
+      "benched": false
      }
     ],
     "count": 2
@@ -15054,7 +15054,7 @@
       "position": "DEF",
       "captain": false,
       "vice": false,
-      "benched": false
+      "benched": true
      }
     ],
     "away": [],
@@ -15989,7 +15989,7 @@
       "position": "MID",
       "captain": false,
       "vice": false,
-      "benched": false
+      "benched": true
      }
     ],
     "count": 1
@@ -16056,7 +16056,7 @@
       "position": "DEF",
       "captain": false,
       "vice": false,
-      "benched": false
+      "benched": true
      }
     ],
     "count": 4
@@ -16108,7 +16108,7 @@
       "position": "MID",
       "captain": false,
       "vice": false,
-      "benched": true
+      "benched": false
      }
     ],
     "count": 2
@@ -16237,18 +16237,18 @@
    "fpl": {
     "home": [
      {
-      "name": "Kostoulas",
-      "position": "FWD",
+      "name": "De Cuyper",
+      "position": "DEF",
       "captain": false,
       "vice": false,
       "benched": false
      },
      {
-      "name": "De Cuyper",
-      "position": "DEF",
+      "name": "Kostoulas",
+      "position": "FWD",
       "captain": false,
       "vice": false,
-      "benched": true
+      "benched": false
      }
     ],
     "away": [
@@ -17209,23 +17209,23 @@
       "position": "DEF",
       "captain": false,
       "vice": false,
-      "benched": false
+      "benched": true
      }
     ],
     "away": [
+     {
+      "name": "De Cuyper",
+      "position": "DEF",
+      "captain": false,
+      "vice": false,
+      "benched": false
+     },
      {
       "name": "Kostoulas",
       "position": "FWD",
       "captain": false,
       "vice": false,
       "benched": false
-     },
-     {
-      "name": "De Cuyper",
-      "position": "DEF",
-      "captain": false,
-      "vice": false,
-      "benched": true
      }
     ],
     "count": 3
@@ -17347,7 +17347,7 @@
       "position": "MID",
       "captain": false,
       "vice": false,
-      "benched": false
+      "benched": true
      }
     ],
     "away": [],
@@ -17399,7 +17399,7 @@
       "position": "MID",
       "captain": false,
       "vice": false,
-      "benched": true
+      "benched": false
      }
     ],
     "away": [],
@@ -17670,18 +17670,18 @@
    "fpl": {
     "home": [
      {
-      "name": "Kostoulas",
-      "position": "FWD",
+      "name": "De Cuyper",
+      "position": "DEF",
       "captain": false,
       "vice": false,
       "benched": false
      },
      {
-      "name": "De Cuyper",
-      "position": "DEF",
+      "name": "Kostoulas",
+      "position": "FWD",
       "captain": false,
       "vice": false,
-      "benched": true
+      "benched": false
      }
     ],
     "away": [
@@ -17865,7 +17865,7 @@
       "position": "DEF",
       "captain": false,
       "vice": false,
-      "benched": false
+      "benched": true
      }
     ],
     "count": 1
@@ -17962,7 +17962,7 @@
       "position": "MID",
       "captain": false,
       "vice": false,
-      "benched": false
+      "benched": true
      }
     ],
     "count": 1
@@ -18018,7 +18018,7 @@
       "position": "MID",
       "captain": false,
       "vice": false,
-      "benched": true
+      "benched": false
      }
     ],
     "count": 2
@@ -18222,7 +18222,7 @@
       "position": "MID",
       "captain": false,
       "vice": false,
-      "benched": false
+      "benched": true
      }
     ],
     "count": 3
@@ -18299,7 +18299,7 @@
       "position": "DEF",
       "captain": false,
       "vice": false,
-      "benched": false
+      "benched": true
      }
     ],
     "away": [
@@ -18315,7 +18315,7 @@
       "position": "MID",
       "captain": false,
       "vice": false,
-      "benched": true
+      "benched": false
      }
     ],
     "count": 3
@@ -18457,18 +18457,18 @@
     "home": [],
     "away": [
      {
-      "name": "Kostoulas",
-      "position": "FWD",
+      "name": "De Cuyper",
+      "position": "DEF",
       "captain": false,
       "vice": false,
       "benched": false
      },
      {
-      "name": "De Cuyper",
-      "position": "DEF",
+      "name": "Kostoulas",
+      "position": "FWD",
       "captain": false,
       "vice": false,
-      "benched": true
+      "benched": false
      }
     ],
     "count": 2
@@ -18587,7 +18587,7 @@
       "position": "DEF",
       "captain": false,
       "vice": false,
-      "benched": false
+      "benched": true
      }
     ],
     "count": 3
@@ -18631,7 +18631,7 @@
       "position": "MID",
       "captain": false,
       "vice": false,
-      "benched": false
+      "benched": true
      }
     ],
     "away": [],
@@ -18716,7 +18716,7 @@
       "position": "MID",
       "captain": false,
       "vice": false,
-      "benched": true
+      "benched": false
      }
     ],
     "away": [],
@@ -18898,18 +18898,18 @@
    "fpl": {
     "home": [
      {
-      "name": "Kostoulas",
-      "position": "FWD",
+      "name": "De Cuyper",
+      "position": "DEF",
       "captain": false,
       "vice": false,
       "benched": false
      },
      {
-      "name": "De Cuyper",
-      "position": "DEF",
+      "name": "Kostoulas",
+      "position": "FWD",
       "captain": false,
       "vice": false,
-      "benched": true
+      "benched": false
      }
     ],
     "away": [
@@ -19140,18 +19140,18 @@
     "home": [],
     "away": [
      {
-      "name": "Kostoulas",
-      "position": "FWD",
+      "name": "De Cuyper",
+      "position": "DEF",
       "captain": false,
       "vice": false,
       "benched": false
      },
      {
-      "name": "De Cuyper",
-      "position": "DEF",
+      "name": "Kostoulas",
+      "position": "FWD",
       "captain": false,
       "vice": false,
-      "benched": true
+      "benched": false
      }
     ],
     "count": 2
@@ -19196,7 +19196,7 @@
       "position": "MID",
       "captain": false,
       "vice": false,
-      "benched": false
+      "benched": true
      }
     ],
     "count": 1
@@ -19329,7 +19329,7 @@
       "position": "MID",
       "captain": false,
       "vice": false,
-      "benched": true
+      "benched": false
      }
     ],
     "count": 4
@@ -19422,7 +19422,7 @@
       "position": "DEF",
       "captain": false,
       "vice": false,
-      "benched": false
+      "benched": true
      }
     ],
     "away": [],
@@ -19528,7 +19528,7 @@
       "position": "DEF",
       "captain": false,
       "vice": false,
-      "benched": false
+      "benched": true
      }
     ],
     "count": 1
@@ -19572,7 +19572,7 @@
       "position": "MID",
       "captain": false,
       "vice": false,
-      "benched": false
+      "benched": true
      }
     ],
     "away": [
@@ -19866,18 +19866,18 @@
    "fpl": {
     "home": [
      {
-      "name": "Kostoulas",
-      "position": "FWD",
+      "name": "De Cuyper",
+      "position": "DEF",
       "captain": false,
       "vice": false,
       "benched": false
      },
      {
-      "name": "De Cuyper",
-      "position": "DEF",
+      "name": "Kostoulas",
+      "position": "FWD",
       "captain": false,
       "vice": false,
-      "benched": true
+      "benched": false
      }
     ],
     "away": [],
@@ -19962,7 +19962,7 @@
       "position": "MID",
       "captain": false,
       "vice": false,
-      "benched": true
+      "benched": false
      }
     ],
     "away": [],
@@ -20004,18 +20004,18 @@
     "home": [],
     "away": [
      {
-      "name": "Kostoulas",
-      "position": "FWD",
+      "name": "De Cuyper",
+      "position": "DEF",
       "captain": false,
       "vice": false,
       "benched": false
      },
      {
-      "name": "De Cuyper",
-      "position": "DEF",
+      "name": "Kostoulas",
+      "position": "FWD",
       "captain": false,
       "vice": false,
-      "benched": true
+      "benched": false
      }
     ],
     "count": 2
@@ -20222,7 +20222,7 @@
       "position": "MID",
       "captain": false,
       "vice": false,
-      "benched": false
+      "benched": true
      }
     ],
     "away": [
@@ -20231,7 +20231,7 @@
       "position": "DEF",
       "captain": false,
       "vice": false,
-      "benched": false
+      "benched": true
      }
     ],
     "count": 2
@@ -20286,7 +20286,7 @@
       "position": "MID",
       "captain": false,
       "vice": false,
-      "benched": true
+      "benched": false
      }
     ],
     "away": [
@@ -20484,7 +20484,7 @@
       "position": "MID",
       "captain": false,
       "vice": false,
-      "benched": false
+      "benched": true
      }
     ],
     "count": 1
@@ -20524,18 +20524,18 @@
    "fpl": {
     "home": [
      {
-      "name": "Kostoulas",
-      "position": "FWD",
+      "name": "De Cuyper",
+      "position": "DEF",
       "captain": false,
       "vice": false,
       "benched": false
      },
      {
-      "name": "De Cuyper",
-      "position": "DEF",
+      "name": "Kostoulas",
+      "position": "FWD",
       "captain": false,
       "vice": false,
-      "benched": true
+      "benched": false
      }
     ],
     "away": [],
@@ -20777,7 +20777,7 @@
       "position": "MID",
       "captain": false,
       "vice": false,
-      "benched": true
+      "benched": false
      }
     ],
     "count": 3
@@ -20918,7 +20918,7 @@
       "position": "DEF",
       "captain": false,
       "vice": false,
-      "benched": false
+      "benched": true
      }
     ],
     "away": [],
@@ -21089,7 +21089,7 @@
       "position": "MID",
       "captain": false,
       "vice": false,
-      "benched": true
+      "benched": false
      }
     ],
     "away": [],
@@ -21135,7 +21135,7 @@
       "position": "DEF",
       "captain": false,
       "vice": false,
-      "benched": false
+      "benched": true
      }
     ],
     "count": 1
@@ -21238,7 +21238,7 @@
       "position": "MID",
       "captain": false,
       "vice": false,
-      "benched": false
+      "benched": true
      }
     ],
     "away": [
@@ -21388,18 +21388,18 @@
     ],
     "away": [
      {
-      "name": "Kostoulas",
-      "position": "FWD",
+      "name": "De Cuyper",
+      "position": "DEF",
       "captain": false,
       "vice": false,
       "benched": false
      },
      {
-      "name": "De Cuyper",
-      "position": "DEF",
+      "name": "Kostoulas",
+      "position": "FWD",
       "captain": false,
       "vice": false,
-      "benched": true
+      "benched": false
      }
     ],
     "count": 4
@@ -21439,18 +21439,18 @@
    "fpl": {
     "home": [
      {
-      "name": "Kostoulas",
-      "position": "FWD",
+      "name": "De Cuyper",
+      "position": "DEF",
       "captain": false,
       "vice": false,
       "benched": false
      },
      {
-      "name": "De Cuyper",
-      "position": "DEF",
+      "name": "Kostoulas",
+      "position": "FWD",
       "captain": false,
       "vice": false,
-      "benched": true
+      "benched": false
      }
     ],
     "away": [
@@ -21466,7 +21466,7 @@
       "position": "MID",
       "captain": false,
       "vice": false,
-      "benched": true
+      "benched": false
      }
     ],
     "count": 4
@@ -21817,7 +21817,7 @@
       "position": "DEF",
       "captain": false,
       "vice": false,
-      "benched": false
+      "benched": true
      }
     ],
     "away": [
@@ -21871,7 +21871,7 @@
       "position": "MID",
       "captain": false,
       "vice": false,
-      "benched": false
+      "benched": true
      }
     ],
     "count": 1
@@ -21926,7 +21926,7 @@
       "position": "MID",
       "captain": false,
       "vice": false,
-      "benched": true
+      "benched": false
      }
     ],
     "away": [
@@ -21986,7 +21986,7 @@
       "position": "MID",
       "captain": false,
       "vice": false,
-      "benched": false
+      "benched": true
      }
     ],
     "away": [
@@ -22140,18 +22140,18 @@
     "home": [],
     "away": [
      {
-      "name": "Kostoulas",
-      "position": "FWD",
+      "name": "De Cuyper",
+      "position": "DEF",
       "captain": false,
       "vice": false,
       "benched": false
      },
      {
-      "name": "De Cuyper",
-      "position": "DEF",
+      "name": "Kostoulas",
+      "position": "FWD",
       "captain": false,
       "vice": false,
-      "benched": true
+      "benched": false
      }
     ],
     "count": 2
@@ -22228,7 +22228,7 @@
       "position": "DEF",
       "captain": false,
       "vice": false,
-      "benched": false
+      "benched": true
      }
     ],
     "away": [],
@@ -22400,7 +22400,7 @@
       "position": "DEF",
       "captain": false,
       "vice": false,
-      "benched": false
+      "benched": true
      }
     ],
     "count": 1
@@ -22440,18 +22440,18 @@
    "fpl": {
     "home": [
      {
-      "name": "Kostoulas",
-      "position": "FWD",
+      "name": "De Cuyper",
+      "position": "DEF",
       "captain": false,
       "vice": false,
       "benched": false
      },
      {
-      "name": "De Cuyper",
-      "position": "DEF",
+      "name": "Kostoulas",
+      "position": "FWD",
       "captain": false,
       "vice": false,
-      "benched": true
+      "benched": false
      }
     ],
     "away": [],
@@ -22542,7 +22542,7 @@
       "position": "MID",
       "captain": false,
       "vice": false,
-      "benched": false
+      "benched": true
      }
     ],
     "count": 2
@@ -22683,7 +22683,7 @@
       "position": "MID",
       "captain": false,
       "vice": false,
-      "benched": true
+      "benched": false
      }
     ],
     "count": 2
@@ -23116,7 +23116,7 @@
       "position": "DEF",
       "captain": false,
       "vice": false,
-      "benched": false
+      "benched": true
      }
     ],
     "away": [],
@@ -23157,18 +23157,18 @@
    "fpl": {
     "home": [
      {
-      "name": "Kostoulas",
-      "position": "FWD",
+      "name": "De Cuyper",
+      "position": "DEF",
       "captain": false,
       "vice": false,
       "benched": false
      },
      {
-      "name": "De Cuyper",
-      "position": "DEF",
+      "name": "Kostoulas",
+      "position": "FWD",
       "captain": false,
       "vice": false,
-      "benched": true
+      "benched": false
      }
     ],
     "away": [],
@@ -23233,7 +23233,7 @@
       "position": "MID",
       "captain": false,
       "vice": false,
-      "benched": true
+      "benched": false
      }
     ],
     "count": 3
@@ -23326,7 +23326,7 @@
       "position": "MID",
       "captain": false,
       "vice": false,
-      "benched": false
+      "benched": true
      }
     ],
     "away": [],
@@ -23454,18 +23454,18 @@
     "home": [],
     "away": [
      {
-      "name": "Kostoulas",
-      "position": "FWD",
+      "name": "De Cuyper",
+      "position": "DEF",
       "captain": false,
       "vice": false,
       "benched": false
      },
      {
-      "name": "De Cuyper",
-      "position": "DEF",
+      "name": "Kostoulas",
+      "position": "FWD",
       "captain": false,
       "vice": false,
-      "benched": true
+      "benched": false
      }
     ],
     "count": 2
@@ -23525,7 +23525,7 @@
       "position": "DEF",
       "captain": false,
       "vice": false,
-      "benched": false
+      "benched": true
      }
     ],
     "count": 3
@@ -23576,7 +23576,7 @@
       "position": "MID",
       "captain": false,
       "vice": false,
-      "benched": true
+      "benched": false
      }
     ],
     "away": [],
@@ -23667,7 +23667,7 @@
       "position": "MID",
       "captain": false,
       "vice": false,
-      "benched": false
+      "benched": true
      }
     ],
     "count": 1
@@ -23900,7 +23900,7 @@
       "position": "DEF",
       "captain": false,
       "vice": false,
-      "benched": false
+      "benched": true
      }
     ],
     "away": [],
@@ -24023,18 +24023,18 @@
    "fpl": {
     "home": [
      {
-      "name": "Kostoulas",
-      "position": "FWD",
+      "name": "De Cuyper",
+      "position": "DEF",
       "captain": false,
       "vice": false,
       "benched": false
      },
      {
-      "name": "De Cuyper",
-      "position": "DEF",
+      "name": "Kostoulas",
+      "position": "FWD",
       "captain": false,
       "vice": false,
-      "benched": true
+      "benched": false
      }
     ],
     "away": [],
@@ -24112,7 +24112,7 @@
       "position": "MID",
       "captain": false,
       "vice": false,
-      "benched": false
+      "benched": true
      }
     ],
     "away": [
@@ -24128,7 +24128,7 @@
       "position": "MID",
       "captain": false,
       "vice": false,
-      "benched": true
+      "benched": false
      }
     ],
     "count": 3
@@ -24383,18 +24383,18 @@
     ],
     "away": [
      {
-      "name": "Kostoulas",
-      "position": "FWD",
+      "name": "De Cuyper",
+      "position": "DEF",
       "captain": false,
       "vice": false,
       "benched": false
      },
      {
-      "name": "De Cuyper",
-      "position": "DEF",
+      "name": "Kostoulas",
+      "position": "FWD",
       "captain": false,
       "vice": false,
-      "benched": true
+      "benched": false
      }
     ],
     "count": 5
@@ -24439,7 +24439,7 @@
       "position": "MID",
       "captain": false,
       "vice": false,
-      "benched": false
+      "benched": true
      }
     ],
     "count": 1
@@ -24585,7 +24585,7 @@
       "position": "DEF",
       "captain": false,
       "vice": false,
-      "benched": false
+      "benched": true
      }
     ],
     "count": 2
@@ -24729,7 +24729,7 @@
       "position": "MID",
       "captain": false,
       "vice": false,
-      "benched": true
+      "benched": false
      }
     ],
     "away": [],
