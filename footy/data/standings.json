@@ -1,5 +1,5 @@
 {
- "fetchedAt": "2026-11-08T11:57:01.215Z",
+ "fetchedAt": "2026-11-09T13:55:58.831Z",
  "tables": {
   "pl": {
    "name": "Premier League",
@@ -45,6 +45,45 @@
     },
     {
      "rank": 2,
+     "team": "Brighton",
+     "played": 10,
+     "won": 7,
+     "drawn": 1,
+     "lost": 2,
+     "gf": 26,
+     "ga": 7,
+     "gd": 19,
+     "points": 22,
+     "form": [
+      {
+       "r": "W",
+       "opponent": "Arsenal",
+       "score": "3-0"
+      },
+      {
+       "r": "W",
+       "opponent": "Coventry",
+       "score": "5-0"
+      },
+      {
+       "r": "D",
+       "opponent": "Leeds",
+       "score": "1-1"
+      },
+      {
+       "r": "L",
+       "opponent": "Chelsea",
+       "score": "3-4"
+      },
+      {
+       "r": "W",
+       "opponent": "Aston Villa",
+       "score": "4-0"
+      }
+     ]
+    },
+    {
+     "rank": 3,
      "team": "Man City",
      "played": 10,
      "won": 7,
@@ -83,54 +122,49 @@
      ]
     },
     {
-     "rank": 3,
-     "team": "Brighton",
-     "played": 9,
-     "won": 6,
-     "drawn": 1,
+     "rank": 4,
+     "team": "Liverpool",
+     "played": 10,
+     "won": 5,
+     "drawn": 3,
      "lost": 2,
-     "gf": 24,
-     "ga": 7,
-     "gd": 17,
-     "points": 19,
+     "gf": 14,
+     "ga": 10,
+     "gd": 4,
+     "points": 18,
      "form": [
       {
        "r": "W",
-       "opponent": "Arsenal",
-       "score": "3-0"
+       "opponent": "Bournemouth",
+       "score": "1-0"
       },
       {
        "r": "W",
-       "opponent": "Coventry",
-       "score": "5-0"
+       "opponent": "Ipswich",
+       "score": "2-0"
       },
       {
        "r": "D",
-       "opponent": "Leeds",
-       "score": "1-1"
+       "opponent": "Nott'm Forest",
+       "score": "2-2"
       },
       {
-       "r": "L",
-       "opponent": "Chelsea",
-       "score": "3-4"
-      },
-      {
-       "r": "W",
-       "opponent": "Aston Villa",
-       "score": "4-0"
+       "r": "D",
+       "opponent": "Newcastle",
+       "score": "2-2"
       }
      ]
     },
     {
-     "rank": 4,
+     "rank": 5,
      "team": "Chelsea",
-     "played": 9,
+     "played": 10,
      "won": 5,
      "drawn": 1,
-     "lost": 3,
+     "lost": 4,
      "gf": 19,
-     "ga": 15,
-     "gd": 4,
+     "ga": 16,
+     "gd": 3,
      "points": 16,
      "form": [
       {
@@ -161,7 +195,7 @@
      ]
     },
     {
-     "rank": 5,
+     "rank": 6,
      "team": "Everton",
      "played": 10,
      "won": 4,
@@ -195,49 +229,54 @@
      ]
     },
     {
-     "rank": 6,
-     "team": "Liverpool",
-     "played": 9,
+     "rank": 7,
+     "team": "Bournemouth",
+     "played": 10,
      "won": 4,
      "drawn": 3,
-     "lost": 2,
-     "gf": 11,
-     "ga": 9,
+     "lost": 3,
+     "gf": 16,
+     "ga": 14,
      "gd": 2,
      "points": 15,
      "form": [
       {
-       "r": "W",
-       "opponent": "Bournemouth",
-       "score": "1-0"
-      },
-      {
-       "r": "W",
-       "opponent": "Ipswich",
-       "score": "2-0"
+       "r": "L",
+       "opponent": "Liverpool",
+       "score": "0-1"
       },
       {
        "r": "D",
-       "opponent": "Nott'm Forest",
+       "opponent": "Brentford",
        "score": "2-2"
       },
       {
        "r": "D",
        "opponent": "Newcastle",
        "score": "2-2"
+      },
+      {
+       "r": "D",
+       "opponent": "Everton",
+       "score": "1-1"
+      },
+      {
+       "r": "L",
+       "opponent": "Man City",
+       "score": "1-2"
       }
      ]
     },
     {
-     "rank": 7,
+     "rank": 8,
      "team": "Brentford",
-     "played": 9,
+     "played": 10,
      "won": 3,
      "drawn": 5,
-     "lost": 1,
+     "lost": 2,
      "gf": 16,
-     "ga": 9,
-     "gd": 7,
+     "ga": 11,
+     "gd": 5,
      "points": 14,
      "form": [
       {
@@ -268,7 +307,7 @@
      ]
     },
     {
-     "rank": 8,
+     "rank": 9,
      "team": "Leeds",
      "played": 10,
      "won": 3,
@@ -302,46 +341,41 @@
      ]
     },
     {
-     "rank": 9,
-     "team": "Bournemouth",
-     "played": 9,
+     "rank": 10,
+     "team": "Aston Villa",
+     "played": 10,
      "won": 3,
-     "drawn": 3,
+     "drawn": 4,
      "lost": 3,
      "gf": 14,
-     "ga": 13,
-     "gd": 1,
-     "points": 12,
+     "ga": 17,
+     "gd": -3,
+     "points": 13,
      "form": [
       {
+       "r": "W",
+       "opponent": "Tottenham",
+       "score": "3-2"
+      },
+      {
        "r": "L",
-       "opponent": "Liverpool",
+       "opponent": "Nott'm Forest",
+       "score": "1-2"
+      },
+      {
+       "r": "L",
+       "opponent": "Arsenal",
        "score": "0-1"
       },
       {
-       "r": "D",
-       "opponent": "Brentford",
-       "score": "2-2"
-      },
-      {
-       "r": "D",
-       "opponent": "Newcastle",
-       "score": "2-2"
-      },
-      {
-       "r": "D",
-       "opponent": "Everton",
-       "score": "1-1"
-      },
-      {
        "r": "L",
-       "opponent": "Man City",
-       "score": "1-2"
+       "opponent": "Brighton",
+       "score": "0-4"
       }
      ]
     },
     {
-     "rank": 10,
+     "rank": 11,
      "team": "Tottenham",
      "played": 10,
      "won": 3,
@@ -370,7 +404,7 @@
      ]
     },
     {
-     "rank": 11,
+     "rank": 12,
      "team": "Newcastle",
      "played": 10,
      "won": 3,
@@ -405,40 +439,6 @@
        "r": "D",
        "opponent": "Liverpool",
        "score": "2-2"
-      }
-     ]
-    },
-    {
-     "rank": 12,
-     "team": "Aston Villa",
-     "played": 9,
-     "won": 3,
-     "drawn": 3,
-     "lost": 3,
-     "gf": 10,
-     "ga": 13,
-     "gd": -3,
-     "points": 12,
-     "form": [
-      {
-       "r": "W",
-       "opponent": "Tottenham",
-       "score": "3-2"
-      },
-      {
-       "r": "L",
-       "opponent": "Nott'm Forest",
-       "score": "1-2"
-      },
-      {
-       "r": "L",
-       "opponent": "Arsenal",
-       "score": "0-1"
-      },
-      {
-       "r": "L",
-       "opponent": "Brighton",
-       "score": "0-4"
       }
      ]
     },
@@ -479,13 +479,13 @@
     {
      "rank": 14,
      "team": "Ipswich",
-     "played": 9,
+     "played": 10,
      "won": 3,
      "drawn": 2,
-     "lost": 4,
-     "gf": 14,
-     "ga": 18,
-     "gd": -4,
+     "lost": 5,
+     "gf": 15,
+     "ga": 20,
+     "gd": -5,
      "points": 11,
      "form": [
       {
@@ -625,14 +625,14 @@
     {
      "rank": 18,
      "team": "Man Utd",
-     "played": 9,
+     "played": 10,
      "won": 1,
-     "drawn": 4,
+     "drawn": 5,
      "lost": 4,
-     "gf": 10,
-     "ga": 15,
+     "gf": 14,
+     "ga": 19,
      "gd": -5,
-     "points": 7,
+     "points": 8,
      "form": [
       {
        "r": "D",
@@ -663,49 +663,15 @@
     },
     {
      "rank": 19,
-     "team": "Crystal Palace",
-     "played": 9,
-     "won": 2,
-     "drawn": 1,
-     "lost": 6,
-     "gf": 9,
-     "ga": 21,
-     "gd": -12,
-     "points": 7,
-     "form": [
-      {
-       "r": "L",
-       "opponent": "Ipswich",
-       "score": "2-3"
-      },
-      {
-       "r": "W",
-       "opponent": "Fulham",
-       "score": "3-2"
-      },
-      {
-       "r": "L",
-       "opponent": "Man City",
-       "score": "1-4"
-      },
-      {
-       "r": "L",
-       "opponent": "Everton",
-       "score": "0-2"
-      }
-     ]
-    },
-    {
-     "rank": 20,
      "team": "Sunderland",
-     "played": 9,
-     "won": 1,
+     "played": 10,
+     "won": 2,
      "drawn": 2,
      "lost": 6,
-     "gf": 7,
+     "gf": 8,
      "ga": 17,
-     "gd": -10,
-     "points": 5,
+     "gd": -9,
+     "points": 8,
      "form": [
       {
        "r": "L",
@@ -731,6 +697,40 @@
        "r": "L",
        "opponent": "Ipswich",
        "score": "1-2"
+      }
+     ]
+    },
+    {
+     "rank": 20,
+     "team": "Crystal Palace",
+     "played": 10,
+     "won": 2,
+     "drawn": 1,
+     "lost": 7,
+     "gf": 10,
+     "ga": 24,
+     "gd": -14,
+     "points": 7,
+     "form": [
+      {
+       "r": "L",
+       "opponent": "Ipswich",
+       "score": "2-3"
+      },
+      {
+       "r": "W",
+       "opponent": "Fulham",
+       "score": "3-2"
+      },
+      {
+       "r": "L",
+       "opponent": "Man City",
+       "score": "1-4"
+      },
+      {
+       "r": "L",
+       "opponent": "Everton",
+       "score": "0-2"
       }
      ]
     }
