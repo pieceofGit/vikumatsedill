@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-10T13:29:26.847Z",
+ "generatedAt": "2026-11-11T12:44:20.876Z",
  "gameweek": 11,
  "gameweekName": "Gameweek 11",
  "deadline": "2026-11-21T11:00:00Z",
@@ -21,10 +21,10 @@
    "xgc": 10.63,
    "minutes": 722,
    "starts": 9,
-   "owned": 30.7,
+   "owned": 30.9,
    "status": "a",
    "news": null,
-   "priceMomentum": 253863,
+   "priceMomentum": 274417,
    "fixtures": [
     {
      "gw": 11,
@@ -76,10 +76,10 @@
    "xgc": 12.5,
    "minutes": 822,
    "starts": 10,
-   "owned": 47.6,
+   "owned": 47.7,
    "status": "a",
    "news": null,
-   "priceMomentum": 122398,
+   "priceMomentum": 131921,
    "fixtures": [
     {
      "gw": 11,
@@ -134,7 +134,7 @@
    "owned": 47.5,
    "status": "a",
    "news": null,
-   "priceMomentum": 30062,
+   "priceMomentum": 32368,
    "fixtures": [
     {
      "gw": 11,
@@ -189,7 +189,7 @@
    "owned": 78.9,
    "status": "a",
    "news": null,
-   "priceMomentum": -23077,
+   "priceMomentum": -24735,
    "fixtures": [
     {
      "gw": 11,
@@ -241,10 +241,10 @@
    "xgc": 8.35,
    "minutes": 461,
    "starts": 6,
-   "owned": 8.5,
+   "owned": 8.6,
    "status": "a",
    "news": null,
-   "priceMomentum": 49717,
+   "priceMomentum": 52868,
    "fixtures": [
     {
      "gw": 11,
@@ -296,10 +296,10 @@
    "xgc": 10.68,
    "minutes": 840,
    "starts": 10,
-   "owned": 31.2,
+   "owned": 31.3,
    "status": "a",
    "news": null,
-   "priceMomentum": 84394,
+   "priceMomentum": 91881,
    "fixtures": [
     {
      "gw": 11,
@@ -354,7 +354,7 @@
    "owned": 48.7,
    "status": "a",
    "news": null,
-   "priceMomentum": 31336,
+   "priceMomentum": 32586,
    "fixtures": [
     {
      "gw": 11,
@@ -409,7 +409,7 @@
    "owned": 9.9,
    "status": "a",
    "news": null,
-   "priceMomentum": -43191,
+   "priceMomentum": -46137,
    "fixtures": [
     {
      "gw": 11,
@@ -464,7 +464,7 @@
    "owned": 16.5,
    "status": "a",
    "news": null,
-   "priceMomentum": 13813,
+   "priceMomentum": 15097,
    "fixtures": [
     {
      "gw": 11,
@@ -519,7 +519,7 @@
    "owned": 53.9,
    "status": "a",
    "news": null,
-   "priceMomentum": 30798,
+   "priceMomentum": 32534,
    "fixtures": [
     {
      "gw": 11,
@@ -574,7 +574,7 @@
    "owned": 18.3,
    "status": "a",
    "news": null,
-   "priceMomentum": -54373,
+   "priceMomentum": -58478,
    "fixtures": [
     {
      "gw": 11,
@@ -626,10 +626,10 @@
    "xgc": 12.81,
    "minutes": 851,
    "starts": 10,
-   "owned": 12,
+   "owned": 11.9,
    "status": "a",
    "news": null,
-   "priceMomentum": -9870,
+   "priceMomentum": -10607,
    "fixtures": [
     {
      "gw": 11,
@@ -684,7 +684,7 @@
    "owned": 28.4,
    "status": "a",
    "news": null,
-   "priceMomentum": -8590,
+   "priceMomentum": -10317,
    "fixtures": [
     {
      "gw": 11,
@@ -729,17 +729,17 @@
    "club": "MCI",
    "position": "DEF",
    "price": 5.6,
-   "form": 1.4,
+   "form": 0.8,
    "ppg": 4.4,
    "total": 44,
    "xgi90": 0.23,
    "xgc": 10.51,
    "minutes": 700,
    "starts": 8,
-   "owned": 23,
+   "owned": 22.8,
    "status": "d",
    "news": "Unspecified injury - 75% chance of playing",
-   "priceMomentum": -251747,
+   "priceMomentum": -267649,
    "fixtures": [
     {
      "gw": 11,
@@ -773,7 +773,7 @@
     }
    ],
    "ease": 2.4,
-   "rating": 0.69,
+   "rating": 0.62,
    "captain": false,
    "vice": false,
    "benched": false
@@ -794,7 +794,7 @@
    "owned": 15.3,
    "status": "a",
    "news": null,
-   "priceMomentum": -11982,
+   "priceMomentum": -12968,
    "fixtures": [
     {
      "gw": 11,
@@ -924,7 +924,7 @@
      "id": 109,
      "name": "Verbruggen",
      "club": "BHA",
-     "price": 4.6,
+     "price": 4.7,
      "rating": 4.61,
      "form": 6.2,
      "xgi90": 0.02,
@@ -1021,8 +1021,8 @@
     "club": "MCI",
     "position": "DEF",
     "price": 5.6,
-    "rating": 0.69,
-    "form": 1.4,
+    "rating": 0.62,
+    "form": 0.8,
     "ease": 2.4,
     "status": "d",
     "news": "Unspecified injury - 75% chance of playing"
@@ -1037,7 +1037,7 @@
      "form": 10.2,
      "xgi90": 0.08,
      "ease": 2.6,
-     "owned": 24.4,
+     "owned": 24.5,
      "fixtures": [
       {
        "gw": 11,
@@ -1068,7 +1068,7 @@
      "form": 7.5,
      "xgi90": 0.15,
      "ease": 3.2,
-     "owned": 9,
+     "owned": 9.2,
      "fixtures": [
       {
        "gw": 11,
@@ -1099,7 +1099,7 @@
      "form": 7.5,
      "xgi90": 0.24,
      "ease": 3.4,
-     "owned": 14.4,
+     "owned": 14.5,
      "fixtures": [
       {
        "gw": 11,
@@ -1199,33 +1199,33 @@
      ]
     },
     {
-     "id": 127,
-     "name": "Gomez",
-     "club": "BHA",
-     "price": 5,
-     "rating": 4.1,
-     "form": 5.5,
-     "xgi90": 0.26,
-     "ease": 3.2,
-     "owned": 4.2,
+     "id": 366,
+     "name": "Wirtz",
+     "club": "LIV",
+     "price": 7.2,
+     "rating": 4.12,
+     "form": 6.5,
+     "xgi90": 0.35,
+     "ease": 3,
+     "owned": 5.5,
      "fixtures": [
       {
        "gw": 11,
-       "opponent": "HUL",
-       "home": false,
-       "difficulty": 2
-      },
-      {
-       "gw": 12,
-       "opponent": "NEW",
+       "opponent": "MUN",
        "home": true,
        "difficulty": 3
       },
       {
-       "gw": 13,
-       "opponent": "BOU",
+       "gw": 12,
+       "opponent": "EVE",
        "home": false,
-       "difficulty": 4
+       "difficulty": 3
+      },
+      {
+       "gw": 13,
+       "opponent": "SUN",
+       "home": true,
+       "difficulty": 2
       }
      ]
     }
