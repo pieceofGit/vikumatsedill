@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-11T12:44:20.876Z",
+ "generatedAt": "2026-11-12T13:46:55.052Z",
  "gameweek": 11,
  "gameweekName": "Gameweek 11",
  "deadline": "2026-11-21T11:00:00Z",
@@ -21,10 +21,10 @@
    "xgc": 10.63,
    "minutes": 722,
    "starts": 9,
-   "owned": 30.9,
+   "owned": 31,
    "status": "a",
    "news": null,
-   "priceMomentum": 274417,
+   "priceMomentum": 289268,
    "fixtures": [
     {
      "gw": 11,
@@ -76,10 +76,10 @@
    "xgc": 12.5,
    "minutes": 822,
    "starts": 10,
-   "owned": 47.7,
+   "owned": 47.8,
    "status": "a",
    "news": null,
-   "priceMomentum": 131921,
+   "priceMomentum": 139099,
    "fixtures": [
     {
      "gw": 11,
@@ -134,7 +134,7 @@
    "owned": 47.5,
    "status": "a",
    "news": null,
-   "priceMomentum": 32368,
+   "priceMomentum": 34003,
    "fixtures": [
     {
      "gw": 11,
@@ -189,7 +189,7 @@
    "owned": 78.9,
    "status": "a",
    "news": null,
-   "priceMomentum": -24735,
+   "priceMomentum": -25701,
    "fixtures": [
     {
      "gw": 11,
@@ -229,61 +229,6 @@
    "benched": false
   },
   {
-   "id": 53,
-   "name": "Manzambi",
-   "club": "AVL",
-   "position": "MID",
-   "price": 6.2,
-   "form": 5.2,
-   "ppg": 5.7,
-   "total": 40,
-   "xgi90": 0.5,
-   "xgc": 8.35,
-   "minutes": 461,
-   "starts": 6,
-   "owned": 8.6,
-   "status": "a",
-   "news": null,
-   "priceMomentum": 52868,
-   "fixtures": [
-    {
-     "gw": 11,
-     "opponent": "SUN",
-     "home": true,
-     "difficulty": 2
-    },
-    {
-     "gw": 12,
-     "opponent": "IPS",
-     "home": false,
-     "difficulty": 2
-    },
-    {
-     "gw": 13,
-     "opponent": "EVE",
-     "home": true,
-     "difficulty": 3
-    },
-    {
-     "gw": 14,
-     "opponent": "CRY",
-     "home": true,
-     "difficulty": 2
-    },
-    {
-     "gw": 15,
-     "opponent": "COV",
-     "home": false,
-     "difficulty": 2
-    }
-   ],
-   "ease": 3.8,
-   "rating": 4.43,
-   "captain": false,
-   "vice": false,
-   "benched": false
-  },
-  {
    "id": 68,
    "name": "Tavernier",
    "club": "BOU",
@@ -299,7 +244,7 @@
    "owned": 31.3,
    "status": "a",
    "news": null,
-   "priceMomentum": 91881,
+   "priceMomentum": 97515,
    "fixtures": [
     {
      "gw": 11,
@@ -354,7 +299,7 @@
    "owned": 48.7,
    "status": "a",
    "news": null,
-   "priceMomentum": 32586,
+   "priceMomentum": 33530,
    "fixtures": [
     {
      "gw": 11,
@@ -406,10 +351,10 @@
    "xgc": 11.37,
    "minutes": 724,
    "starts": 9,
-   "owned": 9.9,
+   "owned": 9.8,
    "status": "a",
    "news": null,
-   "priceMomentum": -46137,
+   "priceMomentum": -48131,
    "fixtures": [
     {
      "gw": 11,
@@ -464,7 +409,7 @@
    "owned": 16.5,
    "status": "a",
    "news": null,
-   "priceMomentum": 15097,
+   "priceMomentum": 15805,
    "fixtures": [
     {
      "gw": 11,
@@ -516,10 +461,10 @@
    "xgc": 14.84,
    "minutes": 880,
    "starts": 10,
-   "owned": 53.9,
+   "owned": 54,
    "status": "a",
    "news": null,
-   "priceMomentum": 32534,
+   "priceMomentum": 34158,
    "fixtures": [
     {
      "gw": 11,
@@ -564,17 +509,17 @@
    "club": "NEW",
    "position": "DEF",
    "price": 5.2,
-   "form": 3,
+   "form": 3.8,
    "ppg": 4.6,
    "total": 46,
    "xgi90": 0.15,
    "xgc": 16.79,
    "minutes": 899,
    "starts": 10,
-   "owned": 18.3,
+   "owned": 18.2,
    "status": "a",
    "news": null,
-   "priceMomentum": -58478,
+   "priceMomentum": -61177,
    "fixtures": [
     {
      "gw": 11,
@@ -608,7 +553,7 @@
     }
    ],
    "ease": 3,
-   "rating": 2.85,
+   "rating": 3.15,
    "captain": false,
    "vice": false,
    "benched": true
@@ -629,7 +574,7 @@
    "owned": 11.9,
    "status": "a",
    "news": null,
-   "priceMomentum": -10607,
+   "priceMomentum": -11168,
    "fixtures": [
     {
      "gw": 11,
@@ -684,7 +629,7 @@
    "owned": 28.4,
    "status": "a",
    "news": null,
-   "priceMomentum": -10317,
+   "priceMomentum": -11360,
    "fixtures": [
     {
      "gw": 11,
@@ -724,6 +669,61 @@
    "benched": false
   },
   {
+   "id": 53,
+   "name": "Manzambi",
+   "club": "AVL",
+   "position": "MID",
+   "price": 6.2,
+   "form": 5.2,
+   "ppg": 5.7,
+   "total": 40,
+   "xgi90": 0.5,
+   "xgc": 8.35,
+   "minutes": 461,
+   "starts": 6,
+   "owned": 8.6,
+   "status": "d",
+   "news": "Calf injury - 75% chance of playing",
+   "priceMomentum": 55134,
+   "fixtures": [
+    {
+     "gw": 11,
+     "opponent": "SUN",
+     "home": true,
+     "difficulty": 2
+    },
+    {
+     "gw": 12,
+     "opponent": "IPS",
+     "home": false,
+     "difficulty": 2
+    },
+    {
+     "gw": 13,
+     "opponent": "EVE",
+     "home": true,
+     "difficulty": 3
+    },
+    {
+     "gw": 14,
+     "opponent": "CRY",
+     "home": true,
+     "difficulty": 2
+    },
+    {
+     "gw": 15,
+     "opponent": "COV",
+     "home": false,
+     "difficulty": 2
+    }
+   ],
+   "ease": 3.8,
+   "rating": 1.61,
+   "captain": false,
+   "vice": false,
+   "benched": false
+  },
+  {
    "id": 391,
    "name": "Gvardiol",
    "club": "MCI",
@@ -736,10 +736,10 @@
    "xgc": 10.51,
    "minutes": 700,
    "starts": 8,
-   "owned": 22.8,
+   "owned": 22.7,
    "status": "d",
    "news": "Unspecified injury - 75% chance of playing",
-   "priceMomentum": -267649,
+   "priceMomentum": -278931,
    "fixtures": [
     {
      "gw": 11,
@@ -791,10 +791,10 @@
    "xgc": 0,
    "minutes": 0,
    "starts": 0,
-   "owned": 15.3,
+   "owned": 15.2,
    "status": "a",
    "news": null,
-   "priceMomentum": -12968,
+   "priceMomentum": -13582,
    "fixtures": [
     {
      "gw": 11,
@@ -878,20 +878,6 @@
    "form": 5.5
   },
   {
-   "name": "Manzambi",
-   "rating": 7.27,
-   "fixtures": [
-    {
-     "gw": 11,
-     "opponent": "SUN",
-     "home": true,
-     "difficulty": 2
-    }
-   ],
-   "xgi90": 0.5,
-   "form": 5.2
-  },
-  {
    "name": "Raya",
    "rating": 6.4,
    "fixtures": [
@@ -904,6 +890,20 @@
    ],
    "xgi90": 0,
    "form": 6.8
+  },
+  {
+   "name": "Kostoulas",
+   "rating": 6.13,
+   "fixtures": [
+    {
+     "gw": 11,
+     "opponent": "HUL",
+     "home": false,
+     "difficulty": 2
+    }
+   ],
+   "xgi90": 0.35,
+   "form": 4.5
   }
  ],
  "suggestions": [
@@ -929,7 +929,7 @@
      "form": 6.2,
      "xgi90": 0.02,
      "ease": 3.2,
-     "owned": 23.9,
+     "owned": 24,
      "fixtures": [
       {
        "gw": 11,
@@ -1068,7 +1068,7 @@
      "form": 7.5,
      "xgi90": 0.15,
      "ease": 3.2,
-     "owned": 9.2,
+     "owned": 9.3,
      "fixtures": [
       {
        "gw": 11,
@@ -1099,7 +1099,7 @@
      "form": 7.5,
      "xgi90": 0.24,
      "ease": 3.4,
-     "owned": 14.5,
+     "owned": 14.6,
      "fixtures": [
       {
        "gw": 11,
@@ -1125,15 +1125,15 @@
   },
   {
    "out": {
-    "name": "Palmer",
-    "club": "CHE",
+    "name": "Manzambi",
+    "club": "AVL",
     "position": "MID",
-    "price": 9.8,
-    "rating": 2.72,
-    "form": 2.8,
-    "ease": 2.8,
-    "status": "a",
-    "news": null
+    "price": 6.2,
+    "rating": 1.61,
+    "form": 5.2,
+    "ease": 3.8,
+    "status": "d",
+    "news": "Calf injury - 75% chance of playing"
    },
    "options": [
     {
@@ -1176,7 +1176,7 @@
      "form": 4.2,
      "xgi90": 0.54,
      "ease": 3.2,
-     "owned": 48,
+     "owned": 48.1,
      "fixtures": [
       {
        "gw": 11,
@@ -1207,7 +1207,7 @@
      "form": 6.5,
      "xgi90": 0.35,
      "ease": 3,
-     "owned": 5.5,
+     "owned": 5.6,
      "fixtures": [
       {
        "gw": 11,
