@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-14T12:13:16.442Z",
+ "generatedAt": "2026-11-15T12:46:03.191Z",
  "gameweek": 11,
  "gameweekName": "Gameweek 11",
  "deadline": "2026-11-21T11:00:00Z",
@@ -21,10 +21,10 @@
    "xgc": 10.63,
    "minutes": 722,
    "starts": 9,
-   "owned": 31.3,
+   "owned": 31.4,
    "status": "a",
    "news": null,
-   "priceMomentum": 316689,
+   "priceMomentum": 324928,
    "fixtures": [
     {
      "gw": 11,
@@ -79,7 +79,7 @@
    "owned": 47.9,
    "status": "a",
    "news": null,
-   "priceMomentum": 151270,
+   "priceMomentum": 154974,
    "fixtures": [
     {
      "gw": 11,
@@ -134,7 +134,7 @@
    "owned": 47.6,
    "status": "a",
    "news": null,
-   "priceMomentum": 36666,
+   "priceMomentum": 37444,
    "fixtures": [
     {
      "gw": 11,
@@ -189,7 +189,7 @@
    "owned": 78.8,
    "status": "a",
    "news": null,
-   "priceMomentum": -26929,
+   "priceMomentum": -27165,
    "fixtures": [
     {
      "gw": 11,
@@ -241,10 +241,10 @@
    "xgc": 10.68,
    "minutes": 840,
    "starts": 10,
-   "owned": 31.4,
+   "owned": 31.5,
    "status": "a",
    "news": null,
-   "priceMomentum": 108055,
+   "priceMomentum": 111247,
    "fixtures": [
     {
      "gw": 11,
@@ -299,7 +299,7 @@
    "owned": 48.7,
    "status": "a",
    "news": null,
-   "priceMomentum": 35182,
+   "priceMomentum": 35457,
    "fixtures": [
     {
      "gw": 11,
@@ -354,7 +354,7 @@
    "owned": 9.8,
    "status": "a",
    "news": null,
-   "priceMomentum": -51429,
+   "priceMomentum": -52415,
    "fixtures": [
     {
      "gw": 11,
@@ -409,7 +409,7 @@
    "owned": 16.5,
    "status": "a",
    "news": null,
-   "priceMomentum": 17142,
+   "priceMomentum": 17418,
    "fixtures": [
     {
      "gw": 11,
@@ -464,7 +464,7 @@
    "owned": 54,
    "status": "a",
    "news": null,
-   "priceMomentum": 38515,
+   "priceMomentum": 39913,
    "fixtures": [
     {
      "gw": 11,
@@ -519,7 +519,7 @@
    "owned": 18.2,
    "status": "a",
    "news": null,
-   "priceMomentum": -65363,
+   "priceMomentum": -66710,
    "fixtures": [
     {
      "gw": 11,
@@ -574,7 +574,7 @@
    "owned": 11.9,
    "status": "a",
    "news": null,
-   "priceMomentum": -12135,
+   "priceMomentum": -12441,
    "fixtures": [
     {
      "gw": 11,
@@ -629,7 +629,7 @@
    "owned": 28.3,
    "status": "a",
    "news": null,
-   "priceMomentum": -12679,
+   "priceMomentum": -13117,
    "fixtures": [
     {
      "gw": 11,
@@ -684,7 +684,7 @@
    "owned": 8.5,
    "status": "d",
    "news": "Calf injury - 75% chance of playing",
-   "priceMomentum": 50997,
+   "priceMomentum": 49609,
    "fixtures": [
     {
      "gw": 11,
@@ -736,10 +736,10 @@
    "xgc": 10.51,
    "minutes": 700,
    "starts": 8,
-   "owned": 22.6,
+   "owned": 22.5,
    "status": "d",
    "news": "Unspecified injury - 75% chance of playing",
-   "priceMomentum": -298354,
+   "priceMomentum": -304131,
    "fixtures": [
     {
      "gw": 11,
@@ -794,7 +794,7 @@
    "owned": 15.2,
    "status": "a",
    "news": null,
-   "priceMomentum": -14617,
+   "priceMomentum": -15011,
    "fixtures": [
     {
      "gw": 11,
@@ -1032,7 +1032,7 @@
      "id": 31,
      "name": "Konsa",
      "club": "ARS",
-     "price": 4.8,
+     "price": 4.9,
      "rating": 5.79,
      "form": 10.2,
      "xgi90": 0.08,
@@ -1068,7 +1068,7 @@
      "form": 7.5,
      "xgi90": 0.15,
      "ease": 3.2,
-     "owned": 9.4,
+     "owned": 9.5,
      "fixtures": [
       {
        "gw": 11,
@@ -1176,7 +1176,7 @@
      "form": 4.2,
      "xgi90": 0.54,
      "ease": 3.2,
-     "owned": 48.1,
+     "owned": 48.2,
      "fixtures": [
       {
        "gw": 11,
@@ -1207,7 +1207,7 @@
      "form": 6.5,
      "xgi90": 0.35,
      "ease": 3,
-     "owned": 5.6,
+     "owned": 5.7,
      "fixtures": [
       {
        "gw": 11,
