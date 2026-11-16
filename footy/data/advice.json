@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-15T12:46:03.191Z",
+ "generatedAt": "2026-11-16T13:41:03.611Z",
  "gameweek": 11,
  "gameweekName": "Gameweek 11",
  "deadline": "2026-11-21T11:00:00Z",
@@ -21,10 +21,10 @@
    "xgc": 10.63,
    "minutes": 722,
    "starts": 9,
-   "owned": 31.4,
+   "owned": 31.5,
    "status": "a",
    "news": null,
-   "priceMomentum": 324928,
+   "priceMomentum": 335740,
    "fixtures": [
     {
      "gw": 11,
@@ -76,10 +76,10 @@
    "xgc": 12.5,
    "minutes": 822,
    "starts": 10,
-   "owned": 47.9,
+   "owned": 48,
    "status": "a",
    "news": null,
-   "priceMomentum": 154974,
+   "priceMomentum": 160293,
    "fixtures": [
     {
      "gw": 11,
@@ -134,7 +134,7 @@
    "owned": 47.6,
    "status": "a",
    "news": null,
-   "priceMomentum": 37444,
+   "priceMomentum": 38245,
    "fixtures": [
     {
      "gw": 11,
@@ -189,7 +189,7 @@
    "owned": 78.8,
    "status": "a",
    "news": null,
-   "priceMomentum": -27165,
+   "priceMomentum": -27392,
    "fixtures": [
     {
      "gw": 11,
@@ -244,7 +244,7 @@
    "owned": 31.5,
    "status": "a",
    "news": null,
-   "priceMomentum": 111247,
+   "priceMomentum": 115076,
    "fixtures": [
     {
      "gw": 11,
@@ -299,7 +299,7 @@
    "owned": 48.7,
    "status": "a",
    "news": null,
-   "priceMomentum": 35457,
+   "priceMomentum": 35629,
    "fixtures": [
     {
      "gw": 11,
@@ -354,7 +354,7 @@
    "owned": 9.8,
    "status": "a",
    "news": null,
-   "priceMomentum": -52415,
+   "priceMomentum": -53737,
    "fixtures": [
     {
      "gw": 11,
@@ -409,7 +409,7 @@
    "owned": 16.5,
    "status": "a",
    "news": null,
-   "priceMomentum": 17418,
+   "priceMomentum": 17590,
    "fixtures": [
     {
      "gw": 11,
@@ -454,7 +454,7 @@
    "club": "CHE",
    "position": "MID",
    "price": 8.2,
-   "form": 3.5,
+   "form": 4,
    "ppg": 5.2,
    "total": 52,
    "xgi90": 0.46,
@@ -464,7 +464,7 @@
    "owned": 54,
    "status": "a",
    "news": null,
-   "priceMomentum": 39913,
+   "priceMomentum": 41595,
    "fixtures": [
     {
      "gw": 11,
@@ -498,7 +498,7 @@
     }
    ],
    "ease": 2.8,
-   "rating": 3.16,
+   "rating": 3.34,
    "captain": false,
    "vice": false,
    "benched": false
@@ -519,7 +519,7 @@
    "owned": 18.2,
    "status": "a",
    "news": null,
-   "priceMomentum": -66710,
+   "priceMomentum": -68456,
    "fixtures": [
     {
      "gw": 11,
@@ -559,6 +559,61 @@
    "benched": true
   },
   {
+   "id": 154,
+   "name": "Palmer",
+   "club": "CHE",
+   "position": "MID",
+   "price": 9.8,
+   "form": 3,
+   "ppg": 4.7,
+   "total": 47,
+   "xgi90": 0.38,
+   "xgc": 14.69,
+   "minutes": 878,
+   "starts": 10,
+   "owned": 28.3,
+   "status": "a",
+   "news": null,
+   "priceMomentum": -13492,
+   "fixtures": [
+    {
+     "gw": 11,
+     "opponent": "LEE",
+     "home": true,
+     "difficulty": 3
+    },
+    {
+     "gw": 12,
+     "opponent": "NFO",
+     "home": false,
+     "difficulty": 2
+    },
+    {
+     "gw": 13,
+     "opponent": "CRY",
+     "home": true,
+     "difficulty": 2
+    },
+    {
+     "gw": 14,
+     "opponent": "LIV",
+     "home": true,
+     "difficulty": 4
+    },
+    {
+     "gw": 15,
+     "opponent": "MCI",
+     "home": false,
+     "difficulty": 5
+    }
+   ],
+   "ease": 2.8,
+   "rating": 2.8,
+   "captain": false,
+   "vice": false,
+   "benched": false
+  },
+  {
    "id": 279,
    "name": "Ajayi",
    "club": "HUL",
@@ -574,7 +629,7 @@
    "owned": 11.9,
    "status": "a",
    "news": null,
-   "priceMomentum": -12441,
+   "priceMomentum": -12970,
    "fixtures": [
     {
      "gw": 11,
@@ -614,61 +669,6 @@
    "benched": true
   },
   {
-   "id": 154,
-   "name": "Palmer",
-   "club": "CHE",
-   "position": "MID",
-   "price": 9.8,
-   "form": 2.8,
-   "ppg": 4.7,
-   "total": 47,
-   "xgi90": 0.38,
-   "xgc": 14.69,
-   "minutes": 878,
-   "starts": 10,
-   "owned": 28.3,
-   "status": "a",
-   "news": null,
-   "priceMomentum": -13117,
-   "fixtures": [
-    {
-     "gw": 11,
-     "opponent": "LEE",
-     "home": true,
-     "difficulty": 3
-    },
-    {
-     "gw": 12,
-     "opponent": "NFO",
-     "home": false,
-     "difficulty": 2
-    },
-    {
-     "gw": 13,
-     "opponent": "CRY",
-     "home": true,
-     "difficulty": 2
-    },
-    {
-     "gw": 14,
-     "opponent": "LIV",
-     "home": true,
-     "difficulty": 4
-    },
-    {
-     "gw": 15,
-     "opponent": "MCI",
-     "home": false,
-     "difficulty": 5
-    }
-   ],
-   "ease": 2.8,
-   "rating": 2.72,
-   "captain": false,
-   "vice": false,
-   "benched": false
-  },
-  {
    "id": 53,
    "name": "Manzambi",
    "club": "AVL",
@@ -684,7 +684,7 @@
    "owned": 8.5,
    "status": "d",
    "news": "Calf injury - 75% chance of playing",
-   "priceMomentum": 49609,
+   "priceMomentum": 48108,
    "fixtures": [
     {
      "gw": 11,
@@ -736,10 +736,10 @@
    "xgc": 10.51,
    "minutes": 700,
    "starts": 8,
-   "owned": 22.5,
+   "owned": 22.4,
    "status": "d",
    "news": "Unspecified injury - 75% chance of playing",
-   "priceMomentum": -304131,
+   "priceMomentum": -312234,
    "fixtures": [
     {
      "gw": 11,
@@ -794,7 +794,7 @@
    "owned": 15.2,
    "status": "a",
    "news": null,
-   "priceMomentum": -15011,
+   "priceMomentum": -15627,
    "fixtures": [
     {
      "gw": 11,
@@ -1099,7 +1099,7 @@
      "form": 7.5,
      "xgi90": 0.24,
      "ease": 3.4,
-     "owned": 14.8,
+     "owned": 14.9,
      "fixtures": [
       {
        "gw": 11,
