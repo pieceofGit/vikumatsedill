@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-17T14:27:28.197Z",
+ "generatedAt": "2026-11-18T14:01:10.844Z",
  "gameweek": 11,
  "gameweekName": "Gameweek 11",
  "deadline": "2026-11-21T11:00:00Z",
@@ -21,10 +21,10 @@
    "xgc": 10.63,
    "minutes": 722,
    "starts": 9,
-   "owned": 31.7,
+   "owned": 31.9,
    "status": "a",
    "news": null,
-   "priceMomentum": 353133,
+   "priceMomentum": 377625,
    "fixtures": [
     {
      "gw": 11,
@@ -76,10 +76,10 @@
    "xgc": 12.5,
    "minutes": 822,
    "starts": 10,
-   "owned": 48,
+   "owned": 48.1,
    "status": "a",
    "news": null,
-   "priceMomentum": 167814,
+   "priceMomentum": 178586,
    "fixtures": [
     {
      "gw": 11,
@@ -124,7 +124,7 @@
    "club": "ARS",
    "position": "GKP",
    "price": 6.2,
-   "form": 6.8,
+   "form": 6,
    "ppg": 6,
    "total": 60,
    "xgi90": 0,
@@ -134,7 +134,7 @@
    "owned": 47.6,
    "status": "a",
    "news": null,
-   "priceMomentum": 39285,
+   "priceMomentum": 40703,
    "fixtures": [
     {
      "gw": 11,
@@ -168,7 +168,7 @@
     }
    ],
    "ease": 2.6,
-   "rating": 4.49,
+   "rating": 4.21,
    "captain": false,
    "vice": false,
    "benched": false
@@ -189,7 +189,7 @@
    "owned": 31.6,
    "status": "a",
    "news": null,
-   "priceMomentum": 119859,
+   "priceMomentum": 125890,
    "fixtures": [
     {
      "gw": 11,
@@ -229,6 +229,61 @@
    "benched": true
   },
   {
+   "id": 15,
+   "name": "Ødegaard",
+   "club": "ARS",
+   "position": "MID",
+   "price": 6.7,
+   "form": 5.7,
+   "ppg": 5,
+   "total": 50,
+   "xgi90": 0.53,
+   "xgc": 6.64,
+   "minutes": 823,
+   "starts": 10,
+   "owned": 16.5,
+   "status": "a",
+   "news": null,
+   "priceMomentum": 18408,
+   "fixtures": [
+    {
+     "gw": 11,
+     "opponent": "NEW",
+     "home": false,
+     "difficulty": 3
+    },
+    {
+     "gw": 12,
+     "opponent": "MCI",
+     "home": true,
+     "difficulty": 4
+    },
+    {
+     "gw": 13,
+     "opponent": "BRE",
+     "home": false,
+     "difficulty": 4
+    },
+    {
+     "gw": 14,
+     "opponent": "TOT",
+     "home": false,
+     "difficulty": 3
+    },
+    {
+     "gw": 15,
+     "opponent": "BOU",
+     "home": true,
+     "difficulty": 3
+    }
+   ],
+   "ease": 2.6,
+   "rating": 3.76,
+   "captain": false,
+   "vice": false,
+   "benched": false
+  },
+  {
    "id": 411,
    "name": "Haaland",
    "club": "MCI",
@@ -244,7 +299,7 @@
    "owned": 78.8,
    "status": "a",
    "news": null,
-   "priceMomentum": -27621,
+   "priceMomentum": -27590,
    "fixtures": [
     {
      "gw": 11,
@@ -289,7 +344,7 @@
    "club": "ARS",
    "position": "DEF",
    "price": 5.9,
-   "form": 4.8,
+   "form": 4.3,
    "ppg": 5.7,
    "total": 57,
    "xgi90": 0.26,
@@ -299,62 +354,7 @@
    "owned": 48.7,
    "status": "a",
    "news": null,
-   "priceMomentum": 35664,
-   "fixtures": [
-    {
-     "gw": 11,
-     "opponent": "NEW",
-     "home": false,
-     "difficulty": 3
-    },
-    {
-     "gw": 12,
-     "opponent": "MCI",
-     "home": true,
-     "difficulty": 4
-    },
-    {
-     "gw": 13,
-     "opponent": "BRE",
-     "home": false,
-     "difficulty": 4
-    },
-    {
-     "gw": 14,
-     "opponent": "TOT",
-     "home": false,
-     "difficulty": 3
-    },
-    {
-     "gw": 15,
-     "opponent": "BOU",
-     "home": true,
-     "difficulty": 3
-    }
-   ],
-   "ease": 2.6,
-   "rating": 3.69,
-   "captain": false,
-   "vice": false,
-   "benched": false
-  },
-  {
-   "id": 15,
-   "name": "Ødegaard",
-   "club": "ARS",
-   "position": "MID",
-   "price": 6.7,
-   "form": 5,
-   "ppg": 5,
-   "total": 50,
-   "xgi90": 0.53,
-   "xgc": 6.64,
-   "minutes": 823,
-   "starts": 10,
-   "owned": 16.5,
-   "status": "a",
-   "news": null,
-   "priceMomentum": 17650,
+   "priceMomentum": 35510,
    "fixtures": [
     {
      "gw": 11,
@@ -409,7 +409,7 @@
    "owned": 54,
    "status": "a",
    "news": null,
-   "priceMomentum": 43881,
+   "priceMomentum": 47613,
    "fixtures": [
     {
      "gw": 11,
@@ -464,7 +464,7 @@
    "owned": 18.1,
    "status": "a",
    "news": null,
-   "priceMomentum": -71878,
+   "priceMomentum": -77929,
    "fixtures": [
     {
      "gw": 11,
@@ -519,7 +519,7 @@
    "owned": 11.9,
    "status": "a",
    "news": null,
-   "priceMomentum": -13577,
+   "priceMomentum": -14448,
    "fixtures": [
     {
      "gw": 11,
@@ -574,7 +574,7 @@
    "owned": 28.3,
    "status": "a",
    "news": null,
-   "priceMomentum": -14338,
+   "priceMomentum": -15618,
    "fixtures": [
     {
      "gw": 11,
@@ -626,10 +626,10 @@
    "xgc": 11.37,
    "minutes": 724,
    "starts": 9,
-   "owned": 9.8,
+   "owned": 9.7,
    "status": "a",
    "news": null,
-   "priceMomentum": -55781,
+   "priceMomentum": -58913,
    "fixtures": [
     {
      "gw": 11,
@@ -684,7 +684,7 @@
    "owned": 8.5,
    "status": "d",
    "news": "Calf injury - 75% chance of playing",
-   "priceMomentum": 45432,
+   "priceMomentum": 42100,
    "fixtures": [
     {
      "gw": 11,
@@ -736,10 +736,10 @@
    "xgc": 10.51,
    "minutes": 700,
    "starts": 8,
-   "owned": 22.3,
+   "owned": 22.1,
    "status": "d",
    "news": "Unspecified injury - 75% chance of playing",
-   "priceMomentum": -324948,
+   "priceMomentum": -342823,
    "fixtures": [
     {
      "gw": 11,
@@ -794,7 +794,7 @@
    "owned": 15.2,
    "status": "a",
    "news": null,
-   "priceMomentum": -16515,
+   "priceMomentum": -17741,
    "fixtures": [
     {
      "gw": 11,
@@ -879,7 +879,7 @@
   },
   {
    "name": "Raya",
-   "rating": 6.4,
+   "rating": 6,
    "fixtures": [
     {
      "gw": 11,
@@ -889,11 +889,11 @@
     }
    ],
    "xgi90": 0,
-   "form": 6.8
+   "form": 6
   },
   {
-   "name": "Calafiori",
-   "rating": 5.25,
+   "name": "Ødegaard",
+   "rating": 5.35,
    "fixtures": [
     {
      "gw": 11,
@@ -902,8 +902,8 @@
      "difficulty": 3
     }
    ],
-   "xgi90": 0.26,
-   "form": 4.8
+   "xgi90": 0.53,
+   "form": 5.7
   }
  ],
  "suggestions": [
@@ -1033,11 +1033,11 @@
      "name": "Konsa",
      "club": "ARS",
      "price": 4.9,
-     "rating": 5.79,
-     "form": 10.2,
+     "rating": 5.97,
+     "form": 10.7,
      "xgi90": 0.08,
      "ease": 2.6,
-     "owned": 24.8,
+     "owned": 24.9,
      "fixtures": [
       {
        "gw": 11,
@@ -1068,7 +1068,7 @@
      "form": 7.5,
      "xgi90": 0.24,
      "ease": 3.4,
-     "owned": 15,
+     "owned": 15.1,
      "fixtures": [
       {
        "gw": 11,
@@ -1099,7 +1099,7 @@
      "form": 6.3,
      "xgi90": 0.15,
      "ease": 3.2,
-     "owned": 9.6,
+     "owned": 9.7,
      "fixtures": [
       {
        "gw": 11,
@@ -1176,7 +1176,7 @@
      "form": 7,
      "xgi90": 0.35,
      "ease": 3,
-     "owned": 5.8,
+     "owned": 5.9,
      "fixtures": [
       {
        "gw": 11,
@@ -1207,7 +1207,7 @@
      "form": 4,
      "xgi90": 0.54,
      "ease": 3.2,
-     "owned": 48.2,
+     "owned": 48.3,
      "fixtures": [
       {
        "gw": 11,
