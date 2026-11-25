@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-24T15:54:35.297Z",
+ "generatedAt": "2026-11-25T15:38:08.116Z",
  "gameweek": 12,
  "gameweekName": "Gameweek 12",
  "deadline": "2026-11-27T18:30:00Z",
@@ -21,10 +21,10 @@
    "xgc": 10.77,
    "minutes": 794,
    "starts": 10,
-   "owned": 36.5,
+   "owned": 36.6,
    "status": "a",
    "news": null,
-   "priceMomentum": 78136,
+   "priceMomentum": 89073,
    "fixtures": [
     {
      "gw": 12,
@@ -76,10 +76,10 @@
    "xgc": 14.33,
    "minutes": 912,
    "starts": 11,
-   "owned": 50.1,
+   "owned": 50.2,
    "status": "a",
    "news": null,
-   "priceMomentum": 43302,
+   "priceMomentum": 53665,
    "fixtures": [
     {
      "gw": 12,
@@ -134,7 +134,7 @@
    "owned": 16.7,
    "status": "a",
    "news": null,
-   "priceMomentum": 12283,
+   "priceMomentum": 13275,
    "fixtures": [
     {
      "gw": 12,
@@ -186,10 +186,10 @@
    "xgc": 12.67,
    "minutes": 930,
    "starts": 11,
-   "owned": 33.5,
+   "owned": 33.6,
    "status": "a",
    "news": null,
-   "priceMomentum": 105952,
+   "priceMomentum": 118887,
    "fixtures": [
     {
      "gw": 12,
@@ -244,7 +244,7 @@
    "owned": 54.6,
    "status": "a",
    "news": null,
-   "priceMomentum": 16519,
+   "priceMomentum": 17992,
    "fixtures": [
     {
      "gw": 12,
@@ -296,10 +296,10 @@
    "xgc": 8.64,
    "minutes": 857,
    "starts": 10,
-   "owned": 48.3,
+   "owned": 48.2,
    "status": "a",
    "news": null,
-   "priceMomentum": -15212,
+   "priceMomentum": -17709,
    "fixtures": [
     {
      "gw": 12,
@@ -354,7 +354,7 @@
    "owned": 11.8,
    "status": "a",
    "news": null,
-   "priceMomentum": -608,
+   "priceMomentum": -129,
    "fixtures": [
     {
      "gw": 12,
@@ -409,7 +409,7 @@
    "owned": 8.7,
    "status": "a",
    "news": null,
-   "priceMomentum": -393,
+   "priceMomentum": -628,
    "fixtures": [
     {
      "gw": 12,
@@ -461,10 +461,10 @@
    "xgc": 17.46,
    "minutes": 968,
    "starts": 11,
-   "owned": 27.4,
+   "owned": 27.2,
    "status": "a",
    "news": null,
-   "priceMomentum": -80489,
+   "priceMomentum": -93127,
    "fixtures": [
     {
      "gw": 12,
@@ -516,10 +516,10 @@
    "xgc": 13.39,
    "minutes": 979,
    "starts": 11,
-   "owned": 77.7,
+   "owned": 77.5,
    "status": "a",
    "news": null,
-   "priceMomentum": -98302,
+   "priceMomentum": -116405,
    "fixtures": [
     {
      "gw": 12,
@@ -571,10 +571,10 @@
    "xgc": 12.67,
    "minutes": 747,
    "starts": 9,
-   "owned": 8.8,
+   "owned": 8.7,
    "status": "a",
    "news": null,
-   "priceMomentum": -56274,
+   "priceMomentum": -64819,
    "fixtures": [
     {
      "gw": 12,
@@ -626,10 +626,10 @@
    "xgc": 10.51,
    "minutes": 712,
    "starts": 8,
-   "owned": 19.5,
+   "owned": 19.4,
    "status": "a",
    "news": null,
-   "priceMomentum": -98910,
+   "priceMomentum": -110891,
    "fixtures": [
     {
      "gw": 12,
@@ -681,10 +681,10 @@
    "xgc": 9.04,
    "minutes": 969,
    "starts": 11,
-   "owned": 45.8,
+   "owned": 45.4,
    "status": "d",
    "news": "Shoulder injury - 50% chance of playing",
-   "priceMomentum": -194039,
+   "priceMomentum": -237317,
    "fixtures": [
     {
      "gw": 12,
@@ -736,10 +736,10 @@
    "xgc": 18.26,
    "minutes": 989,
    "starts": 11,
-   "owned": 16.2,
+   "owned": 16.1,
    "status": "d",
    "news": "Unspecified injury - 75% chance of playing",
-   "priceMomentum": -71849,
+   "priceMomentum": -85294,
    "fixtures": [
     {
      "gw": 12,
@@ -791,10 +791,10 @@
    "xgc": 0,
    "minutes": 0,
    "starts": 0,
-   "owned": 14.7,
+   "owned": 14.6,
    "status": "a",
    "news": null,
-   "priceMomentum": -33035,
+   "priceMomentum": -40788,
    "fixtures": [
     {
      "gw": 12,
@@ -929,7 +929,7 @@
      "form": 6.3,
      "xgi90": 0.02,
      "ease": 3.2,
-     "owned": 24.7,
+     "owned": 24.8,
      "fixtures": [
       {
        "gw": 12,
@@ -956,8 +956,8 @@
      "name": "Roefs",
      "club": "SUN",
      "price": 4.8,
-     "rating": 4.31,
-     "form": 7.5,
+     "rating": 4.13,
+     "form": 7,
      "xgi90": 0,
      "ease": 3,
      "owned": 2.1,
@@ -983,33 +983,33 @@
      ]
     },
     {
-     "id": 385,
-     "name": "Trafford",
-     "club": "LEE",
-     "price": 5.1,
-     "rating": 4.16,
-     "form": 6,
+     "id": 572,
+     "name": "Tzolakis",
+     "club": "HUL",
+     "price": 4.7,
+     "rating": 3.9,
+     "form": 5.7,
      "xgi90": 0,
-     "ease": 3,
-     "owned": 7.8,
+     "ease": 2.6,
+     "owned": 13.7,
      "fixtures": [
       {
        "gw": 12,
-       "opponent": "COV",
-       "home": true,
+       "opponent": "CRY",
+       "home": false,
        "difficulty": 2
       },
       {
        "gw": 13,
-       "opponent": "MCI",
-       "home": false,
-       "difficulty": 5
+       "opponent": "NFO",
+       "home": true,
+       "difficulty": 3
       },
       {
        "gw": 14,
-       "opponent": "IPS",
-       "home": true,
-       "difficulty": 2
+       "opponent": "BOU",
+       "home": false,
+       "difficulty": 4
       }
      ]
     }
@@ -1037,7 +1037,7 @@
      "form": 8.3,
      "xgi90": 0.23,
      "ease": 3,
-     "owned": 19.3,
+     "owned": 19.6,
      "fixtures": [
       {
        "gw": 12,
@@ -1068,7 +1068,7 @@
      "form": 6,
      "xgi90": 0.14,
      "ease": 3.2,
-     "owned": 11.6,
+     "owned": 11.7,
      "fixtures": [
       {
        "gw": 12,
@@ -1094,12 +1094,12 @@
      "id": 60,
      "name": "Hill",
      "club": "BOU",
-     "price": 5.6,
+     "price": 5.7,
      "rating": 4.76,
      "form": 8,
      "xgi90": 0.13,
      "ease": 2.8,
-     "owned": 4.3,
+     "owned": 4.5,
      "fixtures": [
       {
        "gw": 12,
@@ -1137,33 +1137,33 @@
    },
    "options": [
     {
-     "id": 572,
-     "name": "Tzolakis",
-     "club": "HUL",
-     "price": 4.7,
-     "rating": 3.9,
-     "form": 5.7,
+     "id": 385,
+     "name": "Trafford",
+     "club": "LEE",
+     "price": 5.1,
+     "rating": 3.68,
+     "form": 4.7,
      "xgi90": 0,
-     "ease": 2.6,
-     "owned": 13.6,
+     "ease": 3,
+     "owned": 8,
      "fixtures": [
       {
        "gw": 12,
-       "opponent": "CRY",
-       "home": false,
+       "opponent": "COV",
+       "home": true,
        "difficulty": 2
       },
       {
        "gw": 13,
-       "opponent": "NFO",
-       "home": true,
-       "difficulty": 3
+       "opponent": "MCI",
+       "home": false,
+       "difficulty": 5
       },
       {
        "gw": 14,
-       "opponent": "BOU",
-       "home": false,
-       "difficulty": 4
+       "opponent": "IPS",
+       "home": true,
+       "difficulty": 2
       }
      ]
     },
@@ -1176,7 +1176,7 @@
      "form": 5,
      "xgi90": 0,
      "ease": 3,
-     "owned": 16.2,
+     "owned": 16.3,
      "fixtures": [
       {
        "gw": 12,
