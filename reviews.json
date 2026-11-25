@@ -618,5 +618,25 @@
   "text": "mjög fínt",
   "name": "",
   "key": "718d30875316fa3be32f5c7465a57c4fa622baaa0986d0b5bb4ad02f02f30fbb"
+ },
+ {
+  "id": "0lYWh2Tiu14u",
+  "time": 1795605203,
+  "place": "Makona",
+  "dish": "Miðausturlensk shawarma vefja",
+  "rating": 4,
+  "text": "",
+  "name": "Fjölnir",
+  "key": "7204e0e0c40c3782085daf46e01230dfe339e2d49417b41a3267a30b9e06c96b"
+ },
+ {
+  "id": "xugFrBRi6app",
+  "time": 1795605209,
+  "place": "Makona",
+  "dish": "Marókkóskur apríkósu kjúklingur",
+  "rating": 4,
+  "text": "",
+  "name": "Fjölnir",
+  "key": "481b97b907baaff30e0719010ec22bbe8c8d2762736ce0aadcaeb50929318b0b"
  }
 ]
