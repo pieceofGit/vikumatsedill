@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-25T15:38:08.116Z",
+ "generatedAt": "2026-11-26T15:19:43.853Z",
  "gameweek": 12,
  "gameweekName": "Gameweek 12",
  "deadline": "2026-11-27T18:30:00Z",
@@ -21,10 +21,10 @@
    "xgc": 10.77,
    "minutes": 794,
    "starts": 10,
-   "owned": 36.6,
+   "owned": 36.7,
    "status": "a",
    "news": null,
-   "priceMomentum": 89073,
+   "priceMomentum": 98961,
    "fixtures": [
     {
      "gw": 12,
@@ -76,10 +76,10 @@
    "xgc": 14.33,
    "minutes": 912,
    "starts": 11,
-   "owned": 50.2,
+   "owned": 50.4,
    "status": "a",
    "news": null,
-   "priceMomentum": 53665,
+   "priceMomentum": 65402,
    "fixtures": [
     {
      "gw": 12,
@@ -134,7 +134,7 @@
    "owned": 16.7,
    "status": "a",
    "news": null,
-   "priceMomentum": 13275,
+   "priceMomentum": 12688,
    "fixtures": [
     {
      "gw": 12,
@@ -186,10 +186,10 @@
    "xgc": 12.67,
    "minutes": 930,
    "starts": 11,
-   "owned": 33.6,
+   "owned": 33.7,
    "status": "a",
    "news": null,
-   "priceMomentum": 118887,
+   "priceMomentum": 131134,
    "fixtures": [
     {
      "gw": 12,
@@ -244,7 +244,7 @@
    "owned": 54.6,
    "status": "a",
    "news": null,
-   "priceMomentum": 17992,
+   "priceMomentum": 16718,
    "fixtures": [
     {
      "gw": 12,
@@ -296,10 +296,10 @@
    "xgc": 8.64,
    "minutes": 857,
    "starts": 10,
-   "owned": 48.2,
+   "owned": 48.1,
    "status": "a",
    "news": null,
-   "priceMomentum": -17709,
+   "priceMomentum": -23739,
    "fixtures": [
     {
      "gw": 12,
@@ -354,7 +354,7 @@
    "owned": 11.8,
    "status": "a",
    "news": null,
-   "priceMomentum": -129,
+   "priceMomentum": 569,
    "fixtures": [
     {
      "gw": 12,
@@ -409,7 +409,7 @@
    "owned": 8.7,
    "status": "a",
    "news": null,
-   "priceMomentum": -628,
+   "priceMomentum": -1781,
    "fixtures": [
     {
      "gw": 12,
@@ -461,10 +461,10 @@
    "xgc": 17.46,
    "minutes": 968,
    "starts": 11,
-   "owned": 27.2,
+   "owned": 26.9,
    "status": "a",
    "news": null,
-   "priceMomentum": -93127,
+   "priceMomentum": -121798,
    "fixtures": [
     {
      "gw": 12,
@@ -516,10 +516,10 @@
    "xgc": 13.39,
    "minutes": 979,
    "starts": 11,
-   "owned": 77.5,
+   "owned": 77,
    "status": "a",
    "news": null,
-   "priceMomentum": -116405,
+   "priceMomentum": -156272,
    "fixtures": [
     {
      "gw": 12,
@@ -571,10 +571,10 @@
    "xgc": 12.67,
    "minutes": 747,
    "starts": 9,
-   "owned": 8.7,
+   "owned": 8.6,
    "status": "a",
    "news": null,
-   "priceMomentum": -64819,
+   "priceMomentum": -76898,
    "fixtures": [
     {
      "gw": 12,
@@ -626,10 +626,10 @@
    "xgc": 10.51,
    "minutes": 712,
    "starts": 8,
-   "owned": 19.4,
+   "owned": 19.2,
    "status": "a",
    "news": null,
-   "priceMomentum": -110891,
+   "priceMomentum": -128365,
    "fixtures": [
     {
      "gw": 12,
@@ -673,7 +673,7 @@
    "name": "Raya",
    "club": "ARS",
    "position": "GKP",
-   "price": 6.3,
+   "price": 6.2,
    "form": 4,
    "ppg": 5.5,
    "total": 61,
@@ -681,10 +681,10 @@
    "xgc": 9.04,
    "minutes": 969,
    "starts": 11,
-   "owned": 45.4,
+   "owned": 44.8,
    "status": "d",
    "news": "Shoulder injury - 50% chance of playing",
-   "priceMomentum": -237317,
+   "priceMomentum": -290753,
    "fixtures": [
     {
      "gw": 12,
@@ -736,10 +736,10 @@
    "xgc": 18.26,
    "minutes": 989,
    "starts": 11,
-   "owned": 16.1,
+   "owned": 15.9,
    "status": "d",
    "news": "Unspecified injury - 75% chance of playing",
-   "priceMomentum": -85294,
+   "priceMomentum": -102824,
    "fixtures": [
     {
      "gw": 12,
@@ -791,10 +791,10 @@
    "xgc": 0,
    "minutes": 0,
    "starts": 0,
-   "owned": 14.6,
+   "owned": 14.5,
    "status": "a",
    "news": null,
-   "priceMomentum": -40788,
+   "priceMomentum": -52151,
    "fixtures": [
     {
      "gw": 12,
@@ -929,7 +929,7 @@
      "form": 6.3,
      "xgi90": 0.02,
      "ease": 3.2,
-     "owned": 24.8,
+     "owned": 24.9,
      "fixtures": [
       {
        "gw": 12,
@@ -991,7 +991,7 @@
      "form": 5.7,
      "xgi90": 0,
      "ease": 2.6,
-     "owned": 13.7,
+     "owned": 13.8,
      "fixtures": [
       {
        "gw": 12,
@@ -1037,7 +1037,7 @@
      "form": 8.3,
      "xgi90": 0.23,
      "ease": 3,
-     "owned": 19.6,
+     "owned": 19.9,
      "fixtures": [
       {
        "gw": 12,
@@ -1068,7 +1068,7 @@
      "form": 6,
      "xgi90": 0.14,
      "ease": 3.2,
-     "owned": 11.7,
+     "owned": 11.8,
      "fixtures": [
       {
        "gw": 12,
@@ -1099,7 +1099,7 @@
      "form": 8,
      "xgi90": 0.13,
      "ease": 2.8,
-     "owned": 4.5,
+     "owned": 4.7,
      "fixtures": [
       {
        "gw": 12,
@@ -1128,7 +1128,7 @@
     "name": "Raya",
     "club": "ARS",
     "position": "GKP",
-    "price": 6.3,
+    "price": 6.2,
     "rating": 1.17,
     "form": 4,
     "ease": 2.6,
@@ -1145,7 +1145,7 @@
      "form": 4.7,
      "xgi90": 0,
      "ease": 3,
-     "owned": 8,
+     "owned": 8.3,
      "fixtures": [
       {
        "gw": 12,
@@ -1176,7 +1176,7 @@
      "form": 5,
      "xgi90": 0,
      "ease": 3,
-     "owned": 16.3,
+     "owned": 16.4,
      "fixtures": [
       {
        "gw": 12,
@@ -1207,7 +1207,7 @@
      "form": 4.3,
      "xgi90": 0,
      "ease": 3,
-     "owned": 4.4,
+     "owned": 4.5,
      "fixtures": [
       {
        "gw": 12,
