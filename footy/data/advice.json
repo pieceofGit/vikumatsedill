@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-26T15:19:43.853Z",
+ "generatedAt": "2026-11-27T15:07:40.068Z",
  "gameweek": 12,
  "gameweekName": "Gameweek 12",
  "deadline": "2026-11-27T18:30:00Z",
@@ -21,10 +21,10 @@
    "xgc": 10.77,
    "minutes": 794,
    "starts": 10,
-   "owned": 36.7,
+   "owned": 37.2,
    "status": "a",
    "news": null,
-   "priceMomentum": 98961,
+   "priceMomentum": 148122,
    "fixtures": [
     {
      "gw": 12,
@@ -68,7 +68,7 @@
    "name": "De Cuyper",
    "club": "BHA",
    "position": "DEF",
-   "price": 5.5,
+   "price": 5.6,
    "form": 5.3,
    "ppg": 6.9,
    "total": 76,
@@ -76,10 +76,10 @@
    "xgc": 14.33,
    "minutes": 912,
    "starts": 11,
-   "owned": 50.4,
+   "owned": 50.9,
    "status": "a",
    "news": null,
-   "priceMomentum": 65402,
+   "priceMomentum": 115822,
    "fixtures": [
     {
      "gw": 12,
@@ -131,10 +131,10 @@
    "xgc": 8.24,
    "minutes": 913,
    "starts": 11,
-   "owned": 16.7,
+   "owned": 16.6,
    "status": "a",
    "news": null,
-   "priceMomentum": 12688,
+   "priceMomentum": 10911,
    "fixtures": [
     {
      "gw": 12,
@@ -186,10 +186,10 @@
    "xgc": 12.67,
    "minutes": 930,
    "starts": 11,
-   "owned": 33.7,
+   "owned": 34.3,
    "status": "a",
    "news": null,
-   "priceMomentum": 131134,
+   "priceMomentum": 189432,
    "fixtures": [
     {
      "gw": 12,
@@ -241,10 +241,10 @@
    "xgc": 17.61,
    "minutes": 970,
    "starts": 11,
-   "owned": 54.6,
+   "owned": 54.5,
    "status": "a",
    "news": null,
-   "priceMomentum": 16718,
+   "priceMomentum": 18399,
    "fixtures": [
     {
      "gw": 12,
@@ -296,10 +296,10 @@
    "xgc": 8.64,
    "minutes": 857,
    "starts": 10,
-   "owned": 48.1,
+   "owned": 47.4,
    "status": "a",
    "news": null,
-   "priceMomentum": -23739,
+   "priceMomentum": -52638,
    "fixtures": [
     {
      "gw": 12,
@@ -354,7 +354,7 @@
    "owned": 11.8,
    "status": "a",
    "news": null,
-   "priceMomentum": 569,
+   "priceMomentum": 3431,
    "fixtures": [
     {
      "gw": 12,
@@ -409,7 +409,7 @@
    "owned": 8.7,
    "status": "a",
    "news": null,
-   "priceMomentum": -1781,
+   "priceMomentum": -2696,
    "fixtures": [
     {
      "gw": 12,
@@ -461,10 +461,10 @@
    "xgc": 17.46,
    "minutes": 968,
    "starts": 11,
-   "owned": 26.9,
+   "owned": 26,
    "status": "a",
    "news": null,
-   "priceMomentum": -121798,
+   "priceMomentum": -220374,
    "fixtures": [
     {
      "gw": 12,
@@ -508,7 +508,7 @@
    "name": "Haaland",
    "club": "MCI",
    "position": "FWD",
-   "price": 15.8,
+   "price": 15.7,
    "form": 2,
    "ppg": 6.5,
    "total": 72,
@@ -516,10 +516,10 @@
    "xgc": 13.39,
    "minutes": 979,
    "starts": 11,
-   "owned": 77,
+   "owned": 75.3,
    "status": "a",
    "news": null,
-   "priceMomentum": -156272,
+   "priceMomentum": -287734,
    "fixtures": [
     {
      "gw": 12,
@@ -571,10 +571,10 @@
    "xgc": 12.67,
    "minutes": 747,
    "starts": 9,
-   "owned": 8.6,
+   "owned": 8.1,
    "status": "a",
    "news": null,
-   "priceMomentum": -76898,
+   "priceMomentum": -122596,
    "fixtures": [
     {
      "gw": 12,
@@ -626,10 +626,10 @@
    "xgc": 10.51,
    "minutes": 712,
    "starts": 8,
-   "owned": 19.2,
+   "owned": 18.4,
    "status": "a",
    "news": null,
-   "priceMomentum": -128365,
+   "priceMomentum": -210215,
    "fixtures": [
     {
      "gw": 12,
@@ -681,10 +681,10 @@
    "xgc": 9.04,
    "minutes": 969,
    "starts": 11,
-   "owned": 44.8,
+   "owned": 42.8,
    "status": "d",
-   "news": "Shoulder injury - 50% chance of playing",
-   "priceMomentum": -290753,
+   "news": "Shoulder injury - 75% chance of playing",
+   "priceMomentum": -469412,
    "fixtures": [
     {
      "gw": 12,
@@ -736,10 +736,10 @@
    "xgc": 18.26,
    "minutes": 989,
    "starts": 11,
-   "owned": 15.9,
+   "owned": 15,
    "status": "d",
    "news": "Unspecified injury - 75% chance of playing",
-   "priceMomentum": -102824,
+   "priceMomentum": -177883,
    "fixtures": [
     {
      "gw": 12,
@@ -791,10 +791,10 @@
    "xgc": 0,
    "minutes": 0,
    "starts": 0,
-   "owned": 14.5,
+   "owned": 14,
    "status": "a",
    "news": null,
-   "priceMomentum": -52151,
+   "priceMomentum": -99031,
    "fixtures": [
     {
      "gw": 12,
@@ -929,7 +929,7 @@
      "form": 6.3,
      "xgi90": 0.02,
      "ease": 3.2,
-     "owned": 24.9,
+     "owned": 25.4,
      "fixtures": [
       {
        "gw": 12,
@@ -960,7 +960,7 @@
      "form": 7,
      "xgi90": 0,
      "ease": 3,
-     "owned": 2.1,
+     "owned": 2.2,
      "fixtures": [
       {
        "gw": 12,
@@ -991,7 +991,7 @@
      "form": 5.7,
      "xgi90": 0,
      "ease": 2.6,
-     "owned": 13.8,
+     "owned": 14.2,
      "fixtures": [
       {
        "gw": 12,
@@ -1037,7 +1037,7 @@
      "form": 8.3,
      "xgi90": 0.23,
      "ease": 3,
-     "owned": 19.9,
+     "owned": 21.3,
      "fixtures": [
       {
        "gw": 12,
@@ -1068,7 +1068,7 @@
      "form": 6,
      "xgi90": 0.14,
      "ease": 3.2,
-     "owned": 11.8,
+     "owned": 12.2,
      "fixtures": [
       {
        "gw": 12,
@@ -1099,7 +1099,7 @@
      "form": 8,
      "xgi90": 0.13,
      "ease": 2.8,
-     "owned": 4.7,
+     "owned": 5.4,
      "fixtures": [
       {
        "gw": 12,
@@ -1133,7 +1133,7 @@
     "form": 4,
     "ease": 2.6,
     "status": "d",
-    "news": "Shoulder injury - 50% chance of playing"
+    "news": "Shoulder injury - 75% chance of playing"
    },
    "options": [
     {
@@ -1145,7 +1145,7 @@
      "form": 4.7,
      "xgi90": 0,
      "ease": 3,
-     "owned": 8.3,
+     "owned": 9.4,
      "fixtures": [
       {
        "gw": 12,
@@ -1171,12 +1171,12 @@
      "id": 496,
      "name": "Kinsky",
      "club": "TOT",
-     "price": 4.4,
+     "price": 4.5,
      "rating": 3.49,
      "form": 5,
      "xgi90": 0,
      "ease": 3,
-     "owned": 16.4,
+     "owned": 16.9,
      "fixtures": [
       {
        "gw": 12,
@@ -1207,7 +1207,7 @@
      "form": 4.3,
      "xgi90": 0,
      "ease": 3,
-     "owned": 4.5,
+     "owned": 4.8,
      "fixtures": [
       {
        "gw": 12,
