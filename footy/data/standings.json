@@ -1,5 +1,5 @@
 {
- "fetchedAt": "2026-11-27T15:07:40.576Z",
+ "fetchedAt": "2026-11-28T14:14:31.693Z",
  "tables": {
   "pl": {
    "name": "Premier League",
@@ -270,13 +270,13 @@
     {
      "rank": 8,
      "team": "Chelsea",
-     "played": 11,
+     "played": 12,
      "won": 5,
      "drawn": 1,
-     "lost": 5,
-     "gf": 20,
-     "ga": 20,
-     "gd": 0,
+     "lost": 6,
+     "gf": 22,
+     "ga": 23,
+     "gd": -1,
      "points": 16,
      "form": [
       {
@@ -478,6 +478,40 @@
     },
     {
      "rank": 14,
+     "team": "Nott'm Forest",
+     "played": 12,
+     "won": 3,
+     "drawn": 3,
+     "lost": 6,
+     "gf": 12,
+     "ga": 17,
+     "gd": -5,
+     "points": 12,
+     "form": [
+      {
+       "r": "L",
+       "opponent": "Coventry",
+       "score": "0-1"
+      },
+      {
+       "r": "W",
+       "opponent": "Aston Villa",
+       "score": "2-1"
+      },
+      {
+       "r": "D",
+       "opponent": "Liverpool",
+       "score": "2-2"
+      },
+      {
+       "r": "L",
+       "opponent": "Leeds",
+       "score": "0-1"
+      }
+     ]
+    },
+    {
+     "rank": 15,
      "team": "Coventry",
      "played": 11,
      "won": 4,
@@ -516,7 +550,7 @@
      ]
     },
     {
-     "rank": 15,
+     "rank": 16,
      "team": "Fulham",
      "played": 11,
      "won": 2,
@@ -550,7 +584,7 @@
      ]
     },
     {
-     "rank": 16,
+     "rank": 17,
      "team": "Ipswich",
      "played": 11,
      "won": 3,
@@ -585,40 +619,6 @@
        "r": "W",
        "opponent": "Sunderland",
        "score": "2-1"
-      }
-     ]
-    },
-    {
-     "rank": 17,
-     "team": "Nott'm Forest",
-     "played": 11,
-     "won": 2,
-     "drawn": 3,
-     "lost": 6,
-     "gf": 9,
-     "ga": 15,
-     "gd": -6,
-     "points": 9,
-     "form": [
-      {
-       "r": "L",
-       "opponent": "Coventry",
-       "score": "0-1"
-      },
-      {
-       "r": "W",
-       "opponent": "Aston Villa",
-       "score": "2-1"
-      },
-      {
-       "r": "D",
-       "opponent": "Liverpool",
-       "score": "2-2"
-      },
-      {
-       "r": "L",
-       "opponent": "Leeds",
-       "score": "0-1"
       }
      ]
     },
